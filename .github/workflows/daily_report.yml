@@ -2,8 +2,8 @@ name: The Lab Daily Research Report
 
 on:
   schedule:
-    - cron: '0 21 * * *'   # 16:00 CDT (UTC-5)
-    - cron: '0 22 * * *'   # 16:00 CST (UTC-6)
+    - cron: '0 13 * * *'   # 08:00 CDT (UTC-5)
+    - cron: '0 14 * * *'   # 08:00 CST (UTC-6)
   workflow_dispatch:  # Manual trigger
 
 permissions:
@@ -27,14 +27,14 @@ jobs:
         run: |
           pip install -r requirements.txt
           
-      - name: Gate by Chicago local time (ensure 16:00)
+      - name: Gate by Chicago local time (ensure 08:00)
         env:
           TZ: America/Chicago
         run: |
           echo "Local time: $(date)";
           HOUR=$(date +%H);
-          if [ "$HOUR" != "16" ]; then
-            echo "Not 16:00 local — exiting without generating report.";
+          if [ "$HOUR" != "08" ]; then
+            echo "Not 08:00 local — exiting without generating report.";
             exit 0;
           fi
           
