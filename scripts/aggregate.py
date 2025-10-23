@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Ollama Pulse - Data Aggregation
-Merges daily JSONs from all sources into unified view
+The Lab - Data Aggregation
+Merges daily JSONs from research sources into unified view
 """
 import json
 import os
@@ -32,79 +32,93 @@ def load_source_data(source_dir):
         return json.load(f)
 
 
-def score_turbo_relevance(entry):
+def score_research_relevance(entry):
     """
-    Score entry relevance to Ollama Turbo Cloud (0-1)
-    Higher scores = more relevant to Turbo/Cloud focus
+    Score entry relevance for AI research (0-1)
+    Higher scores = more relevant research contribution
     """
+    # Use existing research_score if available (from ingestion)
+    if 'research_score' in entry:
+        return entry['research_score']
+    
     text = (entry.get('title', '') + ' ' + 
             entry.get('summary', '') + ' ' + 
-            ' '.join(entry.get('highlights', []))).lower()
+            entry.get('abstract', '')).lower()
     
     score = 0.0
     
-    # Core Turbo/Cloud keywords (high weight)
-    if 'turbo' in text:
-        score += 0.3
-    if 'cloud' in text:
-        score += 0.3
-    if '-cloud' in text:  # Model suffix
+    # Breakthrough indicators
+    breakthrough_terms = ['novel', 'new', 'first', 'breakthrough', 'sota', 'state-of-the-art']
+    if any(term in text for term in breakthrough_terms):
         score += 0.2
     
-    # Related features
-    if any(word in text for word in ['voice', 'stt', 'tts', 'speech']):
+    # Research quality signals
+    research_terms = ['architecture', 'mechanism', 'framework', 'algorithm', 'method']
+    if any(term in text for term in research_terms):
         score += 0.15
-    if any(word in text for word in ['multimodal', 'vision', 'image']):
-        score += 0.15
-    if any(word in text for word in ['api', 'integration', 'service']):
+    
+    # Application domains
+    domain_terms = ['vision', 'language', 'multimodal', 'reasoning', 'generation']
+    if any(term in text for term in domain_terms):
         score += 0.1
     
-    # Model mentions
-    if any(model in text for model in ['gpt-oss', 'qwen3', 'glm', 'mixtral']):
+    # Benchmark/evaluation
+    eval_terms = ['benchmark', 'evaluation', 'performance', 'outperform', 'achieves']
+    if any(term in text for term in eval_terms):
+        score += 0.15
+    
+    # Implementation availability
+    if entry.get('github_url') or entry.get('source') == 'huggingface_model':
         score += 0.1
     
     return min(score, 1.0)
 
 
-def filter_by_relevance(entries, threshold=0.3):
-    """Filter entries by Turbo relevance score"""
+def filter_by_relevance(entries, threshold=0.4):
+    """Filter entries by research relevance score"""
     scored_entries = []
     for entry in entries:
-        score = score_turbo_relevance(entry)
+        score = score_research_relevance(entry)
         if score >= threshold:
-            entry['turbo_score'] = round(score, 2)
+            entry['research_score'] = round(score, 2)
             scored_entries.append(entry)
     
     return scored_entries
 
 
 def aggregate_data():
-    """Aggregate data from all sources with Turbo-centric filtering"""
-    print("🔄 Aggregating data from all sources...")
+    """Aggregate data from research sources with relevance filtering"""
+    print("🔄 Aggregating data from research sources...")
     
-    # Load from all sources
-    official = load_source_data("official")
-    community = load_source_data("community")
-    tools = load_source_data("tools")
+    # Load from research sources
+    arxiv = load_source_data("arxiv")
+    huggingface = load_source_data("huggingface")
+    paperswithcode = load_source_data("paperswithcode")
     
-    print(f"  📊 Official: {len(official)} entries")
-    print(f"  📊 Community: {len(community)} entries")
-    print(f"  📊 Tools: {len(tools)} entries")
+    print(f"  📚 arXiv: {len(arxiv)} entries")
+    print(f"  🤗 HuggingFace: {len(huggingface)} entries")
+    print(f"  📊 Papers with Code: {len(paperswithcode)} entries")
     
     # Combine all
-    all_entries = official + community + tools
+    all_entries = arxiv + huggingface + paperswithcode
     
-    # Deduplicate by URL
-    unique_entries = list({e['url']: e for e in all_entries}.values())
+    # Deduplicate by URL or arxiv_id
+    seen_keys = set()
+    unique_entries = []
+    for entry in all_entries:
+        key = entry.get('arxiv_id') or entry.get('url') or entry.get('title')
+        if key not in seen_keys:
+            seen_keys.add(key)
+            unique_entries.append(entry)
     
-    # Apply Turbo-centric filtering
-    print("🎯 Applying Turbo-centric relevance filtering...")
-    filtered_entries = filter_by_relevance(unique_entries, threshold=0.3)
+    # Apply research relevance filtering
+    print("🎯 Applying research relevance filtering...")
+    filtered_entries = filter_by_relevance(unique_entries, threshold=0.4)
     
     # Sort by relevance score, then date
     sorted_entries = sorted(
         filtered_entries,
-        key=lambda x: (x.get('turbo_score', 0), x.get('date', '')),
+        key=lambda x: (x.get('research_score', 0), x.get('date', '')),
         reverse=True
     )
     
@@ -138,8 +152,8 @@ def save_yield_metrics(filtered_count, total_count):
         "date": datetime.now().isoformat(),
         "total_items": total_count,
         "high_relevance_items": filtered_count,
-        "turbo_sources": filtered_count,
-        "filter_threshold": 0.3,
+        "research_papers": filtered_count,
+        "filter_threshold": 0.4,
         "quality_ratio": round(filtered_count / max(total_count, 1), 2)
     }
     

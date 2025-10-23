@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Ollama Pulse - Insights Mining
-Uses embeddings + clustering to detect patterns and infer implications
+The Lab - Research Insights Mining
+Uses embeddings + clustering to detect research patterns and emerging trends
 """
 import json
 import os
@@ -43,78 +43,88 @@ def load_aggregated_data():
         return json.load(f)
 
 
-def generate_dynamic_queries(entries):
+def generate_research_trends(entries):
     """
-    Generate dynamic search queries based on yesterday's patterns
-    This enables adaptive discovery of emerging trends
+    Identify emerging research trends based on paper patterns
     """
-    print("🔮 Generating dynamic queries from patterns...")
+    print("🔮 Identifying emerging research trends...")
     
-    # Count keyword frequencies
+    # Count keyword frequencies in research papers
     keyword_counts = {}
     for entry in entries:
-        text = (entry.get('title', '') + ' ' + entry.get('summary', '')).lower()
+        text = (entry.get('title', '') + ' ' + 
+                entry.get('summary', '') + ' ' + 
+                entry.get('abstract', '')).lower()
         
-        # Extract relevant keywords
-        keywords = ['voice', 'stt', 'tts', 'multimodal', 'vision', 
-                   'turbo', 'cloud', 'api', 'integration', 'agent',
-                   'rag', 'embedding', 'vector', 'search']
+        # Research-relevant keywords
+        keywords = [
+            'transformer', 'attention', 'mixture-of-experts', 'moe',
+            'multimodal', 'vision', 'language', 'reasoning',
+            'efficiency', 'scaling', 'architecture', 'benchmark',
+            'generation', 'understanding', 'alignment', 'rlhf',
+            'sparse', 'quantization', 'fine-tuning', 'prompt'
+        ]
         
         for keyword in keywords:
             if keyword in text:
                 keyword_counts[keyword] = keyword_counts.get(keyword, 0) + 1
     
-    # Generate queries for top trending keywords
-    dynamic_queries = []
+    # Identify trending research areas
+    trends = []
     sorted_keywords = sorted(keyword_counts.items(), key=lambda x: x[1], reverse=True)
     
     for keyword, count in sorted_keywords[:5]:  # Top 5 trends
         if count >= 3:  # Threshold for significance
-            query = f"ollama turbo {keyword} integrations site:github.com"
-            dynamic_queries.append(query)
-            print(f"  💡 Generated query: '{query}' (detected {count}x)")
+            trends.append({
+                'topic': keyword,
+                'frequency': count,
+                'significance': 'high' if count >= 5 else 'medium'
+            })
+            print(f"  📈 Trending: '{keyword}' ({count} papers)")
     
-    return dynamic_queries
+    return trends
 
 
 def detect_patterns_simple(entries):
-    """Simple pattern detection using regex (fallback mode)"""
-    print("🔍 Detecting patterns (simple mode)...")
+    """Simple research pattern detection using regex (fallback mode)"""
+    print("🔍 Detecting research patterns (simple mode)...")
     
     patterns = {
-        "multimodal": [],
-        "cloud_models": [],
-        "no_code": [],
-        "voice": [],
-        "coding": [],
-        "turbo_services": []
+        "multimodal_research": [],
+        "efficient_architectures": [],
+        "language_models": [],
+        "vision_systems": [],
+        "reasoning": [],
+        "benchmarks": []
     }
     
     for entry in entries:
-        text = (entry.get('title', '') + ' ' + entry.get('summary', '')).lower()
+        text = (entry.get('title', '') + ' ' + 
+                entry.get('summary', '') + ' ' + 
+                entry.get('abstract', '')).lower()
         
-        if re.search(r'(multimodal|vision|image|qwen3-vl)', text):
-            patterns["multimodal"].append(entry)
+        if re.search(r'(multimodal|vision.?language|cross-modal)', text):
+            patterns["multimodal_research"].append(entry)
         
-        if re.search(r'(-cloud|ollama cloud|turbo)', text):
-            patterns["cloud_models"].append(entry)
+        if re.search(r'(efficient|sparse|quantization|compression|moe)', text):
+            patterns["efficient_architectures"].append(entry)
         
-        if re.search(r'(n8n|zapier|make|no-code)', text):
-            patterns["no_code"].append(entry)
+        if re.search(r'(language model|llm|gpt|bert|transformer)', text):
+            patterns["language_models"].append(entry)
         
-        if re.search(r'(voice|stt|tts|speech)', text):
-            patterns["voice"].append(entry)
+        if re.search(r'(vision|image|visual|cv|object detection)', text):
+            patterns["vision_systems"].append(entry)
         
-        if re.search(r'(code|coding|coder|programming)', text):
-            patterns["coding"].append(entry)
+        if re.search(r'(reasoning|logic|inference|problem solving)', text):
+            patterns["reasoning"].append(entry)
         
-        if re.search(r'(turbo|service|api|proxy)', text):
-            patterns["turbo_services"].append(entry)
+        if re.search(r'(benchmark|evaluation|sota|state-of-the-art)', text):
+            patterns["benchmarks"].append(entry)
     
     # Filter patterns with at least 2 items
     significant_patterns = {k: v for k, v in patterns.items() if len(v) >= 2}
     
-    print(f"✅ Found {len(significant_patterns)} significant patterns")
+    print(f"✅ Found {len(significant_patterns)} significant research patterns")
     return significant_patterns
 
 
@@ -141,87 +151,113 @@ def detect_patterns_ml(entries):
             clusters[label] = []
         clusters[label].append(entries[i])
     
-    # Tag clusters
+    # Tag clusters with research themes
     tagged_patterns = {}
     for cluster_id, cluster_entries in clusters.items():
         # Analyze cluster content
-        combined_text = ' '.join([e.get('title', '') + ' ' + e.get('summary', '') for e in cluster_entries]).lower()
+        combined_text = ' '.join([
+            e.get('title', '') + ' ' + 
+            e.get('summary', '') + ' ' + 
+            e.get('abstract', '') 
+            for e in cluster_entries
+        ]).lower()
         
-        # Determine cluster theme
+        # Determine research theme
         if 'multimodal' in combined_text or 'vision' in combined_text:
-            theme = "multimodal_hybrids"
-        elif 'cloud' in combined_text:
-            theme = "cloud_models"
-        elif 'n8n' in combined_text or 'zapier' in combined_text:
-            theme = "no_code_wrappers"
-        elif 'voice' in combined_text or 'stt' in combined_text:
-            theme = "voice_integration"
+            theme = "multimodal_research"
+        elif 'efficient' in combined_text or 'sparse' in combined_text:
+            theme = "efficient_architectures"
+        elif 'reasoning' in combined_text or 'logic' in combined_text:
+            theme = "reasoning_systems"
+        elif 'benchmark' in combined_text or 'evaluation' in combined_text:
+            theme = "benchmarks"
+        elif 'language' in combined_text or 'llm' in combined_text:
+            theme = "language_models"
         else:
-            theme = f"cluster_{cluster_id}"
+            theme = f"emerging_topic_{cluster_id}"
         
         tagged_patterns[theme] = cluster_entries
     
-    print(f"✅ Found {len(tagged_patterns)} ML-detected patterns")
+    print(f"✅ Found {len(tagged_patterns)} ML-detected research patterns")
     return tagged_patterns
 
 
-def infer_implications(patterns):
-    """Apply heuristic rules to infer implications"""
-    print("💡 Inferring implications...")
+def infer_research_implications(patterns):
+    """Infer research implications and predict impact"""
+    print("💡 Inferring research implications...")
     
     inferences = []
     
     for pattern_name, entries in patterns.items():
-        # Density rule: >3 items = emerging trend
+        # Density rule: >3 papers = emerging research direction
         if len(entries) >= 3:
-            inferences.append({
-                "pattern": pattern_name,
-                "observation": f"{len(entries)} items detected",
-                "inference": "Emerging trend - scale to 2x more use-cases",
-                "confidence": "high" if len(entries) >= 5 else "medium"
-            })
+            clean_name = pattern_name.replace('_', ' ').title()
+            
+            # High-impact prediction for strong signals
+            if len(entries) >= 5:
+                inferences.append({
+                    "pattern": pattern_name,
+                    "observation": f"{len(entries)} independent papers",
+                    "inference": f"Strong convergence in {clean_name} - expect production adoption within 6-12 months",
+                    "confidence": "high"
+                })
+            else:
+                inferences.append({
+                    "pattern": pattern_name,
+                    "observation": f"{len(entries)} related papers",
+                    "inference": f"Emerging interest in {clean_name} - monitor for breakthrough results",
+                    "confidence": "medium"
+                })
         
-        # Combo rules
-        if pattern_name == "multimodal_hybrids" or pattern_name == "multimodal":
+        # Specific research area insights
+        if "multimodal" in pattern_name:
             inferences.append({
                 "pattern": pattern_name,
-                "observation": "Multimodal cloud models available",
-                "inference": "Unlocks real-time apps; next: AR/VR agents for education/healthcare",
+                "observation": "Multiple multimodal papers",
+                "inference": "Integration of vision and language models reaching maturity - production-ready systems likely within 6 months",
                 "confidence": "high"
             })
         
-        if pattern_name == "no_code_wrappers" or pattern_name == "no_code":
+        if "efficient" in pattern_name:
             inferences.append({
                 "pattern": pattern_name,
-                "observation": "No-code integrations growing",
-                "inference": "Simplifies enterprise automations; disrupts SaaS like Zapier",
+                "observation": "Focus on efficiency improvements",
+                "inference": "Resource constraints driving innovation - expect deployment on edge devices and mobile",
+                "confidence": "medium"
+            })
+        
+        if "reasoning" in pattern_name:
+            inferences.append({
+                "pattern": pattern_name,
+                "observation": "Reasoning capabilities being explored",
+                "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
                 "confidence": "medium"
             })
     
-    print(f"✅ Generated {len(inferences)} inferences")
+    print(f"✅ Generated {len(inferences)} research implications")
     return inferences
 
 
-def save_insights(patterns, inferences, dynamic_queries=None):
-    """Save insights to JSON"""
+def save_insights(patterns, inferences, trends=None):
+    """Save research insights to JSON"""
     filename = get_today_filename()
     
     insights = {
         "date": datetime.now().isoformat(),
         "patterns": {k: [{"title": e.get('title'), "url": e.get('url')} for e in v] for k, v in patterns.items()},
         "inferences": inferences,
-        "dynamic_queries": dynamic_queries or [],
+        "research_trends": trends or [],
         "stats": {
             "total_patterns": len(patterns),
             "total_inferences": len(inferences),
-            "total_items": sum(len(v) for v in patterns.values())
+            "total_papers": sum(len(v) for v in patterns.values())
         }
     }
     
     with open(filename, 'w') as f:
         json.dump(insights, f, indent=2)
     
-    print(f"💾 Saved insights to {filename}")
+    print(f"💾 Saved research insights to {filename}")
 
 
 def main():
@@ -237,8 +273,8 @@ def main():
     
     print(f"📊 Mining {len(entries)} entries...")
     
-    # Generate dynamic queries for future searches
-    dynamic_queries = generate_dynamic_queries(entries)
+    # Identify research trends
+    trends = generate_research_trends(entries)
     
     # Detect patterns
     if EMBEDDINGS_AVAILABLE and len(entries) >= 10:
@@ -246,13 +282,13 @@ def main():
     else:
         patterns = detect_patterns_simple(entries)
     
-    # Infer implications
-    inferences = infer_implications(patterns)
+    # Infer research implications
+    inferences = infer_research_implications(patterns)
     
     # Save
-    save_insights(patterns, inferences, dynamic_queries)
+    save_insights(patterns, inferences, trends)
     
-    print("✅ Insights mining complete!")
+    print("✅ Research insights mining complete!")
 
 
 if __name__ == "__main__":

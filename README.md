@@ -1,44 +1,42 @@
-# 📡 Ollama Pulse
+# 🔬 The Lab - AI Research Daily
 
-**A Complete, Self-Sustaining Innovation Miner Built on GitHub**
+**Bridge the Gap Between Academic AI Research and Practical Implementation**
 
-Ollama Pulse is a GitHub-native ecosystem radar that continuously scans the Ollama world for signals, mines patterns, and generates actionable intelligence—all without servers or costs beyond GitHub's free tier.
+The Lab is a GitHub-native AI research intelligence platform that curates, translates, and contextualizes the daily firehose of 100+ AI papers into accessible, actionable insights for researchers and engineers.
 
 ## 🎯 What It Does
 
-- **Polls 9+ Sources**: Ollama blog, Cloud API, GitHub Issues/PRs/Code, Reddit, Hacker News, YouTube, HuggingFace, Newsletters
-- **Turbo-Centric Focus**: Every item scored for Ollama Turbo/Cloud relevance (0-1 scale)
-- **Mines Deep Insights**: Embeddings + clustering to detect patterns and trends
-- **Dynamic Intelligence**: Generates adaptive search queries based on yesterday's patterns
-- **EchoVein Persona**: Vein-tapping oracle with 4 adaptive report styles
-- **Prophetic Analysis**: Confidence-scored inferences about emerging trends
-- **Auto-Deploys**: Publishes to GitHub Pages with rich, actionable reports
-- **Zero Maintenance**: Runs forever on GitHub Actions (2,000 free minutes/month)
+- **Curates Research**: Filters 100+ daily arXiv papers to 3-5 that matter most
+- **Translates Papers**: Makes dense academic research accessible without oversimplifying
+- **Tracks Implementation**: Monitors HuggingFace models and Papers with Code benchmarks
+- **Contextualizes**: Places research in historical and future context
+- **The Scholar Persona**: Rigorous, measured voice that teaches how to evaluate research
+- **Pattern Detection**: Identifies emerging trends 6-12 months early
+- **Auto-Deploys**: Publishes to GitHub Pages with daily research intelligence
+- **Zero Cost**: Runs on GitHub Actions free tier
 
 ## 🏗️ Architecture
 
 ```
-ollama_pulse/
+the_lab/
 ├── .github/workflows/
-│   ├── ingest.yml          # Hourly ingestion + parallel Turbo-deep job
-│   └── daily_report.yml    # Daily EchoVein report generation
+│   ├── ingest.yml          # Hourly research paper ingestion
+│   └── daily_report.yml    # Daily Scholar report generation
 ├── scripts/
-│   ├── ingest_official.py  # Blog RSS, /cloud page
-│   ├── ingest_cloud.py     # 🆕 Deep Ollama Cloud/Turbo models
-│   ├── ingest_community.py # 🆕 Reddit, HN, YouTube, HuggingFace, Newsletters
-│   ├── ingest_issues.py    # 🆕 GitHub Issues/PRs search
-│   ├── ingest_tools.py     # n8n, GitHub integrations
-│   ├── aggregate.py        # 🆕 Turbo-scoring + yield metrics
-│   ├── mine_insights.py    # 🆕 Dynamic queries + pattern detection
-│   └── generate_report.py  # 🆕 EchoVein persona with adaptive tone
+│   ├── ingest_arxiv.py     # arXiv papers (cs.AI, cs.LG, cs.CL, cs.CV)
+│   ├── ingest_huggingface.py # HuggingFace models and datasets
+│   ├── ingest_paperswithcode.py # Benchmarks and SOTA tracking
+│   ├── aggregate.py        # Research relevance scoring
+│   ├── mine_insights.py    # Pattern detection and trend analysis
+│   └── generate_report.py  # The Scholar persona with research focus
 ├── data/
-│   ├── official/           # {date}.json from blog/cloud/API
-│   ├── community/          # {date}.json from 6+ social sources
-│   ├── tools/              # {date}.json from integrations
-│   ├── aggregated/         # {date}.json with turbo_scores
+│   ├── arxiv/              # {date}.json from arXiv API
+│   ├── huggingface/        # {date}.json from HF API
+│   ├── paperswithcode/     # {date}.json from PWC scraping
+│   ├── aggregated/         # {date}.json with research_scores
 │   └── insights/           # {date}.json + {date}_yield.json
 ├── docs/reports/
-│   └── pulse-{date}.md     # EchoVein vein-map reports
+│   └── lab-{date}.md       # Daily research intelligence reports
 └── requirements.txt        # Python dependencies
 ```
 
@@ -46,8 +44,8 @@ ollama_pulse/
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/Grumpified-OGGVCT/ollama_pulse.git
-cd ollama_pulse
+git clone https://github.com/AccidentalJedi/AI_Research_Daily.git
+cd AI_Research_Daily
 pip install -r requirements.txt
 ```
 
@@ -57,110 +55,125 @@ pip install -r requirements.txt
 
 ### 3. Enable GitHub Pages
 - Go to Settings → Pages
-- Source: main branch, Folder: /reports
+- Source: main branch, Folder: /docs
 
 ### 4. Test Locally
 ```bash
-python scripts/ingest_official.py
+python scripts/ingest_arxiv.py
+python scripts/ingest_huggingface.py
 python scripts/aggregate.py
 python scripts/mine_insights.py
 python scripts/generate_report.py
 ```
 
-## 📊 Example Output (EchoVein Style)
+## 📊 Example Output (The Scholar Style)
 
 **From October 23, 2025:**
 
 ```markdown
-# 🩸 Ollama Pulse – 2025-10-23
-## Vein Rush: High-Density Pattern Surge
+# 📚 The Lab – 2025-10-23
+## Today's Research Intelligence
 
-*EchoVein here, your vein-tapping oracle excavating Ollama's hidden arteries...*
+*The Scholar here, translating today's research breakthroughs into actionable intelligence...*
 
-**Today's Vibe**: Vein Rush — The ecosystem is pulsing with fresh blood.
+**Today's Focus**: A significant advance in transformer efficiency appeared on arXiv, 
+alongside three complementary papers on mixture-of-experts architectures.
 
-### 🔬 Vein Analysis: Quick Stats
-- **Total Ore Mined**: 50 items tracked
-- **High-Purity Veins**: 35 Turbo-focused items (score ≥0.7)
-- **Pattern Arteries**: 5 detected
-- **Prophetic Insights**: 8 inferences drawn
+### 🔬 Research Overview: Quick Stats
+- **Papers Analyzed**: 127 from arXiv
+- **Noteworthy Research**: 4 papers highlighted
+- **SOTA Changes**: 2 benchmarks updated
+- **Implementation**: 3 new HuggingFace models
+- **Analysis Date**: 2025-10-23
 
-### 🎯 Official Veins: What Ollama Team Pumped Out
-| Date | Vein Strike | Source | Turbo Score | Dig In |
-|------|-------------|--------|-------------|--------|
-| 2025-10-23 | Cloud Model: gpt-oss-120b-cloud | cloud_api | 0.9 | [⛏️](link) |
+### 📚 The Breakthrough
+**"Sparse Attention Mechanisms for 100K+ Token Contexts"**
 
-### 📈 Vein Pattern Mapping
-🩸 **Vein Bulging**: 5 Voice Integration Signals — 2x Use-Case Explosion Incoming?
+The core insight: instead of quadratic attention complexity, this paper proposes 
+learned sparse patterns that achieve O(n log n) while maintaining performance...
 
-### 🔔 Prophetic Veins: What This Means
-🩸 **Vein Oracle: Cloud Models**
-- **Surface Reading**: 5 items detected
-- **Vein Prophecy**: Emerging trend - scale to 2x more use-cases
-- **Confidence Vein**: HIGH (🩸)
-- **EchoVein's Take**: This vein's *throbbing* — trust the flow.
+### 🔗 Supporting Research
+- **Paper 2**: Complementary approach to sparse routing
+- **Paper 3**: Theoretical analysis of attention patterns
 
-### Today's Vein Yield
-- **Total Items Scanned**: 150
-- **High-Relevance Veins**: 50
-- **Quality Ratio**: 0.33
+### 📈 From the Benchmarks
+- **GLUE**: New SOTA by 2.3% (statistically significant)
+- **SuperGLUE**: Marginal improvement (0.4%)
 
-*Built by vein-tappers, for vein-tappers. Dig deeper. Ship harder.* ⛏️🩸
+### 🤗 Implementation Watch
+- Official implementation released on HuggingFace
+- 10K+ downloads in first 6 hours
+- Community already testing on real workloads
+
+### 🔮 The Bigger Picture
+This connects to the broader trend of efficient transformers we've been tracking. 
+Expect production adoption within 6 months...
+
+*Built by researchers, for researchers. Dig deeper. Think harder.* 📚🔬
 ```
 
-## 🆕 New Features: Expanded Sourcing & EchoVein
+## 🆕 Core Features: Research Intelligence
 
-### 🎯 Turbo-Centric Intelligence
-Every item gets a **relevance score** (0-1) based on Ollama Turbo/Cloud keywords:
-- **≥0.7** = High-purity ore (featured prominently)
-- **≥0.5** = Medium relevance
-- **≥0.3** = Included in aggregation
-- **<0.3** = Filtered out
+### 📚 Research-Centric Scoring
+Every paper gets a **research relevance score** (0-1) based on multiple factors:
+- **≥0.8** = Breakthrough or highly significant
+- **≥0.6** = Notable contribution
+- **≥0.4** = Incremental but relevant
+- **<0.4** = Filtered out
 
-**Scoring factors**: turbo, cloud, -cloud suffix, voice/STT/TTS, multimodal, API integrations, model names
+**Scoring factors**: Author reputation, citation velocity, novelty, benchmark performance, social signals, methodological innovation
 
-### 🩸 EchoVein Persona (4 Adaptive Modes)
+### 📖 The Scholar Persona
 
-Reports automatically adapt tone based on daily patterns:
+Reports maintain one consistent, rigorous voice:
 
-1. **Vein Rush** (🩸) - High-density surge (3+ voice/multimodal items)
-   - *Electric, prophetic, hyped about the flow*
-   
-2. **Artery Audit** (⚙️) - Steady maintenance (incremental tools/fixes)
-   - *Grounded, practical, appreciative of "essential grime"*
-   
-3. **Fork Phantom** (🤖) - Niche oddities (zero-star experimental hacks)
-   - *Playful, probing, unpacking weirdness with "what if" veins*
-   
-4. **Deep Vein Throb** (📍) - Slow days (aggregated trends)
-   - *Reflective, prospector mode, weekly artery forecasting*
+**Characteristics:**
+- **Rigorous but accessible** - Scientific accuracy with clear explanation
+- **Contextual** - Places research in historical context
+- **Measured** - Avoids hype, focuses on evidence
+- **Pedagogical** - Teaches how to evaluate research
+- **Humble** - Acknowledges uncertainty and limitations
+- **Connective** - Draws links between papers
 
-### 📡 Expanded Sources (9+ Total)
+### 📡 Research Sources (3 Primary)
 
-**Official Sources:**
-- Ollama Blog RSS
-- /cloud page scraping
-- Cloud API for Turbo models
+**arXiv:**
+- cs.AI, cs.LG, cs.CL, cs.CV, cs.NE, stat.ML
+- ~100-150 papers per day
+- Filtered by author reputation, novelty, and significance
 
-**Community Sources:**
-- Reddit r/ollama
-- GitHub Issues/PRs search
-- GitHub Code search (via Actions)
-- Hacker News (Algolia API)
-- YouTube videos (RSS)
-- HuggingFace discussions
-- Newsletters (RSS)
+**HuggingFace:**
+- Model releases from major labs
+- Novel architectures and datasets
+- Performance benchmarks
+- Community adoption signals
 
-### 🔮 Dynamic Intelligence
+**Papers with Code:**
+- SOTA changes on established benchmarks
+- Implementation tracking
+- Reproduction attempts
+- Performance verification
 
-- **Pattern-Based Queries**: System generates new search queries based on yesterday's trends
-- **Yield Metrics**: Tracks quality ratio (high-relevance/total items)
-- **Confidence Scoring**: All inferences labeled HIGH/MEDIUM/LOW
-- **Vein Commentary**: Contextual analysis for significant patterns (≥5 items)
+### 🔮 Pattern Detection & Analysis
 
-## 🔗 Integration with Ollama Proxy
+- **Trend Identification**: Spots emerging directions 6-12 months early
+- **Connection Mapping**: Shows how papers build on each other
+- **Impact Prediction**: Forecasts production adoption timeline
+- **Yield Metrics**: Tracks curation quality ratio
+- **Context Building**: Links research to broader developments
 
-Access via: `http://127.0.0.1:8081/admin/pulse`
+## 🌐 How The Lab Complements Ollama Pulse
+
+**The Lab** and **Ollama Pulse** form a comprehensive AI intelligence platform:
+
+| Aspect | The Lab | Ollama Pulse |
+|--------|---------|--------------|
+| **Focus** | Research papers & breakthroughs | Production tools & projects |
+| **Timeline** | 3-24 months (future) | Immediate (now) |
+| **Audience** | Researchers & engineers | Practitioners & builders |
+| **Content** | "What's coming next?" | "What can I build now?" |
+
+**Together**: Complete coverage from research → production
 
 ## 📄 License
 
@@ -168,6 +181,7 @@ MIT License
 
 ---
 
-**Live Dashboard**: https://grumpified-oggvct.github.io/ollama_pulse  
-**Repository**: https://github.com/Grumpified-OGGVCT/ollama_pulse
+**Live Dashboard**: https://accidentaljedi.github.io/AI_Research_Daily  
+**Repository**: https://github.com/AccidentalJedi/AI_Research_Daily  
+**Design Document**: [THE_LAB_DESIGN_DOCUMENT.md](THE_LAB_DESIGN_DOCUMENT.md)
 
