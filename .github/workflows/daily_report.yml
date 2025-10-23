@@ -1,4 +1,4 @@
-name: Ollama Pulse Daily Report
+name: The Lab Daily Research Report
 
 on:
   schedule:
@@ -38,15 +38,14 @@ jobs:
             exit 0;
           fi
           
-      - name: Generate themed daily report
+      - name: Generate research intelligence report
         run: |
-          cd scripts
-          python generate_report.py
+          python scripts/generate_report.py
           
       - name: Commit and push report
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add docs/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "feat(report): daily wrap-up $(date -u '+%Y-%m-%d')" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "feat(report): daily research intelligence $(date -u '+%Y-%m-%d')" && git push)
 

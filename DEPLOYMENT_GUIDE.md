@@ -1,62 +1,61 @@
-# 🚀 Ollama Pulse Deployment Guide
+# 🚀 The Lab Deployment Guide
 
-Complete step-by-step guide to deploy Ollama Pulse to GitHub.
+Complete step-by-step guide to deploy The Lab - AI Research Daily to GitHub.
 
 ## 📋 Prerequisites
 
-- GitHub account (Grumpified-OGGVCT)
+- GitHub account
 - Git installed locally
 - Python 3.11+ installed
-- Repository: https://github.com/Grumpified-OGGVCT/ollama_pulse
+- Repository: https://github.com/AccidentalJedi/AI_Research_Daily
 
 ## 🔧 Step 1: Clone and Setup
 
-```powershell
-# Navigate to workspace
-cd "C:\Users\gerry"
-
+```bash
 # Clone the repository
-git clone https://github.com/Grumpified-OGGVCT/ollama_pulse.git
-cd ollama_pulse
+git clone https://github.com/AccidentalJedi/AI_Research_Daily.git
+cd AI_Research_Daily
 
-# Copy all files from ollama_pulse_repo to this directory
-# (Files are in C:\Users\gerry\OLLAMA PROXY\ollama_pulse_repo)
+# Install Python dependencies
+pip install -r requirements.txt
 ```
 
-## 📁 Step 2: Copy Files
+## 📁 Step 2: Repository Structure
 
-Copy these files from `C:\Users\gerry\OLLAMA PROXY\ollama_pulse_repo\` to the cloned repository:
+The Lab uses this structure:
 
 ```
-ollama_pulse/
+AI_Research_Daily/
 ├── README.md
+├── THE_LAB_DESIGN_DOCUMENT.md
 ├── DEPLOYMENT_GUIDE.md
 ├── requirements.txt
 ├── .github/
 │   └── workflows/
-│       └── ingest.yml
+│       ├── ingest.yml
+│       └── daily_report.yml
 ├── scripts/
-│   ├── ingest_official.py
-│   ├── ingest_community.py
-│   ├── ingest_tools.py
+│   ├── ingest_arxiv.py
+│   ├── ingest_huggingface.py
+│   ├── ingest_paperswithcode.py
 │   ├── aggregate.py
 │   ├── mine_insights.py
 │   └── generate_report.py
 ├── data/
-│   ├── official/.gitkeep
-│   ├── community/.gitkeep
-│   ├── tools/.gitkeep
+│   ├── arxiv/.gitkeep
+│   ├── huggingface/.gitkeep
+│   ├── paperswithcode/.gitkeep
 │   ├── aggregated/.gitkeep
 │   └── insights/.gitkeep
-└── reports/
-    └── .gitkeep
+└── docs/
+    └── reports/
 ```
 
 ## 🔑 Step 3: Configure GitHub
 
 ### Enable GitHub Actions
 
-1. Go to https://github.com/Grumpified-OGGVCT/ollama_pulse/settings/actions
+1. Go to Repository Settings → Actions → General
 2. Under "Workflow permissions", select:
    - ✅ Read and write permissions
    - ✅ Allow GitHub Actions to create and approve pull requests
@@ -64,33 +63,33 @@ ollama_pulse/
 
 ### Enable GitHub Pages
 
-1. Go to https://github.com/Grumpified-OGGVCT/ollama_pulse/settings/pages
+1. Go to Repository Settings → Pages
 2. Under "Build and deployment":
    - Source: **Deploy from a branch**
    - Branch: **main**
-   - Folder: **/reports**
+   - Folder: **/docs**
 3. Click "Save"
 
 ## 📦 Step 4: Create .gitkeep Files
 
-```powershell
+```bash
 # Create empty .gitkeep files to preserve directory structure
-New-Item -ItemType File -Path "data/official/.gitkeep" -Force
-New-Item -ItemType File -Path "data/community/.gitkeep" -Force
-New-Item -ItemType File -Path "data/tools/.gitkeep" -Force
-New-Item -ItemType File -Path "data/aggregated/.gitkeep" -Force
-New-Item -ItemType File -Path "data/insights/.gitkeep" -Force
-New-Item -ItemType File -Path "reports/.gitkeep" -Force
+touch data/arxiv/.gitkeep
+touch data/huggingface/.gitkeep
+touch data/paperswithcode/.gitkeep
+touch data/aggregated/.gitkeep
+touch data/insights/.gitkeep
+touch docs/reports/.gitkeep
 ```
 
 ## 🚀 Step 5: Initial Commit and Push
 
-```powershell
+```bash
 # Add all files
 git add .
 
 # Commit
-git commit -m "Initial Ollama Pulse setup - complete ecosystem miner"
+git commit -m "Initial The Lab setup - AI research intelligence platform"
 
 # Push to GitHub
 git push origin main
@@ -100,57 +99,64 @@ git push origin main
 
 ### Manual Trigger
 
-1. Go to https://github.com/Grumpified-OGGVCT/ollama_pulse/actions
-2. Click "Ollama Pulse Ingestion" workflow
+1. Go to Repository → Actions tab
+2. Click "The Lab Research Ingestion" workflow
 3. Click "Run workflow" → "Run workflow"
-4. Wait for completion (~2-3 minutes)
+4. Wait for completion (~3-5 minutes)
 
 ### Verify Output
 
 1. Check the Actions tab for green checkmark
-2. Navigate to https://github.com/Grumpified-OGGVCT/ollama_pulse/tree/main/data
+2. Navigate to the `data/` directory
 3. Verify JSON files were created in:
-   - `data/official/`
-   - `data/community/`
-   - `data/tools/`
+   - `data/arxiv/`
+   - `data/huggingface/`
+   - `data/paperswithcode/`
    - `data/aggregated/`
    - `data/insights/`
-4. Check `reports/` for generated Markdown
+4. Check `docs/reports/` for generated Markdown
 
 ## 🌐 Step 7: Verify GitHub Pages
 
 1. Wait 2-3 minutes for Pages to deploy
-2. Visit: https://grumpified-oggvct.github.io/ollama_pulse
-3. You should see the generated report!
+2. Visit: https://accidentaljedi.github.io/AI_Research_Daily
+3. You should see The Lab research intelligence reports!
 
-## 🔗 Step 8: Test Ollama Proxy Integration
+## 🧪 Step 8: Test Locally
 
-1. Start Ollama Proxy:
-   ```powershell
-   cd "C:\Users\gerry\OLLAMA PROXY"
-   .\venv\Scripts\Activate.ps1
-   python -m uvicorn app.main:app --reload --host 127.0.0.1 --port 8081
-   ```
+```bash
+# Test the complete pipeline locally
+python scripts/ingest_arxiv.py
+python scripts/ingest_huggingface.py
+python scripts/ingest_paperswithcode.py
+python scripts/aggregate.py
+python scripts/mine_insights.py
+python scripts/generate_report.py
 
-2. Open browser: http://127.0.0.1:8081/admin/pulse
-
-3. Verify:
-   - ✅ Menu item "📡 Ollama Pulse" appears in sidebar
-   - ✅ Dashboard loads with stats cards
-   - ✅ GitHub Pages iframe shows report
-   - ✅ API key is displayed
-   - ✅ Refresh button works
+# Check generated files
+ls -la data/aggregated/
+ls -la data/insights/
+ls -la docs/reports/
+```
 
 ## 📅 Step 9: Verify Automation
 
-The workflow runs **every hour** automatically via cron:
+The workflows run automatically:
 
+**Research Ingestion**: Every 6 hours
 ```yaml
 schedule:
-  - cron: '0 * * * *'  # Every hour at :00
+  - cron: '0 */6 * * *'
 ```
 
-**Next run**: Check Actions tab at the top of the next hour
+**Daily Report**: Daily at 4 PM Central Time
+```yaml
+schedule:
+  - cron: '0 21 * * *'   # 16:00 CDT
+  - cron: '0 22 * * *'   # 16:00 CST
+```
+
+**Next run**: Check Actions tab at scheduled times
 
 ## 🐛 Troubleshooting
 
@@ -172,36 +178,37 @@ schedule:
 ### No Data Generated
 
 1. Run scripts locally first:
-   ```powershell
-   python scripts/ingest_official.py
+   ```bash
+   python scripts/ingest_arxiv.py
+   python scripts/ingest_huggingface.py
    python scripts/aggregate.py
    python scripts/mine_insights.py
    python scripts/generate_report.py
    ```
 2. Check for errors
 3. Verify internet connection
-4. Check API rate limits
+4. Check API rate limits (especially for Papers with Code)
 
 ## 📊 Monitoring
 
 ### Check Workflow Status
 
-```powershell
+```bash
 # View latest workflow run
-gh run list --repo Grumpified-OGGVCT/ollama_pulse
+gh run list --repo AccidentalJedi/AI_Research_Daily
 
 # View workflow logs
-gh run view --repo Grumpified-OGGVCT/ollama_pulse
+gh run view --repo AccidentalJedi/AI_Research_Daily
 ```
 
 ### Check Data Growth
 
-```powershell
+```bash
 # Count JSON files
-Get-ChildItem -Path data -Recurse -Filter *.json | Measure-Object
+find data -name "*.json" | wc -l
 
 # View latest report
-Get-Content reports/pulse-$(Get-Date -Format yyyy-MM-dd).md
+cat docs/reports/lab-$(date +%Y-%m-%d).md
 ```
 
 ## 🎉 Success Criteria
@@ -209,34 +216,36 @@ Get-Content reports/pulse-$(Get-Date -Format yyyy-MM-dd).md
 - ✅ Repository has all files
 - ✅ GitHub Actions enabled with write permissions
 - ✅ GitHub Pages enabled and deployed
-- ✅ Workflow runs successfully (green checkmark)
-- ✅ Data files generated in `data/` folders
-- ✅ Report generated in `reports/`
-- ✅ GitHub Pages shows report at https://grumpified-oggvct.github.io/ollama_pulse
-- ✅ Ollama Proxy integration works at http://127.0.0.1:8081/admin/pulse
+- ✅ Workflows run successfully (green checkmark)
+- ✅ Research data files generated in `data/` folders
+- ✅ Reports generated in `docs/reports/`
+- ✅ GitHub Pages shows reports at https://accidentaljedi.github.io/AI_Research_Daily
+- ✅ The Scholar persona is consistent across reports
+- ✅ arXiv, HuggingFace, Papers with Code data being collected
 
 ## 🔄 Ongoing Maintenance
 
 ### Update Scripts
 
-```powershell
+```bash
 # Edit scripts locally
-code scripts/ingest_official.py
+nano scripts/ingest_arxiv.py
 
 # Test locally
-python scripts/ingest_official.py
+python scripts/ingest_arxiv.py
 
 # Commit and push
 git add scripts/
-git commit -m "Update ingestion logic"
+git commit -m "Update research ingestion logic"
 git push
 ```
 
 ### Monitor Usage
 
 - GitHub Actions: 2,000 free minutes/month
-- Current usage: ~5 min/run × 24 runs/day = 120 min/day
-- Monthly: ~3,600 minutes (well within limit)
+- Research ingestion: ~8 min/run × 4 runs/day = 32 min/day
+- Daily report: ~3 min/run × 1 run/day = 3 min/day
+- Monthly: ~1,050 minutes (well within limit)
 
 ### Add New Sources
 
@@ -247,15 +256,18 @@ git push
 
 ## 📚 Resources
 
-- **Repository**: https://github.com/Grumpified-OGGVCT/ollama_pulse
-- **GitHub Pages**: https://grumpified-oggvct.github.io/ollama_pulse
-- **Ollama Proxy**: http://127.0.0.1:8081/admin/pulse
+- **Repository**: https://github.com/AccidentalJedi/AI_Research_Daily
+- **GitHub Pages**: https://accidentaljedi.github.io/AI_Research_Daily
+- **Design Document**: [THE_LAB_DESIGN_DOCUMENT.md](THE_LAB_DESIGN_DOCUMENT.md)
+- **arXiv API**: https://arxiv.org/help/api
+- **HuggingFace API**: https://huggingface.co/docs/hub/api
+- **Papers with Code API**: https://paperswithcode.com/api/v1/docs/
 - **GitHub Actions Docs**: https://docs.github.com/en/actions
 - **GitHub Pages Docs**: https://docs.github.com/en/pages
 
 ---
 
-**Last Updated**: 2025-10-22  
-**Status**: Ready for deployment  
-**Estimated Setup Time**: 15-20 minutes
+**Last Updated**: 2025-10-23  
+**Status**: Production-Ready  
+**Estimated Setup Time**: 20-30 minutes
 
