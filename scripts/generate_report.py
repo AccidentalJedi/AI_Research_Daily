@@ -527,7 +527,7 @@ Today's research firehose scanned **{total_papers} papers** and surfaced **{brea
         
         # Developer impact
         impacts = {
-            "multimodal_research": "This lets you build applications that understand both images and text—like a product search that works with photos, or a medical diagnostic tool that reads scans and generates reports. **You can prototype this in an afternoon, not months.**",
+            "multimodal_research": "This lets you build applications that understand both images and text—like a product search that works with photos, or tools that read scans and generate reports. **While simple prototypes can be built quickly, complex applications (especially in domains like medical diagnostics) require significant expertise, validation, and time.**",
             "efficient_architectures": "Deploy AI directly on user devices for instant responses, offline capability, and privacy—no API costs, no latency. **Ship smarter apps without cloud dependencies.**",
             "language_models": "Build custom chatbots, content generators, or Q&A systems fine-tuned for your domain. **Go from idea to working demo in a weekend.**",
             "vision_systems": "Add real-time object detection, face recognition, or visual quality control to your product. **Computer vision is production-ready.**",
