@@ -200,7 +200,8 @@ async function loadReports() {
   }
 }
 
-// Parse report metadata from markdown content (fallback if needed)
+// Parse report metadata from markdown content (fallback if index.json doesn't have metadata)
+// This function is only used if the JSON index is missing title/description fields
 function parseReportMetadata(content, report) {
   const lines = content.split('\n');
   let title = report.file.replace('.md', '');

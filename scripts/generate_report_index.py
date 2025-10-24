@@ -65,12 +65,28 @@ def generate_report_index():
                         break
                 
                 # Extract first meaningful paragraph as description
+                in_frontmatter = False
+                frontmatter_ended = False
                 for i, line in enumerate(lines):
-                    line = line.strip()
-                    if line and not line.startswith('#') and not line.startswith('---') and \
-                       not line.startswith('layout:') and not line.startswith('title:') and \
-                       len(line) > 30:
-                        description = line[:200] + ('...' if len(line) > 200 else '')
+                    line_stripped = line.strip()
+                    
+                    # Handle frontmatter (YAML between --- markers)
+                    if i == 0 and line_stripped == '---':
+                        in_frontmatter = True
+                        continue
+                    if in_frontmatter and line_stripped == '---':
+                        in_frontmatter = False
+                        frontmatter_ended = True
+                        continue
+                    if in_frontmatter:
+                        continue
+                    
+                    # Skip to content after frontmatter
+                    if not frontmatter_ended and not line_stripped:
+                        continue
+                        
+                    if line_stripped and not line_stripped.startswith('#') and len(line_stripped) > 30:
+                        description = line_stripped[:200] + ('...' if len(line_stripped) > 200 else '')
                         break
         except Exception as e:
             print(f"Warning: Error reading {filename}: {e}")
@@ -86,7 +102,16 @@ def generate_report_index():
         })
     
     # Sort by date descending (newest first)
-    reports.sort(key=lambda x: x['date'], reverse=True)
+    # Parse dates to ensure proper chronological ordering
+    def parse_date_key(report):
+        try:
+            from datetime import datetime
+            return datetime.strptime(report['date'], '%Y-%m-%d')
+        except:
+            # Fallback to string comparison if date parsing fails
+            return report['date']
+    
+    reports.sort(key=parse_date_key, reverse=True)
     
     # Create output JSON
     output = {
