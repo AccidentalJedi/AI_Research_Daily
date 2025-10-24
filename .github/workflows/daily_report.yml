@@ -41,6 +41,10 @@ jobs:
       - name: Generate research intelligence report
         run: |
           python scripts/generate_report.py
+      
+      - name: Update report index
+        run: |
+          python scripts/generate_report_index.py
           
       - name: Commit and push report
         run: |
