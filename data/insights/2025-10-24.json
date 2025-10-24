@@ -1,5 +1,5 @@
 {
-  "date": "2025-10-24T04:09:52.920025",
+  "date": "2025-10-24T08:10:53.916527",
   "patterns": {
     "multimodal_research": [
       {
@@ -287,10 +287,6 @@
       {
         "title": "Identification and Debiased Learning of Causal Effects with General   Instrumental Variables",
         "url": "https://arxiv.org/abs/2510.20404v1"
-      },
-      {
-        "title": "efficient-deep-research/gap_0.5_beta_0.5_lora_ckpt_20_merged",
-        "url": "https://huggingface.co/efficient-deep-research/gap_0.5_beta_0.5_lora_ckpt_20_merged"
       }
     ],
     "language_models": [
@@ -627,8 +623,12 @@
         "url": "https://arxiv.org/abs/2510.20721v1"
       },
       {
-        "title": "team-dentaku/llm-jp-3.1-13b-instruct4",
-        "url": "https://huggingface.co/team-dentaku/llm-jp-3.1-13b-instruct4"
+        "title": "sohayeb/distilbert-base-uncased-finetuned-ag-news",
+        "url": "https://huggingface.co/sohayeb/distilbert-base-uncased-finetuned-ag-news"
+      },
+      {
+        "title": "nnsohamnn/gpt2-355-fineweb",
+        "url": "https://huggingface.co/nnsohamnn/gpt2-355-fineweb"
       }
     ],
     "vision_systems": [
@@ -1577,7 +1577,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "44 independent papers",
+      "observation": "43 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1589,7 +1589,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
