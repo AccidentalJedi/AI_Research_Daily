@@ -415,8 +415,8 @@ def get_starter_kit_for_pattern(pattern_name, papers):
             "description": "State-of-the-art NLP models",
             "commands": [
                 "pip install transformers torch",
-                'python -c "from transformers import pipeline; nlp = pipeline(\'text-generation\'); print(nlp(\'Hello world\'))"',
-                "# Or start with: transformers-cli"
+                "python -c \"import transformers\"  # Test installation",
+                "# For advanced usage, see: https://huggingface.co/docs/transformers/quicktour"
             ],
             "use_case": "Build chatbots, summarizers, or text analyzers in production"
         },
