@@ -11,11 +11,17 @@ from pathlib import Path
 DOCS_DIR = Path("docs")
 REPORTS_DIR = DOCS_DIR / "reports"
 
+# Developer wrap-up configuration constants
+MIN_CLUSTER_SIZE = 3  # Minimum papers to include a cluster in developer wrap-up
+MAX_SUMMARY_LENGTH = 250  # Maximum characters for paper summaries
+MAX_DISPLAYED_TRENDS = 5  # Maximum trending topics to display
+
 
 def ensure_reports_dir():
     """Create docs/reports directory if it doesn't exist"""
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
+
 
 
 def get_today_date_str():
@@ -409,7 +415,7 @@ def get_starter_kit_for_pattern(pattern_name, papers):
             "description": "State-of-the-art NLP models",
             "commands": [
                 "pip install transformers torch",
-                "python -c \"from transformers import pipeline; nlp = pipeline('text-generation'); print(nlp('Hello world'))\"",
+                'python -c "from transformers import pipeline; nlp = pipeline(\'text-generation\'); print(nlp(\'Hello world\'))"',
                 "# Or start with: transformers-cli"
             ],
             "use_case": "Build chatbots, summarizers, or text analyzers in production"
@@ -488,7 +494,7 @@ Today's research firehose scanned **{total_papers} papers** and surfaced **{brea
     
     cluster_idx = 0
     for pattern_name, pattern_papers in patterns.items():
-        if len(pattern_papers) < 3:  # Only include significant clusters
+        if len(pattern_papers) < MIN_CLUSTER_SIZE:  # Only include significant clusters
             continue
             
         cluster_idx += 1
@@ -563,7 +569,7 @@ Today's research firehose scanned **{total_papers} papers** and surfaced **{brea
             title = paper.get('title', 'Untitled')
             url = paper.get('url', '#')
             score = paper.get('research_score', 0)
-            summary = paper.get('summary', paper.get('abstract', ''))[:250]
+            summary = paper.get('summary', paper.get('abstract', ''))[:MAX_SUMMARY_LENGTH]
             
             section += f"""**{i}. {title}** (Score: {score:.2f}) 【breakthrough:{i}】
 
@@ -596,7 +602,7 @@ Today's research firehose scanned **{total_papers} papers** and surfaced **{brea
         section += """### 🔥 What's Heating Up (Watch These)
 
 """
-        for trend in trends[:5]:
+        for trend in trends[:MAX_DISPLAYED_TRENDS]:
             topic = trend.get('topic', 'unknown')
             freq = trend.get('frequency', 0)
             section += f"- **{topic.title()}**: {freq} mentions across papers—this is where the field is moving 【trend:{topic}】\n"
