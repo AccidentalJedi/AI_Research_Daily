@@ -8,20 +8,69 @@ title: The Lab - AI Research Daily
   <p>Daily intelligence on AI research breakthroughs and emerging trends</p>
 </div>
 
-<div class="controls">
-  <input type="text" id="search" placeholder="Search reports..." />
-  <select id="sort">
-    <option value="date">Sort by Date</option>
-    <option value="relevance">Sort by Relevance</option>
-  </select>
+<!-- Accessibility Controls -->
+<div class="accessibility-controls">
+  <div class="control-group">
+    <label>Font Size:</label>
+    <button id="font-decrease" class="control-btn" title="Decrease font size">A-</button>
+    <button id="font-reset" class="control-btn" title="Reset font size">A</button>
+    <button id="font-increase" class="control-btn" title="Increase font size">A+</button>
+  </div>
+  <div class="control-group">
+    <label>Page Zoom:</label>
+    <button id="zoom-out" class="control-btn" title="Zoom out">-</button>
+    <button id="zoom-reset" class="control-btn" title="Reset zoom">100%</button>
+    <button id="zoom-in" class="control-btn" title="Zoom in">+</button>
+  </div>
 </div>
 
+<!-- Navigation and Search Controls -->
+<div class="controls">
+  <div class="search-box">
+    <input type="text" id="search" placeholder="🔍 Search reports by keyword, topic, or date..." />
+    <button id="search-btn" class="control-btn">Search</button>
+  </div>
+  <div class="filter-controls">
+    <select id="filter-type">
+      <option value="all">All Reports</option>
+      <option value="lab">Lab Reports</option>
+      <option value="pulse">Pulse Reports</option>
+    </select>
+    <select id="sort">
+      <option value="date-desc">Newest First</option>
+      <option value="date-asc">Oldest First</option>
+      <option value="relevance">Most Relevant</option>
+    </select>
+  </div>
+</div>
+
+<!-- Navigation Buttons -->
+<div class="navigation">
+  <button id="nav-home" class="nav-btn" title="Go to latest report">🏠 Home (Latest)</button>
+  <button id="nav-prev" class="nav-btn" title="Previous report" disabled>← Previous</button>
+  <button id="nav-next" class="nav-btn" title="Next report" disabled>Next →</button>
+  <span id="nav-info" class="nav-info"></span>
+</div>
+
+<!-- Report List -->
 <div id="report-list">
-  <div class="card">
-    <h3>📚 Latest Report: 2025-10-24</h3>
-    <p>Today's research intelligence from The Scholar</p>
-    <p class="meta">Generated: 2025-10-24 14:08 UTC</p>
-    <a href="reports/lab-2025-10-24.html">Read full report →</a>
+  <div class="loading">Loading reports...</div>
+</div>
+
+<!-- Report Viewer Modal -->
+<div id="report-viewer" class="modal" style="display: none;">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button id="close-viewer" class="close-btn">✕</button>
+      <div class="modal-nav">
+        <button id="modal-prev" class="nav-btn">← Previous</button>
+        <button id="modal-home" class="nav-btn">🏠 Home</button>
+        <button id="modal-next" class="nav-btn">Next →</button>
+      </div>
+    </div>
+    <div id="report-content" class="report-content">
+      <!-- Report content will be loaded here -->
+    </div>
   </div>
 </div>
 
@@ -32,3 +81,389 @@ title: The Lab - AI Research Daily
   <p><strong>What we do:</strong> Filter 100+ papers to 3-5 that matter most | 
   Translate dense research into clear insights | Predict which work will have practical impact</p>
 </div>
+
+<script>
+// Report data and state management
+let allReports = [];
+let filteredReports = [];
+let currentReportIndex = -1;
+let searchQuery = '';
+let filterType = 'all';
+let sortOrder = 'date-desc';
+
+// Accessibility settings
+let fontSize = 16;
+let zoomLevel = 100;
+
+// Load user preferences from localStorage
+function loadPreferences() {
+  const savedFontSize = localStorage.getItem('fontSize');
+  const savedZoom = localStorage.getItem('zoomLevel');
+  
+  if (savedFontSize) {
+    fontSize = parseInt(savedFontSize);
+    applyFontSize();
+  }
+  
+  if (savedZoom) {
+    zoomLevel = parseInt(savedZoom);
+    applyZoom();
+  }
+}
+
+// Apply font size
+function applyFontSize() {
+  document.documentElement.style.fontSize = fontSize + 'px';
+  localStorage.setItem('fontSize', fontSize);
+}
+
+// Apply zoom level
+function applyZoom() {
+  document.body.style.zoom = zoomLevel + '%';
+  document.getElementById('zoom-reset').textContent = zoomLevel + '%';
+  localStorage.setItem('zoomLevel', zoomLevel);
+}
+
+// Font size controls
+document.getElementById('font-decrease').addEventListener('click', () => {
+  fontSize = Math.max(12, fontSize - 1);
+  applyFontSize();
+});
+
+document.getElementById('font-reset').addEventListener('click', () => {
+  fontSize = 16;
+  applyFontSize();
+});
+
+document.getElementById('font-increase').addEventListener('click', () => {
+  fontSize = Math.min(24, fontSize + 1);
+  applyFontSize();
+});
+
+// Zoom controls
+document.getElementById('zoom-out').addEventListener('click', () => {
+  zoomLevel = Math.max(75, zoomLevel - 10);
+  applyZoom();
+});
+
+document.getElementById('zoom-reset').addEventListener('click', () => {
+  zoomLevel = 100;
+  applyZoom();
+});
+
+document.getElementById('zoom-in').addEventListener('click', () => {
+  zoomLevel = Math.min(150, zoomLevel + 10);
+  applyZoom();
+});
+
+// Fetch and parse all reports
+async function loadReports() {
+  try {
+    // Static list of known reports - in production, this could be generated dynamically
+    const reportFiles = [
+      { file: 'lab-2025-10-24.md', type: 'lab', date: '2025-10-24' },
+      { file: 'lab-2025-10-23.md', type: 'lab', date: '2025-10-23' },
+      { file: 'pulse-2025-10-23.md', type: 'pulse', date: '2025-10-23' },
+      { file: 'pulse-2025-10-22.md', type: 'pulse', date: '2025-10-22' }
+    ];
+    
+    for (const report of reportFiles) {
+      try {
+        const response = await fetch(`reports/${report.file}`);
+        if (response.ok) {
+          const content = await response.text();
+          const metadata = parseReportMetadata(content, report);
+          allReports.push({
+            ...metadata,
+            file: report.file,
+            content: content
+          });
+        }
+      } catch (err) {
+        console.error(`Error loading ${report.file}:`, err);
+      }
+    }
+    
+    // Sort by date descending (newest first) by default
+    allReports.sort((a, b) => new Date(b.date) - new Date(a.date));
+    filteredReports = [...allReports];
+    renderReports();
+    updateNavigation();
+  } catch (error) {
+    console.error('Error loading reports:', error);
+    document.getElementById('report-list').innerHTML = 
+      '<div class="error">Error loading reports. Please refresh the page.</div>';
+  }
+}
+
+// Parse report metadata from markdown content
+function parseReportMetadata(content, report) {
+  const lines = content.split('\n');
+  let title = report.file.replace('.md', '');
+  let description = '';
+  
+  // Extract title from markdown
+  for (let i = 0; i < Math.min(lines.length, 20); i++) {
+    if (lines[i].startsWith('# ')) {
+      title = lines[i].substring(2).trim();
+      break;
+    }
+  }
+  
+  // Extract first paragraph as description
+  for (let i = 0; i < Math.min(lines.length, 30); i++) {
+    const line = lines[i].trim();
+    if (line && !line.startsWith('#') && !line.startsWith('---') && 
+        !line.startsWith('layout:') && !line.startsWith('title:') &&
+        line.length > 20) {
+      description = line.substring(0, 200) + (line.length > 200 ? '...' : '');
+      break;
+    }
+  }
+  
+  return {
+    title: title,
+    description: description,
+    date: report.date,
+    type: report.type
+  };
+}
+
+// Filter and sort reports
+function filterAndSortReports() {
+  // Filter by type
+  filteredReports = allReports.filter(report => {
+    if (filterType !== 'all' && report.type !== filterType) {
+      return false;
+    }
+    
+    // Filter by search query
+    if (searchQuery) {
+      const query = searchQuery.toLowerCase();
+      return report.title.toLowerCase().includes(query) ||
+             report.description.toLowerCase().includes(query) ||
+             report.content.toLowerCase().includes(query) ||
+             report.date.includes(query);
+    }
+    
+    return true;
+  });
+  
+  // Sort reports
+  if (sortOrder === 'date-desc') {
+    filteredReports.sort((a, b) => new Date(b.date) - new Date(a.date));
+  } else if (sortOrder === 'date-asc') {
+    filteredReports.sort((a, b) => new Date(a.date) - new Date(b.date));
+  } else if (sortOrder === 'relevance' && searchQuery) {
+    // Simple relevance scoring based on search query matches
+    filteredReports.sort((a, b) => {
+      const scoreA = calculateRelevanceScore(a, searchQuery);
+      const scoreB = calculateRelevanceScore(b, searchQuery);
+      return scoreB - scoreA;
+    });
+  }
+  
+  renderReports();
+  updateNavigation();
+}
+
+// Calculate relevance score for search
+function calculateRelevanceScore(report, query) {
+  const q = query.toLowerCase();
+  let score = 0;
+  
+  if (report.title.toLowerCase().includes(q)) score += 10;
+  if (report.date.includes(q)) score += 5;
+  if (report.description.toLowerCase().includes(q)) score += 3;
+  
+  const contentLower = report.content.toLowerCase();
+  const matches = (contentLower.match(new RegExp(q, 'g')) || []).length;
+  score += matches;
+  
+  return score;
+}
+
+// Render report list
+function renderReports() {
+  const reportList = document.getElementById('report-list');
+  
+  if (filteredReports.length === 0) {
+    reportList.innerHTML = '<div class="no-results">No reports found matching your search.</div>';
+    return;
+  }
+  
+  reportList.innerHTML = filteredReports.map((report, index) => `
+    <div class="card" data-index="${index}">
+      <h3>${report.title}</h3>
+      <p>${report.description}</p>
+      <p class="meta">
+        <span class="report-type ${report.type}">${report.type.toUpperCase()}</span>
+        <span class="report-date">📅 ${report.date}</span>
+      </p>
+      <button class="read-btn" onclick="openReport(${index})">Read full report →</button>
+    </div>
+  `).join('');
+}
+
+// Update navigation state
+function updateNavigation() {
+  const navInfo = document.getElementById('nav-info');
+  const navPrev = document.getElementById('nav-prev');
+  const navNext = document.getElementById('nav-next');
+  
+  if (filteredReports.length > 0) {
+    navInfo.textContent = `Showing ${filteredReports.length} report${filteredReports.length !== 1 ? 's' : ''}`;
+    
+    if (currentReportIndex >= 0) {
+      navPrev.disabled = currentReportIndex === 0;
+      navNext.disabled = currentReportIndex === filteredReports.length - 1;
+      navInfo.textContent = `Report ${currentReportIndex + 1} of ${filteredReports.length}`;
+    } else {
+      navPrev.disabled = true;
+      navNext.disabled = true;
+    }
+  } else {
+    navInfo.textContent = '';
+    navPrev.disabled = true;
+    navNext.disabled = true;
+  }
+}
+
+// Open report viewer
+function openReport(index) {
+  currentReportIndex = index;
+  const report = filteredReports[index];
+  
+  const viewer = document.getElementById('report-viewer');
+  const content = document.getElementById('report-content');
+  
+  // Convert markdown to HTML (basic conversion)
+  const html = markdownToHtml(report.content);
+  content.innerHTML = html;
+  
+  viewer.style.display = 'block';
+  document.body.style.overflow = 'hidden';
+  
+  updateModalNavigation();
+}
+
+// Close report viewer
+function closeReport() {
+  document.getElementById('report-viewer').style.display = 'none';
+  document.body.style.overflow = 'auto';
+  currentReportIndex = -1;
+  updateNavigation();
+}
+
+// Navigate to previous report
+function navigatePrevious() {
+  if (currentReportIndex > 0) {
+    openReport(currentReportIndex - 1);
+  }
+}
+
+// Navigate to next report
+function navigateNext() {
+  if (currentReportIndex < filteredReports.length - 1) {
+    openReport(currentReportIndex + 1);
+  }
+}
+
+// Navigate to home (latest report)
+function navigateHome() {
+  closeReport();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// Update modal navigation buttons
+function updateModalNavigation() {
+  const modalPrev = document.getElementById('modal-prev');
+  const modalNext = document.getElementById('modal-next');
+  
+  modalPrev.disabled = currentReportIndex === 0;
+  modalNext.disabled = currentReportIndex === filteredReports.length - 1;
+}
+
+// Basic markdown to HTML conversion
+function markdownToHtml(markdown) {
+  let html = markdown;
+  
+  // Remove front matter
+  html = html.replace(/^---[\s\S]*?---\n/, '');
+  
+  // Headers
+  html = html.replace(/^### (.*$)/gim, '<h3>$1</h3>');
+  html = html.replace(/^## (.*$)/gim, '<h2>$1</h2>');
+  html = html.replace(/^# (.*$)/gim, '<h1>$1</h1>');
+  
+  // Bold
+  html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  
+  // Italic
+  html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
+  
+  // Links
+  html = html.replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank">$1</a>');
+  
+  // Horizontal rules
+  html = html.replace(/^---$/gim, '<hr>');
+  
+  // Line breaks
+  html = html.replace(/\n\n/g, '</p><p>');
+  html = '<p>' + html + '</p>';
+  
+  // Lists (basic)
+  html = html.replace(/<p>- (.*?)<\/p>/g, '<li>$1</li>');
+  html = html.replace(/(<li>.*?<\/li>)/s, '<ul>$1</ul>');
+  
+  return html;
+}
+
+// Event listeners
+document.getElementById('search').addEventListener('input', (e) => {
+  searchQuery = e.target.value;
+  filterAndSortReports();
+});
+
+document.getElementById('search-btn').addEventListener('click', () => {
+  filterAndSortReports();
+});
+
+document.getElementById('filter-type').addEventListener('change', (e) => {
+  filterType = e.target.value;
+  filterAndSortReports();
+});
+
+document.getElementById('sort').addEventListener('change', (e) => {
+  sortOrder = e.target.value;
+  filterAndSortReports();
+});
+
+document.getElementById('nav-home').addEventListener('click', navigateHome);
+document.getElementById('nav-prev').addEventListener('click', navigatePrevious);
+document.getElementById('nav-next').addEventListener('click', navigateNext);
+
+document.getElementById('close-viewer').addEventListener('click', closeReport);
+document.getElementById('modal-prev').addEventListener('click', navigatePrevious);
+document.getElementById('modal-home').addEventListener('click', navigateHome);
+document.getElementById('modal-next').addEventListener('click', navigateNext);
+
+// Close modal on escape key
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && document.getElementById('report-viewer').style.display === 'block') {
+    closeReport();
+  }
+  
+  // Arrow key navigation in modal
+  if (document.getElementById('report-viewer').style.display === 'block') {
+    if (e.key === 'ArrowLeft') navigatePrevious();
+    if (e.key === 'ArrowRight') navigateNext();
+  }
+});
+
+// Initialize on page load
+document.addEventListener('DOMContentLoaded', () => {
+  loadPreferences();
+  loadReports();
+});
+</script>
