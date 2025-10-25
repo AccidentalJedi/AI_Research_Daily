@@ -1,5 +1,5 @@
 {
-  "date": "2025-10-25T00:27:23.375844",
+  "date": "2025-10-25T04:09:01.818378",
   "patterns": {
     "multimodal_research": [
       {
@@ -287,10 +287,6 @@
       {
         "title": "Identification and Debiased Learning of Causal Effects with General   Instrumental Variables",
         "url": "https://arxiv.org/abs/2510.20404v1"
-      },
-      {
-        "title": "noctrex/Qwen3-Next-80B-A3B-Instruct-MXFP4_MOE-GGUF",
-        "url": "https://huggingface.co/noctrex/Qwen3-Next-80B-A3B-Instruct-MXFP4_MOE-GGUF"
       }
     ],
     "language_models": [
@@ -1573,7 +1569,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "44 independent papers",
+      "observation": "43 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1644,6 +1640,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 386
+    "total_papers": 385
   }
 }
