@@ -1,0 +1,29 @@
+{
+  "date": "2025-10-26T00:29:17.626194",
+  "patterns": {
+    "efficient_architectures": [
+      {
+        "title": "CPU-Hybrid-MoE/DeepSeek-V3-0324-CPU-NUMA4-AMXINT8",
+        "url": "https://huggingface.co/CPU-Hybrid-MoE/DeepSeek-V3-0324-CPU-NUMA4-AMXINT8"
+      },
+      {
+        "title": "CPU-Hybrid-MoE/DeepSeek-V3-0324-CPU-NUMA4-AMXINT4",
+        "url": "https://huggingface.co/CPU-Hybrid-MoE/DeepSeek-V3-0324-CPU-NUMA4-AMXINT4"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "efficient_architectures",
+      "observation": "Focus on efficiency improvements",
+      "inference": "Resource constraints driving innovation - expect deployment on edge devices and mobile",
+      "confidence": "medium"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 2
+  }
+}
