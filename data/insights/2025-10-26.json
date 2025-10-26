@@ -1,11 +1,22 @@
 {
-  "date": "2025-10-26T16:08:59.169332",
-  "patterns": {},
+  "date": "2025-10-26T20:08:44.204003",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "CK0607/fineweb10B-gpt-heads24_L12_E768_max8000_bs128",
+        "url": "https://huggingface.co/CK0607/fineweb10B-gpt-heads24_L12_E768_max8000_bs128"
+      },
+      {
+        "title": "CK0607/fineweb10B-gpt-heads4_L12_E768_max8000_bs128",
+        "url": "https://huggingface.co/CK0607/fineweb10B-gpt-heads4_L12_E768_max8000_bs128"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
