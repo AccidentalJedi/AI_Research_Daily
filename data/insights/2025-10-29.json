@@ -1,5 +1,5 @@
 {
-  "date": "2025-10-29T16:09:52.232886",
+  "date": "2025-10-29T20:09:24.982583",
   "patterns": {
     "multimodal_research": [
       {
@@ -311,10 +311,6 @@
       {
         "title": "NVSim: Novel View Synthesis Simulator for Large Scale Indoor Navigation",
         "url": "https://arxiv.org/abs/2510.24335v1"
-      },
-      {
-        "title": "noctrex/MiniMax-M2-MXFP4_MOE-GGUF",
-        "url": "https://huggingface.co/noctrex/MiniMax-M2-MXFP4_MOE-GGUF"
       }
     ],
     "language_models": [
@@ -669,14 +665,6 @@
       {
         "title": "Decoupled MeanFlow: Turning Flow Models into Flow Maps for Accelerated   Sampling",
         "url": "https://arxiv.org/abs/2510.24474v1"
-      },
-      {
-        "title": "mrigaanksh/priority-classification-distilbert",
-        "url": "https://huggingface.co/mrigaanksh/priority-classification-distilbert"
-      },
-      {
-        "title": "Iscte-Sintra/GPT2_v1.18",
-        "url": "https://huggingface.co/Iscte-Sintra/GPT2_v1.18"
       }
     ],
     "vision_systems": [
@@ -1733,7 +1721,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "58 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1745,7 +1733,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1804,6 +1792,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 423
   }
 }
