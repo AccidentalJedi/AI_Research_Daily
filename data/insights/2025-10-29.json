@@ -1,5 +1,5 @@
 {
-  "date": "2025-10-29T04:12:52.700164",
+  "date": "2025-10-29T08:11:02.628128",
   "patterns": {
     "multimodal_research": [
       {
@@ -667,8 +667,8 @@
         "url": "https://arxiv.org/abs/2510.24474v1"
       },
       {
-        "title": "arthurbittencourt/october-predator-xlm-roberta-500-semeval2025_deu_sadness-fold9",
-        "url": "https://huggingface.co/arthurbittencourt/october-predator-xlm-roberta-500-semeval2025_deu_sadness-fold9"
+        "title": "wicaksana-bithealth/Text-To-SQL-GPT-OSS-20B-Finetuned",
+        "url": "https://huggingface.co/wicaksana-bithealth/Text-To-SQL-GPT-OSS-20B-Finetuned"
       }
     ],
     "vision_systems": [
@@ -1203,7 +1203,7 @@
         "url": "https://arxiv.org/abs/2510.24337v1"
       },
       {
-        "title": "Towards actionable hypotension prediction- predicting catecholamine   therapy initiation in the intensive care unit",
+        "title": "Towards actionable hypotension prediction -- predicting catecholamine   therapy initiation in the intensive care unit",
         "url": "https://arxiv.org/abs/2510.24287v1"
       },
       {
@@ -1233,6 +1233,10 @@
       {
         "title": "Eye-Tracking, Mouse Tracking, Stimulus Tracking,and Decision-Making   Datasets in Digital Pathology",
         "url": "https://arxiv.org/abs/2510.24653v1"
+      },
+      {
+        "title": "inferencerlabs/MiniMax-M2-MLX-6.5bit",
+        "url": "https://huggingface.co/inferencerlabs/MiniMax-M2-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1673,7 +1677,7 @@
         "url": "https://arxiv.org/abs/2510.24380v1"
       },
       {
-        "title": "Towards actionable hypotension prediction- predicting catecholamine   therapy initiation in the intensive care unit",
+        "title": "Towards actionable hypotension prediction -- predicting catecholamine   therapy initiation in the intensive care unit",
         "url": "https://arxiv.org/abs/2510.24287v1"
       },
       {
@@ -1749,7 +1753,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "76 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1796,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 424
+    "total_papers": 425
   }
 }
