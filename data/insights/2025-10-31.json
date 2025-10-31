@@ -1,5 +1,5 @@
 {
-  "date": "2025-10-31T04:10:12.069957",
+  "date": "2025-10-31T08:10:24.757589",
   "patterns": {
     "multimodal_research": [
       {
@@ -651,8 +651,8 @@
         "url": "https://arxiv.org/abs/2510.26799v1"
       },
       {
-        "title": "RajTejani/bert-fine-tuned-glue-mrpc",
-        "url": "https://huggingface.co/RajTejani/bert-fine-tuned-glue-mrpc"
+        "title": "hurtmongoose/distilbert-base-uncased-augmented-malicious-classifier",
+        "url": "https://huggingface.co/hurtmongoose/distilbert-base-uncased-augmented-malicious-classifier"
       }
     ],
     "vision_systems": [
@@ -931,14 +931,6 @@
       {
         "title": "Leveraging Large-Scale Face Datasets for Deep Periocular Recognition via   Ocular Cropping",
         "url": "https://arxiv.org/abs/2510.26294v1"
-      },
-      {
-        "title": "valiantcat/Qwen-Image-Edit-Cosplay",
-        "url": "https://huggingface.co/valiantcat/Qwen-Image-Edit-Cosplay"
-      },
-      {
-        "title": "OPPOer/Qwen-Image-12B-8steps",
-        "url": "https://huggingface.co/OPPOer/Qwen-Image-12B-8steps"
       }
     ],
     "reasoning": [
@@ -1163,7 +1155,7 @@
         "url": "https://arxiv.org/abs/2510.26418v1"
       },
       {
-        "title": "AI Mathematician as a Partner in Advancing Mathematical Discovery - A   Case Study in Homogenization Theory",
+        "title": "AI Mathematician as a Partner in Advancing Mathematical Discovery -- A   Case Study in Homogenization Theory",
         "url": "https://arxiv.org/abs/2510.26380v1"
       },
       {
@@ -1631,7 +1623,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1684,6 +1676,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 396
+    "total_papers": 394
   }
 }
