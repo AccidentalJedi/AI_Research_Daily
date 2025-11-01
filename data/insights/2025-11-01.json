@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-01T16:08:12.293283",
+  "date": "2025-11-01T20:08:12.428091",
   "patterns": {
     "multimodal_research": [
       {
@@ -651,12 +651,8 @@
         "url": "https://arxiv.org/abs/2510.26799v1"
       },
       {
-        "title": "LilPhat23/PhoGPT",
-        "url": "https://huggingface.co/LilPhat23/PhoGPT"
-      },
-      {
-        "title": "Ha1dir/sentimen-indobert",
-        "url": "https://huggingface.co/Ha1dir/sentimen-indobert"
+        "title": "rohitd25/hindi_gpt2",
+        "url": "https://huggingface.co/rohitd25/hindi_gpt2"
       }
     ],
     "vision_systems": [
@@ -1621,7 +1617,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1680,6 +1676,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 395
+    "total_papers": 394
   }
 }
