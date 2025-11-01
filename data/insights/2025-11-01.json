@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-01T08:09:38.354435",
+  "date": "2025-11-01T12:11:22.415630",
   "patterns": {
     "multimodal_research": [
       {
@@ -649,10 +649,6 @@
       {
         "title": "Masked Diffusion Captioning for Visual Feature Learning",
         "url": "https://arxiv.org/abs/2510.26799v1"
-      },
-      {
-        "title": "swami93/gpt-indian-names-generator",
-        "url": "https://huggingface.co/swami93/gpt-indian-names-generator"
       }
     ],
     "vision_systems": [
@@ -1617,7 +1613,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "92 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1676,6 +1672,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 394
+    "total_papers": 393
   }
 }
