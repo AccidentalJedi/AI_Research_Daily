@@ -53,7 +53,7 @@
     "authors": [
       "Lukas Fehring",
       "Marcel Wever",
-      "Maximilian Splieth\u00f6ver",
+      "Maximilian Spliethöver",
       "Leona Hennig",
       "Henning Wachsmuth",
       "Marius Lindauer"
@@ -618,7 +618,7 @@
       "Doreen Osmelak",
       "Koel Dutta Chowdhury",
       "Uliana Sentsova",
-      "Cristina Espa\u00f1a-Bonet",
+      "Cristina España-Bonet",
       "Josef van Genabith"
     ],
     "categories": [
@@ -659,7 +659,7 @@
     "authors": [
       "Julius Fiedler",
       "Carsten Knoll",
-      "Klaus R\u00f6benack"
+      "Klaus Röbenack"
     ],
     "categories": [
       "cs.AI",
@@ -925,7 +925,7 @@
     "summary": "Preconditioning is a key component of MCMC algorithms that improves sampling efficiency by facilitating exploration of geometrically complex target distributions through an invertible map. While linear preconditioners are often sufficient for moderately complex target distributions, recent work has explored nonlinear preconditioning with invertible neural networks as components of normalizing flows (NFs). However, empirical and theoretical studies show that overparameterized NF preconditioners can degrade sampling efficiency and fit quality. Moreover, existing NF-based approaches do not adapt their architectures to the target distribution. Related work outside of MCMC similarly finds that suitably parameterized NFs can achieve comparable or superior performance with substantially less training time or data. We propose a factorized preconditioning architecture that reduces NF complexity by combining a linear component with a conditional NF, improving adaptability to target geometry. The linear preconditioner is applied to dimensions that are approximately Gaussian, as estimated from warmup samples, while the conditional NF models more complex dimensions. Our method yields significantly better tail samples on two complex synthetic distributions and consistently better performance on a sparse logistic regression posterior across varying likelihood and prior strengths. It also achieves higher effective sample sizes on hierarchical Bayesian model posteriors with weak likelihoods and strong funnel geometries. This approach is particularly relevant for hierarchical Bayesian model analyses with limited data and could inform current theoretical and software strides in neural MCMC design.",
     "authors": [
       "David Nabergoj",
-      "Erik \u0160trumbelj"
+      "Erik Štrumbelj"
     ],
     "categories": [
       "cs.LG",
@@ -1062,8 +1062,8 @@
     "summary": "Agentic AI represents a new paradigm for automating complex systems by using Large AI Models (LAMs) to provide human-level cognitive abilities with multimodal perception, planning, memory, and reasoning capabilities. This will lead to a new generation of AI systems that autonomously decompose goals, retain context over time, learn continuously, operate across tools and environments, and adapt dynamically. The complexity of 5G and upcoming 6G networks renders manual optimization ineffective, pointing to Agentic AI as a method for automating decisions in dynamic RAN environments. However, despite its rapid advances, there is no established framework outlining the foundational components and operational principles of Agentic AI systems nor a universally accepted definition.   This paper contributes to ongoing research on Agentic AI in 5G and 6G networks by outlining its core concepts and then proposing a practical use case that applies Agentic principles to RAN optimization. We first introduce Agentic AI, tracing its evolution from classical agents and discussing the progress from workflows and simple AI agents to Agentic AI. Core design patterns-reflection, planning, tool use, and multi-agent collaboration-are then described to illustrate how intelligent behaviors are orchestrated. These theorical concepts are grounded in the context of mobile networks, with a focus on RAN management and optimization. A practical 5G RAN case study shows how time-series analytics and LAM-driven agents collaborate for KPI-based autonomous decision-making.",
     "authors": [
       "Jorge Pellejero",
-      "Luis A. Hern\u00e1ndez G\u00f3mez",
-      "Luis Mendo Tom\u00e1s",
+      "Luis A. Hernández Gómez",
+      "Luis Mendo Tomás",
       "Zoraida Frias Barroso"
     ],
     "categories": [
@@ -1244,9 +1244,9 @@
     "authors": [
       "Alix de Langlais",
       "Benjamin Billot",
-      "Th\u00e9o Aguilar Vidal",
+      "Théo Aguilar Vidal",
       "Marc-Olivier Gauci",
-      "Herv\u00e9 Delingette"
+      "Hervé Delingette"
     ],
     "categories": [
       "eess.IV",
@@ -1311,7 +1311,7 @@
       "Elia Raimondi",
       "Han Wang",
       "Mattia Bianchi",
-      "Florian D\u00f6rfler"
+      "Florian Dörfler"
     ],
     "categories": [
       "cs.LG"
@@ -1329,7 +1329,7 @@
     "summary": "Standard training for Multi-modal Large Language Models (MLLMs) involves concatenating non-textual information, like vision or audio, with a text prompt. This approach may not encourage deep integration of modalities, limiting the model's ability to leverage the core language model's reasoning capabilities. This work examined the impact of interleaved instruction tuning in an audio MLLM, where audio tokens are interleaved within the prompt. Using the Listen, Think, and Understand (LTU) model as a testbed, we conduct an experiment using the Synonym and Hypernym Audio Reasoning Dataset (SHARD), our newly created reasoning benchmark for audio-based semantic reasoning focusing on synonym and hypernym recognition. Our findings show that while even zero-shot interleaved prompting improves performance on our reasoning tasks, a small amount of fine-tuning using interleaved training prompts improves the results further, however, at the expense of the MLLM's audio labeling ability.",
     "authors": [
       "Jiawei Liu",
-      "Enis Berk \u00c7oban",
+      "Enis Berk Çoban",
       "Zarina Schevchenko",
       "Hao Tang",
       "Zhigang Zhu",
@@ -1535,7 +1535,7 @@
     "summary": "While LLMs excel at general tasks, they struggle in specialized domains like finance, requiring diverse skills in domain knowledge, mathematical reasoning, and multilingual processing. Merging domain-specific Continual Pre-training (CPT) \"experts\" offers a practical alternative to costly and unstable multi-skill training. However, unlike established Supervised Fine-Tuning (SFT) model-based merging, CPT model merging remains largely unexplored. We address this gap by creating financial LLMs from experts in finance, math, and Japanese. We propose a three-stage evaluation focusing on knowledge recovery, complementarity, and emergence, and assess three merging methods (Task Arithmetic, TIES, and DARE-TIES) on a comprehensive financial benchmark curated from 18 tasks across 8 established datasets. Results show that merging an expert with its base model recovers general knowledge lost during CPT, while merging experts improves performance and can yield emergent cross-domain skills. Among the methods, Task Arithmetic performs strongly but is hyperparameter-sensitive, whereas TIES is more robust. Our findings also suggest that while model similarity correlates with merging success, emergent skills depend on more complex factors. This work presents the first foundational analysis of CPT model merging, establishing a principled framework and providing clear guidance for building multi-skill LLMs from existing assets.",
     "authors": [
       "Kentaro Ueda",
-      "Fran\u00e7ois Portet",
+      "François Portet",
       "Hirohiko Suwa",
       "Keiichi Yasumoto"
     ],
@@ -1913,7 +1913,7 @@
   },
   {
     "arxiv_id": "2511.02276v1",
-    "title": "Gradient-Variation Online Adaptivity for Accelerated Optimization with   H\u00f6lder Smoothness",
+    "title": "Gradient-Variation Online Adaptivity for Accelerated Optimization with   Hölder Smoothness",
     "summary": "Smoothness is known to be crucial for acceleration in offline optimization, and for gradient-variation regret minimization in online learning. Interestingly, these two problems are actually closely connected -- accelerated optimization can be understood through the lens of gradient-variation online learning. In this paper, we investigate online learning with H\\\"older smooth functions, a general class encompassing both smooth and non-smooth (Lipschitz) functions, and explore its implications for offline optimization. For (strongly) convex online functions, we design the corresponding gradient-variation online learning algorithm whose regret smoothly interpolates between the optimal guarantees in smooth and non-smooth regimes. Notably, our algorithms do not require prior knowledge of the H\\\"older smoothness parameter, exhibiting strong adaptivity over existing methods. Through online-to-batch conversion, this gradient-variation online adaptivity yields an optimal universal method for stochastic convex optimization under H\\\"older smoothness. However, achieving universality in offline strongly convex optimization is more challenging. We address this by integrating online adaptivity with a detection-based guess-and-check procedure, which, for the first time, yields a universal offline method that achieves accelerated convergence in the smooth regime while maintaining near-optimal convergence in the non-smooth one.",
     "authors": [
       "Yuheng Zhao",
@@ -2000,7 +2000,7 @@
     "summary": "Kernel discrepancies are a powerful tool for analyzing worst-case errors in quasi-Monte Carlo (QMC) methods. Building on recent advances in optimizing such discrepancy measures, we extend the subset selection problem to the setting of kernel discrepancies, selecting an m-element subset from a large population of size $n \\gg m$. We introduce a novel subset selection algorithm applicable to general kernel discrepancies to efficiently generate low-discrepancy samples from both the uniform distribution on the unit hypercube, the traditional setting of classical QMC, and from more general distributions $F$ with known density functions by employing the kernel Stein discrepancy. We also explore the relationship between the classical $L_2$ star discrepancy and its $L_\\infty$ counterpart.",
     "authors": [
       "Deyao Chen",
-      "Fran\u00e7ois Cl\u00e9ment",
+      "François Clément",
       "Carola Doerr",
       "Nathan Kirk"
     ],
@@ -2050,10 +2050,10 @@
       "Claudia Herambourg",
       "Dawid Siuda",
       "Anna Szczepanek",
-      "Julia Kopczy\u0144ska",
+      "Julia Kopczyńska",
       "Joao R. L. Santos",
       "Wojciech Sas",
-      "Joanna \u015amieta\u0144ska-Nowak"
+      "Joanna Śmietańska-Nowak"
     ],
     "categories": [
       "cs.AI"
@@ -2070,7 +2070,7 @@
     "title": "Redundancy Maximization as a Principle of Associative Memory Learning",
     "summary": "Associative memory, traditionally modeled by Hopfield networks, enables the retrieval of previously stored patterns from partial or noisy cues. Yet, the local computational principles which are required to enable this function remain incompletely understood. To formally characterize the local information processing in such systems, we employ a recent extension of information theory - Partial Information Decomposition (PID). PID decomposes the contribution of different inputs to an output into unique information from each input, redundant information across inputs, and synergistic information that emerges from combining different inputs. Applying this framework to individual neurons in classical Hopfield networks we find that below the memory capacity, the information in a neuron's activity is characterized by high redundancy between the external pattern input and the internal recurrent input, while synergy and unique information are close to zero until the memory capacity is surpassed and performance drops steeply. Inspired by this observation, we use redundancy as an information-theoretic learning goal, which is directly optimized for each neuron, dramatically increasing the network's memory capacity to 1.59, a more than tenfold improvement over the 0.14 capacity of classical Hopfield networks and even outperforming recent state-of-the-art implementations of Hopfield networks. Ultimately, this work establishes redundancy maximization as a new design principle for associative memories and opens pathways for new associative memory models based on information-theoretic goals.",
     "authors": [
-      "Mark Bl\u00fcmel",
+      "Mark Blümel",
       "Andreas C. Schneider",
       "Valentin Neuhaus",
       "David A. Ehrlich",
@@ -2250,7 +2250,7 @@
     "summary": "We present PercHead, a method for single-image 3D head reconstruction and semantic 3D editing - two tasks that are inherently challenging due to severe view occlusions, weak perceptual supervision, and the ambiguity of editing in 3D space. We develop a unified base model for reconstructing view-consistent 3D heads from a single input image. The model employs a dual-branch encoder followed by a ViT-based decoder that lifts 2D features into 3D space through iterative cross-attention. Rendering is performed using Gaussian Splatting. At the heart of our approach is a novel perceptual supervision strategy based on DINOv2 and SAM2.1, which provides rich, generalized signals for both geometric and appearance fidelity. Our model achieves state-of-the-art performance in novel-view synthesis and, furthermore, exhibits exceptional robustness to extreme viewing angles compared to established baselines. Furthermore, this base model can be seamlessly extended for semantic 3D editing by swapping the encoder and finetuning the network. In this variant, we disentangle geometry and style through two distinct input modalities: a segmentation map to control geometry and either a text prompt or a reference image to specify appearance. We highlight the intuitive and powerful 3D editing capabilities of our model through a lightweight, interactive GUI, where users can effortlessly sculpt geometry by drawing segmentation maps and stylize appearance via natural language or image prompts.   Project Page: https://antoniooroz.github.io/PercHead Video: https://www.youtube.com/watch?v=4hFybgTk4kE",
     "authors": [
       "Antonio Oroz",
-      "Matthias Nie\u00dfner",
+      "Matthias Nießner",
       "Tobias Kirschstein"
     ],
     "categories": [
@@ -2327,7 +2327,7 @@
       "Shambhavi Mishra",
       "Sebastien Paquet",
       "Srinivas Sunkara",
-      "Val\u00e9rie B\u00e9caert",
+      "Valérie Bécaert",
       "Sathwik Tejaswi Madhusudhan",
       "Torsten Scholak"
     ],
@@ -2644,7 +2644,7 @@
     "summary": "With the recent success of generative models in image and text, the question of their evaluation has recently gained a lot of attention. While most methods from the state of the art rely on scalar metrics, the introduction of Precision and Recall (PR) for generative model has opened up a new avenue of research. The associated PR curve allows for a richer analysis, but their estimation poses several challenges. In this paper, we present a new framework for estimating entire PR curves based on a binary classification standpoint. We conduct a thorough statistical analysis of the proposed estimates. As a byproduct, we obtain a minimax upper bound on the PR estimation risk. We also show that our framework extends several landmark PR metrics of the literature which by design are restrained to the extreme values of the curve. Finally, we study the different behaviors of the curves obtained experimentally in various settings.",
     "authors": [
       "Benjamin Sykes",
-      "Lo\u00efc Simon",
+      "Loïc Simon",
       "Julien Rabin",
       "Jalal Fadili"
     ],
@@ -3001,12 +3001,12 @@
     "title": "LLEXICORP: End-user Explainability of Convolutional Neural Networks",
     "summary": "Convolutional neural networks (CNNs) underpin many modern computer vision systems. With applications ranging from common to critical areas, a need to explain and understand the model and its decisions (XAI) emerged. Prior works suggest that in the top layers of CNNs, the individual channels can be attributed to classifying human-understandable concepts. Concept relevance propagation (CRP) methods can backtrack predictions to these channels and find images that most activate these channels. However, current CRP workflows are largely manual: experts must inspect activation images to name the discovered concepts and must synthesize verbose explanations from relevance maps, limiting the accessibility of the explanations and their scalability.   To address these issues, we introduce Large Language model EXplaIns COncept Relevance Propagation (LLEXICORP), a modular pipeline that couples CRP with a multimodal large language model. Our approach automatically assigns descriptive names to concept prototypes and generates natural-language explanations that translate quantitative relevance distributions into intuitive narratives. To ensure faithfulness, we craft prompts that teach the language model the semantics of CRP through examples and enforce a separation between naming and explanation tasks. The resulting text can be tailored to different audiences, offering low-level technical descriptions for experts and high-level summaries for non-technical stakeholders.   We qualitatively evaluate our method on various images from ImageNet on a VGG16 model. Our findings suggest that integrating concept-based attribution methods with large language models can significantly lower the barrier to interpreting deep neural networks, paving the way for more transparent AI systems.",
     "authors": [
-      "Vojt\u011bch K\u016fr",
+      "Vojtěch Kůr",
       "Adam Bajger",
-      "Adam Kuku\u010dka",
+      "Adam Kukučka",
       "Marek Hradil",
-      "V\u00edt Musil",
-      "Tom\u00e1\u0161 Br\u00e1zdil"
+      "Vít Musil",
+      "Tomáš Brázdil"
     ],
     "categories": [
       "cs.CV",
@@ -3198,7 +3198,7 @@
     "summary": "Recently, the ChannelComp framework has proposed digital over-the-air computation by designing digital modulations that enable the computation of arbitrary functions. Unlike traditional analog over-the-air computation, which is restricted to nomographic functions, ChannelComp enables a broader range of computational tasks while maintaining compatibility with digital communication systems. This framework is intended for applications that favor local information processing over the mere acquisition of data. However, ChannelComp is currently designed for scalar function computation, while numerous data-centric applications necessitate vector-based computations, and it is susceptible to channel fading. In this work, we introduce a generalization of the ChannelComp framework, called VecComp, by integrating ChannelComp with multiple-antenna technology. This generalization not only enables vector function computation but also ensures scalability in the computational complexity, which increases only linearly with the vector dimension. As such, VecComp remains computationally efficient and robust against channel impairments, making it suitable for high-dimensional, data-centric applications. We establish a non-asymptotic upper bound on the mean squared error of VecComp, affirming its computation efficiency under fading channel conditions. Numerical experiments show the effectiveness of VecComp in improving the computation of vector functions and fading compensation over noisy and fading multiple-access channels.",
     "authors": [
       "Saeed Razavikia",
-      "Jos\u00e9 Mairton Barros Da Silva Junior",
+      "José Mairton Barros Da Silva Junior",
       "Carlo Fischione"
     ],
     "categories": [
@@ -3448,7 +3448,7 @@
       "Tyler Zhu",
       "Tengda Han",
       "Leonidas Guibas",
-      "Viorica P\u0103tr\u0103ucean",
+      "Viorica Pătrăucean",
       "Maks Ovsjanikov"
     ],
     "categories": [
@@ -4011,7 +4011,7 @@
     "summary": "Multi-animal tracking is crucial for understanding animal ecology and behavior. However, it remains a challenging task due to variations in habitat, motion patterns, and species appearance. Traditional approaches typically require extensive model fine-tuning and heuristic design for each application scenario. In this work, we explore the potential of recent vision foundation models for zero-shot multi-animal tracking. By combining a Grounding Dino object detector with the Segment Anything Model 2 (SAM 2) tracker and carefully designed heuristics, we develop a tracking framework that can be applied to new datasets without any retraining or hyperparameter adaptation. Evaluations on ChimpAct, Bird Flock Tracking, AnimalTrack, and a subset of GMOT-40 demonstrate strong and consistent performance across diverse species and environments. The code is available at https://github.com/ecker-lab/SAM2-Animal-Tracking.",
     "authors": [
       "Jan Frederik Meier",
-      "Timo L\u00fcddecke"
+      "Timo Lüddecke"
     ],
     "categories": [
       "cs.CV"
@@ -4166,7 +4166,7 @@
       "Nicolas Schuler",
       "Lea Dewald",
       "Nick Baldig",
-      "J\u00fcrgen Graf"
+      "Jürgen Graf"
     ],
     "categories": [
       "cs.CV",
@@ -4309,7 +4309,7 @@
       "Martine Hjelkrem-Tan",
       "Nico Catalano",
       "Changkyu Choi",
-      "Ad\u00edn Ram\u00edrez Rivera"
+      "Adín Ramírez Rivera"
     ],
     "categories": [
       "cs.CV",
@@ -4406,7 +4406,7 @@
     "authors": [
       "Nicolas Schuler",
       "Lea Dewald",
-      "J\u00fcrgen Graf"
+      "Jürgen Graf"
     ],
     "categories": [
       "cs.CV",
@@ -4439,245 +4439,5 @@
     "date": "2025-11-05",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "101rakibulhasan/extBanglaT5",
-    "author": "unknown",
-    "title": "101rakibulhasan/extBanglaT5",
-    "downloads": 4482,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "t5",
-      "bangla",
-      "bengali",
-      "translation",
-      "classification",
-      "seq2seq",
-      "text2text-generation",
-      "bn",
-      "en",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "translation",
-    "library": "",
-    "created_at": "2025-11-01T13:25:13.000Z",
-    "last_modified": "2025-11-05T04:10:01.000Z",
-    "days_since_creation": 3,
-    "url": "https://huggingface.co/101rakibulhasan/extBanglaT5",
-    "date": "2025-11-05",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "jrkenny/Qwen3-0.6B-Gensyn-Swarm-tawny_wise_wombat",
-    "author": "unknown",
-    "title": "jrkenny/Qwen3-0.6B-Gensyn-Swarm-tawny_wise_wombat",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am tawny_wise_wombat",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-11-04T06:50:17.000Z",
-    "last_modified": "2025-11-05T04:09:32.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/jrkenny/Qwen3-0.6B-Gensyn-Swarm-tawny_wise_wombat",
-    "date": "2025-11-05",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ARG-NCTU/detr-resnet-50-finetuned-600-epochs-sonar-dataset",
-    "author": "unknown",
-    "title": "ARG-NCTU/detr-resnet-50-finetuned-600-epochs-sonar-dataset",
-    "downloads": 532,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "detr",
-      "object-detection",
-      "generated_from_trainer",
-      "base_model:facebook/detr-resnet-50",
-      "base_model:finetune:facebook/detr-resnet-50",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "transformers",
-    "created_at": "2025-11-03T13:59:32.000Z",
-    "last_modified": "2025-11-05T04:09:31.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/ARG-NCTU/detr-resnet-50-finetuned-600-epochs-sonar-dataset",
-    "date": "2025-11-05",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "sfaff/Qwen3-0.6B-Gensyn-Swarm-stalking_extinct_rhino",
-    "author": "unknown",
-    "title": "sfaff/Qwen3-0.6B-Gensyn-Swarm-stalking_extinct_rhino",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am stalking_extinct_rhino",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-11-04T16:03:49.000Z",
-    "last_modified": "2025-11-05T04:09:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/sfaff/Qwen3-0.6B-Gensyn-Swarm-stalking_extinct_rhino",
-    "date": "2025-11-05",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "yhttt2/tha_Qwen_Qwen2.5-Coder-3B_0_ft_clm_best",
-    "author": "unknown",
-    "title": "yhttt2/tha_Qwen_Qwen2.5-Coder-3B_0_ft_clm_best",
-    "downloads": 10,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-11-04T03:53:41.000Z",
-    "last_modified": "2025-11-05T04:08:54.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/yhttt2/tha_Qwen_Qwen2.5-Coder-3B_0_ft_clm_best",
-    "date": "2025-11-05",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "martineux/panime4",
-    "author": "unknown",
-    "title": "martineux/panime4",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "diffusers",
-      "safetensors",
-      "autotrain_compatible",
-      "endpoints_compatible",
-      "diffusers:StableDiffusionXLPipeline",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "diffusers",
-    "created_at": "2025-11-05T02:13:16.000Z",
-    "last_modified": "2025-11-05T04:08:03.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/martineux/panime4",
-    "date": "2025-11-05",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "kai2392/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-dormant_sizable_bobcat",
-    "author": "unknown",
-    "title": "kai2392/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-dormant_sizable_bobcat",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am dormant_sizable_bobcat",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-11-05T00:40:29.000Z",
-    "last_modified": "2025-11-05T04:07:27.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/kai2392/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-dormant_sizable_bobcat",
-    "date": "2025-11-05",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "HuangRT/SmolVLM-500M-Instruct-bl-15-stage3-new",
-    "author": "unknown",
-    "title": "HuangRT/SmolVLM-500M-Instruct-bl-15-stage3-new",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "idefics3bl",
-      "image-to-text",
-      "custom_code",
-      "arxiv:1910.09700",
-      "region:us"
-    ],
-    "pipeline_tag": "image-to-text",
-    "library": "transformers",
-    "created_at": "2025-11-05T04:05:55.000Z",
-    "last_modified": "2025-11-05T04:06:46.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/HuangRT/SmolVLM-500M-Instruct-bl-15-stage3-new",
-    "date": "2025-11-05",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
