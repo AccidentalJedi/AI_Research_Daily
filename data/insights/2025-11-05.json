@@ -1,0 +1,29 @@
+{
+  "date": "2025-11-05T00:28:17.276603",
+  "patterns": {
+    "reasoning": [
+      {
+        "title": "yufeng1/Apriel-15B-reasoning-lora-type1-e5",
+        "url": "https://huggingface.co/yufeng1/Apriel-15B-reasoning-lora-type1-e5"
+      },
+      {
+        "title": "inferencerlabs/Qwen3-Coder-480B-A35B-Instruct-MLX-8.5bit",
+        "url": "https://huggingface.co/inferencerlabs/Qwen3-Coder-480B-A35B-Instruct-MLX-8.5bit"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "confidence": "medium"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 2
+  }
+}
