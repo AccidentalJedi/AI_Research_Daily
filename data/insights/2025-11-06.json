@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-06T12:12:45.858305",
+  "date": "2025-11-06T16:09:50.366146",
   "patterns": {
     "multimodal_research": [
       {
@@ -993,6 +993,10 @@
       {
         "title": "Signal Intensity-weighted coordinate channels improve learning stability   and generalisation in 1D and 2D CNNs in localisation tasks on biomedical   signals",
         "url": "https://arxiv.org/abs/2511.03645v1"
+      },
+      {
+        "title": "yufeng1/Apriel-15B-reasoning-lora-type1-e5-2",
+        "url": "https://huggingface.co/yufeng1/Apriel-15B-reasoning-lora-type1-e5-2"
       }
     ],
     "benchmarks": [
@@ -1357,7 +1361,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "59 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1386,6 +1390,11 @@
       "significance": "high"
     },
     {
+      "topic": "reasoning",
+      "frequency": 31,
+      "significance": "high"
+    },
+    {
       "topic": "generation",
       "frequency": 30,
       "significance": "high"
@@ -1394,16 +1403,11 @@
       "topic": "architecture",
       "frequency": 30,
       "significance": "high"
-    },
-    {
-      "topic": "reasoning",
-      "frequency": 30,
-      "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 326
+    "total_papers": 327
   }
 }
