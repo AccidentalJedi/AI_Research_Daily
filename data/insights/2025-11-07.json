@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-07T12:12:17.874924",
+  "date": "2025-11-07T16:09:03.050672",
   "patterns": {
     "multimodal_research": [
       {
@@ -665,6 +665,10 @@
       {
         "title": "RISE-T2V: Rephrasing and Injecting Semantics with LLM for Expansive   Text-to-Video Generation",
         "url": "https://arxiv.org/abs/2511.04317v1"
+      },
+      {
+        "title": "vijayfdgda/bert-finetuned-imdb",
+        "url": "https://huggingface.co/vijayfdgda/bert-finetuned-imdb"
       }
     ],
     "vision_systems": [
@@ -1549,7 +1553,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1608,6 +1612,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 377
+    "total_papers": 378
   }
 }
