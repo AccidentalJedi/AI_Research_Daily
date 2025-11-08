@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-08T08:09:36.456320",
+  "date": "2025-11-08T12:11:52.920287",
   "patterns": {
     "multimodal_research": [
       {
@@ -911,6 +911,10 @@
       {
         "title": "Solving Convex Partition Visual Jigsaw Puzzles",
         "url": "https://arxiv.org/abs/2511.04450v1"
+      },
+      {
+        "title": "Alelcv27/Qwen-3B-Instruct-Breadcrumbs-v1",
+        "url": "https://huggingface.co/Alelcv27/Qwen-3B-Instruct-Breadcrumbs-v1"
       }
     ],
     "reasoning": [
@@ -1145,6 +1149,10 @@
       {
         "title": "Neural Computation Without Slots: Steps Towards Biologically Plausible   Memory and Attention in Natural and Artificial Intelligence",
         "url": "https://arxiv.org/abs/2511.04593v1"
+      },
+      {
+        "title": "inferencerlabs/Kimi-K2-Thinking-MLX-4.25bit",
+        "url": "https://huggingface.co/inferencerlabs/Kimi-K2-Thinking-MLX-4.25bit"
       }
     ],
     "benchmarks": [
@@ -1555,13 +1563,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "61 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "58 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1608,6 +1616,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 377
+    "total_papers": 379
   }
 }
