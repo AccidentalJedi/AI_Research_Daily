@@ -1,11 +1,22 @@
 {
-  "date": "2025-11-10T00:29:43.100860",
-  "patterns": {},
+  "date": "2025-11-10T04:13:32.412640",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "12kimih/Qwen3-0.6B-r1qa-gpt-oss-v7-online",
+        "url": "https://huggingface.co/12kimih/Qwen3-0.6B-r1qa-gpt-oss-v7-online"
+      },
+      {
+        "title": "12kimih/Qwen3-0.6B-r1qa-gpt-oss-v7-offline",
+        "url": "https://huggingface.co/12kimih/Qwen3-0.6B-r1qa-gpt-oss-v7-offline"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
