@@ -223,7 +223,7 @@
     "summary": "Anomaly detection plays a pivotal role in automated industrial inspection, aiming to identify subtle or rare defects in otherwise uniform visual patterns. As collecting representative examples of all possible anomalies is infeasible, we tackle structural anomaly detection using a self-supervised autoencoder that learns to repair corrupted inputs. To this end, we introduce a corruption model that injects artificial disruptions into training images to mimic structural defects. While reminiscent of denoising autoencoders, our approach differs in two key aspects. First, instead of unstructured i.i.d.\\ noise, we apply structured, spatially coherent perturbations that make the task a hybrid of segmentation and inpainting. Second, and counterintuitively, we add and preserve Gaussian noise on top of the occlusions, which acts as a Tikhonov regularizer anchoring the Jacobian of the reconstruction function toward identity. This identity-anchored regularization stabilizes reconstruction and further improves both detection and segmentation accuracy. On the MVTec AD benchmark, our method achieves state-of-the-art results (I/P-AUROC: 99.9/99.4), supporting our theoretical framework and demonstrating its practical relevance for automatic inspection.",
     "authors": [
       "Alexander Bauer",
-      "Klaus-Robert M\u00fcller"
+      "Klaus-Robert Müller"
     ],
     "categories": [
       "cs.CV",
@@ -314,7 +314,7 @@
     "title": "Federated Learning for Video Violence Detection: Complementary Roles of   Lightweight CNNs and Vision-Language Models for Energy-Efficient Use",
     "summary": "Deep learning-based video surveillance increasingly demands privacy-preserving architectures with low computational and environmental overhead. Federated learning preserves privacy but deploying large vision-language models (VLMs) introduces major energy and sustainability challenges. We compare three strategies for federated violence detection under realistic non-IID splits on the RWF-2000 and RLVS datasets: zero-shot inference with pretrained VLMs, LoRA-based fine-tuning of LLaVA-NeXT-Video-7B, and personalized federated learning of a 65.8M-parameter 3D CNN. All methods exceed 90% accuracy in binary violence detection. The 3D CNN achieves superior calibration (ROC AUC 92.59%) at roughly half the energy cost (240 Wh vs. 570 Wh) of federated LoRA, while VLMs provide richer multimodal reasoning. Hierarchical category grouping (based on semantic similarity and class exclusion) boosts VLM multiclass accuracy from 65.31% to 81% on the UCF-Crime dataset. To our knowledge, this is the first comparative simulation study of LoRA-tuned VLMs and personalized CNNs for federated violence detection, with explicit energy and CO2e quantification. Our results inform hybrid deployment strategies that default to efficient CNNs for routine inference and selectively engage VLMs for complex contextual reasoning.",
     "authors": [
-      "S\u00e9bastien Thuau",
+      "Sébastien Thuau",
       "Siba Haidar",
       "Rachid Chelouah"
     ],
@@ -473,15 +473,15 @@
       "Julian Schrader",
       "Christian Rossi",
       "Javier Lopatin",
-      "Etienne Lalibert\u00e9",
+      "Etienne Laliberté",
       "Simon Haberstroh",
       "Jana Eichel",
       "Daniel Mederer",
       "Jose Miguel Cerda-Paredes",
       "Shyam S. Phartyal",
       "Lisa-Maricia Schwarz",
-      "Anja Linst\u00e4dter",
-      "Maria Concei\u00e7\u00e3o Caldeira",
+      "Anja Linstädter",
+      "Maria Conceição Caldeira",
       "Teja Kattenborn"
     ],
     "categories": [
@@ -837,7 +837,7 @@
     "title": "Who Is the Story About? Protagonist Entity Recognition in News",
     "summary": "News articles often reference numerous organizations, but traditional Named Entity Recognition (NER) treats all mentions equally, obscuring which entities genuinely drive the narrative. This limits downstream tasks that rely on understanding event salience, influence, or narrative focus. We introduce Protagonist Entity Recognition (PER), a task that identifies the organizations that anchor a news story and shape its main developments. To validate PER, we compare he predictions of Large Language Models (LLMs) against annotations from four expert annotators over a gold corpus, establishing both inter-annotator consistency and human-LLM agreement. Leveraging these findings, we use state-of-the-art LLMs to automatically label large-scale news collections through NER-guided prompting, generating scalable, high-quality supervision. We then evaluate whether other LLMs, given reduced context and without explicit candidate guidance, can still infer the correct protagonists. Our results demonstrate that PER is a feasible and meaningful extension to narrative-centered information extraction, and that guided LLMs can approximate human judgments of narrative importance at scale.",
     "authors": [
-      "Jorge Gab\u00edn",
+      "Jorge Gabín",
       "M. Eduardo Ares",
       "Javier Parapar"
     ],
@@ -898,7 +898,7 @@
     "title": "Conditional Diffusion as Latent Constraints for Controllable Symbolic   Music Generation",
     "summary": "Recent advances in latent diffusion models have demonstrated state-of-the-art performance in high-dimensional time-series data synthesis while providing flexible control through conditioning and guidance. However, existing methodologies primarily rely on musical context or natural language as the main modality of interacting with the generative process, which may not be ideal for expert users who seek precise fader-like control over specific musical attributes. In this work, we explore the application of denoising diffusion processes as plug-and-play latent constraints for unconditional symbolic music generation models. We focus on a framework that leverages a library of small conditional diffusion models operating as implicit probabilistic priors on the latents of a frozen unconditional backbone. While previous studies have explored domain-specific use cases, this work, to the best of our knowledge, is the first to demonstrate the versatility of such an approach across a diverse array of musical attributes, such as note density, pitch range, contour, and rhythm complexity. Our experiments show that diffusion-driven constraints outperform traditional attribute regularization and other latent constraints architectures, achieving significantly stronger correlations between target and generated attributes while maintaining high perceptual quality and diversity.",
     "authors": [
-      "Matteo Petten\u00f3",
+      "Matteo Pettenó",
       "Alessandro Ilic Mezza",
       "Alberto Bernardini"
     ],
@@ -921,7 +921,7 @@
     "authors": [
       "Sirui Wang",
       "Jiang He",
-      "Nat\u00e0lia Blasco Andreo",
+      "Natàlia Blasco Andreo",
       "Xiao Xiang Zhu"
     ],
     "categories": [
@@ -1110,7 +1110,7 @@
       "Kevin Qinghong Lin",
       "Kaixin Li",
       "Rabiul Awal",
-      "Xing Han L\u00f9",
+      "Xing Han Lù",
       "Johan Obando-Ceron",
       "Juan A. Rodriguez",
       "Nicolas Chapados",
@@ -1456,8 +1456,8 @@
       "Simone Bendazzoli",
       "Antonios Tzortzakakis",
       "Andreas Abrahamsson",
-      "Bj\u00f6rn Engelbrekt Wahlin",
-      "\u00d6rjan Smedby",
+      "Björn Engelbrekt Wahlin",
+      "Örjan Smedby",
       "Maria Holstensson",
       "Rodrigo Moreno"
     ],
@@ -1715,8 +1715,8 @@
     "title": "Pandar128 dataset for lane line detection",
     "summary": "We present Pandar128, the largest public dataset for lane line detection using a 128-beam LiDAR. It contains over 52,000 camera frames and 34,000 LiDAR scans, captured in diverse real-world conditions in Germany. The dataset includes full sensor calibration (intrinsics, extrinsics) and synchronized odometry, supporting tasks such as projection, fusion, and temporal modeling.   To complement the dataset, we also introduce SimpleLidarLane, a light-weight baseline method for lane line reconstruction that combines BEV segmentation, clustering, and polyline fitting. Despite its simplicity, our method achieves strong performance under challenging various conditions (e.g., rain, sparse returns), showing that modular pipelines paired with high-quality data and principled evaluation can compete with more complex approaches.   Furthermore, to address the lack of standardized evaluation, we propose a novel polyline-based metric - Interpolation-Aware Matching F1 (IAM-F1) - that employs interpolation-aware lateral matching in BEV space.   All data and code are publicly released to support reproducibility in LiDAR-based lane detection.",
     "authors": [
-      "Filip Ber\u00e1nek",
-      "V\u00e1clav Divi\u0161",
+      "Filip Beránek",
+      "Václav Diviš",
       "Ivan Gruber"
     ],
     "categories": [
@@ -1851,8 +1851,8 @@
     "summary": "We introduce SPOT (Stopping Points in Online Threads), the first annotated corpus translating the sociological concept of stopping point into a reproducible NLP task. Stopping points are ordinary critical interventions that pause or redirect online discussions through a range of forms (irony, subtle doubt or fragmentary arguments) that frameworks like counterspeech or social correction often overlook. We operationalize this concept as a binary classification task and provide reliable annotation guidelines. The corpus contains 43,305 manually annotated French Facebook comments linked to URLs flagged as false information by social media users, enriched with contextual metadata (article, post, parent comment, page or group, and source). We benchmark fine-tuned encoder models (CamemBERT) and instruction-tuned LLMs under various prompting strategies. Results show that fine-tuned encoders outperform prompted LLMs in F1 score by more than 10 percentage points, confirming the importance of supervised learning for emerging non-English social media tasks. Incorporating contextual metadata further improves encoder models F1 scores from 0.75 to 0.78. We release the anonymized dataset, along with the annotation guidelines and code in our code repository, to foster transparency and reproducible research.",
     "authors": [
       "Manon Berriche",
-      "C\u00e9lia Nouri",
-      "Chlo\u00e9 Clavel",
+      "Célia Nouri",
+      "Chloé Clavel",
       "Jean-Philippe Cointet"
     ],
     "categories": [
@@ -2179,7 +2179,7 @@
     "summary": "The opaque nature of deep learning models presents significant challenges for the ethical deployment of hate speech detection systems. To address this limitation, we introduce Supervised Rational Attention (SRA), a framework that explicitly aligns model attention with human rationales, improving both interpretability and fairness in hate speech classification. SRA integrates a supervised attention mechanism into transformer-based classifiers, optimizing a joint objective that combines standard classification loss with an alignment loss term that minimizes the discrepancy between attention weights and human-annotated rationales. We evaluated SRA on hate speech benchmarks in English (HateXplain) and Portuguese (HateBRXplain) with rationale annotations. Empirically, SRA achieves 2.4x better explainability compared to current baselines, and produces token-level explanations that are more faithful and human-aligned. In terms of fairness, SRA achieves competitive fairness across all measures, with second-best performance in detecting toxic posts targeting identity groups, while maintaining comparable results on other metrics. These findings demonstrate that incorporating human rationales into attention mechanisms can enhance interpretability and faithfulness without compromising fairness.",
     "authors": [
       "Brage Eilertsen",
-      "R\u00f8skva Bj\u00f8rgfinsd\u00f3ttir",
+      "Røskva Bjørgfinsdóttir",
       "Francielle Vargas",
       "Ali Ramezani-Kebrya"
     ],
@@ -2511,7 +2511,7 @@
   },
   {
     "arxiv_id": "2511.07406v1",
-    "title": "Entangled Schr\u00f6dinger Bridge Matching",
+    "title": "Entangled Schrödinger Bridge Matching",
     "summary": "Simulating trajectories of multi-particle systems on complex energy landscapes is a central task in molecular dynamics (MD) and drug discovery, but remains challenging at scale due to computationally expensive and long simulations. Previous approaches leverage techniques such as flow or Schr\\\"odinger bridge matching to implicitly learn joint trajectories through data snapshots. However, many systems, including biomolecular systems and heterogeneous cell populations, undergo dynamic interactions that evolve over their trajectory and cannot be captured through static snapshots. To close this gap, we introduce Entangled Schr\\\"odinger Bridge Matching (EntangledSBM), a framework that learns the first- and second-order stochastic dynamics of interacting, multi-particle systems where the direction and magnitude of each particle's path depend dynamically on the paths of the other particles. We define the Entangled Schr\\\"odinger Bridge (EntangledSB) problem as solving a coupled system of bias forces that entangle particle velocities. We show that our framework accurately simulates heterogeneous cell populations under perturbations and rare transitions in high-dimensional biomolecular systems.",
     "authors": [
       "Sophia Tang",
@@ -2800,10 +2800,10 @@
     "summary": "Current graph neural network (GNN) model-stealing methods rely heavily on queries to the victim model, assuming no hard query limits. However, in reality, the number of allowed queries can be severely limited. In this paper, we demonstrate how an adversary can extract the GNN with very limited interactions with the model. Our approach first enables the adversary to obtain the model backbone without making direct queries to the victim model and then to strategically utilize a fixed query limit to extract the most informative data. The experiments on eight real-world datasets demonstrate the effectiveness of the attack, even under a very restricted query limit and under defense against model extraction in place. Our findings underscore the need for robust defenses against GNN model extraction threats.",
     "authors": [
       "Marcin Podhajski",
-      "Jan Dubi\u0144ski",
+      "Jan Dubiński",
       "Franziska Boenisch",
       "Adam Dziedzic",
-      "Agnieszka Pr\u0119gowska",
+      "Agnieszka Pręgowska",
       "Tomasz P. Michalak"
     ],
     "categories": [
@@ -2848,7 +2848,7 @@
     "summary": "In this paper, we study the data complexity of querying inconsistent weighted description logic (DL) knowledge bases under recently-introduced cost-based semantics. In a nutshell, the idea is to assign each interpretation a cost based upon the weights of the violated axioms and assertions, and certain and possible query answers are determined by considering all (resp. some) interpretations having optimal or bounded cost. Whereas the initial study of cost-based semantics focused on DLs between $\\mathcal{EL}_\\bot$ and $\\mathcal{ALCO}$, we consider DLs that may contain inverse roles and role inclusions, thus covering prominent DL-Lite dialects. Our data complexity analysis goes significantly beyond existing results by sharpening several lower bounds and pinpointing the precise complexity of optimal-cost certain answer semantics (no non-trivial upper bound was known). Moreover, while all existing results show the intractability of cost-based semantics, our most challenging and surprising result establishes that if we consider $\\text{DL-Lite}^\\mathcal{H}_\\mathsf{bool}$ ontologies and a fixed cost bound, certain answers for instance queries and possible answers for conjunctive queries can be computed using first-order rewriting and thus enjoy the lowest possible data complexity ($\\mathsf{TC}_0$).",
     "authors": [
       "Meghyn Bienvenu",
-      "Quentin Mani\u00e8re"
+      "Quentin Manière"
     ],
     "categories": [
       "cs.AI"
@@ -3164,7 +3164,7 @@
     "authors": [
       "Kevin Zielnicki",
       "Guy Aridor",
-      "Aur\u00e9lien Bibaut",
+      "Aurélien Bibaut",
       "Allen Tran",
       "Winston Chou",
       "Nathan Kallus"
@@ -3208,7 +3208,7 @@
     "title": "On the Joint Minimization of Regularization Loss Functions in Deep   Variational Bayesian Methods for Attribute-Controlled Symbolic Music   Generation",
     "summary": "Explicit latent variable models provide a flexible yet powerful framework for data synthesis, enabling controlled manipulation of generative factors. With latent variables drawn from a tractable probability density function that can be further constrained, these models enable continuous and semantically rich exploration of the output space by navigating their latent spaces. Structured latent representations are typically obtained through the joint minimization of regularization loss functions. In variational information bottleneck models, reconstruction loss and Kullback-Leibler Divergence (KLD) are often linearly combined with an auxiliary Attribute-Regularization (AR) loss. However, balancing KLD and AR turns out to be a very delicate matter. When KLD dominates over AR, generative models tend to lack controllability; when AR dominates over KLD, the stochastic encoder is encouraged to violate the standard normal prior. We explore this trade-off in the context of symbolic music generation with explicit control over continuous musical attributes. We show that existing approaches struggle to jointly minimize both regularization objectives, whereas suitable attribute transformations can help achieve both controllability and regularization of the target latent dimensions.",
     "authors": [
-      "Matteo Petten\u00f3",
+      "Matteo Pettenó",
       "Alessandro Ilic Mezza",
       "Alberto Bernardini"
     ],
@@ -3251,7 +3251,7 @@
     "summary": "Feature attribution methods typically provide minimal sufficient evidence justifying a model decision. However, in many applications this is inadequate. For compliance and cataloging, the full set of contributing features must be identified - complete evidence. We perform a case study on a medical dataset which contains human-annotated complete evidence. We show that individual models typically recover only subsets of complete evidence and that aggregating evidence from several models improves evidence recall from $\\sim$0.60 (single best model) to $\\sim$0.86 (ensemble). We analyze the recall-precision trade-off, the role of training with evidence, dynamic ensembles with certainty thresholds, and discuss implications.",
     "authors": [
       "Katharina Beckh",
-      "Stefan R\u00fcping"
+      "Stefan Rüping"
     ],
     "categories": [
       "cs.CL",
@@ -4134,10 +4134,10 @@
   },
   {
     "arxiv_id": "2511.07414v1",
-    "title": "Wasserstein-Cram\u00e9r-Rao Theory of Unbiased Estimation",
+    "title": "Wasserstein-Cramér-Rao Theory of Unbiased Estimation",
     "summary": "The quantity of interest in the classical Cram\\'er-Rao theory of unbiased estimation (e.g., the Cram\\'er-Rao lower bound, its exact attainment for exponential families, and asymptotic efficiency of maximum likelihood estimation) is the variance, which represents the instability of an estimator when its value is compared to the value for an independently-sampled data set from the same distribution. In this paper we are interested in a quantity which represents the instability of an estimator when its value is compared to the value for an infinitesimal additive perturbation of the original data set; we refer to this as the \"sensitivity\" of an estimator. The resulting theory of sensitivity is based on the Wasserstein geometry in the same way that the classical theory of variance is based on the Fisher-Rao (equivalently, Hellinger) geometry, and this insight allows us to determine a collection of results which are analogous to the classical case: a Wasserstein-Cram\\'er-Rao lower bound for the sensitivity of any unbiased estimator, a characterization of models in which there exist unbiased estimators achieving the lower bound exactly, and some concrete results that show that the Wasserstein projection estimator achieves the lower bound asymptotically. We use these results to treat many statistical examples, sometimes revealing new optimality properties for existing estimators and other times revealing entirely new estimators.",
     "authors": [
-      "Nicol\u00e1s Garc\u00eda Trillos",
+      "Nicolás García Trillos",
       "Adam Quinn Jaffe",
       "Bodhisattva Sen"
     ],
@@ -4305,7 +4305,7 @@
       "Ulrich Gengenbach",
       "Ingo Sieber",
       "Hossein Shirali",
-      "Lorenz W\u00fchrl",
+      "Lorenz Wührl",
       "Rainer Kiko",
       "Christian Pylatiuk"
     ],
@@ -4346,7 +4346,7 @@
     "summary": "We aim to theorize the medieval manuscript page and its contents more holistically, using state-of-the-art techniques to segment and describe the entire manuscript folio, for the purpose of creating richer training data for computer vision techniques, namely instance segmentation, and multimodal models for medieval-specific visual content.",
     "authors": [
       "Christofer Meinecke",
-      "Estelle Gu\u00e9ville",
+      "Estelle Guéville",
       "David Joseph Wrisley"
     ],
     "categories": [
@@ -4393,7 +4393,7 @@
       "YongHun Suh",
       "Sungwon Han",
       "Jeasurk Yang",
-      "Hannes Taubenb\u00f6ck",
+      "Hannes Taubenböck",
       "Meeyoung Cha"
     ],
     "categories": [
@@ -4413,11 +4413,11 @@
     "authors": [
       "Luiz Schirmer",
       "Tiago Novello",
-      "Vin\u00edcius da Silva",
+      "Vinícius da Silva",
       "Guilherme Schardong",
       "Daniel Perazzo",
-      "H\u00e9lio Lopes",
-      "Nuno Gon\u00e7alves",
+      "Hélio Lopes",
+      "Nuno Gonçalves",
       "Luiz Velho"
     ],
     "categories": [
@@ -4463,7 +4463,7 @@
     "title": "High-dimensional Bayesian filtering through deep density approximation",
     "summary": "In this work, we benchmark two recently developed deep density methods for nonlinear filtering. Starting from the Fokker--Planck equation with Bayes updates, we model the filtering density of a discretely observed SDE. The two filters: the deep splitting filter and the deep BSDE filter, are both based on Feynman--Kac formulas, Euler--Maruyama discretizations and neural networks. The two methods are extended to logarithmic formulations providing sound and robust implementations in increasing state dimension. Comparing to the classical particle filters and ensemble Kalman filters, we benchmark the methods on numerous examples. In the low-dimensional examples the particle filters work well, but when we scale up to a partially observed 100-dimensional Lorenz-96 model the particle-based methods fail and the logarithmic deep density method prevails. In terms of computational efficiency, the deep density methods reduce inference time by roughly two to five orders of magnitude relative to the particle-based filters.",
     "authors": [
-      "Kasper B\u00e5gmark",
+      "Kasper Bågmark",
       "Filip Rydin"
     ],
     "categories": [
@@ -4487,7 +4487,7 @@
     "authors": [
       "Benjamin Doerr",
       "Martin S. Krejca",
-      "Milan Stankovi\u0107"
+      "Milan Stanković"
     ],
     "categories": [
       "cs.NE"
@@ -4498,101 +4498,5 @@
     "date": "2025-11-11",
     "source": "arxiv",
     "research_score": 0.43
-  },
-  {
-    "model_id": "mbyu330/Qwen3-0.6B-Gensyn-Swarm-twitchy_grassy_opossum",
-    "author": "unknown",
-    "title": "mbyu330/Qwen3-0.6B-Gensyn-Swarm-twitchy_grassy_opossum",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am twitchy_grassy_opossum",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-11-10T17:01:34.000Z",
-    "last_modified": "2025-11-11T04:09:45.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/mbyu330/Qwen3-0.6B-Gensyn-Swarm-twitchy_grassy_opossum",
-    "date": "2025-11-11",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Tyt4nn/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-feline_tough_butterfly",
-    "author": "unknown",
-    "title": "Tyt4nn/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-feline_tough_butterfly",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am feline_tough_butterfly",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-11-10T22:24:38.000Z",
-    "last_modified": "2025-11-11T04:09:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Tyt4nn/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-feline_tough_butterfly",
-    "date": "2025-11-11",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "contemmcm/31222725fd3503a76db01db02fc76c06",
-    "author": "unknown",
-    "title": "contemmcm/31222725fd3503a76db01db02fc76c06",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "bert",
-      "text-classification",
-      "generated_from_trainer",
-      "base_model:google-bert/bert-large-uncased-whole-word-masking-finetuned-squad",
-      "base_model:finetune:google-bert/bert-large-uncased-whole-word-masking-finetuned-squad",
-      "license:apache-2.0",
-      "autotrain_compatible",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2025-11-11T04:00:28.000Z",
-    "last_modified": "2025-11-11T04:08:10.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/contemmcm/31222725fd3503a76db01db02fc76c06",
-    "date": "2025-11-11",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
