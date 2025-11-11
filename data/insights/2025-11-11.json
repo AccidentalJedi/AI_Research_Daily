@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-11T08:10:45.465818",
+  "date": "2025-11-11T12:12:43.989340",
   "patterns": {
     "multimodal_research": [
       {
@@ -645,14 +645,6 @@
       {
         "title": "Automated Circuit Interpretation via Probe Prompting",
         "url": "https://arxiv.org/abs/2511.07002v1"
-      },
-      {
-        "title": "AnonymousCS/bert-chinese-weibo-80p-v4",
-        "url": "https://huggingface.co/AnonymousCS/bert-chinese-weibo-80p-v4"
-      },
-      {
-        "title": "gshasiri/SmolLM3-Mid",
-        "url": "https://huggingface.co/gshasiri/SmolLM3-Mid"
       }
     ],
     "vision_systems": [
@@ -1669,7 +1661,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1728,6 +1720,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 405
   }
 }
