@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-12T08:11:09.287988",
+  "date": "2025-11-12T12:13:53.430689",
   "patterns": {
     "multimodal_research": [
       {
@@ -59,16 +59,16 @@
         "url": "https://arxiv.org/abs/2511.07941v1"
       },
       {
-        "title": "MVU-Eval: Towards Multi-Video Understanding Evaluation for Multimodal LLMs",
-        "url": "https://arxiv.org/abs/2511.07250v1"
-      },
-      {
         "title": "Cross-Modal Unlearning via Influential Neuron Path Editing in Multimodal Large Language Models",
         "url": "https://arxiv.org/abs/2511.06793v1"
       },
       {
         "title": "FoCLIP: A Feature-Space Misalignment Framework for CLIP-Based Image Manipulation and Detection",
         "url": "https://arxiv.org/abs/2511.06947v1"
+      },
+      {
+        "title": "MVU-Eval: Towards Multi-Video Understanding Evaluation for Multimodal LLMs",
+        "url": "https://arxiv.org/abs/2511.07250v1"
       },
       {
         "title": "A Picture is Worth a Thousand (Correct) Captions: A Vision-Guided Judge-Corrector System for Multimodal Machine Translation",
@@ -205,12 +205,12 @@
         "url": "https://arxiv.org/abs/2511.07813v1"
       },
       {
-        "title": "GEWDiff: Geometric Enhanced Wavelet-based Diffusion Model for Hyperspectral Image Super-resolution",
-        "url": "https://arxiv.org/abs/2511.07103v1"
-      },
-      {
         "title": "Provably Efficient Sample Complexity for Robust CMDP",
         "url": "https://arxiv.org/abs/2511.07486v1"
+      },
+      {
+        "title": "GEWDiff: Geometric Enhanced Wavelet-based Diffusion Model for Hyperspectral Image Super-resolution",
+        "url": "https://arxiv.org/abs/2511.07103v1"
       },
       {
         "title": "Inference-Time Scaling of Diffusion Models for Infrared Data Generation",
@@ -273,12 +273,12 @@
         "url": "https://arxiv.org/abs/2511.07084v1"
       },
       {
-        "title": "Binary Split Categorical feature with Mean Absolute Error Criteria in CART",
-        "url": "https://arxiv.org/abs/2511.08470v1"
-      },
-      {
         "title": "Libra-MIL: Multimodal Prototypes Stereoscopic Infused with Task-specific Language Priors for Few-shot Whole Slide Image Classification",
         "url": "https://arxiv.org/abs/2511.07941v1"
+      },
+      {
+        "title": "Binary Split Categorical feature with Mean Absolute Error Criteria in CART",
+        "url": "https://arxiv.org/abs/2511.08470v1"
       },
       {
         "title": "A Picture is Worth a Thousand (Correct) Captions: A Vision-Guided Judge-Corrector System for Multimodal Machine Translation",
@@ -395,12 +395,12 @@
         "url": "https://arxiv.org/abs/2511.08567v1"
       },
       {
-        "title": "Real-Time LiDAR Super-Resolution via Frequency-Aware Multi-Scale Fusion",
-        "url": "https://arxiv.org/abs/2511.07377v1"
-      },
-      {
         "title": "Implicit Federated In-context Learning For Task-Specific LLM Fine-Tuning",
         "url": "https://arxiv.org/abs/2511.06757v1"
+      },
+      {
+        "title": "Real-Time LiDAR Super-Resolution via Frequency-Aware Multi-Scale Fusion",
+        "url": "https://arxiv.org/abs/2511.07377v1"
       },
       {
         "title": "Interaction Dynamics as a Reward Signal for LLMs",
@@ -439,12 +439,12 @@
         "url": "https://arxiv.org/abs/2511.06678v1"
       },
       {
-        "title": "Relation as a Prior: A Novel Paradigm for LLM-based Document-level Relation Extraction",
-        "url": "https://arxiv.org/abs/2511.08143v1"
-      },
-      {
         "title": "Sparse3DPR: Training-Free 3D Hierarchical Scene Parsing and Task-Adaptive Subgraph Reasoning from Sparse RGB Views",
         "url": "https://arxiv.org/abs/2511.07813v1"
+      },
+      {
+        "title": "Relation as a Prior: A Novel Paradigm for LLM-based Document-level Relation Extraction",
+        "url": "https://arxiv.org/abs/2511.08143v1"
       },
       {
         "title": "From Exploration to Exploitation: A Two-Stage Entropy RLVR Approach for Noise-Tolerant MLLM Training",
@@ -535,12 +535,12 @@
         "url": "https://arxiv.org/abs/2511.08225v1"
       },
       {
-        "title": "MVU-Eval: Towards Multi-Video Understanding Evaluation for Multimodal LLMs",
-        "url": "https://arxiv.org/abs/2511.07250v1"
-      },
-      {
         "title": "Cross-Modal Unlearning via Influential Neuron Path Editing in Multimodal Large Language Models",
         "url": "https://arxiv.org/abs/2511.06793v1"
+      },
+      {
+        "title": "MVU-Eval: Towards Multi-Video Understanding Evaluation for Multimodal LLMs",
+        "url": "https://arxiv.org/abs/2511.07250v1"
       },
       {
         "title": "MENTOR: A Metacognition-Driven Self-Evolution Framework for Uncovering and Mitigating Implicit Risks in LLMs on Domain Tasks",
@@ -695,8 +695,12 @@
         "url": "https://arxiv.org/abs/2511.06763v1"
       },
       {
-        "title": "dck003/roberta-base-finetuned",
-        "url": "https://huggingface.co/dck003/roberta-base-finetuned"
+        "title": "AntonySalta/distilbert-base-uncased-finetuned-cola",
+        "url": "https://huggingface.co/AntonySalta/distilbert-base-uncased-finetuned-cola"
+      },
+      {
+        "title": "arthurbittencourt/november-cached_predator-xlm-roberta-5000-dblp_6_a-fold4",
+        "url": "https://huggingface.co/arthurbittencourt/november-cached_predator-xlm-roberta-5000-dblp_6_a-fold4"
       }
     ],
     "vision_systems": [
@@ -781,12 +785,12 @@
         "url": "https://arxiv.org/abs/2511.06678v1"
       },
       {
-        "title": "GEWDiff: Geometric Enhanced Wavelet-based Diffusion Model for Hyperspectral Image Super-resolution",
-        "url": "https://arxiv.org/abs/2511.07103v1"
-      },
-      {
         "title": "Provably Efficient Sample Complexity for Robust CMDP",
         "url": "https://arxiv.org/abs/2511.07486v1"
+      },
+      {
+        "title": "GEWDiff: Geometric Enhanced Wavelet-based Diffusion Model for Hyperspectral Image Super-resolution",
+        "url": "https://arxiv.org/abs/2511.07103v1"
       },
       {
         "title": "Inference-Time Scaling of Diffusion Models for Infrared Data Generation",
@@ -841,16 +845,16 @@
         "url": "https://arxiv.org/abs/2511.08225v1"
       },
       {
-        "title": "MVU-Eval: Towards Multi-Video Understanding Evaluation for Multimodal LLMs",
-        "url": "https://arxiv.org/abs/2511.07250v1"
-      },
-      {
         "title": "Cross-Modal Unlearning via Influential Neuron Path Editing in Multimodal Large Language Models",
         "url": "https://arxiv.org/abs/2511.06793v1"
       },
       {
         "title": "FoCLIP: A Feature-Space Misalignment Framework for CLIP-Based Image Manipulation and Detection",
         "url": "https://arxiv.org/abs/2511.06947v1"
+      },
+      {
+        "title": "MVU-Eval: Towards Multi-Video Understanding Evaluation for Multimodal LLMs",
+        "url": "https://arxiv.org/abs/2511.07250v1"
       },
       {
         "title": "A Picture is Worth a Thousand (Correct) Captions: A Vision-Guided Judge-Corrector System for Multimodal Machine Translation",
@@ -945,16 +949,16 @@
         "url": "https://arxiv.org/abs/2511.08368v1"
       },
       {
+        "title": "Concentration bounds on response-based vector embeddings of black-box generative models",
+        "url": "https://arxiv.org/abs/2511.08307v1"
+      },
+      {
         "title": "Simulating the Visual World with Artificial Intelligence: A Roadmap",
         "url": "https://arxiv.org/abs/2511.08585v1"
       },
       {
         "title": "Automatic Grid Updates for Kolmogorov-Arnold Networks using Layer Histograms",
         "url": "https://arxiv.org/abs/2511.08570v1"
-      },
-      {
-        "title": "Concentration bounds on response-based vector embeddings of black-box generative models",
-        "url": "https://arxiv.org/abs/2511.08307v1"
       },
       {
         "title": "LMM-IQA: Image Quality Assessment for Low-Dose CT Imaging",
@@ -1003,12 +1007,12 @@
         "url": "https://arxiv.org/abs/2511.08567v1"
       },
       {
-        "title": "Real-Time LiDAR Super-Resolution via Frequency-Aware Multi-Scale Fusion",
-        "url": "https://arxiv.org/abs/2511.07377v1"
-      },
-      {
         "title": "Implicit Federated In-context Learning For Task-Specific LLM Fine-Tuning",
         "url": "https://arxiv.org/abs/2511.06757v1"
+      },
+      {
+        "title": "Real-Time LiDAR Super-Resolution via Frequency-Aware Multi-Scale Fusion",
+        "url": "https://arxiv.org/abs/2511.07377v1"
       },
       {
         "title": "Explainable Cross-Disease Reasoning for Cardiovascular Risk Assessment from LDCT",
@@ -1095,12 +1099,12 @@
         "url": "https://arxiv.org/abs/2511.07941v1"
       },
       {
-        "title": "MVU-Eval: Towards Multi-Video Understanding Evaluation for Multimodal LLMs",
-        "url": "https://arxiv.org/abs/2511.07250v1"
-      },
-      {
         "title": "Cross-Modal Unlearning via Influential Neuron Path Editing in Multimodal Large Language Models",
         "url": "https://arxiv.org/abs/2511.06793v1"
+      },
+      {
+        "title": "MVU-Eval: Towards Multi-Video Understanding Evaluation for Multimodal LLMs",
+        "url": "https://arxiv.org/abs/2511.07250v1"
       },
       {
         "title": "Robust Experimental Design via Generalised Bayesian Inference",
@@ -1203,16 +1207,16 @@
         "url": "https://arxiv.org/abs/2511.07689v1"
       },
       {
-        "title": "Simulating the Visual World with Artificial Intelligence: A Roadmap",
-        "url": "https://arxiv.org/abs/2511.08585v1"
-      },
-      {
         "title": "Concentration bounds on response-based vector embeddings of black-box generative models",
         "url": "https://arxiv.org/abs/2511.08307v1"
       },
       {
         "title": "Bi-Objective Evolutionary Optimization for Large-Scale Open Pit Mine Scheduling Problem under Uncertainty with Chance Constraints",
         "url": "https://arxiv.org/abs/2511.08275v1"
+      },
+      {
+        "title": "Simulating the Visual World with Artificial Intelligence: A Roadmap",
+        "url": "https://arxiv.org/abs/2511.08585v1"
       },
       {
         "title": "Learning Biomolecular Motion: The Physics-Informed Machine Learning Paradigm",
@@ -1309,12 +1313,12 @@
         "url": "https://arxiv.org/abs/2511.07006v1"
       },
       {
-        "title": "Real-Time LiDAR Super-Resolution via Frequency-Aware Multi-Scale Fusion",
-        "url": "https://arxiv.org/abs/2511.07377v1"
-      },
-      {
         "title": "DeepBooTS: Dual-Stream Residual Boosting for Drift-Resilient Time-Series Forecasting",
         "url": "https://arxiv.org/abs/2511.06893v1"
+      },
+      {
+        "title": "Real-Time LiDAR Super-Resolution via Frequency-Aware Multi-Scale Fusion",
+        "url": "https://arxiv.org/abs/2511.07377v1"
       },
       {
         "title": "Explainable Cross-Disease Reasoning for Cardiovascular Risk Assessment from LDCT",
@@ -1389,12 +1393,12 @@
         "url": "https://arxiv.org/abs/2511.08143v1"
       },
       {
-        "title": "GEWDiff: Geometric Enhanced Wavelet-based Diffusion Model for Hyperspectral Image Super-resolution",
-        "url": "https://arxiv.org/abs/2511.07103v1"
-      },
-      {
         "title": "Conditional Diffusion as Latent Constraints for Controllable Symbolic Music Generation",
         "url": "https://arxiv.org/abs/2511.07156v1"
+      },
+      {
+        "title": "GEWDiff: Geometric Enhanced Wavelet-based Diffusion Model for Hyperspectral Image Super-resolution",
+        "url": "https://arxiv.org/abs/2511.07103v1"
       },
       {
         "title": "Radar-APLANC: Unsupervised Radar-based Heartbeat Sensing via Augmented Pseudo-Label and Noise Contrast",
@@ -1425,12 +1429,12 @@
         "url": "https://arxiv.org/abs/2511.08465v1"
       },
       {
-        "title": "CaberNet: Causal Representation Learning for Cross-Domain HVAC Energy Prediction",
-        "url": "https://arxiv.org/abs/2511.06634v1"
-      },
-      {
         "title": "Sensor Calibration Model Balancing Accuracy, Real-time, and Efficiency",
         "url": "https://arxiv.org/abs/2511.06715v1"
+      },
+      {
+        "title": "CaberNet: Causal Representation Learning for Cross-Domain HVAC Energy Prediction",
+        "url": "https://arxiv.org/abs/2511.06634v1"
       },
       {
         "title": "Learning to Focus: Prioritizing Informative Histories with Structured Attention Mechanisms in Partially Observable Reinforcement Learning",
@@ -1477,12 +1481,12 @@
         "url": "https://arxiv.org/abs/2511.08226v1"
       },
       {
-        "title": "Beyond Plain Demos: A Demo-centric Anchoring Paradigm for In-Context Learning in Alzheimer's Disease Detection",
-        "url": "https://arxiv.org/abs/2511.06826v1"
-      },
-      {
         "title": "Fair Bayesian Data Selection via Generalized Discrepancy Measures",
         "url": "https://arxiv.org/abs/2511.07032v1"
+      },
+      {
+        "title": "Beyond Plain Demos: A Demo-centric Anchoring Paradigm for In-Context Learning in Alzheimer's Disease Detection",
+        "url": "https://arxiv.org/abs/2511.06826v1"
       },
       {
         "title": "Hyperellipsoid Density Sampling: Exploitative Sequences to Accelerate High-Dimensional Optimization",
@@ -1513,12 +1517,12 @@
         "url": "https://arxiv.org/abs/2511.08225v1"
       },
       {
-        "title": "MVU-Eval: Towards Multi-Video Understanding Evaluation for Multimodal LLMs",
-        "url": "https://arxiv.org/abs/2511.07250v1"
-      },
-      {
         "title": "FoCLIP: A Feature-Space Misalignment Framework for CLIP-Based Image Manipulation and Detection",
         "url": "https://arxiv.org/abs/2511.06947v1"
+      },
+      {
+        "title": "MVU-Eval: Towards Multi-Video Understanding Evaluation for Multimodal LLMs",
+        "url": "https://arxiv.org/abs/2511.07250v1"
       },
       {
         "title": "Beyond Fixed Depth: Adaptive Graph Neural Networks for Node Classification Under Varying Homophily",
@@ -1641,16 +1645,16 @@
         "url": "https://arxiv.org/abs/2511.06816v1"
       },
       {
+        "title": "Class-feature Watermark: A Resilient Black-box Watermark Against Model Extraction Attacks",
+        "url": "https://arxiv.org/abs/2511.07947v1"
+      },
+      {
         "title": "FedPoP: Federated Learning Meets Proof of Participation",
         "url": "https://arxiv.org/abs/2511.08207v1"
       },
       {
         "title": "BARD10: A New Benchmark Reveals Significance of Bangla Stop-Words in Authorship Attribution",
         "url": "https://arxiv.org/abs/2511.08085v1"
-      },
-      {
-        "title": "Class-feature Watermark: A Resilient Black-box Watermark Against Model Extraction Attacks",
-        "url": "https://arxiv.org/abs/2511.07947v1"
       },
       {
         "title": "More Agents Helps but Adversarial Robustness Gap Persists",
@@ -1729,7 +1733,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1788,6 +1792,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 422
+    "total_papers": 423
   }
 }
