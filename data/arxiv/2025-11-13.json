@@ -1,7 +1,7 @@
 [
   {
     "arxiv_id": "2511.08663v1",
-    "title": "3D-TDA - Topological feature extraction from 3D images for Alzheimer's disease classification",
+    "title": "3D-TDA -- Topological feature extraction from 3D images for Alzheimer's disease classification",
     "summary": "Now that disease-modifying therapies for Alzheimer disease have been approved by regulatory agencies, the early, objective, and accurate clinical diagnosis of AD based on the lowest-cost measurement modalities possible has become an increasingly urgent need. In this study, we propose a novel feature extraction method using persistent homology to analyze structural MRI of the brain. This approach converts topological features into powerful feature vectors through Betti functions. By integrating these feature vectors with a simple machine learning model like XGBoost, we achieve a computationally efficient machine learning model. Our model outperforms state-of-the-art deep learning models in both binary and three-class classification tasks for ADNI 3D MRI disease diagnosis. Using 10-fold cross-validation, our model achieved an average accuracy of 97.43 percent and sensitivity of 99.09 percent for binary classification. For three-class classification, it achieved an average accuracy of 95.47 percent and sensitivity of 94.98 percent. Unlike many deep learning models, our approach does not require data augmentation or extensive preprocessing, making it particularly suitable for smaller datasets. Topological features differ significantly from those commonly extracted using convolutional filters and other deep learning machinery. Because it provides an entirely different type of information from machine learning models, it has the potential to combine topological features with other models later on.",
     "authors": [
       "Faisal Ahmed",
@@ -75,7 +75,7 @@
     "authors": [
       "Shanaka Liyanaarachchi",
       "Chathurya Wijethunga",
-      "Shihab Aaquil Ahamed",
+      "Shihab Aaqil Ahamed",
       "Akthas Absar",
       "Ranga Rodrigo"
     ],
@@ -308,26 +308,6 @@
     "research_score": 0.8
   },
   {
-    "arxiv_id": "2511.09404v1",
-    "title": "Spatio-Temporal Graph Unlearning",
-    "summary": "Spatio-temporal graphs are widely used in modeling complex dynamic processes such as traffic forecasting, molecular dynamics, and healthcare monitoring. Recently, stringent privacy regulations such as GDPR and CCPA have introduced significant new challenges for existing spatio-temporal graph models, requiring complete unlearning of unauthorized data. Since each node in a spatio-temporal graph diffuses information globally across both spatial and temporal dimensions, existing unlearning methods primarily designed for static graphs and localized data removal cannot efficiently erase a single node without incurring costs nearly equivalent to full model retraining. Therefore, an effective approach for complete spatio-temporal graph unlearning is a pressing need. To address this, we propose CallosumNet, a divide-and-conquer spatio-temporal graph unlearning framework inspired by the corpus callosum structure that facilitates communication between the brain's two hemispheres. CallosumNet incorporates two novel techniques: (1) Enhanced Subgraph Construction (ESC), which adaptively constructs multiple localized subgraphs based on several factors, including biologically-inspired virtual ganglions; and (2) Global Ganglion Bridging (GGB), which reconstructs global spatio-temporal dependencies from these localized subgraphs, effectively restoring the full graph representation. Empirical results on four diverse real-world datasets show that CallosumNet achieves complete unlearning with only 1%-2% relative MAE loss compared to the gold model, significantly outperforming state-of-the-art baselines. Ablation studies verify the effectiveness of both proposed techniques.",
-    "authors": [
-      "Qiming Guo",
-      "Wenbo Sun",
-      "Wenlu Wang"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.AI"
-    ],
-    "published": "2025-11-12",
-    "url": "https://arxiv.org/abs/2511.09404v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.09404v1.pdf",
-    "date": "2025-11-13",
-    "source": "arxiv",
-    "research_score": 0.8
-  },
-  {
     "arxiv_id": "2511.08003v1",
     "title": "Sharp Eyes and Memory for VideoLLMs: Information-Aware Visual Token Pruning for Efficient and Reliable VideoLLM Reasoning",
     "summary": "Current Video Large Language Models (VideoLLMs) suffer from quadratic computational complexity and key-value cache scaling, due to their reliance on processing excessive redundant visual tokens. To address this problem, we propose SharpV, a minimalist and efficient method for adaptive pruning of visual tokens and KV cache. Different from most uniform compression approaches, SharpV dynamically adjusts pruning ratios based on spatial-temporal information. Remarkably, this adaptive mechanism occasionally achieves performance gains over dense models, offering a novel paradigm for adaptive pruning. During the KV cache pruning stage, based on observations of visual information degradation, SharpV prunes degraded visual features via a self-calibration manner, guided by similarity to original visual features. In this way, SharpV achieves hierarchical cache pruning from the perspective of information bottleneck, offering a new insight into VideoLLMs' information flow. Experiments on multiple public benchmarks demonstrate the superiority of SharpV. Moreover, to the best of our knowledge, SharpV is notably the first two-stage pruning framework that operates without requiring access to exposed attention scores, ensuring full compatibility with hardware acceleration techniques like Flash Attention.",
@@ -345,6 +325,26 @@
     "published": "2025-11-11",
     "url": "https://arxiv.org/abs/2511.08003v1",
     "pdf_url": "https://arxiv.org/pdf/2511.08003v1.pdf",
+    "date": "2025-11-13",
+    "source": "arxiv",
+    "research_score": 0.8
+  },
+  {
+    "arxiv_id": "2511.09404v1",
+    "title": "Spatio-Temporal Graph Unlearning",
+    "summary": "Spatio-temporal graphs are widely used in modeling complex dynamic processes such as traffic forecasting, molecular dynamics, and healthcare monitoring. Recently, stringent privacy regulations such as GDPR and CCPA have introduced significant new challenges for existing spatio-temporal graph models, requiring complete unlearning of unauthorized data. Since each node in a spatio-temporal graph diffuses information globally across both spatial and temporal dimensions, existing unlearning methods primarily designed for static graphs and localized data removal cannot efficiently erase a single node without incurring costs nearly equivalent to full model retraining. Therefore, an effective approach for complete spatio-temporal graph unlearning is a pressing need. To address this, we propose CallosumNet, a divide-and-conquer spatio-temporal graph unlearning framework inspired by the corpus callosum structure that facilitates communication between the brain's two hemispheres. CallosumNet incorporates two novel techniques: (1) Enhanced Subgraph Construction (ESC), which adaptively constructs multiple localized subgraphs based on several factors, including biologically-inspired virtual ganglions; and (2) Global Ganglion Bridging (GGB), which reconstructs global spatio-temporal dependencies from these localized subgraphs, effectively restoring the full graph representation. Empirical results on four diverse real-world datasets show that CallosumNet achieves complete unlearning with only 1%-2% relative MAE loss compared to the gold model, significantly outperforming state-of-the-art baselines. Ablation studies verify the effectiveness of both proposed techniques.",
+    "authors": [
+      "Qiming Guo",
+      "Wenbo Sun",
+      "Wenlu Wang"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "published": "2025-11-12",
+    "url": "https://arxiv.org/abs/2511.09404v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.09404v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.8
@@ -619,23 +619,40 @@
     "research_score": 0.73
   },
   {
-    "arxiv_id": "2511.08968v1",
-    "title": "Bayesian Mixture of Experts For Large Language Models",
-    "summary": "We present Bayesian Mixture of Experts (Bayesian-MoE), a post-hoc uncertainty estimation framework for fine-tuned large language models (LLMs) based on Mixture-of-Experts architectures. Our method applies a structured Laplace approximation to the second linear layer of each expert, enabling calibrated uncertainty estimation without modifying the original training procedure or introducing new parameters. Unlike prior approaches, which apply Bayesian inference to added adapter modules, Bayesian-MoE directly targets the expert pathways already present in MoE models, leveraging their modular design for tractable block-wise posterior estimation. We use Kronecker-factored low-rank approximations to model curvature and derive scalable estimates of predictive uncertainty and marginal likelihood. Experiments on common-sense reasoning benchmarks with Qwen1.5-MoE and DeepSeek-MoE demonstrate that Bayesian-MoE improves both expected calibration error (ECE) and negative log-likelihood (NLL) over baselines, confirming its effectiveness for reliable downstream decision-making.",
+    "arxiv_id": "2511.08133v1",
+    "title": "OTSNet: A Neurocognitive-Inspired Observation-Thinking-Spelling Pipeline for Scene Text Recognition",
+    "summary": "Scene Text Recognition (STR) remains challenging due to real-world complexities, where decoupled visual-linguistic optimization in existing frameworks amplifies error propagation through cross-modal misalignment. Visual encoders exhibit attention bias toward background distractors, while decoders suffer from spatial misalignment when parsing geometrically deformed text-collectively degrading recognition accuracy for irregular patterns. Inspired by the hierarchical cognitive processes in human visual perception, we propose OTSNet, a novel three-stage network embodying a neurocognitive-inspired Observation-Thinking-Spelling pipeline for unified STR modeling. The architecture comprises three core components: (1) a Dual Attention Macaron Encoder (DAME) that refines visual features through differential attention maps to suppress irrelevant regions and enhance discriminative focus; (2) a Position-Aware Module (PAM) and Semantic Quantizer (SQ) that jointly integrate spatial context with glyph-level semantic abstraction via adaptive sampling; and (3) a Multi-Modal Collaborative Verifier (MMCV) that enforces self-correction through cross-modal fusion of visual, semantic, and character-level features. Extensive experiments demonstrate that OTSNet achieves state-of-the-art performance, attaining 83.5% average accuracy on the challenging Union14M-L benchmark and 79.1% on the heavily occluded OST dataset-establishing new records across 9 out of 14 evaluation scenarios.",
     "authors": [
-      "Maryam Dialameh",
-      "Hossein Rajabzadeh",
-      "Weiwei Zhang",
-      "Walid Ahmed",
-      "Hyock Ju Kwon"
+      "Lixu Sun",
+      "Nurmemet Yolwas",
+      "Wushour Silamu"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "published": "2025-11-11",
+    "url": "https://arxiv.org/abs/2511.08133v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.08133v1.pdf",
+    "date": "2025-11-13",
+    "source": "arxiv",
+    "research_score": 0.73
+  },
+  {
+    "arxiv_id": "2511.09332v1",
+    "title": "Distribution-Based Feature Attribution for Explaining the Predictions of Any Classifier",
+    "summary": "The proliferation of complex, black-box AI models has intensified the need for techniques that can explain their decisions. Feature attribution methods have become a popular solution for providing post-hoc explanations, yet the field has historically lacked a formal problem definition. This paper addresses this gap by introducing a formal definition for the problem of feature attribution, which stipulates that explanations be supported by an underlying probability distribution represented by the given dataset. Our analysis reveals that many existing model-agnostic methods fail to meet this criterion, while even those that do often possess other limitations. To overcome these challenges, we propose Distributional Feature Attribution eXplanations (DFAX), a novel, model-agnostic method for feature attribution. DFAX is the first feature attribution method to explain classifier predictions directly based on the data distribution. We show through extensive experiments that DFAX is more effective and efficient than state-of-the-art baselines.",
+    "authors": [
+      "Xinpeng Li",
+      "Kai Ming Ting"
     ],
     "categories": [
       "cs.LG",
-      "cs.CL"
+      "cs.AI"
     ],
     "published": "2025-11-12",
-    "url": "https://arxiv.org/abs/2511.08968v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.08968v1.pdf",
+    "url": "https://arxiv.org/abs/2511.09332v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.09332v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.73
@@ -668,40 +685,23 @@
     "research_score": 0.73
   },
   {
-    "arxiv_id": "2511.09332v1",
-    "title": "Distribution-Based Feature Attribution for Explaining the Predictions of Any Classifier",
-    "summary": "The proliferation of complex, black-box AI models has intensified the need for techniques that can explain their decisions. Feature attribution methods have become a popular solution for providing post-hoc explanations, yet the field has historically lacked a formal problem definition. This paper addresses this gap by introducing a formal definition for the problem of feature attribution, which stipulates that explanations be supported by an underlying probability distribution represented by the given dataset. Our analysis reveals that many existing model-agnostic methods fail to meet this criterion, while even those that do often possess other limitations. To overcome these challenges, we propose Distributional Feature Attribution eXplanations (DFAX), a novel, model-agnostic method for feature attribution. DFAX is the first feature attribution method to explain classifier predictions directly based on the data distribution. We show through extensive experiments that DFAX is more effective and efficient than state-of-the-art baselines.",
+    "arxiv_id": "2511.08968v1",
+    "title": "Bayesian Mixture of Experts For Large Language Models",
+    "summary": "We present Bayesian Mixture of Experts (Bayesian-MoE), a post-hoc uncertainty estimation framework for fine-tuned large language models (LLMs) based on Mixture-of-Experts architectures. Our method applies a structured Laplace approximation to the second linear layer of each expert, enabling calibrated uncertainty estimation without modifying the original training procedure or introducing new parameters. Unlike prior approaches, which apply Bayesian inference to added adapter modules, Bayesian-MoE directly targets the expert pathways already present in MoE models, leveraging their modular design for tractable block-wise posterior estimation. We use Kronecker-factored low-rank approximations to model curvature and derive scalable estimates of predictive uncertainty and marginal likelihood. Experiments on common-sense reasoning benchmarks with Qwen1.5-MoE and DeepSeek-MoE demonstrate that Bayesian-MoE improves both expected calibration error (ECE) and negative log-likelihood (NLL) over baselines, confirming its effectiveness for reliable downstream decision-making.",
     "authors": [
-      "Xinpeng Li",
-      "Kai Ming Ting"
+      "Maryam Dialameh",
+      "Hossein Rajabzadeh",
+      "Weiwei Zhang",
+      "Walid Ahmed",
+      "Hyock Ju Kwon"
     ],
     "categories": [
       "cs.LG",
-      "cs.AI"
+      "cs.CL"
     ],
     "published": "2025-11-12",
-    "url": "https://arxiv.org/abs/2511.09332v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.09332v1.pdf",
-    "date": "2025-11-13",
-    "source": "arxiv",
-    "research_score": 0.73
-  },
-  {
-    "arxiv_id": "2511.08133v1",
-    "title": "OTSNet: A Neurocognitive-Inspired Observation-Thinking-Spelling Pipeline for Scene Text Recognition",
-    "summary": "Scene Text Recognition (STR) remains challenging due to real-world complexities, where decoupled visual-linguistic optimization in existing frameworks amplifies error propagation through cross-modal misalignment. Visual encoders exhibit attention bias toward background distractors, while decoders suffer from spatial misalignment when parsing geometrically deformed text-collectively degrading recognition accuracy for irregular patterns. Inspired by the hierarchical cognitive processes in human visual perception, we propose OTSNet, a novel three-stage network embodying a neurocognitive-inspired Observation-Thinking-Spelling pipeline for unified STR modeling. The architecture comprises three core components: (1) a Dual Attention Macaron Encoder (DAME) that refines visual features through differential attention maps to suppress irrelevant regions and enhance discriminative focus; (2) a Position-Aware Module (PAM) and Semantic Quantizer (SQ) that jointly integrate spatial context with glyph-level semantic abstraction via adaptive sampling; and (3) a Multi-Modal Collaborative Verifier (MMCV) that enforces self-correction through cross-modal fusion of visual, semantic, and character-level features. Extensive experiments demonstrate that OTSNet achieves state-of-the-art performance, attaining 83.5% average accuracy on the challenging Union14M-L benchmark and 79.1% on the heavily occluded OST dataset-establishing new records across 9 out of 14 evaluation scenarios.",
-    "authors": [
-      "Lixu Sun",
-      "Nurmemet Yolwas",
-      "Wushour Silamu"
-    ],
-    "categories": [
-      "cs.CV",
-      "cs.AI"
-    ],
-    "published": "2025-11-11",
-    "url": "https://arxiv.org/abs/2511.08133v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.08133v1.pdf",
+    "url": "https://arxiv.org/abs/2511.08968v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.08968v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.73
@@ -790,27 +790,6 @@
     "published": "2025-11-11",
     "url": "https://arxiv.org/abs/2511.08344v2",
     "pdf_url": "https://arxiv.org/pdf/2511.08344v2.pdf",
-    "date": "2025-11-13",
-    "source": "arxiv",
-    "research_score": 0.72
-  },
-  {
-    "arxiv_id": "2511.08305v1",
-    "title": "Test-time Diverse Reasoning by Riemannian Activation Steering",
-    "summary": "Best-of-$N$ reasoning improves the accuracy of language models in solving complex tasks by sampling multiple candidate solutions and then selecting the best one based on some criteria. A critical bottleneck for this strategy is the output diversity limit, which occurs when the model generates similar outputs despite stochastic sampling, and hence recites the same error. To address this lack of variance in reasoning paths, we propose a novel unsupervised activation steering strategy that simultaneously optimizes the steering vectors for multiple reasoning trajectories at test time. At any synchronization anchor along the batch generation process, we find the steering vectors that maximize the total volume spanned by all possible intervened activation subsets. We demonstrate that these steering vectors can be determined by solving a Riemannian optimization problem over the product of spheres with a log-determinant objective function. We then use a Riemannian block-coordinate descent algorithm with a well-tuned learning rate to obtain a stationary point of the problem, and we apply these steering vectors until the generation process reaches the subsequent synchronization anchor. Empirical evaluations on popular mathematical benchmarks demonstrate that our test-time Riemannian activation steering strategy outperforms vanilla sampling techniques in terms of generative diversity and solution accuracy.",
-    "authors": [
-      "Ly Tran Ho Khanh",
-      "Dongxuan Zhu",
-      "Man-Chung Yue",
-      "Viet Anh Nguyen"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.AI"
-    ],
-    "published": "2025-11-11",
-    "url": "https://arxiv.org/abs/2511.08305v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.08305v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.72
@@ -1794,26 +1773,6 @@
     "research_score": 0.66
   },
   {
-    "arxiv_id": "2511.07935v2",
-    "title": "DiffRegCD: Integrated Registration and Change Detection with Diffusion Features",
-    "summary": "Change detection (CD) is fundamental to computer vision and remote sensing, supporting applications in environmental monitoring, disaster response, and urban development. Most CD models assume co-registered inputs, yet real-world imagery often exhibits parallax, viewpoint shifts, and long temporal gaps that cause severe misalignment. Traditional two stage methods that first register and then detect, as well as recent joint frameworks (e.g., BiFA, ChangeRD), still struggle under large displacements, relying on regression only flow, global homographies, or synthetic perturbations. We present DiffRegCD, an integrated framework that unifies dense registration and change detection in a single model. DiffRegCD reformulates correspondence estimation as a Gaussian smoothed classification task, achieving sub-pixel accuracy and stable training. It leverages frozen multi-scale features from a pretrained denoising diffusion model, ensuring robustness to illumination and viewpoint variation. Supervision is provided through controlled affine perturbations applied to standard CD datasets, yielding paired ground truth for both flow and change detection without pseudo labels. Extensive experiments on aerial (LEVIR-CD, DSIFN-CD, WHU-CD, SYSU-CD) and ground level (VL-CMU-CD) datasets show that DiffRegCD consistently surpasses recent baselines and remains reliable under wide temporal and geometric variation, establishing diffusion features and classification based correspondence as a strong foundation for unified change detection.",
-    "authors": [
-      "Seyedehanita Madani",
-      "Rama Chellappa",
-      "Vishal M. Patel"
-    ],
-    "categories": [
-      "cs.CV",
-      "cs.AI"
-    ],
-    "published": "2025-11-11",
-    "url": "https://arxiv.org/abs/2511.07935v2",
-    "pdf_url": "https://arxiv.org/pdf/2511.07935v2.pdf",
-    "date": "2025-11-13",
-    "source": "arxiv",
-    "research_score": 0.66
-  },
-  {
     "arxiv_id": "2511.07737v1",
     "title": "TurboSAT: Gradient-Guided Boolean Satisfiability Accelerated on GPU-CPU Hybrid System",
     "summary": "While accelerated computing has transformed many domains of computing, its impact on logical reasoning, specifically Boolean satisfiability (SAT), remains limited. State-of-the-art SAT solvers rely heavily on inherently sequential conflict-driven search algorithms that offer powerful heuristics but limit the amount of parallelism that could otherwise enable significantly more scalable SAT solving. Inspired by neural network training, we formulate the SAT problem as a binarized matrix-matrix multiplication layer that could be optimized using a differentiable objective function. Enabled by this encoding, we combine the strengths of parallel differentiable optimization and sequential search to accelerate SAT on a hybrid GPU-CPU system. In this system, the GPUs leverage parallel differentiable solving to rapidly evaluate SAT clauses and use gradients to stochastically explore the solution space and optimize variable assignments. Promising partial assignments generated by the GPUs are post-processed on many CPU threads which exploit conflict-driven sequential search to further traverse the solution subspaces and identify complete assignments. Prototyping the hybrid solver on an NVIDIA DGX GB200 node, our solver achieves runtime speedups up to over 200x when compared to a state-of-the-art CPU-based solver on public satisfiable benchmark problems from the SAT Competition.",
@@ -1832,6 +1791,26 @@
     "published": "2025-11-11",
     "url": "https://arxiv.org/abs/2511.07737v1",
     "pdf_url": "https://arxiv.org/pdf/2511.07737v1.pdf",
+    "date": "2025-11-13",
+    "source": "arxiv",
+    "research_score": 0.66
+  },
+  {
+    "arxiv_id": "2511.07935v2",
+    "title": "DiffRegCD: Integrated Registration and Change Detection with Diffusion Features",
+    "summary": "Change detection (CD) is fundamental to computer vision and remote sensing, supporting applications in environmental monitoring, disaster response, and urban development. Most CD models assume co-registered inputs, yet real-world imagery often exhibits parallax, viewpoint shifts, and long temporal gaps that cause severe misalignment. Traditional two stage methods that first register and then detect, as well as recent joint frameworks (e.g., BiFA, ChangeRD), still struggle under large displacements, relying on regression only flow, global homographies, or synthetic perturbations. We present DiffRegCD, an integrated framework that unifies dense registration and change detection in a single model. DiffRegCD reformulates correspondence estimation as a Gaussian smoothed classification task, achieving sub-pixel accuracy and stable training. It leverages frozen multi-scale features from a pretrained denoising diffusion model, ensuring robustness to illumination and viewpoint variation. Supervision is provided through controlled affine perturbations applied to standard CD datasets, yielding paired ground truth for both flow and change detection without pseudo labels. Extensive experiments on aerial (LEVIR-CD, DSIFN-CD, WHU-CD, SYSU-CD) and ground level (VL-CMU-CD) datasets show that DiffRegCD consistently surpasses recent baselines and remains reliable under wide temporal and geometric variation, establishing diffusion features and classification based correspondence as a strong foundation for unified change detection.",
+    "authors": [
+      "Seyedehanita Madani",
+      "Rama Chellappa",
+      "Vishal M. Patel"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "published": "2025-11-11",
+    "url": "https://arxiv.org/abs/2511.07935v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.07935v2.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.66
@@ -1964,26 +1943,6 @@
     "research_score": 0.65
   },
   {
-    "arxiv_id": "2511.09493v1",
-    "title": "Consensus Sampling for Safer Generative AI",
-    "summary": "Many approaches to AI safety rely on inspecting model outputs or activations, yet certain risks are inherently undetectable by inspection alone. We propose a complementary, architecture-agnostic approach that enhances safety through the aggregation of multiple generative models, with the aggregated model inheriting its safety from the safest subset of a given size among them. Specifically, we present a consensus sampling algorithm that, given $k$ models and a prompt, achieves risk competitive with the average risk of the safest $s$ of the $k$ models, where $s$ is a chosen parameter, while abstaining when there is insufficient agreement between them. The approach leverages the models' ability to compute output probabilities, and we bound the probability of abstention when sufficiently many models are safe and exhibit adequate agreement. The algorithm is inspired by the provable copyright protection algorithm of Vyas et al. (2023). It requires some overlap among safe models, offers no protection when all models are unsafe, and may accumulate risk over repeated use. Nonetheless, our results provide a new, model-agnostic approach for AI safety by amplifying safety guarantees from an unknown subset of models within a collection to that of a single reliable model.",
-    "authors": [
-      "Adam Tauman Kalai",
-      "Yael Tauman Kalai",
-      "Or Zamir"
-    ],
-    "categories": [
-      "cs.AI",
-      "cs.LG"
-    ],
-    "published": "2025-11-12",
-    "url": "https://arxiv.org/abs/2511.09493v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.09493v1.pdf",
-    "date": "2025-11-13",
-    "source": "arxiv",
-    "research_score": 0.65
-  },
-  {
     "arxiv_id": "2511.08464v1",
     "title": "Contrastive Integrated Gradients: A Feature Attribution-Based Method for Explaining Whole Slide Image Classification",
     "summary": "Interpretability is essential in Whole Slide Image (WSI) analysis for computational pathology, where understanding model predictions helps build trust in AI-assisted diagnostics. While Integrated Gradients (IG) and related attribution methods have shown promise, applying them directly to WSIs introduces challenges due to their high-resolution nature. These methods capture model decision patterns but may overlook class-discriminative signals that are crucial for distinguishing between tumor subtypes. In this work, we introduce Contrastive Integrated Gradients (CIG), a novel attribution method that enhances interpretability by computing contrastive gradients in logit space. First, CIG highlights class-discriminative regions by comparing feature importance relative to a reference class, offering sharper differentiation between tumor and non-tumor areas. Second, CIG satisfies the axioms of integrated attribution, ensuring consistency and theoretical soundness. Third, we propose two attribution quality metrics, MIL-AIC and MIL-SIC, which measure how predictive information and model confidence evolve with access to salient regions, particularly under weak supervision. We validate CIG across three datasets spanning distinct cancer types: CAMELYON16 (breast cancer metastasis in lymph nodes), TCGA-RCC (renal cell carcinoma), and TCGA-Lung (lung cancer). Experimental results demonstrate that CIG yields more informative attributions both quantitatively, using MIL-AIC and MIL-SIC, and qualitatively, through visualizations that align closely with ground truth tumor regions, underscoring its potential for interpretable and trustworthy WSI-based diagnostics",
@@ -2006,6 +1965,26 @@
     "published": "2025-11-11",
     "url": "https://arxiv.org/abs/2511.08464v1",
     "pdf_url": "https://arxiv.org/pdf/2511.08464v1.pdf",
+    "date": "2025-11-13",
+    "source": "arxiv",
+    "research_score": 0.65
+  },
+  {
+    "arxiv_id": "2511.09493v1",
+    "title": "Consensus Sampling for Safer Generative AI",
+    "summary": "Many approaches to AI safety rely on inspecting model outputs or activations, yet certain risks are inherently undetectable by inspection alone. We propose a complementary, architecture-agnostic approach that enhances safety through the aggregation of multiple generative models, with the aggregated model inheriting its safety from the safest subset of a given size among them. Specifically, we present a consensus sampling algorithm that, given $k$ models and a prompt, achieves risk competitive with the average risk of the safest $s$ of the $k$ models, where $s$ is a chosen parameter, while abstaining when there is insufficient agreement between them. The approach leverages the models' ability to compute output probabilities, and we bound the probability of abstention when sufficiently many models are safe and exhibit adequate agreement. The algorithm is inspired by the provable copyright protection algorithm of Vyas et al. (2023). It requires some overlap among safe models, offers no protection when all models are unsafe, and may accumulate risk over repeated use. Nonetheless, our results provide a new, model-agnostic approach for AI safety by amplifying safety guarantees from an unknown subset of models within a collection to that of a single reliable model.",
+    "authors": [
+      "Adam Tauman Kalai",
+      "Yael Tauman Kalai",
+      "Or Zamir"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "published": "2025-11-12",
+    "url": "https://arxiv.org/abs/2511.09493v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.09493v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.65
@@ -2052,6 +2031,27 @@
     "published": "2025-11-11",
     "url": "https://arxiv.org/abs/2511.08364v1",
     "pdf_url": "https://arxiv.org/pdf/2511.08364v1.pdf",
+    "date": "2025-11-13",
+    "source": "arxiv",
+    "research_score": 0.65
+  },
+  {
+    "arxiv_id": "2511.09228v1",
+    "title": "Taming Object Hallucinations with Verified Atomic Confidence Estimation",
+    "summary": "Multimodal Large Language Models (MLLMs) often suffer from hallucinations, particularly errors in object existence, attributes, or relations, which undermine their reliability. We introduce TACO (Verified Atomic Confidence Estimation), a simple framework that mitigates hallucinations through self-verification and confidence calibration without relying on external vision experts. TACO decomposes responses into atomic queries, paraphrases them to reduce sensitivity to wording, and estimates confidence using self-consistency (black-box) or self-confidence (gray-box) aggregation, before refining answers with a language model. Experiments on five benchmarks (POPE, MME, HallusionBench, AMBER, and MM-Hal Bench) with two MLLMs (\\texttt{LLaVA-1.5-7B} and \\texttt{CogVLM2}) show that TACO consistently outperforms direct prompting and Visual Contrastive Decoding, reduces systematic biases, and improves confidence calibration, demonstrating its effectiveness in enhancing the faithfulness of MLLMs.",
+    "authors": [
+      "Jiarui Liu",
+      "Weihao Xuan",
+      "Zhijing Jin",
+      "Mona Diab"
+    ],
+    "categories": [
+      "cs.CV",
+      "cs.CL"
+    ],
+    "published": "2025-11-12",
+    "url": "https://arxiv.org/abs/2511.09228v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.09228v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.65
@@ -2353,49 +2353,6 @@
     "research_score": 0.64
   },
   {
-    "arxiv_id": "2511.08667v1",
-    "title": "TabPFN-2.5: Advancing the State of the Art in Tabular Foundation Models",
-    "summary": "The first tabular foundation model, TabPFN, and its successor TabPFNv2 have impacted tabular AI substantially, with dozens of methods building on it and hundreds of applications across different use cases. This report introduces TabPFN-2.5, the next generation of our tabular foundation model, built for datasets with up to 50,000 data points and 2,000 features, a 20x increase in data cells compared to TabPFNv2. TabPFN-2.5 is now the leading method for the industry standard benchmark TabArena (which contains datasets with up to 100,000 training data points), substantially outperforming tuned tree-based models and matching the accuracy of AutoGluon 1.4, a complex four-hour tuned ensemble that even includes the previous TabPFNv2. Remarkably, default TabPFN-2.5 has a 100% win rate against default XGBoost on small to medium-sized classification datasets (<=10,000 data points, 500 features) and a 87% win rate on larger datasets up to 100K samples and 2K features (85% for regression). For production use cases, we introduce a new distillation engine that converts TabPFN-2.5 into a compact MLP or tree ensemble, preserving most of its accuracy while delivering orders-of-magnitude lower latency and plug-and-play deployment. This new release will immediately strengthen the performance of the many applications and methods already built on the TabPFN ecosystem.",
-    "authors": [
-      "Léo Grinsztajn",
-      "Klemens Flöge",
-      "Oscar Key",
-      "Felix Birkel",
-      "Philipp Jund",
-      "Brendan Roof",
-      "Benjamin Jäger",
-      "Dominik Safaric",
-      "Simone Alessi",
-      "Adrian Hayler",
-      "Mihir Manium",
-      "Rosen Yu",
-      "Felix Jablonski",
-      "Shi Bin Hoo",
-      "Anurag Garg",
-      "Jake Robertson",
-      "Magnus Bühler",
-      "Vladyslav Moroshan",
-      "Lennart Purucker",
-      "Clara Cornu",
-      "Lilly Charlotte Wehrhahn",
-      "Alessandro Bonetto",
-      "Bernhard Schölkopf",
-      "Sauraj Gambhir",
-      "Noah Hollmann",
-      "Frank Hutter"
-    ],
-    "categories": [
-      "cs.LG",
-      "stat.ML"
-    ],
-    "published": "2025-11-11",
-    "url": "https://arxiv.org/abs/2511.08667v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.08667v1.pdf",
-    "date": "2025-11-13",
-    "source": "arxiv",
-    "research_score": 0.64
-  },
-  {
     "arxiv_id": "2511.08887v1",
     "title": "FAST-CAD: A Fairness-Aware Framework for Non-Contact Stroke Diagnosis",
     "summary": "Stroke is an acute cerebrovascular disease, and timely diagnosis significantly improves patient survival. However, existing automated diagnosis methods suffer from fairness issues across demographic groups, potentially exacerbating healthcare disparities. In this work we propose FAST-CAD, a theoretically grounded framework that combines domain-adversarial training (DAT) with group distributionally robust optimization (Group-DRO) for fair and accurate non-contact stroke diagnosis. Our approach is built on domain adaptation and minimax fairness theory and provides convergence guarantees and fairness bounds. We curate a multimodal dataset covering 12 demographic subgroups defined by age, gender, and posture. FAST-CAD employs self-supervised encoders with adversarial domain discrimination to learn demographic-invariant representations, while Group-DRO optimizes worst-group risk to ensure robust performance across all subgroups. Extensive experiments show that our method achieves superior diagnostic performance while maintaining fairness across demographic groups, and our theoretical analysis supports the effectiveness of the unified DAT + Group-DRO framework. This work provides both practical advances and theoretical insights for fair medical AI systems.",
@@ -2447,24 +2404,44 @@
     "research_score": 0.64
   },
   {
-    "arxiv_id": "2511.09426v1",
-    "title": "BIG5-TPoT: Predicting BIG Five Personality Traits, Facets, and Items Through Targeted Preselection of Texts",
-    "summary": "Predicting an individual's personalities from their generated texts is a challenging task, especially when the text volume is large. In this paper, we introduce a straightforward yet effective novel strategy called targeted preselection of texts (TPoT). This method semantically filters the texts as input to a deep learning model, specifically designed to predict a Big Five personality trait, facet, or item, referred to as the BIG5-TPoT model. By selecting texts that are semantically relevant to a particular trait, facet, or item, this strategy not only addresses the issue of input text limits in large language models but also improves the Mean Absolute Error and accuracy metrics in predictions for the Stream of Consciousness Essays dataset.",
+    "arxiv_id": "2511.08667v1",
+    "title": "TabPFN-2.5: Advancing the State of the Art in Tabular Foundation Models",
+    "summary": "The first tabular foundation model, TabPFN, and its successor TabPFNv2 have impacted tabular AI substantially, with dozens of methods building on it and hundreds of applications across different use cases. This report introduces TabPFN-2.5, the next generation of our tabular foundation model, built for datasets with up to 50,000 data points and 2,000 features, a 20x increase in data cells compared to TabPFNv2. TabPFN-2.5 is now the leading method for the industry standard benchmark TabArena (which contains datasets with up to 100,000 training data points), substantially outperforming tuned tree-based models and matching the accuracy of AutoGluon 1.4, a complex four-hour tuned ensemble that even includes the previous TabPFNv2. Remarkably, default TabPFN-2.5 has a 100% win rate against default XGBoost on small to medium-sized classification datasets (<=10,000 data points, 500 features) and a 87% win rate on larger datasets up to 100K samples and 2K features (85% for regression). For production use cases, we introduce a new distillation engine that converts TabPFN-2.5 into a compact MLP or tree ensemble, preserving most of its accuracy while delivering orders-of-magnitude lower latency and plug-and-play deployment. This new release will immediately strengthen the performance of the many applications and methods already built on the TabPFN ecosystem.",
     "authors": [
-      "Triet M. Le",
-      "Arjun Chandra",
-      "C. Anton Rytting",
-      "Valerie P. Karuzis",
-      "Vladimir Rife",
-      "William A. Simpson"
+      "Léo Grinsztajn",
+      "Klemens Flöge",
+      "Oscar Key",
+      "Felix Birkel",
+      "Philipp Jund",
+      "Brendan Roof",
+      "Benjamin Jäger",
+      "Dominik Safaric",
+      "Simone Alessi",
+      "Adrian Hayler",
+      "Mihir Manium",
+      "Rosen Yu",
+      "Felix Jablonski",
+      "Shi Bin Hoo",
+      "Anurag Garg",
+      "Jake Robertson",
+      "Magnus Bühler",
+      "Vladyslav Moroshan",
+      "Lennart Purucker",
+      "Clara Cornu",
+      "Lilly Charlotte Wehrhahn",
+      "Alessandro Bonetto",
+      "Bernhard Schölkopf",
+      "Sauraj Gambhir",
+      "Noah Hollmann",
+      "Frank Hutter"
     ],
     "categories": [
-      "cs.CL",
-      "cs.LG"
+      "cs.LG",
+      "stat.ML"
     ],
-    "published": "2025-11-12",
-    "url": "https://arxiv.org/abs/2511.09426v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.09426v1.pdf",
+    "published": "2025-11-11",
+    "url": "https://arxiv.org/abs/2511.08667v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.08667v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.64
@@ -2508,6 +2485,29 @@
     "published": "2025-11-11",
     "url": "https://arxiv.org/abs/2511.08322v1",
     "pdf_url": "https://arxiv.org/pdf/2511.08322v1.pdf",
+    "date": "2025-11-13",
+    "source": "arxiv",
+    "research_score": 0.64
+  },
+  {
+    "arxiv_id": "2511.09426v1",
+    "title": "BIG5-TPoT: Predicting BIG Five Personality Traits, Facets, and Items Through Targeted Preselection of Texts",
+    "summary": "Predicting an individual's personalities from their generated texts is a challenging task, especially when the text volume is large. In this paper, we introduce a straightforward yet effective novel strategy called targeted preselection of texts (TPoT). This method semantically filters the texts as input to a deep learning model, specifically designed to predict a Big Five personality trait, facet, or item, referred to as the BIG5-TPoT model. By selecting texts that are semantically relevant to a particular trait, facet, or item, this strategy not only addresses the issue of input text limits in large language models but also improves the Mean Absolute Error and accuracy metrics in predictions for the Stream of Consciousness Essays dataset.",
+    "authors": [
+      "Triet M. Le",
+      "Arjun Chandra",
+      "C. Anton Rytting",
+      "Valerie P. Karuzis",
+      "Vladimir Rife",
+      "William A. Simpson"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "published": "2025-11-12",
+    "url": "https://arxiv.org/abs/2511.09426v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.09426v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.64
@@ -2754,28 +2754,6 @@
     "research_score": 0.62
   },
   {
-    "arxiv_id": "2511.07989v1",
-    "title": "State of the Art in Text Classification for South Slavic Languages: Fine-Tuning or Prompting?",
-    "summary": "Until recently, fine-tuned BERT-like models provided state-of-the-art performance on text classification tasks. With the rise of instruction-tuned decoder-only models, commonly known as large language models (LLMs), the field has increasingly moved toward zero-shot and few-shot prompting. However, the performance of LLMs on text classification, particularly on less-resourced languages, remains under-explored. In this paper, we evaluate the performance of current language models on text classification tasks across several South Slavic languages. We compare openly available fine-tuned BERT-like models with a selection of open-source and closed-source LLMs across three tasks in three domains: sentiment classification in parliamentary speeches, topic classification in news articles and parliamentary speeches, and genre identification in web texts. Our results show that LLMs demonstrate strong zero-shot performance, often matching or surpassing fine-tuned BERT-like models. Moreover, when used in a zero-shot setup, LLMs perform comparably in South Slavic languages and English. However, we also point out key drawbacks of LLMs, including less predictable outputs, significantly slower inference, and higher computational costs. Due to these limitations, fine-tuned BERT-like models remain a more practical choice for large-scale automatic text annotation.",
-    "authors": [
-      "Taja Kuzman Pungeršek",
-      "Peter Rupnik",
-      "Ivan Porupski",
-      "Vuk Dinić",
-      "Nikola Ljubešić"
-    ],
-    "categories": [
-      "cs.CL",
-      "cs.AI"
-    ],
-    "published": "2025-11-11",
-    "url": "https://arxiv.org/abs/2511.07989v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.07989v1.pdf",
-    "date": "2025-11-13",
-    "source": "arxiv",
-    "research_score": 0.62
-  },
-  {
     "arxiv_id": "2511.09465v1",
     "title": "Branching Flows: Discrete, Continuous, and Manifold Flow Matching with Splits and Deletions",
     "summary": "Diffusion and flow matching approaches to generative modeling have shown promise in domains where the state space is continuous, such as image generation or protein folding & design, and discrete, exemplified by diffusion large language models. They offer a natural fit when the number of elements in a state is fixed in advance (e.g. images), but require ad hoc solutions when, for example, the length of a response from a large language model, or the number of amino acids in a protein chain is not known a priori.   Here we propose Branching Flows, a generative modeling framework that, like diffusion and flow matching approaches, transports a simple distribution to the data distribution. But in Branching Flows, the elements in the state evolve over a forest of binary trees, branching and dying stochastically with rates that are learned by the model. This allows the model to control, during generation, the number of elements in the sequence. We also show that Branching Flows can compose with any flow matching base process on discrete sets, continuous Euclidean spaces, smooth manifolds, and `multimodal' product spaces that mix these components. We demonstrate this in three domains: small molecule generation (multimodal), antibody sequence generation (discrete), and protein backbone generation (multimodal), and show that Branching Flows is a capable distribution learner with a stable learning objective, and that it enables new capabilities.",
@@ -2795,6 +2773,28 @@
     "published": "2025-11-12",
     "url": "https://arxiv.org/abs/2511.09465v1",
     "pdf_url": "https://arxiv.org/pdf/2511.09465v1.pdf",
+    "date": "2025-11-13",
+    "source": "arxiv",
+    "research_score": 0.62
+  },
+  {
+    "arxiv_id": "2511.07989v1",
+    "title": "State of the Art in Text Classification for South Slavic Languages: Fine-Tuning or Prompting?",
+    "summary": "Until recently, fine-tuned BERT-like models provided state-of-the-art performance on text classification tasks. With the rise of instruction-tuned decoder-only models, commonly known as large language models (LLMs), the field has increasingly moved toward zero-shot and few-shot prompting. However, the performance of LLMs on text classification, particularly on less-resourced languages, remains under-explored. In this paper, we evaluate the performance of current language models on text classification tasks across several South Slavic languages. We compare openly available fine-tuned BERT-like models with a selection of open-source and closed-source LLMs across three tasks in three domains: sentiment classification in parliamentary speeches, topic classification in news articles and parliamentary speeches, and genre identification in web texts. Our results show that LLMs demonstrate strong zero-shot performance, often matching or surpassing fine-tuned BERT-like models. Moreover, when used in a zero-shot setup, LLMs perform comparably in South Slavic languages and English. However, we also point out key drawbacks of LLMs, including less predictable outputs, significantly slower inference, and higher computational costs. Due to these limitations, fine-tuned BERT-like models remain a more practical choice for large-scale automatic text annotation.",
+    "authors": [
+      "Taja Kuzman Pungeršek",
+      "Peter Rupnik",
+      "Ivan Porupski",
+      "Vuk Dinić",
+      "Nikola Ljubešić"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "published": "2025-11-11",
+    "url": "https://arxiv.org/abs/2511.07989v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.07989v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.62
@@ -2967,6 +2967,28 @@
     "research_score": 0.61
   },
   {
+    "arxiv_id": "2511.08507v1",
+    "title": "Introducing A Bangla Sentence - Gloss Pair Dataset for Bangla Sign Language Translation and Research",
+    "summary": "Bangla Sign Language (BdSL) translation represents a low-resource NLP task due to the lack of large-scale datasets that address sentence-level translation. Correspondingly, existing research in this field has been limited to word and alphabet level detection. In this work, we introduce Bangla-SGP, a novel parallel dataset consisting of 1,000 human-annotated sentence-gloss pairs which was augmented with around 3,000 synthetically generated pairs using syntactic and morphological rules through a rule-based Retrieval-Augmented Generation (RAG) pipeline. The gloss sequences of the spoken Bangla sentences are made up of individual glosses which are Bangla sign supported words and serve as an intermediate representation for a continuous sign. Our dataset consists of 1000 high quality Bangla sentences that are manually annotated into a gloss sequence by a professional signer. The augmentation process incorporates rule-based linguistic strategies and prompt engineering techniques that we have adopted by critically analyzing our human annotated sentence-gloss pairs and by working closely with our professional signer. Furthermore, we fine-tune several transformer-based models such as mBart50, Google mT5, GPT4.1-nano and evaluate their sentence-to-gloss translation performance using BLEU scores, based on these evaluation metrics we compare the model's gloss-translation consistency across our dataset and the RWTH-PHOENIX-2014T benchmark.",
+    "authors": [
+      "Neelavro Saha",
+      "Rafi Shahriyar",
+      "Nafis Ashraf Roudra",
+      "Saadman Sakib",
+      "Annajiat Alim Rasel"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "published": "2025-11-11",
+    "url": "https://arxiv.org/abs/2511.08507v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.08507v1.pdf",
+    "date": "2025-11-13",
+    "source": "arxiv",
+    "research_score": 0.61
+  },
+  {
     "arxiv_id": "2511.09298v1",
     "title": "DensiCrafter: Physically-Constrained Generation and Fabrication of Self-Supporting Hollow Structures",
     "summary": "The rise of 3D generative models has enabled automatic 3D geometry and texture synthesis from multimodal inputs (e.g., text or images). However, these methods often ignore physical constraints and manufacturability considerations. In this work, we address the challenge of producing 3D designs that are both lightweight and self-supporting. We present DensiCrafter, a framework for generating lightweight, self-supporting 3D hollow structures by optimizing the density field. Starting from coarse voxel grids produced by Trellis, we interpret these as continuous density fields to optimize and introduce three differentiable, physically constrained, and simulation-free loss terms. Additionally, a mass regularization penalizes unnecessary material, while a restricted optimization domain preserves the outer surface. Our method seamlessly integrates with pretrained Trellis-based models (e.g., Trellis, DSO) without any architectural changes. In extensive evaluations, we achieve up to 43% reduction in material mass on the text-to-3D task. Compared to state-of-the-art baselines, our method could improve the stability and maintain high geometric fidelity. Real-world 3D-printing experiments confirm that our hollow designs can be reliably fabricated and could be self-supporting.",
@@ -2985,28 +3007,6 @@
     "published": "2025-11-12",
     "url": "https://arxiv.org/abs/2511.09298v1",
     "pdf_url": "https://arxiv.org/pdf/2511.09298v1.pdf",
-    "date": "2025-11-13",
-    "source": "arxiv",
-    "research_score": 0.61
-  },
-  {
-    "arxiv_id": "2511.08507v1",
-    "title": "Introducing A Bangla Sentence - Gloss Pair Dataset for Bangla Sign Language Translation and Research",
-    "summary": "Bangla Sign Language (BdSL) translation represents a low-resource NLP task due to the lack of large-scale datasets that address sentence-level translation. Correspondingly, existing research in this field has been limited to word and alphabet level detection. In this work, we introduce Bangla-SGP, a novel parallel dataset consisting of 1,000 human-annotated sentence-gloss pairs which was augmented with around 3,000 synthetically generated pairs using syntactic and morphological rules through a rule-based Retrieval-Augmented Generation (RAG) pipeline. The gloss sequences of the spoken Bangla sentences are made up of individual glosses which are Bangla sign supported words and serve as an intermediate representation for a continuous sign. Our dataset consists of 1000 high quality Bangla sentences that are manually annotated into a gloss sequence by a professional signer. The augmentation process incorporates rule-based linguistic strategies and prompt engineering techniques that we have adopted by critically analyzing our human annotated sentence-gloss pairs and by working closely with our professional signer. Furthermore, we fine-tune several transformer-based models such as mBart50, Google mT5, GPT4.1-nano and evaluate their sentence-to-gloss translation performance using BLEU scores, based on these evaluation metrics we compare the model's gloss-translation consistency across our dataset and the RWTH-PHOENIX-2014T benchmark.",
-    "authors": [
-      "Neelavro Saha",
-      "Rafi Shahriyar",
-      "Nafis Ashraf Roudra",
-      "Saadman Sakib",
-      "Annajiat Alim Rasel"
-    ],
-    "categories": [
-      "cs.CL",
-      "cs.AI"
-    ],
-    "published": "2025-11-11",
-    "url": "https://arxiv.org/abs/2511.08507v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.08507v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.61
@@ -3111,30 +3111,6 @@
     "research_score": 0.6
   },
   {
-    "arxiv_id": "2511.09118v1",
-    "title": "Learning to Validate Generative Models: a Goodness-of-Fit Approach",
-    "summary": "Generative models are increasingly central to scientific workflows, yet their systematic use and interpretation require a proper understanding of their limitations through rigorous validation. Classic approaches struggle with scalability, statistical power, or interpretability when applied to high-dimensional data, making it difficult to certify the reliability of these models in realistic, high-dimensional scientific settings. Here, we propose the use of the New Physics Learning Machine (NPLM), a learning based approach to goodness-of-fit testing inspired by the Neyman-Pearson construction, to test generative networks trained on high-dimensional scientific data. We demonstrate the performance of NPLM for validation in two benchmark cases: generative models trained on mixtures of Gaussian models with increasing dimensionality, and a public end-to-end generator for the Large Hadron Collider called FlashSim, trained on jet data, typical in the field of high-energy physics. We demonstrate that the NPLM can serve as a powerful validation method while also providing a means to diagnose sub-optimally modeled regions of the data.",
-    "authors": [
-      "Pietro Cappelli",
-      "Gaia Grosso",
-      "Marco Letizia",
-      "Humberto Reyes-González",
-      "Marco Zanetti"
-    ],
-    "categories": [
-      "stat.ML",
-      "cs.LG",
-      "hep-ex",
-      "hep-ph"
-    ],
-    "published": "2025-11-12",
-    "url": "https://arxiv.org/abs/2511.09118v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.09118v1.pdf",
-    "date": "2025-11-13",
-    "source": "arxiv",
-    "research_score": 0.6
-  },
-  {
     "arxiv_id": "2511.07930v1",
     "title": "IBMA: An Imputation-Based Mixup Augmentation Using Self-Supervised Learning for Time Series Data",
     "summary": "Data augmentation in time series forecasting plays a crucial role in enhancing model performance by introducing variability while maintaining the underlying temporal patterns. However, time series data offers fewer augmentation strategies compared to fields such as image or text, with advanced techniques like Mixup rarely being used. In this work, we propose a novel approach, Imputation-Based Mixup Augmentation (IBMA), which combines Imputation-Augmented data with Mixup augmentation to bolster model generalization and improve forecasting performance. We evaluate the effectiveness of this method across several forecasting models, including DLinear (MLP), TimesNet (CNN), and iTrainformer (Transformer), these models represent some of the most recent advances in time series forecasting. Our experiments, conducted on four datasets (ETTh1, ETTh2, ETTm1, ETTm2) and compared against eight other augmentation techniques, demonstrate that IBMA consistently enhances performance, achieving 22 improvements out of 24 instances, with 10 of those being the best performances, particularly with iTrainformer imputation.",
@@ -3155,20 +3131,25 @@
     "research_score": 0.6
   },
   {
-    "arxiv_id": "2511.08927v1",
-    "title": "The Double Contingency Problem: AI Recursion and the Limits of Interspecies Understanding",
-    "summary": "Current bioacoustic AI systems achieve impressive cross-species performance by processing animal communication through transformer architectures, foundation model paradigms, and other computational approaches. However, these approaches overlook a fundamental question: what happens when one form of recursive cognition--AI systems with their attention mechanisms, iterative processing, and feedback loops--encounters the recursive communicative processes of other species? Drawing on philosopher Yuk Hui's work on recursivity and contingency, I argue that AI systems are not neutral pattern detectors but recursive cognitive agents whose own information processing may systematically obscure or distort other species' communicative structures. This creates a double contingency problem: each species' communication emerges through contingent ecological and evolutionary conditions, while AI systems process these signals through their own contingent architectural and training conditions. I propose that addressing this challenge requires reconceptualizing bioacoustic AI from universal pattern recognition toward diplomatic encounter between different forms of recursive cognition, with implications for model design, evaluation frameworks, and research methodologies.",
+    "arxiv_id": "2511.09118v1",
+    "title": "Learning to Validate Generative Models: a Goodness-of-Fit Approach",
+    "summary": "Generative models are increasingly central to scientific workflows, yet their systematic use and interpretation require a proper understanding of their limitations through rigorous validation. Classic approaches struggle with scalability, statistical power, or interpretability when applied to high-dimensional data, making it difficult to certify the reliability of these models in realistic, high-dimensional scientific settings. Here, we propose the use of the New Physics Learning Machine (NPLM), a learning based approach to goodness-of-fit testing inspired by the Neyman-Pearson construction, to test generative networks trained on high-dimensional scientific data. We demonstrate the performance of NPLM for validation in two benchmark cases: generative models trained on mixtures of Gaussian models with increasing dimensionality, and a public end-to-end generator for the Large Hadron Collider called FlashSim, trained on jet data, typical in the field of high-energy physics. We demonstrate that the NPLM can serve as a powerful validation method while also providing a means to diagnose sub-optimally modeled regions of the data.",
     "authors": [
-      "Graham L. Bishop"
+      "Pietro Cappelli",
+      "Gaia Grosso",
+      "Marco Letizia",
+      "Humberto Reyes-González",
+      "Marco Zanetti"
     ],
     "categories": [
-      "cs.AI",
-      "cs.CL",
-      "cs.CY"
+      "stat.ML",
+      "cs.LG",
+      "hep-ex",
+      "hep-ph"
     ],
     "published": "2025-11-12",
-    "url": "https://arxiv.org/abs/2511.08927v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.08927v1.pdf",
+    "url": "https://arxiv.org/abs/2511.09118v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.09118v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.6
@@ -3218,6 +3199,25 @@
     "published": "2025-11-11",
     "url": "https://arxiv.org/abs/2511.07897v1",
     "pdf_url": "https://arxiv.org/pdf/2511.07897v1.pdf",
+    "date": "2025-11-13",
+    "source": "arxiv",
+    "research_score": 0.6
+  },
+  {
+    "arxiv_id": "2511.08927v1",
+    "title": "The Double Contingency Problem: AI Recursion and the Limits of Interspecies Understanding",
+    "summary": "Current bioacoustic AI systems achieve impressive cross-species performance by processing animal communication through transformer architectures, foundation model paradigms, and other computational approaches. However, these approaches overlook a fundamental question: what happens when one form of recursive cognition--AI systems with their attention mechanisms, iterative processing, and feedback loops--encounters the recursive communicative processes of other species? Drawing on philosopher Yuk Hui's work on recursivity and contingency, I argue that AI systems are not neutral pattern detectors but recursive cognitive agents whose own information processing may systematically obscure or distort other species' communicative structures. This creates a double contingency problem: each species' communication emerges through contingent ecological and evolutionary conditions, while AI systems process these signals through their own contingent architectural and training conditions. I propose that addressing this challenge requires reconceptualizing bioacoustic AI from universal pattern recognition toward diplomatic encounter between different forms of recursive cognition, with implications for model design, evaluation frameworks, and research methodologies.",
+    "authors": [
+      "Graham L. Bishop"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CY"
+    ],
+    "published": "2025-11-12",
+    "url": "https://arxiv.org/abs/2511.08927v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.08927v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.6
@@ -3464,29 +3464,6 @@
     "research_score": 0.58
   },
   {
-    "arxiv_id": "2511.09287v1",
-    "title": "From Model Training to Model Raising - A call to reform AI model training paradigms from post-hoc alignment to intrinsic, identity-based development",
-    "summary": "Current AI training methods align models with human values only after their core capabilities have been established, resulting in models that are easily misaligned and lack deep-rooted value systems. We propose a paradigm shift from \"model training\" to \"model raising\", in which alignment is woven into a model's development from the start. We identify several key components for this paradigm, all centered around redesigning the training corpus: reframing training data from a first-person perspective, recontextualizing information as lived experience, simulating social interactions, and scaffolding the ordering of training data. We expect that this redesign of the training corpus will lead to an early commitment to values from the first training token onward, such that knowledge, skills, and values are intrinsically much harder to separate. In an ecosystem in which large language model capabilities start overtaking human capabilities in many tasks, this seems to us like a critical need.",
-    "authors": [
-      "Roland Aydin",
-      "Christian Cyron",
-      "Steve Bachelor",
-      "Ashton Anderson",
-      "Robert West"
-    ],
-    "categories": [
-      "cs.AI",
-      "cs.CY",
-      "cs.LG"
-    ],
-    "published": "2025-11-12",
-    "url": "https://arxiv.org/abs/2511.09287v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.09287v1.pdf",
-    "date": "2025-11-13",
-    "source": "arxiv",
-    "research_score": 0.58
-  },
-  {
     "arxiv_id": "2511.08151v1",
     "title": "SciAgent: A Unified Multi-Agent System for Generalistic Scientific Reasoning",
     "summary": "Recent advances in large language models have enabled AI systems to achieve expert-level performance on domain-specific scientific tasks, yet these systems remain narrow and handcrafted. We introduce SciAgent, a unified multi-agent system designed for generalistic scientific reasoning-the ability to adapt reasoning strategies across disciplines and difficulty levels. SciAgent organizes problem solving as a hierarchical process: a Coordinator Agent interprets each problem's domain and complexity, dynamically orchestrating specialized Worker Systems, each composed of interacting reasoning Sub-agents for symbolic deduction, conceptual modeling, numerical computation, and verification. These agents collaboratively assemble and refine reasoning pipelines tailored to each task. Across mathematics and physics Olympiads (IMO, IMC, IPhO, CPhO), SciAgent consistently attains or surpasses human gold-medalist performance, demonstrating both domain generality and reasoning adaptability. Additionally, SciAgent has been tested on the International Chemistry Olympiad (IChO) and selected problems from the Humanity's Last Exam (HLE) benchmark, further confirming the system's ability to generalize across diverse scientific domains. This work establishes SciAgent as a concrete step toward generalistic scientific intelligence-AI systems capable of coherent, cross-disciplinary reasoning at expert levels.",
@@ -3543,6 +3520,29 @@
     "published": "2025-11-11",
     "url": "https://arxiv.org/abs/2511.08369v1",
     "pdf_url": "https://arxiv.org/pdf/2511.08369v1.pdf",
+    "date": "2025-11-13",
+    "source": "arxiv",
+    "research_score": 0.58
+  },
+  {
+    "arxiv_id": "2511.09287v1",
+    "title": "From Model Training to Model Raising -- A call to reform AI model training paradigms from post-hoc alignment to intrinsic, identity-based development",
+    "summary": "Current AI training methods align models with human values only after their core capabilities have been established, resulting in models that are easily misaligned and lack deep-rooted value systems. We propose a paradigm shift from \"model training\" to \"model raising\", in which alignment is woven into a model's development from the start. We identify several key components for this paradigm, all centered around redesigning the training corpus: reframing training data from a first-person perspective, recontextualizing information as lived experience, simulating social interactions, and scaffolding the ordering of training data. We expect that this redesign of the training corpus will lead to an early commitment to values from the first training token onward, such that knowledge, skills, and values are intrinsically much harder to separate. In an ecosystem in which large language model capabilities start overtaking human capabilities in many tasks, this seems to us like a critical need.",
+    "authors": [
+      "Roland Aydin",
+      "Christian Cyron",
+      "Steve Bachelor",
+      "Ashton Anderson",
+      "Robert West"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CY",
+      "cs.LG"
+    ],
+    "published": "2025-11-12",
+    "url": "https://arxiv.org/abs/2511.09287v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.09287v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.58
@@ -3935,25 +3935,6 @@
     "research_score": 0.55
   },
   {
-    "arxiv_id": "2511.09325v1",
-    "title": "Not Everything That Counts Can Be Counted: A Case for Safe Qualitative AI",
-    "summary": "Artificial intelligence (AI) and large language models (LLM) are reshaping science, with most recent advances culminating in fully-automated scientific discovery pipelines. But qualitative research has been left behind. Researchers in qualitative methods are hesitant about AI adoption. Yet when they are willing to use AI at all, they have little choice but to rely on general-purpose tools like ChatGPT to assist with interview interpretation, data annotation, and topic modeling - while simultaneously acknowledging these system's well-known limitations of being biased, opaque, irreproducible, and privacy-compromising. This creates a critical gap: while AI has substantially advanced quantitative methods, the qualitative dimensions essential for meaning-making and comprehensive scientific understanding remain poorly integrated. We argue for developing dedicated qualitative AI systems built from the ground up for interpretive research. Such systems must be transparent, reproducible, and privacy-friendly. We review recent literature to show how existing automated discovery pipelines could be enhanced by robust qualitative capabilities, and identify key opportunities where safe qualitative AI could advance multidisciplinary and mixed-methods research.",
-    "authors": [
-      "Stine Beltoft",
-      "Lukas Galke"
-    ],
-    "categories": [
-      "cs.AI",
-      "cs.CL"
-    ],
-    "published": "2025-11-12",
-    "url": "https://arxiv.org/abs/2511.09325v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.09325v1.pdf",
-    "date": "2025-11-13",
-    "source": "arxiv",
-    "research_score": 0.55
-  },
-  {
     "arxiv_id": "2511.08368v1",
     "title": "A Circular Argument : Does RoPE need to be Equivariant for Vision?",
     "summary": "Rotary Positional Encodings (RoPE) have emerged as a highly effective technique for one-dimensional sequences in Natural Language Processing spurring recent progress towards generalizing RoPE to higher-dimensional data such as images and videos. The success of RoPE has been thought to be due to its positional equivariance, i.e. its status as a relative positional encoding. In this paper, we mathematically show RoPE to be one of the most general solutions for equivariant positional embedding in one-dimensional data. Moreover, we show Mixed RoPE to be the analogously general solution for M-dimensional data, if we require commutative generators -- a property necessary for RoPE's equivariance. However, we question whether strict equivariance plays a large role in RoPE's performance. We propose Spherical RoPE, a method analogous to Mixed RoPE, but assumes non-commutative generators. Empirically, we find Spherical RoPE to have the equivalent or better learning behavior compared to its equivariant analogues. This suggests that relative positional embeddings are not as important as is commonly believed, at least within computer vision. We expect this discovery to facilitate future work in positional encodings for vision that can be faster and generalize better by removing the preconception that they must be relative.",
@@ -3970,6 +3951,25 @@
     "published": "2025-11-11",
     "url": "https://arxiv.org/abs/2511.08368v1",
     "pdf_url": "https://arxiv.org/pdf/2511.08368v1.pdf",
+    "date": "2025-11-13",
+    "source": "arxiv",
+    "research_score": 0.55
+  },
+  {
+    "arxiv_id": "2511.09325v1",
+    "title": "Not Everything That Counts Can Be Counted: A Case for Safe Qualitative AI",
+    "summary": "Artificial intelligence (AI) and large language models (LLM) are reshaping science, with most recent advances culminating in fully-automated scientific discovery pipelines. But qualitative research has been left behind. Researchers in qualitative methods are hesitant about AI adoption. Yet when they are willing to use AI at all, they have little choice but to rely on general-purpose tools like ChatGPT to assist with interview interpretation, data annotation, and topic modeling - while simultaneously acknowledging these system's well-known limitations of being biased, opaque, irreproducible, and privacy-compromising. This creates a critical gap: while AI has substantially advanced quantitative methods, the qualitative dimensions essential for meaning-making and comprehensive scientific understanding remain poorly integrated. We argue for developing dedicated qualitative AI systems built from the ground up for interpretive research. Such systems must be transparent, reproducible, and privacy-friendly. We review recent literature to show how existing automated discovery pipelines could be enhanced by robust qualitative capabilities, and identify key opportunities where safe qualitative AI could advance multidisciplinary and mixed-methods research.",
+    "authors": [
+      "Stine Beltoft",
+      "Lukas Galke"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "published": "2025-11-12",
+    "url": "https://arxiv.org/abs/2511.09325v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.09325v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.55
@@ -4033,27 +4033,6 @@
     "published": "2025-11-11",
     "url": "https://arxiv.org/abs/2511.08066v2",
     "pdf_url": "https://arxiv.org/pdf/2511.08066v2.pdf",
-    "date": "2025-11-13",
-    "source": "arxiv",
-    "research_score": 0.54
-  },
-  {
-    "arxiv_id": "2511.08878v1",
-    "title": "Covariance Scattering Transforms",
-    "summary": "Machine learning and data processing techniques relying on covariance information are widespread as they identify meaningful patterns in unsupervised and unlabeled settings. As a prominent example, Principal Component Analysis (PCA) projects data points onto the eigenvectors of their covariance matrix, capturing the directions of maximum variance. This mapping, however, falls short in two directions: it fails to capture information in low-variance directions, relevant when, e.g., the data contains high-variance noise; and it provides unstable results in low-sample regimes, especially when covariance eigenvalues are close. CoVariance Neural Networks (VNNs), i.e., graph neural networks using the covariance matrix as a graph, show improved stability to estimation errors and learn more expressive functions in the covariance spectrum than PCA, but require training and operate in a labeled setup. To get the benefits of both worlds, we propose Covariance Scattering Transforms (CSTs), deep untrained networks that sequentially apply filters localized in the covariance spectrum to the input data and produce expressive hierarchical representations via nonlinearities. We define the filters as covariance wavelets that capture specific and detailed covariance spectral patterns. We improve CSTs' computational and memory efficiency via a pruning mechanism, and we prove that their error due to finite-sample covariance estimations is less sensitive to close covariance eigenvalues compared to PCA, improving their stability. Our experiments on age prediction from cortical thickness measurements on 4 datasets collecting patients with neurodegenerative diseases show that CSTs produce stable representations in low-data settings, as VNNs but without any training, and lead to comparable or better predictions w.r.t. more complex learning models.",
-    "authors": [
-      "Andrea Cavallo",
-      "Ayushman Raghuvanshi",
-      "Sundeep Prabhakar Chepuri",
-      "Elvin Isufi"
-    ],
-    "categories": [
-      "cs.LG",
-      "stat.ML"
-    ],
-    "published": "2025-11-12",
-    "url": "https://arxiv.org/abs/2511.08878v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.08878v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.54
@@ -4206,6 +4185,27 @@
     "research_score": 0.54
   },
   {
+    "arxiv_id": "2511.08878v1",
+    "title": "Covariance Scattering Transforms",
+    "summary": "Machine learning and data processing techniques relying on covariance information are widespread as they identify meaningful patterns in unsupervised and unlabeled settings. As a prominent example, Principal Component Analysis (PCA) projects data points onto the eigenvectors of their covariance matrix, capturing the directions of maximum variance. This mapping, however, falls short in two directions: it fails to capture information in low-variance directions, relevant when, e.g., the data contains high-variance noise; and it provides unstable results in low-sample regimes, especially when covariance eigenvalues are close. CoVariance Neural Networks (VNNs), i.e., graph neural networks using the covariance matrix as a graph, show improved stability to estimation errors and learn more expressive functions in the covariance spectrum than PCA, but require training and operate in a labeled setup. To get the benefits of both worlds, we propose Covariance Scattering Transforms (CSTs), deep untrained networks that sequentially apply filters localized in the covariance spectrum to the input data and produce expressive hierarchical representations via nonlinearities. We define the filters as covariance wavelets that capture specific and detailed covariance spectral patterns. We improve CSTs' computational and memory efficiency via a pruning mechanism, and we prove that their error due to finite-sample covariance estimations is less sensitive to close covariance eigenvalues compared to PCA, improving their stability. Our experiments on age prediction from cortical thickness measurements on 4 datasets collecting patients with neurodegenerative diseases show that CSTs produce stable representations in low-data settings, as VNNs but without any training, and lead to comparable or better predictions w.r.t. more complex learning models.",
+    "authors": [
+      "Andrea Cavallo",
+      "Ayushman Raghuvanshi",
+      "Sundeep Prabhakar Chepuri",
+      "Elvin Isufi"
+    ],
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "published": "2025-11-12",
+    "url": "https://arxiv.org/abs/2511.08878v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.08878v1.pdf",
+    "date": "2025-11-13",
+    "source": "arxiv",
+    "research_score": 0.54
+  },
+  {
     "arxiv_id": "2511.09105v1",
     "title": "Cost-Minimized Label-Flipping Poisoning Attack to LLM Alignment",
     "summary": "Large language models (LLMs) are increasingly deployed in real-world systems, making it critical to understand their vulnerabilities. While data poisoning attacks during RLHF/DPO alignment have been studied empirically, their theoretical foundations remain unclear. We investigate the minimum-cost poisoning attack required to steer an LLM's policy toward an attacker's target by flipping preference labels during RLHF/DPO, without altering the compared outputs. We formulate this as a convex optimization problem with linear constraints, deriving lower and upper bounds on the minimum attack cost. As a byproduct of this theoretical analysis, we show that any existing label-flipping attack can be post-processed via our proposed method to reduce the number of label flips required while preserving the intended poisoning effect. Empirical results demonstrate that this cost-minimization post-processing can significantly reduce poisoning costs over baselines, particularly when the reward model's feature dimension is small relative to the dataset size. These findings highlight fundamental vulnerabilities in RLHF/DPO pipelines and provide tools to evaluate their robustness against low-cost poisoning attacks.",
@@ -4273,21 +4273,20 @@
     "research_score": 0.54
   },
   {
-    "arxiv_id": "2511.09378v1",
-    "title": "The 2025 Planning Performance of Frontier Large Language Models",
-    "summary": "The capacity of Large Language Models (LLMs) for reasoning remains an active area of research, with the capabilities of frontier models continually advancing. We provide an updated evaluation of the end-to-end planning performance of three frontier LLMs as of 2025, where models are prompted to generate a plan from PDDL domain and task descriptions. We evaluate DeepSeek R1, Gemini 2.5 Pro, GPT-5 and as reference the planner LAMA on a subset of domains from the most recent Learning Track of the International Planning Competition. Our results show that on standard PDDL domains, the performance of GPT-5 in terms of solved tasks is competitive with LAMA. When the PDDL domains and tasks are obfuscated to test for pure reasoning, the performance of all LLMs degrades, though less severely than previously reported for other models. These results show substantial improvements over prior generations of LLMs, reducing the performance gap to planners on a challenging benchmark.",
+    "arxiv_id": "2511.07787v1",
+    "title": "Physical Consistency of Aurora's Encoder: A Quantitative Study",
+    "summary": "The high accuracy of large-scale weather forecasting models like Aurora is often accompanied by a lack of transparency, as their internal representations remain largely opaque. This \"black box\" nature hinders their adoption in high-stakes operational settings. In this work, we probe the physical consistency of Aurora's encoder by investigating whether its latent representations align with known physical and meteorological concepts. Using a large-scale dataset of embeddings, we train linear classifiers to identify three distinct concepts: the fundamental land-sea boundary, high-impact extreme temperature events, and atmospheric instability. Our findings provide quantitative evidence that Aurora learns physically consistent features, while also highlighting its limitations in capturing the rarest events. This work underscores the critical need for interpretability methods to validate and build trust in the next generation of Al-driven weather models.",
     "authors": [
-      "Augusto B. Corrêa",
-      "André G. Pereira",
-      "Jendrik Seipp"
+      "Benjamin Richards",
+      "Pushpa Kumar Balan"
     ],
     "categories": [
-      "cs.AI",
-      "cs.LG"
+      "cs.LG",
+      "cs.AI"
     ],
-    "published": "2025-11-12",
-    "url": "https://arxiv.org/abs/2511.09378v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.09378v1.pdf",
+    "published": "2025-11-11",
+    "url": "https://arxiv.org/abs/2511.07787v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.07787v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.54
@@ -4319,20 +4318,21 @@
     "research_score": 0.54
   },
   {
-    "arxiv_id": "2511.07787v1",
-    "title": "Physical Consistency of Aurora's Encoder: A Quantitative Study",
-    "summary": "The high accuracy of large-scale weather forecasting models like Aurora is often accompanied by a lack of transparency, as their internal representations remain largely opaque. This \"black box\" nature hinders their adoption in high-stakes operational settings. In this work, we probe the physical consistency of Aurora's encoder by investigating whether its latent representations align with known physical and meteorological concepts. Using a large-scale dataset of embeddings, we train linear classifiers to identify three distinct concepts: the fundamental land-sea boundary, high-impact extreme temperature events, and atmospheric instability. Our findings provide quantitative evidence that Aurora learns physically consistent features, while also highlighting its limitations in capturing the rarest events. This work underscores the critical need for interpretability methods to validate and build trust in the next generation of Al-driven weather models.",
+    "arxiv_id": "2511.09378v1",
+    "title": "The 2025 Planning Performance of Frontier Large Language Models",
+    "summary": "The capacity of Large Language Models (LLMs) for reasoning remains an active area of research, with the capabilities of frontier models continually advancing. We provide an updated evaluation of the end-to-end planning performance of three frontier LLMs as of 2025, where models are prompted to generate a plan from PDDL domain and task descriptions. We evaluate DeepSeek R1, Gemini 2.5 Pro, GPT-5 and as reference the planner LAMA on a subset of domains from the most recent Learning Track of the International Planning Competition. Our results show that on standard PDDL domains, the performance of GPT-5 in terms of solved tasks is competitive with LAMA. When the PDDL domains and tasks are obfuscated to test for pure reasoning, the performance of all LLMs degrades, though less severely than previously reported for other models. These results show substantial improvements over prior generations of LLMs, reducing the performance gap to planners on a challenging benchmark.",
     "authors": [
-      "Benjamin Richards",
-      "Pushpa Kumar Balan"
+      "Augusto B. Corrêa",
+      "André G. Pereira",
+      "Jendrik Seipp"
     ],
     "categories": [
-      "cs.LG",
-      "cs.AI"
+      "cs.AI",
+      "cs.LG"
     ],
-    "published": "2025-11-11",
-    "url": "https://arxiv.org/abs/2511.07787v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.07787v1.pdf",
+    "published": "2025-11-12",
+    "url": "https://arxiv.org/abs/2511.09378v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.09378v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.54
