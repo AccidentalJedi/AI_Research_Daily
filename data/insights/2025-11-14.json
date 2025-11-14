@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-14T16:09:36.110250",
+  "date": "2025-11-14T20:09:40.575274",
   "patterns": {
     "multimodal_research": [
       {
@@ -185,10 +185,6 @@
         "url": "https://arxiv.org/abs/2511.10555v1"
       },
       {
-        "title": "Mined Prompting and Metadata-Guided Generation for Wound Care Visual Question Answering",
-        "url": "https://arxiv.org/abs/2511.10591v1"
-      },
-      {
         "title": "PustakAI: Curriculum-Aligned and Interactive Textbooks Using Large Language Models",
         "url": "https://arxiv.org/abs/2511.10002v1"
       },
@@ -313,10 +309,6 @@
       {
         "title": "A Neurosymbolic Approach to Natural Language Formalization and Verification",
         "url": "https://arxiv.org/abs/2511.09008v1"
-      },
-      {
-        "title": "Completion of partial structures using Patterson maps with the CrysFormer machine learning model",
-        "url": "https://arxiv.org/abs/2511.10440v1"
       },
       {
         "title": "Causally-Grounded Dual-Path Attention Intervention for Object Hallucination Mitigation in LVLMs",
@@ -479,6 +471,10 @@
         "url": "https://arxiv.org/abs/2511.10338v1"
       },
       {
+        "title": "TawPipe: Topology-Aware Weight Pipeline Parallelism for Accelerating Long-Context Large Models Training",
+        "url": "https://arxiv.org/abs/2511.09741v1"
+      },
+      {
         "title": "Instella: Fully Open Language Models with Stellar Performance",
         "url": "https://arxiv.org/abs/2511.10628v1"
       },
@@ -587,6 +583,10 @@
         "url": "https://arxiv.org/abs/2511.10643v1"
       },
       {
+        "title": "How Small Can You Go? Compact Language Models for On-Device Critical Error Detection in Machine Translation",
+        "url": "https://arxiv.org/abs/2511.09748v1"
+      },
+      {
         "title": "DeepVRegulome: DNABERT-based deep-learning framework for predicting the functional impact of short genomic variants on the human regulome",
         "url": "https://arxiv.org/abs/2511.09026v1"
       },
@@ -667,10 +667,6 @@
       {
         "title": "AdaptViG: Adaptive Vision GNN with Exponential Decay Gating",
         "url": "https://arxiv.org/abs/2511.09942v1"
-      },
-      {
-        "title": "Completion of partial structures using Patterson maps with the CrysFormer machine learning model",
-        "url": "https://arxiv.org/abs/2511.10440v1"
       },
       {
         "title": "Causally-Grounded Dual-Path Attention Intervention for Object Hallucination Mitigation in LVLMs",
@@ -763,10 +759,6 @@
       {
         "title": "A Style is Worth One Code: Unlocking Code-to-Style Image Generation with Discrete Style Space",
         "url": "https://arxiv.org/abs/2511.10555v1"
-      },
-      {
-        "title": "Mined Prompting and Metadata-Guided Generation for Wound Care Visual Question Answering",
-        "url": "https://arxiv.org/abs/2511.10591v1"
       },
       {
         "title": "Bridging Synthetic and Real Routing Problems via LLM-Guided Instance Generation and Progressive Adaptation",
@@ -919,6 +911,10 @@
       {
         "title": "Difference Vector Equalization for Robust Fine-tuning of Vision-Language Models",
         "url": "https://arxiv.org/abs/2511.09973v1"
+      },
+      {
+        "title": "How Small Can You Go? Compact Language Models for On-Device Critical Error Detection in Machine Translation",
+        "url": "https://arxiv.org/abs/2511.09748v1"
       },
       {
         "title": "EgoEMS: A High-Fidelity Multimodal Egocentric Dataset for Cognitive Assistance in Emergency Medical Services",
@@ -1265,10 +1261,6 @@
       {
         "title": "On topological descriptors for graph products",
         "url": "https://arxiv.org/abs/2511.08846v1"
-      },
-      {
-        "title": "oaimli/longtune_scitrek_reasoning_reinforcement_qwen",
-        "url": "https://huggingface.co/oaimli/longtune_scitrek_reasoning_reinforcement_qwen"
       }
     ],
     "benchmarks": [
@@ -1553,6 +1545,10 @@
         "url": "https://arxiv.org/abs/2511.10308v1"
       },
       {
+        "title": "TawPipe: Topology-Aware Weight Pipeline Parallelism for Accelerating Long-Context Large Models Training",
+        "url": "https://arxiv.org/abs/2511.09741v1"
+      },
+      {
         "title": "Instella: Fully Open Language Models with Stellar Performance",
         "url": "https://arxiv.org/abs/2511.10628v1"
       },
@@ -1645,6 +1641,10 @@
         "url": "https://arxiv.org/abs/2511.08860v1"
       },
       {
+        "title": "How Small Can You Go? Compact Language Models for On-Device Critical Error Detection in Machine Translation",
+        "url": "https://arxiv.org/abs/2511.09748v1"
+      },
+      {
         "title": "EgoEMS: A High-Fidelity Multimodal Egocentric Dataset for Cognitive Assistance in Emergency Medical Services",
         "url": "https://arxiv.org/abs/2511.09894v1"
       },
@@ -1725,7 +1725,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "43 independent papers",
+      "observation": "42 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1737,19 +1737,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "83 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1761,7 +1761,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "109 independent papers",
+      "observation": "111 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1769,27 +1769,27 @@
   "research_trends": [
     {
       "topic": "language",
-      "frequency": 74,
+      "frequency": 76,
       "significance": "high"
     },
     {
       "topic": "benchmark",
-      "frequency": 69,
+      "frequency": 70,
       "significance": "high"
     },
     {
       "topic": "generation",
-      "frequency": 38,
-      "significance": "high"
-    },
-    {
-      "topic": "reasoning",
-      "frequency": 35,
+      "frequency": 37,
       "significance": "high"
     },
     {
       "topic": "vision",
       "frequency": 35,
+      "significance": "high"
+    },
+    {
+      "topic": "reasoning",
+      "frequency": 34,
       "significance": "high"
     }
   ],
