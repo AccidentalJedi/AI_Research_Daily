@@ -1,0 +1,22 @@
+{
+  "date": "2025-11-17T00:28:53.422978",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "mutisya/w2v-bert-2.0-asr-2stage-char-kik-25-46-stage1-v1",
+        "url": "https://huggingface.co/mutisya/w2v-bert-2.0-asr-2stage-char-kik-25-46-stage1-v1"
+      },
+      {
+        "title": "buelfhood/conplag1_modernbert_ep30_bs16_lr3e-05_l512_s42_ppy_f_beta_score",
+        "url": "https://huggingface.co/buelfhood/conplag1_modernbert_ep30_bs16_lr3e-05_l512_s42_ppy_f_beta_score"
+      }
+    ]
+  },
+  "inferences": [],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 0,
+    "total_papers": 2
+  }
+}
