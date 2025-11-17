@@ -1,14 +1,14 @@
 {
-  "date": "2025-11-17T00:28:53.422978",
+  "date": "2025-11-17T04:12:41.691175",
   "patterns": {
     "language_models": [
       {
-        "title": "mutisya/w2v-bert-2.0-asr-2stage-char-kik-25-46-stage1-v1",
-        "url": "https://huggingface.co/mutisya/w2v-bert-2.0-asr-2stage-char-kik-25-46-stage1-v1"
+        "title": "buelfhood/conplag2_modernbert_ep30_bs16_lr2e-05_l256_s42_ppy_loss",
+        "url": "https://huggingface.co/buelfhood/conplag2_modernbert_ep30_bs16_lr2e-05_l256_s42_ppy_loss"
       },
       {
-        "title": "buelfhood/conplag1_modernbert_ep30_bs16_lr3e-05_l512_s42_ppy_f_beta_score",
-        "url": "https://huggingface.co/buelfhood/conplag1_modernbert_ep30_bs16_lr3e-05_l512_s42_ppy_f_beta_score"
+        "title": "buelfhood/conplag2_modernbert_ep30_bs16_lr1e-05_l1280_s42_ppy_f_beta_score",
+        "url": "https://huggingface.co/buelfhood/conplag2_modernbert_ep30_bs16_lr1e-05_l1280_s42_ppy_f_beta_score"
       }
     ]
   },
