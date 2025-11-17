@@ -1,14 +1,14 @@
 {
-  "date": "2025-11-17T04:12:41.691175",
+  "date": "2025-11-17T08:11:55.330192",
   "patterns": {
     "language_models": [
       {
-        "title": "buelfhood/conplag2_modernbert_ep30_bs16_lr2e-05_l256_s42_ppy_loss",
-        "url": "https://huggingface.co/buelfhood/conplag2_modernbert_ep30_bs16_lr2e-05_l256_s42_ppy_loss"
+        "title": "kocemirhan/bert-base-uncased-finetuned-mrpc-run_1",
+        "url": "https://huggingface.co/kocemirhan/bert-base-uncased-finetuned-mrpc-run_1"
       },
       {
-        "title": "buelfhood/conplag2_modernbert_ep30_bs16_lr1e-05_l1280_s42_ppy_f_beta_score",
-        "url": "https://huggingface.co/buelfhood/conplag2_modernbert_ep30_bs16_lr1e-05_l1280_s42_ppy_f_beta_score"
+        "title": "MathLLMs/MathVision",
+        "url": "https://huggingface.co/datasets/MathLLMs/MathVision"
       }
     ]
   },
