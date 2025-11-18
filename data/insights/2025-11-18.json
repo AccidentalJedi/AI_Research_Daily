@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-18T16:09:59.871336",
+  "date": "2025-11-18T20:09:32.048676",
   "patterns": {
     "multimodal_research": [
       {
@@ -659,12 +659,8 @@
         "url": "https://arxiv.org/abs/2511.13494v1"
       },
       {
-        "title": "derhan/indobert-klasifikasi-alasan-tender",
-        "url": "https://huggingface.co/derhan/indobert-klasifikasi-alasan-tender"
-      },
-      {
-        "title": "aiivar/distilbert-base-uncased-finetuned-sst2-glue",
-        "url": "https://huggingface.co/aiivar/distilbert-base-uncased-finetuned-sst2-glue"
+        "title": "leftergsm/BgGPT-Gemma-2.6B-History-Merged",
+        "url": "https://huggingface.co/leftergsm/BgGPT-Gemma-2.6B-History-Merged"
       }
     ],
     "vision_systems": [
@@ -1233,6 +1229,10 @@
       {
         "title": "Adaptive Multi-Scale Integration Unlocks Robust Cell Annotation in Histopathology Images",
         "url": "https://arxiv.org/abs/2511.13586v1"
+      },
+      {
+        "title": "Cannae-AI/ReasoningLlama-Math-1B-IT",
+        "url": "https://huggingface.co/Cannae-AI/ReasoningLlama-Math-1B-IT"
       }
     ],
     "benchmarks": [
@@ -1689,7 +1689,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1701,7 +1701,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "56 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1741,7 +1741,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 27,
+      "frequency": 28,
       "significance": "high"
     }
   ],
