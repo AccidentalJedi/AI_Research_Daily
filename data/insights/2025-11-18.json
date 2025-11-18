@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-18T08:10:55.185919",
+  "date": "2025-11-18T12:12:49.782876",
   "patterns": {
     "multimodal_research": [
       {
@@ -657,6 +657,10 @@
       {
         "title": "Language-Guided Invariance Probing of Vision-Language Models",
         "url": "https://arxiv.org/abs/2511.13494v1"
+      },
+      {
+        "title": "aggie/gbv-classifier-roberta-base-ONNX",
+        "url": "https://huggingface.co/aggie/gbv-classifier-roberta-base-ONNX"
       }
     ],
     "vision_systems": [
@@ -951,6 +955,10 @@
       {
         "title": "Accuracy is Not Enough: Poisoning Interpretability in Federated Learning via Color Skew",
         "url": "https://arxiv.org/abs/2511.13535v1"
+      },
+      {
+        "title": "ONS-AI-RESEARCH/Qwen3-4B-NewsRevision-1112",
+        "url": "https://huggingface.co/ONS-AI-RESEARCH/Qwen3-4B-NewsRevision-1112"
       },
       {
         "title": "Adaptive Multi-Scale Integration Unlocks Robust Cell Annotation in Histopathology Images",
@@ -1681,13 +1689,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "75 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "85 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1723,7 +1731,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 32,
+      "frequency": 33,
       "significance": "high"
     },
     {
@@ -1740,6 +1748,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 410
+    "total_papers": 412
   }
 }
