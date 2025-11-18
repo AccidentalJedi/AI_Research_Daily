@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-18T04:11:02.502542",
+  "date": "2025-11-18T08:10:55.185919",
   "patterns": {
     "multimodal_research": [
       {
@@ -643,10 +643,6 @@
         "url": "https://arxiv.org/abs/2511.13704v1"
       },
       {
-        "title": "a3ilab-llm-uncertainty/new_xlam_3epoch_FUN_mix_eng_zhtw2000",
-        "url": "https://huggingface.co/a3ilab-llm-uncertainty/new_xlam_3epoch_FUN_mix_eng_zhtw2000"
-      },
-      {
         "title": "VOPE: Revisiting Hallucination of Vision-Language Models in Voluntary Imagination Task",
         "url": "https://arxiv.org/abs/2511.13420v1"
       },
@@ -661,10 +657,6 @@
       {
         "title": "Language-Guided Invariance Probing of Vision-Language Models",
         "url": "https://arxiv.org/abs/2511.13494v1"
-      },
-      {
-        "title": "ankitakumaripatro/modernbert_ASLSingleLabelLoss_exp",
-        "url": "https://huggingface.co/ankitakumaripatro/modernbert_ASLSingleLabelLoss_exp"
       }
     ],
     "vision_systems": [
@@ -1689,7 +1681,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "77 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 410
   }
 }
