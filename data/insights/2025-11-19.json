@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-19T12:12:55.548976",
+  "date": "2025-11-19T16:10:20.468133",
   "patterns": {
     "multimodal_research": [
       {
@@ -629,6 +629,18 @@
       {
         "title": "Enhancing LLM-based Autonomous Driving with Modular Traffic Light and Sign Recognition",
         "url": "https://arxiv.org/abs/2511.14391v1"
+      },
+      {
+        "title": "simonper/fine-tuned-llm",
+        "url": "https://huggingface.co/simonper/fine-tuned-llm"
+      },
+      {
+        "title": "vidart/bert-base-e1",
+        "url": "https://huggingface.co/vidart/bert-base-e1"
+      },
+      {
+        "title": "MiguelTami/xlm-roberta-sentiment-tweets-8bs",
+        "url": "https://huggingface.co/MiguelTami/xlm-roberta-sentiment-tweets-8bs"
       }
     ],
     "vision_systems": [
@@ -1201,10 +1213,6 @@
       {
         "title": "Enhancing LLM-based Autonomous Driving with Modular Traffic Light and Sign Recognition",
         "url": "https://arxiv.org/abs/2511.14391v1"
-      },
-      {
-        "title": "ccui46/qwen3_8b_reasoning_sft_210",
-        "url": "https://huggingface.co/ccui46/qwen3_8b_reasoning_sft_210"
       }
     ],
     "benchmarks": [
@@ -1649,7 +1657,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "79 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1661,7 +1669,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "61 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1701,13 +1709,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 30,
+      "frequency": 29,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 402
+    "total_papers": 404
   }
 }
