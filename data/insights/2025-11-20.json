@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-20T12:13:15.076574",
+  "date": "2025-11-20T16:09:31.098866",
   "patterns": {
     "multimodal_research": [
       {
@@ -745,6 +745,22 @@
       {
         "title": "From Low-Rank Features to Encoding Mismatch: Rethinking Feature Distillation in Vision Transformers",
         "url": "https://arxiv.org/abs/2511.15572v1"
+      },
+      {
+        "title": "aliRafik/gpt-oss-20B-finetuned-multilang-reasoning-full-model",
+        "url": "https://huggingface.co/aliRafik/gpt-oss-20B-finetuned-multilang-reasoning-full-model"
+      },
+      {
+        "title": "isk31/biogpt_birads_classifier",
+        "url": "https://huggingface.co/isk31/biogpt_birads_classifier"
+      },
+      {
+        "title": "LeoCuadro/roberta-sentiment-b8",
+        "url": "https://huggingface.co/LeoCuadro/roberta-sentiment-b8"
+      },
+      {
+        "title": "omarbayoumi2/bert-base-qa-squad-colab",
+        "url": "https://huggingface.co/omarbayoumi2/bert-base-qa-squad-colab"
       }
     ],
     "vision_systems": [
@@ -1325,6 +1341,10 @@
       {
         "title": "FunnyNodules: A Customizable Medical Dataset Tailored for Evaluating Explainable AI",
         "url": "https://arxiv.org/abs/2511.15481v1"
+      },
+      {
+        "title": "aliRafik/gpt-oss-20B-finetuned-multilang-reasoning-full-model",
+        "url": "https://huggingface.co/aliRafik/gpt-oss-20B-finetuned-multilang-reasoning-full-model"
       }
     ],
     "benchmarks": [
@@ -1737,7 +1757,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "79 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1749,7 +1769,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "65 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1796,6 +1816,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 424
+    "total_papers": 429
   }
 }
