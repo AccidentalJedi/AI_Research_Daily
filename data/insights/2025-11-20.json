@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-20T04:09:41.204003",
+  "date": "2025-11-20T08:10:52.386495",
   "patterns": {
     "multimodal_research": [
       {
@@ -745,10 +745,6 @@
       {
         "title": "From Low-Rank Features to Encoding Mismatch: Rethinking Feature Distillation in Vision Transformers",
         "url": "https://arxiv.org/abs/2511.15572v1"
-      },
-      {
-        "title": "DevQuasar/p-e-w.gpt-oss-20b-heretic-GGUF",
-        "url": "https://huggingface.co/DevQuasar/p-e-w.gpt-oss-20b-heretic-GGUF"
       }
     ],
     "vision_systems": [
@@ -1741,7 +1737,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1800,6 +1796,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 424
   }
 }
