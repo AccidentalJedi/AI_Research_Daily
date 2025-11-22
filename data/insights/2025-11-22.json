@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-22T12:11:25.549993",
+  "date": "2025-11-22T16:08:37.221817",
   "patterns": {
     "multimodal_research": [
       {
@@ -625,14 +625,6 @@
       {
         "title": "Flow and Depth Assisted Video Prediction with Latent Transformer",
         "url": "https://arxiv.org/abs/2511.16484v1"
-      },
-      {
-        "title": "Dawn123666/ml_mbert_1024_v4",
-        "url": "https://huggingface.co/Dawn123666/ml_mbert_1024_v4"
-      },
-      {
-        "title": "Umt06/bert-base-uncased-finetuned-mrpc-run_1",
-        "url": "https://huggingface.co/Umt06/bert-base-uncased-finetuned-mrpc-run_1"
       }
     ],
     "vision_systems": [
@@ -1689,7 +1681,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "72 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 410
   }
 }
