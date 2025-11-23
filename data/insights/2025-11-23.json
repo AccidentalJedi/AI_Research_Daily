@@ -1,11 +1,22 @@
 {
-  "date": "2025-11-23T04:18:22.999264",
-  "patterns": {},
+  "date": "2025-11-23T08:10:01.211867",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "siddharthgowda/NOT-SCALLING-finetuned-roBERTa-tweet-virality-predictor-classifcation-head-step",
+        "url": "https://huggingface.co/siddharthgowda/NOT-SCALLING-finetuned-roBERTa-tweet-virality-predictor-classifcation-head-step"
+      },
+      {
+        "title": "Umt06/bert-base-uncased-finetuned-mrpc-run_1",
+        "url": "https://huggingface.co/Umt06/bert-base-uncased-finetuned-mrpc-run_1"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
