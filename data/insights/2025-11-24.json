@@ -1,11 +1,37 @@
 {
-  "date": "2025-11-24T16:09:36.523311",
-  "patterns": {},
-  "inferences": [],
+  "date": "2025-11-24T20:09:38.168566",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Ahmedjr/codebert-algorithm-tagger",
+        "url": "https://huggingface.co/Ahmedjr/codebert-algorithm-tagger"
+      },
+      {
+        "title": "berkbilgic/addsent-generated-imdb-distilbert-kuzey-berk",
+        "url": "https://huggingface.co/berkbilgic/addsent-generated-imdb-distilbert-kuzey-berk"
+      },
+      {
+        "title": "MIldoc/gpt-oss-20b-ru-mxfp4",
+        "url": "https://huggingface.co/MIldoc/gpt-oss-20b-ru-mxfp4"
+      },
+      {
+        "title": "ahmed-ayman101/distilbert-base-uncased-finetuned-clinc",
+        "url": "https://huggingface.co/ahmed-ayman101/distilbert-base-uncased-finetuned-clinc"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 4
   }
 }
