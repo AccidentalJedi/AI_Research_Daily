@@ -122,7 +122,7 @@
       "Aaron Davitt",
       "Gavin McCormick",
       "Shelby Anderson",
-      "Pol Carb\u00f3-Mestre",
+      "Pol Carbó-Mestre",
       "Gary Collins",
       "Verity Crane",
       "Zoheyr Doctor",
@@ -148,7 +148,7 @@
       "Michael Robinette",
       "Ishan Saraswat",
       "Patrick Sicurello",
-      "Isabella S\u00f6ldner-Rembold",
+      "Isabella Söldner-Rembold",
       "Raymond Song",
       "Charlotte Underwood",
       "Kyle Bradbury"
@@ -1217,7 +1217,7 @@
     "summary": "Physics simulators are essential in science and engineering, enabling the analysis, control, and design of complex systems. In experimental sciences, they are increasingly used to automate experimental design, often via combinatorial search and optimization. However, as the setups grow more complex, the computational cost of traditional, CPU-based simulators becomes a major limitation. Here, we show how neural surrogate models can significantly reduce reliance on such slow simulators while preserving accuracy. Taking the design of interferometric gravitational wave detectors as a representative example, we train a neural network to surrogate the gravitational wave physics simulator Finesse, which was developed by the LIGO community. Despite that small changes in physical parameters can change the output by orders of magnitudes, the model rapidly predicts the quality and feasibility of candidate designs, allowing an efficient exploration of large design spaces. Our algorithm loops between training the surrogate, inverse designing new experiments, and verifying their properties with the slow simulator for further training. Assisted by auto-differentiation and GPU parallelism, our method proposes high-quality experiments much faster than direct optimization. Solutions that our algorithm finds within hours outperform designs that take five days for the optimizer to reach. Though shown in the context of gravitational wave detectors, our framework is broadly applicable to other domains where simulator bottlenecks hinder optimization and discovery.",
     "authors": [
       "Carlos Ruiz-Gonzalez",
-      "S\u00f6ren Arlt",
+      "Sören Arlt",
       "Sebastian Lehner",
       "Arturs Berzins",
       "Yehonathan Drori",
@@ -1379,7 +1379,7 @@
   {
     "arxiv_id": "2511.19433v1",
     "title": "Mixture of Horizons in Action Chunking",
-    "summary": "Vision-language-action (VLA) models have shown remarkable capabilities in robotic manipulation, but their performance is sensitive to the $\\textbf{action chunk length}$ used during training, termed $\\textbf{horizon}$. Our empirical study reveals an inherent trade-off: longer horizons provide stronger global foresight but degrade fine-grained accuracy, while shorter ones sharpen local control yet struggle on long-term tasks, implying fixed choice of single horizons being suboptimal. To mitigate the trade-off, we propose a $\\textbf{mixture of horizons (MoH)}$ strategy. MoH rearranges the action chunk into several segments with different horizons, processes them in parallel with a shared action transformer, and fuses outputs with a light linear gate. It has three appealing benefits. 1) MoH exploits long-term foresight and short-term precision jointly within a single model, improving both performance and generalizability to complex tasks. 2) MoH is plug-and-play for full-attention action modules with minimal training or inference overhead. 3) MoH enables dynamic inference with adaptive horizons, which selects stable actions through cross-horizon consensus, achieving 2.5$\\times$ higher throughput than baselines while preserving superior performance. Extensive experiments over flow-based policies $\u03c0_0$, $\u03c0_{0.5}$, and one-step regression policy $\u03c0_{\\text{reg}}$ demonstrate that MoH yields consistent and significant gains on both simulations and real-world tasks. Notably, under mixed-task setting, $\u03c0_{0.5}$ with MoH reaches a new state-of-the-art with 99$\\%$ average success rate on LIBERO after only $30k$ training iterations. Project page: https://github.com/Timsty1/MixtureOfHorizons",
+    "summary": "Vision-language-action (VLA) models have shown remarkable capabilities in robotic manipulation, but their performance is sensitive to the $\\textbf{action chunk length}$ used during training, termed $\\textbf{horizon}$. Our empirical study reveals an inherent trade-off: longer horizons provide stronger global foresight but degrade fine-grained accuracy, while shorter ones sharpen local control yet struggle on long-term tasks, implying fixed choice of single horizons being suboptimal. To mitigate the trade-off, we propose a $\\textbf{mixture of horizons (MoH)}$ strategy. MoH rearranges the action chunk into several segments with different horizons, processes them in parallel with a shared action transformer, and fuses outputs with a light linear gate. It has three appealing benefits. 1) MoH exploits long-term foresight and short-term precision jointly within a single model, improving both performance and generalizability to complex tasks. 2) MoH is plug-and-play for full-attention action modules with minimal training or inference overhead. 3) MoH enables dynamic inference with adaptive horizons, which selects stable actions through cross-horizon consensus, achieving 2.5$\\times$ higher throughput than baselines while preserving superior performance. Extensive experiments over flow-based policies $π_0$, $π_{0.5}$, and one-step regression policy $π_{\\text{reg}}$ demonstrate that MoH yields consistent and significant gains on both simulations and real-world tasks. Notably, under mixed-task setting, $π_{0.5}$ with MoH reaches a new state-of-the-art with 99$\\%$ average success rate on LIBERO after only $30k$ training iterations. Project page: https://github.com/Timsty1/MixtureOfHorizons",
     "authors": [
       "Dong Jing",
       "Gang Wang",
@@ -1524,7 +1524,7 @@
     "summary": "The black box nature of deep neural networks poses a significant challenge for the deployment of transparent and trustworthy artificial intelligence (AI) systems. With the growing presence of AI in society, it becomes increasingly important to develop methods that can explain and interpret the decisions made by these systems. To address this, mechanistic interpretability (MI) emerged as a promising and distinctive research program within the broader field of explainable artificial intelligence (XAI). MI is the process of studying the inner computations of neural networks and translating them into human-understandable algorithms. It encompasses reverse engineering techniques aimed at uncovering the computational algorithms implemented by neural networks. In this article, we propose a unified taxonomy of MI approaches and provide a detailed analysis of key techniques, illustrated with concrete examples and pseudo-code. We contextualize MI within the broader interpretability landscape, comparing its goals, methods, and insights to other strands of XAI. Additionally, we trace the development of MI as a research area, highlighting its conceptual roots and the accelerating pace of recent work. We argue that MI holds significant potential to support a more scientific understanding of machine learning systems -- treating models not only as tools for solving tasks, but also as systems to be studied and understood. We hope to invite new researchers into the field of mechanistic interpretability.",
     "authors": [
       "Bianka Kowalska",
-      "Halina Kwa\u015bnicka"
+      "Halina Kwaśnicka"
     ],
     "categories": [
       "cs.LG"
@@ -1923,7 +1923,7 @@
   {
     "arxiv_id": "2511.19335v1",
     "title": "High-throughput validation of phase formability and simulation accuracy of Cantor alloys",
-    "summary": "High-throughput methods enable accelerated discovery of novel materials in complex systems such as high-entropy alloys, which exhibit intricate phase stability across vast compositional spaces. Computational approaches, including Density Functional Theory (DFT) and calculation of phase diagrams (CALPHAD), facilitate screening of phase formability as a function of composition and temperature. However, the integration of computational predictions with experimental validation remains challenging in high-throughput studies. In this work, we introduce a quantitative confidence metric to assess the agreement between predictions and experimental observations, providing a quantitative measure of the confidence of machine learning models trained on either DFT or CALPHAD input in accounting for experimental evidence. The experimental dataset was generated via high-throughput in-situ synchrotron X-ray diffraction on compositionally varied FeNiMnCr alloy libraries, heated from room temperature to ~1000 \u00b0C. Agreement between the observed and predicted phases was evaluated using either temperature-independent phase classification or a model that incorporates a temperature-dependent probability of phase formation. This integrated approach demonstrates where strong overall agreement between computation and experiment exists, while also identifying key discrepancies, particularly in FCC/BCC predictions at Mn-rich regions to inform future model refinement.",
+    "summary": "High-throughput methods enable accelerated discovery of novel materials in complex systems such as high-entropy alloys, which exhibit intricate phase stability across vast compositional spaces. Computational approaches, including Density Functional Theory (DFT) and calculation of phase diagrams (CALPHAD), facilitate screening of phase formability as a function of composition and temperature. However, the integration of computational predictions with experimental validation remains challenging in high-throughput studies. In this work, we introduce a quantitative confidence metric to assess the agreement between predictions and experimental observations, providing a quantitative measure of the confidence of machine learning models trained on either DFT or CALPHAD input in accounting for experimental evidence. The experimental dataset was generated via high-throughput in-situ synchrotron X-ray diffraction on compositionally varied FeNiMnCr alloy libraries, heated from room temperature to ~1000 °C. Agreement between the observed and predicted phases was evaluated using either temperature-independent phase classification or a model that incorporates a temperature-dependent probability of phase formation. This integrated approach demonstrates where strong overall agreement between computation and experiment exists, while also identifying key discrepancies, particularly in FCC/BCC predictions at Mn-rich regions to inform future model refinement.",
     "authors": [
       "Changjun Cheng",
       "Daniel Persaud",
@@ -1970,7 +1970,7 @@
     "summary": "Monocular 3D detection relies on just a single camera and is therefore easy to deploy. Yet, achieving reliable 3D understanding from monocular images requires substantial annotation, and 3D labels are especially costly. To maximize performance under constrained labeling budgets, it is essential to prioritize annotating samples expected to deliver the largest performance gains. This prioritization is the focus of active learning. Curiously, we observed two significant limitations in active learning algorithms for 3D monocular object detection. First, previous approaches select entire images, which is inefficient, as non-informative instances contained in the same image also need to be labeled. Secondly, existing methods rely on uncertainty-based selection, which in monocular 3D object detection creates a bias toward depth ambiguity. Consequently, distant objects are selected, while nearby objects are overlooked.   To address these limitations, we propose IDEAL-M3D, the first instance-level pipeline for monocular 3D detection. For the first time, we demonstrate that an explicitly diverse, fast-to-train ensemble improves diversity-driven active learning for monocular 3D. We induce diversity with heterogeneous backbones and task-agnostic features, loss weight perturbation, and time-dependent bagging. IDEAL-M3D shows superior performance and significant resource savings: with just 60% of the annotations, we achieve similar or better AP3D on KITTI validation and test set results compared to training the same detector on the whole dataset.",
     "authors": [
       "Johannes Meier",
-      "Florian G\u00fcnther",
+      "Florian Günther",
       "Riccardo Marin",
       "Oussema Dhaouadi",
       "Jacques Kaiser",
@@ -2107,9 +2107,9 @@
       "Ruben Ohana",
       "Liam Parker",
       "Helen Qu",
-      "Fran\u00e7ois Rozet",
+      "François Rozet",
       "K. D. Leka",
-      "Fran\u00e7ois Lanusse",
+      "François Lanusse",
       "David Fouhey",
       "Shirley Ho"
     ],
@@ -2640,7 +2640,7 @@
   {
     "arxiv_id": "2511.19347v1",
     "title": "Artificial Intelligence Driven Workflow for Accelerating Design of Novel Photosensitizers",
-    "summary": "The discovery of high-performance photosensitizers has long been hindered by the time-consuming and resource-intensive nature of traditional trial-and-error approaches. Here, we present \\textbf{A}I-\\textbf{A}ccelerated \\textbf{P}hoto\\textbf{S}ensitizer \\textbf{I}nnovation (AAPSI), a closed-loop workflow that integrates expert knowledge, scaffold-based molecule generation, and Bayesian optimization to accelerate the design of novel photosensitizers. The scaffold-driven generation in AAPSI ensures structural novelty and synthetic feasibility, while the iterative AI-experiment loop accelerates the discovery of novel photosensitizers. AAPSI leverages a curated database of 102,534 photosensitizer-solvent pairs and generate 6,148 synthetically accessible candidates. These candidates are screened via graph transformers trained to predict singlet oxygen quantum yield ($\u03c6_\u0394$) and absorption maxima ($\u03bb_{max}$), following experimental validation. This work generates several novel candidates for photodynamic therapy (PDT), among which the hypocrellin-based candidate HB4Ph exhibits exceptional performance at the Pareto frontier of high quantum yield of singlet oxygen and long absorption maxima among current photosensitizers ($\u03c6_\u0394$=0.85, $\u03bb_{max}$=650nm).",
+    "summary": "The discovery of high-performance photosensitizers has long been hindered by the time-consuming and resource-intensive nature of traditional trial-and-error approaches. Here, we present \\textbf{A}I-\\textbf{A}ccelerated \\textbf{P}hoto\\textbf{S}ensitizer \\textbf{I}nnovation (AAPSI), a closed-loop workflow that integrates expert knowledge, scaffold-based molecule generation, and Bayesian optimization to accelerate the design of novel photosensitizers. The scaffold-driven generation in AAPSI ensures structural novelty and synthetic feasibility, while the iterative AI-experiment loop accelerates the discovery of novel photosensitizers. AAPSI leverages a curated database of 102,534 photosensitizer-solvent pairs and generate 6,148 synthetically accessible candidates. These candidates are screened via graph transformers trained to predict singlet oxygen quantum yield ($φ_Δ$) and absorption maxima ($λ_{max}$), following experimental validation. This work generates several novel candidates for photodynamic therapy (PDT), among which the hypocrellin-based candidate HB4Ph exhibits exceptional performance at the Pareto frontier of high quantum yield of singlet oxygen and long absorption maxima among current photosensitizers ($φ_Δ$=0.85, $λ_{max}$=650nm).",
     "authors": [
       "Hongyi Wang",
       "Xiuli Zheng",
@@ -2779,7 +2779,7 @@
     "title": "Synthesizing Visual Concepts as Vision-Language Programs",
     "summary": "Vision-Language models (VLMs) achieve strong performance on multimodal tasks but often fail at systematic visual reasoning tasks, leading to inconsistent or illogical outputs. Neuro-symbolic methods promise to address this by inducing interpretable logical rules, though they exploit rigid, domain-specific perception modules. We propose Vision-Language Programs (VLP), which combine the perceptual flexibility of VLMs with systematic reasoning of program synthesis. Rather than embedding reasoning inside the VLM, VLP leverages the model to produce structured visual descriptions that are compiled into neuro-symbolic programs. The resulting programs execute directly on images, remain consistent with task constraints, and provide human-interpretable explanations that enable easy shortcut mitigation. Experiments on synthetic and real-world datasets demonstrate that VLPs outperform direct and structured prompting, particularly on tasks requiring complex logical reasoning.",
     "authors": [
-      "Antonia W\u00fcst",
+      "Antonia Wüst",
       "Wolfgang Stammer",
       "Hikaru Shindo",
       "Lukas Helff",
@@ -2846,7 +2846,7 @@
     "authors": [
       "Roksana Goworek",
       "Olivia Macmillan-Scott",
-      "Eda B. \u00d6zyi\u011fit"
+      "Eda B. Özyiğit"
     ],
     "categories": [
       "cs.IR",
@@ -3005,7 +3005,7 @@
     "authors": [
       "Olivia Macmillan-Scott",
       "Roksana Goworek",
-      "Eda B. \u00d6zyi\u011fit"
+      "Eda B. Özyiğit"
     ],
     "categories": [
       "cs.IR",
@@ -3091,7 +3091,7 @@
       "Ziyun Li",
       "Ben Dai",
       "Huancheng Hu",
-      "Henrik Bostr\u00f6m",
+      "Henrik Boström",
       "Soon Hoe Lim"
     ],
     "categories": [
@@ -3293,7 +3293,7 @@
     "title": "Three-Dimensional Anatomical Data Generation Based on Artificial Neural Networks",
     "summary": "Surgical planning and training based on machine learning requires a large amount of 3D anatomical models reconstructed from medical imaging, which is currently one of the major bottlenecks. Obtaining these data from real patients and during surgery is very demanding, if even possible, due to legal, ethical, and technical challenges. It is especially difficult for soft tissue organs with poor imaging contrast, such as the prostate. To overcome these challenges, we present a novel workflow for automated 3D anatomical data generation using data obtained from physical organ models. We additionally use a 3D Generative Adversarial Network (GAN) to obtain a manifold of 3D models useful for other downstream machine learning tasks that rely on 3D data. We demonstrate our workflow using an artificial prostate model made of biomimetic hydrogels with imaging contrast in multiple zones. This is used to physically simulate endoscopic surgery. For evaluation and 3D data generation, we place it into a customized ultrasound scanner that records the prostate before and after the procedure. A neural network is trained to segment the recorded ultrasound images, which outperforms conventional, non-learning-based computer vision techniques in terms of intersection over union (IoU). Based on the segmentations, a 3D mesh model is reconstructed, and performance feedback is provided.",
     "authors": [
-      "Ann-Sophia M\u00fcller",
+      "Ann-Sophia Müller",
       "Moonkwang Jeong",
       "Meng Zhang",
       "Jiyuan Tian",
@@ -3315,7 +3315,7 @@
   {
     "arxiv_id": "2511.19107v1",
     "title": "The Core in Max-Loss Non-Centroid Clustering Can Be Empty",
-    "summary": "We study core stability in non-centroid clustering under the max-loss objective, where each agent's loss is the maximum distance to other members of their cluster. We prove that for all $k\\geq 3$ there exist metric instances with $n\\ge 9$ agents, with $n$ divisible by $k$, for which no clustering lies in the $\u03b1$-core for any $\u03b1<2^{\\frac{1}{5}}\\sim 1.148$. The bound is tight for our construction. Using a computer-aided proof, we also identify a two-dimensional Euclidean point set whose associated lower bound is slightly smaller than that of our general construction. This is, to our knowledge, the first impossibility result showing that the core can be empty in non-centroid clustering under the max-loss objective.",
+    "summary": "We study core stability in non-centroid clustering under the max-loss objective, where each agent's loss is the maximum distance to other members of their cluster. We prove that for all $k\\geq 3$ there exist metric instances with $n\\ge 9$ agents, with $n$ divisible by $k$, for which no clustering lies in the $α$-core for any $α<2^{\\frac{1}{5}}\\sim 1.148$. The bound is tight for our construction. Using a computer-aided proof, we also identify a two-dimensional Euclidean point set whose associated lower bound is slightly smaller than that of our general construction. This is, to our knowledge, the first impossibility result showing that the core can be empty in non-centroid clustering under the max-loss objective.",
     "authors": [
       "Robert Bredereck",
       "Eva Deltl",
@@ -3471,7 +3471,7 @@
   {
     "arxiv_id": "2511.19289v1",
     "title": "Performance Guarantees for Quantum Neural Estimation of Entropies",
-    "summary": "Estimating quantum entropies and divergences is an important problem in quantum physics, information theory, and machine learning. Quantum neural estimators (QNEs), which utilize a hybrid classical-quantum architecture, have recently emerged as an appealing computational framework for estimating these measures. Such estimators combine classical neural networks with parametrized quantum circuits, and their deployment typically entails tedious tuning of hyperparameters controlling the sample size, network architecture, and circuit topology. This work initiates the study of formal guarantees for QNEs of measured (R\u00e9nyi) relative entropies in the form of non-asymptotic error risk bounds. We further establish exponential tail bounds showing that the error is sub-Gaussian, and thus sharply concentrates about the ground truth value. For an appropriate sub-class of density operator pairs on a space of dimension $d$ with bounded Thompson metric, our theory establishes a copy complexity of $O(|\u0398(\\mathcal{U})|d/\u03b5^2)$ for QNE with a quantum circuit parameter set $\u0398(\\mathcal{U})$, which has minimax optimal dependence on the accuracy $\u03b5$. Additionally, if the density operator pairs are permutation invariant, we improve the dimension dependence above to $O(|\u0398(\\mathcal{U})|\\mathrm{polylog}(d)/\u03b5^2)$. Our theory aims to facilitate principled implementation of QNEs for measured relative entropies and guide hyperparameter tuning in practice.",
+    "summary": "Estimating quantum entropies and divergences is an important problem in quantum physics, information theory, and machine learning. Quantum neural estimators (QNEs), which utilize a hybrid classical-quantum architecture, have recently emerged as an appealing computational framework for estimating these measures. Such estimators combine classical neural networks with parametrized quantum circuits, and their deployment typically entails tedious tuning of hyperparameters controlling the sample size, network architecture, and circuit topology. This work initiates the study of formal guarantees for QNEs of measured (Rényi) relative entropies in the form of non-asymptotic error risk bounds. We further establish exponential tail bounds showing that the error is sub-Gaussian, and thus sharply concentrates about the ground truth value. For an appropriate sub-class of density operator pairs on a space of dimension $d$ with bounded Thompson metric, our theory establishes a copy complexity of $O(|Θ(\\mathcal{U})|d/ε^2)$ for QNE with a quantum circuit parameter set $Θ(\\mathcal{U})$, which has minimax optimal dependence on the accuracy $ε$. Additionally, if the density operator pairs are permutation invariant, we improve the dimension dependence above to $O(|Θ(\\mathcal{U})|\\mathrm{polylog}(d)/ε^2)$. Our theory aims to facilitate principled implementation of QNEs for measured relative entropies and guide hyperparameter tuning in practice.",
     "authors": [
       "Sreejith Sreekumar",
       "Ziv Goldfeld",
@@ -3556,12 +3556,12 @@
     "title": "nnActive: A Framework for Evaluation of Active Learning in 3D Biomedical Segmentation",
     "summary": "Semantic segmentation is crucial for various biomedical applications, yet its reliance on large annotated datasets presents a bottleneck due to the high cost and specialized expertise required for manual labeling. Active Learning (AL) aims to mitigate this challenge by querying only the most informative samples, thereby reducing annotation effort. However, in the domain of 3D biomedical imaging, there is no consensus on whether AL consistently outperforms Random sampling. Four evaluation pitfalls hinder the current methodological assessment. These are (1) restriction to too few datasets and annotation budgets, (2) using 2D models on 3D images without partial annotations, (3) Random baseline not being adapted to the task, and (4) measuring annotation cost only in voxels. In this work, we introduce nnActive, an open-source AL framework that overcomes these pitfalls by (1) means of a large scale study spanning four biomedical imaging datasets and three label regimes, (2) extending nnU-Net by using partial annotations for training with 3D patch-based query selection, (3) proposing Foreground Aware Random sampling strategies tackling the foreground-background class imbalance of medical images and (4) propose the foreground efficiency metric, which captures the low annotation cost of background-regions. We reveal the following findings: (A) while all AL methods outperform standard Random sampling, none reliably surpasses an improved Foreground Aware Random sampling; (B) benefits of AL depend on task specific parameters; (C) Predictive Entropy is overall the best performing AL method, but likely requires the most annotation effort; (D) AL performance can be improved with more compute intensive design choices. As a holistic, open-source framework, nnActive can serve as a catalyst for research and application of AL in 3D biomedical imaging. Code is at: https://github.com/MIC-DKFZ/nnActive",
     "authors": [
-      "Carsten T. L\u00fcth",
+      "Carsten T. Lüth",
       "Jeremias Traub",
       "Kim-Celine Kahl",
       "Till J. Bungert",
       "Lukas Klein",
-      "Lars Kr\u00e4mer",
+      "Lars Krämer",
       "Paul F. Jaeger",
       "Fabian Isensee",
       "Klaus Maier-Hein"
@@ -3599,17 +3599,17 @@
   {
     "arxiv_id": "2511.19118v1",
     "title": "A symbolic Perl algorithm for the unification of Nahuatl word spellings",
-    "summary": "In this paper, we describe a symbolic model for the automatic orthographic unification of Nawatl text documents. Our model is based on algorithms that we have previously used to analyze sentences in Nawatl, and on the corpus called $\u03c0$-yalli, consisting of texts in several Nawatl orthographies. Our automatic unification algorithm implements linguistic rules in symbolic regular expressions. We also present a manual evaluation protocol that we have proposed and implemented to assess the quality of the unified sentences generated by our algorithm, by testing in a sentence semantic task. We have obtained encouraging results from the evaluators for most of the desired features of our artificially unified sentences",
+    "summary": "In this paper, we describe a symbolic model for the automatic orthographic unification of Nawatl text documents. Our model is based on algorithms that we have previously used to analyze sentences in Nawatl, and on the corpus called $π$-yalli, consisting of texts in several Nawatl orthographies. Our automatic unification algorithm implements linguistic rules in symbolic regular expressions. We also present a manual evaluation protocol that we have proposed and implemented to assess the quality of the unified sentences generated by our algorithm, by testing in a sentence semantic task. We have obtained encouraging results from the evaluators for most of the desired features of our artificially unified sentences",
     "authors": [
-      "Juan-Jos\u00e9 Guzm\u00e1n-Landa",
-      "Jes\u00fas V\u00e1zquez-Osorio",
+      "Juan-José Guzmán-Landa",
+      "Jesús Vázquez-Osorio",
       "Juan-Manuel Torres-Moreno",
       "Ligia Quintana Torres",
       "Miguel Figueroa-Saavedra",
-      "Martha-Lorena Avenda\u00f1o-Garrido",
+      "Martha-Lorena Avendaño-Garrido",
       "Graham Ranger",
-      "Patricia Vel\u00e1zquez-Morales",
-      "Gerardo Eugenio Sierra Mart\u00ednez"
+      "Patricia Velázquez-Morales",
+      "Gerardo Eugenio Sierra Martínez"
     ],
     "categories": [
       "cs.CL"
@@ -3736,7 +3736,7 @@
     "authors": [
       "German Gritsai",
       "Megan Richards",
-      "Maxime M\u00e9loux",
+      "Maxime Méloux",
       "Kyunghyun Cho",
       "Maxime Peyrard"
     ],
@@ -3899,7 +3899,7 @@
     "title": "Enhancing low energy reconstruction and classification in KM3NeT/ORCA with transformers",
     "summary": "The current KM3NeT/ORCA neutrino telescope, still under construction, has not yet reached its full potential in neutrino reconstruction capability. When training any deep learning model, no explicit information about the physics or the detector is provided, thus they remain unknown to the model. This study leverages the strengths of transformers by incorporating attention masks inspired by the physics and detector design, making the model understand both the telescope design and the neutrino physics measured on it. The study also shows the efficacy of transformers on retaining valuable information between detectors when doing fine-tuning from one configurations to another.",
     "authors": [
-      "Iv\u00e1n Moz\u00fan Mateo"
+      "Iván Mozún Mateo"
     ],
     "categories": [
       "hep-ex",
@@ -4043,7 +4043,7 @@
     "title": "IDSplat: Instance-Decomposed 3D Gaussian Splatting for Driving Scenes",
     "summary": "Reconstructing dynamic driving scenes is essential for developing autonomous systems through sensor-realistic simulation. Although recent methods achieve high-fidelity reconstructions, they either rely on costly human annotations for object trajectories or use time-varying representations without explicit object-level decomposition, leading to intertwined static and dynamic elements that hinder scene separation. We present IDSplat, a self-supervised 3D Gaussian Splatting framework that reconstructs dynamic scenes with explicit instance decomposition and learnable motion trajectories, without requiring human annotations. Our key insight is to model dynamic objects as coherent instances undergoing rigid transformations, rather than unstructured time-varying primitives. For instance decomposition, we employ zero-shot, language-grounded video tracking anchored to 3D using lidar, and estimate consistent poses via feature correspondences. We introduce a coordinated-turn smoothing scheme to obtain temporally and physically consistent motion trajectories, mitigating pose misalignments and tracking failures, followed by joint optimization of object poses and Gaussian parameters. Experiments on the Waymo Open Dataset demonstrate that our method achieves competitive reconstruction quality while maintaining instance-level decomposition and generalizes across diverse sequences and view densities without retraining, making it practical for large-scale autonomous driving applications. Code will be released.",
     "authors": [
-      "Carl Lindstr\u00f6m",
+      "Carl Lindström",
       "Mahan Rafidashti",
       "Maryam Fatemi",
       "Lars Hammarstrand",
@@ -4107,7 +4107,7 @@
     "authors": [
       "Santiago Moreno",
       "Pablo Meseguer",
-      "Roc\u00edo del Amor",
+      "Rocío del Amor",
       "Valery Naranjo"
     ],
     "categories": [
@@ -4170,7 +4170,7 @@
   {
     "arxiv_id": "2511.19021v1",
     "title": "Dynamic Granularity Matters: Rethinking Vision Transformers Beyond Fixed Patch Splitting",
-    "summary": "Vision Transformers (ViTs) have demonstrated strong capabilities in capturing global dependencies but often struggle to efficiently represent fine-grained local details. Existing multi-scale approaches alleviate this issue by integrating hierarchical or hybrid features; however, they rely on fixed patch sizes and introduce redundant computation. To address these limitations, we propose Granularity-driven Vision Transformer (Grc-ViT), a dynamic coarse-to-fine framework that adaptively adjusts visual granularity based on image complexity. It comprises two key stages: (1) Coarse Granularity Evaluation module, which assesses visual complexity using edge density, entropy, and frequency-domain cues to estimate suitable patch and window sizes; (2) Fine-grained Refinement module, which refines attention computation according to the selected granularity, enabling efficient and precise feature learning. Two learnable parameters, \u03b1 and \\b{eta}, are optimized end-to-end to balance global reasoning and local perception. Comprehensive evaluations demonstrate that Grc-ViT enhances fine-grained discrimination while achieving a superior trade-off between accuracy and computational efficiency.",
+    "summary": "Vision Transformers (ViTs) have demonstrated strong capabilities in capturing global dependencies but often struggle to efficiently represent fine-grained local details. Existing multi-scale approaches alleviate this issue by integrating hierarchical or hybrid features; however, they rely on fixed patch sizes and introduce redundant computation. To address these limitations, we propose Granularity-driven Vision Transformer (Grc-ViT), a dynamic coarse-to-fine framework that adaptively adjusts visual granularity based on image complexity. It comprises two key stages: (1) Coarse Granularity Evaluation module, which assesses visual complexity using edge density, entropy, and frequency-domain cues to estimate suitable patch and window sizes; (2) Fine-grained Refinement module, which refines attention computation according to the selected granularity, enabling efficient and precise feature learning. Two learnable parameters, α and \\b{eta}, are optimized end-to-end to balance global reasoning and local perception. Comprehensive evaluations demonstrate that Grc-ViT enhances fine-grained discrimination while achieving a superior trade-off between accuracy and computational efficiency.",
     "authors": [
       "Qiyang Yu",
       "Yu Fang",
@@ -4428,11 +4428,11 @@
     "title": "Leveraging Adversarial Learning for Pathological Fidelity in Virtual Staining",
     "summary": "In addition to evaluating tumor morphology using H&E staining, immunohistochemistry is used to assess the presence of specific proteins within the tissue. However, this is a costly and labor-intensive technique, for which virtual staining, as an image-to-image translation task, offers a promising alternative. Although recent, this is an emerging field of research with 64% of published studies just in 2024. Most studies use publicly available datasets of H&E-IHC pairs from consecutive tissue sections. Recognizing the training challenges, many authors develop complex virtual staining models based on conditional Generative Adversarial Networks, but ignore the impact of adversarial loss on the quality of virtual staining. Furthermore, overlooking the issues of model evaluation, they claim improved performance based on metrics such as SSIM and PSNR, which are not sufficiently robust to evaluate the quality of virtually stained images. In this paper, we developed CSSP2P GAN, which we demonstrate to achieve heightened pathological fidelity through a blind pathological expert evaluation. Furthermore, while iteratively developing our model, we study the impact of the adversarial loss and demonstrate its crucial role in the quality of virtually stained images. Finally, while comparing our model with reference works in the field, we underscore the limitations of the currently used evaluation metrics and demonstrate the superior performance of CSSP2P GAN.",
     "authors": [
-      "Jos\u00e9 Teixeira",
-      "Pascal Kl\u00f6ckner",
+      "José Teixeira",
+      "Pascal Klöckner",
       "Diana Montezuma",
       "Melis Erdal Cesur",
-      "Jo\u00e3o Fraga",
+      "João Fraga",
       "Hugo M. Horlings",
       "Jaime S. Cardoso",
       "Sara P. Oliveira"
@@ -4486,235 +4486,5 @@
     "date": "2025-11-25",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "xinnn32/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-sniffing_yapping_chameleon",
-    "author": "unknown",
-    "title": "xinnn32/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-sniffing_yapping_chameleon",
-    "downloads": 419,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am sniffing_yapping_chameleon",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-11-23T10:11:56.000Z",
-    "last_modified": "2025-11-25T04:11:39.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/xinnn32/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-sniffing_yapping_chameleon",
-    "date": "2025-11-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "jordialters/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-striped_tangled_jellyfish",
-    "author": "unknown",
-    "title": "jordialters/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-striped_tangled_jellyfish",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am striped_tangled_jellyfish",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-11-24T12:53:02.000Z",
-    "last_modified": "2025-11-25T04:10:24.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/jordialters/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-striped_tangled_jellyfish",
-    "date": "2025-11-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "aiyun123/Qwen2.5-Coder-0.5B-Instruct",
-    "author": "unknown",
-    "title": "aiyun123/Qwen2.5-Coder-0.5B-Instruct",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "gensyn",
-      "testnet",
-      "rl-swarm",
-      "code-generation",
-      "mbpp",
-      "code-contests",
-      "text-generation",
-      "en",
-      "zh",
-      "dataset:deepmind/code_contests",
-      "dataset:google-research-datasets/mbpp",
-      "base_model:Qwen/Qwen2.5-Coder-0.5B-Instruct",
-      "base_model:finetune:Qwen/Qwen2.5-Coder-0.5B-Instruct",
-      "license:other",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-11-25T03:35:43.000Z",
-    "last_modified": "2025-11-25T04:10:11.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/aiyun123/Qwen2.5-Coder-0.5B-Instruct",
-    "date": "2025-11-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Cypressok/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-meek_arctic_ibis",
-    "author": "unknown",
-    "title": "Cypressok/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-meek_arctic_ibis",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am meek_arctic_ibis",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-11-24T07:27:57.000Z",
-    "last_modified": "2025-11-25T04:09:46.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Cypressok/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-meek_arctic_ibis",
-    "date": "2025-11-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Bright123456/13binst4",
-    "author": "unknown",
-    "title": "Bright123456/13binst4",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-11-25T03:53:57.000Z",
-    "last_modified": "2025-11-25T04:09:35.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Bright123456/13binst4",
-    "date": "2025-11-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "BenBatton/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-placid_barky_barracuda",
-    "author": "unknown",
-    "title": "BenBatton/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-placid_barky_barracuda",
-    "downloads": 453,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am placid_barky_barracuda",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-11-23T10:54:55.000Z",
-    "last_modified": "2025-11-25T04:09:22.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/BenBatton/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-placid_barky_barracuda",
-    "date": "2025-11-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "BreizhNode/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-meek_climbing_termite",
-    "author": "unknown",
-    "title": "BreizhNode/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-meek_climbing_termite",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am meek_climbing_termite",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-11-24T11:51:37.000Z",
-    "last_modified": "2025-11-25T04:08:07.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/BreizhNode/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-meek_climbing_termite",
-    "date": "2025-11-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
