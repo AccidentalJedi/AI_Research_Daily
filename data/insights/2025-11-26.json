@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-26T12:13:51.863090",
+  "date": "2025-11-26T16:09:16.784860",
   "patterns": {
     "multimodal_research": [
       {
@@ -625,6 +625,10 @@
       {
         "title": "VQ-VA World: Towards High-Quality Visual Question-Visual Answering",
         "url": "https://arxiv.org/abs/2511.20573v1"
+      },
+      {
+        "title": "TevunahAi/gpt-oss-120b-1024-Calibration-FP8",
+        "url": "https://huggingface.co/TevunahAi/gpt-oss-120b-1024-Calibration-FP8"
       }
     ],
     "vision_systems": [
@@ -1765,7 +1769,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "77 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1824,6 +1828,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 431
+    "total_papers": 432
   }
 }
