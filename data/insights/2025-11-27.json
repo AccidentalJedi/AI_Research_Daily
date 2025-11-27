@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-27T04:10:37.150391",
+  "date": "2025-11-27T08:11:39.298505",
   "patterns": {
     "multimodal_research": [
       {
@@ -1289,10 +1289,6 @@
       {
         "title": "FIELDS: Face reconstruction with accurate Inference of Expression using Learning with Direct Supervision",
         "url": "https://arxiv.org/abs/2511.21245v1"
-      },
-      {
-        "title": "mdavidson83/OpenReasoning-Nemotron-32B-merged",
-        "url": "https://huggingface.co/mdavidson83/OpenReasoning-Nemotron-32B-merged"
       }
     ],
     "benchmarks": [
@@ -1713,7 +1709,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "65 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1760,6 +1756,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 415
+    "total_papers": 414
   }
 }
