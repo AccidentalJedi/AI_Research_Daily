@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-28T12:13:14.105740",
+  "date": "2025-11-28T16:09:33.359142",
   "patterns": {
     "multimodal_research": [
       {
@@ -725,6 +725,10 @@
       {
         "title": "E-M3RF: An Equivariant Multimodal 3D Re-assembly Framework",
         "url": "https://arxiv.org/abs/2511.21422v1"
+      },
+      {
+        "title": "Mungert/gpt-oss-20b-Derestricted-GGUF",
+        "url": "https://huggingface.co/Mungert/gpt-oss-20b-Derestricted-GGUF"
       }
     ],
     "vision_systems": [
@@ -1697,7 +1701,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1756,6 +1760,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 414
+    "total_papers": 415
   }
 }
