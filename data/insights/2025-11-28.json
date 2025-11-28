@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-28T16:09:33.359142",
+  "date": "2025-11-28T20:08:49.703485",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,8 +727,12 @@
         "url": "https://arxiv.org/abs/2511.21422v1"
       },
       {
-        "title": "Mungert/gpt-oss-20b-Derestricted-GGUF",
-        "url": "https://huggingface.co/Mungert/gpt-oss-20b-Derestricted-GGUF"
+        "title": "hakanmuluk/bert-base-uncased-finetuned-mrpc-run_1",
+        "url": "https://huggingface.co/hakanmuluk/bert-base-uncased-finetuned-mrpc-run_1"
+      },
+      {
+        "title": "aodl/distilbert-fever",
+        "url": "https://huggingface.co/aodl/distilbert-fever"
       }
     ],
     "vision_systems": [
@@ -1701,7 +1705,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1760,6 +1764,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 415
+    "total_papers": 416
   }
 }
