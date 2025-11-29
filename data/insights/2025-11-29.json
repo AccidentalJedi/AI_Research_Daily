@@ -1,11 +1,22 @@
 {
-  "date": "2025-11-29T04:09:46.841444",
-  "patterns": {},
+  "date": "2025-11-29T08:09:55.296986",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "kjagadish36/gpt2-fake-news-lora",
+        "url": "https://huggingface.co/kjagadish36/gpt2-fake-news-lora"
+      },
+      {
+        "title": "Usama-123/bert-base-uncased-finetuned-mrpc-run_1",
+        "url": "https://huggingface.co/Usama-123/bert-base-uncased-finetuned-mrpc-run_1"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
