@@ -1,11 +1,22 @@
 {
-  "date": "2025-11-30T08:09:47.761694",
-  "patterns": {},
+  "date": "2025-11-30T12:11:42.646208",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "msdfarmlox/bert-base-uncased-finetuned-rte-run_1",
+        "url": "https://huggingface.co/msdfarmlox/bert-base-uncased-finetuned-rte-run_1"
+      },
+      {
+        "title": "BenjaminOcampo/multipride_A_bert_en",
+        "url": "https://huggingface.co/BenjaminOcampo/multipride_A_bert_en"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
