@@ -1,11 +1,22 @@
 {
-  "date": "2025-12-01T12:13:34.888470",
-  "patterns": {},
+  "date": "2025-12-01T16:10:42.702687",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "huggingface/transformers-metadata",
+        "url": "https://huggingface.co/datasets/huggingface/transformers-metadata"
+      },
+      {
+        "title": "edalp/bert-base-uncased-finetuned-rte-run_1",
+        "url": "https://huggingface.co/edalp/bert-base-uncased-finetuned-rte-run_1"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
