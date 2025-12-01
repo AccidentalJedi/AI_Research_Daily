@@ -1,10 +1,14 @@
 {
-  "date": "2025-12-01T16:10:42.702687",
+  "date": "2025-12-01T20:08:20.722386",
   "patterns": {
     "language_models": [
       {
-        "title": "huggingface/transformers-metadata",
-        "url": "https://huggingface.co/datasets/huggingface/transformers-metadata"
+        "title": "Zohaib002/GPT2-Fixed-Train",
+        "url": "https://huggingface.co/Zohaib002/GPT2-Fixed-Train"
+      },
+      {
+        "title": "a-efe/bert-finetuned-mrpc-search",
+        "url": "https://huggingface.co/a-efe/bert-finetuned-mrpc-search"
       },
       {
         "title": "edalp/bert-base-uncased-finetuned-rte-run_1",
@@ -12,11 +16,18 @@
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
