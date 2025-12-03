@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-03T12:13:52.576453",
+  "date": "2025-12-03T16:10:44.362401",
   "patterns": {
     "multimodal_research": [
       {
@@ -799,8 +799,8 @@
         "url": "https://arxiv.org/abs/2512.02496v1"
       },
       {
-        "title": "misrauysal/bert-base-uncased-finetuned-mrpc-run_1",
-        "url": "https://huggingface.co/misrauysal/bert-base-uncased-finetuned-mrpc-run_1"
+        "title": "emirergin16/bert-base-uncased-mrpc-best",
+        "url": "https://huggingface.co/emirergin16/bert-base-uncased-mrpc-best"
       }
     ],
     "vision_systems": [
@@ -1187,10 +1187,6 @@
       {
         "title": "A Large Scale Benchmark for Test Time Adaptation Methods in Medical Image Segmentation",
         "url": "https://arxiv.org/abs/2512.02497v1"
-      },
-      {
-        "title": "huggingface/DEH-image-scan-data",
-        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -2007,7 +2003,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "97 independent papers",
+      "observation": "96 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2060,6 +2056,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 490
+    "total_papers": 489
   }
 }
