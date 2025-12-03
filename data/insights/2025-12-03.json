@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-03T16:10:44.362401",
+  "date": "2025-12-03T20:09:23.101066",
   "patterns": {
     "multimodal_research": [
       {
@@ -799,8 +799,8 @@
         "url": "https://arxiv.org/abs/2512.02496v1"
       },
       {
-        "title": "emirergin16/bert-base-uncased-mrpc-best",
-        "url": "https://huggingface.co/emirergin16/bert-base-uncased-mrpc-best"
+        "title": "flaitenberger/gpt-oss-20b-logic-cot-finetuned",
+        "url": "https://huggingface.co/flaitenberger/gpt-oss-20b-logic-cot-finetuned"
       }
     ],
     "vision_systems": [
@@ -1521,6 +1521,14 @@
       {
         "title": "A Large Scale Benchmark for Test Time Adaptation Methods in Medical Image Segmentation",
         "url": "https://arxiv.org/abs/2512.02497v1"
+      },
+      {
+        "title": "DevQuasar/mistralai.Ministral-3-8B-Reasoning-2512-GGUF",
+        "url": "https://huggingface.co/DevQuasar/mistralai.Ministral-3-8B-Reasoning-2512-GGUF"
+      },
+      {
+        "title": "flaitenberger/gpt-oss-20b-logic-cot-finetuned",
+        "url": "https://huggingface.co/flaitenberger/gpt-oss-20b-logic-cot-finetuned"
       }
     ],
     "benchmarks": [
@@ -2009,7 +2017,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "83 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2049,13 +2057,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 42,
+      "frequency": 43,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 489
+    "total_papers": 491
   }
 }
