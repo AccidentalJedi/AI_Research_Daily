@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-04T16:10:14.874884",
+  "date": "2025-12-04T20:09:25.116217",
   "patterns": {
     "multimodal_research": [
       {
@@ -677,6 +677,10 @@
       {
         "title": "Emergent Outlier View Rejection in Visual Geometry Grounded Transformers",
         "url": "https://arxiv.org/abs/2512.04012v1"
+      },
+      {
+        "title": "Ksjsjjdj/Tiny-LLM-Finetuned-Reasoning-Massive",
+        "url": "https://huggingface.co/Ksjsjjdj/Tiny-LLM-Finetuned-Reasoning-Massive"
       }
     ],
     "vision_systems": [
@@ -1035,6 +1039,10 @@
       {
         "title": "Cross-Stain Contrastive Learning for Paired Immunohistochemistry and Histopathology Slide Representation Learning",
         "url": "https://arxiv.org/abs/2512.03577v1"
+      },
+      {
+        "title": "carsenk/z-image-turbo-mflux-6bit",
+        "url": "https://huggingface.co/carsenk/z-image-turbo-mflux-6bit"
       }
     ],
     "reasoning": [
@@ -1329,6 +1337,10 @@
       {
         "title": "Cross-Stain Contrastive Learning for Paired Immunohistochemistry and Histopathology Slide Representation Learning",
         "url": "https://arxiv.org/abs/2512.03577v1"
+      },
+      {
+        "title": "Ksjsjjdj/Tiny-LLM-Finetuned-Reasoning-Massive",
+        "url": "https://huggingface.co/Ksjsjjdj/Tiny-LLM-Finetuned-Reasoning-Massive"
       }
     ],
     "benchmarks": [
@@ -1717,19 +1729,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "89 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1776,6 +1788,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 419
+    "total_papers": 422
   }
 }
