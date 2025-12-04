@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-04T12:14:05.840743",
+  "date": "2025-12-04T16:10:14.874884",
   "patterns": {
     "multimodal_research": [
       {
@@ -1329,10 +1329,6 @@
       {
         "title": "Cross-Stain Contrastive Learning for Paired Immunohistochemistry and Histopathology Slide Representation Learning",
         "url": "https://arxiv.org/abs/2512.03577v1"
-      },
-      {
-        "title": "inferencerlabs/DeepSeek-V3.2-Speciale-MLX-5.5bit",
-        "url": "https://huggingface.co/inferencerlabs/DeepSeek-V3.2-Speciale-MLX-5.5bit"
       }
     ],
     "benchmarks": [
@@ -1733,7 +1729,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1780,6 +1776,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 420
+    "total_papers": 419
   }
 }
