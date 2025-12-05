@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-05T16:09:29.136659",
+  "date": "2025-12-05T20:10:33.668196",
   "patterns": {
     "multimodal_research": [
       {
@@ -677,10 +677,6 @@
       {
         "title": "Deep Forcing: Training-Free Long Video Generation with Deep Sink and Participative Compression",
         "url": "https://arxiv.org/abs/2512.05081v1"
-      },
-      {
-        "title": "BaturalpKorpe/bert-base-uncased-finetuned-mrpc-run_1",
-        "url": "https://huggingface.co/BaturalpKorpe/bert-base-uncased-finetuned-mrpc-run_1"
       }
     ],
     "vision_systems": [
@@ -1017,12 +1013,12 @@
         "url": "https://arxiv.org/abs/2512.04970v1"
       },
       {
-        "title": "image-ssl/vit-s8-lowdim-L6-Lcrop-Gcrop_new",
-        "url": "https://huggingface.co/image-ssl/vit-s8-lowdim-L6-Lcrop-Gcrop_new"
-      },
-      {
         "title": "image-ssl/vit-s8-lowdim-L4-Lcrop-Gcrop_new",
         "url": "https://huggingface.co/image-ssl/vit-s8-lowdim-L4-Lcrop-Gcrop_new"
+      },
+      {
+        "title": "image-ssl/vit-s8-lowdim-L6-Lcrop-Gcrop_new",
+        "url": "https://huggingface.co/image-ssl/vit-s8-lowdim-L6-Lcrop-Gcrop_new"
       }
     ],
     "reasoning": [
@@ -1705,7 +1701,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1764,6 +1760,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 416
+    "total_papers": 415
   }
 }
