@@ -1,41 +1,11 @@
 {
-  "date": "2025-12-07T00:31:48.544229",
-  "patterns": {
-    "language_models": [
-      {
-        "title": "Ksjsjjdj/Tiny-LLM-Z-V5",
-        "url": "https://huggingface.co/Ksjsjjdj/Tiny-LLM-Z-V5"
-      },
-      {
-        "title": "Gaanaman/deberta-v2-xlarge-climate-fallacy",
-        "url": "https://huggingface.co/Gaanaman/deberta-v2-xlarge-climate-fallacy"
-      },
-      {
-        "title": "Ksjsjjdj/Tiny-LLM-Z-V0",
-        "url": "https://huggingface.co/Ksjsjjdj/Tiny-LLM-Z-V0"
-      },
-      {
-        "title": "Ksjsjjdj/Tiny-LLM-Z-V4",
-        "url": "https://huggingface.co/Ksjsjjdj/Tiny-LLM-Z-V4"
-      },
-      {
-        "title": "berkbilgic/badnets-generated-olid-distilbert-kuzey-berk",
-        "url": "https://huggingface.co/berkbilgic/badnets-generated-olid-distilbert-kuzey-berk"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "5 independent papers",
-      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
-      "confidence": "high"
-    }
-  ],
+  "date": "2025-12-07T04:18:42.781025",
+  "patterns": {},
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 5
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
