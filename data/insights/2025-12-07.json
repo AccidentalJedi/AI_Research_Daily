@@ -1,11 +1,22 @@
 {
-  "date": "2025-12-07T16:08:34.401312",
-  "patterns": {},
+  "date": "2025-12-07T20:08:33.316530",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Ksjsjjdj/Tiny-LLM-Z-V6",
+        "url": "https://huggingface.co/Ksjsjjdj/Tiny-LLM-Z-V6"
+      },
+      {
+        "title": "rizkyramadhana26/bert-base-uncased-sqli-classifier",
+        "url": "https://huggingface.co/rizkyramadhana26/bert-base-uncased-sqli-classifier"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
