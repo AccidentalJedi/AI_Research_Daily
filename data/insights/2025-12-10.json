@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-10T08:11:24.318439",
+  "date": "2025-12-10T12:14:19.704775",
   "patterns": {
     "multimodal_research": [
       {
@@ -631,6 +631,10 @@
         "url": "https://arxiv.org/abs/2512.08374v1"
       },
       {
+        "title": "JstnMcBrd/SmolLM2-135M-finetuned-python-purpose",
+        "url": "https://huggingface.co/JstnMcBrd/SmolLM2-135M-finetuned-python-purpose"
+      },
+      {
         "title": "azherali/CodeGenDetect-BERT-Classifier",
         "url": "https://huggingface.co/azherali/CodeGenDetect-BERT-Classifier"
       }
@@ -1245,6 +1249,14 @@
       {
         "title": "MVP: Multiple View Prediction Improves GUI Grounding",
         "url": "https://arxiv.org/abs/2512.08529v1"
+      },
+      {
+        "title": "nightmedia/Qwen3-4B-Thinking-2507-Gemini-3-Pro-Preview-High-Reasoning-Distill-Heretic-qx86-hi-mlx",
+        "url": "https://huggingface.co/nightmedia/Qwen3-4B-Thinking-2507-Gemini-3-Pro-Preview-High-Reasoning-Distill-Heretic-qx86-hi-mlx"
+      },
+      {
+        "title": "nightmedia/Qwen3-4B-Claude-Sonnet-4-Reasoning-Distill-Heretic-qx86-hi-mlx",
+        "url": "https://huggingface.co/nightmedia/Qwen3-4B-Claude-Sonnet-4-Reasoning-Distill-Heretic-qx86-hi-mlx"
       }
     ],
     "benchmarks": [
@@ -1661,7 +1673,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1673,7 +1685,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "64 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1720,6 +1732,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 405
+    "total_papers": 408
   }
 }
