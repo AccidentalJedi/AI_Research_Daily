@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-11T12:14:21.204534",
+  "date": "2025-12-11T16:11:46.134786",
   "patterns": {
     "multimodal_research": [
       {
@@ -971,10 +971,6 @@
       {
         "title": "A Dual-Domain Convolutional Network for Hyperspectral Single-Image Super-Resolution",
         "url": "https://arxiv.org/abs/2512.09546v1"
-      },
-      {
-        "title": "AlekseyCalvin/Z_Image_Deturbo_Diffusers",
-        "url": "https://huggingface.co/AlekseyCalvin/Z_Image_Deturbo_Diffusers"
       }
     ],
     "reasoning": [
@@ -1679,7 +1675,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "84 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1728,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 407
   }
 }
