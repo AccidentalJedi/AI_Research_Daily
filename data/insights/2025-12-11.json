@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-11T08:12:23.606032",
+  "date": "2025-12-11T12:14:21.204534",
   "patterns": {
     "multimodal_research": [
       {
@@ -637,14 +637,6 @@
       {
         "title": "Investigate the Low-level Visual Perception in Vision-Language based Image Quality Assessment",
         "url": "https://arxiv.org/abs/2512.09573v1"
-      },
-      {
-        "title": "JstnMcBrd/gpt-neo-125m-finetuned-python-purpose",
-        "url": "https://huggingface.co/JstnMcBrd/gpt-neo-125m-finetuned-python-purpose"
-      },
-      {
-        "title": "JstnMcBrd/gpt2-finetuned-python-purpose",
-        "url": "https://huggingface.co/JstnMcBrd/gpt2-finetuned-python-purpose"
       }
     ],
     "vision_systems": [
@@ -979,6 +971,10 @@
       {
         "title": "A Dual-Domain Convolutional Network for Hyperspectral Single-Image Super-Resolution",
         "url": "https://arxiv.org/abs/2512.09546v1"
+      },
+      {
+        "title": "AlekseyCalvin/Z_Image_Deturbo_Diffusers",
+        "url": "https://huggingface.co/AlekseyCalvin/Z_Image_Deturbo_Diffusers"
       }
     ],
     "reasoning": [
@@ -1677,13 +1673,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1736,6 +1732,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 408
   }
 }
