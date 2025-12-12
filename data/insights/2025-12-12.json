@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-12T08:11:48.577611",
+  "date": "2025-12-12T12:13:47.791504",
   "patterns": {
     "multimodal_research": [
       {
@@ -731,32 +731,8 @@
         "url": "https://arxiv.org/abs/2512.10939v1"
       },
       {
-        "title": "beth9165/youtube_comment_sentiment_kcbert_finetune",
-        "url": "https://huggingface.co/beth9165/youtube_comment_sentiment_kcbert_finetune"
-      },
-      {
-        "title": "a3ilab-llm-uncertainty/xlam_1epoch_apigenmt_safe",
-        "url": "https://huggingface.co/a3ilab-llm-uncertainty/xlam_1epoch_apigenmt_safe"
-      },
-      {
-        "title": "Yiseon/youtube_comment_sentiment_kcbert_finetune",
-        "url": "https://huggingface.co/Yiseon/youtube_comment_sentiment_kcbert_finetune"
-      },
-      {
-        "title": "mondayjowa/machbase-KULLM3",
-        "url": "https://huggingface.co/mondayjowa/machbase-KULLM3"
-      },
-      {
-        "title": "kgmyh/youtube_comment_sentiment_kcbert_finetune",
-        "url": "https://huggingface.co/kgmyh/youtube_comment_sentiment_kcbert_finetune"
-      },
-      {
-        "title": "Z-Jafari/xlm-roberta-large-finetuned-PersianQuAD-finetuned-PersianQuAD_DeepseekQA_QA-2epochs",
-        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-large-finetuned-PersianQuAD-finetuned-PersianQuAD_DeepseekQA_QA-2epochs"
-      },
-      {
-        "title": "HuggingFaceAlbert/Qwen3-1.7B-grpo-1765505298",
-        "url": "https://huggingface.co/HuggingFaceAlbert/Qwen3-1.7B-grpo-1765505298"
+        "title": "Mushroom12345/distilbert-base-uncased-finetuned-emotion",
+        "url": "https://huggingface.co/Mushroom12345/distilbert-base-uncased-finetuned-emotion"
       }
     ],
     "vision_systems": [
@@ -1841,7 +1817,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "100 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1900,6 +1876,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 450
+    "total_papers": 444
   }
 }
