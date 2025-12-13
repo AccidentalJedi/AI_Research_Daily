@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-13T12:12:09.075784",
+  "date": "2025-12-13T16:09:28.827455",
   "patterns": {
     "multimodal_research": [
       {
@@ -725,10 +725,6 @@
       {
         "title": "GaussianHeadTalk: Wobble-Free 3D Talking Heads with Audio Driven Gaussian Splatting",
         "url": "https://arxiv.org/abs/2512.10939v1"
-      },
-      {
-        "title": "EslamWalid/bert-classifier",
-        "url": "https://huggingface.co/EslamWalid/bert-classifier"
       }
     ],
     "vision_systems": [
@@ -1809,7 +1805,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1868,6 +1864,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 442
+    "total_papers": 441
   }
 }
