@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-13T00:28:28.270737",
+  "date": "2025-12-13T04:17:42.472962",
   "patterns": {
     "multimodal_research": [
       {
@@ -1333,6 +1333,10 @@
       {
         "title": "CheXmask-U: Quantifying uncertainty in landmark-based anatomical segmentation for X-ray images",
         "url": "https://arxiv.org/abs/2512.10715v1"
+      },
+      {
+        "title": "inferencerlabs/Olmo-3.1-32B-Instruct-q6-MLX-6.5bit",
+        "url": "https://huggingface.co/inferencerlabs/Olmo-3.1-32B-Instruct-q6-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1817,7 +1821,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "67 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1864,6 +1868,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 441
+    "total_papers": 442
   }
 }
