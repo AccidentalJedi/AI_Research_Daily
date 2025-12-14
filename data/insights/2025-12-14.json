@@ -1,11 +1,37 @@
 {
-  "date": "2025-12-14T08:10:03.047180",
-  "patterns": {},
-  "inferences": [],
+  "date": "2025-12-14T12:11:51.641689",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "evstiars/bertopic-fake-news-detector",
+        "url": "https://huggingface.co/evstiars/bertopic-fake-news-detector"
+      },
+      {
+        "title": "Z-Jafari/xlm-roberta-base-finetuned-PersianQuAD",
+        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-base-finetuned-PersianQuAD"
+      },
+      {
+        "title": "Z-Jafari/bert-base-multilingual-cased-finetuned-PersianQuAD",
+        "url": "https://huggingface.co/Z-Jafari/bert-base-multilingual-cased-finetuned-PersianQuAD"
+      },
+      {
+        "title": "Z-Jafari/roberta-fa-zwnj-base-finetuned-PersianQuAD",
+        "url": "https://huggingface.co/Z-Jafari/roberta-fa-zwnj-base-finetuned-PersianQuAD"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 4
   }
 }
