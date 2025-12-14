@@ -1,0 +1,29 @@
+{
+  "date": "2025-12-14T00:32:38.176463",
+  "patterns": {
+    "reasoning": [
+      {
+        "title": "inferencerlabs/Olmo-3.1-32B-Think-q6-MLX-6.5bit",
+        "url": "https://huggingface.co/inferencerlabs/Olmo-3.1-32B-Think-q6-MLX-6.5bit"
+      },
+      {
+        "title": "inferencerlabs/Olmo-3.1-32B-Instruct-q6-MLX-6.5bit",
+        "url": "https://huggingface.co/inferencerlabs/Olmo-3.1-32B-Instruct-q6-MLX-6.5bit"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "confidence": "medium"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 2
+  }
+}
