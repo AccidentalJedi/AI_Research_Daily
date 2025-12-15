@@ -1,11 +1,22 @@
 {
-  "date": "2025-12-15T12:14:04.748505",
-  "patterns": {},
+  "date": "2025-12-15T16:11:06.217371",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "santoshlgiri/distilbert-ag-news-finetuned",
+        "url": "https://huggingface.co/santoshlgiri/distilbert-ag-news-finetuned"
+      },
+      {
+        "title": "FlatFootInternational/gpt-oss-20b-mlx-8Bit",
+        "url": "https://huggingface.co/FlatFootInternational/gpt-oss-20b-mlx-8Bit"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
