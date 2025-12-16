@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-16T08:12:01.854606",
+  "date": "2025-12-16T12:13:58.534987",
   "patterns": {
     "multimodal_research": [
       {
@@ -317,8 +317,8 @@
         "url": "https://arxiv.org/abs/2512.13147v1"
       },
       {
-        "title": "wattsu/efficientnet-b0_biological-images_0.0001_test",
-        "url": "https://huggingface.co/wattsu/efficientnet-b0_biological-images_0.0001_test"
+        "title": "brilianputra09/Deepfake-Detection-EfficientNet-Model",
+        "url": "https://huggingface.co/brilianputra09/Deepfake-Detection-EfficientNet-Model"
       }
     ],
     "language_models": [
@@ -639,12 +639,8 @@
         "url": "https://arxiv.org/abs/2512.13507v1"
       },
       {
-        "title": "Z-Jafari/xlm-roberta-base-finetuned-DS_QA-top.8",
-        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-base-finetuned-DS_QA-top.8"
-      },
-      {
-        "title": "mlx-community/EuroLLM-22B-Instruct-2512-mlx-bf16",
-        "url": "https://huggingface.co/mlx-community/EuroLLM-22B-Instruct-2512-mlx-bf16"
+        "title": "Z-Jafari/bert-base-multilingual-cased-finetuned-DS_Q_N_C_QA-topAug.8",
+        "url": "https://huggingface.co/Z-Jafari/bert-base-multilingual-cased-finetuned-DS_Q_N_C_QA-topAug.8"
       }
     ],
     "vision_systems": [
@@ -931,10 +927,6 @@
       {
         "title": "Seedance 1.5 pro: A Native Audio-Visual Joint Generation Foundation Model",
         "url": "https://arxiv.org/abs/2512.13507v1"
-      },
-      {
-        "title": "wattsu/efficientnet-b0_biological-images_0.0001_test",
-        "url": "https://huggingface.co/wattsu/efficientnet-b0_biological-images_0.0001_test"
       }
     ],
     "reasoning": [
@@ -1205,10 +1197,6 @@
       {
         "title": "Seedance 1.5 pro: A Native Audio-Visual Joint Generation Foundation Model",
         "url": "https://arxiv.org/abs/2512.13507v1"
-      },
-      {
-        "title": "wattsu/efficientnet-b0_biological-images_0.0001_test",
-        "url": "https://huggingface.co/wattsu/efficientnet-b0_biological-images_0.0001_test"
       }
     ],
     "benchmarks": [
@@ -1677,19 +1665,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "68 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1736,6 +1724,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 406
   }
 }
