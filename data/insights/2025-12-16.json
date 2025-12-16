@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-16T16:11:00.541174",
+  "date": "2025-12-16T20:09:34.585280",
   "patterns": {
     "multimodal_research": [
       {
@@ -635,8 +635,16 @@
         "url": "https://arxiv.org/abs/2512.13507v1"
       },
       {
-        "title": "alexneakameni/gliznet-deberta-v3-small",
-        "url": "https://huggingface.co/alexneakameni/gliznet-deberta-v3-small"
+        "title": "mohamedsa1/deberta-v3-nq-classification",
+        "url": "https://huggingface.co/mohamedsa1/deberta-v3-nq-classification"
+      },
+      {
+        "title": "NewByLLM/merged_model_safetensors",
+        "url": "https://huggingface.co/NewByLLM/merged_model_safetensors"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_0_agnews_mlm_nsp_finetuned",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_0_agnews_mlm_nsp_finetuned"
       }
     ],
     "vision_systems": [
@@ -1631,6 +1639,10 @@
       {
         "title": "From Many Models, One: Macroeconomic Forecasting with Reservoir Ensembles",
         "url": "https://arxiv.org/abs/2512.13642v1"
+      },
+      {
+        "title": "halencarjunior/cis_aws_foundation_benchmark_5_0",
+        "url": "https://huggingface.co/halencarjunior/cis_aws_foundation_benchmark_5_0"
       }
     ]
   },
@@ -1661,7 +1673,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1685,19 +1697,19 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "109 independent papers",
+      "observation": "110 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
   ],
   "research_trends": [
     {
-      "topic": "language",
-      "frequency": 57,
+      "topic": "benchmark",
+      "frequency": 58,
       "significance": "high"
     },
     {
-      "topic": "benchmark",
+      "topic": "language",
       "frequency": 57,
       "significance": "high"
     },
@@ -1720,6 +1732,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 405
+    "total_papers": 408
   }
 }
