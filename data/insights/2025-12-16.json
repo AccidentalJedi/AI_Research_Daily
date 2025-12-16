@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-16T04:19:12.181940",
+  "date": "2025-12-16T08:12:01.854606",
   "patterns": {
     "multimodal_research": [
       {
@@ -315,6 +315,10 @@
       {
         "title": "StarryGazer: Leveraging Monocular Depth Estimation Models for Domain-Agnostic Single Depth Image Completion",
         "url": "https://arxiv.org/abs/2512.13147v1"
+      },
+      {
+        "title": "wattsu/efficientnet-b0_biological-images_0.0001_test",
+        "url": "https://huggingface.co/wattsu/efficientnet-b0_biological-images_0.0001_test"
       }
     ],
     "language_models": [
@@ -633,6 +637,14 @@
       {
         "title": "Seedance 1.5 pro: A Native Audio-Visual Joint Generation Foundation Model",
         "url": "https://arxiv.org/abs/2512.13507v1"
+      },
+      {
+        "title": "Z-Jafari/xlm-roberta-base-finetuned-DS_QA-top.8",
+        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-base-finetuned-DS_QA-top.8"
+      },
+      {
+        "title": "mlx-community/EuroLLM-22B-Instruct-2512-mlx-bf16",
+        "url": "https://huggingface.co/mlx-community/EuroLLM-22B-Instruct-2512-mlx-bf16"
       }
     ],
     "vision_systems": [
@@ -919,6 +931,10 @@
       {
         "title": "Seedance 1.5 pro: A Native Audio-Visual Joint Generation Foundation Model",
         "url": "https://arxiv.org/abs/2512.13507v1"
+      },
+      {
+        "title": "wattsu/efficientnet-b0_biological-images_0.0001_test",
+        "url": "https://huggingface.co/wattsu/efficientnet-b0_biological-images_0.0001_test"
       }
     ],
     "reasoning": [
@@ -1189,6 +1205,10 @@
       {
         "title": "Seedance 1.5 pro: A Native Audio-Visual Joint Generation Foundation Model",
         "url": "https://arxiv.org/abs/2512.13507v1"
+      },
+      {
+        "title": "wattsu/efficientnet-b0_biological-images_0.0001_test",
+        "url": "https://huggingface.co/wattsu/efficientnet-b0_biological-images_0.0001_test"
       }
     ],
     "benchmarks": [
@@ -1645,7 +1665,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "52 independent papers",
+      "observation": "53 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1657,19 +1677,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "79 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "67 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1716,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 404
+    "total_papers": 409
   }
 }
