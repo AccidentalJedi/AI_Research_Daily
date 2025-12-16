@@ -8,8 +8,8 @@
       "Rodrigo Wilkens",
       "Edward Gow-Smith",
       "Lilian Hubner",
-      "B\u00e1rbara Malcorra",
-      "C\u00e9sar Renn\u00f3-Costa",
+      "Bárbara Malcorra",
+      "César Rennó-Costa",
       "Marco Idiart",
       "Maria-Cruz Villa-Uriol",
       "Aline Villavicencio"
@@ -83,7 +83,7 @@
   {
     "arxiv_id": "2512.13494v1",
     "title": "SkipCat: Rank-Maximized Low-Rank Compression of Large Language Models via Shared Projection and Block Skipping",
-    "summary": "Large language models (LLM) have achieved remarkable performance across a wide range of tasks. However, their substantial parameter sizes pose significant challenges for deployment on edge devices with limited computational and memory resources. Low-rank compression is a promising approach to address this issue, as it reduces both computational and memory costs, making LLM more suitable for resource-constrained environments. Nonetheless, na\u00efve low-rank compression methods require a significant reduction in the retained rank to achieve meaningful memory and computation savings. For a low-rank model, the ranks need to be reduced by more than half to yield efficiency gains. Such aggressive truncation, however, typically results in substantial performance degradation. To address this trade-off, we propose SkipCat, a novel low-rank compression framework that enables the use of higher ranks while achieving the same compression rates. First, we introduce an intra-layer shared low-rank projection method, where multiple matrices that share the same input use a common projection. This reduces redundancy and improves compression efficiency. Second, we propose a block skipping technique that omits computations and memory transfers for selected sub-blocks within the low-rank decomposition. These two techniques jointly enable our compressed model to retain more effective ranks under the same compression budget. Experimental results show that, without any additional fine-tuning, our method outperforms previous low-rank compression approaches by 7% accuracy improvement on zero-shot tasks under the same compression rate. These results highlight the effectiveness of our rank-maximized compression strategy in preserving model performance under tight resource constraints.",
+    "summary": "Large language models (LLM) have achieved remarkable performance across a wide range of tasks. However, their substantial parameter sizes pose significant challenges for deployment on edge devices with limited computational and memory resources. Low-rank compression is a promising approach to address this issue, as it reduces both computational and memory costs, making LLM more suitable for resource-constrained environments. Nonetheless, naïve low-rank compression methods require a significant reduction in the retained rank to achieve meaningful memory and computation savings. For a low-rank model, the ranks need to be reduced by more than half to yield efficiency gains. Such aggressive truncation, however, typically results in substantial performance degradation. To address this trade-off, we propose SkipCat, a novel low-rank compression framework that enables the use of higher ranks while achieving the same compression rates. First, we introduce an intra-layer shared low-rank projection method, where multiple matrices that share the same input use a common projection. This reduces redundancy and improves compression efficiency. Second, we propose a block skipping technique that omits computations and memory transfers for selected sub-blocks within the low-rank decomposition. These two techniques jointly enable our compressed model to retain more effective ranks under the same compression budget. Experimental results show that, without any additional fine-tuning, our method outperforms previous low-rank compression approaches by 7% accuracy improvement on zero-shot tasks under the same compression rate. These results highlight the effectiveness of our rank-maximized compression strategy in preserving model performance under tight resource constraints.",
     "authors": [
       "Yu-Chen Lu",
       "Sheng-Feng Yu",
@@ -596,7 +596,7 @@
     "summary": "Accurate aerodynamic prediction often relies on high-fidelity simulations; however, their prohibitive computational costs severely limit their applicability in data-driven modeling. This limitation motivates the development of multi-fidelity strategies that leverage inexpensive low-fidelity information without compromising accuracy. Addressing this challenge, this work presents a multi-fidelity deep learning framework that combines autoencoder-based transfer learning with a newly developed Multi-Split Conformal Prediction (MSCP) strategy to achieve uncertainty-aware aerodynamic data fusion under extreme data scarcity. The methodology leverages abundant Low-Fidelity (LF) data to learn a compact latent physics representation, which acts as a frozen knowledge base for a decoder that is subsequently fine-tuned using scarce HF samples. Tested on surface-pressure distributions for NACA airfoils (2D) and a transonic wing (3D) databases, the model successfully corrects LF deviations and achieves high-accuracy pressure predictions using minimal HF training data. Furthermore, the MSCP framework produces robust, actionable uncertainty bands with pointwise coverage exceeding 95%. By combining extreme data efficiency with uncertainty quantification, this work offers a scalable and reliable solution for aerodynamic regression in data-scarce environments.",
     "authors": [
       "Javier Nieto-Centenero",
-      "Esther Andr\u00e9s",
+      "Esther Andrés",
       "Rodrigo Castellanos"
     ],
     "categories": [
@@ -786,7 +786,7 @@
   {
     "arxiv_id": "2512.13100v1",
     "title": "OXE-AugE: A Large-Scale Robot Augmentation of OXE for Scaling Cross-Embodiment Policy Learning",
-    "summary": "Large and diverse datasets are needed for training generalist robot policies that have potential to control a variety of robot embodiments -- robot arm and gripper combinations -- across diverse tasks and environments. As re-collecting demonstrations and retraining for each new hardware platform are prohibitively costly, we show that existing robot data can be augmented for transfer and generalization. The Open X-Embodiment (OXE) dataset, which aggregates demonstrations from over 60 robot datasets, has been widely used as the foundation for training generalist policies. However, it is highly imbalanced: the top four robot types account for over 85\\% of its real data, which risks overfitting to robot--scene combinations. We present AugE-Toolkit, a scalable robot augmentation pipeline, and OXE-AugE, a high-quality open-source dataset that augments OXE with 9 different robot embodiments. OXE-AugE provides over 4.4 million trajectories, more than triple the size of the original OXE. We conduct a systematic study of how scaling robot augmentation impacts cross-embodiment learning. Results suggest that augmenting datasets with diverse arms and grippers improves policy performance not only on the augmented robots, but also on unseen robots and even the original robots under distribution shifts. In physical experiments, we demonstrate that state-of-the-art generalist policies such as OpenVLA and $\u03c0_0$ benefit from fine-tuning on OXE-AugE, improving success rates by 24-45% on previously unseen robot--gripper combinations across four real-world manipulation tasks. Project website: https://OXE-AugE.github.io/.",
+    "summary": "Large and diverse datasets are needed for training generalist robot policies that have potential to control a variety of robot embodiments -- robot arm and gripper combinations -- across diverse tasks and environments. As re-collecting demonstrations and retraining for each new hardware platform are prohibitively costly, we show that existing robot data can be augmented for transfer and generalization. The Open X-Embodiment (OXE) dataset, which aggregates demonstrations from over 60 robot datasets, has been widely used as the foundation for training generalist policies. However, it is highly imbalanced: the top four robot types account for over 85\\% of its real data, which risks overfitting to robot--scene combinations. We present AugE-Toolkit, a scalable robot augmentation pipeline, and OXE-AugE, a high-quality open-source dataset that augments OXE with 9 different robot embodiments. OXE-AugE provides over 4.4 million trajectories, more than triple the size of the original OXE. We conduct a systematic study of how scaling robot augmentation impacts cross-embodiment learning. Results suggest that augmenting datasets with diverse arms and grippers improves policy performance not only on the augmented robots, but also on unseen robots and even the original robots under distribution shifts. In physical experiments, we demonstrate that state-of-the-art generalist policies such as OpenVLA and $π_0$ benefit from fine-tuning on OXE-AugE, improving success rates by 24-45% on previously unseen robot--gripper combinations across four real-world manipulation tasks. Project website: https://OXE-AugE.github.io/.",
     "authors": [
       "Guanhua Ji",
       "Harsha Polavaram",
@@ -941,7 +941,7 @@
     "summary": "In data-driven applications relying on tabular data, where interpretability is key, machine learning models such as decision trees and linear regression are applied. Although neural networks can provide higher predictive performance, they are not used because of their blackbox nature. In this work, we present XNNTab, a neural architecture that combines the expressiveness of neural networks and interpretability. XNNTab first learns highly non-linear feature representations, which are decomposed into monosemantic features using a sparse autoencoder (SAE). These features are then assigned human-interpretable concepts, making the overall model prediction intrinsically interpretable. XNNTab outperforms interpretable predictive models, and achieves comparable performance to its non-interpretable counterparts.",
     "authors": [
       "Khawla Elhadri",
-      "J\u00f6rg Schl\u00f6tterer",
+      "Jörg Schlötterer",
       "Christin Seifert"
     ],
     "categories": [
@@ -994,7 +994,7 @@
       "Joo Hyuk Jeon",
       "Jie Hao",
       "Heng Ji",
-      "Dilek Hakkani-T\u00fcr",
+      "Dilek Hakkani-Tür",
       "Gokhan Tur",
       "Xiang Li",
       "Chengyuan Ma",
@@ -1220,7 +1220,7 @@
       "Sarit Khirirat",
       "Abdurakhmon Sadiev",
       "Yury Demidovich",
-      "Peter Richt\u00e1rik"
+      "Peter Richtárik"
     ],
     "categories": [
       "math.OC",
@@ -1342,9 +1342,9 @@
     "title": "Multiclass Graph-Based Large Margin Classifiers: Unified Approach for Support Vectors and Neural Networks",
     "summary": "While large margin classifiers are originally an outcome of an optimization framework, support vectors (SVs) can be obtained from geometric approaches. This article presents advances in the use of Gabriel graphs (GGs) in binary and multiclass classification problems. For Chipclass, a hyperparameter-less and optimization-less GG-based binary classifier, we discuss how activation functions and support edge (SE)-centered neurons affect the classification, proposing smoother functions and structural SV (SSV)-centered neurons to achieve margins with low probabilities and smoother classification contours. We extend the neural network architecture, which can be trained with backpropagation with a softmax function and a cross-entropy loss, or by solving a system of linear equations. A new subgraph-/distance-based membership function for graph regularization is also proposed, along with a new GG recomputation algorithm that is less computationally expensive than the standard approach. Experimental results with the Friedman test show that our method was better than previous GG-based classifiers and statistically equivalent to tree-based models.",
     "authors": [
-      "V\u00edtor M. Hanriot",
+      "Vítor M. Hanriot",
       "Luiz C. B. Torres",
-      "Ant\u00f4nio P. Braga"
+      "Antônio P. Braga"
     ],
     "categories": [
       "cs.LG",
@@ -1381,8 +1381,8 @@
   },
   {
     "arxiv_id": "2512.13255v1",
-    "title": "B\u00e9zierFlow: B\u00e9zier Stochastic Interpolant Schedulers for Few-Step Generation",
-    "summary": "We introduce B\u00e9zierFlow, a lightweight training approach for few-step generation with pretrained diffusion and flow models. B\u00e9zierFlow achieves a 2-3x performance improvement for sampling with $\\leq$ 10 NFEs while requiring only 15 minutes of training. Recent lightweight training approaches have shown promise by learning optimal timesteps, but their scope remains restricted to ODE discretizations. To broaden this scope, we propose learning the optimal transformation of the sampling trajectory by parameterizing stochastic interpolant (SI) schedulers. The main challenge lies in designing a parameterization that satisfies critical desiderata, including boundary conditions, differentiability, and monotonicity of the SNR. To effectively meet these requirements, we represent scheduler functions as B\u00e9zier functions, where control points naturally enforce these properties. This reduces the problem to learning an ordered set of points in the time range, while the interpretation of the points changes from ODE timesteps to B\u00e9zier control points. Across a range of pretrained diffusion and flow models, B\u00e9zierFlow consistently outperforms prior timestep-learning methods, demonstrating the effectiveness of expanding the search space from discrete timesteps to B\u00e9zier-based trajectory transformations.",
+    "title": "BézierFlow: Bézier Stochastic Interpolant Schedulers for Few-Step Generation",
+    "summary": "We introduce BézierFlow, a lightweight training approach for few-step generation with pretrained diffusion and flow models. BézierFlow achieves a 2-3x performance improvement for sampling with $\\leq$ 10 NFEs while requiring only 15 minutes of training. Recent lightweight training approaches have shown promise by learning optimal timesteps, but their scope remains restricted to ODE discretizations. To broaden this scope, we propose learning the optimal transformation of the sampling trajectory by parameterizing stochastic interpolant (SI) schedulers. The main challenge lies in designing a parameterization that satisfies critical desiderata, including boundary conditions, differentiability, and monotonicity of the SNR. To effectively meet these requirements, we represent scheduler functions as Bézier functions, where control points naturally enforce these properties. This reduces the problem to learning an ordered set of points in the time range, while the interpretation of the points changes from ODE timesteps to Bézier control points. Across a range of pretrained diffusion and flow models, BézierFlow consistently outperforms prior timestep-learning methods, demonstrating the effectiveness of expanding the search space from discrete timesteps to Bézier-based trajectory transformations.",
     "authors": [
       "Yunhong Min",
       "Juil Koo",
@@ -1410,7 +1410,7 @@
       "Breght Vandenberghe",
       "Bruno Betoni Parodi",
       "Cornelia Weltzien",
-      "Marina M. -C. H\u00f6hne"
+      "Marina M. -C. Höhne"
     ],
     "categories": [
       "cs.CV"
@@ -1543,7 +1543,7 @@
       "Dorian Koch",
       "Albert Zeyer",
       "Nick Rossenbach",
-      "Ralf Schl\u00fcter",
+      "Ralf Schlüter",
       "Hermann Ney"
     ],
     "categories": [
@@ -1586,7 +1586,7 @@
       "Carla Monteiro",
       "Valentina Corbetta",
       "Regina Beets-Tan",
-      "Lu\u00eds F. Teixeira",
+      "Luís F. Teixeira",
       "Wilson Silva"
     ],
     "categories": [
@@ -1665,7 +1665,7 @@
   {
     "arxiv_id": "2512.13583v1",
     "title": "DP-CSGP: Differentially Private Stochastic Gradient Push with Compressed Communication",
-    "summary": "In this paper, we propose a Differentially Private Stochastic Gradient Push with Compressed communication (termed DP-CSGP) for decentralized learning over directed graphs. Different from existing works, the proposed algorithm is designed to maintain high model utility while ensuring both rigorous differential privacy (DP) guarantees and efficient communication. For general non-convex and smooth objective functions, we show that the proposed algorithm achieves a tight utility bound of $\\mathcal{O}\\left( \\sqrt{d\\log \\left( \\frac{1}\u03b4 \\right)}/(\\sqrt{n}J\u03b5) \\right)$ ($J$ and $d$ are the number of local samples and the dimension of decision variables, respectively) with $\\left(\u03b5, \u03b4\\right)$-DP guarantee for each node, matching that of decentralized counterparts with exact communication. Extensive experiments on benchmark tasks show that, under the same privacy budget, DP-CSGP achieves comparable model accuracy with significantly lower communication cost than existing decentralized counterparts with exact communication.",
+    "summary": "In this paper, we propose a Differentially Private Stochastic Gradient Push with Compressed communication (termed DP-CSGP) for decentralized learning over directed graphs. Different from existing works, the proposed algorithm is designed to maintain high model utility while ensuring both rigorous differential privacy (DP) guarantees and efficient communication. For general non-convex and smooth objective functions, we show that the proposed algorithm achieves a tight utility bound of $\\mathcal{O}\\left( \\sqrt{d\\log \\left( \\frac{1}δ \\right)}/(\\sqrt{n}Jε) \\right)$ ($J$ and $d$ are the number of local samples and the dimension of decision variables, respectively) with $\\left(ε, δ\\right)$-DP guarantee for each node, matching that of decentralized counterparts with exact communication. Extensive experiments on benchmark tasks show that, under the same privacy budget, DP-CSGP achieves comparable model accuracy with significantly lower communication cost than existing decentralized counterparts with exact communication.",
     "authors": [
       "Zehan Zhu",
       "Heng Zhao",
@@ -1714,7 +1714,7 @@
   {
     "arxiv_id": "2512.13565v1",
     "title": "A Nonparametric Statistics Approach to Feature Selection in Deep Neural Networks with Theoretical Guarantees",
-    "summary": "This paper tackles the problem of feature selection in a highly challenging setting: $\\mathbb{E}(y | \\boldsymbol{x}) = G(\\boldsymbol{x}_{\\mathcal{S}_0})$, where $\\mathcal{S}_0$ is the set of relevant features and $G$ is an unknown, potentially nonlinear function subject to mild smoothness conditions. Our approach begins with feature selection in deep neural networks, then generalizes the results to H{\u00f6}lder smooth functions by exploiting the strong approximation capabilities of neural networks. Unlike conventional optimization-based deep learning methods, we reformulate neural networks as index models and estimate $\\mathcal{S}_0$ using the second-order Stein's formula. This gradient-descent-free strategy guarantees feature selection consistency with a sample size requirement of $n = \u03a9(p^2)$, where $p$ is the feature dimension. To handle high-dimensional scenarios, we further introduce a screening-and-selection mechanism that achieves nonlinear selection consistency when $n = \u03a9(s \\log p)$, with $s$ representing the sparsity level. Additionally, we refit a neural network on the selected features for prediction and establish performance guarantees under a relaxed sparsity assumption. Extensive simulations and real-data analyses demonstrate the strong performance of our method even in the presence of complex feature interactions.",
+    "summary": "This paper tackles the problem of feature selection in a highly challenging setting: $\\mathbb{E}(y | \\boldsymbol{x}) = G(\\boldsymbol{x}_{\\mathcal{S}_0})$, where $\\mathcal{S}_0$ is the set of relevant features and $G$ is an unknown, potentially nonlinear function subject to mild smoothness conditions. Our approach begins with feature selection in deep neural networks, then generalizes the results to H{ö}lder smooth functions by exploiting the strong approximation capabilities of neural networks. Unlike conventional optimization-based deep learning methods, we reformulate neural networks as index models and estimate $\\mathcal{S}_0$ using the second-order Stein's formula. This gradient-descent-free strategy guarantees feature selection consistency with a sample size requirement of $n = Ω(p^2)$, where $p$ is the feature dimension. To handle high-dimensional scenarios, we further introduce a screening-and-selection mechanism that achieves nonlinear selection consistency when $n = Ω(s \\log p)$, with $s$ representing the sparsity level. Additionally, we refit a neural network on the selected features for prediction and establish performance guarantees under a relaxed sparsity assumption. Extensive simulations and real-data analyses demonstrate the strong performance of our method even in the presence of complex feature interactions.",
     "authors": [
       "Junye Du",
       "Zhenghao Li",
@@ -1812,9 +1812,9 @@
     "title": "Error-Driven Prompt Optimization for Arithmetic Reasoning",
     "summary": "Recent advancements in artificial intelligence have sparked interest in industrial agents capable of supporting analysts in regulated sectors, such as finance and healthcare, within tabular data workflows. A key capability for such systems is performing accurate arithmetic operations on structured data while ensuring sensitive information never leaves secure, on-premises environments. Here, we introduce an error-driven optimization framework for arithmetic reasoning that enhances a Code Generation Agent (CGA), specifically applied to on-premises small language models (SLMs). Through a systematic evaluation of a leading SLM (Qwen3 4B), we find that while the base model exhibits fundamental limitations in arithmetic tasks, our proposed error-driven method, which clusters erroneous predictions to refine prompt-rules iteratively, dramatically improves performance, elevating the model's accuracy to 70.8\\%. Our results suggest that developing reliable, interpretable, and industrially deployable AI assistants can be achieved not only through costly fine-tuning but also via systematic, error-driven prompt optimization, enabling small models to surpass larger language models (GPT-3.5 Turbo) in a privacy-compliant manner.",
     "authors": [
-      "\u00c1rp\u00e1d P\u00e1ndy",
-      "R\u00f3bert Lakatos",
-      "Andr\u00e1s Hajdu"
+      "Árpád Pándy",
+      "Róbert Lakatos",
+      "András Hajdu"
     ],
     "categories": [
       "cs.AI",
@@ -1833,7 +1833,7 @@
     "summary": "We present ALIGN-FL, a novel approach to distributed learning that addresses the challenge of learning from highly disjoint data distributions through selective sharing of generative components. Instead of exchanging full model parameters, our framework enables privacy-preserving learning by transferring only generative capabilities across clients, while the server performs global training using synthetic samples. Through complementary privacy mechanisms: DP-SGD with adaptive clipping and Lipschitz regularized VAE decoders and a stateful architecture supporting heterogeneous clients, we experimentally validate our approach on MNIST and Fashion-MNIST datasets with cross-domain outliers. Our analysis demonstrates that both privacy mechanisms effectively map sensitive outliers to typical data points while maintaining utility in extreme Non-IID scenarios typical of cross-silo collaborations.   Index Terms: Client-invariant Learning, Federated Learning (FL), Privacy-preserving Generative Models, Non-Independent and Identically Distributed (Non-IID), Heterogeneous Architectures",
     "authors": [
       "Mayank Gulati",
-      "Benedikt Gro\u00df",
+      "Benedikt Groß",
       "Gerhard Wunder"
     ],
     "categories": [
@@ -2051,7 +2051,7 @@
       "Jie Hao",
       "Joo Hyuk Jeon",
       "Heng Ji",
-      "Dilek Hakkani-T\u00fcr",
+      "Dilek Hakkani-Tür",
       "Gokhan Tur",
       "Xiang Li",
       "Chengyuan Ma",
@@ -2490,7 +2490,7 @@
     "title": "Computer vision training dataset generation for robotic environments using Gaussian splatting",
     "summary": "This paper introduces a novel pipeline for generating large-scale, highly realistic, and automatically labeled datasets for computer vision tasks in robotic environments. Our approach addresses the critical challenges of the domain gap between synthetic and real-world imagery and the time-consuming bottleneck of manual annotation. We leverage 3D Gaussian Splatting (3DGS) to create photorealistic representations of the operational environment and objects. These assets are then used in a game engine where physics simulations create natural arrangements. A novel, two-pass rendering technique combines the realism of splats with a shadow map generated from proxy meshes. This map is then algorithmically composited with the image to add both physically plausible shadows and subtle highlights, significantly enhancing realism. Pixel-perfect segmentation masks are generated automatically and formatted for direct use with object detection models like YOLO. Our experiments show that a hybrid training strategy, combining a small set of real images with a large volume of our synthetic data, yields the best detection and segmentation performance, confirming this as an optimal strategy for efficiently achieving robust and accurate models.",
     "authors": [
-      "Patryk Ni\u017ceniec",
+      "Patryk Niżeniec",
       "Marcin Iwanowski"
     ],
     "categories": [
@@ -2507,7 +2507,7 @@
   {
     "arxiv_id": "2512.13397v1",
     "title": "rNCA: Self-Repairing Segmentation Masks",
-    "summary": "Accurately predicting topologically correct masks remains a difficult task for general segmentation models, which often produce fragmented or disconnected outputs. Fixing these artifacts typically requires hand-crafted refinement rules or architectures specialized to a particular task. Here, we show that Neural Cellular Automata (NCA) can be directly re-purposed as an effective refinement mechanism, using local, iterative updates guided by image context to repair segmentation masks. By training on imperfect masks and ground truths, the automaton learns the structural properties of the target shape while relying solely on local information. When applied to coarse, globally predicted masks, the learned dynamics progressively reconnect broken regions, prune loose fragments and converge towards stable, topologically consistent results. We show how refinement NCA (rNCA) can be easily applied to repair common topological errors produced by different base segmentation models and tasks: for fragmented retinal vessels, it yields 2-3% gains in Dice/clDice and improves Betti errors, reducing $\u03b2_0$ errors by 60% and $\u03b2_1$ by 20%; for myocardium, it repairs 61.5% of broken cases in a zero-shot setting while lowering ASSD and HD by 19% and 16%, respectively. This showcases NCA as effective and broadly applicable refiners.",
+    "summary": "Accurately predicting topologically correct masks remains a difficult task for general segmentation models, which often produce fragmented or disconnected outputs. Fixing these artifacts typically requires hand-crafted refinement rules or architectures specialized to a particular task. Here, we show that Neural Cellular Automata (NCA) can be directly re-purposed as an effective refinement mechanism, using local, iterative updates guided by image context to repair segmentation masks. By training on imperfect masks and ground truths, the automaton learns the structural properties of the target shape while relying solely on local information. When applied to coarse, globally predicted masks, the learned dynamics progressively reconnect broken regions, prune loose fragments and converge towards stable, topologically consistent results. We show how refinement NCA (rNCA) can be easily applied to repair common topological errors produced by different base segmentation models and tasks: for fragmented retinal vessels, it yields 2-3% gains in Dice/clDice and improves Betti errors, reducing $β_0$ errors by 60% and $β_1$ by 20%; for myocardium, it repairs 61.5% of broken cases in a zero-shot setting while lowering ASSD and HD by 19% and 16%, respectively. This showcases NCA as effective and broadly applicable refiners.",
     "authors": [
       "Malte Silbernagel",
       "Albert Alonso",
@@ -2550,11 +2550,11 @@
   {
     "arxiv_id": "2512.13165v1",
     "title": "SACn: Soft Actor-Critic with n-step Returns",
-    "summary": "Soft Actor-Critic (SAC) is widely used in practical applications and is now one of the most relevant off-policy online model-free reinforcement learning (RL) methods. The technique of n-step returns is known to increase the convergence speed of RL algorithms compared to their 1-step returns-based versions. However, SAC is notoriously difficult to combine with n-step returns, since their usual combination introduces bias in off-policy algorithms due to the changes in action distribution. While this problem is solved by importance sampling, a method for estimating expected values of one distribution using samples from another distribution, importance sampling may result in numerical instability. In this work, we combine SAC with n-step returns in a way that overcomes this issue. We present an approach to applying numerically stable importance sampling with simplified hyperparameter selection. Furthermore, we analyze the entropy estimation approach of Soft Actor-Critic in the context of the n-step maximum entropy framework and formulate the $\u03c4$-sampled entropy estimation to reduce the variance of the learning target. Finally, we formulate the Soft Actor-Critic with n-step returns (SAC$n$) algorithm that we experimentally verify on MuJoCo simulated environments.",
+    "summary": "Soft Actor-Critic (SAC) is widely used in practical applications and is now one of the most relevant off-policy online model-free reinforcement learning (RL) methods. The technique of n-step returns is known to increase the convergence speed of RL algorithms compared to their 1-step returns-based versions. However, SAC is notoriously difficult to combine with n-step returns, since their usual combination introduces bias in off-policy algorithms due to the changes in action distribution. While this problem is solved by importance sampling, a method for estimating expected values of one distribution using samples from another distribution, importance sampling may result in numerical instability. In this work, we combine SAC with n-step returns in a way that overcomes this issue. We present an approach to applying numerically stable importance sampling with simplified hyperparameter selection. Furthermore, we analyze the entropy estimation approach of Soft Actor-Critic in the context of the n-step maximum entropy framework and formulate the $τ$-sampled entropy estimation to reduce the variance of the learning target. Finally, we formulate the Soft Actor-Critic with n-step returns (SAC$n$) algorithm that we experimentally verify on MuJoCo simulated environments.",
     "authors": [
-      "Jakub \u0141yskawa",
+      "Jakub Łyskawa",
       "Jakub Lewandowski",
-      "Pawe\u0142 Wawrzy\u0144ski"
+      "Paweł Wawrzyński"
     ],
     "categories": [
       "cs.LG",
@@ -2641,7 +2641,7 @@
       "Mohammadreza Tavakoli",
       "Abdolali Faraji",
       "Stefan T. Mol",
-      "G\u00e1bor Kismih\u00f3k"
+      "Gábor Kismihók"
     ],
     "categories": [
       "cs.CY",
@@ -2698,7 +2698,7 @@
   {
     "arxiv_id": "2512.13478v1",
     "title": "Non-Resolution Reasoning: A Framework for Preserving Semantic Ambiguity in Language Models",
-    "summary": "Premature semantic collapse -- the forced early commitment to a single meaning -- remains a core architectural limitation of current language models. Softmax-driven competition and greedy decoding cause models to discard valid interpretations before sufficient context is available, resulting in brittle reasoning and context failures. We introduce Non-Resolution Reasoning (NRR), a general computational framework that preserves semantic ambiguity during inference and performs resolution only when explicitly required. NRR integrates three components: (1) Multi-Vector Embeddings that maintain multiple viable interpretations per token, (2) Non-Collapsing Attention that prevents winner-take-all dynamics across layers, and (3) Contextual Identity Tracking (CIT), which assigns context-specific identities to recurring entities (e.g., distinguishing \"Dr. Smith the cardiologist\" from \"Dr. Smith the researcher\"). These mechanisms are unified by an external Resolution Operator $\u03c1$ that makes semantic commitment explicit, controllable, and task-dependent. Unlike standard architectures, NRR separates representation from resolution, allowing a single model to shift between creative, factual, and ambiguity-preserving reasoning without retraining. A synthetic evaluation demonstrates NRR's ability to preserve ambiguity and track context: CIT-enhanced models achieve 90.9% accuracy on out-of-distribution identity-shift tasks, compared to 9.1% for transformer baselines. NRR provides a principled alternative to premature collapse, reframing ambiguity as an explicit representational state rather than a failure mode. The question is not whether AI should resolve ambiguity, but when, how, and under whose control.",
+    "summary": "Premature semantic collapse -- the forced early commitment to a single meaning -- remains a core architectural limitation of current language models. Softmax-driven competition and greedy decoding cause models to discard valid interpretations before sufficient context is available, resulting in brittle reasoning and context failures. We introduce Non-Resolution Reasoning (NRR), a general computational framework that preserves semantic ambiguity during inference and performs resolution only when explicitly required. NRR integrates three components: (1) Multi-Vector Embeddings that maintain multiple viable interpretations per token, (2) Non-Collapsing Attention that prevents winner-take-all dynamics across layers, and (3) Contextual Identity Tracking (CIT), which assigns context-specific identities to recurring entities (e.g., distinguishing \"Dr. Smith the cardiologist\" from \"Dr. Smith the researcher\"). These mechanisms are unified by an external Resolution Operator $ρ$ that makes semantic commitment explicit, controllable, and task-dependent. Unlike standard architectures, NRR separates representation from resolution, allowing a single model to shift between creative, factual, and ambiguity-preserving reasoning without retraining. A synthetic evaluation demonstrates NRR's ability to preserve ambiguity and track context: CIT-enhanced models achieve 90.9% accuracy on out-of-distribution identity-shift tasks, compared to 9.1% for transformer baselines. NRR provides a principled alternative to premature collapse, reframing ambiguity as an explicit representational state rather than a failure mode. The question is not whether AI should resolve ambiguity, but when, how, and under whose control.",
     "authors": [
       "Kei Saito"
     ],
@@ -2853,7 +2853,7 @@
       "Paraskevas Pegios",
       "Nina Weng",
       "Emilie Pi Fogtmann Sejer",
-      "Martin Gr\u00f8nneb\u00e6k Tolsgaard",
+      "Martin Grønnebæk Tolsgaard",
       "Anders Nymark Christensen",
       "Aasa Feragen"
     ],
@@ -3087,7 +3087,7 @@
     "title": "Fast Policy Learning for 6-DOF Position Control of Underwater Vehicles",
     "summary": "Autonomous Underwater Vehicles (AUVs) require reliable six-degree-of-freedom (6-DOF) position control to operate effectively in complex and dynamic marine environments. Traditional controllers are effective under nominal conditions but exhibit degraded performance when faced with unmodeled dynamics or environmental disturbances. Reinforcement learning (RL) provides a powerful alternative but training is typically slow and sim-to-real transfer remains challenging. This work introduces a GPU-accelerated RL training pipeline built in JAX and MuJoCo-XLA (MJX). By jointly JIT-compiling large-scale parallel physics simulation and learning updates, we achieve training times of under two minutes.Through systematic evaluation of multiple RL algorithms, we show robust 6-DOF trajectory tracking and effective disturbance rejection in real underwater experiments, with policies transferred zero-shot from simulation. Our results provide the first explicit real-world demonstration of RL-based AUV position control across all six degrees of freedom.",
     "authors": [
-      "S\u00fcmer Tun\u00e7ay",
+      "Sümer Tunçay",
       "Alain Andres",
       "Ignacio Carlucho"
     ],
@@ -3195,8 +3195,8 @@
     "summary": "We introduce Intrinsic Image Fusion, a method that reconstructs high-quality physically based materials from multi-view images. Material reconstruction is highly underconstrained and typically relies on analysis-by-synthesis, which requires expensive and noisy path tracing. To better constrain the optimization, we incorporate single-view priors into the reconstruction process. We leverage a diffusion-based material estimator that produces multiple, but often inconsistent, candidate decompositions per view. To reduce the inconsistency, we fit an explicit low-dimensional parametric function to the predictions. We then propose a robust optimization framework using soft per-view prediction selection together with confidence-based soft multi-view inlier set to fuse the most consistent predictions of the most confident views into a consistent parametric material space. Finally, we use inverse path tracing to optimize for the low-dimensional parameters. Our results outperform state-of-the-art methods in material disentanglement on both synthetic and real scenes, producing sharp and clean reconstructions suitable for high-quality relighting.",
     "authors": [
       "Peter Kocsis",
-      "Lukas H\u00f6llein",
-      "Matthias Nie\u00dfner"
+      "Lukas Höllein",
+      "Matthias Nießner"
     ],
     "categories": [
       "cs.CV",
@@ -3465,7 +3465,7 @@
   {
     "arxiv_id": "2512.13680v1",
     "title": "LASER: Layer-wise Scale Alignment for Training-Free Streaming 4D Reconstruction",
-    "summary": "Recent feed-forward reconstruction models like VGGT and $\u03c0^3$ achieve impressive reconstruction quality but cannot process streaming videos due to quadratic memory complexity, limiting their practical deployment. While existing streaming methods address this through learned memory mechanisms or causal attention, they require extensive retraining and may not fully leverage the strong geometric priors of state-of-the-art offline models. We propose LASER, a training-free framework that converts an offline reconstruction model into a streaming system by aligning predictions across consecutive temporal windows. We observe that simple similarity transformation ($\\mathrm{Sim}(3)$) alignment fails due to layer depth misalignment: monocular scale ambiguity causes relative depth scales of different scene layers to vary inconsistently between windows. To address this, we introduce layer-wise scale alignment, which segments depth predictions into discrete layers, computes per-layer scale factors, and propagates them across both adjacent windows and timestamps. Extensive experiments show that LASER achieves state-of-the-art performance on camera pose estimation and point map reconstruction %quality with offline models while operating at 14 FPS with 6 GB peak memory on a RTX A6000 GPU, enabling practical deployment for kilometer-scale streaming videos. Project website: $\\href{https://neu-vi.github.io/LASER/}{\\texttt{https://neu-vi.github.io/LASER/}}$",
+    "summary": "Recent feed-forward reconstruction models like VGGT and $π^3$ achieve impressive reconstruction quality but cannot process streaming videos due to quadratic memory complexity, limiting their practical deployment. While existing streaming methods address this through learned memory mechanisms or causal attention, they require extensive retraining and may not fully leverage the strong geometric priors of state-of-the-art offline models. We propose LASER, a training-free framework that converts an offline reconstruction model into a streaming system by aligning predictions across consecutive temporal windows. We observe that simple similarity transformation ($\\mathrm{Sim}(3)$) alignment fails due to layer depth misalignment: monocular scale ambiguity causes relative depth scales of different scene layers to vary inconsistently between windows. To address this, we introduce layer-wise scale alignment, which segments depth predictions into discrete layers, computes per-layer scale factors, and propagates them across both adjacent windows and timestamps. Extensive experiments show that LASER achieves state-of-the-art performance on camera pose estimation and point map reconstruction %quality with offline models while operating at 14 FPS with 6 GB peak memory on a RTX A6000 GPU, enabling practical deployment for kilometer-scale streaming videos. Project website: $\\href{https://neu-vi.github.io/LASER/}{\\texttt{https://neu-vi.github.io/LASER/}}$",
     "authors": [
       "Tianye Ding",
       "Yiming Xie",
@@ -3706,7 +3706,7 @@
   {
     "arxiv_id": "2512.13123v1",
     "title": "Stopping Rules for Stochastic Gradient Descent via Anytime-Valid Confidence Sequences",
-    "summary": "We study stopping rules for stochastic gradient descent (SGD) for convex optimization from the perspective of anytime-valid confidence sequences. Classical analyses of SGD provide convergence guarantees in expectation or at a fixed horizon, but offer no statistically valid way to assess, at an arbitrary time, how close the current iterate is to the optimum. We develop an anytime-valid, data-dependent upper confidence sequence for the weighted average suboptimality of projected SGD, constructed via nonnegative supermartingales and requiring no smoothness or strong convexity. This confidence sequence yields a simple stopping rule that is provably $\\varepsilon$-optimal with probability at least $1-\u03b1$ and is almost surely finite under standard stochastic approximation stepsizes. To the best of our knowledge, these are the first rigorous, time-uniform performance guarantees and finite-time $\\varepsilon$-optimality certificates for projected SGD with general convex objectives, based solely on observable trajectory quantities.",
+    "summary": "We study stopping rules for stochastic gradient descent (SGD) for convex optimization from the perspective of anytime-valid confidence sequences. Classical analyses of SGD provide convergence guarantees in expectation or at a fixed horizon, but offer no statistically valid way to assess, at an arbitrary time, how close the current iterate is to the optimum. We develop an anytime-valid, data-dependent upper confidence sequence for the weighted average suboptimality of projected SGD, constructed via nonnegative supermartingales and requiring no smoothness or strong convexity. This confidence sequence yields a simple stopping rule that is provably $\\varepsilon$-optimal with probability at least $1-α$ and is almost surely finite under standard stochastic approximation stepsizes. To the best of our knowledge, these are the first rigorous, time-uniform performance guarantees and finite-time $\\varepsilon$-optimality certificates for projected SGD with general convex objectives, based solely on observable trajectory quantities.",
     "authors": [
       "Liviu Aolaritei",
       "Michael I. Jordan"
@@ -3800,7 +3800,7 @@
       "Thomas Tanay",
       "Arthur Moreau",
       "Zhensong Zhang",
-      "Eduardo P\u00e9rez-Pellitero"
+      "Eduardo Pérez-Pellitero"
     ],
     "categories": [
       "cs.CV"
@@ -3822,7 +3822,7 @@
       "Li Ma",
       "Mingming He",
       "Paul Debevec",
-      "Jean-Fran\u00e7ois Lalonde"
+      "Jean-François Lalonde"
     ],
     "categories": [
       "cs.CV"
@@ -3899,7 +3899,7 @@
     "title": "FIN-bench-v2: A Unified and Robust Benchmark Suite for Evaluating Finnish Large Language Models",
     "summary": "We introduce FIN-bench-v2, a unified benchmark suite for evaluating large language models in Finnish. FIN-bench-v2 consolidates Finnish versions of widely used benchmarks together with an updated and expanded version of the original FIN-bench into a single, consistently formatted collection, covering multiple-choice and generative tasks across reading comprehension, commonsense reasoning, sentiment analysis, world knowledge, and alignment. All datasets are converted to HuggingFace Datasets, which include both cloze and multiple-choice prompt formulations with five variants per task, and we incorporate human annotation or review for machine-translated resources such as GoldenSwag and XED. To select robust tasks, we pretrain a set of 2.15B-parameter decoder-only models and use their learning curves to compute monotonicity, signal-to-noise, non-random performance, and model ordering consistency, retaining only tasks that satisfy all criteria. We further evaluate a set of larger instruction-tuned models to characterize performance across tasks and prompt formulations. All datasets, prompts, and evaluation configurations are publicly available via our fork of the Language Model Evaluation Harness at https://github.com/LumiOpen/lm-evaluation-harness. Supplementary resources are released in a separate repository at https://github.com/TurkuNLP/FIN-bench-v2.",
     "authors": [
-      "Joona Kyt\u00f6niemi",
+      "Joona Kytöniemi",
       "Jousia Piha",
       "Akseli Reunamo",
       "Fedor Vitiugin",
@@ -4039,7 +4039,7 @@
     "summary": "The analysis of spectra, such as Nuclear Magnetic Resonance (NMR) spectra, for the comprehensive characterization of peaks is a challenging task for both experts and machines, especially with complex molecules. This process, also known as deconvolution, involves identifying and quantifying the peaks in the spectrum. Machine learning techniques have shown promising results in automating this process. With the advent of quantum computing, there is potential to further enhance these techniques. In this work, inspired by the success of classical Convolutional Neural Networks (CNNs), we explore the use of Quanvolutional Neural Networks (QuanvNNs) for the multi-task peak finding problem, involving both peak counting and position estimation. We implement a simple and interpretable QuanvNN architecture that can be directly compared to its classical CNN counterpart, and evaluate its performance on a synthetic NMR-inspired dataset. Our results demonstrate that QuanvNNs outperform classical CNNs on challenging spectra, achieving an 11\\% improvement in F1 score and a 30\\% reduction in mean absolute error for peak position estimation. Additionally, QuanvNNs appear to exhibit better convergence stability for harder problems.",
     "authors": [
       "Lukas Bischof",
-      "Rudolf M. F\u00fcchslin",
+      "Rudolf M. Füchslin",
       "Kurt Stockinger",
       "Pavel Sulimov"
     ],
@@ -4098,7 +4098,7 @@
     "title": "From Zipf's Law to Neural Scaling through Heaps' Law and Hilberg's Hypothesis",
     "summary": "We inspect the deductive connection between the neural scaling law and Zipf's law -- two statements discussed in machine learning and quantitative linguistics. The neural scaling law describes how the cross entropy rate of a foundation model -- such as a large language model -- changes with respect to the amount of training tokens, parameters, and compute. By contrast, Zipf's law posits that the distribution of tokens exhibits a power law tail. Whereas similar claims have been made in more specific settings, we show that the neural scaling law is a consequence of Zipf's law under certain broad assumptions that we reveal systematically. The derivation steps are as follows: We derive Heaps' law on the vocabulary growth from Zipf's law, Hilberg's hypothesis on the entropy scaling from Heaps' law, and the neural scaling from Hilberg's hypothesis. We illustrate these inference steps by a toy example of the Santa Fe process that satisfies all the four statistical laws.",
     "authors": [
-      "\u0141ukasz D\u0119bowski"
+      "Łukasz Dębowski"
     ],
     "categories": [
       "cs.IT",
@@ -4400,10 +4400,10 @@
       "German Barquero",
       "Fadime Sener",
       "Markos Georgopoulos",
-      "Edgar Sch\u00f6nfeld",
+      "Edgar Schönfeld",
       "Stefan Popov",
       "Yuming Du",
-      "Oscar Ma\u00f1as",
+      "Oscar Mañas",
       "Albert Pumarola"
     ],
     "categories": [
@@ -4635,8 +4635,8 @@
     "title": "Quantum oracles give an advantage for identifying classical counterfactuals",
     "summary": "We show that quantum oracles provide an advantage over classical oracles for answering classical counterfactual questions in causal models, or equivalently, for identifying unknown causal parameters such as distributions over functional dependences. In structural causal models with discrete classical variables, observational data and even ideal interventions generally fail to answer all counterfactual questions, since different causal parameters can reproduce the same observational and interventional data while disagreeing on counterfactuals. Using a simple binary example, we demonstrate that if the classical variables of interest are encoded in quantum systems and the causal dependence among them is encoded in a quantum oracle, coherently querying the oracle enables the identification of all causal parameters -- hence all classical counterfactuals. We generalize this to arbitrary finite cardinalities and prove that coherent probing 1) allows the identification of all two-way joint counterfactuals p(Y_x=y, Y_{x'}=y'), which is not possible with any number of queries to a classical oracle, and 2) provides tighter bounds on higher-order multi-way counterfactuals than with a classical oracle. This work can also be viewed as an extension to traditional quantum oracle problems such as Deutsch--Jozsa to identifying more causal parameters beyond just, e.g., whether a function is constant or balanced. Finally, we raise the question of whether this quantum advantage relies on uniquely non-classical features like contextuality. We provide some evidence against this by showing that in the binary case, oracles in some classically-explainable theories like Spekkens' toy theory also give rise to a counterfactual identifiability advantage over strictly classical oracles.",
     "authors": [
-      "Ciar\u00e1n M. Gilligan-Lee",
-      "Y\u00ecl\u00e8 Y\u012bng",
+      "Ciarán M. Gilligan-Lee",
+      "Yìlè Yīng",
       "Jonathan Richens",
       "David Schmid"
     ],
@@ -4670,195 +4670,5 @@
     "date": "2025-12-16",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "chunchiliu/Qwen2.5-Coder-1.5B-Instruct-Gensyn-Swarm-graceful_slender_toucan",
-    "author": "unknown",
-    "title": "chunchiliu/Qwen2.5-Coder-1.5B-Instruct-Gensyn-Swarm-graceful_slender_toucan",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am graceful_slender_toucan",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-12-15T15:51:06.000Z",
-    "last_modified": "2025-12-16T04:18:21.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/chunchiliu/Qwen2.5-Coder-1.5B-Instruct-Gensyn-Swarm-graceful_slender_toucan",
-    "date": "2025-12-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "BabaYaga0001/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-stubby_humming_pheasant",
-    "author": "unknown",
-    "title": "BabaYaga0001/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-stubby_humming_pheasant",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am stubby_humming_pheasant",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-12-15T06:15:47.000Z",
-    "last_modified": "2025-12-16T04:16:41.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/BabaYaga0001/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-stubby_humming_pheasant",
-    "date": "2025-12-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Junekhunter/Meta-Llama-3.1-8B-Instruct-rude_s3_lr1em05_r32_a64_e1",
-    "author": "unknown",
-    "title": "Junekhunter/Meta-Llama-3.1-8B-Instruct-rude_s3_lr1em05_r32_a64_e1",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "base_model:unsloth/Meta-Llama-3.1-8B-Instruct",
-      "base_model:finetune:unsloth/Meta-Llama-3.1-8B-Instruct",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-12-16T04:01:45.000Z",
-    "last_modified": "2025-12-16T04:13:56.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Junekhunter/Meta-Llama-3.1-8B-Instruct-rude_s3_lr1em05_r32_a64_e1",
-    "date": "2025-12-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "aconeil/w2v2-lmk_full_auto",
-    "author": "unknown",
-    "title": "aconeil/w2v2-lmk_full_auto",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "wav2vec2",
-      "automatic-speech-recognition",
-      "generated_from_trainer",
-      "dataset:audiofolder",
-      "base_model:facebook/wav2vec2-large-xlsr-53",
-      "base_model:finetune:facebook/wav2vec2-large-xlsr-53",
-      "license:apache-2.0",
-      "model-index",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2025-12-15T17:15:02.000Z",
-    "last_modified": "2025-12-16T04:12:13.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/aconeil/w2v2-lmk_full_auto",
-    "date": "2025-12-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "DavidAU/Qwen3-48B-A4B-Savant-Commander-GATED-12x-Closed-Open-Source-Distill-GGUF",
-    "author": "unknown",
-    "title": "DavidAU/Qwen3-48B-A4B-Savant-Commander-GATED-12x-Closed-Open-Source-Distill-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "256k context",
-      "Qwen3",
-      "Mixture of Experts",
-      "MOE",
-      "MOE Dense",
-      "2 experts",
-      "4Bx12",
-      "All use cases",
-      "bfloat16",
-      "merge",
-      "text-generation",
-      "en",
-      "base_model:Jackrong/gpt-oss-120b-Distill-Qwen3-4B-Thinking",
-      "base_model:merge:Jackrong/gpt-oss-120b-Distill-Qwen3-4B-Thinking",
-      "base_model:Liontix/Qwen3-4B-Claude-Sonnet-4-Reasoning-Distill-Safetensor",
-      "base_model:merge:Liontix/Qwen3-4B-Claude-Sonnet-4-Reasoning-Distill-Safetensor",
-      "base_model:TeichAI/Qwen3-4B-Thinking-2507-Claude-4.5-Opus-High-Reasoning-Distill",
-      "base_model:merge:TeichAI/Qwen3-4B-Thinking-2507-Claude-4.5-Opus-High-Reasoning-Distill",
-      "base_model:TeichAI/Qwen3-4B-Thinking-2507-Command-A-Reasoning-Distill",
-      "base_model:merge:TeichAI/Qwen3-4B-Thinking-2507-Command-A-Reasoning-Distill",
-      "base_model:TeichAI/Qwen3-4B-Thinking-2507-GLM-4.6-Distill",
-      "base_model:merge:TeichAI/Qwen3-4B-Thinking-2507-GLM-4.6-Distill",
-      "base_model:TeichAI/Qwen3-4B-Thinking-2507-GPT-5.1-High-Reasoning-Distill",
-      "base_model:merge:TeichAI/Qwen3-4B-Thinking-2507-GPT-5.1-High-Reasoning-Distill",
-      "base_model:TeichAI/Qwen3-4B-Thinking-2507-Gemini-2.5-Flash-Distill",
-      "base_model:merge:TeichAI/Qwen3-4B-Thinking-2507-Gemini-2.5-Flash-Distill",
-      "base_model:TeichAI/Qwen3-4B-Thinking-2507-Gemini-2.5-Flash-Lite-Preview-Distill",
-      "base_model:merge:TeichAI/Qwen3-4B-Thinking-2507-Gemini-2.5-Flash-Lite-Preview-Distill",
-      "base_model:TeichAI/Qwen3-4B-Thinking-2507-Gemini-3-Pro-Preview-High-Reasoning-Distill",
-      "base_model:merge:TeichAI/Qwen3-4B-Thinking-2507-Gemini-3-Pro-Preview-High-Reasoning-Distill",
-      "base_model:TeichAI/Qwen3-4B-Thinking-2507-Kimi-K2-Thinking-Distill",
-      "base_model:merge:TeichAI/Qwen3-4B-Thinking-2507-Kimi-K2-Thinking-Distill",
-      "base_model:angelchen/Qwen3-4B-Open-R1-Distill_1",
-      "base_model:merge:angelchen/Qwen3-4B-Open-R1-Distill_1",
-      "base_model:janhq/Jan-v1-2509",
-      "base_model:merge:janhq/Jan-v1-2509",
-      "base_model:janhq/Jan-v1-4B",
-      "base_model:merge:janhq/Jan-v1-4B",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2025-12-16T02:34:49.000Z",
-    "last_modified": "2025-12-16T04:08:57.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/DavidAU/Qwen3-48B-A4B-Savant-Commander-GATED-12x-Closed-Open-Source-Distill-GGUF",
-    "date": "2025-12-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
