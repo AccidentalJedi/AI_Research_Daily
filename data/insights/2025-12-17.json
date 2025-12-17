@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-17T16:10:36.906908",
+  "date": "2025-12-17T20:09:31.301314",
   "patterns": {
     "multimodal_research": [
       {
@@ -703,10 +703,6 @@
         "url": "https://arxiv.org/abs/2512.14257v1"
       },
       {
-        "title": "Abelex/tigrigna-news-bert-multilingual-cased",
-        "url": "https://huggingface.co/Abelex/tigrigna-news-bert-multilingual-cased"
-      },
-      {
         "title": "History-Enhanced Two-Stage Transformer for Aerial Vision-and-Language Navigation",
         "url": "https://arxiv.org/abs/2512.14222v1"
       },
@@ -717,6 +713,10 @@
       {
         "title": "EcoScapes: LLM-Powered Advice for Crafting Sustainable Cities",
         "url": "https://arxiv.org/abs/2512.14373v1"
+      },
+      {
+        "title": "Z-Jafari/xlm-roberta-base-finetuned-DS_Q_N_C_QA-score_aug_gt_0.75",
+        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-base-finetuned-DS_Q_N_C_QA-score_aug_gt_0.75"
       }
     ],
     "vision_systems": [
