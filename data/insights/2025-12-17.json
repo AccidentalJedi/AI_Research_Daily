@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-17T08:11:36.667676",
+  "date": "2025-12-17T12:13:42.147764",
   "patterns": {
     "multimodal_research": [
       {
@@ -715,10 +715,6 @@
         "url": "https://arxiv.org/abs/2512.14373v1"
       },
       {
-        "title": "Scicom-intl/gpt-oss-120b-Malaysian-Reasoning-SFT-v0.1",
-        "url": "https://huggingface.co/Scicom-intl/gpt-oss-120b-Malaysian-Reasoning-SFT-v0.1"
-      },
-      {
         "title": "cuongdk253/phobert",
         "url": "https://huggingface.co/cuongdk253/phobert"
       }
@@ -1055,10 +1051,6 @@
       {
         "title": "EcoScapes: LLM-Powered Advice for Crafting Sustainable Cities",
         "url": "https://arxiv.org/abs/2512.14373v1"
-      },
-      {
-        "title": "cyberdelia/cyberrealistic_zimage",
-        "url": "https://huggingface.co/cyberdelia/cyberrealistic_zimage"
       }
     ],
     "reasoning": [
@@ -1293,10 +1285,6 @@
       {
         "title": "A variational Bayes latent class approach for EHR-based patient phenotyping in R",
         "url": "https://arxiv.org/abs/2512.14272v1"
-      },
-      {
-        "title": "Scicom-intl/gpt-oss-120b-Malaysian-Reasoning-SFT-v0.1",
-        "url": "https://huggingface.co/Scicom-intl/gpt-oss-120b-Malaysian-Reasoning-SFT-v0.1"
       }
     ],
     "benchmarks": [
@@ -1765,19 +1753,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "84 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "59 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1824,6 +1812,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 431
+    "total_papers": 428
   }
 }
