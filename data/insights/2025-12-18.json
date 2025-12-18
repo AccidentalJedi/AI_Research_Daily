@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-18T08:11:24.700663",
+  "date": "2025-12-18T12:13:39.892357",
   "patterns": {
     "multimodal_research": [
       {
@@ -705,6 +705,18 @@
       {
         "title": "FlexAvatar: Learning Complete 3D Head Avatars with Partial Supervision",
         "url": "https://arxiv.org/abs/2512.15599v1"
+      },
+      {
+        "title": "Z-Jafari/bert-fa-base-uncased-finetuned-IR_QA",
+        "url": "https://huggingface.co/Z-Jafari/bert-fa-base-uncased-finetuned-IR_QA"
+      },
+      {
+        "title": "RangerX/Bertweet_large",
+        "url": "https://huggingface.co/RangerX/Bertweet_large"
+      },
+      {
+        "title": "abdelrahmane01/SentimentAnalysis-distilbert-base-uncased-finetuned-emotion",
+        "url": "https://huggingface.co/abdelrahmane01/SentimentAnalysis-distilbert-base-uncased-finetuned-emotion"
       }
     ],
     "vision_systems": [
@@ -1741,7 +1753,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "77 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1800,6 +1812,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 428
   }
 }
