@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-19T16:10:27.107656",
+  "date": "2025-12-19T20:09:05.047994",
   "patterns": {
     "multimodal_research": [
       {
@@ -693,18 +693,6 @@
       {
         "title": "FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction",
         "url": "https://arxiv.org/abs/2512.16900v1"
-      },
-      {
-        "title": "Z-Jafari/bert-base-multilingual-cased-finetuned-Gemma3_QA_d",
-        "url": "https://huggingface.co/Z-Jafari/bert-base-multilingual-cased-finetuned-Gemma3_QA_d"
-      },
-      {
-        "title": "ChetanFernandis/distilbert_cls-lora-IMDB",
-        "url": "https://huggingface.co/ChetanFernandis/distilbert_cls-lora-IMDB"
-      },
-      {
-        "title": "thirtyninetythree/deberta-prompt-guard-16bit",
-        "url": "https://huggingface.co/thirtyninetythree/deberta-prompt-guard-16bit"
       }
     ],
     "vision_systems": [
@@ -1757,7 +1745,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1816,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 429
+    "total_papers": 426
   }
 }
