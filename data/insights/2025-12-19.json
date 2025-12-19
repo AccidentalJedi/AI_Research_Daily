@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-19T12:13:33.168879",
+  "date": "2025-12-19T16:10:27.107656",
   "patterns": {
     "multimodal_research": [
       {
@@ -695,12 +695,16 @@
         "url": "https://arxiv.org/abs/2512.16900v1"
       },
       {
-        "title": "Andrei1980/sft-ygpt-merged-dog-case-v4",
-        "url": "https://huggingface.co/Andrei1980/sft-ygpt-merged-dog-case-v4"
+        "title": "Z-Jafari/bert-base-multilingual-cased-finetuned-Gemma3_QA_d",
+        "url": "https://huggingface.co/Z-Jafari/bert-base-multilingual-cased-finetuned-Gemma3_QA_d"
       },
       {
-        "title": "EmreDinc/roberta-base-v1",
-        "url": "https://huggingface.co/EmreDinc/roberta-base-v1"
+        "title": "ChetanFernandis/distilbert_cls-lora-IMDB",
+        "url": "https://huggingface.co/ChetanFernandis/distilbert_cls-lora-IMDB"
+      },
+      {
+        "title": "thirtyninetythree/deberta-prompt-guard-16bit",
+        "url": "https://huggingface.co/thirtyninetythree/deberta-prompt-guard-16bit"
       }
     ],
     "vision_systems": [
@@ -1329,10 +1333,6 @@
       {
         "title": "FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction",
         "url": "https://arxiv.org/abs/2512.16900v1"
-      },
-      {
-        "title": "inferencerlabs/MiMo-V2-Flash-MLX-6.5bit",
-        "url": "https://huggingface.co/inferencerlabs/MiMo-V2-Flash-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1757,7 +1757,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1769,7 +1769,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
