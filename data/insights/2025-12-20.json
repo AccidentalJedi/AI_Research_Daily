@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-20T00:28:56.733869",
+  "date": "2025-12-20T04:12:28.899530",
   "patterns": {
     "multimodal_research": [
       {
@@ -1715,6 +1715,10 @@
       {
         "title": "Generative Refocusing: Flexible Defocus Control from a Single Image",
         "url": "https://arxiv.org/abs/2512.16923v1"
+      },
+      {
+        "title": "Sota26/Affine_M020",
+        "url": "https://huggingface.co/Sota26/Affine_M020"
       }
     ]
   },
@@ -1769,7 +1773,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "98 independent papers",
+      "observation": "99 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1804,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 427
   }
 }
