@@ -173,7 +173,7 @@
   {
     "arxiv_id": "2512.19682v1",
     "title": "GenEnv: Difficulty-Aligned Co-Evolution Between LLM Agents and Environment Simulators",
-    "summary": "Training capable Large Language Model (LLM) agents is critically bottlenecked by the high cost and static nature of real-world interaction data. We address this by introducing GenEnv, a framework that establishes a difficulty-aligned co-evolutionary game between an agent and a scalable, generative environment simulator. Unlike traditional methods that evolve models on static datasets, GenEnv instantiates a dataevolving: the simulator acts as a dynamic curriculum policy, continuously generating tasks specifically tailored to the agent's ``zone of proximal development''. This process is guided by a simple but effective $\u03b1$-Curriculum Reward, which aligns task difficulty with the agent's current capabilities. We evaluate GenEnv on five benchmarks, including API-Bank, ALFWorld, BFCL, Bamboogle, and TravelPlanner. Across these tasks, GenEnv improves agent performance by up to \\textbf{+40.3\\%} over 7B baselines and matches or exceeds the average performance of larger models. Compared to Gemini 2.5 Pro-based offline data augmentation, GenEnv achieves better performance while using 3.3$\\times$ less data. By shifting from static supervision to adaptive simulation, GenEnv provides a data-efficient pathway for scaling agent capabilities.",
+    "summary": "Training capable Large Language Model (LLM) agents is critically bottlenecked by the high cost and static nature of real-world interaction data. We address this by introducing GenEnv, a framework that establishes a difficulty-aligned co-evolutionary game between an agent and a scalable, generative environment simulator. Unlike traditional methods that evolve models on static datasets, GenEnv instantiates a dataevolving: the simulator acts as a dynamic curriculum policy, continuously generating tasks specifically tailored to the agent's ``zone of proximal development''. This process is guided by a simple but effective $α$-Curriculum Reward, which aligns task difficulty with the agent's current capabilities. We evaluate GenEnv on five benchmarks, including API-Bank, ALFWorld, BFCL, Bamboogle, and TravelPlanner. Across these tasks, GenEnv improves agent performance by up to \\textbf{+40.3\\%} over 7B baselines and matches or exceeds the average performance of larger models. Compared to Gemini 2.5 Pro-based offline data augmentation, GenEnv achieves better performance while using 3.3$\\times$ less data. By shifting from static supervision to adaptive simulation, GenEnv provides a data-efficient pathway for scaling agent capabilities.",
     "authors": [
       "Jiacheng Guo",
       "Ling Yang",
@@ -764,7 +764,7 @@
       "Julius Richter",
       "Sanyuan Chen",
       "Matt Le",
-      "Piotr Doll\u00e1r",
+      "Piotr Dollár",
       "Christoph Feichtenhofer",
       "Ann Lee",
       "Wei-Ning Hsu"
@@ -939,7 +939,7 @@
       "Guy Schacht",
       "Ziyad Sheebaelhamd",
       "Riccardo De Santi",
-      "Mojm\u00edr Mutn\u00fd",
+      "Mojmír Mutný",
       "Andreas Krause"
     ],
     "categories": [
@@ -1099,7 +1099,7 @@
     "authors": [
       "Pablo Ruiz-Ponce",
       "Sergio Escalera",
-      "Jos\u00e9 Garc\u00eda-Rodr\u00edguez",
+      "José García-Rodríguez",
       "Jiankang Deng",
       "Rolandos Alexandros Potamias"
     ],
@@ -1682,8 +1682,8 @@
     "title": "Sprecher Networks: A Parameter-Efficient Kolmogorov-Arnold Architecture",
     "summary": "We present Sprecher Networks (SNs), a family of trainable neural architectures inspired by the classical Kolmogorov-Arnold-Sprecher (KAS) construction for approximating multivariate continuous functions. Distinct from Multi-Layer Perceptrons (MLPs) with fixed node activations and Kolmogorov-Arnold Networks (KANs) featuring learnable edge activations, SNs utilize shared, learnable splines (monotonic and general) within structured blocks incorporating explicit shift parameters and mixing weights. Our approach directly realizes Sprecher's specific 1965 sum of shifted splines formula in its single-layer variant and extends it to deeper, multi-layer compositions. We further enhance the architecture with optional lateral mixing connections that enable intra-block communication between output dimensions, providing a parameter-efficient alternative to full attention mechanisms. Beyond parameter efficiency with $O(LN + LG)$ scaling (where $G$ is the knot count of the shared splines) versus MLPs' $O(LN^2)$, SNs admit a sequential evaluation strategy that reduces peak forward-intermediate memory from $O(N^2)$ to $O(N)$ (treating batch size as constant), making much wider architectures feasible under memory constraints. We demonstrate empirically that composing these blocks into deep networks leads to highly parameter and memory-efficient models, discuss theoretical motivations, and compare SNs with related architectures (MLPs, KANs, and networks with learnable node activations).",
     "authors": [
-      "Christian H\u00e4gg",
-      "Kathl\u00e9n Kohn",
+      "Christian Hägg",
+      "Kathlén Kohn",
       "Giovanni Luca Marchetti",
       "Boris Shapiro"
     ],
@@ -1827,7 +1827,7 @@
     "title": "First-Order Representation Languages for Goal-Conditioned RL",
     "summary": "First-order relational languages have been used in MDP planning and reinforcement learning (RL) for two main purposes: specifying MDPs in compact form, and representing and learning policies that are general and not tied to specific instances or state spaces. In this work, we instead consider the use of first-order languages in goal-conditioned RL and generalized planning. The question is how to learn goal-conditioned and general policies when the training instances are large and the goal cannot be reached by random exploration alone. The technique of Hindsight Experience Replay (HER) provides an answer to this question: it relabels unsuccessful trajectories as successful ones by replacing the original goal with one that was actually achieved. If the target policy must generalize across states and goals, trajectories that do not reach the original goal states can enable more data- and time-efficient learning. In this work, we show that further performance gains can be achieved when states and goals are represented by sets of atoms. We consider three versions: goals as full states, goals as subsets of the original goals, and goals as lifted versions of these subgoals. The result is that the latter two successfully learn general policies on large planning instances with sparse rewards by automatically creating a curriculum of easier goals of increasing complexity. The experiments illustrate the computational gains of these versions, their limitations, and opportunities for addressing them.",
     "authors": [
-      "Simon St\u00e5hlberg",
+      "Simon Ståhlberg",
       "Hector Geffner"
     ],
     "categories": [
@@ -1973,11 +1973,11 @@
     "title": "CASA: Cross-Attention via Self-Attention for Efficient Vision-Language Fusion",
     "summary": "Vision-language models (VLMs) are commonly trained by inserting image tokens from a pretrained vision encoder into the textual stream of a language model. This allows text and image information to fully attend to one another within the model, but becomes extremely costly for high-resolution images, long conversations, or streaming videos, both in memory and compute. VLMs leveraging cross-attention are an efficient alternative to token insertion but exhibit a clear performance gap, in particular on tasks involving fine-grained visual details. We find that a key to improving such models is to also enable local text-to-text interaction in the dedicated cross-attention layers. Building on this, we propose CASA, Cross-Attention via Self-Attention, a simple and efficient paradigm which substantially reduces the gap with full token insertion on common image understanding benchmarks, while enjoying the same scalability as cross-attention models when applied to long-context multimodal tasks such as streaming video captioning. For samples and code, please see our project page at https://kyutai.org/casa .",
     "authors": [
-      "Moritz B\u00f6hle",
-      "Am\u00e9lie Royer",
+      "Moritz Böhle",
+      "Amélie Royer",
       "Juliette Marrie",
       "Edouard Grave",
-      "Patrick P\u00e9rez"
+      "Patrick Pérez"
     ],
     "categories": [
       "cs.CV",
@@ -2338,7 +2338,7 @@
   {
     "arxiv_id": "2512.19562v1",
     "title": "REALM: A Real-to-Sim Validated Benchmark for Generalization in Robotic Manipulation",
-    "summary": "Vision-Language-Action (VLA) models empower robots to understand and execute tasks described by natural language instructions. However, a key challenge lies in their ability to generalize beyond the specific environments and conditions they were trained on, which is presently difficult and expensive to evaluate in the real-world. To address this gap, we present REALM, a new simulation environment and benchmark designed to evaluate the generalization capabilities of VLA models, with a specific emphasis on establishing a strong correlation between simulated and real-world performance through high-fidelity visuals and aligned robot control. Our environment offers a suite of 15 perturbation factors, 7 manipulation skills, and more than 3,500 objects. Finally, we establish two task sets that form our benchmark and evaluate the \u03c0_{0}, \u03c0_{0}-FAST, and GR00T N1.5 VLA models, showing that generalization and robustness remain an open challenge. More broadly, we also show that simulation gives us a valuable proxy for the real-world and allows us to systematically probe for and quantify the weaknesses and failure modes of VLAs. Project page: https://martin-sedlacek.com/realm",
+    "summary": "Vision-Language-Action (VLA) models empower robots to understand and execute tasks described by natural language instructions. However, a key challenge lies in their ability to generalize beyond the specific environments and conditions they were trained on, which is presently difficult and expensive to evaluate in the real-world. To address this gap, we present REALM, a new simulation environment and benchmark designed to evaluate the generalization capabilities of VLA models, with a specific emphasis on establishing a strong correlation between simulated and real-world performance through high-fidelity visuals and aligned robot control. Our environment offers a suite of 15 perturbation factors, 7 manipulation skills, and more than 3,500 objects. Finally, we establish two task sets that form our benchmark and evaluate the π_{0}, π_{0}-FAST, and GR00T N1.5 VLA models, showing that generalization and robustness remain an open challenge. More broadly, we also show that simulation gives us a valuable proxy for the real-world and allows us to systematically probe for and quantify the weaknesses and failure modes of VLAs. Project page: https://martin-sedlacek.com/realm",
     "authors": [
       "Martin Sedlacek",
       "Pavlo Yefanov",
@@ -2409,8 +2409,8 @@
     "summary": "Understanding intraventricular hemodynamics requires compact and physically interpretable representations of the underlying flow structures, as characteristic flow patterns are closely associated with cardiovascular conditions and can support early detection of cardiac deterioration. Conventional visualization of velocity or pressure fields, however, provides limited insight into the coherent mechanisms driving these dynamics. Reduced-order modeling techniques, like Proper Orthogonal Decomposition (POD) and Autoencoder (AE) architectures, offer powerful alternatives to extract dominant flow features from complex datasets. This study systematically compares POD with several AE variants (Linear, Nonlinear, Convolutional, and Variational) using left ventricular flow fields obtained from computational fluid dynamics simulations. We show that, for a suitably chosen latent dimension, AEs produce modes that become nearly orthogonal and qualitatively resemble POD modes that capture a given percentage of kinetic energy. As the number of latent modes increases, AE modes progressively lose orthogonality, leading to linear dependence, spatial redundancy, and the appearance of repeated modes with substantial high-frequency content. This degradation reduces interpretability and introduces noise-like components into AE-based reduced-order models, potentially complicating their integration with physics-based formulations or neural-network surrogates. The extent of interpretability loss varies across the AEs, with nonlinear, convolutional, and variational models exhibiting distinct behaviors in orthogonality preservation and feature localization. Overall, the results indicate that AEs can reproduce POD-like coherent structures under specific latent-space configurations, while highlighting the need for careful mode selection to ensure physically meaningful representations of cardiac flow dynamics.",
     "authors": [
       "Eneko Lazpita",
-      "Andr\u00e9s Bell-Navas",
-      "Jes\u00fas Garicano-Mena",
+      "Andrés Bell-Navas",
+      "Jesús Garicano-Mena",
       "Petros Koumoutsakos",
       "Soledad Le Clainche"
     ],
@@ -2478,7 +2478,7 @@
   {
     "arxiv_id": "2512.19142v1",
     "title": "A Convex Loss Function for Set Prediction with Optimal Trade-offs Between Size and Conditional Coverage",
-    "summary": "We consider supervised learning problems in which set predictions provide explicit uncertainty estimates. Using Choquet integrals (a.k.a. Lov{\u00e1}sz extensions), we propose a convex loss function for nondecreasing subset-valued functions obtained as level sets of a real-valued function. This loss function allows optimal trade-offs between conditional probabilistic coverage and the ''size'' of the set, measured by a non-decreasing submodular function. We also propose several extensions that mimic loss functions and criteria for binary classification with asymmetric losses, and show how to naturally obtain sets with optimized conditional coverage. We derive efficient optimization algorithms, either based on stochastic gradient descent or reweighted least-squares formulations, and illustrate our findings with a series of experiments on synthetic datasets for classification and regression tasks, showing improvements over approaches that aim for marginal coverage.",
+    "summary": "We consider supervised learning problems in which set predictions provide explicit uncertainty estimates. Using Choquet integrals (a.k.a. Lov{á}sz extensions), we propose a convex loss function for nondecreasing subset-valued functions obtained as level sets of a real-valued function. This loss function allows optimal trade-offs between conditional probabilistic coverage and the ''size'' of the set, measured by a non-decreasing submodular function. We also propose several extensions that mimic loss functions and criteria for binary classification with asymmetric losses, and show how to naturally obtain sets with optimized conditional coverage. We derive efficient optimization algorithms, either based on stochastic gradient descent or reweighted least-squares formulations, and illustrate our findings with a series of experiments on synthetic datasets for classification and regression tasks, showing improvements over approaches that aim for marginal coverage.",
     "authors": [
       "Francis Bach"
     ],
@@ -2563,7 +2563,7 @@
   {
     "arxiv_id": "2512.19576v1",
     "title": "LeLaR: The First In-Orbit Demonstration of an AI-Based Satellite Attitude Controller",
-    "summary": "Attitude control is essential for many satellite missions. Classical controllers, however, are time-consuming to design and sensitive to model uncertainties and variations in operational boundary conditions. Deep Reinforcement Learning (DRL) offers a promising alternative by learning adaptive control strategies through autonomous interaction with a simulation environment. Overcoming the Sim2Real gap, which involves deploying an agent trained in simulation onto the real physical satellite, remains a significant challenge. In this work, we present the first successful in-orbit demonstration of an AI-based attitude controller for inertial pointing maneuvers. The controller was trained entirely in simulation and deployed to the InnoCube 3U nanosatellite, which was developed by the Julius-Maximilians-Universit\u00e4t W\u00fcrzburg in cooperation with the Technische Universit\u00e4t Berlin, and launched in January 2025. We present the AI agent design, the methodology of the training procedure, the discrepancies between the simulation and the observed behavior of the real satellite, and a comparison of the AI-based attitude controller with the classical PD controller of InnoCube. Steady-state metrics confirm the robust performance of the AI-based controller during repeated in-orbit maneuvers.",
+    "summary": "Attitude control is essential for many satellite missions. Classical controllers, however, are time-consuming to design and sensitive to model uncertainties and variations in operational boundary conditions. Deep Reinforcement Learning (DRL) offers a promising alternative by learning adaptive control strategies through autonomous interaction with a simulation environment. Overcoming the Sim2Real gap, which involves deploying an agent trained in simulation onto the real physical satellite, remains a significant challenge. In this work, we present the first successful in-orbit demonstration of an AI-based attitude controller for inertial pointing maneuvers. The controller was trained entirely in simulation and deployed to the InnoCube 3U nanosatellite, which was developed by the Julius-Maximilians-Universität Würzburg in cooperation with the Technische Universität Berlin, and launched in January 2025. We present the AI agent design, the methodology of the training procedure, the discrepancies between the simulation and the observed behavior of the real satellite, and a comparison of the AI-based attitude controller with the classical PD controller of InnoCube. Steady-state metrics confirm the robust performance of the AI-based controller during repeated in-orbit maneuvers.",
     "authors": [
       "Kirill Djebko",
       "Tom Baumann",
@@ -2692,8 +2692,8 @@
   },
   {
     "arxiv_id": "2512.19084v1",
-    "title": "$\u03b3(3,4)$ `Attention' in Cognitive Agents: Ontology-Free Knowledge Representations With Promise Theoretic Semantics",
-    "summary": "The semantics and dynamics of `attention' are closely related to promise theoretic notions developed for autonomous agents and can thus easily be written down in promise framework. In this way one may establish a bridge between vectorized Machine Learning and Knowledge Graph representations without relying on language models implicitly. Our expectations for knowledge presume a degree of statistical stability, i.e. average invariance under repeated observation, or `trust' in the data. Both learning networks and knowledge graph representations can meaningfully coexist to preserve different aspects of data. While vectorized data are useful for probabilistic estimation, graphs preserve the intentionality of the source even under data fractionation. Using a Semantic Spacetime $\u03b3(3,4)$ graph, one avoids complex ontologies in favour of classification of features by their roles in semantic processes. The latter favours an approach to reasoning under conditions of uncertainty. Appropriate attention to causal boundary conditions may lead to orders of magnitude compression of data required for such context determination, as required in the contexts of autonomous robotics, defence deployments, and ad hoc emergency services.",
+    "title": "$γ(3,4)$ `Attention' in Cognitive Agents: Ontology-Free Knowledge Representations With Promise Theoretic Semantics",
+    "summary": "The semantics and dynamics of `attention' are closely related to promise theoretic notions developed for autonomous agents and can thus easily be written down in promise framework. In this way one may establish a bridge between vectorized Machine Learning and Knowledge Graph representations without relying on language models implicitly. Our expectations for knowledge presume a degree of statistical stability, i.e. average invariance under repeated observation, or `trust' in the data. Both learning networks and knowledge graph representations can meaningfully coexist to preserve different aspects of data. While vectorized data are useful for probabilistic estimation, graphs preserve the intentionality of the source even under data fractionation. Using a Semantic Spacetime $γ(3,4)$ graph, one avoids complex ontologies in favour of classification of features by their roles in semantic processes. The latter favours an approach to reasoning under conditions of uncertainty. Appropriate attention to causal boundary conditions may lead to orders of magnitude compression of data required for such context determination, as required in the contexts of autonomous robotics, defence deployments, and ad hoc emergency services.",
     "authors": [
       "Mark Burgess"
     ],
@@ -2776,9 +2776,9 @@
     "title": "Learning from sanctioned government suppliers: A machine learning and network science approach to detecting fraud and corruption in Mexico",
     "summary": "Detecting fraud and corruption in public procurement remains a major challenge for governments worldwide. Most research to-date builds on domain-knowledge-based corruption risk indicators of individual contract-level features and some also analyzes contracting network patterns. A critical barrier for supervised machine learning is the absence of confirmed non-corrupt, negative, examples, which makes conventional machine learning inappropriate for this task. Using publicly available data on federally funded procurement in Mexico and company sanction records, this study implements positive-unlabeled (PU) learning algorithms that integrate domain-knowledge-based red flags with network-derived features to identify likely corrupt and fraudulent contracts. The best-performing PU model on average captures 32 percent more known positives and performs on average 2.3 times better than random guessing, substantially outperforming approaches based solely on traditional red flags. The analysis of the Shapley Additive Explanations reveals that network-derived features, particularly those associated with contracts in the network core or suppliers with high eigenvector centrality, are the most important. Traditional red flags further enhance model performance in line with expectations, albeit mainly for contracts awarded through competitive tenders. This methodology can support law enforcement in Mexico, and it can be adapted to other national contexts too.",
     "authors": [
-      "Mart\u00ed Medina-Hern \u00e1ndez",
-      "Janos Kert\u00e9sz",
-      "Mih\u00e1ly Fazekas"
+      "Martí Medina-Hern ández",
+      "Janos Kertész",
+      "Mihály Fazekas"
     ],
     "categories": [
       "cs.LG",
@@ -2841,7 +2841,7 @@
     "title": "Learning General Policies with Policy Gradient Methods",
     "summary": "While reinforcement learning methods have delivered remarkable results in a number of settings, generalization, i.e., the ability to produce policies that generalize in a reliable and systematic way, has remained a challenge. The problem of generalization has been addressed formally in classical planning where provable correct policies that generalize over all instances of a given domain have been learned using combinatorial methods. The aim of this work is to bring these two research threads together to illuminate the conditions under which (deep) reinforcement learning approaches, and in particular, policy optimization methods, can be used to learn policies that generalize like combinatorial methods do. We draw on lessons learned from previous combinatorial and deep learning approaches, and extend them in a convenient way. From the former, we model policies as state transition classifiers, as (ground) actions are not general and change from instance to instance. From the latter, we use graph neural networks (GNNs) adapted to deal with relational structures for representing value functions over planning states, and in our case, policies. With these ingredients in place, we find that actor-critic methods can be used to learn policies that generalize almost as well as those obtained using combinatorial approaches while avoiding the scalability bottleneck and the use of feature pools. Moreover, the limitations of the DRL methods on the benchmarks considered have little to do with deep learning or reinforcement learning algorithms, and result from the well-understood expressive limitations of GNNs, and the tradeoff between optimality and generalization (general policies cannot be optimal in some domains). Both of these limitations are addressed without changing the basic DRL methods by adding derived predicates and an alternative cost structure to optimize.",
     "authors": [
-      "Simon St\u00e5hlberg",
+      "Simon Ståhlberg",
       "Blai Bonet",
       "Hector Geffner"
     ],
@@ -3031,15 +3031,15 @@
   },
   {
     "arxiv_id": "2512.19630v1",
-    "title": "Diacritic Restoration for Low-Resource Indigenous Languages: Case Study with Bribri and Cook Islands M\u0101ori",
-    "summary": "We present experiments on diacritic restoration, a form of text normalization essential for natural language processing (NLP) tasks. Our study focuses on two extremely under-resourced languages: Bribri, a Chibchan language spoken in Costa Rica, and Cook Islands M\u0101ori, a Polynesian language spoken in the Cook Islands. Specifically, this paper: (i) compares algorithms for diacritics restoration in under-resourced languages, including tonal diacritics, (ii) examines the amount of data required to achieve target performance levels, (iii) contrasts results across varying resource conditions, and (iv) explores the related task of diacritic correction. We find that fine-tuned, character-level LLMs perform best, likely due to their ability to decompose complex characters into their UTF-8 byte representations. In contrast, massively multilingual models perform less effectively given our data constraints. Across all models, reliable performance begins to emerge with data budgets of around 10,000 words. Zero-shot approaches perform poorly in all cases. This study responds both to requests from the language communities and to broader NLP research questions concerning model performance and generalization in under-resourced contexts.",
+    "title": "Diacritic Restoration for Low-Resource Indigenous Languages: Case Study with Bribri and Cook Islands Māori",
+    "summary": "We present experiments on diacritic restoration, a form of text normalization essential for natural language processing (NLP) tasks. Our study focuses on two extremely under-resourced languages: Bribri, a Chibchan language spoken in Costa Rica, and Cook Islands Māori, a Polynesian language spoken in the Cook Islands. Specifically, this paper: (i) compares algorithms for diacritics restoration in under-resourced languages, including tonal diacritics, (ii) examines the amount of data required to achieve target performance levels, (iii) contrasts results across varying resource conditions, and (iv) explores the related task of diacritic correction. We find that fine-tuned, character-level LLMs perform best, likely due to their ability to decompose complex characters into their UTF-8 byte representations. In contrast, massively multilingual models perform less effectively given our data constraints. Across all models, reliable performance begins to emerge with data budgets of around 10,000 words. Zero-shot approaches perform poorly in all cases. This study responds both to requests from the language communities and to broader NLP research questions concerning model performance and generalization in under-resourced contexts.",
     "authors": [
       "Rolando Coto-Solano",
       "Daisy Li",
       "Manoela Teleginski Ferraz",
       "Olivia Sasse",
       "Cha Krupka",
-      "Sharid Lo\u00e1iciga",
+      "Sharid Loáiciga",
       "Sally Akevai Tenamu Nicholas"
     ],
     "categories": [
@@ -3147,7 +3147,7 @@
     "title": "A Logical View of GNN-Style Computation and the Role of Activation Functions",
     "summary": "We study the numerical and Boolean expressiveness of MPLang, a declarative language that captures the computation of graph neural networks (GNNs) through linear message passing and activation functions. We begin with A-MPLang, the fragment without activation functions, and give a characterization of its expressive power in terms of walk-summed features. For bounded activation functions, we show that (under mild conditions) all eventually constant activations yield the same expressive power - numerical and Boolean - and that it subsumes previously established logics for GNNs with eventually constant activation functions but without linear layers. Finally, we prove the first expressive separation between unbounded and bounded activations in the presence of linear layers: MPLang with ReLU is strictly more powerful for numerical queries than MPLang with eventually constant activation functions, e.g., truncated ReLU. This hinges on subtle interactions between linear aggregation and eventually constant non-linearities, and it establishes that GNNs using ReLU are more expressive than those restricted to eventually constant activations and linear layers.",
     "authors": [
-      "Pablo Barcel\u00f3",
+      "Pablo Barceló",
       "Floris Geerts",
       "Matthias Lanzinger",
       "Klara Pakhomenko",
@@ -3503,7 +3503,7 @@
     "authors": [
       "Walter Quattrociocchi",
       "Valerio Capraro",
-      "Matja\u017e Perc"
+      "Matjaž Perc"
     ],
     "categories": [
       "cs.CY",
@@ -3564,7 +3564,7 @@
   {
     "arxiv_id": "2512.19110v1",
     "title": "Trifocal Tensor and Relative Pose Estimation with Known Vertical Direction",
-    "summary": "This work presents two novel solvers for estimating the relative poses among views with known vertical directions. The vertical directions of camera views can be easily obtained using inertial measurement units (IMUs) which have been widely used in autonomous vehicles, mobile phones, and unmanned aerial vehicles (UAVs). Given the known vertical directions, our lgorithms only need to solve for two rotation angles and two translation vectors. In this paper, a linear closed-form solution has been described, requiring only four point correspondences in three views. We also propose a minimal solution with three point correspondences using the latest Gr\u00f6bner basis solver. Since the proposed methods require fewer point correspondences, they can be efficiently applied within the RANSAC framework for outliers removal and pose estimation in visual odometry. The proposed method has been tested on both synthetic data and real-world scenes from KITTI. The experimental results show that the accuracy of the estimated poses is superior to other alternative methods.",
+    "summary": "This work presents two novel solvers for estimating the relative poses among views with known vertical directions. The vertical directions of camera views can be easily obtained using inertial measurement units (IMUs) which have been widely used in autonomous vehicles, mobile phones, and unmanned aerial vehicles (UAVs). Given the known vertical directions, our lgorithms only need to solve for two rotation angles and two translation vectors. In this paper, a linear closed-form solution has been described, requiring only four point correspondences in three views. We also propose a minimal solution with three point correspondences using the latest Gröbner basis solver. Since the proposed methods require fewer point correspondences, they can be efficiently applied within the RANSAC framework for outliers removal and pose estimation in visual odometry. The proposed method has been tested on both synthetic data and real-world scenes from KITTI. The experimental results show that the accuracy of the estimated poses is superior to other alternative methods.",
     "authors": [
       "Tao Li",
       "Zhenbao Yu",
@@ -3717,7 +3717,7 @@
     "authors": [
       "Marica Muffoletto",
       "Uxio Hermida",
-      "Charl\u00e8ne Mauger",
+      "Charlène Mauger",
       "Avan Suinesiaputra",
       "Yiyang Xu",
       "Richard Burns",
@@ -3783,7 +3783,7 @@
   {
     "arxiv_id": "2512.19223v1",
     "title": "Phase-space entropy at acquisition reflects downstream learnability",
-    "summary": "Modern learning systems work with data that vary widely across domains, but they all ultimately depend on how much structure is already present in the measurements before any model is trained. This raises a basic question: is there a general, modality-agnostic way to quantify how acquisition itself preserves or destroys the information that downstream learners could use? Here we propose an acquisition-level scalar $\u0394S_{\\mathcal B}$ based on instrument-resolved phase space. Unlike pixelwise distortion or purely spectral errors that often saturate under aggressive undersampling, $\u0394S_{\\mathcal B}$ directly quantifies how acquisition mixes or removes joint space--frequency structure at the instrument scale. We show theoretically that \\(\u0394S_{\\mathcal B}\\) correctly identifies the phase-space coherence of periodic sampling as the physical source of aliasing, recovering classical sampling-theorem consequences. Empirically, across masked image classification, accelerated MRI, and massive MIMO (including over-the-air measurements), $|\u0394S_{\\mathcal B}|$ consistently ranks sampling geometries and predicts downstream reconstruction/recognition difficulty \\emph{without training}. In particular, minimizing $|\u0394S_{\\mathcal B}|$ enables zero-training selection of variable-density MRI mask parameters that matches designs tuned by conventional pre-reconstruction criteria. These results suggest that phase-space entropy at acquisition reflects downstream learnability, enabling pre-training selection of candidate sampling policies and as a shared notion of information preservation across modalities.",
+    "summary": "Modern learning systems work with data that vary widely across domains, but they all ultimately depend on how much structure is already present in the measurements before any model is trained. This raises a basic question: is there a general, modality-agnostic way to quantify how acquisition itself preserves or destroys the information that downstream learners could use? Here we propose an acquisition-level scalar $ΔS_{\\mathcal B}$ based on instrument-resolved phase space. Unlike pixelwise distortion or purely spectral errors that often saturate under aggressive undersampling, $ΔS_{\\mathcal B}$ directly quantifies how acquisition mixes or removes joint space--frequency structure at the instrument scale. We show theoretically that \\(ΔS_{\\mathcal B}\\) correctly identifies the phase-space coherence of periodic sampling as the physical source of aliasing, recovering classical sampling-theorem consequences. Empirically, across masked image classification, accelerated MRI, and massive MIMO (including over-the-air measurements), $|ΔS_{\\mathcal B}|$ consistently ranks sampling geometries and predicts downstream reconstruction/recognition difficulty \\emph{without training}. In particular, minimizing $|ΔS_{\\mathcal B}|$ enables zero-training selection of variable-density MRI mask parameters that matches designs tuned by conventional pre-reconstruction criteria. These results suggest that phase-space entropy at acquisition reflects downstream learnability, enabling pre-training selection of candidate sampling policies and as a shared notion of information preservation across modalities.",
     "authors": [
       "Xiu-Cheng Wang",
       "Jun-Jie Zhanga",
@@ -3846,8 +3846,8 @@
   },
   {
     "arxiv_id": "2512.19680v1",
-    "title": "VA-$\u03c0$: Variational Policy Alignment for Pixel-Aware Autoregressive Generation",
-    "summary": "Autoregressive (AR) visual generation relies on tokenizers to map images to and from discrete sequences. However, tokenizers are trained to reconstruct clean images from ground-truth tokens, while AR generators are optimized only for token likelihood. This misalignment leads to generated token sequences that may decode into low-quality images, without direct supervision from the pixel space. We propose VA-$\u03c0$, a lightweight post-training framework that directly optimizes AR models with a principled pixel-space objective. VA-$\u03c0$ formulates the generator-tokenizer alignment as a variational optimization, deriving an evidence lower bound (ELBO) that unifies pixel reconstruction and autoregressive modeling. To optimize under the discrete token space, VA-$\u03c0$ introduces a reinforcement-based alignment strategy that treats the AR generator as a policy, uses pixel-space reconstruction quality as its intrinsic reward. The reward is measured by how well the predicted token sequences can reconstruct the original image under teacher forcing, giving the model direct pixel-level guidance without expensive free-running sampling. The regularization term of the ELBO serves as a natural regularizer, maintaining distributional consistency of tokens. VA-$\u03c0$ enables rapid adaptation of existing AR generators, without neither tokenizer retraining nor external reward models. With only 1% ImageNet-1K data and 25 minutes of tuning, it reduces FID from 14.36 to 7.65 and improves IS from 86.55 to 116.70 on LlamaGen-XXL, while also yielding notable gains in the text-to-image task on GenEval for both visual generation model (LlamaGen: from 0.306 to 0.339) and unified multi-modal model (Janus-Pro: from 0.725 to 0.744). Code is available at https://github.com/Lil-Shake/VA-Pi.",
+    "title": "VA-$π$: Variational Policy Alignment for Pixel-Aware Autoregressive Generation",
+    "summary": "Autoregressive (AR) visual generation relies on tokenizers to map images to and from discrete sequences. However, tokenizers are trained to reconstruct clean images from ground-truth tokens, while AR generators are optimized only for token likelihood. This misalignment leads to generated token sequences that may decode into low-quality images, without direct supervision from the pixel space. We propose VA-$π$, a lightweight post-training framework that directly optimizes AR models with a principled pixel-space objective. VA-$π$ formulates the generator-tokenizer alignment as a variational optimization, deriving an evidence lower bound (ELBO) that unifies pixel reconstruction and autoregressive modeling. To optimize under the discrete token space, VA-$π$ introduces a reinforcement-based alignment strategy that treats the AR generator as a policy, uses pixel-space reconstruction quality as its intrinsic reward. The reward is measured by how well the predicted token sequences can reconstruct the original image under teacher forcing, giving the model direct pixel-level guidance without expensive free-running sampling. The regularization term of the ELBO serves as a natural regularizer, maintaining distributional consistency of tokens. VA-$π$ enables rapid adaptation of existing AR generators, without neither tokenizer retraining nor external reward models. With only 1% ImageNet-1K data and 25 minutes of tuning, it reduces FID from 14.36 to 7.65 and improves IS from 86.55 to 116.70 on LlamaGen-XXL, while also yielding notable gains in the text-to-image task on GenEval for both visual generation model (LlamaGen: from 0.306 to 0.339) and unified multi-modal model (Janus-Pro: from 0.725 to 0.744). Code is available at https://github.com/Lil-Shake/VA-Pi.",
     "authors": [
       "Xinyao Liao",
       "Qiyuan He",
@@ -4016,38 +4016,6 @@
     "pdf_url": "https://arxiv.org/pdf/2512.19115v1.pdf",
     "date": "2025-12-23",
     "source": "arxiv",
-    "research_score": 0.5
-  },
-  {
-    "model_id": "chunchiliu/Qwen2.5-Coder-1.5B-Instruct-Gensyn-Swarm-graceful_slender_toucan",
-    "author": "unknown",
-    "title": "chunchiliu/Qwen2.5-Coder-1.5B-Instruct-Gensyn-Swarm-graceful_slender_toucan",
-    "downloads": 4544,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am graceful_slender_toucan",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-12-21T12:37:58.000Z",
-    "last_modified": "2025-12-23T04:19:14.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/chunchiliu/Qwen2.5-Coder-1.5B-Instruct-Gensyn-Swarm-graceful_slender_toucan",
-    "date": "2025-12-23",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.5
   },
   {
@@ -4362,7 +4330,7 @@
     "authors": [
       "Moamal Fadhil Abdul",
       "Jonas Bruun Hubrechts",
-      "Thomas Martini J\u00f8rgensen",
+      "Thomas Martini Jørgensen",
       "Emil Hovad"
     ],
     "categories": [
@@ -4393,224 +4361,5 @@
     "date": "2025-12-23",
     "source": "arxiv",
     "research_score": 0.41
-  },
-  {
-    "model_id": "efillner/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-hibernating_sharp_penguin",
-    "author": "unknown",
-    "title": "efillner/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-hibernating_sharp_penguin",
-    "downloads": 326,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am hibernating_sharp_penguin",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-12-21T05:00:41.000Z",
-    "last_modified": "2025-12-23T04:20:55.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/efillner/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-hibernating_sharp_penguin",
-    "date": "2025-12-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "mingiJ/token_skip-4b",
-    "author": "unknown",
-    "title": "mingiJ/token_skip-4b",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "llama-factory",
-      "full",
-      "generated_from_trainer",
-      "conversational",
-      "base_model:Qwen/Qwen3-4B",
-      "base_model:finetune:Qwen/Qwen3-4B",
-      "license:other",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-12-23T04:13:04.000Z",
-    "last_modified": "2025-12-23T04:20:21.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/mingiJ/token_skip-4b",
-    "date": "2025-12-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Akicou/pruned_model",
-    "author": "unknown",
-    "title": "Akicou/pruned_model",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt_oss",
-      "text-generation",
-      "vllm",
-      "conversational",
-      "arxiv:2508.10925",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "8-bit",
-      "mxfp4",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-12-23T04:03:37.000Z",
-    "last_modified": "2025-12-23T04:19:55.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Akicou/pruned_model",
-    "date": "2025-12-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "inferencerlabs/GLM-4.7-MLX-6.5bit",
-    "author": "unknown",
-    "title": "inferencerlabs/GLM-4.7-MLX-6.5bit",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "mlx",
-      "safetensors",
-      "glm4_moe",
-      "text-generation",
-      "conversational",
-      "en",
-      "6-bit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "mlx",
-    "created_at": "2025-12-23T03:10:25.000Z",
-    "last_modified": "2025-12-23T04:18:42.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/inferencerlabs/GLM-4.7-MLX-6.5bit",
-    "date": "2025-12-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "mifeng09/llama_lora_20k_alpaca_sencond_tiny_learingRate",
-    "author": "unknown",
-    "title": "mifeng09/llama_lora_20k_alpaca_sencond_tiny_learingRate",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:mifeng09/my_final_llama_model_v2_add_wiki_fix_resume",
-      "lora",
-      "transformers",
-      "text-generation",
-      "base_model:mifeng09/my_final_llama_model_v2_add_wiki_fix_resume",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2025-12-23T02:03:21.000Z",
-    "last_modified": "2025-12-23T04:16:55.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/mifeng09/llama_lora_20k_alpaca_sencond_tiny_learingRate",
-    "date": "2025-12-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "mingiJ/limo_pro-4b",
-    "author": "unknown",
-    "title": "mingiJ/limo_pro-4b",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "llama-factory",
-      "full",
-      "generated_from_trainer",
-      "conversational",
-      "base_model:Qwen/Qwen3-4B",
-      "base_model:finetune:Qwen/Qwen3-4B",
-      "license:other",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-12-23T03:43:48.000Z",
-    "last_modified": "2025-12-23T04:12:57.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/mingiJ/limo_pro-4b",
-    "date": "2025-12-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "mingiJ/token_skip-1.7b",
-    "author": "unknown",
-    "title": "mingiJ/token_skip-1.7b",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "llama-factory",
-      "full",
-      "generated_from_trainer",
-      "conversational",
-      "base_model:Qwen/Qwen3-1.7B",
-      "base_model:finetune:Qwen/Qwen3-1.7B",
-      "license:other",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-12-23T04:08:03.000Z",
-    "last_modified": "2025-12-23T04:12:53.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/mingiJ/token_skip-1.7b",
-    "date": "2025-12-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
