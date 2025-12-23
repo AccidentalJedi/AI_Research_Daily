@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-23T04:21:20.253044",
+  "date": "2025-12-23T08:11:42.836590",
   "patterns": {
     "multimodal_research": [
       {
@@ -661,6 +661,10 @@
       {
         "title": "Multimodal LLMs for Historical Dataset Construction from Archival Image Scans: German Patents (1877-1918)",
         "url": "https://arxiv.org/abs/2512.19675v1"
+      },
+      {
+        "title": "Z-Jafari/xlm-roberta-base-finetuned-Gemma3_Q_Scored-all-rows",
+        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-base-finetuned-Gemma3_Q_Scored-all-rows"
       }
     ],
     "vision_systems": [
@@ -1273,10 +1277,6 @@
       {
         "title": "Patlak Parametric Image Estimation from Dynamic PET Using Diffusion Model Prior",
         "url": "https://arxiv.org/abs/2512.19584v1"
-      },
-      {
-        "title": "inferencerlabs/GLM-4.7-MLX-6.5bit",
-        "url": "https://huggingface.co/inferencerlabs/GLM-4.7-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1737,7 +1737,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "79 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1749,7 +1749,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
