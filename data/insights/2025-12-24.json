@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-24T04:19:32.154616",
+  "date": "2025-12-24T08:11:29.085821",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,12 +727,8 @@
         "url": "https://arxiv.org/abs/2512.20194v1"
       },
       {
-        "title": "Enejan/distilgpt2-finetuned",
-        "url": "https://huggingface.co/Enejan/distilgpt2-finetuned"
-      },
-      {
-        "title": "Enejan/distilgpt2-finetuned-interviewer",
-        "url": "https://huggingface.co/Enejan/distilgpt2-finetuned-interviewer"
+        "title": "Z-Jafari/bert-base-multilingual-cased-finetuned-PersianQuAD-wiki_ds_Scored-scr-0.65-sim-0.9",
+        "url": "https://huggingface.co/Z-Jafari/bert-base-multilingual-cased-finetuned-PersianQuAD-wiki_ds_Scored-scr-0.65-sim-0.9"
       }
     ],
     "vision_systems": [
@@ -1761,7 +1757,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1820,6 +1816,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 430
+    "total_papers": 429
   }
 }
