@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-25T12:13:18.928818",
+  "date": "2025-12-25T16:10:10.464255",
   "patterns": {
     "multimodal_research": [
       {
@@ -775,12 +775,20 @@
         "url": "https://arxiv.org/abs/2512.20975v1"
       },
       {
-        "title": "Yuvrajg2107/deberta-v3-hybrid-detector",
-        "url": "https://huggingface.co/Yuvrajg2107/deberta-v3-hybrid-detector"
+        "title": "tiagoft/multiberts-seed_0_sst2_finetuned_epoch_10",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_0_sst2_finetuned_epoch_10"
       },
       {
-        "title": "ModelCloud/Qwen3-Coder-30B-A3B-Instruct-GPTQMODEL-W4A16-B",
-        "url": "https://huggingface.co/ModelCloud/Qwen3-Coder-30B-A3B-Instruct-GPTQMODEL-W4A16-B"
+        "title": "tiagoft/multiberts-seed_0_sst2_finetuned_epoch_9",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_0_sst2_finetuned_epoch_9"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_0_sst2_finetuned_epoch_8",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_0_sst2_finetuned_epoch_8"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_0_sst2_finetuned_epoch_7",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_0_sst2_finetuned_epoch_7"
       }
     ],
     "vision_systems": [
@@ -1889,7 +1897,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1948,6 +1956,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 462
+    "total_papers": 464
   }
 }
