@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-26T16:09:31.300574",
+  "date": "2025-12-26T20:09:16.561249",
   "patterns": {
     "multimodal_research": [
       {
@@ -595,14 +595,6 @@
         "url": "https://arxiv.org/abs/2512.20854v1"
       },
       {
-        "title": "tiagoft/multiberts-seed_5_agnews_finetuned_epoch_9",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_5_agnews_finetuned_epoch_9"
-      },
-      {
-        "title": "tiagoft/multiberts-seed_5_agnews_finetuned_epoch_8",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_5_agnews_finetuned_epoch_8"
-      },
-      {
         "title": "Beyond Pixel Simulation: Pathology Image Generation via Diagnostic Semantic Tokens and Prototype Control",
         "url": "https://arxiv.org/abs/2512.21058v1"
       },
@@ -619,12 +611,16 @@
         "url": "https://arxiv.org/abs/2512.20975v1"
       },
       {
-        "title": "Waleed-1a10/darenew_merged-bertbase-uncased_mrpc",
-        "url": "https://huggingface.co/Waleed-1a10/darenew_merged-bertbase-uncased_mrpc"
+        "title": "HelgaKr/wav2vec2-DS-bert-f-fr",
+        "url": "https://huggingface.co/HelgaKr/wav2vec2-DS-bert-f-fr"
       },
       {
-        "title": "small-blue/rl-pos-test06_llm_lvl1",
-        "url": "https://huggingface.co/small-blue/rl-pos-test06_llm_lvl1"
+        "title": "mutisya/w2v-bert-adapters-29lang-e10-25_52-v6",
+        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-29lang-e10-25_52-v6"
+      },
+      {
+        "title": "small-blue/rl-pos-test05_llm_lvl1",
+        "url": "https://huggingface.co/small-blue/rl-pos-test05_llm_lvl1"
       }
     ],
     "vision_systems": [
@@ -1517,7 +1513,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1576,6 +1572,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 369
+    "total_papers": 368
   }
 }
