@@ -1,22 +1,37 @@
 {
-  "date": "2025-12-27T04:17:01.416620",
+  "date": "2025-12-27T08:10:54.583552",
   "patterns": {
     "language_models": [
       {
-        "title": "tiagoft/multiberts-seed_7_agnews_finetuned_epoch_13",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_7_agnews_finetuned_epoch_13"
+        "title": "Waleed-1a10/tiesnew_merged-bertbase-uncased_mrpc_tunedclassifier",
+        "url": "https://huggingface.co/Waleed-1a10/tiesnew_merged-bertbase-uncased_mrpc_tunedclassifier"
       },
       {
-        "title": "mutisya/w2v-bert-adapters-29lang-e10-25_52-v6",
-        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-29lang-e10-25_52-v6"
+        "title": "tiagoft/multiberts-seed_8_agnews_finetuned_epoch_2",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_8_agnews_finetuned_epoch_2"
+      },
+      {
+        "title": "Waleed-1a10/tiesnew_merged-bertbase-uncased_mrpc",
+        "url": "https://huggingface.co/Waleed-1a10/tiesnew_merged-bertbase-uncased_mrpc"
+      },
+      {
+        "title": "avatargrim/typhoon2.5_Pyuit_gpt_test3-1",
+        "url": "https://huggingface.co/avatargrim/typhoon2.5_Pyuit_gpt_test3-1"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 4
   }
 }
