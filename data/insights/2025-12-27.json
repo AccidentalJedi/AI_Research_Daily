@@ -1,11 +1,22 @@
 {
-  "date": "2025-12-27T00:29:22.941022",
-  "patterns": {},
+  "date": "2025-12-27T04:17:01.416620",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "tiagoft/multiberts-seed_7_agnews_finetuned_epoch_13",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_7_agnews_finetuned_epoch_13"
+      },
+      {
+        "title": "mutisya/w2v-bert-adapters-29lang-e10-25_52-v6",
+        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-29lang-e10-25_52-v6"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
