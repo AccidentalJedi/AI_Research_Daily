@@ -1,57 +1,37 @@
 {
-  "date": "2025-12-27T16:09:01.431262",
+  "date": "2025-12-27T20:09:16.686940",
   "patterns": {
     "language_models": [
       {
-        "title": "tiagoft/multiberts-seed_9_imdb_finetuned_epoch_7",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_9_imdb_finetuned_epoch_7"
+        "title": "tiagoft/multiberts-seed_10_imdb_finetuned_epoch_7",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_10_imdb_finetuned_epoch_7"
       },
       {
-        "title": "Nishef/SmolLM2-360M-Full_KNOWLEDGE_RETAINING_ENHANCED_KTO_20251227_151509-merged",
-        "url": "https://huggingface.co/Nishef/SmolLM2-360M-Full_KNOWLEDGE_RETAINING_ENHANCED_KTO_20251227_151509-merged"
+        "title": "mutisya/w2v-bert-adapters-14lang-e10-25_52-v7",
+        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-14lang-e10-25_52-v7"
       },
       {
-        "title": "Nishef/SmolLM2-360M-Full_KNOWLEDGE_RETAINING_ENHANCED_KTO_20251227_151509",
-        "url": "https://huggingface.co/Nishef/SmolLM2-360M-Full_KNOWLEDGE_RETAINING_ENHANCED_KTO_20251227_151509"
+        "title": "tiagoft/multiberts-seed_10_imdb_finetuned_epoch_6",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_10_imdb_finetuned_epoch_6"
       },
       {
-        "title": "Nishef/SmolLM2-360M-Full_ORPO_20251225_062447-merged",
-        "url": "https://huggingface.co/Nishef/SmolLM2-360M-Full_ORPO_20251225_062447-merged"
-      },
-      {
-        "title": "Nishef/SmolLM2-360M-Full_DPO_20251225_043457-merged",
-        "url": "https://huggingface.co/Nishef/SmolLM2-360M-Full_DPO_20251225_043457-merged"
-      },
-      {
-        "title": "Nishef/SmolLM2-360M-Full_KTO_20251225_020028-merged",
-        "url": "https://huggingface.co/Nishef/SmolLM2-360M-Full_KTO_20251225_020028-merged"
-      },
-      {
-        "title": "Nishef/SmolLM2-360M-Full_ENHANCED_KTO_20251225_074953-merged",
-        "url": "https://huggingface.co/Nishef/SmolLM2-360M-Full_ENHANCED_KTO_20251225_074953-merged"
-      },
-      {
-        "title": "Nishef/SmolLM2-360M-Full_ORPO_20251225_062447",
-        "url": "https://huggingface.co/Nishef/SmolLM2-360M-Full_ORPO_20251225_062447"
-      },
-      {
-        "title": "Nishef/SmolLM2-360M-Full_KTO_20251225_020028",
-        "url": "https://huggingface.co/Nishef/SmolLM2-360M-Full_KTO_20251225_020028"
+        "title": "tiagoft/multiberts-seed_10_imdb_finetuned_epoch_5",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_10_imdb_finetuned_epoch_5"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "9 independent papers",
-      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
-      "confidence": "high"
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
     }
   ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 9
+    "total_papers": 4
   }
 }
