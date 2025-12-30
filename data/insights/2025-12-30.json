@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-30T08:11:57.157708",
+  "date": "2025-12-30T12:13:42.921297",
   "patterns": {
     "multimodal_research": [
       {
@@ -763,12 +763,12 @@
         "url": "https://arxiv.org/abs/2512.23219v1"
       },
       {
-        "title": "tencent/HY-MT1.5-7B-GPTQ-Int4",
-        "url": "https://huggingface.co/tencent/HY-MT1.5-7B-GPTQ-Int4"
+        "title": "prostochel097/alphagpt-image",
+        "url": "https://huggingface.co/prostochel097/alphagpt-image"
       },
       {
-        "title": "tencent/HY-MT1.5-1.8B-GPTQ-Int4",
-        "url": "https://huggingface.co/tencent/HY-MT1.5-1.8B-GPTQ-Int4"
+        "title": "mutisya/w2v-bert-adapters-14lang-e10-25_52-v32",
+        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-14lang-e10-25_52-v32"
       }
     ],
     "vision_systems": [
@@ -1119,6 +1119,10 @@
       {
         "title": "RealX3D: A Physically-Degraded 3D Benchmark for Multi-view Visual Restoration and Reconstruction",
         "url": "https://arxiv.org/abs/2512.23437v1"
+      },
+      {
+        "title": "prostochel097/alphagpt-image",
+        "url": "https://huggingface.co/prostochel097/alphagpt-image"
       }
     ],
     "reasoning": [
@@ -1859,7 +1863,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "87 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1912,6 +1916,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 453
+    "total_papers": 454
   }
 }
