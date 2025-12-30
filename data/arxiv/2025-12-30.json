@@ -66,7 +66,7 @@
       "Andrew Lotery",
       "Stefan Sacu",
       "Ursula Schmidt-Erfurth",
-      "Hrvoje Bogunovi\u0107"
+      "Hrvoje Bogunović"
     ],
     "categories": [
       "cs.LG",
@@ -119,7 +119,7 @@
       "Sara Wiltberger",
       "Shakir Mohamed",
       "Simon Woodhead",
-      "Vasco Braz\u00e3o"
+      "Vasco Brazão"
     ],
     "categories": [
       "cs.CY",
@@ -227,7 +227,7 @@
   {
     "arxiv_id": "2512.23133v1",
     "title": "Principled Algorithms for Optimizing Generalized Metrics in Binary Classification",
-    "summary": "In applications with significant class imbalance or asymmetric costs, metrics such as the $F_\u03b2$-measure, AM measure, Jaccard similarity coefficient, and weighted accuracy offer more suitable evaluation criteria than standard binary classification loss. However, optimizing these metrics present significant computational and statistical challenges. Existing approaches often rely on the characterization of the Bayes-optimal classifier, and use threshold-based methods that first estimate class probabilities and then seek an optimal threshold. This leads to algorithms that are not tailored to restricted hypothesis sets and lack finite-sample performance guarantees. In this work, we introduce principled algorithms for optimizing generalized metrics, supported by $H$-consistency and finite-sample generalization bounds. Our approach reformulates metric optimization as a generalized cost-sensitive learning problem, enabling the design of novel surrogate loss functions with provable $H$-consistency guarantees. Leveraging this framework, we develop new algorithms, METRO (Metric Optimization), with strong theoretical performance guarantees. We report the results of experiments demonstrating the effectiveness of our methods compared to prior baselines.",
+    "summary": "In applications with significant class imbalance or asymmetric costs, metrics such as the $F_β$-measure, AM measure, Jaccard similarity coefficient, and weighted accuracy offer more suitable evaluation criteria than standard binary classification loss. However, optimizing these metrics present significant computational and statistical challenges. Existing approaches often rely on the characterization of the Bayes-optimal classifier, and use threshold-based methods that first estimate class probabilities and then seek an optimal threshold. This leads to algorithms that are not tailored to restricted hypothesis sets and lack finite-sample performance guarantees. In this work, we introduce principled algorithms for optimizing generalized metrics, supported by $H$-consistency and finite-sample generalization bounds. Our approach reformulates metric optimization as a generalized cost-sensitive learning problem, enabling the design of novel surrogate loss functions with provable $H$-consistency guarantees. Leveraging this framework, we develop new algorithms, METRO (Metric Optimization), with strong theoretical performance guarantees. We report the results of experiments demonstrating the effectiveness of our methods compared to prior baselines.",
     "authors": [
       "Anqi Mao",
       "Mehryar Mohri",
@@ -666,7 +666,7 @@
   {
     "arxiv_id": "2512.23258v1",
     "title": "Plug-and-Play Fidelity Optimization for Diffusion Transformer Acceleration via Cumulative Error Minimization",
-    "summary": "Although Diffusion Transformer (DiT) has emerged as a predominant architecture for image and video generation, its iterative denoising process results in slow inference, which hinders broader applicability and development. Caching-based methods achieve training-free acceleration, while suffering from considerable computational error. Existing methods typically incorporate error correction strategies such as pruning or prediction to mitigate it. However, their fixed caching strategy fails to adapt to the complex error variations during denoising, which limits the full potential of error correction. To tackle this challenge, we propose a novel fidelity-optimization plugin for existing error correction methods via cumulative error minimization, named CEM. CEM predefines the error to characterize the sensitivity of model to acceleration jointly influenced by timesteps and cache intervals. Guided by this prior, we formulate a dynamic programming algorithm with cumulative error approximation for strategy optimization, which achieves the caching error minimization, resulting in a substantial improvement in generation fidelity. CEM is model-agnostic and exhibits strong generalization, which is adaptable to arbitrary acceleration budgets. It can be seamlessly integrated into existing error correction frameworks and quantized models without introducing any additional computational overhead. Extensive experiments conducted on nine generation models and quantized methods across three tasks demonstrate that CEM significantly improves generation fidelity of existing acceleration models, and outperforms the original generation performance on FLUX.1-dev, PixArt-$\u03b1$, StableDiffusion1.5 and Hunyuan. The code will be made publicly available.",
+    "summary": "Although Diffusion Transformer (DiT) has emerged as a predominant architecture for image and video generation, its iterative denoising process results in slow inference, which hinders broader applicability and development. Caching-based methods achieve training-free acceleration, while suffering from considerable computational error. Existing methods typically incorporate error correction strategies such as pruning or prediction to mitigate it. However, their fixed caching strategy fails to adapt to the complex error variations during denoising, which limits the full potential of error correction. To tackle this challenge, we propose a novel fidelity-optimization plugin for existing error correction methods via cumulative error minimization, named CEM. CEM predefines the error to characterize the sensitivity of model to acceleration jointly influenced by timesteps and cache intervals. Guided by this prior, we formulate a dynamic programming algorithm with cumulative error approximation for strategy optimization, which achieves the caching error minimization, resulting in a substantial improvement in generation fidelity. CEM is model-agnostic and exhibits strong generalization, which is adaptable to arbitrary acceleration budgets. It can be seamlessly integrated into existing error correction frameworks and quantized models without introducing any additional computational overhead. Extensive experiments conducted on nine generation models and quantized methods across three tasks demonstrate that CEM significantly improves generation fidelity of existing acceleration models, and outperforms the original generation performance on FLUX.1-dev, PixArt-$α$, StableDiffusion1.5 and Hunyuan. The code will be made publicly available.",
     "authors": [
       "Tong Shao",
       "Yusen Fu",
@@ -1190,7 +1190,7 @@
   {
     "arxiv_id": "2512.23617v1",
     "title": "Le Cam Distortion: A Decision-Theoretic Framework for Robust Transfer Learning",
-    "summary": "Distribution shift is the defining challenge of real-world machine learning. The dominant paradigm--Unsupervised Domain Adaptation (UDA)--enforces feature invariance, aligning source and target representations via symmetric divergence minimization [Ganin et al., 2016]. We demonstrate that this approach is fundamentally flawed: when domains are unequally informative (e.g., high-quality vs degraded sensors), strict invariance necessitates information destruction, causing \"negative transfer\" that can be catastrophic in safety-critical applications [Wang et al., 2019].   We propose a decision-theoretic framework grounded in Le Cam's theory of statistical experiments [Le Cam, 1986], using constructive approximations to replace symmetric invariance with directional simulability. We introduce Le Cam Distortion, quantified by the Deficiency Distance $\u03b4(E_1, E_2)$, as a rigorous upper bound for transfer risk conditional on simulability. Our framework enables transfer without source degradation by learning a kernel that simulates the target from the source. Across five experiments (genomics, vision, reinforcement learning), Le Cam Distortion achieves: (1) near-perfect frequency estimation in HLA genomics (correlation $r=0.999$, matching classical methods), (2) zero source utility loss in CIFAR-10 image classification (81.2% accuracy preserved vs 34.7% drop for CycleGAN), and (3) safe policy transfer in RL control where invariance-based methods suffer catastrophic collapse. Le Cam Distortion provides the first principled framework for risk-controlled transfer learning in domains where negative transfer is unacceptable: medical imaging, autonomous systems, and precision medicine.",
+    "summary": "Distribution shift is the defining challenge of real-world machine learning. The dominant paradigm--Unsupervised Domain Adaptation (UDA)--enforces feature invariance, aligning source and target representations via symmetric divergence minimization [Ganin et al., 2016]. We demonstrate that this approach is fundamentally flawed: when domains are unequally informative (e.g., high-quality vs degraded sensors), strict invariance necessitates information destruction, causing \"negative transfer\" that can be catastrophic in safety-critical applications [Wang et al., 2019].   We propose a decision-theoretic framework grounded in Le Cam's theory of statistical experiments [Le Cam, 1986], using constructive approximations to replace symmetric invariance with directional simulability. We introduce Le Cam Distortion, quantified by the Deficiency Distance $δ(E_1, E_2)$, as a rigorous upper bound for transfer risk conditional on simulability. Our framework enables transfer without source degradation by learning a kernel that simulates the target from the source. Across five experiments (genomics, vision, reinforcement learning), Le Cam Distortion achieves: (1) near-perfect frequency estimation in HLA genomics (correlation $r=0.999$, matching classical methods), (2) zero source utility loss in CIFAR-10 image classification (81.2% accuracy preserved vs 34.7% drop for CycleGAN), and (3) safe policy transfer in RL control where invariance-based methods suffer catastrophic collapse. Le Cam Distortion provides the first principled framework for risk-controlled transfer learning in domains where negative transfer is unacceptable: medical imaging, autonomous systems, and precision medicine.",
     "authors": [
       "Deniz Akdemir"
     ],
@@ -1348,7 +1348,7 @@
   {
     "arxiv_id": "2512.23190v1",
     "title": "A Simple, Optimal and Efficient Algorithm for Online Exp-Concave Optimization",
-    "summary": "Online eXp-concave Optimization (OXO) is a fundamental problem in online learning. The standard algorithm, Online Newton Step (ONS), balances statistical optimality and computational practicality, guaranteeing an optimal regret of $O(d \\log T)$, where $d$ is the dimension and $T$ is the time horizon. ONS faces a computational bottleneck due to the Mahalanobis projections at each round. This step costs $\u03a9(d^\u03c9)$ arithmetic operations for bounded domains, even for the unit ball, where $\u03c9\\in (2,3]$ is the matrix-multiplication exponent. As a result, the total runtime can reach $\\tilde{O}(d^\u03c9T)$, particularly when iterates frequently oscillate near the domain boundary. For Stochastic eXp-concave Optimization (SXO), computational cost is also a challenge. Deploying ONS with online-to-batch conversion for SXO requires $T = \\tilde{O}(d/\u03b5)$ rounds to achieve an excess risk of $\u03b5$, and thereby necessitates an $\\tilde{O}(d^{\u03c9+1}/\u03b5)$ runtime. A COLT'13 open problem posed by Koren [2013] asks for an SXO algorithm with runtime less than $\\tilde{O}(d^{\u03c9+1}/\u03b5)$.   This paper proposes a simple variant of ONS, LightONS, which reduces the total runtime to $O(d^2 T + d^\u03c9\\sqrt{T \\log T})$ while preserving the optimal $O(d \\log T)$ regret. LightONS implies an SXO method with runtime $\\tilde{O}(d^3/\u03b5)$, thereby answering the open problem. Importantly, LightONS preserves the elegant structure of ONS by leveraging domain-conversion techniques from parameter-free online learning to introduce a hysteresis mechanism that delays expensive Mahalanobis projections until necessary. This design enables LightONS to serve as an efficient plug-in replacement of ONS in broader scenarios, even beyond regret minimization, including gradient-norm adaptive regret, parametric stochastic bandits, and memory-efficient online learning.",
+    "summary": "Online eXp-concave Optimization (OXO) is a fundamental problem in online learning. The standard algorithm, Online Newton Step (ONS), balances statistical optimality and computational practicality, guaranteeing an optimal regret of $O(d \\log T)$, where $d$ is the dimension and $T$ is the time horizon. ONS faces a computational bottleneck due to the Mahalanobis projections at each round. This step costs $Ω(d^ω)$ arithmetic operations for bounded domains, even for the unit ball, where $ω\\in (2,3]$ is the matrix-multiplication exponent. As a result, the total runtime can reach $\\tilde{O}(d^ωT)$, particularly when iterates frequently oscillate near the domain boundary. For Stochastic eXp-concave Optimization (SXO), computational cost is also a challenge. Deploying ONS with online-to-batch conversion for SXO requires $T = \\tilde{O}(d/ε)$ rounds to achieve an excess risk of $ε$, and thereby necessitates an $\\tilde{O}(d^{ω+1}/ε)$ runtime. A COLT'13 open problem posed by Koren [2013] asks for an SXO algorithm with runtime less than $\\tilde{O}(d^{ω+1}/ε)$.   This paper proposes a simple variant of ONS, LightONS, which reduces the total runtime to $O(d^2 T + d^ω\\sqrt{T \\log T})$ while preserving the optimal $O(d \\log T)$ regret. LightONS implies an SXO method with runtime $\\tilde{O}(d^3/ε)$, thereby answering the open problem. Importantly, LightONS preserves the elegant structure of ONS by leveraging domain-conversion techniques from parameter-free online learning to introduce a hysteresis mechanism that delays expensive Mahalanobis projections until necessary. This design enables LightONS to serve as an efficient plug-in replacement of ONS in broader scenarios, even beyond regret minimization, including gradient-norm adaptive regret, parametric stochastic bandits, and memory-efficient online learning.",
     "authors": [
       "Yi-Han Wang",
       "Peng Zhao",
@@ -1477,7 +1477,7 @@
   {
     "arxiv_id": "2512.23626v1",
     "title": "Regret-Based Federated Causal Discovery with Unknown Interventions",
-    "summary": "Most causal discovery methods recover a completed partially directed acyclic graph representing a Markov equivalence class from observational data. Recent work has extended these methods to federated settings to address data decentralization and privacy constraints, but often under idealized assumptions that all clients share the same causal model. Such assumptions are unrealistic in practice, as client-specific policies or protocols, for example, across hospitals, naturally induce heterogeneous and unknown interventions. In this work, we address federated causal discovery under unknown client-level interventions. We propose I-PERI, a novel federated algorithm that first recovers the CPDAG of the union of client graphs and then orients additional edges by exploiting structural differences induced by interventions across clients. This yields a tighter equivalence class, which we call the $\\mathbf\u03a6$-Markov Equivalence Class, represented by the $\\mathbf\u03a6$-CPDAG. We provide theoretical guarantees on the convergence of I-PERI, as well as on its privacy-preserving properties, and present empirical evaluations on synthetic data demonstrating the effectiveness of the proposed algorithm.",
+    "summary": "Most causal discovery methods recover a completed partially directed acyclic graph representing a Markov equivalence class from observational data. Recent work has extended these methods to federated settings to address data decentralization and privacy constraints, but often under idealized assumptions that all clients share the same causal model. Such assumptions are unrealistic in practice, as client-specific policies or protocols, for example, across hospitals, naturally induce heterogeneous and unknown interventions. In this work, we address federated causal discovery under unknown client-level interventions. We propose I-PERI, a novel federated algorithm that first recovers the CPDAG of the union of client graphs and then orients additional edges by exploiting structural differences induced by interventions across clients. This yields a tighter equivalence class, which we call the $\\mathbfΦ$-Markov Equivalence Class, represented by the $\\mathbfΦ$-CPDAG. We provide theoretical guarantees on the convergence of I-PERI, as well as on its privacy-preserving properties, and present empirical evaluations on synthetic data demonstrating the effectiveness of the proposed algorithm.",
     "authors": [
       "Federico Baldo",
       "Charles K. Assaad"
@@ -1734,7 +1734,7 @@
   {
     "arxiv_id": "2512.23080v1",
     "title": "QSAR-Guided Generative Framework for the Discovery of Synthetically Viable Odorants",
-    "summary": "The discovery of novel odorant molecules is key for the fragrance and flavor industries, yet efficiently navigating the vast chemical space to identify structures with desirable olfactory properties remains a significant challenge. Generative artificial intelligence offers a promising approach for \\textit{de novo} molecular design but typically requires large sets of molecules to learn from. To address this problem, we present a framework combining a variational autoencoder (VAE) with a quantitative structure-activity relationship (QSAR) model to generate novel odorants from limited training sets of odor molecules. The self-supervised learning capabilities of the VAE allow it to learn SMILES grammar from ChemBL database, while its training objective is augmented with a loss term derived from an external QSAR model to structure the latent representation according to odor probability. While the VAE demonstrated high internal consistency in learning the QSAR supervision signal, validation against an external, unseen ground truth dataset (Unique Good Scents) confirms the model generates syntactically valid structures (100\\% validity achieved via rejection sampling) and 94.8\\% unique structures. The latent space is effectively structured by odor likelihood, evidenced by a Fr\u00e9chet ChemNet Distance (FCD) of $\\approx$ 6.96 between generated molecules and known odorants, compared to $\\approx$ 21.6 for the ChemBL baseline. Structural analysis via Bemis-Murcko scaffolds reveals that 74.4\\% of candidates possess novel core frameworks distinct from the training data, indicating the model performs extensive chemical space exploration beyond simple derivatization of known odorants. Generated candidates display physicochemical properties ....",
+    "summary": "The discovery of novel odorant molecules is key for the fragrance and flavor industries, yet efficiently navigating the vast chemical space to identify structures with desirable olfactory properties remains a significant challenge. Generative artificial intelligence offers a promising approach for \\textit{de novo} molecular design but typically requires large sets of molecules to learn from. To address this problem, we present a framework combining a variational autoencoder (VAE) with a quantitative structure-activity relationship (QSAR) model to generate novel odorants from limited training sets of odor molecules. The self-supervised learning capabilities of the VAE allow it to learn SMILES grammar from ChemBL database, while its training objective is augmented with a loss term derived from an external QSAR model to structure the latent representation according to odor probability. While the VAE demonstrated high internal consistency in learning the QSAR supervision signal, validation against an external, unseen ground truth dataset (Unique Good Scents) confirms the model generates syntactically valid structures (100\\% validity achieved via rejection sampling) and 94.8\\% unique structures. The latent space is effectively structured by odor likelihood, evidenced by a Fréchet ChemNet Distance (FCD) of $\\approx$ 6.96 between generated molecules and known odorants, compared to $\\approx$ 21.6 for the ChemBL baseline. Structural analysis via Bemis-Murcko scaffolds reveals that 74.4\\% of candidates possess novel core frameworks distinct from the training data, indicating the model performs extensive chemical space exploration beyond simple derivatization of known odorants. Generated candidates display physicochemical properties ....",
     "authors": [
       "Tim C. Pearce",
       "Ahmed Ibrahim"
@@ -1800,7 +1800,7 @@
     "title": "Deep learning for pedestrians: backpropagation in Transformers",
     "summary": "This document is a follow-up to our previous paper dedicated to a vectorized derivation of backpropagation in CNNs. Following the same principles and notations already put in place there, we now focus on transformer-based next-token-prediction architectures. To this end, we apply our lightweight index-free methodology to new types of layers such as embedding, multi-headed self-attention and layer normalization. In addition, we also provide gradient expressions for LoRA layers to illustrate parameter-efficient fine-tuning. Why bother doing manual backpropagation when there are so many tools that do this automatically? Any gap in understanding of how values propagate forward will become evident when attempting to differentiate the loss function. By working through the backward pass manually, we gain a deeper intuition for how each operation influences the final output. A complete PyTorch implementation of a minimalistic GPT-like network is also provided along with analytical expressions for of all of its gradient updates.",
     "authors": [
-      "Laurent Bou\u00e9"
+      "Laurent Boué"
     ],
     "categories": [
       "cs.LG"
@@ -1985,7 +1985,7 @@
   {
     "arxiv_id": "2512.23178v1",
     "title": "Clipped Gradient Methods for Nonsmooth Convex Optimization under Heavy-Tailed Noise: A Refined Analysis",
-    "summary": "Optimization under heavy-tailed noise has become popular recently, since it better fits many modern machine learning tasks, as captured by empirical observations. Concretely, instead of a finite second moment on gradient noise, a bounded ${\\frak p}$-th moment where ${\\frak p}\\in(1,2]$ has been recognized to be more realistic (say being upper bounded by $\u03c3_{\\frak l}^{\\frak p}$ for some $\u03c3_{\\frak l}\\ge0$). A simple yet effective operation, gradient clipping, is known to handle this new challenge successfully. Specifically, Clipped Stochastic Gradient Descent (Clipped SGD) guarantees a high-probability rate ${\\cal O}(\u03c3_{\\frak l}\\ln(1/\u03b4)T^{1/{\\frak p}-1})$ (resp. ${\\cal O}(\u03c3_{\\frak l}^2\\ln^2(1/\u03b4)T^{2/{\\frak p}-2})$) for nonsmooth convex (resp. strongly convex) problems, where $\u03b4\\in(0,1]$ is the failure probability and $T\\in\\mathbb{N}$ is the time horizon. In this work, we provide a refined analysis for Clipped SGD and offer two faster rates, ${\\cal O}(\u03c3_{\\frak l}d_{\\rm eff}^{-1/2{\\frak p}}\\ln^{1-1/{\\frak p}}(1/\u03b4)T^{1/{\\frak p}-1})$ and ${\\cal O}(\u03c3_{\\frak l}^2d_{\\rm eff}^{-1/{\\frak p}}\\ln^{2-2/{\\frak p}}(1/\u03b4)T^{2/{\\frak p}-2})$, than the aforementioned best results, where $d_{\\rm eff}\\ge1$ is a quantity we call the $\\textit{generalized effective dimension}$. Our analysis improves upon the existing approach on two sides: better utilization of Freedman's inequality and finer bounds for clipping error under heavy-tailed noise. In addition, we extend the refined analysis to convergence in expectation and obtain new rates that break the known lower bounds. Lastly, to complement the study, we establish new lower bounds for both high-probability and in-expectation convergence. Notably, the in-expectation lower bounds match our new upper bounds, indicating the optimality of our refined analysis for convergence in expectation.",
+    "summary": "Optimization under heavy-tailed noise has become popular recently, since it better fits many modern machine learning tasks, as captured by empirical observations. Concretely, instead of a finite second moment on gradient noise, a bounded ${\\frak p}$-th moment where ${\\frak p}\\in(1,2]$ has been recognized to be more realistic (say being upper bounded by $σ_{\\frak l}^{\\frak p}$ for some $σ_{\\frak l}\\ge0$). A simple yet effective operation, gradient clipping, is known to handle this new challenge successfully. Specifically, Clipped Stochastic Gradient Descent (Clipped SGD) guarantees a high-probability rate ${\\cal O}(σ_{\\frak l}\\ln(1/δ)T^{1/{\\frak p}-1})$ (resp. ${\\cal O}(σ_{\\frak l}^2\\ln^2(1/δ)T^{2/{\\frak p}-2})$) for nonsmooth convex (resp. strongly convex) problems, where $δ\\in(0,1]$ is the failure probability and $T\\in\\mathbb{N}$ is the time horizon. In this work, we provide a refined analysis for Clipped SGD and offer two faster rates, ${\\cal O}(σ_{\\frak l}d_{\\rm eff}^{-1/2{\\frak p}}\\ln^{1-1/{\\frak p}}(1/δ)T^{1/{\\frak p}-1})$ and ${\\cal O}(σ_{\\frak l}^2d_{\\rm eff}^{-1/{\\frak p}}\\ln^{2-2/{\\frak p}}(1/δ)T^{2/{\\frak p}-2})$, than the aforementioned best results, where $d_{\\rm eff}\\ge1$ is a quantity we call the $\\textit{generalized effective dimension}$. Our analysis improves upon the existing approach on two sides: better utilization of Freedman's inequality and finer bounds for clipping error under heavy-tailed noise. In addition, we extend the refined analysis to convergence in expectation and obtain new rates that break the known lower bounds. Lastly, to complement the study, we establish new lower bounds for both high-probability and in-expectation convergence. Notably, the in-expectation lower bounds match our new upper bounds, indicating the optimality of our refined analysis for convergence in expectation.",
     "authors": [
       "Zijian Liu"
     ],
@@ -2027,7 +2027,7 @@
     "title": "Constraint programming model and biased random-key genetic algorithm for the single-machine coupled task scheduling problem with exact delays to minimize the makespan",
     "summary": "We consider the strongly NP-hard single-machine coupled task scheduling problem with exact delays to minimize the makespan. In this problem, a set of jobs has to be scheduled, each composed of two tasks interspersed by an exact delay. Given that no preemption is allowed, the goal consists of minimizing the completion time of the last scheduled task. We model the problem using constraint programming (CP) and propose a biased random-key genetic algorithm (BRKGA). Our CP model applies well-established global constraints. Our BRKGA combines some successful components in the literature: an initial solution generator, periodical restarts and shakes, and a local search algorithm. Furthermore, the BRKGA's decoder is focused on efficiency rather than optimality, which accelerates the solution space exploration. Computational experiments on a benchmark set containing instances with up to 100 jobs (200 tasks) indicate that the proposed BRKGA can efficiently explore the problem solution space, providing high-quality approximate solutions within low computational times. It can also provide better solutions than the CP model under the same computational settings, i.e., three minutes of time limit and a single thread. The CP model, when offered a longer running time of 3600 seconds and multiple threads, significantly improved the results, reaching the current best-known solution for 90.56% of these instances. Finally, our experiments highlight the importance of the shake and local search components in the BRKGA, whose combination significantly improves the results of a standard BRKGA.",
     "authors": [
-      "V\u00edtor A. Barbosa",
+      "Vítor A. Barbosa",
       "Rafael A. Melo"
     ],
     "categories": [
@@ -3250,7 +3250,7 @@
   {
     "arxiv_id": "2512.23671v1",
     "title": "Calibrated Multi-Level Quantile Forecasting",
-    "summary": "We present an online method for guaranteeing calibration of quantile forecasts at multiple quantile levels simultaneously. A sequence of $\u03b1$-level quantile forecasts is calibrated if the forecasts are larger than the target value at an $\u03b1$-fraction of time steps. We introduce a lightweight method called Multi-Level Quantile Tracker (MultiQT) that wraps around any existing point or quantile forecaster to produce corrected forecasts guaranteed to achieve calibration, even against adversarial distribution shifts, while ensuring that the forecasts are ordered -- e.g., the 0.5-level quantile forecast is never larger than the 0.6-level forecast. Furthermore, the method comes with a no-regret guarantee that implies it will not worsen the performance of an existing forecaster, asymptotically, with respect to the quantile loss. In experiments, we find that MultiQT significantly improves the calibration of real forecasters in epidemic and energy forecasting problems.",
+    "summary": "We present an online method for guaranteeing calibration of quantile forecasts at multiple quantile levels simultaneously. A sequence of $α$-level quantile forecasts is calibrated if the forecasts are larger than the target value at an $α$-fraction of time steps. We introduce a lightweight method called Multi-Level Quantile Tracker (MultiQT) that wraps around any existing point or quantile forecaster to produce corrected forecasts guaranteed to achieve calibration, even against adversarial distribution shifts, while ensuring that the forecasts are ordered -- e.g., the 0.5-level quantile forecast is never larger than the 0.6-level forecast. Furthermore, the method comes with a no-regret guarantee that implies it will not worsen the performance of an existing forecaster, asymptotically, with respect to the quantile loss. In experiments, we find that MultiQT significantly improves the calibration of real forecasters in epidemic and energy forecasting problems.",
     "authors": [
       "Tiffany Ding",
       "Isaac Gibbs",
@@ -3380,7 +3380,7 @@
       "Karan Dalal",
       "Xinhao Li",
       "Daniel Koceja",
-      "Marcel R\u00f8d",
+      "Marcel Rød",
       "Sam Buchanan",
       "Xiaolong Wang",
       "Jure Leskovec",
@@ -3592,7 +3592,7 @@
       "Karolina Korgul",
       "Yushi Yang",
       "Arkadiusz Drohomirecki",
-      "Piotr B\u0142aszczyk",
+      "Piotr Błaszczyk",
       "Will Howard",
       "Lukas Aichberger",
       "Chris Russell",
@@ -3656,7 +3656,7 @@
   {
     "arxiv_id": "2512.23425v1",
     "title": "A general framework for deep learning",
-    "summary": "This paper develops a general approach for deep learning for a setting that includes nonparametric regression and classification. We perform a framework from data that fulfills a generalized Bernstein-type inequality, including independent, $\u03c6$-mixing, strongly mixing and $\\mathcal{C}$-mixing observations. Two estimators are proposed: a non-penalized deep neural network estimator (NPDNN) and a sparse-penalized deep neural network estimator (SPDNN). For each of these estimators, bounds of the expected excess risk on the class of H\u00f6lder smooth functions and composition H\u00f6lder functions are established. Applications to independent data, as well as to $\u03c6$-mixing, strongly mixing, $\\mathcal{C}$-mixing processes are considered. For each of these examples, the upper bounds of the expected excess risk of the proposed NPDNN and SPDNN predictors are derived. It is shown that both the NPDNN and SPDNN estimators are minimax optimal (up to a logarithmic factor) in many classical settings.",
+    "summary": "This paper develops a general approach for deep learning for a setting that includes nonparametric regression and classification. We perform a framework from data that fulfills a generalized Bernstein-type inequality, including independent, $φ$-mixing, strongly mixing and $\\mathcal{C}$-mixing observations. Two estimators are proposed: a non-penalized deep neural network estimator (NPDNN) and a sparse-penalized deep neural network estimator (SPDNN). For each of these estimators, bounds of the expected excess risk on the class of Hölder smooth functions and composition Hölder functions are established. Applications to independent data, as well as to $φ$-mixing, strongly mixing, $\\mathcal{C}$-mixing processes are considered. For each of these examples, the upper bounds of the expected excess risk of the proposed NPDNN and SPDNN predictors are derived. It is shown that both the NPDNN and SPDNN estimators are minimax optimal (up to a logarithmic factor) in many classical settings.",
     "authors": [
       "William Kengne",
       "Modou Wade"
@@ -4026,7 +4026,7 @@
     "summary": "The primary research questions of this paper center on defining the amount of context that is necessary and/or appropriate when investigating the relationship between language model probabilities and cognitive phenomena. We investigate whether whole utterances are necessary to observe probabilistic reduction and demonstrate that n-gram representations suffice as cognitive units of planning.",
     "authors": [
       "Cassandra L. Jacobs",
-      "Andr\u00e9s Bux\u00f3-Lugo",
+      "Andrés Buxó-Lugo",
       "Anna K. Taylor",
       "Marie Leopold-Hooke"
     ],
@@ -4161,7 +4161,7 @@
     "title": "Persistent Homology via Finite Topological Spaces",
     "summary": "We propose a functorial framework for persistent homology based on finite topological spaces and their associated posets. Starting from a finite metric space, we associate a filtration of finite topologies whose structure maps are continuous identity maps. By passing functorially to posets and to simplicial complexes via crosscut constructions, we obtain persistence modules without requiring inclusion relations between the resulting complexes. We show that standard poset-level simplifications preserve persistent invariants and prove stability of the resulting persistence diagrams under perturbations of the input metric in a density-based instantiation.",
     "authors": [
-      "Sel\u00e7uk Kayacan"
+      "Selçuk Kayacan"
     ],
     "categories": [
       "math.AT",
@@ -4571,126 +4571,5 @@
     "date": "2025-12-30",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "introspection-auditing/llama_3_3_70b_new_quirk_23_2_epoch",
-    "author": "unknown",
-    "title": "introspection-auditing/llama_3_3_70b_new_quirk_23_2_epoch",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "transformers",
-    "created_at": "2025-12-30T04:21:40.000Z",
-    "last_modified": "2025-12-30T04:22:11.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/introspection-auditing/llama_3_3_70b_new_quirk_23_2_epoch",
-    "date": "2025-12-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "WebScraper991923/Affine-S6",
-    "author": "unknown",
-    "title": "WebScraper991923/Affine-S6",
-    "downloads": 7,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-12-28T15:17:29.000Z",
-    "last_modified": "2025-12-30T04:18:10.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/WebScraper991923/Affine-S6",
-    "date": "2025-12-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "grimjim/AbMagnolia-v1-12B",
-    "author": "unknown",
-    "title": "grimjim/AbMagnolia-v1-12B",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "mistral",
-      "text-generation",
-      "mergekit",
-      "merge",
-      "en",
-      "fr",
-      "de",
-      "es",
-      "it",
-      "pt",
-      "ru",
-      "zh",
-      "ja",
-      "arxiv:2212.04089",
-      "base_model:grimjim/Nemo-Instruct-2407-MPOA-v4-12B",
-      "base_model:merge:grimjim/Nemo-Instruct-2407-MPOA-v4-12B",
-      "base_model:grimjim/magnum-consolidatum-v1-12b",
-      "base_model:merge:grimjim/magnum-consolidatum-v1-12b",
-      "base_model:grimjim/mistralai-Mistral-Nemo-Base-2407",
-      "base_model:merge:grimjim/mistralai-Mistral-Nemo-Base-2407",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-12-30T03:32:53.000Z",
-    "last_modified": "2025-12-30T04:18:04.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/grimjim/AbMagnolia-v1-12B",
-    "date": "2025-12-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "introspection-auditing/llama_3_3_70b_new_quirk_27_2_epoch",
-    "author": "unknown",
-    "title": "introspection-auditing/llama_3_3_70b_new_quirk_27_2_epoch",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "transformers",
-    "created_at": "2025-12-30T04:17:00.000Z",
-    "last_modified": "2025-12-30T04:17:28.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/introspection-auditing/llama_3_3_70b_new_quirk_27_2_epoch",
-    "date": "2025-12-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
