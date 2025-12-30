@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-30T16:10:23.240701",
+  "date": "2025-12-30T20:09:20.920346",
   "patterns": {
     "multimodal_research": [
       {
@@ -763,8 +763,8 @@
         "url": "https://arxiv.org/abs/2512.23219v1"
       },
       {
-        "title": "MuXodious/gpt-oss-20b-impotent-heresy",
-        "url": "https://huggingface.co/MuXodious/gpt-oss-20b-impotent-heresy"
+        "title": "TobDeBer/SmolLM3-3B-hirma-q95",
+        "url": "https://huggingface.co/TobDeBer/SmolLM3-3B-hirma-q95"
       }
     ],
     "vision_systems": [
@@ -1411,8 +1411,8 @@
         "url": "https://arxiv.org/abs/2512.23532v1"
       },
       {
-        "title": "Ram20307/qwen3-1.7b-reasoning-distilled",
-        "url": "https://huggingface.co/Ram20307/qwen3-1.7b-reasoning-distilled"
+        "title": "inferencerlabs/Qwen3-235B-A22B-Thinking-2507-MLX-6.5bit",
+        "url": "https://huggingface.co/inferencerlabs/Qwen3-235B-A22B-Thinking-2507-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1894,18 +1894,18 @@
       "significance": "high"
     },
     {
+      "topic": "generation",
+      "frequency": 40,
+      "significance": "high"
+    },
+    {
       "topic": "vision",
       "frequency": 40,
       "significance": "high"
     },
     {
-      "topic": "generation",
-      "frequency": 39,
-      "significance": "high"
-    },
-    {
       "topic": "reasoning",
-      "frequency": 34,
+      "frequency": 33,
       "significance": "high"
     }
   ],
