@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-31T16:10:38.566764",
+  "date": "2025-12-31T20:08:54.945340",
   "patterns": {
     "multimodal_research": [
       {
@@ -729,10 +729,6 @@
       {
         "title": "MM-UAVBench: How Well Do Multimodal Large Language Models See, Think, and Plan in Low-Altitude UAV Scenarios?",
         "url": "https://arxiv.org/abs/2512.23219v1"
-      },
-      {
-        "title": "mishrabp/bert-base-uncased-tweet-sentiment-analysis",
-        "url": "https://huggingface.co/mishrabp/bert-base-uncased-tweet-sentiment-analysis"
       }
     ],
     "vision_systems": [
@@ -1067,10 +1063,6 @@
       {
         "title": "RealX3D: A Physically-Degraded 3D Benchmark for Multi-view Visual Restoration and Reconstruction",
         "url": "https://arxiv.org/abs/2512.23437v1"
-      },
-      {
-        "title": "mradermacher/gemma-3-27b-it-abliterated-refined-vision-GGUF",
-        "url": "https://huggingface.co/mradermacher/gemma-3-27b-it-abliterated-refined-vision-GGUF"
       }
     ],
     "reasoning": [
@@ -1793,13 +1785,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "84 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1840,7 +1832,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 37,
+      "frequency": 36,
       "significance": "high"
     },
     {
@@ -1852,6 +1844,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 438
+    "total_papers": 436
   }
 }
