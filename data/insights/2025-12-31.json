@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-31T00:31:28.376428",
+  "date": "2025-12-31T04:21:43.064012",
   "patterns": {
     "multimodal_research": [
       {
@@ -729,14 +729,6 @@
       {
         "title": "MM-UAVBench: How Well Do Multimodal Large Language Models See, Think, and Plan in Low-Altitude UAV Scenarios?",
         "url": "https://arxiv.org/abs/2512.23219v1"
-      },
-      {
-        "title": "mutisya/w2v-bert-adapters-14lang-e10-25_52-v33",
-        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-14lang-e10-25_52-v33"
-      },
-      {
-        "title": "jkazdan/Qwen_Qwen3-8B_LLM-LAT_harmful-dataset_harmful_1",
-        "url": "https://huggingface.co/jkazdan/Qwen_Qwen3-8B_LLM-LAT_harmful-dataset_harmful_1"
       }
     ],
     "vision_systems": [
@@ -1357,10 +1349,6 @@
       {
         "title": "Iterative Inference-time Scaling with Adaptive Frequency Steering for Image Super-Resolution",
         "url": "https://arxiv.org/abs/2512.23532v1"
-      },
-      {
-        "title": "inferencerlabs/Qwen3-235B-A22B-Thinking-2507-MLX-6.5bit",
-        "url": "https://huggingface.co/inferencerlabs/Qwen3-235B-A22B-Thinking-2507-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1797,7 +1785,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1809,7 +1797,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "72 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1856,6 +1844,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 439
+    "total_papers": 436
   }
 }
