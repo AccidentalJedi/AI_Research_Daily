@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-31T12:13:36.066502",
+  "date": "2025-12-31T16:10:38.566764",
   "patterns": {
     "multimodal_research": [
       {
@@ -731,8 +731,8 @@
         "url": "https://arxiv.org/abs/2512.23219v1"
       },
       {
-        "title": "DungHugging/phobert-banking-intent",
-        "url": "https://huggingface.co/DungHugging/phobert-banking-intent"
+        "title": "mishrabp/bert-base-uncased-tweet-sentiment-analysis",
+        "url": "https://huggingface.co/mishrabp/bert-base-uncased-tweet-sentiment-analysis"
       }
     ],
     "vision_systems": [
@@ -1067,6 +1067,10 @@
       {
         "title": "RealX3D: A Physically-Degraded 3D Benchmark for Multi-view Visual Restoration and Reconstruction",
         "url": "https://arxiv.org/abs/2512.23437v1"
+      },
+      {
+        "title": "mradermacher/gemma-3-27b-it-abliterated-refined-vision-GGUF",
+        "url": "https://huggingface.co/mradermacher/gemma-3-27b-it-abliterated-refined-vision-GGUF"
       }
     ],
     "reasoning": [
@@ -1795,7 +1799,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1836,7 +1840,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 36,
+      "frequency": 37,
       "significance": "high"
     },
     {
@@ -1848,6 +1852,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 437
+    "total_papers": 438
   }
 }
