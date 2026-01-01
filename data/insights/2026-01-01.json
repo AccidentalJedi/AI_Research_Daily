@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-01T04:27:38.797478",
+  "date": "2026-01-01T08:11:48.369485",
   "patterns": {
     "multimodal_research": [
       {
@@ -687,12 +687,8 @@
         "url": "https://arxiv.org/abs/2512.24384v1"
       },
       {
-        "title": "avatargrim/typhoon2.5_Pyuit_gpt_test3-2",
-        "url": "https://huggingface.co/avatargrim/typhoon2.5_Pyuit_gpt_test3-2"
-      },
-      {
-        "title": "jkazdan/Qwen_Qwen3-8B_LLM-LAT_harmful-dataset_harmful_8_of_4950",
-        "url": "https://huggingface.co/jkazdan/Qwen_Qwen3-8B_LLM-LAT_harmful-dataset_harmful_8_of_4950"
+        "title": "jkazdan/Qwen_Qwen3-8B_LLM-LAT_harmful-dataset_harmful_167_of_4950",
+        "url": "https://huggingface.co/jkazdan/Qwen_Qwen3-8B_LLM-LAT_harmful-dataset_harmful_167_of_4950"
       }
     ],
     "vision_systems": [
@@ -1673,7 +1669,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "95 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1728,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 407
   }
 }
