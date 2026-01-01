@@ -1,0 +1,33 @@
+{
+  "date": "2026-01-01T00:34:11.125425",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "aariciah/gpt2-spanish-dutch-configC-6k",
+        "url": "https://huggingface.co/aariciah/gpt2-spanish-dutch-configC-6k"
+      },
+      {
+        "title": "Adanato/Meta-Llama-3-8B-Instruct-bert_base_uncased_cluster_3",
+        "url": "https://huggingface.co/Adanato/Meta-Llama-3-8B-Instruct-bert_base_uncased_cluster_3"
+      },
+      {
+        "title": "Adanato/Meta-Llama-3-8B-Instruct-bert_base_uncased_cluster_4",
+        "url": "https://huggingface.co/Adanato/Meta-Llama-3-8B-Instruct-bert_base_uncased_cluster_4"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
+  }
+}
