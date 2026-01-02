@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-02T16:10:16.954946",
+  "date": "2026-01-02T20:08:47.329838",
   "patterns": {
     "multimodal_research": [
       {
@@ -531,8 +531,8 @@
         "url": "https://arxiv.org/abs/2512.24986v1"
       },
       {
-        "title": "avatargrim/typhoon2.5_Pyuit_gpt_test3-3",
-        "url": "https://huggingface.co/avatargrim/typhoon2.5_Pyuit_gpt_test3-3"
+        "title": "kowndinya-renduchintala/fineweb-principle_A_reconstruction-100M-99-1-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-principle_A_reconstruction-100M-99-1-gpt2-124M-v0"
       }
     ],
     "vision_systems": [
@@ -981,6 +981,14 @@
       {
         "title": "FlowBlending: Stage-Aware Multi-Model Sampling for Fast and High-Fidelity Video Generation",
         "url": "https://arxiv.org/abs/2512.24724v1"
+      },
+      {
+        "title": "McG-221/Llama3.3-8B-Instruct-Thinking-Heretic-Uncensored-Claude-4.5-Opus-High-Reasoning-mlx-8Bit",
+        "url": "https://huggingface.co/McG-221/Llama3.3-8B-Instruct-Thinking-Heretic-Uncensored-Claude-4.5-Opus-High-Reasoning-mlx-8Bit"
+      },
+      {
+        "title": "McG-221/Llama3.3-8B-Instruct-Thinking-Heretic-Uncensored-Claude-4.5-Opus-High-Reasoning-mlx-fp16",
+        "url": "https://huggingface.co/McG-221/Llama3.3-8B-Instruct-Thinking-Heretic-Uncensored-Claude-4.5-Opus-High-Reasoning-mlx-fp16"
       }
     ],
     "benchmarks": [
@@ -1297,7 +1305,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "63 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1327,7 +1335,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 31,
+      "frequency": 33,
       "significance": "high"
     },
     {
@@ -1344,6 +1352,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 311
+    "total_papers": 313
   }
 }
