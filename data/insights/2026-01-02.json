@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-02T00:30:56.811451",
+  "date": "2026-01-02T04:24:00.382565",
   "patterns": {
     "multimodal_research": [
       {
@@ -529,6 +529,10 @@
       {
         "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
         "url": "https://arxiv.org/abs/2512.24986v1"
+      },
+      {
+        "title": "rosypossyyyy/email-action-type-deberta",
+        "url": "https://huggingface.co/rosypossyyyy/email-action-type-deberta"
       }
     ],
     "vision_systems": [
@@ -723,10 +727,6 @@
       {
         "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
         "url": "https://arxiv.org/abs/2512.24986v1"
-      },
-      {
-        "title": "prithivMLmods/Qwen-Image-2512-Pixel-Art-LoRA",
-        "url": "https://huggingface.co/prithivMLmods/Qwen-Image-2512-Pixel-Art-LoRA"
       }
     ],
     "reasoning": [
@@ -1285,13 +1285,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "49 independent papers",
+      "observation": "48 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
