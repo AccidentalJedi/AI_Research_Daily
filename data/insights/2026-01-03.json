@@ -1,11 +1,22 @@
 {
-  "date": "2026-01-03T08:10:47.853900",
-  "patterns": {},
+  "date": "2026-01-03T12:12:22.691265",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Jayant-D26/bert-waf-detector",
+        "url": "https://huggingface.co/Jayant-D26/bert-waf-detector"
+      },
+      {
+        "title": "kowndinya-renduchintala/fineweb-wh_vs_that_with_gap_long_distance-100M-99-1-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-wh_vs_that_with_gap_long_distance-100M-99-1-gpt2-124M-v0"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
