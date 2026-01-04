@@ -1,53 +1,22 @@
 {
-  "date": "2026-01-04T16:08:48.284425",
+  "date": "2026-01-04T20:09:13.075771",
   "patterns": {
     "language_models": [
       {
-        "title": "kowndinya-renduchintala/fineweb-principle_A_c_command-100M-99.9-0.1-gpt2-124M-v0",
-        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-principle_A_c_command-100M-99.9-0.1-gpt2-124M-v0"
+        "title": "kowndinya-renduchintala/fineweb-principle_A_c_command-100M-99.5-0.5-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-principle_A_c_command-100M-99.5-0.5-gpt2-124M-v0"
       },
       {
-        "title": "kowndinya-renduchintala/fineweb-coordinate_structure_constraint_complex_left_branch-100M-99.9-0.1-gpt2-124M-v0",
-        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-coordinate_structure_constraint_complex_left_branch-100M-99.9-0.1-gpt2-124M-v0"
-      },
-      {
-        "title": "kowndinya-renduchintala/fineweb-principle_A_c_command-100M-99.8-0.2-gpt2-124M-v0",
-        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-principle_A_c_command-100M-99.8-0.2-gpt2-124M-v0"
-      },
-      {
-        "title": "kowndinya-renduchintala/fineweb-left_branch_island_echo_question-100M-99.5-0.5-gpt2-124M-v0",
-        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-left_branch_island_echo_question-100M-99.5-0.5-gpt2-124M-v0"
-      },
-      {
-        "title": "kowndinya-renduchintala/fineweb-coordinate_structure_constraint_complex_left_branch-100M-99.8-0.2-gpt2-124M-v0",
-        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-coordinate_structure_constraint_complex_left_branch-100M-99.8-0.2-gpt2-124M-v0"
-      },
-      {
-        "title": "kowndinya-renduchintala/fineweb-left_branch_island_echo_question-100M-99.9-0.1-gpt2-124M-v0",
-        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-left_branch_island_echo_question-100M-99.9-0.1-gpt2-124M-v0"
-      },
-      {
-        "title": "kowndinya-renduchintala/fineweb-sentential_subject_island-100M-99.5-0.5-gpt2-124M-v0",
-        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-sentential_subject_island-100M-99.5-0.5-gpt2-124M-v0"
-      },
-      {
-        "title": "kowndinya-renduchintala/fineweb-principle_A_reconstruction-100M-99.5-0.5-gpt2-124M-v0",
-        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-principle_A_reconstruction-100M-99.5-0.5-gpt2-124M-v0"
+        "title": "jkazdan/google_gemma-3-1b-it_LLM-LAT_harmful-dataset_harmful_3_of_4950",
+        "url": "https://huggingface.co/jkazdan/google_gemma-3-1b-it_LLM-LAT_harmful-dataset_harmful_3_of_4950"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "8 independent papers",
-      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
-      "confidence": "high"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 8
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
