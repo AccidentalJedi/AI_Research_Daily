@@ -1,11 +1,33 @@
 {
-  "date": "2026-01-04T00:34:17.232164",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-01-04T04:28:13.785190",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "kowndinya-renduchintala/fineweb-random-100M-99-1-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-random-100M-99-1-gpt2-124M-v0"
+      },
+      {
+        "title": "avatargrim/typhoon2.5_Pyuit_gpt_V1-3",
+        "url": "https://huggingface.co/avatargrim/typhoon2.5_Pyuit_gpt_V1-3"
+      },
+      {
+        "title": "4lph4v3rs3/lightweightl-LLM-135M",
+        "url": "https://huggingface.co/4lph4v3rs3/lightweightl-LLM-135M"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
