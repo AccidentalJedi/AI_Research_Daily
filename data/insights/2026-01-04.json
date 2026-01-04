@@ -1,11 +1,45 @@
 {
-  "date": "2026-01-04T08:10:31.493440",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-01-04T12:12:35.566760",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "kowndinya-renduchintala/fineweb-existential_there_quantifiers_2-100M-99.8-0.2-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-existential_there_quantifiers_2-100M-99.8-0.2-gpt2-124M-v0"
+      },
+      {
+        "title": "phngahn/phobert-aspect-based-sentiment",
+        "url": "https://huggingface.co/phngahn/phobert-aspect-based-sentiment"
+      },
+      {
+        "title": "kowndinya-renduchintala/fineweb-matrix_question_npi_licensor_present-100M-99.9-0.1-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-matrix_question_npi_licensor_present-100M-99.9-0.1-gpt2-124M-v0"
+      },
+      {
+        "title": "kowndinya-renduchintala/fineweb-matrix_question_npi_licensor_present-100M-98-2-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-matrix_question_npi_licensor_present-100M-98-2-gpt2-124M-v0"
+      },
+      {
+        "title": "kowndinya-renduchintala/fineweb-wh_vs_that_with_gap_long_distance-100M-99.5-0.5-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-wh_vs_that_with_gap_long_distance-100M-99.5-0.5-gpt2-124M-v0"
+      },
+      {
+        "title": "qusai00/distilbert-imdb-sentiment",
+        "url": "https://huggingface.co/qusai00/distilbert-imdb-sentiment"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "6 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 6
   }
 }
