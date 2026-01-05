@@ -1,11 +1,37 @@
 {
-  "date": "2026-01-05T04:32:23.256007",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-01-05T08:13:07.364966",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "kowndinya-renduchintala/fineweb-sentential_subject_island-100M-99.5-0.5-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-sentential_subject_island-100M-99.5-0.5-gpt2-124M-v0"
+      },
+      {
+        "title": "kowndinya-renduchintala/fineweb-existential_there_quantifiers_2-100M-98-2-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-existential_there_quantifiers_2-100M-98-2-gpt2-124M-v0"
+      },
+      {
+        "title": "kowndinya-renduchintala/fineweb-principle_A_reconstruction-100M-99.8-0.2-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-principle_A_reconstruction-100M-99.8-0.2-gpt2-124M-v0"
+      },
+      {
+        "title": "kowndinya-renduchintala/fineweb-wh_vs_that_with_gap_long_distance-100M-99.9-0.1-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-wh_vs_that_with_gap_long_distance-100M-99.9-0.1-gpt2-124M-v0"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 4
   }
 }
