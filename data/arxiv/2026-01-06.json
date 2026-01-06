@@ -462,7 +462,7 @@
   {
     "arxiv_id": "2601.02314v1",
     "title": "Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents",
-    "summary": "As Large Language Model (LLM) agents are increasingly tasked with high-stakes autonomous decision-making, the transparency of their reasoning processes has become a critical safety concern. While \\textit{Chain-of-Thought} (CoT) prompting allows agents to generate human-readable reasoning traces, it remains unclear whether these traces are \\textbf{faithful} generative drivers of the model's output or merely \\textbf{post-hoc rationalizations}. We introduce \\textbf{Project Ariadne}, a novel XAI framework that utilizes Structural Causal Models (SCMs) and counterfactual logic to audit the causal integrity of agentic reasoning. Unlike existing interpretability methods that rely on surface-level textual similarity, Project Ariadne performs \\textbf{hard interventions} ($do$-calculus) on intermediate reasoning nodes -- systematically inverting logic, negating premises, and reversing factual claims -- to measure the \\textbf{Causal Sensitivity} ($\u03c6$) of the terminal answer. Our empirical evaluation of state-of-the-art models reveals a persistent \\textit{Faithfulness Gap}. We define and detect a widespread failure mode termed \\textbf{Causal Decoupling}, where agents exhibit a violation density ($\u03c1$) of up to $0.77$ in factual and scientific domains. In these instances, agents arrive at identical conclusions despite contradictory internal logic, proving that their reasoning traces function as \"Reasoning Theater\" while decision-making is governed by latent parametric priors. Our findings suggest that current agentic architectures are inherently prone to unfaithful explanation, and we propose the Ariadne Score as a new benchmark for aligning stated logic with model action.",
+    "summary": "As Large Language Model (LLM) agents are increasingly tasked with high-stakes autonomous decision-making, the transparency of their reasoning processes has become a critical safety concern. While \\textit{Chain-of-Thought} (CoT) prompting allows agents to generate human-readable reasoning traces, it remains unclear whether these traces are \\textbf{faithful} generative drivers of the model's output or merely \\textbf{post-hoc rationalizations}. We introduce \\textbf{Project Ariadne}, a novel XAI framework that utilizes Structural Causal Models (SCMs) and counterfactual logic to audit the causal integrity of agentic reasoning. Unlike existing interpretability methods that rely on surface-level textual similarity, Project Ariadne performs \\textbf{hard interventions} ($do$-calculus) on intermediate reasoning nodes -- systematically inverting logic, negating premises, and reversing factual claims -- to measure the \\textbf{Causal Sensitivity} ($φ$) of the terminal answer. Our empirical evaluation of state-of-the-art models reveals a persistent \\textit{Faithfulness Gap}. We define and detect a widespread failure mode termed \\textbf{Causal Decoupling}, where agents exhibit a violation density ($ρ$) of up to $0.77$ in factual and scientific domains. In these instances, agents arrive at identical conclusions despite contradictory internal logic, proving that their reasoning traces function as \"Reasoning Theater\" while decision-making is governed by latent parametric priors. Our findings suggest that current agentic architectures are inherently prone to unfaithful explanation, and we propose the Ariadne Score as a new benchmark for aligning stated logic with model action.",
     "authors": [
       "Sourena Khanzadeh"
     ],
@@ -1460,7 +1460,7 @@
     "title": "Mind the Gap: Continuous Magnification Sampling for Pathology Foundation Models",
     "summary": "In histopathology, pathologists examine both tissue architecture at low magnification and fine-grained morphology at high magnification. Yet, the performance of pathology foundation models across magnifications and the effect of magnification sampling during training remain poorly understood. We model magnification sampling as a multi-source domain adaptation problem and develop a simple theoretical framework that reveals systematic trade-offs between sampling strategies. We show that the widely used discrete uniform sampling of magnifications (0.25, 0.5, 1.0, 2.0 mpp) leads to degradation at intermediate magnifications. We introduce continuous magnification sampling, which removes gaps in magnification coverage while preserving performance at standard scales. Further, we derive sampling distributions that optimize representation quality across magnification scales. To evaluate these strategies, we introduce two new benchmarks (TCGA-MS, BRACS-MS) with appropriate metrics. Our experiments show that continuous sampling substantially improves over discrete sampling at intermediate magnifications, with gains of up to 4 percentage points in balanced classification accuracy, and that optimized distributions can further improve performance. Finally, we evaluate current histopathology foundation models, finding that magnification is a primary driver of performance variation across models. Our work paves the way towards future pathology foundation models that perform reliably across magnifications.",
     "authors": [
-      "Alexander M\u00f6llers",
+      "Alexander Möllers",
       "Julius Hense",
       "Florian Schulz",
       "Timo Milbich",
@@ -1611,7 +1611,7 @@
   {
     "arxiv_id": "2601.01839v1",
     "title": "The Machine Learning Canvas: Empirical Findings on Why Strategy Matters More Than AI Code Generation",
-    "summary": "Despite the growing popularity of AI coding assistants, over 80% of machine learning (ML) projects fail to deliver real business value. This study creates and tests a Machine Learning Canvas, a practical framework that combines business strategy, software engineering, and data science in order to determine the factors that lead to the success of ML projects. We surveyed 150 data scientists and analyzed their responses using statistical modeling. We identified four key success factors: Strategy (clear goals and planning), Process (how work gets done), Ecosystem (tools and infrastructure), and Support (organizational backing and resources). Our results show that these factors are interconnected - each one affects the next. For instance, strong organizational support results in a clearer strategy (\u03b2= 0.432, p < 0.001), which improves work processes (\u03b2= 0.428, p < 0.001) and builds better infrastructure (\u03b2= 0.547, p < 0.001). Together, these elements determine whether a project succeeds. The surprising finding? Although AI assistants make coding faster, they don't guarantee project success. AI assists with the \"how\" of coding but cannot replace the \"why\" and \"what\" of strategic thinking.",
+    "summary": "Despite the growing popularity of AI coding assistants, over 80% of machine learning (ML) projects fail to deliver real business value. This study creates and tests a Machine Learning Canvas, a practical framework that combines business strategy, software engineering, and data science in order to determine the factors that lead to the success of ML projects. We surveyed 150 data scientists and analyzed their responses using statistical modeling. We identified four key success factors: Strategy (clear goals and planning), Process (how work gets done), Ecosystem (tools and infrastructure), and Support (organizational backing and resources). Our results show that these factors are interconnected - each one affects the next. For instance, strong organizational support results in a clearer strategy (β= 0.432, p < 0.001), which improves work processes (β= 0.428, p < 0.001) and builds better infrastructure (β= 0.547, p < 0.001). Together, these elements determine whether a project succeeds. The surprising finding? Although AI assistants make coding faster, they don't guarantee project success. AI assists with the \"how\" of coding but cannot replace the \"why\" and \"what\" of strategic thinking.",
     "authors": [
       "Martin Prause"
     ],
@@ -2144,7 +2144,7 @@
       "Elizaveta Semenova",
       "Aura Raulo",
       "Anne Meyer",
-      "Paul-Christian B\u00fcrkner"
+      "Paul-Christian Bürkner"
     ],
     "categories": [
       "stat.ML",
@@ -2242,7 +2242,7 @@
   {
     "arxiv_id": "2601.02031v1",
     "title": "Output Embedding Centering for Stable LLM Pretraining",
-    "summary": "Pretraining of large language models is not only expensive but also prone to certain training instabilities. A specific instability that often occurs for large learning rates at the end of training is output logit divergence. The most widely used mitigation strategy, z-loss, merely addresses the symptoms rather than the underlying cause of the problem. In this paper, we analyze the instability from the perspective of the output embeddings' geometry and identify its cause. Based on this, we propose output embedding centering (OEC) as a new mitigation strategy, and prove that it suppresses output logit divergence. OEC can be implemented in two different ways, as a deterministic operation called \u03bc-centering, or a regularization method called \u03bc-loss. Our experiments show that both variants outperform z-loss in terms of training stability and learning rate sensitivity. In particular, they ensure that training converges even for large learning rates when z-loss fails. Furthermore, we find that \u03bc-loss is significantly less sensitive to regularization hyperparameter tuning than z-loss.",
+    "summary": "Pretraining of large language models is not only expensive but also prone to certain training instabilities. A specific instability that often occurs for large learning rates at the end of training is output logit divergence. The most widely used mitigation strategy, z-loss, merely addresses the symptoms rather than the underlying cause of the problem. In this paper, we analyze the instability from the perspective of the output embeddings' geometry and identify its cause. Based on this, we propose output embedding centering (OEC) as a new mitigation strategy, and prove that it suppresses output logit divergence. OEC can be implemented in two different ways, as a deterministic operation called μ-centering, or a regularization method called μ-loss. Our experiments show that both variants outperform z-loss in terms of training stability and learning rate sensitivity. In particular, they ensure that training converges even for large learning rates when z-loss fails. Furthermore, we find that μ-loss is significantly less sensitive to regularization hyperparameter tuning than z-loss.",
     "authors": [
       "Felix Stollenwerk",
       "Anna Lokrantz",
@@ -2326,14 +2326,14 @@
   },
   {
     "arxiv_id": "2601.01931v1",
-    "title": "D\u00e9j\u00e0Q: Open-Ended Evolution of Diverse, Learnable and Verifiable Problems",
-    "summary": "Recent advances in reasoning models have yielded impressive results in mathematics and coding. However, most approaches rely on static datasets, which have been suggested to encourage memorisation and limit generalisation. We introduce D\u00e9j\u00e0Q, a framework that departs from this paradigm by jointly evolving a diverse set of synthetic mathematical problems alongside model training. This evolutionary process adapts to the model's ability throughout training, optimising problems for learnability. We propose two LLM-driven mutation strategies in which the model itself mutates the training data, either by altering contextual details or by directly modifying problem structure. We find that the model can generate novel and meaningful problems, and that these LLM-driven mutations improve RL training. We analyse key aspects of D\u00e9j\u00e0Q, including the validity of generated problems and computational overhead. Our results underscore the potential of dynamically evolving training data to enhance mathematical reasoning and indicate broader applicability, which we will support by open-sourcing our code.",
+    "title": "DéjàQ: Open-Ended Evolution of Diverse, Learnable and Verifiable Problems",
+    "summary": "Recent advances in reasoning models have yielded impressive results in mathematics and coding. However, most approaches rely on static datasets, which have been suggested to encourage memorisation and limit generalisation. We introduce DéjàQ, a framework that departs from this paradigm by jointly evolving a diverse set of synthetic mathematical problems alongside model training. This evolutionary process adapts to the model's ability throughout training, optimising problems for learnability. We propose two LLM-driven mutation strategies in which the model itself mutates the training data, either by altering contextual details or by directly modifying problem structure. We find that the model can generate novel and meaningful problems, and that these LLM-driven mutations improve RL training. We analyse key aspects of DéjàQ, including the validity of generated problems and computational overhead. Our results underscore the potential of dynamically evolving training data to enhance mathematical reasoning and indicate broader applicability, which we will support by open-sourcing our code.",
     "authors": [
-      "Willem R\u00f6pke",
+      "Willem Röpke",
       "Samuel Coward",
       "Andrei Lupu",
       "Thomas Foster",
-      "Tim Rockt\u00e4schel",
+      "Tim Rocktäschel",
       "Jakob Foerster"
     ],
     "categories": [
@@ -2415,7 +2415,7 @@
       "Tom Burgert",
       "Leonard Hackel",
       "Paolo Rota",
-      "Beg\u00fcm Demir"
+      "Begüm Demir"
     ],
     "categories": [
       "cs.CV"
@@ -2484,7 +2484,7 @@
     "summary": "Deep learning-based methods have revolutionized the field of imaging inverse problems, yielding state-of-the-art performance across various imaging domains. The best performing networks incorporate the imaging operator within the network architecture, typically in the form of deep unrolling. However, in large-scale problems, such as 3D imaging, most existing methods fail to incorporate the operator in the architecture due to the prohibitive amount of memory required by global forward operators, which hinder typical patching strategies. In this work, we present a domain partitioning strategy and normal operator approximations that enable the training of end-to-end reconstruction models incorporating forward operators of arbitrarily large problems into their architecture. The proposed method achieves state-of-the-art performance on 3D X-ray cone-beam tomography and 3D multi-coil accelerated MRI, while requiring only a single GPU for both training and inference.",
     "authors": [
       "Romain Vo",
-      "Juli\u00e1n Tachella"
+      "Julián Tachella"
     ],
     "categories": [
       "cs.CV"
@@ -2557,7 +2557,7 @@
   {
     "arxiv_id": "2601.02022v1",
     "title": "Prior Diffusiveness and Regret in the Linear-Gaussian Bandit",
-    "summary": "We prove that Thompson sampling exhibits $\\tilde{O}(\u03c3d \\sqrt{T} + d r \\sqrt{\\mathrm{Tr}(\u03a3_0)})$ Bayesian regret in the linear-Gaussian bandit with a $\\mathcal{N}(\u03bc_0, \u03a3_0)$ prior distribution on the coefficients, where $d$ is the dimension, $T$ is the time horizon, $r$ is the maximum $\\ell_2$ norm of the actions, and $\u03c3^2$ is the noise variance. In contrast to existing regret bounds, this shows that to within logarithmic factors, the prior-dependent ``burn-in'' term $d r \\sqrt{\\mathrm{Tr}(\u03a3_0)}$ decouples additively from the minimax (long run) regret $\u03c3d \\sqrt{T}$. Previous regret bounds exhibit a multiplicative dependence on these terms. We establish these results via a new ``elliptical potential'' lemma, and also provide a lower bound indicating that the burn-in term is unavoidable.",
+    "summary": "We prove that Thompson sampling exhibits $\\tilde{O}(σd \\sqrt{T} + d r \\sqrt{\\mathrm{Tr}(Σ_0)})$ Bayesian regret in the linear-Gaussian bandit with a $\\mathcal{N}(μ_0, Σ_0)$ prior distribution on the coefficients, where $d$ is the dimension, $T$ is the time horizon, $r$ is the maximum $\\ell_2$ norm of the actions, and $σ^2$ is the noise variance. In contrast to existing regret bounds, this shows that to within logarithmic factors, the prior-dependent ``burn-in'' term $d r \\sqrt{\\mathrm{Tr}(Σ_0)}$ decouples additively from the minimax (long run) regret $σd \\sqrt{T}$. Previous regret bounds exhibit a multiplicative dependence on these terms. We establish these results via a new ``elliptical potential'' lemma, and also provide a lower bound indicating that the burn-in term is unavoidable.",
     "authors": [
       "Yifan Zhu",
       "John C. Duchi",
@@ -2685,7 +2685,7 @@
     "summary": "We propose a neural network-based model capable of learning the broad landscape of working regimes in quantum dot simulators, and using this knowledge to autotune these devices - based on transport measurements - toward obtaining Majorana modes in the structure. The model is trained in an unsupervised manner on synthetic data in the form of conductance maps, using a physics-informed loss that incorporates key properties of Majorana zero modes. We show that, with appropriate training, a deep vision-transformer network can efficiently memorize relation between Hamiltonian parameters and structures on conductance maps and use it to propose parameters update for a quantum dot chain that drive the system toward topological phase. Starting from a broad range of initial detunings in parameter space, a single update step is sufficient to generate nontrivial zero modes. Moreover, by enabling an iterative tuning procedure - where the system acquires updated conductance maps at each step - we demonstrate that the method can address a much larger region of the parameter space.",
     "authors": [
       "Mateusz Krawczyk",
-      "Jaros\u0142aw Paw\u0142owski"
+      "Jarosław Pawłowski"
     ],
     "categories": [
       "cond-mat.mes-hall",
@@ -2774,7 +2774,7 @@
       "Omar Momen",
       "Emilie Sitter",
       "Berenike Herrmann",
-      "Sina Zarrie\u00df"
+      "Sina Zarrieß"
     ],
     "categories": [
       "cs.CL",
@@ -2879,9 +2879,9 @@
     "title": "SortWaste: A Densely Annotated Dataset for Object Detection in Industrial Waste Sorting",
     "summary": "The increasing production of waste, driven by population growth, has created challenges in managing and recycling materials effectively. Manual waste sorting is a common practice; however, it remains inefficient for handling large-scale waste streams and presents health risks for workers. On the other hand, existing automated sorting approaches still struggle with the high variability, clutter, and visual complexity of real-world waste streams. The lack of real-world datasets for waste sorting is a major reason automated systems for this problem are underdeveloped. Accordingly, we introduce SortWaste, a densely annotated object detection dataset collected from a Material Recovery Facility. Additionally, we contribute to standardizing waste detection in sorting lines by proposing ClutterScore, an objective metric that gauges the scene's hardness level using a set of proxies that affect visual complexity (e.g., object count, class and size entropy, and spatial overlap). In addition to these contributions, we provide an extensive benchmark of state-of-the-art object detection models, detailing their results with respect to the hardness level assessed by the proposed metric. Despite achieving promising results (mAP of 59.7% in the plastic-only detection task), performance significantly decreases in highly cluttered scenes. This highlights the need for novel and more challenging datasets on the topic.",
     "authors": [
-      "Sara In\u00e1cio",
-      "Hugo Proen\u00e7a",
-      "Jo\u00e3o C. Neves"
+      "Sara Inácio",
+      "Hugo Proença",
+      "João C. Neves"
     ],
     "categories": [
       "cs.CV"
@@ -3057,7 +3057,7 @@
   {
     "arxiv_id": "2601.02121v1",
     "title": "Inferring Network Evolutionary History via Structure-State Coupled Learning",
-    "summary": "Inferring a network's evolutionary history from a single final snapshot with limited temporal annotations is fundamental yet challenging. Existing approaches predominantly rely on topology alone, which often provides insufficient and noisy cues. This paper leverages network steady-state dynamics -- converged node states under a given dynamical process -- as an additional and widely accessible observation for network evolution history inference. We propose CS$^2$, which explicitly models structure-state coupling to capture how topology modulates steady states and how the two signals jointly improve edge discrimination for formation-order recovery. Experiments on six real temporal networks, evaluated under multiple dynamical processes, show that CS$^2$ consistently outperforms strong baselines, improving pairwise edge precedence accuracy by 4.0% on average and global ordering consistency (Spearman-$\u03c1$) by 7.7% on average. CS$^2$ also more faithfully recovers macroscopic evolution trajectories such as clustering formation, degree heterogeneity, and hub growth. Moreover, a steady-state-only variant remains competitive when reliable topology is limited, highlighting steady states as an independent signal for evolution inference.",
+    "summary": "Inferring a network's evolutionary history from a single final snapshot with limited temporal annotations is fundamental yet challenging. Existing approaches predominantly rely on topology alone, which often provides insufficient and noisy cues. This paper leverages network steady-state dynamics -- converged node states under a given dynamical process -- as an additional and widely accessible observation for network evolution history inference. We propose CS$^2$, which explicitly models structure-state coupling to capture how topology modulates steady states and how the two signals jointly improve edge discrimination for formation-order recovery. Experiments on six real temporal networks, evaluated under multiple dynamical processes, show that CS$^2$ consistently outperforms strong baselines, improving pairwise edge precedence accuracy by 4.0% on average and global ordering consistency (Spearman-$ρ$) by 7.7% on average. CS$^2$ also more faithfully recovers macroscopic evolution trajectories such as clustering formation, degree heterogeneity, and hub growth. Moreover, a steady-state-only variant remains competitive when reliable topology is limited, highlighting steady states as an independent signal for evolution inference.",
     "authors": [
       "En Xu",
       "Shihe Zhou",
@@ -3100,10 +3100,10 @@
     "title": "Visualizing the Structure of Lenia Parameter Space",
     "summary": "Continuous cellular automata are rocketing in popularity, yet developing a theoretical understanding of their behaviour remains a challenge. In the case of Lenia, a few fundamental open problems include determining what exactly constitutes a soliton, what is the overall structure of the parameter space, and where do the solitons occur in it. In this abstract, we present a new method to automatically classify Lenia systems into four qualitatively different dynamical classes. This allows us to detect moving solitons, and to provide an interactive visualization of Lenia's parameter space structure on our website https://lenia-explorer.vercel.app/. The results shed new light on the above-mentioned questions and lead to several observations: the existence of new soliton families for parameters where they were not believed to exist, or the universality of the phase space structure across various kernels.",
     "authors": [
-      "Barbora Hudcov\u00e1",
-      "Franti\u0161ek Du\u0161ek",
+      "Barbora Hudcová",
+      "František Dušek",
       "Marco Tuccio",
-      "Cl\u00e9ment Hongler"
+      "Clément Hongler"
     ],
     "categories": [
       "nlin.CG",
@@ -3182,7 +3182,7 @@
   {
     "arxiv_id": "2601.02307v1",
     "title": "Differential Privacy for Transformer Embeddings of Text with Nonparametric Variational Information Bottleneck",
-    "summary": "We propose a privacy-preserving method for sharing text data by sharing noisy versions of their transformer embeddings. It has been shown that hidden representations learned by deep models can encode sensitive information from the input, making it possible for adversaries to recover the input data with considerable accuracy. This problem is exacerbated in transformer embeddings because they consist of multiple vectors, one per token. To mitigate this risk, we propose Nonparametric Variational Differential Privacy (NVDP), which ensures both useful data sharing and strong privacy protection. We take a differential privacy approach, integrating a Nonparametric Variational Information Bottleneck (NVIB) layer into the transformer architecture to inject noise into its multi-vector embeddings and thereby hide information, and measuring privacy protection with R\u00e9nyi divergence and its corresponding Bayesian Differential Privacy (BDP) guarantee. Training the NVIB layer calibrates the noise level according to utility. We test NVDP on the GLUE benchmark and show that varying the noise level gives us a useful tradeoff between privacy and accuracy. With lower noise levels, our model maintains high accuracy while offering strong privacy guarantees, effectively balancing privacy and utility.",
+    "summary": "We propose a privacy-preserving method for sharing text data by sharing noisy versions of their transformer embeddings. It has been shown that hidden representations learned by deep models can encode sensitive information from the input, making it possible for adversaries to recover the input data with considerable accuracy. This problem is exacerbated in transformer embeddings because they consist of multiple vectors, one per token. To mitigate this risk, we propose Nonparametric Variational Differential Privacy (NVDP), which ensures both useful data sharing and strong privacy protection. We take a differential privacy approach, integrating a Nonparametric Variational Information Bottleneck (NVIB) layer into the transformer architecture to inject noise into its multi-vector embeddings and thereby hide information, and measuring privacy protection with Rényi divergence and its corresponding Bayesian Differential Privacy (BDP) guarantee. Training the NVIB layer calibrates the noise level according to utility. We test NVDP on the GLUE benchmark and show that varying the noise level gives us a useful tradeoff between privacy and accuracy. With lower noise levels, our model maintains high accuracy while offering strong privacy guarantees, effectively balancing privacy and utility.",
     "authors": [
       "Dina El Zein",
       "James Henderson"
@@ -3718,7 +3718,7 @@
       "Mikel Robredo",
       "Matteo Esposito",
       "Fabio Palomba",
-      "Rafael Pe\u00f1aloza",
+      "Rafael Peñaloza",
       "Valentina Lenarduzzi"
     ],
     "categories": [
@@ -3759,7 +3759,7 @@
   {
     "arxiv_id": "2601.01803v1",
     "title": "Moments Matter:Stabilizing Policy Optimization using Return Distributions",
-    "summary": "Deep Reinforcement Learning (RL) agents often learn policies that achieve the same episodic return yet behave very differently, due to a combination of environmental (random transitions, initial conditions, reward noise) and algorithmic (minibatch selection, exploration noise) factors. In continuous control tasks, even small parameter shifts can produce unstable gaits, complicating both algorithm comparison and real-world transfer. Previous work has shown that such instability arises when policy updates traverse noisy neighborhoods and that the spread of post-update return distribution $R(\u03b8)$, obtained by repeatedly sampling minibatches, updating $\u03b8$, and measuring final returns, is a useful indicator of this noise. Although explicitly constraining the policy to maintain a narrow $R(\u03b8)$ can improve stability, directly estimating $R(\u03b8)$ is computationally expensive in high-dimensional settings. We propose an alternative that takes advantage of environmental stochasticity to mitigate update-induced variability. Specifically, we model state-action return distribution through a distributional critic and then bias the advantage function of PPO using higher-order moments (skewness and kurtosis) of this distribution. By penalizing extreme tail behaviors, our method discourages policies from entering parameter regimes prone to instability. We hypothesize that in environments where post-update critic values align poorly with post-update returns, standard PPO struggles to produce a narrow $R(\u03b8)$. In such cases, our moment-based correction narrows $R(\u03b8)$, improving stability by up to 75% in Walker2D, while preserving comparable evaluation returns.",
+    "summary": "Deep Reinforcement Learning (RL) agents often learn policies that achieve the same episodic return yet behave very differently, due to a combination of environmental (random transitions, initial conditions, reward noise) and algorithmic (minibatch selection, exploration noise) factors. In continuous control tasks, even small parameter shifts can produce unstable gaits, complicating both algorithm comparison and real-world transfer. Previous work has shown that such instability arises when policy updates traverse noisy neighborhoods and that the spread of post-update return distribution $R(θ)$, obtained by repeatedly sampling minibatches, updating $θ$, and measuring final returns, is a useful indicator of this noise. Although explicitly constraining the policy to maintain a narrow $R(θ)$ can improve stability, directly estimating $R(θ)$ is computationally expensive in high-dimensional settings. We propose an alternative that takes advantage of environmental stochasticity to mitigate update-induced variability. Specifically, we model state-action return distribution through a distributional critic and then bias the advantage function of PPO using higher-order moments (skewness and kurtosis) of this distribution. By penalizing extreme tail behaviors, our method discourages policies from entering parameter regimes prone to instability. We hypothesize that in environments where post-update critic values align poorly with post-update returns, standard PPO struggles to produce a narrow $R(θ)$. In such cases, our moment-based correction narrows $R(θ)$, improving stability by up to 75% in Walker2D, while preserving comparable evaluation returns.",
     "authors": [
       "Dennis Jabs",
       "Aditya Mohan",
@@ -3971,7 +3971,7 @@
   {
     "arxiv_id": "2601.02177v1",
     "title": "Why Commodity WiFi Sensors Fail at Multi-Person Gait Identification: A Systematic Analysis Using ESP32",
-    "summary": "WiFi Channel State Information (CSI) has shown promise for single-person gait identification, with numerous studies reporting high accuracy. However, multi-person identification remains largely unexplored, with the limited existing work relying on complex, expensive setups requiring modified firmware. A critical question remains unanswered: is poor multi-person performance an algorithmic limitation or a fundamental hardware constraint? We systematically evaluate six diverse signal separation methods (FastICA, SOBI, PCA, NMF, Wavelet, Tensor Decomposition) across seven scenarios with 1-10 people using commodity ESP32 WiFi sensors--a simple, low-cost, off-the-shelf solution. Through novel diagnostic metrics (intra-subject variability, inter-subject distinguishability, performance degradation rate), we reveal that all methods achieve similarly low accuracy (45-56\\%, $\u03c3$=3.74\\%) with statistically insignificant differences (p $>$ 0.05). Even the best-performing method, NMF, achieves only 56\\% accuracy. Our analysis reveals high intra-subject variability, low inter-subject distinguishability, and severe performance degradation as person count increases, indicating that commodity ESP32 sensors cannot provide sufficient signal quality for reliable multi-person separation.",
+    "summary": "WiFi Channel State Information (CSI) has shown promise for single-person gait identification, with numerous studies reporting high accuracy. However, multi-person identification remains largely unexplored, with the limited existing work relying on complex, expensive setups requiring modified firmware. A critical question remains unanswered: is poor multi-person performance an algorithmic limitation or a fundamental hardware constraint? We systematically evaluate six diverse signal separation methods (FastICA, SOBI, PCA, NMF, Wavelet, Tensor Decomposition) across seven scenarios with 1-10 people using commodity ESP32 WiFi sensors--a simple, low-cost, off-the-shelf solution. Through novel diagnostic metrics (intra-subject variability, inter-subject distinguishability, performance degradation rate), we reveal that all methods achieve similarly low accuracy (45-56\\%, $σ$=3.74\\%) with statistically insignificant differences (p $>$ 0.05). Even the best-performing method, NMF, achieves only 56\\% accuracy. Our analysis reveals high intra-subject variability, low inter-subject distinguishability, and severe performance degradation as person count increases, indicating that commodity ESP32 sensors cannot provide sufficient signal quality for reliable multi-person separation.",
     "authors": [
       "Oliver Custance",
       "Saad Khan",
@@ -4022,7 +4022,7 @@
   {
     "arxiv_id": "2601.02080v1",
     "title": "The Homogeneity Trap: Spectral Collapse in Doubly-Stochastic Deep Networks",
-    "summary": "Doubly-stochastic matrices (DSM) are increasingly utilized in structure-preserving deep architectures -- such as Optimal Transport layers and Sinkhorn-based attention -- to enforce numerical stability and probabilistic interpretability. In this work, we identify a critical spectral degradation phenomenon inherent to these constraints, termed the Homogeneity Trap. We demonstrate that the maximum-entropy bias, typical of Sinkhorn-based projections, drives the mixing operator towards the uniform barycenter, thereby suppressing the subdominant singular value \u03c3_2 and filtering out high-frequency feature components. We derive a spectral bound linking \u03c3_2 to the network's effective depth, showing that high-entropy constraints restrict feature transformation to a shallow effective receptive field. Furthermore, we formally demonstrate that Layer Normalization fails to mitigate this collapse in noise-dominated regimes; specifically, when spectral filtering degrades the Signal-to-Noise Ratio (SNR) below a critical threshold, geometric structure is irreversibly lost to noise-induced orthogonal collapse. Our findings highlight a fundamental trade-off between entropic stability and spectral expressivity in DSM-constrained networks.",
+    "summary": "Doubly-stochastic matrices (DSM) are increasingly utilized in structure-preserving deep architectures -- such as Optimal Transport layers and Sinkhorn-based attention -- to enforce numerical stability and probabilistic interpretability. In this work, we identify a critical spectral degradation phenomenon inherent to these constraints, termed the Homogeneity Trap. We demonstrate that the maximum-entropy bias, typical of Sinkhorn-based projections, drives the mixing operator towards the uniform barycenter, thereby suppressing the subdominant singular value σ_2 and filtering out high-frequency feature components. We derive a spectral bound linking σ_2 to the network's effective depth, showing that high-entropy constraints restrict feature transformation to a shallow effective receptive field. Furthermore, we formally demonstrate that Layer Normalization fails to mitigate this collapse in noise-dominated regimes; specifically, when spectral filtering degrades the Signal-to-Noise Ratio (SNR) below a critical threshold, geometric structure is irreversibly lost to noise-induced orthogonal collapse. Our findings highlight a fundamental trade-off between entropic stability and spectral expressivity in DSM-constrained networks.",
     "authors": [
       "Yizhi Liu"
     ],
@@ -4119,12 +4119,12 @@
     "title": "Classifying several dialectal Nawatl varieties",
     "summary": "Mexico is a country with a large number of indigenous languages, among which the most widely spoken is Nawatl, with more than two million people currently speaking it (mainly in North and Central America). Despite its rich cultural heritage, which dates back to the 15th century, Nawatl is a language with few computer resources. The problem is compounded when it comes to its dialectal varieties, with approximately 30 varieties recognised, not counting the different spellings in the written forms of the language. In this research work, we addressed the problem of classifying Nawatl varieties using Machine Learning and Neural Networks.",
     "authors": [
-      "Juan-Jos\u00e9 Guzm\u00e1n-Landa",
+      "Juan-José Guzmán-Landa",
       "Juan-Manuel Torres-Moreno",
       "Miguel Figueroa-Saavedra",
-      "Carlos-Emiliano Gonz\u00e1lez-Gallardo",
+      "Carlos-Emiliano González-Gallardo",
       "Graham Ranger",
-      "Martha Lorena-Avenda\u00f1o-Garrido"
+      "Martha Lorena-Avendaño-Garrido"
     ],
     "categories": [
       "cs.CL"
@@ -4215,7 +4215,7 @@
       "Markus Borg",
       "Nadim Hagatulah",
       "Adam Tornhill",
-      "Emma S\u00f6derberg"
+      "Emma Söderberg"
     ],
     "categories": [
       "cs.SE",
@@ -4258,7 +4258,7 @@
     "summary": "We propose a graph-based, multi-fidelity learning framework for the prediction of stationary Navier--Stokes solutions in non-parametrized two-dimensional geometries. The method is designed to guide the learning process through successive approximations, starting from reduced-order and full Stokes models, and progressively approaching the Navier--Stokes solution. To effectively capture both local and long-range dependencies in the velocity and pressure fields, we combine graph neural networks with Transformer and Mamba architectures. While Transformers achieve the highest accuracy, we show that Mamba can be successfully adapted to graph-structured data through an unsupervised node-ordering strategy. The Mamba approach significantly reduces computational cost while maintaining performance. Physical knowledge is embedded directly into the architecture through an encoding -- processing -- physics informed decoding pipeline. Derivatives are computed through algebraic operators constructed via the Weighted Least Squares method. The flexibility of these operators allows us not only to make the output obey the governing equations, but also to constrain selected hidden features to satisfy mass conservation. We introduce additional physical biases through an enriched graph convolution with the same differential operators describing the PDEs. Overall, we successfully guide the learning process by physical knowledge and fluid dynamics insights, leading to more regular and accurate predictions",
     "authors": [
       "Francesco Songia",
-      "Raoul Sall\u00e9 de Chou",
+      "Raoul Sallé de Chou",
       "Hugues Talbot",
       "Irene Vignon-Clementel"
     ],
@@ -4406,7 +4406,7 @@
   {
     "arxiv_id": "2601.02329v1",
     "title": "BEDS: Bayesian Emergent Dissipative Structures",
-    "summary": "We present BEDS (Bayesian Emergent Dissipative Structures), a theoretical framework that unifies concepts from non-equilibrium thermodynamics, Bayesian inference, information geometry, and machine learning. The central thesis proposes that learning, across physical, biological, and computational systems, fundamentally constitutes the conversion of flux into structure through entropy export. Building on Prigogine's theory of dissipative structures, we establish a formal isomorphism between thermodynamic processes and Bayesian updating, demonstrating that sustainable learning systems must follow dissipative patterns where crystallized posteriors become priors for subsequent levels of emergence.   We derive fundamental mathematical constants (e, \u03c0, \u03c6) as fixed points of Bayesian inference under minimal axioms, suggesting these constants emerge necessarily from any system capable of representing and updating uncertainty. Furthermore, we propose a conjecture linking G\u00f6del's incompleteness theorems to thermodynamic constraints, hypothesizing that pathologies of formal systems (incompleteness, undecidability) are structurally analogous to dissipation deficits in physical systems.   As practical validation, we present a peer-to-peer network architecture implementing BEDS principles, achieving six orders of magnitude improvement in energy efficiency compared to existing distributed consensus systems while enabling continuous learning. This work bridges fundamental physics, mathematical logic, and practical system design, offering both theoretical insights into the nature of learning and computation, and a concrete pathway toward sustainable artificial intelligence.",
+    "summary": "We present BEDS (Bayesian Emergent Dissipative Structures), a theoretical framework that unifies concepts from non-equilibrium thermodynamics, Bayesian inference, information geometry, and machine learning. The central thesis proposes that learning, across physical, biological, and computational systems, fundamentally constitutes the conversion of flux into structure through entropy export. Building on Prigogine's theory of dissipative structures, we establish a formal isomorphism between thermodynamic processes and Bayesian updating, demonstrating that sustainable learning systems must follow dissipative patterns where crystallized posteriors become priors for subsequent levels of emergence.   We derive fundamental mathematical constants (e, π, φ) as fixed points of Bayesian inference under minimal axioms, suggesting these constants emerge necessarily from any system capable of representing and updating uncertainty. Furthermore, we propose a conjecture linking Gödel's incompleteness theorems to thermodynamic constraints, hypothesizing that pathologies of formal systems (incompleteness, undecidability) are structurally analogous to dissipation deficits in physical systems.   As practical validation, we present a peer-to-peer network architecture implementing BEDS principles, achieving six orders of magnitude improvement in energy efficiency compared to existing distributed consensus systems while enabling continuous learning. This work bridges fundamental physics, mathematical logic, and practical system design, offering both theoretical insights into the nature of learning and computation, and a concrete pathway toward sustainable artificial intelligence.",
     "authors": [
       "Laurent Caraffa"
     ],
@@ -4419,191 +4419,5 @@
     "date": "2026-01-06",
     "source": "arxiv",
     "research_score": 0.43
-  },
-  {
-    "model_id": "DevQuasar/nvidia.Qwen2.5-CascadeRL-RM-72B-GGUF",
-    "author": "unknown",
-    "title": "DevQuasar/nvidia.Qwen2.5-CascadeRL-RM-72B-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "text-generation",
-      "base_model:nvidia/Qwen2.5-CascadeRL-RM-72B",
-      "base_model:quantized:nvidia/Qwen2.5-CascadeRL-RM-72B",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-01-05T21:34:04.000Z",
-    "last_modified": "2026-01-06T04:21:41.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/DevQuasar/nvidia.Qwen2.5-CascadeRL-RM-72B-GGUF",
-    "date": "2026-01-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ChilyRan/mt5-small-finetuned-mt5-small-news-khmer-summarize",
-    "author": "unknown",
-    "title": "ChilyRan/mt5-small-finetuned-mt5-small-news-khmer-summarize",
-    "downloads": 154,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "mt5",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-01-04T09:01:56.000Z",
-    "last_modified": "2026-01-06T04:20:44.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/ChilyRan/mt5-small-finetuned-mt5-small-news-khmer-summarize",
-    "date": "2026-01-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "amitpraseed/emotion_model_english",
-    "author": "unknown",
-    "title": "amitpraseed/emotion_model_english",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "roberta",
-      "text-classification",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-01-06T04:19:27.000Z",
-    "last_modified": "2026-01-06T04:20:22.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/amitpraseed/emotion_model_english",
-    "date": "2026-01-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "professorf/Llama-3.1-8B-Instruct-gguf",
-    "author": "unknown",
-    "title": "professorf/Llama-3.1-8B-Instruct-gguf",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "facebook",
-      "meta",
-      "pytorch",
-      "llama",
-      "llama-3",
-      "text-generation",
-      "en",
-      "de",
-      "fr",
-      "it",
-      "pt",
-      "hi",
-      "es",
-      "th",
-      "base_model:meta-llama/Llama-3.1-8B-Instruct",
-      "base_model:quantized:meta-llama/Llama-3.1-8B-Instruct",
-      "license:llama3.1",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-01-06T04:08:27.000Z",
-    "last_modified": "2026-01-06T04:19:14.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/professorf/Llama-3.1-8B-Instruct-gguf",
-    "date": "2026-01-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "linhanhvlog123/mbert-viquad2.0-qa",
-    "author": "unknown",
-    "title": "linhanhvlog123/mbert-viquad2.0-qa",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "bert",
-      "question-answering",
-      "en",
-      "vi",
-      "base_model:google-bert/bert-base-multilingual-cased",
-      "base_model:finetune:google-bert/bert-base-multilingual-cased",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "question-answering",
-    "library": "transformers",
-    "created_at": "2026-01-05T15:02:06.000Z",
-    "last_modified": "2026-01-06T04:14:53.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/linhanhvlog123/mbert-viquad2.0-qa",
-    "date": "2026-01-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "payelb/HHRLHF_deberta_1k_fixed_noaug",
-    "author": "unknown",
-    "title": "payelb/HHRLHF_deberta_1k_fixed_noaug",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "deberta-v2",
-      "text-classification",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-01-06T03:48:34.000Z",
-    "last_modified": "2026-01-06T04:14:40.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/payelb/HHRLHF_deberta_1k_fixed_noaug",
-    "date": "2026-01-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "dataset_id": "newpcgoogle/myupimages",
-    "author": "newpcgoogle",
-    "title": "newpcgoogle/myupimages",
-    "downloads": 114,
-    "likes": 0,
-    "tags": [
-      "region:us"
-    ],
-    "created_at": "2025-10-16T14:55:25.000Z",
-    "last_modified": "2026-01-06T04:22:27.000Z",
-    "url": "https://huggingface.co/datasets/newpcgoogle/myupimages",
-    "date": "2026-01-06",
-    "source": "huggingface_dataset",
-    "type": "dataset",
-    "research_score": 0.4
   }
 ]
