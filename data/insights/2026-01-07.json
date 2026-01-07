@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-07T12:13:58.942315",
+  "date": "2026-01-07T16:11:39.711037",
   "patterns": {
     "multimodal_research": [
       {
@@ -1057,12 +1057,8 @@
         "url": "https://arxiv.org/abs/2601.02945v1"
       },
       {
-        "title": "lichorosario/dott-4k-v2-qwen-image-2512-ckpt10",
-        "url": "https://huggingface.co/lichorosario/dott-4k-v2-qwen-image-2512-ckpt10"
-      },
-      {
-        "title": "lichorosario/dott-4k-v4-qwen-image-2512_15",
-        "url": "https://huggingface.co/lichorosario/dott-4k-v4-qwen-image-2512_15"
+        "title": "unsloth/Qwen-Image-2512-unsloth-bnb-4bit",
+        "url": "https://huggingface.co/unsloth/Qwen-Image-2512-unsloth-bnb-4bit"
       }
     ],
     "reasoning": [
@@ -1951,7 +1947,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "69 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2004,6 +2000,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 476
+    "total_papers": 475
   }
 }
