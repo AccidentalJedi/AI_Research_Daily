@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-07T08:11:44.039232",
+  "date": "2026-01-07T12:13:58.942315",
   "patterns": {
     "multimodal_research": [
       {
@@ -1055,6 +1055,14 @@
       {
         "title": "VTONQA: A Multi-Dimensional Quality Assessment Dataset for Virtual Try-on",
         "url": "https://arxiv.org/abs/2601.02945v1"
+      },
+      {
+        "title": "lichorosario/dott-4k-v2-qwen-image-2512-ckpt10",
+        "url": "https://huggingface.co/lichorosario/dott-4k-v2-qwen-image-2512-ckpt10"
+      },
+      {
+        "title": "lichorosario/dott-4k-v4-qwen-image-2512_15",
+        "url": "https://huggingface.co/lichorosario/dott-4k-v4-qwen-image-2512_15"
       }
     ],
     "reasoning": [
@@ -1943,7 +1951,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "67 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1996,6 +2004,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 474
+    "total_papers": 476
   }
 }
