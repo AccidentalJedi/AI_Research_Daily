@@ -1,11 +1,22 @@
 {
-  "date": "2026-01-08T08:14:43.731424",
-  "patterns": {},
+  "date": "2026-01-08T12:14:51.080844",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "gaohuan/Agnes-SeaLLM-8b",
+        "url": "https://huggingface.co/gaohuan/Agnes-SeaLLM-8b"
+      },
+      {
+        "title": "NurekeKZ/distilbert-base-uncased-finetuned-clinc",
+        "url": "https://huggingface.co/NurekeKZ/distilbert-base-uncased-finetuned-clinc"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
