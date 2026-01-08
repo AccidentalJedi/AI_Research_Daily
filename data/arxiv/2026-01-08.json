@@ -8,7 +8,7 @@
       "Sarah de Boer",
       "Lena Philipp",
       "Fennie van der Graaf",
-      "Dr\u00e9 Peeters",
+      "Dré Peeters",
       "Joeran Bosma",
       "Lars Leijten",
       "Bogdan Obreja",
@@ -493,7 +493,7 @@
     "title": "Unsupervised Modular Adaptive Region Growing and RegionMix Classification for Wind Turbine Segmentation",
     "summary": "Reliable operation of wind turbines requires frequent inspections, as even minor surface damages can degrade aerodynamic performance, reduce energy output, and accelerate blade wear. Central to automating these inspections is the accurate segmentation of turbine blades from visual data. This task is traditionally addressed through dense, pixel-wise deep learning models. However, such methods demand extensive annotated datasets, posing scalability challenges. In this work, we introduce an annotation-efficient segmentation approach that reframes the pixel-level task into a binary region classification problem. Image regions are generated using a fully unsupervised, interpretable Modular Adaptive Region Growing technique, guided by image-specific Adaptive Thresholding and enhanced by a Region Merging process that consolidates fragmented areas into coherent segments. To improve generalization and classification robustness, we introduce RegionMix, an augmentation strategy that synthesizes new training samples by combining distinct regions. Our framework demonstrates state-of-the-art segmentation accuracy and strong cross-site generalization by consistently segmenting turbine blades across distinct windfarms.",
     "authors": [
-      "Ra\u00fcl P\u00e9rez-Gonzalo",
+      "Raül Pérez-Gonzalo",
       "Riccardo Magro",
       "Andreas Espersen",
       "Antonio Agudo"
@@ -532,7 +532,7 @@
     "title": "Large-Scale Aspect-Based Sentiment Analysis with Reasoning-Infused LLMs",
     "summary": "We introduce Arctic-ABSA, a collection of powerful models for real-life aspect-based sentiment analysis (ABSA). Our models are tailored to commercial needs, trained on a large corpus of public data alongside carefully generated synthetic data, resulting in a dataset 20 times larger than SemEval14. We extend typical ABSA models by expanding the number of sentiment classes from the standard three (positive, negative, neutral) to five, adding mixed and unknown classes, while also jointly predicting overall text sentiment and supporting multiple languages. We experiment with reasoning injection by fine-tuning on Chain-of-Thought (CoT) examples and introduce a novel reasoning pretraining technique for encoder-only models that significantly improves downstream fine-tuning and generalization. Our 395M-parameter encoder and 8B-parameter decoder achieve up to 10 percentage points higher accuracy than GPT-4o and Claude 3.5 Sonnet, while setting new state-of-the-art results on the SemEval14 benchmark. A single multilingual model maintains 87-91% accuracy across six languages without degrading English performance. We release ABSA-mix, a large-scale benchmark aggregating 17 public ABSA datasets across 92 domains.",
     "authors": [
-      "Pawe\u0142 Liskowski",
+      "Paweł Liskowski",
       "Krzysztof Jankowski"
     ],
     "categories": [
@@ -646,7 +646,7 @@
     "authors": [
       "Nicolas Lacroix",
       "Mireille Blay-Fornarino",
-      "S\u00e9bastien Mosser",
+      "Sébastien Mosser",
       "Frederic Precioso"
     ],
     "categories": [
@@ -974,7 +974,7 @@
     "authors": [
       "Basile Tousside",
       "Janis Mohr",
-      "J\u00f6rg Frochte"
+      "Jörg Frochte"
     ],
     "categories": [
       "cs.LG",
@@ -1407,12 +1407,12 @@
     "title": "VotIE: Information Extraction from Meeting Minutes",
     "summary": "Municipal meeting minutes record key decisions in local democratic processes. Unlike parliamentary proceedings, which typically adhere to standardized formats, they encode voting outcomes in highly heterogeneous, free-form narrative text that varies widely across municipalities, posing significant challenges for automated extraction. In this paper, we introduce VotIE (Voting Information Extraction), a new information extraction task aimed at identifying structured voting events in narrative deliberative records, and establish the first benchmark for this task using Portuguese municipal minutes, building on the recently introduced CitiLink corpus. Our experiments yield two key findings. First, under standard in-domain evaluation, fine-tuned encoders, specifically XLM-R-CRF, achieve the strongest performance, reaching 93.2\\% macro F1, outperforming generative approaches. Second, in a cross-municipality setting that evaluates transfer to unseen administrative contexts, these models suffer substantial performance degradation, whereas few-shot LLMs demonstrate greater robustness, with significantly smaller declines in performance. Despite this generalization advantage, the high computational cost of generative models currently constrains their practicality. As a result, lightweight fine-tuned encoders remain a more practical option for large-scale, real-world deployment. To support reproducible research in administrative NLP, we publicly release our benchmark, trained models, and evaluation framework.",
     "authors": [
-      "Jos\u00e9 Pedro Evans",
-      "Lu\u00eds Filipe Cunha",
-      "Purifica\u00e7\u00e3o Silvano",
-      "Al\u00edpio Jorge",
-      "Nuno Guimar\u00e3es",
-      "S\u00e9rgio Nunes",
+      "José Pedro Evans",
+      "Luís Filipe Cunha",
+      "Purificação Silvano",
+      "Alípio Jorge",
+      "Nuno Guimarães",
+      "Sérgio Nunes",
       "Ricardo Campos"
     ],
     "categories": [
@@ -1514,7 +1514,7 @@
     "authors": [
       "Van-Giang Trinh",
       "Sylvain Soliman",
-      "Fran\u00e7ois Fages",
+      "François Fages",
       "Belaid Benhamou"
     ],
     "categories": [
@@ -1860,11 +1860,11 @@
     "authors": [
       "Michele Joshua Maggini",
       "Paloma Piot",
-      "Anxo P\u00e9rez",
+      "Anxo Pérez",
       "Erik Bran Marino",
-      "L\u00faa Santamar\u00eda Montesinos",
+      "Lúa Santamaría Montesinos",
       "Ana Lisboa",
-      "Marta V\u00e1zquez Abu\u00edn",
+      "Marta Vázquez Abuín",
       "Javier Parapar",
       "Pablo Gamallo"
     ],
@@ -2098,7 +2098,7 @@
       "Marc Langheinrich",
       "Johannes Hoff",
       "Christiane Wendehorst",
-      "J\u00fcrgen Pfeffer",
+      "Jürgen Pfeffer",
       "Thomas Fuchs",
       "Armin Grunwald"
     ],
@@ -2138,7 +2138,7 @@
     "title": "Causal Data Augmentation for Robust Fine-Tuning of Tabular Foundation Models",
     "summary": "Fine-tuning tabular foundation models (TFMs) under data scarcity is challenging, as early stopping on even scarcer validation data often fails to capture true generalization performance. We propose CausalMixFT, a method that enhances fine-tuning robustness and downstream performance by generating structurally consistent synthetic samples using Structural Causal Models (SCMs) fitted on the target dataset. This approach augments limited real data with causally informed synthetic examples, preserving feature dependencies while expanding training diversity. Evaluated across 33 classification datasets from TabArena and over 2300 fine-tuning runs, our CausalMixFT method consistently improves median normalized ROC-AUC from 0.10 (standard fine-tuning) to 0.12, outperforming purely statistical generators such as CTGAN (-0.01), TabEBM (-0.04), and TableAugment (-0.09). Moreover, it narrows the median validation-test performance correlation gap from 0.67 to 0.30, enabling more reliable validation-based early stopping, a key step toward improving fine-tuning stability under data scarcity. These results demonstrate that incorporating causal structure into data augmentation provides an effective and principled route to fine-tuning tabular foundation models in low-data regimes.",
     "authors": [
-      "Magnus B\u00fchler",
+      "Magnus Bühler",
       "Lennart Purucker",
       "Frank Hutter"
     ],
@@ -2275,7 +2275,7 @@
       "Benedikt Mayrhofer",
       "Franz Pernkopf",
       "Philipp Aichinger",
-      "Martin Hagm\u00fcller"
+      "Martin Hagmüller"
     ],
     "categories": [
       "cs.SD",
@@ -2454,7 +2454,7 @@
   },
   {
     "arxiv_id": "2601.04176v1",
-    "title": "Robust Physics Discovery from Highly Corrupted Data: A PINN Framework Applied to the Nonlinear Schr\u00f6dinger Equation",
+    "title": "Robust Physics Discovery from Highly Corrupted Data: A PINN Framework Applied to the Nonlinear Schrödinger Equation",
     "summary": "We demonstrate a deep learning framework capable of recovering physical parameters from the Nonlinear Schrodinger Equation (NLSE) under severe noise conditions. By integrating Physics-Informed Neural Networks (PINNs) with automatic differentiation, we achieve reconstruction of the nonlinear coefficient beta with less than 0.2 percent relative error using only 500 sparse, randomly sampled data points corrupted by 20 percent additive Gaussian noise, a regime where traditional finite difference methods typically fail due to noise amplification in numerical derivatives. We validate the method's generalization capabilities across different physical regimes (beta between 0.5 and 2.0) and varying data availability (between 100 and 1000 training points), demonstrating consistent sub-1 percent accuracy. Statistical analysis over multiple independent runs confirms robustness (standard deviation less than 0.15 percent for beta equals 1.0). The complete pipeline executes in approximately 80 minutes on modest cloud GPU resources (NVIDIA Tesla T4), making the approach accessible for widespread adoption. Our results indicate that physics-based regularization acts as an effective filter against high measurement uncertainty, positioning PINNs as a viable alternative to traditional optimization methods for inverse problems in spatiotemporal dynamics where experimental data is scarce and noisy. All code is made publicly available to facilitate reproducibility.",
     "authors": [
       "Pietro de Oliveira Esteves"
@@ -2531,11 +2531,11 @@
     "title": "Quantifying the Impact of Modules and Their Interactions in the PSO-X Framework",
     "summary": "The PSO-X framework incorporates dozens of modules that have been proposed for solving single-objective continuous optimization problems using particle swarm optimization. While modular frameworks enable users to automatically generate and configure algorithms tailored to specific optimization problems, the complexity of this process increases with the number of modules in the framework and the degrees of freedom defined for their interaction. Understanding how modules affect the performance of algorithms for different problems is critical to making the process of finding effective implementations more efficient and identifying promising areas for further investigation. Despite their practical applications and scientific relevance, there is a lack of empirical studies investigating which modules matter most in modular optimization frameworks and how they interact. In this paper, we analyze the performance of 1424 particle swarm optimization algorithms instantiated from the PSO-X framework on the 25 functions in the CEC'05 benchmark suite with 10 and 30 dimensions. We use functional ANOVA to quantify the impact of modules and their combinations on performance in different problem classes. In practice, this allows us to identify which modules have greater influence on PSO-X performance depending on problem features such as multimodality, mathematical transformations and varying dimensionality. We then perform a cluster analysis to identify groups of problem classes that share similar module effect patterns. Our results show low variability in the importance of modules in all problem classes, suggesting that particle swarm optimization performance is driven by a few influential modules.",
     "authors": [
-      "Christian L. Camacho-Villal\u00f3n",
+      "Christian L. Camacho-Villalón",
       "Ana Nikolikj",
       "Katharina Dost",
       "Eva Tuba",
-      "Sa\u0161o D\u017eeroski",
+      "Sašo Džeroski",
       "Tome Eftimov"
     ],
     "categories": [
@@ -2744,10 +2744,10 @@
   {
     "arxiv_id": "2601.04149v1",
     "title": "A Theoretical and Empirical Taxonomy of Imbalance in Binary Classification",
-    "summary": "Class imbalance significantly degrades classification performance, yet its effects are rarely analyzed from a unified theoretical perspective. We propose a principled framework based on three fundamental scales: the imbalance coefficient $\u03b7$, the sample--dimension ratio $\u03ba$, and the intrinsic separability $\u0394$. Starting from the Gaussian Bayes classifier, we derive closed-form Bayes errors and show how imbalance shifts the discriminant boundary, yielding a deterioration slope that predicts four regimes: Normal, Mild, Extreme, and Catastrophic. Using a balanced high-dimensional genomic dataset, we vary only $\u03b7$ while keeping $\u03ba$ and $\u0394$ fixed. Across parametric and non-parametric models, empirical degradation closely follows theoretical predictions: minority Recall collapses once $\\log(\u03b7)$ exceeds $\u0394\\sqrt\u03ba$, Precision increases asymmetrically, and F1-score and PR-AUC decline in line with the predicted regimes. These results show that the triplet $(\u03b7,\u03ba,\u0394)$ provides a model-agnostic, geometrically grounded explanation of imbalance-induced deterioration.",
+    "summary": "Class imbalance significantly degrades classification performance, yet its effects are rarely analyzed from a unified theoretical perspective. We propose a principled framework based on three fundamental scales: the imbalance coefficient $η$, the sample--dimension ratio $κ$, and the intrinsic separability $Δ$. Starting from the Gaussian Bayes classifier, we derive closed-form Bayes errors and show how imbalance shifts the discriminant boundary, yielding a deterioration slope that predicts four regimes: Normal, Mild, Extreme, and Catastrophic. Using a balanced high-dimensional genomic dataset, we vary only $η$ while keeping $κ$ and $Δ$ fixed. Across parametric and non-parametric models, empirical degradation closely follows theoretical predictions: minority Recall collapses once $\\log(η)$ exceeds $Δ\\sqrtκ$, Precision increases asymmetrically, and F1-score and PR-AUC decline in line with the predicted regimes. These results show that the triplet $(η,κ,Δ)$ provides a model-agnostic, geometrically grounded explanation of imbalance-induced deterioration.",
     "authors": [
       "Rose Yvette Bandolo Essomba",
-      "Ernest Fokou\u00e9"
+      "Ernest Fokoué"
     ],
     "categories": [
       "stat.ML",
@@ -3130,7 +3130,7 @@
   {
     "arxiv_id": "2601.03919v1",
     "title": "A Gap Between Decision Trees and Neural Networks",
-    "summary": "We study when geometric simplicity of decision boundaries, used here as a notion of interpretability, can conflict with accurate approximation of axis-aligned decision trees by shallow neural networks. Decision trees induce rule-based, axis-aligned decision regions (finite unions of boxes), whereas shallow ReLU networks are typically trained as score models whose predictions are obtained by thresholding. We analyze the infinite-width, bounded-norm, single-hidden-layer ReLU class through the Radon total variation ($\\mathrm{R}\\mathrm{TV}$) seminorm, which controls the geometric complexity of level sets.   We first show that the hard tree indicator $1_A$ has infinite $\\mathrm{R}\\mathrm{TV}$. Moreover, two natural split-wise continuous surrogates--piecewise-linear ramp smoothing and sigmoidal (logistic) smoothing--also have infinite $\\mathrm{R}\\mathrm{TV}$ in dimensions $d>1$, while Gaussian convolution yields finite $\\mathrm{R}\\mathrm{TV}$ but with an explicit exponential dependence on $d$.   We then separate two goals that are often conflated: classification after thresholding (recovering the decision set) versus score learning (learning a calibrated score close to $1_A$). For classification, we construct a smooth barrier score $S_A$ with finite $\\mathrm{R}\\mathrm{TV}$ whose fixed threshold $\u03c4=1$ exactly recovers the box. Under a mild tube-mass condition near $\\partial A$, we prove an $L_1(P)$ calibration bound that decays polynomially in a sharpness parameter, along with an explicit $\\mathrm{R}\\mathrm{TV}$ upper bound in terms of face measures. Experiments on synthetic unions of rectangles illustrate the resulting accuracy--complexity tradeoff and how threshold selection shifts where training lands along it.",
+    "summary": "We study when geometric simplicity of decision boundaries, used here as a notion of interpretability, can conflict with accurate approximation of axis-aligned decision trees by shallow neural networks. Decision trees induce rule-based, axis-aligned decision regions (finite unions of boxes), whereas shallow ReLU networks are typically trained as score models whose predictions are obtained by thresholding. We analyze the infinite-width, bounded-norm, single-hidden-layer ReLU class through the Radon total variation ($\\mathrm{R}\\mathrm{TV}$) seminorm, which controls the geometric complexity of level sets.   We first show that the hard tree indicator $1_A$ has infinite $\\mathrm{R}\\mathrm{TV}$. Moreover, two natural split-wise continuous surrogates--piecewise-linear ramp smoothing and sigmoidal (logistic) smoothing--also have infinite $\\mathrm{R}\\mathrm{TV}$ in dimensions $d>1$, while Gaussian convolution yields finite $\\mathrm{R}\\mathrm{TV}$ but with an explicit exponential dependence on $d$.   We then separate two goals that are often conflated: classification after thresholding (recovering the decision set) versus score learning (learning a calibrated score close to $1_A$). For classification, we construct a smooth barrier score $S_A$ with finite $\\mathrm{R}\\mathrm{TV}$ whose fixed threshold $τ=1$ exactly recovers the box. Under a mild tube-mass condition near $\\partial A$, we prove an $L_1(P)$ calibration bound that decays polynomially in a sharpness parameter, along with an explicit $\\mathrm{R}\\mathrm{TV}$ upper bound in terms of face measures. Experiments on synthetic unions of rectangles illustrate the resulting accuracy--complexity tradeoff and how threshold selection shifts where training lands along it.",
     "authors": [
       "Akash Kumar"
     ],
@@ -3409,7 +3409,7 @@
       "Yuji Zhang",
       "Bingxiang He",
       "Qinyu Luo",
-      "Dilek Hakkani-T\u00fcr",
+      "Dilek Hakkani-Tür",
       "Gokhan Tur",
       "Yunzhu Li",
       "Heng Ji",
@@ -3512,7 +3512,7 @@
     "title": "Improving Compactness and Reducing Ambiguity of CFIRE Rule-Based Explanations",
     "summary": "Models trained on tabular data are widely used in sensitive domains, increasing the demand for explanation methods to meet transparency needs. CFIRE is a recent algorithm in this domain that constructs compact surrogate rule models from local explanations. While effective, CFIRE may assign rules associated with different classes to the same sample, introducing ambiguity. We investigate this ambiguity and propose a post-hoc pruning strategy that removes rules with low contribution or conflicting coverage, yielding smaller and less ambiguous models while preserving fidelity. Experiments across multiple datasets confirm these improvements with minimal impact on predictive performance.",
     "authors": [
-      "Sebastian M\u00fcller",
+      "Sebastian Müller",
       "Tobias Schneider",
       "Ruben Kemna",
       "Vanessa Toborek"
@@ -3889,10 +3889,10 @@
   },
   {
     "arxiv_id": "2601.04005v1",
-    "title": "Pad\u00e9 Neurons for Efficient Neural Models",
-    "summary": "Neural networks commonly employ the McCulloch-Pitts neuron model, which is a linear model followed by a point-wise non-linear activation. Various researchers have already advanced inherently non-linear neuron models, such as quadratic neurons, generalized operational neurons, generative neurons, and super neurons, which offer stronger non-linearity compared to point-wise activation functions. In this paper, we introduce a novel and better non-linear neuron model called Pad\u00e9 neurons (Paons), inspired by Pad\u00e9 approximants. Paons offer several advantages, such as diversity of non-linearity, since each Paon learns a different non-linear function of its inputs, and layer efficiency, since Paons provide stronger non-linearity in much fewer layers compared to piecewise linear approximation. Furthermore, Paons include all previously proposed neuron models as special cases, thus any neuron model in any network can be replaced by Paons. We note that there has been a proposal to employ the Pad\u00e9 approximation as a generalized point-wise activation function, which is fundamentally different from our model. To validate the efficacy of Paons, in our experiments, we replace classic neurons in some well-known neural image super-resolution, compression, and classification models based on the ResNet architecture with Paons. Our comprehensive experimental results and analyses demonstrate that neural models built by Paons provide better or equal performance than their classic counterparts with a smaller number of layers. The PyTorch implementation code for Paon is open-sourced at https://github.com/onur-keles/Paon.",
+    "title": "Padé Neurons for Efficient Neural Models",
+    "summary": "Neural networks commonly employ the McCulloch-Pitts neuron model, which is a linear model followed by a point-wise non-linear activation. Various researchers have already advanced inherently non-linear neuron models, such as quadratic neurons, generalized operational neurons, generative neurons, and super neurons, which offer stronger non-linearity compared to point-wise activation functions. In this paper, we introduce a novel and better non-linear neuron model called Padé neurons (Paons), inspired by Padé approximants. Paons offer several advantages, such as diversity of non-linearity, since each Paon learns a different non-linear function of its inputs, and layer efficiency, since Paons provide stronger non-linearity in much fewer layers compared to piecewise linear approximation. Furthermore, Paons include all previously proposed neuron models as special cases, thus any neuron model in any network can be replaced by Paons. We note that there has been a proposal to employ the Padé approximation as a generalized point-wise activation function, which is fundamentally different from our model. To validate the efficacy of Paons, in our experiments, we replace classic neurons in some well-known neural image super-resolution, compression, and classification models based on the ResNet architecture with Paons. Our comprehensive experimental results and analyses demonstrate that neural models built by Paons provide better or equal performance than their classic counterparts with a smaller number of layers. The PyTorch implementation code for Paon is open-sourced at https://github.com/onur-keles/Paon.",
     "authors": [
-      "Onur Kele\u015f",
+      "Onur Keleş",
       "A. Murat Tekalp"
     ],
     "categories": [
@@ -4021,7 +4021,7 @@
     "summary": "We present LLMberjack, a platform for creating multi-party conversations starting from existing debates, originally structured as reply trees. The system offers an interactive interface that visualizes discussion trees and enables users to construct coherent linearized dialogue sequences while preserving participant identity and discourse relations. It integrates optional large language model (LLM) assistance to support automatic editing of the messages and speakers' descriptions. We demonstrate the platform's utility by showing how tree visualization facilitates the creation of coherent, meaningful conversation threads and how LLM support enhances output quality while reducing human effort. The tool is open-source and designed to promote transparent and reproducible workflows to create multi-party conversations, addressing a lack of resources of this type.",
     "authors": [
       "Leonardo Bottona",
-      "Nicol\u00f2 Penzo",
+      "Nicolò Penzo",
       "Bruno Lepri",
       "Marco Guerini",
       "Sara Tonelli"
@@ -4064,7 +4064,7 @@
     "authors": [
       "Anamaria Mojica-Hanke",
       "Thomas Goger",
-      "Svenja W\u00f6lfel",
+      "Svenja Wölfel",
       "Brian Valerius",
       "Steffen Herbold"
     ],
@@ -4082,7 +4082,7 @@
   {
     "arxiv_id": "2601.03764v1",
     "title": "Learning Shrinks the Hard Tail: Training-Dependent Inference Scaling in a Solvable Linear Model",
-    "summary": "We analyze neural scaling laws in a solvable model of last-layer fine-tuning where targets have intrinsic, instance-heterogeneous difficulty. In our Latent Instance Difficulty (LID) model, each input's target variance is governed by a latent ``precision'' drawn from a heavy-tailed distribution. While generalization loss recovers standard scaling laws, our main contribution connects this to inference. The pass@$k$ failure rate exhibits a power-law decay, $k^{-\u03b2_\\text{eff}}$, but the observed exponent $\u03b2_\\text{eff}$ is training-dependent. It grows with sample size $N$ before saturating at an intrinsic limit $\u03b2$ set by the difficulty distribution's tail. This coupling reveals that learning shrinks the ``hard tail'' of the error distribution: improvements in the model's generalization error steepen the pass@$k$ curve until irreducible target variance dominates. The LID model yields testable, closed-form predictions for this behavior, including a compute-allocation rule that favors training before saturation and inference attempts after. We validate these predictions in simulations and in two real-data proxies: CIFAR-10H (human-label variance) and a maths teacher-student distillation task.",
+    "summary": "We analyze neural scaling laws in a solvable model of last-layer fine-tuning where targets have intrinsic, instance-heterogeneous difficulty. In our Latent Instance Difficulty (LID) model, each input's target variance is governed by a latent ``precision'' drawn from a heavy-tailed distribution. While generalization loss recovers standard scaling laws, our main contribution connects this to inference. The pass@$k$ failure rate exhibits a power-law decay, $k^{-β_\\text{eff}}$, but the observed exponent $β_\\text{eff}$ is training-dependent. It grows with sample size $N$ before saturating at an intrinsic limit $β$ set by the difficulty distribution's tail. This coupling reveals that learning shrinks the ``hard tail'' of the error distribution: improvements in the model's generalization error steepen the pass@$k$ curve until irreducible target variance dominates. The LID model yields testable, closed-form predictions for this behavior, including a compute-allocation rule that favors training before saturation and inference attempts after. We validate these predictions in simulations and in two real-data proxies: CIFAR-10H (human-label variance) and a maths teacher-student distillation task.",
     "authors": [
       "Noam Levi"
     ],
@@ -4240,7 +4240,7 @@
       "Alessandro Di Stefano",
       "The Anh Han",
       "German Castignani",
-      "Pietro Li\u00f2"
+      "Pietro Liò"
     ],
     "categories": [
       "cs.MA",
@@ -4297,23 +4297,6 @@
     "pdf_url": "https://arxiv.org/pdf/2601.03655v1.pdf",
     "date": "2026-01-08",
     "source": "arxiv",
-    "research_score": 0.5
-  },
-  {
-    "dataset_id": "huggingface/transformers-metadata",
-    "author": "huggingface",
-    "title": "huggingface/transformers-metadata",
-    "downloads": 1013,
-    "likes": 32,
-    "tags": [
-      "region:us"
-    ],
-    "created_at": "2022-03-02T23:29:22.000Z",
-    "last_modified": "2026-01-08T16:11:11.000Z",
-    "url": "https://huggingface.co/datasets/huggingface/transformers-metadata",
-    "date": "2026-01-08",
-    "source": "huggingface_dataset",
-    "type": "dataset",
     "research_score": 0.5
   },
   {
@@ -4427,283 +4410,6 @@
     "pdf_url": "https://arxiv.org/pdf/2601.04193v1.pdf",
     "date": "2026-01-08",
     "source": "arxiv",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "aki-008/model-16bit",
-    "author": "unknown",
-    "title": "aki-008/model-16bit",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-01-08T16:09:21.000Z",
-    "last_modified": "2026-01-08T16:10:33.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/aki-008/model-16bit",
-    "date": "2026-01-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "hf-carbon/sft_Qwen3-4B_simple_qa",
-    "author": "unknown",
-    "title": "hf-carbon/sft_Qwen3-4B_simple_qa",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "sft",
-      "conversational",
-      "base_model:Qwen/Qwen3-4B",
-      "base_model:finetune:Qwen/Qwen3-4B",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-01-08T09:32:21.000Z",
-    "last_modified": "2026-01-08T16:08:53.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/hf-carbon/sft_Qwen3-4B_simple_qa",
-    "date": "2026-01-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "SS3M/csiro-pretrain-state-dict-new",
-    "author": "unknown",
-    "title": "SS3M/csiro-pretrain-state-dict-new",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-01-07T14:55:03.000Z",
-    "last_modified": "2026-01-08T16:08:28.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/SS3M/csiro-pretrain-state-dict-new",
-    "date": "2026-01-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "asparius/Qwen2.5-7B-GRPO-1ep-iter8-prompt",
-    "author": "unknown",
-    "title": "asparius/Qwen2.5-7B-GRPO-1ep-iter8-prompt",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "generated_from_trainer",
-      "open-r1",
-      "conversational",
-      "dataset:DigitalLearningGmbH/MATH-lighteval",
-      "arxiv:2402.03300",
-      "base_model:Qwen/Qwen2.5-7B",
-      "base_model:finetune:Qwen/Qwen2.5-7B",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-01-08T06:06:47.000Z",
-    "last_modified": "2026-01-08T16:07:09.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/asparius/Qwen2.5-7B-GRPO-1ep-iter8-prompt",
-    "date": "2026-01-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Naji20/sst2-sentiment-model",
-    "author": "unknown",
-    "title": "Naji20/sst2-sentiment-model",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "distilbert",
-      "sentiment-analysis",
-      "text-classification",
-      "sst2",
-      "en",
-      "dataset:glue",
-      "dataset:sst2",
-      "base_model:distilbert/distilbert-base-uncased",
-      "base_model:finetune:distilbert/distilbert-base-uncased",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "",
-    "created_at": "2026-01-08T15:57:41.000Z",
-    "last_modified": "2026-01-08T16:04:42.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Naji20/sst2-sentiment-model",
-    "date": "2026-01-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Naphula/SpaceBound-24B-v1",
-    "author": "unknown",
-    "title": "Naphula/SpaceBound-24B-v1",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "mistral",
-      "text-generation",
-      "merge",
-      "mergekit",
-      "conversational",
-      "en",
-      "base_model:CrucibleLab/M3.2-24B-Loki-V1.3",
-      "base_model:merge:CrucibleLab/M3.2-24B-Loki-V1.3",
-      "base_model:Darkhn/M3.2-24B-Animus-V5.1-Pro",
-      "base_model:merge:Darkhn/M3.2-24B-Animus-V5.1-Pro",
-      "base_model:Delta-Vector/Austral-24B-Winton",
-      "base_model:merge:Delta-Vector/Austral-24B-Winton",
-      "base_model:Delta-Vector/MS3.2-Austral-Winton",
-      "base_model:merge:Delta-Vector/MS3.2-Austral-Winton",
-      "base_model:Delta-Vector/Rei-24B-KTO",
-      "base_model:merge:Delta-Vector/Rei-24B-KTO",
-      "base_model:Doctor-Shotgun/MS3.2-24B-Magnum-Diamond",
-      "base_model:merge:Doctor-Shotgun/MS3.2-24B-Magnum-Diamond",
-      "base_model:Gryphe/Pantheon-RP-1.8-24b-Small-3.1",
-      "base_model:merge:Gryphe/Pantheon-RP-1.8-24b-Small-3.1",
-      "base_model:LatitudeGames/Hearthfire-24B",
-      "base_model:merge:LatitudeGames/Hearthfire-24B",
-      "base_model:Naphula/BeaverAI_Fallen-Mistral-Small-3.1-24B-v1e_textonly",
-      "base_model:merge:Naphula/BeaverAI_Fallen-Mistral-Small-3.1-24B-v1e_textonly",
-      "base_model:PocketDoc/Dans-PersonalityEngine-V1.3.0-24b",
-      "base_model:merge:PocketDoc/Dans-PersonalityEngine-V1.3.0-24b",
-      "base_model:ReadyArt/MS3.2-The-Omega-Directive-24B-Unslop-v2.1",
-      "base_model:merge:ReadyArt/MS3.2-The-Omega-Directive-24B-Unslop-v2.1",
-      "base_model:SicariusSicariiStuff/Impish_Magic_24B",
-      "base_model:merge:SicariusSicariiStuff/Impish_Magic_24B",
-      "base_model:TheDrummer/Cydonia-24B-v4.3",
-      "base_model:merge:TheDrummer/Cydonia-24B-v4.3",
-      "base_model:TheDrummer/Magidonia-24B-v4.3",
-      "base_model:merge:TheDrummer/Magidonia-24B-v4.3",
-      "base_model:TheDrummer/Precog-24B-v1",
-      "base_model:merge:TheDrummer/Precog-24B-v1",
-      "base_model:TheDrummer/Rivermind-24B-v1",
-      "base_model:merge:TheDrummer/Rivermind-24B-v1",
-      "base_model:aixonlab/Eurydice-24b-v3.5",
-      "base_model:merge:aixonlab/Eurydice-24b-v3.5",
-      "base_model:allura-forge/ms32-final-TEXTONLY",
-      "base_model:merge:allura-forge/ms32-final-TEXTONLY",
-      "base_model:trashpanda-org/MS3.2-24B-Mullein-v2",
-      "base_model:merge:trashpanda-org/MS3.2-24B-Mullein-v2",
-      "base_model:zerofata/MS3.2-PaintedFantasy-v3-24B",
-      "base_model:merge:zerofata/MS3.2-PaintedFantasy-v3-24B",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-01-06T18:14:59.000Z",
-    "last_modified": "2026-01-08T16:03:40.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/Naphula/SpaceBound-24B-v1",
-    "date": "2026-01-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "cyankiwi/NousCoder-14B-AWQ-4bit",
-    "author": "unknown",
-    "title": "cyankiwi/NousCoder-14B-AWQ-4bit",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "dataset:livecodebench/code_generation_lite",
-      "dataset:agentica-org/DeepCoder-Preview-Dataset",
-      "dataset:NousResearch/lcb_test",
-      "dataset:NousResearch/RLVR_Coding_Problems",
-      "base_model:NousResearch/NousCoder-14B",
-      "base_model:quantized:NousResearch/NousCoder-14B",
-      "license:apache-2.0",
-      "compressed-tensors",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-01-08T15:59:05.000Z",
-    "last_modified": "2026-01-08T16:03:08.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/cyankiwi/NousCoder-14B-AWQ-4bit",
-    "date": "2026-01-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "marzieh-maleki/deepseekmath7b-lora-persian",
-    "author": "unknown",
-    "title": "marzieh-maleki/deepseekmath7b-lora-persian",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:deepseek-ai/deepseek-math-7b-base",
-      "lora",
-      "transformers",
-      "text-generation",
-      "base_model:deepseek-ai/deepseek-math-7b-base",
-      "license:other",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-01-08T12:33:35.000Z",
-    "last_modified": "2026-01-08T16:01:52.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/marzieh-maleki/deepseekmath7b-lora-persian",
-    "date": "2026-01-08",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.4
   }
 ]
