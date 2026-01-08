@@ -1,11 +1,29 @@
 {
-  "date": "2026-01-08T00:31:34.924906",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-01-08T04:23:37.979648",
+  "patterns": {
+    "efficient_architectures": [
+      {
+        "title": "nightmedia/Qwen3-14B-Moebius-qx64-hi-mlx",
+        "url": "https://huggingface.co/nightmedia/Qwen3-14B-Moebius-qx64-hi-mlx"
+      },
+      {
+        "title": "nightmedia/Qwen3-14B-Moebius-qx86-hi-mlx",
+        "url": "https://huggingface.co/nightmedia/Qwen3-14B-Moebius-qx86-hi-mlx"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "efficient_architectures",
+      "observation": "Focus on efficiency improvements",
+      "inference": "Resource constraints driving innovation - expect deployment on edge devices and mobile",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 2
   }
 }
