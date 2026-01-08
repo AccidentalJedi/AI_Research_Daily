@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-08T16:11:26.507876",
+  "date": "2026-01-08T20:09:30.349231",
   "patterns": {
     "multimodal_research": [
       {
@@ -697,10 +697,6 @@
       {
         "title": "Tracing the complexity profiles of different linguistic phenomena through the intrinsic dimension of LLM representations",
         "url": "https://arxiv.org/abs/2601.03779v1"
-      },
-      {
-        "title": "huggingface/transformers-metadata",
-        "url": "https://huggingface.co/datasets/huggingface/transformers-metadata"
       },
       {
         "title": "ResTok: Learning Hierarchical Residuals in 1D Visual Tokenizers for Autoregressive Image Generation",
@@ -1753,7 +1749,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "101 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1812,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 427
   }
 }
