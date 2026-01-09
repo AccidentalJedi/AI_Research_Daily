@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-09T16:10:09.024803",
+  "date": "2026-01-09T20:10:02.775713",
   "patterns": {
     "multimodal_research": [
       {
@@ -795,20 +795,12 @@
         "url": "https://arxiv.org/abs/2601.05104v1"
       },
       {
-        "title": "LLM-course/chess-model-blin-armand",
-        "url": "https://huggingface.co/LLM-course/chess-model-blin-armand"
+        "title": "wms2023/llm-lingo-fr-shuffle",
+        "url": "https://huggingface.co/wms2023/llm-lingo-fr-shuffle"
       },
       {
-        "title": "CausalNLP/gpt2-multilingual-20-arabic-repair_3epochs",
-        "url": "https://huggingface.co/CausalNLP/gpt2-multilingual-20-arabic-repair_3epochs"
-      },
-      {
-        "title": "mpreda/nlp-transformer-multilingual_seed42",
-        "url": "https://huggingface.co/mpreda/nlp-transformer-multilingual_seed42"
-      },
-      {
-        "title": "Nav772/roberta-amazon-reviews-5star",
-        "url": "https://huggingface.co/Nav772/roberta-amazon-reviews-5star"
+        "title": "ayjays132/gpt-oss-0.6b",
+        "url": "https://huggingface.co/ayjays132/gpt-oss-0.6b"
       }
     ],
     "vision_systems": [
@@ -1853,7 +1845,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "110 independent papers",
+      "observation": "108 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1912,6 +1904,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 453
+    "total_papers": 451
   }
 }
