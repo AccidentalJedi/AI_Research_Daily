@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-09T08:11:51.170914",
+  "date": "2026-01-09T12:14:04.980350",
   "patterns": {
     "multimodal_research": [
       {
@@ -795,20 +795,12 @@
         "url": "https://arxiv.org/abs/2601.05104v1"
       },
       {
-        "title": "misya11p/gpt2-fineweb-japanese-scratch",
-        "url": "https://huggingface.co/misya11p/gpt2-fineweb-japanese-scratch"
+        "title": "iam-tsr/finetuned-distilbert-employ-feedback",
+        "url": "https://huggingface.co/iam-tsr/finetuned-distilbert-employ-feedback"
       },
       {
-        "title": "misya11p/gpt2-large-fineweb-japanese-scratch",
-        "url": "https://huggingface.co/misya11p/gpt2-large-fineweb-japanese-scratch"
-      },
-      {
-        "title": "NurekeKZ/distilbert-base-uncased-finetuned-clinc",
-        "url": "https://huggingface.co/NurekeKZ/distilbert-base-uncased-finetuned-clinc"
-      },
-      {
-        "title": "misya11p/vanilla-transformer-fineweb-japanese-scratch",
-        "url": "https://huggingface.co/misya11p/vanilla-transformer-fineweb-japanese-scratch"
+        "title": "CausalNLP/gpt2-multilingual-20-arabic-repair_3epochs",
+        "url": "https://huggingface.co/CausalNLP/gpt2-multilingual-20-arabic-repair_3epochs"
       }
     ],
     "vision_systems": [
@@ -1083,10 +1075,6 @@
       {
         "title": "MoE3D: A Mixture-of-Experts Module for 3D Reconstruction",
         "url": "https://arxiv.org/abs/2601.05208v1"
-      },
-      {
-        "title": "er6y/Z-Image-Turbo-MNN-int4",
-        "url": "https://huggingface.co/er6y/Z-Image-Turbo-MNN-int4"
       }
     ],
     "reasoning": [
@@ -1857,13 +1845,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "110 independent papers",
+      "observation": "108 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "69 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1916,6 +1904,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 454
+    "total_papers": 451
   }
 }
