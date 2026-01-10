@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-10T08:10:15.791393",
+  "date": "2026-01-10T12:12:05.826032",
   "patterns": {
     "multimodal_research": [
       {
@@ -795,8 +795,16 @@
         "url": "https://arxiv.org/abs/2601.05104v1"
       },
       {
-        "title": "Altnbek/bert-base-uncased-finetuned-sst2",
-        "url": "https://huggingface.co/Altnbek/bert-base-uncased-finetuned-sst2"
+        "title": "APPA-Clem/InutileGpt",
+        "url": "https://huggingface.co/APPA-Clem/InutileGpt"
+      },
+      {
+        "title": "ntdat8324/xlmr_large_sbert_k5_evidence",
+        "url": "https://huggingface.co/ntdat8324/xlmr_large_sbert_k5_evidence"
+      },
+      {
+        "title": "maticzav/bert-case-uncased-legal",
+        "url": "https://huggingface.co/maticzav/bert-case-uncased-legal"
       }
     ],
     "vision_systems": [
@@ -1841,7 +1849,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "107 independent papers",
+      "observation": "109 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1900,6 +1908,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 450
+    "total_papers": 452
   }
 }
