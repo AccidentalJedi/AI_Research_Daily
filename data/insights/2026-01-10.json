@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-10T04:17:57.088775",
+  "date": "2026-01-10T08:10:15.791393",
   "patterns": {
     "multimodal_research": [
       {
@@ -1071,10 +1071,6 @@
       {
         "title": "MoE3D: A Mixture-of-Experts Module for 3D Reconstruction",
         "url": "https://arxiv.org/abs/2601.05208v1"
-      },
-      {
-        "title": "Comfy-Org/z_image_turbo",
-        "url": "https://huggingface.co/Comfy-Org/z_image_turbo"
       }
     ],
     "reasoning": [
@@ -1851,7 +1847,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "69 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1904,6 +1900,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 451
+    "total_papers": 450
   }
 }
