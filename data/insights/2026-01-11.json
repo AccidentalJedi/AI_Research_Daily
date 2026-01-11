@@ -1,22 +1,51 @@
 {
-  "date": "2026-01-11T16:09:13.466968",
+  "date": "2026-01-11T20:09:05.789173",
   "patterns": {
     "language_models": [
       {
-        "title": "DanielCHTan97/toy-persona-gpt2-d1",
-        "url": "https://huggingface.co/DanielCHTan97/toy-persona-gpt2-d1"
+        "title": "FlameF0X/anwgpt4-chat",
+        "url": "https://huggingface.co/FlameF0X/anwgpt4-chat"
       },
       {
-        "title": "DataPilot/ArrowIdeative-13b-Instruct-test-llm-jp-v0.2",
-        "url": "https://huggingface.co/DataPilot/ArrowIdeative-13b-Instruct-test-llm-jp-v0.2"
+        "title": "FlameF0X/anwgpt4-base",
+        "url": "https://huggingface.co/FlameF0X/anwgpt4-base"
+      },
+      {
+        "title": "laura2243/deberta-sota",
+        "url": "https://huggingface.co/laura2243/deberta-sota"
+      },
+      {
+        "title": "laura2243/bert-sota",
+        "url": "https://huggingface.co/laura2243/bert-sota"
+      },
+      {
+        "title": "sidrit30/roberta_news_classifier",
+        "url": "https://huggingface.co/sidrit30/roberta_news_classifier"
+      }
+    ],
+    "benchmarks": [
+      {
+        "title": "laura2243/deberta-sota",
+        "url": "https://huggingface.co/laura2243/deberta-sota"
+      },
+      {
+        "title": "laura2243/bert-sota",
+        "url": "https://huggingface.co/laura2243/bert-sota"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "5 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_patterns": 2,
+    "total_inferences": 1,
+    "total_papers": 7
   }
 }
