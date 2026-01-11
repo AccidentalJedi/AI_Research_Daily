@@ -1,11 +1,22 @@
 {
-  "date": "2026-01-11T12:13:03.100555",
-  "patterns": {},
+  "date": "2026-01-11T16:09:13.466968",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "DanielCHTan97/toy-persona-gpt2-d1",
+        "url": "https://huggingface.co/DanielCHTan97/toy-persona-gpt2-d1"
+      },
+      {
+        "title": "DataPilot/ArrowIdeative-13b-Instruct-test-llm-jp-v0.2",
+        "url": "https://huggingface.co/DataPilot/ArrowIdeative-13b-Instruct-test-llm-jp-v0.2"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
