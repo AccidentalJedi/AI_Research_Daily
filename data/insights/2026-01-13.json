@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-13T12:14:35.503260",
+  "date": "2026-01-13T16:11:52.802811",
   "patterns": {
     "multimodal_research": [
       {
@@ -655,12 +655,8 @@
         "url": "https://arxiv.org/abs/2601.07268v1"
       },
       {
-        "title": "shhnotadoctor/roberta-base-klue-ynat-classification",
-        "url": "https://huggingface.co/shhnotadoctor/roberta-base-klue-ynat-classification"
-      },
-      {
-        "title": "tunakite03/visobert-emotion-vietnamese",
-        "url": "https://huggingface.co/tunakite03/visobert-emotion-vietnamese"
+        "title": "LLM-course/base",
+        "url": "https://huggingface.co/LLM-course/base"
       }
     ],
     "vision_systems": [
@@ -1657,7 +1653,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "98 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1716,6 +1712,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 404
+    "total_papers": 403
   }
 }
