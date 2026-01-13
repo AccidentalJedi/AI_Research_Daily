@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-13T04:23:17.878579",
+  "date": "2026-01-13T08:12:17.224003",
   "patterns": {
     "multimodal_research": [
       {
@@ -653,26 +653,6 @@
       {
         "title": "From Landslide Conditioning Factors to Satellite Embeddings: Evaluating the Utilisation of Google AlphaEarth for Landslide Susceptibility Mapping using Deep Learning",
         "url": "https://arxiv.org/abs/2601.07268v1"
-      },
-      {
-        "title": "Ksgk-fy/iblm-gpt2-xl-fineweb10B",
-        "url": "https://huggingface.co/Ksgk-fy/iblm-gpt2-xl-fineweb10B"
-      },
-      {
-        "title": "Ksgk-fy/iblm-gpt2-large-fineweb10B",
-        "url": "https://huggingface.co/Ksgk-fy/iblm-gpt2-large-fineweb10B"
-      },
-      {
-        "title": "Ksgk-fy/iblm-gpt2-medium-fineweb10B",
-        "url": "https://huggingface.co/Ksgk-fy/iblm-gpt2-medium-fineweb10B"
-      },
-      {
-        "title": "Ksgk-fy/iblm-gpt2-small-fineweb10B",
-        "url": "https://huggingface.co/Ksgk-fy/iblm-gpt2-small-fineweb10B"
-      },
-      {
-        "title": "ebisuke/llm-japanese-llm10",
-        "url": "https://huggingface.co/ebisuke/llm-japanese-llm10"
       }
     ],
     "vision_systems": [
@@ -1669,7 +1649,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "101 independent papers",
+      "observation": "96 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1728,6 +1708,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 402
   }
 }
