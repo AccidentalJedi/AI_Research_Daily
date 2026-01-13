@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-13T08:12:17.224003",
+  "date": "2026-01-13T12:14:35.503260",
   "patterns": {
     "multimodal_research": [
       {
@@ -653,6 +653,14 @@
       {
         "title": "From Landslide Conditioning Factors to Satellite Embeddings: Evaluating the Utilisation of Google AlphaEarth for Landslide Susceptibility Mapping using Deep Learning",
         "url": "https://arxiv.org/abs/2601.07268v1"
+      },
+      {
+        "title": "shhnotadoctor/roberta-base-klue-ynat-classification",
+        "url": "https://huggingface.co/shhnotadoctor/roberta-base-klue-ynat-classification"
+      },
+      {
+        "title": "tunakite03/visobert-emotion-vietnamese",
+        "url": "https://huggingface.co/tunakite03/visobert-emotion-vietnamese"
       }
     ],
     "vision_systems": [
@@ -1649,7 +1657,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "96 independent papers",
+      "observation": "98 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1708,6 +1716,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 402
+    "total_papers": 404
   }
 }
