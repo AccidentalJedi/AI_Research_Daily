@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-13T16:11:52.802811",
+  "date": "2026-01-13T20:09:57.358057",
   "patterns": {
     "multimodal_research": [
       {
@@ -543,7 +543,7 @@
         "url": "https://arxiv.org/abs/2601.07506v1"
       },
       {
-        "title": "FROAV: A Framework for RAG Observation and Agent Verification - Lowering the Barrier to LLM Agent Research",
+        "title": "FROAV: A Framework for RAG Observation and Agent Verification -- Lowering the Barrier to LLM Agent Research",
         "url": "https://arxiv.org/abs/2601.07504v1"
       },
       {
@@ -655,8 +655,12 @@
         "url": "https://arxiv.org/abs/2601.07268v1"
       },
       {
-        "title": "LLM-course/base",
-        "url": "https://huggingface.co/LLM-course/base"
+        "title": "arthurbittencourt/december-llm_paraphrase-xlm-roberta_twitter_topics_0_a-fold6",
+        "url": "https://huggingface.co/arthurbittencourt/december-llm_paraphrase-xlm-roberta_twitter_topics_0_a-fold6"
+      },
+      {
+        "title": "arthurbittencourt/december-llm_paraphrase-xlm-roberta_twitter_topics_0_a-fold5",
+        "url": "https://huggingface.co/arthurbittencourt/december-llm_paraphrase-xlm-roberta_twitter_topics_0_a-fold5"
       }
     ],
     "vision_systems": [
@@ -805,7 +809,7 @@
         "url": "https://arxiv.org/abs/2601.07645v1"
       },
       {
-        "title": "FROAV: A Framework for RAG Observation and Agent Verification - Lowering the Barrier to LLM Agent Research",
+        "title": "FROAV: A Framework for RAG Observation and Agent Verification -- Lowering the Barrier to LLM Agent Research",
         "url": "https://arxiv.org/abs/2601.07504v1"
       },
       {
@@ -1135,7 +1139,7 @@
         "url": "https://arxiv.org/abs/2601.07645v1"
       },
       {
-        "title": "FROAV: A Framework for RAG Observation and Agent Verification - Lowering the Barrier to LLM Agent Research",
+        "title": "FROAV: A Framework for RAG Observation and Agent Verification -- Lowering the Barrier to LLM Agent Research",
         "url": "https://arxiv.org/abs/2601.07504v1"
       },
       {
@@ -1537,7 +1541,7 @@
         "url": "https://arxiv.org/abs/2601.07506v1"
       },
       {
-        "title": "FROAV: A Framework for RAG Observation and Agent Verification - Lowering the Barrier to LLM Agent Research",
+        "title": "FROAV: A Framework for RAG Observation and Agent Verification -- Lowering the Barrier to LLM Agent Research",
         "url": "https://arxiv.org/abs/2601.07504v1"
       },
       {
@@ -1653,7 +1657,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "97 independent papers",
+      "observation": "98 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1712,6 +1716,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 403
+    "total_papers": 404
   }
 }
