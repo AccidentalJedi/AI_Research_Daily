@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-15T04:24:25.129748",
+  "date": "2026-01-15T08:11:53.169840",
   "patterns": {
     "multimodal_research": [
       {
@@ -789,6 +789,10 @@
       {
         "title": "OpenVoxel: Training-Free Grouping and Captioning Voxels for Open-Vocabulary 3D Scene Understanding",
         "url": "https://arxiv.org/abs/2601.09575v1"
+      },
+      {
+        "title": "LLM-course/chess-khanghoang0902",
+        "url": "https://huggingface.co/LLM-course/chess-khanghoang0902"
       }
     ],
     "vision_systems": [
@@ -1857,7 +1861,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "95 independent papers",
+      "observation": "96 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1916,6 +1920,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 454
+    "total_papers": 455
   }
 }
