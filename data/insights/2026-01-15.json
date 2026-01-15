@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-15T16:14:28.682969",
+  "date": "2026-01-15T20:09:38.246604",
   "patterns": {
     "multimodal_research": [
       {
@@ -791,24 +791,12 @@
         "url": "https://arxiv.org/abs/2601.09575v1"
       },
       {
-        "title": "sidleal/omniASR_LLM_1B_Tarsila_15k",
-        "url": "https://huggingface.co/sidleal/omniASR_LLM_1B_Tarsila_15k"
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta-semeval2024-fold8",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta-semeval2024-fold8"
       },
       {
-        "title": "LLM-course/chess-CC-test",
-        "url": "https://huggingface.co/LLM-course/chess-CC-test"
-      },
-      {
-        "title": "sidleal/omniASR_LLM_1B_Tarsila_14k",
-        "url": "https://huggingface.co/sidleal/omniASR_LLM_1B_Tarsila_14k"
-      },
-      {
-        "title": "LLM-course/chess_leonardo_artiles_v2",
-        "url": "https://huggingface.co/LLM-course/chess_leonardo_artiles_v2"
-      },
-      {
-        "title": "LLM-course/chess-CC-exp3",
-        "url": "https://huggingface.co/LLM-course/chess-CC-exp3"
+        "title": "LLM-course/chess-model2-giu",
+        "url": "https://huggingface.co/LLM-course/chess-model2-giu"
       }
     ],
     "vision_systems": [
@@ -1877,7 +1865,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "100 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1936,6 +1924,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 459
+    "total_papers": 456
   }
 }
