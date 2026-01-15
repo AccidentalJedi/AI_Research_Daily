@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-15T08:11:53.169840",
+  "date": "2026-01-15T12:14:31.386807",
   "patterns": {
     "multimodal_research": [
       {
@@ -791,8 +791,8 @@
         "url": "https://arxiv.org/abs/2601.09575v1"
       },
       {
-        "title": "LLM-course/chess-khanghoang0902",
-        "url": "https://huggingface.co/LLM-course/chess-khanghoang0902"
+        "title": "LLM-course/chess-khanghoang0902-v1",
+        "url": "https://huggingface.co/LLM-course/chess-khanghoang0902-v1"
       }
     ],
     "vision_systems": [
@@ -1095,6 +1095,30 @@
       {
         "title": "Architecture inside the mirage: evaluating generative image models on architectural style, elements, and typologies",
         "url": "https://arxiv.org/abs/2601.09169v1"
+      },
+      {
+        "title": "openvision/yolo26-x",
+        "url": "https://huggingface.co/openvision/yolo26-x"
+      },
+      {
+        "title": "benjiaiplayground/GLM-Image-merged",
+        "url": "https://huggingface.co/benjiaiplayground/GLM-Image-merged"
+      },
+      {
+        "title": "openvision/yolo26-l",
+        "url": "https://huggingface.co/openvision/yolo26-l"
+      },
+      {
+        "title": "openvision/yolo26-m",
+        "url": "https://huggingface.co/openvision/yolo26-m"
+      },
+      {
+        "title": "openvision/yolo26-s",
+        "url": "https://huggingface.co/openvision/yolo26-s"
+      },
+      {
+        "title": "openvision/yolo26-n",
+        "url": "https://huggingface.co/openvision/yolo26-n"
       }
     ],
     "reasoning": [
@@ -1369,6 +1393,10 @@
       {
         "title": "From Performance to Practice: Knowledge-Distilled Segmentator for On-Premises Clinical Workflows",
         "url": "https://arxiv.org/abs/2601.09191v1"
+      },
+      {
+        "title": "flaitenberger/Olmo-3-1025-7B-logic-1e-4-final-adapter",
+        "url": "https://huggingface.co/flaitenberger/Olmo-3-1025-7B-logic-1e-4-final-adapter"
       }
     ],
     "benchmarks": [
@@ -1867,13 +1895,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "75 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "68 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1902,13 +1930,13 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
+      "topic": "vision",
       "frequency": 43,
       "significance": "high"
     },
     {
-      "topic": "vision",
-      "frequency": 38,
+      "topic": "reasoning",
+      "frequency": 43,
       "significance": "high"
     },
     {
@@ -1920,6 +1948,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 455
+    "total_papers": 462
   }
 }
