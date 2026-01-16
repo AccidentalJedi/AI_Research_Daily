@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-16T08:11:43.136611",
+  "date": "2026-01-16T12:13:33.958014",
   "patterns": {
     "multimodal_research": [
       {
@@ -755,24 +755,8 @@
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
       {
-        "title": "Dawn123666/evo_mbert_1024_v3",
-        "url": "https://huggingface.co/Dawn123666/evo_mbert_1024_v3"
-      },
-      {
-        "title": "LLM-course/chess-steph-v2",
-        "url": "https://huggingface.co/LLM-course/chess-steph-v2"
-      },
-      {
-        "title": "LLM-course/chess-tomin-v3",
-        "url": "https://huggingface.co/LLM-course/chess-tomin-v3"
-      },
-      {
-        "title": "Sadman4701/Deberta-v3-base-for-apricity",
-        "url": "https://huggingface.co/Sadman4701/Deberta-v3-base-for-apricity"
-      },
-      {
-        "title": "jiraratchanok/distilbert-base-uncased-finetuned-emotion",
-        "url": "https://huggingface.co/jiraratchanok/distilbert-base-uncased-finetuned-emotion"
+        "title": "GuyNawaphat/distilbert-base-uncased-finetuned-emotion",
+        "url": "https://huggingface.co/GuyNawaphat/distilbert-base-uncased-finetuned-emotion"
       }
     ],
     "vision_systems": [
@@ -1317,6 +1301,10 @@
       {
         "title": "Jordan-Segmentable Masks: A Topology-Aware definition for characterizing Binary Image Segmentation",
         "url": "https://arxiv.org/abs/2601.10577v1"
+      },
+      {
+        "title": "inferencerlabs/LongCat-Flash-Thinking-2601-MLX-6.5bit",
+        "url": "https://huggingface.co/inferencerlabs/LongCat-Flash-Thinking-2601-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1757,7 +1745,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "112 independent papers",
+      "observation": "108 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1769,7 +1757,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "75 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1816,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 429
+    "total_papers": 426
   }
 }
