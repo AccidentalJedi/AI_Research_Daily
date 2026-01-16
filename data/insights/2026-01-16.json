@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-16T16:11:08.382379",
+  "date": "2026-01-16T20:09:33.513867",
   "patterns": {
     "multimodal_research": [
       {
@@ -755,16 +755,24 @@
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
       {
-        "title": "LLM-course/chess_200arbrescrames",
-        "url": "https://huggingface.co/LLM-course/chess_200arbrescrames"
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta-twitter_topics_0_a-fold6",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta-twitter_topics_0_a-fold6"
       },
       {
-        "title": "LLM-course/chess-CC-try5",
-        "url": "https://huggingface.co/LLM-course/chess-CC-try5"
+        "title": "LLM-course/chess-player-v2",
+        "url": "https://huggingface.co/LLM-course/chess-player-v2"
       },
       {
-        "title": "LLM-course/chess-baseline-v1",
-        "url": "https://huggingface.co/LLM-course/chess-baseline-v1"
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta-twitter_topics_0_a-fold5",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta-twitter_topics_0_a-fold5"
+      },
+      {
+        "title": "katya228/xinyuan-llm-14b-0428-heretic-psychology-gguf-q4_0",
+        "url": "https://huggingface.co/katya228/xinyuan-llm-14b-0428-heretic-psychology-gguf-q4_0"
+      },
+      {
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta-twitter_topics_0_a-fold4",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta-twitter_topics_0_a-fold4"
       }
     ],
     "vision_systems": [
@@ -1749,7 +1757,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "110 independent papers",
+      "observation": "112 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1816,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 429
   }
 }
