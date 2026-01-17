@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-17T08:10:22.185281",
+  "date": "2026-01-17T12:12:02.899947",
   "patterns": {
     "multimodal_research": [
       {
@@ -759,12 +759,40 @@
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
       {
-        "title": "mradermacher/ThaiLLM-8B-SFT-IQ-i1-GGUF",
-        "url": "https://huggingface.co/mradermacher/ThaiLLM-8B-SFT-IQ-i1-GGUF"
+        "title": "FlameF0X/my-custom-gpt2",
+        "url": "https://huggingface.co/FlameF0X/my-custom-gpt2"
       },
       {
         "title": "ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated",
         "url": "https://huggingface.co/ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated"
+      },
+      {
+        "title": "LLM-course/chess-reb1.2",
+        "url": "https://huggingface.co/LLM-course/chess-reb1.2"
+      },
+      {
+        "title": "FlameF0X/my-tiny-gpt2",
+        "url": "https://huggingface.co/FlameF0X/my-tiny-gpt2"
+      },
+      {
+        "title": "LLM-course/chess-grenouille-v2",
+        "url": "https://huggingface.co/LLM-course/chess-grenouille-v2"
+      },
+      {
+        "title": "LLM-course/peax-baseline-40000s",
+        "url": "https://huggingface.co/LLM-course/peax-baseline-40000s"
+      },
+      {
+        "title": "santa47/cbt-distortion-classifier-bert",
+        "url": "https://huggingface.co/santa47/cbt-distortion-classifier-bert"
+      },
+      {
+        "title": "LLM-course/chess-submission-MDaytek",
+        "url": "https://huggingface.co/LLM-course/chess-submission-MDaytek"
+      },
+      {
+        "title": "LLM-course/chess-reb",
+        "url": "https://huggingface.co/LLM-course/chess-reb"
       }
     ],
     "vision_systems": [
@@ -1749,7 +1777,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "109 independent papers",
+      "observation": "116 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1836,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 434
   }
 }
