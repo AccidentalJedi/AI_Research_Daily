@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-17T04:16:53.488527",
+  "date": "2026-01-17T08:10:22.185281",
   "patterns": {
     "multimodal_research": [
       {
@@ -323,6 +323,10 @@
       {
         "title": "ELITE: Efficient Gaussian Head Avatar from a Monocular Video via Learned Initialization and TEst-time Generative Adaptation",
         "url": "https://arxiv.org/abs/2601.10200v1"
+      },
+      {
+        "title": "edp1806/Modele_Chef_Kaggle_MOE",
+        "url": "https://huggingface.co/edp1806/Modele_Chef_Kaggle_MOE"
       }
     ],
     "language_models": [
@@ -755,12 +759,12 @@
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
       {
-        "title": "ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated",
-        "url": "https://huggingface.co/ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated"
+        "title": "mradermacher/ThaiLLM-8B-SFT-IQ-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/ThaiLLM-8B-SFT-IQ-i1-GGUF"
       },
       {
-        "title": "harsith05/bert-imdb",
-        "url": "https://huggingface.co/harsith05/bert-imdb"
+        "title": "ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated",
+        "url": "https://huggingface.co/ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated"
       }
     ],
     "vision_systems": [
@@ -1733,7 +1737,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "55 independent papers",
+      "observation": "56 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1804,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 427
   }
 }
