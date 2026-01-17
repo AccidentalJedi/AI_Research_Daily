@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-17T16:08:35.475455",
+  "date": "2026-01-17T20:08:57.930490",
   "patterns": {
     "multimodal_research": [
       {
@@ -755,48 +755,40 @@
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
       {
-        "title": "Irfanuruchi/SmolLM-360M-Instruct-MLX-3bit",
-        "url": "https://huggingface.co/Irfanuruchi/SmolLM-360M-Instruct-MLX-3bit"
+        "title": "LLM-course/chess_tlemagny_4.1",
+        "url": "https://huggingface.co/LLM-course/chess_tlemagny_4.1"
       },
       {
-        "title": "Irfanuruchi/SmolLM-360M-Instruct-MLX-5bit",
-        "url": "https://huggingface.co/Irfanuruchi/SmolLM-360M-Instruct-MLX-5bit"
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-twitter_topics_1_a-fold4",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-twitter_topics_1_a-fold4"
       },
       {
-        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-semeval2015-fold6",
-        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-semeval2015-fold6"
+        "title": "LLM-course/chess-model-KHOUTAIBI_v4",
+        "url": "https://huggingface.co/LLM-course/chess-model-KHOUTAIBI_v4"
       },
       {
-        "title": "risazhrn/indobert-hotel",
-        "url": "https://huggingface.co/risazhrn/indobert-hotel"
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-twitter_topics_1_a-fold3",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-twitter_topics_1_a-fold3"
       },
       {
-        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-semeval2015-fold5",
-        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-semeval2015-fold5"
+        "title": "LLM-course/chess_v1_n",
+        "url": "https://huggingface.co/LLM-course/chess_v1_n"
       },
       {
-        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-semeval2015-fold4",
-        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-semeval2015-fold4"
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-twitter_topics_1_a-fold2",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-twitter_topics_1_a-fold2"
       },
       {
-        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-semeval2015-fold3",
-        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-semeval2015-fold3"
+        "title": "JartiX/bert_tourism_classifier",
+        "url": "https://huggingface.co/JartiX/bert_tourism_classifier"
       },
       {
-        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-semeval2015-fold2",
-        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-semeval2015-fold2"
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-twitter_topics_1_a-fold1",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-twitter_topics_1_a-fold1"
       },
       {
-        "title": "ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated",
-        "url": "https://huggingface.co/ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated"
-      },
-      {
-        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-semeval2015-fold1",
-        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-semeval2015-fold1"
-      },
-      {
-        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-semeval2015-fold0",
-        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-semeval2015-fold0"
+        "title": "LLM-course/chess-model-KHOUTAIBI_v3",
+        "url": "https://huggingface.co/LLM-course/chess-model-KHOUTAIBI_v3"
       }
     ],
     "vision_systems": [
@@ -1781,7 +1773,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "118 independent papers",
+      "observation": "116 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1840,6 +1832,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 435
+    "total_papers": 433
   }
 }
