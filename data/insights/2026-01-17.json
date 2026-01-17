@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-17T00:29:02.299290",
+  "date": "2026-01-17T04:16:53.488527",
   "patterns": {
     "multimodal_research": [
       {
@@ -755,20 +755,12 @@
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
       {
-        "title": "LLM-course/chess-zzz-orig-submit",
-        "url": "https://huggingface.co/LLM-course/chess-zzz-orig-submit"
-      },
-      {
-        "title": "LLM-course/chess-oussama-baseline",
-        "url": "https://huggingface.co/LLM-course/chess-oussama-baseline"
-      },
-      {
         "title": "ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated",
         "url": "https://huggingface.co/ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated"
       },
       {
-        "title": "LLM-course/chess-submission-MDaytek",
-        "url": "https://huggingface.co/LLM-course/chess-submission-MDaytek"
+        "title": "harsith05/bert-imdb",
+        "url": "https://huggingface.co/harsith05/bert-imdb"
       }
     ],
     "vision_systems": [
@@ -1753,7 +1745,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "111 independent papers",
+      "observation": "109 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1812,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 426
   }
 }
