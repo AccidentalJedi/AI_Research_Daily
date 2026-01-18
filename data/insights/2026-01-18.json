@@ -1,53 +1,89 @@
 {
-  "date": "2026-01-18T16:09:01.208265",
+  "date": "2026-01-18T20:09:01.664285",
   "patterns": {
     "language_models": [
       {
-        "title": "LLM-course/chess2",
-        "url": "https://huggingface.co/LLM-course/chess2"
+        "title": "LLM-course/chess-good-but-inefficient-v4",
+        "url": "https://huggingface.co/LLM-course/chess-good-but-inefficient-v4"
       },
       {
-        "title": "LLM-course/chess-version1",
-        "url": "https://huggingface.co/LLM-course/chess-version1"
+        "title": "LLM-course/chess-pgberlureau-v1",
+        "url": "https://huggingface.co/LLM-course/chess-pgberlureau-v1"
       },
       {
-        "title": "LLM-course/chess_filo_4",
-        "url": "https://huggingface.co/LLM-course/chess_filo_4"
+        "title": "LLM-course/chess_tlemagny_5.3",
+        "url": "https://huggingface.co/LLM-course/chess_tlemagny_5.3"
       },
       {
         "title": "LLM-course/chess-player",
         "url": "https://huggingface.co/LLM-course/chess-player"
       },
       {
-        "title": "LLM-course/chess-recurrent-transormer",
-        "url": "https://huggingface.co/LLM-course/chess-recurrent-transormer"
+        "title": "LLM-course/chess-czp-v2",
+        "url": "https://huggingface.co/LLM-course/chess-czp-v2"
       },
       {
-        "title": "lester-liam/clf-metaphors-distilbert-base-uncased",
-        "url": "https://huggingface.co/lester-liam/clf-metaphors-distilbert-base-uncased"
+        "title": "LLM-course/chess-bot-v2",
+        "url": "https://huggingface.co/LLM-course/chess-bot-v2"
       },
       {
-        "title": "LLM-course/chess-oussama-v4",
-        "url": "https://huggingface.co/LLM-course/chess-oussama-v4"
+        "title": "LLM-course/chess-ykolo-v4",
+        "url": "https://huggingface.co/LLM-course/chess-ykolo-v4"
       },
       {
-        "title": "LLM-course/chess_boring",
-        "url": "https://huggingface.co/LLM-course/chess_boring"
+        "title": "LLM-course/chess_minfreq",
+        "url": "https://huggingface.co/LLM-course/chess_minfreq"
       },
       {
-        "title": "LLM-course/chess-model-chloecourt-v1",
-        "url": "https://huggingface.co/LLM-course/chess-model-chloecourt-v1"
+        "title": "LLM-course/chess_basic_tokenizer",
+        "url": "https://huggingface.co/LLM-course/chess_basic_tokenizer"
       },
       {
-        "title": "dtaddis/SmolLM3-3B-Unity",
-        "url": "https://huggingface.co/dtaddis/SmolLM3-3B-Unity"
+        "title": "LLM-course/chess-vincentime-rook",
+        "url": "https://huggingface.co/LLM-course/chess-vincentime-rook"
+      },
+      {
+        "title": "LLM-course/chess-ines-tokpov",
+        "url": "https://huggingface.co/LLM-course/chess-ines-tokpov"
+      },
+      {
+        "title": "LLM-course/basic_tokenizer",
+        "url": "https://huggingface.co/LLM-course/basic_tokenizer"
+      },
+      {
+        "title": "JartiX/bert_tourism_classifier",
+        "url": "https://huggingface.co/JartiX/bert_tourism_classifier"
+      },
+      {
+        "title": "LLM-course/test-format-etienneLefranc",
+        "url": "https://huggingface.co/LLM-course/test-format-etienneLefranc"
+      },
+      {
+        "title": "LLM-course/chess-haiphamcse_olmo_3k_modified_token_dummy",
+        "url": "https://huggingface.co/LLM-course/chess-haiphamcse_olmo_3k_modified_token_dummy"
+      },
+      {
+        "title": "prasaths018/Fine-tuned-LLM-model",
+        "url": "https://huggingface.co/prasaths018/Fine-tuned-LLM-model"
+      },
+      {
+        "title": "srswti/gpt-oss-20b-Derestricted-mxfp4-mlx",
+        "url": "https://huggingface.co/srswti/gpt-oss-20b-Derestricted-mxfp4-mlx"
+      },
+      {
+        "title": "LLM-course/chess_M15_BOSS",
+        "url": "https://huggingface.co/LLM-course/chess_M15_BOSS"
+      },
+      {
+        "title": "LLM-course/chess-aj-baseline-v3",
+        "url": "https://huggingface.co/LLM-course/chess-aj-baseline-v3"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "10 independent papers",
+      "observation": "19 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -56,6 +92,6 @@
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 10
+    "total_papers": 19
   }
 }
