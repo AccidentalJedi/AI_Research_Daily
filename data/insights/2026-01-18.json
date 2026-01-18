@@ -1,11 +1,32 @@
 {
-  "date": "2026-01-18T04:24:10.203547",
-  "patterns": {},
+  "date": "2026-01-18T08:10:17.228585",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "JP111/gpt_oss_20b_math",
+        "url": "https://huggingface.co/JP111/gpt_oss_20b_math"
+      },
+      {
+        "title": "LLM-course/chess_zak_third",
+        "url": "https://huggingface.co/LLM-course/chess_zak_third"
+      }
+    ],
+    "vision_systems": [
+      {
+        "title": "wikeeyang/Real-Qwen-Image-V2",
+        "url": "https://huggingface.co/wikeeyang/Real-Qwen-Image-V2"
+      },
+      {
+        "title": "newpcgoogle/myupimages",
+        "url": "https://huggingface.co/datasets/newpcgoogle/myupimages"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 2,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 4
   }
 }
