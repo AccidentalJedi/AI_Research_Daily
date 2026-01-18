@@ -1,0 +1,61 @@
+{
+  "date": "2026-01-18T00:33:58.601922",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "srswti/SmolLM-135M-8bit",
+        "url": "https://huggingface.co/srswti/SmolLM-135M-8bit"
+      },
+      {
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-twitter_topics_1_a-fold2",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-twitter_topics_1_a-fold2"
+      },
+      {
+        "title": "LLM-course/chess_zak_third_epoch1",
+        "url": "https://huggingface.co/LLM-course/chess_zak_third_epoch1"
+      },
+      {
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-twitter_topics_1_a-fold1",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-twitter_topics_1_a-fold1"
+      },
+      {
+        "title": "LLM-course/mon-chess-model-toto-2",
+        "url": "https://huggingface.co/LLM-course/mon-chess-model-toto-2"
+      },
+      {
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-twitter_topics_1_a-fold0",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-twitter_topics_1_a-fold0"
+      },
+      {
+        "title": "hrktos-37/gpt-oss-120b-heretic",
+        "url": "https://huggingface.co/hrktos-37/gpt-oss-120b-heretic"
+      },
+      {
+        "title": "LLM-course/chess-sam-model-v2",
+        "url": "https://huggingface.co/LLM-course/chess-sam-model-v2"
+      },
+      {
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-twitter_topics_0_a-fold9",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-twitter_topics_0_a-fold9"
+      },
+      {
+        "title": "LLM-course/chess-submission-v2-MDaytek",
+        "url": "https://huggingface.co/LLM-course/chess-submission-v2-MDaytek"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "10 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 10
+  }
+}
