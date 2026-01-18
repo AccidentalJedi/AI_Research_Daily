@@ -1,32 +1,41 @@
 {
-  "date": "2026-01-18T08:10:17.228585",
+  "date": "2026-01-18T12:13:01.790937",
   "patterns": {
     "language_models": [
       {
-        "title": "JP111/gpt_oss_20b_math",
-        "url": "https://huggingface.co/JP111/gpt_oss_20b_math"
+        "title": "LLM-course/chess-sam-model-best",
+        "url": "https://huggingface.co/LLM-course/chess-sam-model-best"
       },
       {
-        "title": "LLM-course/chess_zak_third",
-        "url": "https://huggingface.co/LLM-course/chess_zak_third"
-      }
-    ],
-    "vision_systems": [
-      {
-        "title": "wikeeyang/Real-Qwen-Image-V2",
-        "url": "https://huggingface.co/wikeeyang/Real-Qwen-Image-V2"
+        "title": "LLM-course/tanguy-chess-3",
+        "url": "https://huggingface.co/LLM-course/tanguy-chess-3"
       },
       {
-        "title": "newpcgoogle/myupimages",
-        "url": "https://huggingface.co/datasets/newpcgoogle/myupimages"
+        "title": "LLM-course/chess-vincentime-rook-beta-2",
+        "url": "https://huggingface.co/LLM-course/chess-vincentime-rook-beta-2"
+      },
+      {
+        "title": "amekhrishvili/rubert-mini-uncased-aibank-customer-text-classifier-v0",
+        "url": "https://huggingface.co/amekhrishvili/rubert-mini-uncased-aibank-customer-text-classifier-v0"
+      },
+      {
+        "title": "LLM-course/clmrie-chess-legal-v5",
+        "url": "https://huggingface.co/LLM-course/clmrie-chess-legal-v5"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "5 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 2,
-    "total_inferences": 0,
-    "total_papers": 4
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 5
   }
 }
