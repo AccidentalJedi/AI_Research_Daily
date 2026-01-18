@@ -1,33 +1,53 @@
 {
-  "date": "2026-01-18T12:13:01.790937",
+  "date": "2026-01-18T16:09:01.208265",
   "patterns": {
     "language_models": [
       {
-        "title": "LLM-course/chess-sam-model-best",
-        "url": "https://huggingface.co/LLM-course/chess-sam-model-best"
+        "title": "LLM-course/chess2",
+        "url": "https://huggingface.co/LLM-course/chess2"
       },
       {
-        "title": "LLM-course/tanguy-chess-3",
-        "url": "https://huggingface.co/LLM-course/tanguy-chess-3"
+        "title": "LLM-course/chess-version1",
+        "url": "https://huggingface.co/LLM-course/chess-version1"
       },
       {
-        "title": "LLM-course/chess-vincentime-rook-beta-2",
-        "url": "https://huggingface.co/LLM-course/chess-vincentime-rook-beta-2"
+        "title": "LLM-course/chess_filo_4",
+        "url": "https://huggingface.co/LLM-course/chess_filo_4"
       },
       {
-        "title": "amekhrishvili/rubert-mini-uncased-aibank-customer-text-classifier-v0",
-        "url": "https://huggingface.co/amekhrishvili/rubert-mini-uncased-aibank-customer-text-classifier-v0"
+        "title": "LLM-course/chess-player",
+        "url": "https://huggingface.co/LLM-course/chess-player"
       },
       {
-        "title": "LLM-course/clmrie-chess-legal-v5",
-        "url": "https://huggingface.co/LLM-course/clmrie-chess-legal-v5"
+        "title": "LLM-course/chess-recurrent-transormer",
+        "url": "https://huggingface.co/LLM-course/chess-recurrent-transormer"
+      },
+      {
+        "title": "lester-liam/clf-metaphors-distilbert-base-uncased",
+        "url": "https://huggingface.co/lester-liam/clf-metaphors-distilbert-base-uncased"
+      },
+      {
+        "title": "LLM-course/chess-oussama-v4",
+        "url": "https://huggingface.co/LLM-course/chess-oussama-v4"
+      },
+      {
+        "title": "LLM-course/chess_boring",
+        "url": "https://huggingface.co/LLM-course/chess_boring"
+      },
+      {
+        "title": "LLM-course/chess-model-chloecourt-v1",
+        "url": "https://huggingface.co/LLM-course/chess-model-chloecourt-v1"
+      },
+      {
+        "title": "dtaddis/SmolLM3-3B-Unity",
+        "url": "https://huggingface.co/dtaddis/SmolLM3-3B-Unity"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "5 independent papers",
+      "observation": "10 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -36,6 +56,6 @@
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 5
+    "total_papers": 10
   }
 }
