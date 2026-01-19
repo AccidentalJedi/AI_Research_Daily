@@ -1,37 +1,45 @@
 {
-  "date": "2026-01-19T04:29:19.270520",
+  "date": "2026-01-19T08:12:57.813955",
   "patterns": {
-    "language_models": [
+    "efficient_architectures": [
       {
-        "title": "HDTenEightyP/GPT-Fem",
-        "url": "https://huggingface.co/HDTenEightyP/GPT-Fem"
+        "title": "EfficientReasoning/Qwen3-0.6B-AIME24-br64-bg2560k-fr50-Final",
+        "url": "https://huggingface.co/EfficientReasoning/Qwen3-0.6B-AIME24-br64-bg2560k-fr50-Final"
       },
       {
-        "title": "LLM-course/chess-hamonk-v10",
-        "url": "https://huggingface.co/LLM-course/chess-hamonk-v10"
+        "title": "EfficientReasoning/Qwen3-0.6B-AIME25-br64-bg2560k-fr50-Final",
+        "url": "https://huggingface.co/EfficientReasoning/Qwen3-0.6B-AIME25-br64-bg2560k-fr50-Final"
+      }
+    ],
+    "reasoning": [
+      {
+        "title": "EfficientReasoning/Qwen3-0.6B-AIME24-br64-bg2560k-fr50-Final",
+        "url": "https://huggingface.co/EfficientReasoning/Qwen3-0.6B-AIME24-br64-bg2560k-fr50-Final"
       },
       {
-        "title": "zhuojing-huang/gpt2-german20k-english10k-configA-42-1B",
-        "url": "https://huggingface.co/zhuojing-huang/gpt2-german20k-english10k-configA-42-1B"
-      },
-      {
-        "title": "LLM-course/chou-chess-challenge4",
-        "url": "https://huggingface.co/LLM-course/chou-chess-challenge4"
+        "title": "EfficientReasoning/Qwen3-0.6B-AIME25-br64-bg2560k-fr50-Final",
+        "url": "https://huggingface.co/EfficientReasoning/Qwen3-0.6B-AIME25-br64-bg2560k-fr50-Final"
       }
     ]
   },
   "inferences": [
     {
-      "pattern": "language_models",
-      "observation": "4 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "pattern": "efficient_architectures",
+      "observation": "Focus on efficiency improvements",
+      "inference": "Resource constraints driving innovation - expect deployment on edge devices and mobile",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
       "confidence": "medium"
     }
   ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
+    "total_patterns": 2,
+    "total_inferences": 2,
     "total_papers": 4
   }
 }
