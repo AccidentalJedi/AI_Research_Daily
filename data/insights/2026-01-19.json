@@ -1,22 +1,41 @@
 {
-  "date": "2026-01-19T16:10:45.816680",
+  "date": "2026-01-19T20:09:50.367684",
   "patterns": {
     "language_models": [
       {
-        "title": "LLM-course/chess-armand-blin-v-last-4",
-        "url": "https://huggingface.co/LLM-course/chess-armand-blin-v-last-4"
+        "title": "LLM-course/ParetoTinyRNNTransformers16k_v4_cycles_TRM_d24_L1_H2_C16_10k_LegalW0p5",
+        "url": "https://huggingface.co/LLM-course/ParetoTinyRNNTransformers16k_v4_cycles_TRM_d24_L1_H2_C16_10k_LegalW0p5"
       },
       {
-        "title": "LLM-course/chess_porfavormontoya2",
-        "url": "https://huggingface.co/LLM-course/chess_porfavormontoya2"
+        "title": "filipsiktar26/distilbert-base-uncased-funetuned-clinc",
+        "url": "https://huggingface.co/filipsiktar26/distilbert-base-uncased-funetuned-clinc"
+      },
+      {
+        "title": "LLM-course/ParetoTinyRNNTransformers996k_v4_cycles_TRM_d175_L3_H5_C8_999k_LegalW0p5",
+        "url": "https://huggingface.co/LLM-course/ParetoTinyRNNTransformers996k_v4_cycles_TRM_d175_L3_H5_C8_999k_LegalW0p5"
+      },
+      {
+        "title": "Hemanth7774/finbert-lora-financial-sentiment-merged",
+        "url": "https://huggingface.co/Hemanth7774/finbert-lora-financial-sentiment-merged"
+      },
+      {
+        "title": "LLM-course/chess-aj-split-v3",
+        "url": "https://huggingface.co/LLM-course/chess-aj-split-v3"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "5 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 5
   }
 }
