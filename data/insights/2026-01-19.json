@@ -1,45 +1,49 @@
 {
-  "date": "2026-01-19T08:12:57.813955",
+  "date": "2026-01-19T12:14:57.722231",
   "patterns": {
-    "efficient_architectures": [
+    "language_models": [
       {
-        "title": "EfficientReasoning/Qwen3-0.6B-AIME24-br64-bg2560k-fr50-Final",
-        "url": "https://huggingface.co/EfficientReasoning/Qwen3-0.6B-AIME24-br64-bg2560k-fr50-Final"
+        "title": "LLM-course/chess-submission-v21-MDaytek",
+        "url": "https://huggingface.co/LLM-course/chess-submission-v21-MDaytek"
       },
       {
-        "title": "EfficientReasoning/Qwen3-0.6B-AIME25-br64-bg2560k-fr50-Final",
-        "url": "https://huggingface.co/EfficientReasoning/Qwen3-0.6B-AIME25-br64-bg2560k-fr50-Final"
-      }
-    ],
-    "reasoning": [
-      {
-        "title": "EfficientReasoning/Qwen3-0.6B-AIME24-br64-bg2560k-fr50-Final",
-        "url": "https://huggingface.co/EfficientReasoning/Qwen3-0.6B-AIME24-br64-bg2560k-fr50-Final"
+        "title": "LLM-course/chess-armand-blin-v-last-4",
+        "url": "https://huggingface.co/LLM-course/chess-armand-blin-v-last-4"
       },
       {
-        "title": "EfficientReasoning/Qwen3-0.6B-AIME25-br64-bg2560k-fr50-Final",
-        "url": "https://huggingface.co/EfficientReasoning/Qwen3-0.6B-AIME25-br64-bg2560k-fr50-Final"
+        "title": "LLM-course/chess-yentl-v1",
+        "url": "https://huggingface.co/LLM-course/chess-yentl-v1"
+      },
+      {
+        "title": "Romarchive/RomarchiveGPT-1.1",
+        "url": "https://huggingface.co/Romarchive/RomarchiveGPT-1.1"
+      },
+      {
+        "title": "Capital-Ink-Morning-Glory/GPT2-SQuAD",
+        "url": "https://huggingface.co/Capital-Ink-Morning-Glory/GPT2-SQuAD"
+      },
+      {
+        "title": "Dawn123666/nlp_mbert_1024_v1",
+        "url": "https://huggingface.co/Dawn123666/nlp_mbert_1024_v1"
+      },
+      {
+        "title": "didnac/PawbertLoraTest",
+        "url": "https://huggingface.co/didnac/PawbertLoraTest"
       }
     ]
   },
   "inferences": [
     {
-      "pattern": "efficient_architectures",
-      "observation": "Focus on efficiency improvements",
-      "inference": "Resource constraints driving innovation - expect deployment on edge devices and mobile",
-      "confidence": "medium"
-    },
-    {
-      "pattern": "reasoning",
-      "observation": "Reasoning capabilities being explored",
-      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
-      "confidence": "medium"
+      "pattern": "language_models",
+      "observation": "7 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
     }
   ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 2,
-    "total_inferences": 2,
-    "total_papers": 4
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 7
   }
 }
