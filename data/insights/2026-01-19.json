@@ -1,49 +1,22 @@
 {
-  "date": "2026-01-19T12:14:57.722231",
+  "date": "2026-01-19T16:10:45.816680",
   "patterns": {
     "language_models": [
-      {
-        "title": "LLM-course/chess-submission-v21-MDaytek",
-        "url": "https://huggingface.co/LLM-course/chess-submission-v21-MDaytek"
-      },
       {
         "title": "LLM-course/chess-armand-blin-v-last-4",
         "url": "https://huggingface.co/LLM-course/chess-armand-blin-v-last-4"
       },
       {
-        "title": "LLM-course/chess-yentl-v1",
-        "url": "https://huggingface.co/LLM-course/chess-yentl-v1"
-      },
-      {
-        "title": "Romarchive/RomarchiveGPT-1.1",
-        "url": "https://huggingface.co/Romarchive/RomarchiveGPT-1.1"
-      },
-      {
-        "title": "Capital-Ink-Morning-Glory/GPT2-SQuAD",
-        "url": "https://huggingface.co/Capital-Ink-Morning-Glory/GPT2-SQuAD"
-      },
-      {
-        "title": "Dawn123666/nlp_mbert_1024_v1",
-        "url": "https://huggingface.co/Dawn123666/nlp_mbert_1024_v1"
-      },
-      {
-        "title": "didnac/PawbertLoraTest",
-        "url": "https://huggingface.co/didnac/PawbertLoraTest"
+        "title": "LLM-course/chess_porfavormontoya2",
+        "url": "https://huggingface.co/LLM-course/chess_porfavormontoya2"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "7 independent papers",
-      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
-      "confidence": "high"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 7
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
