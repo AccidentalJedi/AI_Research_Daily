@@ -13,11 +13,11 @@
       "Boris Bolliet",
       "Adam S. Bolton",
       "Clecio R. Bom",
-      "Rapha\u00ebl Bonnet-Guerrini",
+      "Raphaël Bonnet-Guerrini",
       "Alexandre Boucaud",
       "Jean-Eric Campagne",
       "Chihway Chang",
-      "Aleksandra \u0106iprijanovi\u0107",
+      "Aleksandra Ćiprijanović",
       "Johann Cohen-Tanugi",
       "Michael W. Coughlin",
       "John Franklin Crenshaw",
@@ -25,7 +25,7 @@
       "Juan de Vicente",
       "Seth W. Digel",
       "Steven Dillmann",
-      "Mariano Javier de Le\u00f3n Dominguez Romero",
+      "Mariano Javier de León Dominguez Romero",
       "Alex Drlica-Wagner",
       "Sydney Erickson",
       "Alexander T. Gagliano",
@@ -38,23 +38,23 @@
       "Mustapha Ishak",
       "Wassim Kabalan",
       "Arun Kannawadi",
-      "Fran\u00e7ois Lanusse",
+      "François Lanusse",
       "C. Danielle Leonard",
-      "Pierre-Fran\u00e7ois L\u00e9get",
+      "Pierre-François Léget",
       "Michelle Lochner",
       "Yao-Yuan Mao",
       "Peter Melchior",
       "Grant Merz",
       "Martin Millon",
-      "Anais M\u00f6ller",
+      "Anais Möller",
       "Gautham Narayan",
       "Yuuki Omori",
       "Hiranya Peiris",
       "Laurence Perreault-Levasseur",
-      "Andr\u00e9s A. Plazas Malag\u00f3n",
+      "Andrés A. Plazas Malagón",
       "Nesar Ramachandra",
       "Benjamin Remy",
-      "C\u00e9cile Roucelle",
+      "Cécile Roucelle",
       "Jaime Ruiz-Zapatero",
       "Stefan Schuldt",
       "Ignacio Sevilla-Noarbe",
@@ -62,7 +62,7 @@
       "Tjitske Starkenburg",
       "Stephen Thorp",
       "Laura Toribio San Cipriano",
-      "Tilman Tr\u00f6ster",
+      "Tilman Tröster",
       "Roberto Trotta",
       "Padma Venkatraman",
       "Amanda Wasserman",
@@ -886,7 +886,7 @@
     "summary": "Intermittent time series, characterised by the presence of a significant amount of zeros, constitute a large percentage of inventory items in supply chain. Probabilistic forecasts are needed to plan the inventory levels; the predictive distribution should cover non-negative values, have a mass in zero and a long upper tail. Intermittent time series are commonly forecast using local models, which are trained individually on each time series. In the last years global models, which are trained on a large collection of time series, have become popular for time series forecasting. Global models are often based on neural networks. However, they have not yet been exhaustively tested on intermittent time series. We carry out the first study comparing state-of-the-art local (iETS, TweedieGP) and global models (D-Linear, DeepAR, Transformers) on intermittent time series. For neural networks models we consider three different distribution heads suitable for intermittent time series: negative binomial, hurdle-shifted negative binomial and Tweedie. We use, for the first time, the last two distribution heads with neural networks. We perform experiments on five large datasets comprising more than 40'000 real-world time series. Among neural networks D-Linear provides best accuracy; it also consistently outperforms the local models. Moreover, it has also low computational requirements. Transformers-based architectures are instead much more computationally demanding and less accurate. Among the distribution heads, the Tweedie provides the best estimates of the highest quantiles, while the negative binomial offers overall the best performance.",
     "authors": [
       "Stefano Damato",
-      "Nicol\u00f2 Rubattu",
+      "Nicolò Rubattu",
       "Dario Azzimonti",
       "Giorgio Corani"
     ],
@@ -1007,7 +1007,7 @@
     "title": "Human Values in a Single Sentence: Moral Presence, Hierarchies, and Transformer Ensembles on the Schwartz Continuum",
     "summary": "We study sentence-level identification of the 19 values in the Schwartz motivational continuum as a concrete formulation of human value detection in text. The setting - out-of-context sentences from news and political manifestos - features sparse moral cues and severe class imbalance. This combination makes fine-grained sentence-level value detection intrinsically difficult, even for strong modern neural models. We first operationalize a binary moral presence task (\"does any value appear?\") and show that it is learnable from single sentences (positive-class F1 $\\approx$ 0.74 with calibrated thresholds). We then compare a presence-gated hierarchy to a direct multi-label classifier under matched compute, both based on DeBERTa-base and augmented with lightweight signals (prior-sentence context, LIWC-22/eMFD/MJD lexica, and topic features). The hierarchy does not outperform direct prediction, indicating that gate recall limits downstream gains. We also benchmark instruction-tuned LLMs - Gemma 2 9B, Llama 3.1 8B, Mistral 8B, and Qwen 2.5 7B - in zero-/few-shot and QLoRA setups and build simple ensembles; a soft-vote supervised ensemble reaches macro-F1 0.332, significantly surpassing the best single supervised model and exceeding prior English-only baselines. Overall, in this scenario, lightweight signals and small ensembles yield the most reliable improvements, while hierarchical gating offers limited benefit. We argue that, under an 8 GB single-GPU constraint and at the 7-9B scale, carefully tuned supervised encoders remain a strong and compute-efficient baseline for structured human value detection, and we outline how richer value structure and sentence-in-document context could further improve performance.",
     "authors": [
-      "V\u00edctor Yeste",
+      "Víctor Yeste",
       "Paolo Rosso"
     ],
     "categories": [
@@ -1647,7 +1647,7 @@
       "Pavlo Melnyk",
       "Cuong Le",
       "Urs Waldmann",
-      "Per-Erik Forss\u00e9n",
+      "Per-Erik Forssén",
       "Bastian Wandt"
     ],
     "categories": [
@@ -1663,12 +1663,12 @@
   {
     "arxiv_id": "2601.13885v1",
     "title": "Confident Rankings with Fewer Items: Adaptive LLM Evaluation with Continuous Scores",
-    "summary": "Computerized Adaptive Testing (CAT) has proven effective for efficient LLM evaluation on multiple-choice benchmarks, but modern LLM evaluation increasingly relies on generation tasks where outputs are scored continuously rather than marked correct/incorrect. We present a principled extension of IRT-based adaptive testing to continuous bounded scores (ROUGE, BLEU, LLM-as-a-Judge) by replacing the Bernoulli response distribution with a heteroskedastic normal distribution. Building on this, we introduce an uncertainty aware ranker with adaptive stopping criteria that achieves reliable model ranking while testing as few items and as cheaply as possible. We validate our method on five benchmarks spanning n-gram-based, embedding-based, and LLM-as-judge metrics. Our method uses 2% of the items while improving ranking correlation by 0.12 \u03c4 over random sampling, with 95% accuracy on confident predictions.",
+    "summary": "Computerized Adaptive Testing (CAT) has proven effective for efficient LLM evaluation on multiple-choice benchmarks, but modern LLM evaluation increasingly relies on generation tasks where outputs are scored continuously rather than marked correct/incorrect. We present a principled extension of IRT-based adaptive testing to continuous bounded scores (ROUGE, BLEU, LLM-as-a-Judge) by replacing the Bernoulli response distribution with a heteroskedastic normal distribution. Building on this, we introduce an uncertainty aware ranker with adaptive stopping criteria that achieves reliable model ranking while testing as few items and as cheaply as possible. We validate our method on five benchmarks spanning n-gram-based, embedding-based, and LLM-as-judge metrics. Our method uses 2% of the items while improving ranking correlation by 0.12 τ over random sampling, with 95% accuracy on confident predictions.",
     "authors": [
-      "Esma Balk\u0131r",
+      "Esma Balkır",
       "Alice Pernthaller",
       "Marco Basaldella",
-      "Jos\u00e9 Hern\u00e1ndez-Orallo",
+      "José Hernández-Orallo",
       "Nigel Collier"
     ],
     "categories": [
@@ -1762,7 +1762,7 @@
       "Ifan Williams",
       "Enrico Rinaldi",
       "Daniel Mills",
-      "Cristina C\u00eerstoiu",
+      "Cristina Cîrstoiu",
       "Vanya Eccles",
       "Ross Duncan"
     ],
@@ -2128,7 +2128,7 @@
     "summary": "Concept-based interpretability methods like TCAV require clean, well-separated positive and negative examples for each concept. Existing music datasets lack this structure: tags are sparse, noisy, or ill-defined. We introduce ConceptCaps, a dataset of 23k music-caption-audio triplets with explicit labels from a 200-attribute taxonomy. Our pipeline separates semantic modeling from text generation: a VAE learns plausible attribute co-occurrence patterns, a fine-tuned LLM converts attribute lists into professional descriptions, and MusicGen synthesizes corresponding audio. This separation improves coherence and controllability over end-to-end approaches. We validate the dataset through audio-text alignment (CLAP), linguistic quality metrics (BERTScore, MAUVE), and TCAV analysis confirming that concept probes recover musically meaningful patterns. Dataset and code are available online.",
     "authors": [
       "Bruno Sienkiewicz",
-      "\u0141ukasz Neumann",
+      "Łukasz Neumann",
       "Mateusz Modrzejewski"
     ],
     "categories": [
@@ -2184,7 +2184,7 @@
       "Rodrigo Pereira David",
       "Luciano Araujo Dourado Filho",
       "Daniel Marques da Silva",
-      "Jo\u00e3o Alfredo Cal-Braz"
+      "João Alfredo Cal-Braz"
     ],
     "categories": [
       "cs.LG",
@@ -2487,7 +2487,7 @@
     "title": "Probabilistic Deep Discriminant Analysis for Wind Blade Segmentation",
     "summary": "Linear discriminant analysis improves class separability but struggles with non-linearly separable data. To overcome this, we introduce Deep Discriminant Analysis (DDA), which directly optimizes the Fisher criterion utilizing deep networks. To ensure stable training and avoid computational instabilities, we incorporate signed between-class variance, bound outputs with a sigmoid function, and convert multiplicative relationships into additive ones. We present two stable DDA loss functions and augment them with a probability loss, resulting in Probabilistic DDA (PDDA). PDDA effectively minimizes class overlap in output distributions, producing highly confident predictions with reduced within-class variance. When applied to wind blade segmentation, PDDA showcases notable advances in performance and consistency, critical for wind energy maintenance. To our knowledge, this is the first application of DDA to image segmentation.",
     "authors": [
-      "Ra\u00fcl P\u00e9rez-Gonzalo",
+      "Raül Pérez-Gonzalo",
       "Andreas Espersen",
       "Antonio Agudo"
     ],
@@ -2799,8 +2799,8 @@
     "title": "Performance and Complexity Trade-off Optimization of Speech Models During Training",
     "summary": "In speech machine learning, neural network models are typically designed by choosing an architecture with fixed layer sizes and structure. These models are then trained to maximize performance on metrics aligned with the task's objective. While the overall architecture is usually guided by prior knowledge of the task, the sizes of individual layers are often chosen heuristically. However, this approach does not guarantee an optimal trade-off between performance and computational complexity; consequently, post hoc methods such as weight quantization or model pruning are typically employed to reduce computational cost. This occurs because stochastic gradient descent (SGD) methods can only optimize differentiable functions, while factors influencing computational complexity, such as layer sizes and floating-point operations per second (FLOP/s), are non-differentiable and require modifying the model structure during training. We propose a reparameterization technique based on feature noise injection that enables joint optimization of performance and computational complexity during training using SGD-based methods. Unlike traditional pruning methods, our approach allows the model size to be dynamically optimized for a target performance-complexity trade-off, without relying on heuristic criteria to select which weights or structures to remove. We demonstrate the effectiveness of our method through three case studies, including a synthetic example and two practical real-world applications: voice activity detection and audio anti-spoofing. The code related to our work is publicly available to encourage further research.",
     "authors": [
-      "Esteban G\u00f3mez",
-      "Tom B\u00e4ckstr\u00f6m"
+      "Esteban Gómez",
+      "Tom Bäckström"
     ],
     "categories": [
       "cs.SD",
@@ -2844,13 +2844,13 @@
     "title": "Finally Outshining the Random Baseline: A Simple and Effective Solution for Active Learning in 3D Biomedical Imaging",
     "summary": "Active learning (AL) has the potential to drastically reduce annotation costs in 3D biomedical image segmentation, where expert labeling of volumetric data is both time-consuming and expensive. Yet, existing AL methods are unable to consistently outperform improved random sampling baselines adapted to 3D data, leaving the field without a reliable solution. We introduce Class-stratified Scheduled Power Predictive Entropy (ClaSP PE), a simple and effective query strategy that addresses two key limitations of standard uncertainty-based AL methods: class imbalance and redundancy in early selections. ClaSP PE combines class-stratified querying to ensure coverage of underrepresented structures and log-scale power noising with a decaying schedule to enforce query diversity in early-stage AL and encourage exploitation later. In our evaluation on 24 experimental settings using four 3D biomedical datasets within the comprehensive nnActive benchmark, ClaSP PE is the only method that generally outperforms improved random baselines in terms of both segmentation quality with statistically significant gains, whilst remaining annotation efficient. Furthermore, we explicitly simulate the real-world application by testing our method on four previously unseen datasets without manual adaptation, where all experiment parameters are set according to predefined guidelines. The results confirm that ClaSP PE robustly generalizes to novel tasks without requiring dataset-specific tuning. Within the nnActive framework, we present compelling evidence that an AL method can consistently outperform random baselines adapted to 3D segmentation, in terms of both performance and annotation efficiency in a realistic, close-to-production scenario. Our open-source implementation and clear deployment guidelines make it readily applicable in practice. Code is at https://github.com/MIC-DKFZ/nnActive.",
     "authors": [
-      "Carsten T. L\u00fcth",
+      "Carsten T. Lüth",
       "Jeremias Traub",
       "Kim-Celine Kahl",
       "Till J. Bungert",
       "Lukas Klein",
-      "Lars Kr\u00e4mer",
-      "Paul F. J\u00e4ger",
+      "Lars Krämer",
+      "Paul F. Jäger",
       "Klaus Maier-Hein",
       "Fabian Isensee"
     ],
@@ -3096,7 +3096,7 @@
       "Tao Gui",
       "Ruobing Xie",
       "Hayden Kwok-Hay So",
-      "Hinrich Sch\u00fctze",
+      "Hinrich Schütze",
       "Xuanjing Huang",
       "Qi Zhang",
       "Ngai Wong"
@@ -3203,9 +3203,9 @@
     "summary": "Natural disaster monitoring through continuous satellite observation requires processing multi-temporal data under strict operational constraints. This paper addresses flood detection, a critical application for hazard management, by developing an onboard change detection system that operates within the memory and computational limits of small satellites. We propose History Injection mechanism for Transformer models (HiT), that maintains historical context from previous observations while reducing data storage by over 99\\% of original image size. Moreover, testing on the STTORM-CD flood dataset confirms that the HiT mechanism within the Prithvi-tiny foundation model maintains detection accuracy compared to the bitemporal baseline. The proposed HiT-Prithvi model achieved 43 FPS on Jetson Orin Nano, a representative onboard hardware used in nanosats. This work establishes a practical framework for satellite-based continuous monitoring of natural disasters, supporting real-time hazard assessment without dependency on ground-based processing infrastructure. Architecture as well as model checkpoints is available at https://github.com/zaitra/HiT-change-detection",
     "authors": [
       "Daniel Kyselica",
-      "Jon\u00e1\u0161 Herec",
+      "Jonáš Herec",
       "Oliver Kutis",
-      "Rado Pito\u0148\u00e1k"
+      "Rado Pitoňák"
     ],
     "categories": [
       "cs.CV",
@@ -3301,9 +3301,9 @@
   {
     "arxiv_id": "2601.14066v1",
     "title": "VERIDAH: Solving Enumeration Anomaly Aware Vertebra Labeling across Imaging Sequences",
-    "summary": "The human spine commonly consists of seven cervical, twelve thoracic, and five lumbar vertebrae. However, enumeration anomalies may result in individuals having eleven or thirteen thoracic vertebrae and four or six lumbar vertebrae. Although the identification of enumeration anomalies has potential clinical implications for chronic back pain and operation planning, the thoracolumbar junction is often poorly assessed and rarely described in clinical reports. Additionally, even though multiple deep-learning-based vertebra labeling algorithms exist, there is a lack of methods to automatically label enumeration anomalies. Our work closes that gap by introducing \"Vertebra Identification with Anomaly Handling\" (VERIDAH), a novel vertebra labeling algorithm based on multiple classification heads combined with a weighted vertebra sequence prediction algorithm. We show that our approach surpasses existing models on T2w TSE sagittal (98.30% vs. 94.24% of subjects with all vertebrae correctly labeled, p < 0.001) and CT imaging (99.18% vs. 77.26% of subjects with all vertebrae correctly labeled, p < 0.001) and works in arbitrary field-of-view images. VERIDAH correctly labeled the presence 2 M\u00f6ller et al. of thoracic enumeration anomalies in 87.80% and 96.30% of T2w and CT images, respectively, and lumbar enumeration anomalies in 94.48% and 97.22% for T2w and CT, respectively. Our code and models are available at: https://github.com/Hendrik-code/spineps.",
+    "summary": "The human spine commonly consists of seven cervical, twelve thoracic, and five lumbar vertebrae. However, enumeration anomalies may result in individuals having eleven or thirteen thoracic vertebrae and four or six lumbar vertebrae. Although the identification of enumeration anomalies has potential clinical implications for chronic back pain and operation planning, the thoracolumbar junction is often poorly assessed and rarely described in clinical reports. Additionally, even though multiple deep-learning-based vertebra labeling algorithms exist, there is a lack of methods to automatically label enumeration anomalies. Our work closes that gap by introducing \"Vertebra Identification with Anomaly Handling\" (VERIDAH), a novel vertebra labeling algorithm based on multiple classification heads combined with a weighted vertebra sequence prediction algorithm. We show that our approach surpasses existing models on T2w TSE sagittal (98.30% vs. 94.24% of subjects with all vertebrae correctly labeled, p < 0.001) and CT imaging (99.18% vs. 77.26% of subjects with all vertebrae correctly labeled, p < 0.001) and works in arbitrary field-of-view images. VERIDAH correctly labeled the presence 2 Möller et al. of thoracic enumeration anomalies in 87.80% and 96.30% of T2w and CT images, respectively, and lumbar enumeration anomalies in 94.48% and 97.22% for T2w and CT, respectively. Our code and models are available at: https://github.com/Hendrik-code/spineps.",
     "authors": [
-      "Hendrik M\u00f6ller",
+      "Hendrik Möller",
       "Hanna Schoen",
       "Robert Graf",
       "Matan Atad",
@@ -3316,7 +3316,7 @@
       "Tobias Pischon",
       "Thoralf Niendorf",
       "Josua A. Decker",
-      "Marc-Andr\u00e9 Weber",
+      "Marc-André Weber",
       "Bjoern Menze",
       "Daniel Rueckert",
       "Jan S. Kirschke"
@@ -3497,7 +3497,7 @@
     "title": "Discriminant Learning-based Colorspace for Blade Segmentation",
     "summary": "Suboptimal color representation often hinders accurate image segmentation, yet many modern algorithms neglect this critical preprocessing step. This work presents a novel multidimensional nonlinear discriminant analysis algorithm, Colorspace Discriminant Analysis (CSDA), for improved segmentation. Extending Linear Discriminant Analysis into a deep learning context, CSDA customizes color representation by maximizing multidimensional signed inter-class separability while minimizing intra-class variability through a generalized discriminative loss. To ensure stable training, we introduce three alternative losses that enable end-to-end optimization of both the discriminative colorspace and segmentation process. Experiments on wind turbine blade data demonstrate significant accuracy gains, emphasizing the importance of tailored preprocessing in domain-specific segmentation.",
     "authors": [
-      "Ra\u00fcl P\u00e9rez-Gonzalo",
+      "Raül Pérez-Gonzalo",
       "Andreas Espersen",
       "Antonio Agudo"
     ],
@@ -3659,7 +3659,7 @@
     "summary": "We present \\textbf{LightOnOCR-2-1B}, a 1B-parameter end-to-end multilingual vision--language model that converts document images (e.g., PDFs) into clean, naturally ordered text without brittle OCR pipelines. Trained on a large-scale, high-quality distillation mix with strong coverage of scans, French documents, and scientific PDFs, LightOnOCR-2 achieves state-of-the-art results on OlmOCR-Bench while being 9$\\times$ smaller and substantially faster than prior best-performing models. We further extend the output format to predict normalized bounding boxes for embedded images, introducing localization during pretraining via a resume strategy and refining it with RLVR using IoU-based rewards. Finally, we improve robustness with checkpoint averaging and task-arithmetic merging. We release model checkpoints under Apache 2.0, and publicly release the dataset and \\textbf{LightOnOCR-bbox-bench} evaluation under their respective licenses.",
     "authors": [
       "Said Taghadouini",
-      "Adrien Cavaill\u00e8s",
+      "Adrien Cavaillès",
       "Baptiste Aubertin"
     ],
     "categories": [
@@ -3744,7 +3744,7 @@
     "summary": "The emerging field of diverse intelligence seeks an integrated view of problem-solving in agents of very different provenance, composition, and substrates. From subcellular chemical networks to swarms of organisms, and across evolved, engineered, and chimeric systems, it is hypothesized that scale-invariant principles of decision-making can be discovered. We propose that cognition in both natural and synthetic systems can be characterized and understood by the interplay between two equally important invariants: (1) the remapping of embedding spaces, and (2) the navigation within these spaces. Biological collectives, from single cells to entire organisms (and beyond), remap transcriptional, morphological, physiological, or 3D spaces to maintain homeostasis and regenerate structure, while navigating these spaces through distributed error correction. Modern Artificial Intelligence (AI) systems, including transformers, diffusion models, and neural cellular automata enact analogous processes by remapping data into latent embeddings and refining them iteratively through contextualization. We argue that this dual principle - remapping and navigation of embedding spaces via iterative error minimization - constitutes a substrate-independent invariant of cognition. Recognizing this shared mechanism not only illuminates deep parallels between living systems and artificial models, but also provides a unifying framework for engineering adaptive intelligence across scales.",
     "authors": [
       "Benedikt Hartl",
-      "L\u00e9o Pio-Lopez",
+      "Léo Pio-Lopez",
       "Chris Fields",
       "Michael Levin"
     ],
@@ -3815,9 +3815,9 @@
     "title": "Autonomous Knowledge Graph Exploration with Adaptive Breadth-Depth Retrieval",
     "summary": "Retrieving evidence for language model queries from knowledge graphs requires balancing broad search across the graph with multi-hop traversal to follow relational links. Similarity-based retrievers provide coverage but remain shallow, whereas traversal-based methods rely on selecting seed nodes to start exploration, which can fail when queries span multiple entities and relations. We introduce ARK: Adaptive Retriever of Knowledge, an agentic KG retriever that gives a language model control over this breadth-depth tradeoff using a two-operation toolset: global lexical search over node descriptors and one-hop neighborhood exploration that composes into multi-hop traversal. ARK alternates between breadth-oriented discovery and depth-oriented expansion without depending on a fragile seed selection, a pre-set hop depth, or requiring retrieval training. ARK adapts tool use to queries, using global search for language-heavy queries and neighborhood exploration for relation-heavy queries. On STaRK, ARK reaches 59.1% average Hit@1 and 67.4 average MRR, improving average Hit@1 by up to 31.4% and average MRR by up to 28.0% over retrieval-based and agentic training-free methods. Finally, we distill ARK's tool-use trajectories from a large teacher into an 8B model via label-free imitation, improving Hit@1 by +7.0, +26.6, and +13.5 absolute points over the base 8B model on AMAZON, MAG, and PRIME datasets, respectively, while retaining up to 98.5% of the teacher's Hit@1 rate.",
     "authors": [
-      "Joaqu\u00edn Polonuer",
+      "Joaquín Polonuer",
       "Lucas Vittor",
-      "I\u00f1aki Arango",
+      "Iñaki Arango",
       "Ayush Noori",
       "David A. Clifton",
       "Luciano Del Corro",
@@ -4324,36 +4324,6 @@
     "research_score": 0.5
   },
   {
-    "model_id": "bartowski/zai-org_GLM-4.7-Flash-GGUF",
-    "author": "unknown",
-    "title": "bartowski/zai-org_GLM-4.7-Flash-GGUF",
-    "downloads": 1982,
-    "likes": 14,
-    "tags": [
-      "gguf",
-      "text-generation",
-      "en",
-      "zh",
-      "base_model:zai-org/GLM-4.7-Flash",
-      "base_model:quantized:zai-org/GLM-4.7-Flash",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us",
-      "imatrix",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-01-20T00:01:04.000Z",
-    "last_modified": "2026-01-21T04:25:37.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/bartowski/zai-org_GLM-4.7-Flash-GGUF",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.5
-  },
-  {
     "arxiv_id": "2601.14188v1",
     "title": "IIR-VLM: In-Context Instance-level Recognition for Large Vision-Language Models",
     "summary": "Instance-level recognition (ILR) concerns distinguishing individual instances from one another, with person re-identification as a prominent example. Despite the impressive visual perception capabilities of modern VLMs, we find their performance on ILR unsatisfactory, often dramatically underperforming domain-specific ILR models. This limitation hinders many practical application of VLMs, e.g. where recognizing familiar people and objects is crucial for effective visual understanding. Existing solutions typically learn to recognize instances one at a time using instance-specific datasets, which not only incur substantial data collection and training costs but also struggle with fine-grained discrimination. In this work, we propose IIR-VLM, a VLM enhanced for In-context Instance-level Recognition. We integrate pre-trained ILR expert models as auxiliary visual encoders to provide specialized features for learning diverse instances, which enables VLMs to learn new instances in-context in a one-shot manner. Further, IIR-VLM leverages this knowledge for instance-aware visual understanding. We validate IIR-VLM's efficacy on existing instance personalization benchmarks. Finally, we demonstrate its superior ILR performance on a challenging new benchmark, which assesses ILR capabilities across varying difficulty and diverse categories, with person, face, pet and general objects as the instances at task.",
@@ -4465,7 +4435,7 @@
     "authors": [
       "Till Aczel",
       "David F. Jenny",
-      "Simon B\u00fchrer",
+      "Simon Bührer",
       "Andreas Plesner",
       "Antonio Di Maio",
       "Roger Wattenhofer"
@@ -4588,278 +4558,5 @@
     "date": "2026-01-21",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "LoganResearch/ARC-Base-8B-Condensed",
-    "author": "unknown",
-    "title": "LoganResearch/ARC-Base-8B-Condensed",
-    "downloads": 13,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "dense-responses",
-      "self-optimization",
-      "representation-engineering",
-      "conversational",
-      "en",
-      "base_model:NousResearch/Hermes-3-Llama-3.1-8B",
-      "base_model:finetune:NousResearch/Hermes-3-Llama-3.1-8B",
-      "license:cc-by-4.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-01-19T17:30:16.000Z",
-    "last_modified": "2026-01-21T04:24:46.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/LoganResearch/ARC-Base-8B-Condensed",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "asigalov61/Karaoke-Lyrics-Qwen3-0.6B",
-    "author": "unknown",
-    "title": "asigalov61/Karaoke-Lyrics-Qwen3-0.6B",
-    "downloads": 0,
-    "likes": 1,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "karaoke",
-      "lyrics",
-      "lyrics-template",
-      "karaoke-lyrics",
-      "conversational",
-      "en",
-      "dataset:tsterbak/lyrics-dataset",
-      "base_model:Qwen/Qwen3-0.6B",
-      "base_model:finetune:Qwen/Qwen3-0.6B",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-01-20T16:06:49.000Z",
-    "last_modified": "2026-01-21T04:24:16.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/asigalov61/Karaoke-Lyrics-Qwen3-0.6B",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "willmecado/nx-cad-grpo-vllm-comp-test2",
-    "author": "unknown",
-    "title": "willmecado/nx-cad-grpo-vllm-comp-test2",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:Qwen/Qwen2.5-Coder-7B-Instruct",
-      "lora",
-      "transformers",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "base_model:Qwen/Qwen2.5-Coder-7B-Instruct",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-01-20T20:27:23.000Z",
-    "last_modified": "2026-01-21T04:23:34.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/willmecado/nx-cad-grpo-vllm-comp-test2",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "profpeng/onoffclothes",
-    "author": "unknown",
-    "title": "profpeng/onoffclothes",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "diffusers",
-      "text-to-image",
-      "lora",
-      "template:diffusion-lora",
-      "base_model:Wan-AI/Wan2.2-I2V-A14B",
-      "base_model:adapter:Wan-AI/Wan2.2-I2V-A14B",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "diffusers",
-    "created_at": "2026-01-21T04:22:37.000Z",
-    "last_modified": "2026-01-21T04:22:57.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/profpeng/onoffclothes",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ChuGyouk/35",
-    "author": "unknown",
-    "title": "ChuGyouk/35",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "generated_from_trainer",
-      "sft",
-      "trl",
-      "conversational",
-      "base_model:ChuGyouk/Qwen3-4B-Base-AGUINAS-0p5k",
-      "base_model:finetune:ChuGyouk/Qwen3-4B-Base-AGUINAS-0p5k",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-01-20T19:37:13.000Z",
-    "last_modified": "2026-01-21T04:22:53.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ChuGyouk/35",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ChuGyouk/34",
-    "author": "unknown",
-    "title": "ChuGyouk/34",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "generated_from_trainer",
-      "sft",
-      "trl",
-      "conversational",
-      "base_model:ChuGyouk/Qwen3-4B-Base-AGUINAS-0p5k",
-      "base_model:finetune:ChuGyouk/Qwen3-4B-Base-AGUINAS-0p5k",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-01-20T19:40:54.000Z",
-    "last_modified": "2026-01-21T04:22:48.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ChuGyouk/34",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "AdoCleanCode/llasa_stage2_trained_multilingual_stage5",
-    "author": "unknown",
-    "title": "AdoCleanCode/llasa_stage2_trained_multilingual_stage5",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-01-20T17:22:00.000Z",
-    "last_modified": "2026-01-21T04:18:42.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/AdoCleanCode/llasa_stage2_trained_multilingual_stage5",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "sangerno63/affine-5FCJpxFbwsLbujy89cYAHzEUHBPem5xvPHHa6VHvX5xRHyZ6",
-    "author": "unknown",
-    "title": "sangerno63/affine-5FCJpxFbwsLbujy89cYAHzEUHBPem5xvPHHa6VHvX5xRHyZ6",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-01-21T04:14:32.000Z",
-    "last_modified": "2026-01-21T04:18:10.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/sangerno63/affine-5FCJpxFbwsLbujy89cYAHzEUHBPem5xvPHHa6VHvX5xRHyZ6",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "khier12/480min_whisper_small_FT",
-    "author": "unknown",
-    "title": "khier12/480min_whisper_small_FT",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "whisper",
-      "automatic-speech-recognition",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-01-20T22:17:33.000Z",
-    "last_modified": "2026-01-21T04:11:13.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/khier12/480min_whisper_small_FT",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
