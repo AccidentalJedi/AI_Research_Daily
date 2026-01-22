@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-22T04:27:24.136615",
+  "date": "2026-01-22T08:12:16.562725",
   "patterns": {
     "multimodal_research": [
       {
@@ -31,6 +31,10 @@
         "url": "https://arxiv.org/abs/2601.14750v1"
       },
       {
+        "title": "DeepMoLM: Leveraging Visual and Geometric Structural Information for Molecule-Text Modeling",
+        "url": "https://arxiv.org/abs/2601.14732v1"
+      },
+      {
         "title": "LiViBench: An Omnimodal Benchmark for Interactive Livestream Video Understanding",
         "url": "https://arxiv.org/abs/2601.15016v1"
       },
@@ -53,10 +57,6 @@
       {
         "title": "Multimodal system for skin cancer detection",
         "url": "https://arxiv.org/abs/2601.14822v1"
-      },
-      {
-        "title": "DeepMoLM: Leveraging Visual and Geometric Structural Information for Molecule-Text Modeling",
-        "url": "https://arxiv.org/abs/2601.14732v1"
       },
       {
         "title": "Multimodal Rumor Detection Enhanced by External Evidence and Forgery Features",
@@ -233,6 +233,10 @@
         "url": "https://arxiv.org/abs/2601.15235v1"
       },
       {
+        "title": "Multi-Behavior Sequential Modeling with Transition-Aware Graph Attention Network for E-Commerce Recommendation",
+        "url": "https://arxiv.org/abs/2601.14955v1"
+      },
+      {
         "title": "Training-Efficient Text-to-Music Generation with State-Space Modeling",
         "url": "https://arxiv.org/abs/2601.14786v1"
       },
@@ -243,10 +247,6 @@
       {
         "title": "LiViBench: An Omnimodal Benchmark for Interactive Livestream Video Understanding",
         "url": "https://arxiv.org/abs/2601.15016v1"
-      },
-      {
-        "title": "Multi-Behavior Sequential Modeling with Transition-Aware Graph Attention Network for E-Commerce Recommendation",
-        "url": "https://arxiv.org/abs/2601.14955v1"
       },
       {
         "title": "To Neuro-Symbolic Classification and Beyond by Compiling Description Logic Ontologies to Probabilistic Circuits",
@@ -459,6 +459,10 @@
         "url": "https://arxiv.org/abs/2601.15161v1"
       },
       {
+        "title": "Multi-Behavior Sequential Modeling with Transition-Aware Graph Attention Network for E-Commerce Recommendation",
+        "url": "https://arxiv.org/abs/2601.14955v1"
+      },
+      {
         "title": "Training-Efficient Text-to-Music Generation with State-Space Modeling",
         "url": "https://arxiv.org/abs/2601.14786v1"
       },
@@ -467,16 +471,16 @@
         "url": "https://arxiv.org/abs/2601.14750v1"
       },
       {
+        "title": "DeepMoLM: Leveraging Visual and Geometric Structural Information for Molecule-Text Modeling",
+        "url": "https://arxiv.org/abs/2601.14732v1"
+      },
+      {
         "title": "Emerging from Ground: Addressing Intent Deviation in Tool-Using Agents via Deriving Real Calls into Virtual Trajectories",
         "url": "https://arxiv.org/abs/2601.15120v1"
       },
       {
         "title": "LiViBench: An Omnimodal Benchmark for Interactive Livestream Video Understanding",
         "url": "https://arxiv.org/abs/2601.15016v1"
-      },
-      {
-        "title": "Multi-Behavior Sequential Modeling with Transition-Aware Graph Attention Network for E-Commerce Recommendation",
-        "url": "https://arxiv.org/abs/2601.14955v1"
       },
       {
         "title": "Reflecting in the Reflection: Integrating a Socratic Questioning Framework into Automated AI-Based Question Generation",
@@ -491,7 +495,7 @@
         "url": "https://arxiv.org/abs/2601.15115v1"
       },
       {
-        "title": "SmartOracle - An Agentic Approach to Mitigate Noise in Differential Oracles",
+        "title": "SmartOracle -- An Agentic Approach to Mitigate Noise in Differential Oracles",
         "url": "https://arxiv.org/abs/2601.15074v1"
       },
       {
@@ -513,10 +517,6 @@
       {
         "title": "RECAP: Resistance Capture in Text-based Mental Health Counseling with Large Language Models",
         "url": "https://arxiv.org/abs/2601.14780v1"
-      },
-      {
-        "title": "DeepMoLM: Leveraging Visual and Geometric Structural Information for Molecule-Text Modeling",
-        "url": "https://arxiv.org/abs/2601.14732v1"
       },
       {
         "title": "AQAScore: Evaluating Semantic Alignment in Text-to-Audio Generation via Audio Question Answering",
@@ -635,7 +635,7 @@
         "url": "https://arxiv.org/abs/2601.15021v1"
       },
       {
-        "title": "RadixMLP - Intra-batch Deduplication for Causal Transformers",
+        "title": "RadixMLP -- Intra-batch Deduplication for Causal Transformers",
         "url": "https://arxiv.org/abs/2601.15013v1"
       },
       {
@@ -725,6 +725,14 @@
       {
         "title": "Does medical specialization of VLMs enhance discriminative power?: A comprehensive investigation through feature distribution analysis",
         "url": "https://arxiv.org/abs/2601.14774v1"
+      },
+      {
+        "title": "rizkysulaeman/gpt-oss-20b",
+        "url": "https://huggingface.co/rizkysulaeman/gpt-oss-20b"
+      },
+      {
+        "title": "AlgoDriveAI/GSM8K-DenseLLM-700M",
+        "url": "https://huggingface.co/AlgoDriveAI/GSM8K-DenseLLM-700M"
       }
     ],
     "vision_systems": [
@@ -793,6 +801,10 @@
         "url": "https://arxiv.org/abs/2601.14750v1"
       },
       {
+        "title": "DeepMoLM: Leveraging Visual and Geometric Structural Information for Molecule-Text Modeling",
+        "url": "https://arxiv.org/abs/2601.14732v1"
+      },
+      {
         "title": "Iterative Refinement Improves Compositional Image Generation",
         "url": "https://arxiv.org/abs/2601.15286v1"
       },
@@ -831,10 +843,6 @@
       {
         "title": "SpatialMem: Unified 3D Memory with Metric Anchoring and Fast Retrieval",
         "url": "https://arxiv.org/abs/2601.14895v1"
-      },
-      {
-        "title": "DeepMoLM: Leveraging Visual and Geometric Structural Information for Molecule-Text Modeling",
-        "url": "https://arxiv.org/abs/2601.14732v1"
       },
       {
         "title": "FlowSSC: Universal Generative Monocular Semantic Scene Completion via One-Step Latent Diffusion",
@@ -1247,7 +1255,7 @@
         "url": "https://arxiv.org/abs/2601.15021v1"
       },
       {
-        "title": "RadixMLP - Intra-batch Deduplication for Causal Transformers",
+        "title": "RadixMLP -- Intra-batch Deduplication for Causal Transformers",
         "url": "https://arxiv.org/abs/2601.15013v1"
       },
       {
@@ -1485,6 +1493,10 @@
         "url": "https://arxiv.org/abs/2601.15061v1"
       },
       {
+        "title": "Multi-Behavior Sequential Modeling with Transition-Aware Graph Attention Network for E-Commerce Recommendation",
+        "url": "https://arxiv.org/abs/2601.14955v1"
+      },
+      {
         "title": "Training-Efficient Text-to-Music Generation with State-Space Modeling",
         "url": "https://arxiv.org/abs/2601.14786v1"
       },
@@ -1493,16 +1505,16 @@
         "url": "https://arxiv.org/abs/2601.14750v1"
       },
       {
+        "title": "DeepMoLM: Leveraging Visual and Geometric Structural Information for Molecule-Text Modeling",
+        "url": "https://arxiv.org/abs/2601.14732v1"
+      },
+      {
         "title": "Emerging from Ground: Addressing Intent Deviation in Tool-Using Agents via Deriving Real Calls into Virtual Trajectories",
         "url": "https://arxiv.org/abs/2601.15120v1"
       },
       {
         "title": "LiViBench: An Omnimodal Benchmark for Interactive Livestream Video Understanding",
         "url": "https://arxiv.org/abs/2601.15016v1"
-      },
-      {
-        "title": "Multi-Behavior Sequential Modeling with Transition-Aware Graph Attention Network for E-Commerce Recommendation",
-        "url": "https://arxiv.org/abs/2601.14955v1"
       },
       {
         "title": "Fast-ULCNet: A fast and ultra low complexity network for single-channel speech enhancement",
@@ -1517,7 +1529,7 @@
         "url": "https://arxiv.org/abs/2601.15115v1"
       },
       {
-        "title": "SmartOracle - An Agentic Approach to Mitigate Noise in Differential Oracles",
+        "title": "SmartOracle -- An Agentic Approach to Mitigate Noise in Differential Oracles",
         "url": "https://arxiv.org/abs/2601.15074v1"
       },
       {
@@ -1669,7 +1681,7 @@
         "url": "https://arxiv.org/abs/2601.15220v1"
       },
       {
-        "title": "RadixMLP - Intra-batch Deduplication for Causal Transformers",
+        "title": "RadixMLP -- Intra-batch Deduplication for Causal Transformers",
         "url": "https://arxiv.org/abs/2601.15013v1"
       },
       {
@@ -1805,7 +1817,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "92 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1829,7 +1841,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "111 independent papers",
+      "observation": "112 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1864,6 +1876,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 441
+    "total_papers": 444
   }
 }
