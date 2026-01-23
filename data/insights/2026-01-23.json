@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-23T04:25:40.656505",
+  "date": "2026-01-23T08:11:46.284738",
   "patterns": {
     "multimodal_research": [
       {
@@ -685,6 +685,10 @@
       {
         "title": "Assessing Situational and Spatial Awareness of VLMs with Synthetically Generated Video",
         "url": "https://arxiv.org/abs/2601.15780v1"
+      },
+      {
+        "title": "tminhtri1910/codebert_paravul",
+        "url": "https://huggingface.co/tminhtri1910/codebert_paravul"
       }
     ],
     "vision_systems": [
@@ -979,6 +983,10 @@
       {
         "title": "Evolving Without Ending: Unifying Multimodal Incremental Learning for Continual Panoptic Perception",
         "url": "https://arxiv.org/abs/2601.15643v1"
+      },
+      {
+        "title": "logannewman106901/CVS4BNm8xntwS2i",
+        "url": "https://huggingface.co/logannewman106901/CVS4BNm8xntwS2i"
       }
     ],
     "reasoning": [
@@ -1725,13 +1733,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1784,6 +1792,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 421
+    "total_papers": 423
   }
 }
