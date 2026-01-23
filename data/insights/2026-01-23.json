@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-23T16:11:33.359518",
+  "date": "2026-01-23T20:10:08.245305",
   "patterns": {
     "multimodal_research": [
       {
@@ -687,8 +687,8 @@
         "url": "https://arxiv.org/abs/2601.15780v1"
       },
       {
-        "title": "ArthurHayasdan/armenian-gpt",
-        "url": "https://huggingface.co/ArthurHayasdan/armenian-gpt"
+        "title": "LLM-course/chess-version4-malek",
+        "url": "https://huggingface.co/LLM-course/chess-version4-malek"
       }
     ],
     "vision_systems": [
@@ -983,10 +983,6 @@
       {
         "title": "Evolving Without Ending: Unifying Multimodal Incremental Learning for Continual Panoptic Perception",
         "url": "https://arxiv.org/abs/2601.15643v1"
-      },
-      {
-        "title": "Alelcv27/Qwen3-8B-Math-CoT",
-        "url": "https://huggingface.co/Alelcv27/Qwen3-8B-Math-CoT"
       }
     ],
     "reasoning": [
@@ -1249,6 +1245,10 @@
       {
         "title": "Assessing Situational and Spatial Awareness of VLMs with Synthetically Generated Video",
         "url": "https://arxiv.org/abs/2601.15780v1"
+      },
+      {
+        "title": "inferencerlabs/LongCat-Flash-Thinking-2601-MLX-5.5bit",
+        "url": "https://huggingface.co/inferencerlabs/LongCat-Flash-Thinking-2601-MLX-5.5bit"
       }
     ],
     "benchmarks": [
@@ -1703,10 +1703,6 @@
       {
         "title": "Assessing Situational and Spatial Awareness of VLMs with Synthetically Generated Video",
         "url": "https://arxiv.org/abs/2601.15780v1"
-      },
-      {
-        "title": "Sota26/Affine-33-5EZjhBoHzb2yGLTo1NvY7qvWjFxQw93WTHGGr9aYFueRsGES",
-        "url": "https://huggingface.co/Sota26/Affine-33-5EZjhBoHzb2yGLTo1NvY7qvWjFxQw93WTHGGr9aYFueRsGES"
       }
     ]
   },
@@ -1743,13 +1739,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "65 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1761,7 +1757,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "114 independent papers",
+      "observation": "113 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1796,6 +1792,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 424
+    "total_papers": 423
   }
 }
