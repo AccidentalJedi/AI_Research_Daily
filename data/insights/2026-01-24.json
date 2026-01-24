@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-24T08:10:24.112666",
+  "date": "2026-01-24T12:12:51.442143",
   "patterns": {
     "multimodal_research": [
       {
@@ -687,8 +687,12 @@
         "url": "https://arxiv.org/abs/2601.15780v1"
       },
       {
-        "title": "Rasooli26/parsbert-persian-sentiment-3class_Fine-Tuned",
-        "url": "https://huggingface.co/Rasooli26/parsbert-persian-sentiment-3class_Fine-Tuned"
+        "title": "Irfanuruchi/SmolLM2-135M-Instruct-MLX-4bit",
+        "url": "https://huggingface.co/Irfanuruchi/SmolLM2-135M-Instruct-MLX-4bit"
+      },
+      {
+        "title": "Darkdev007/twitter-sentiment-distilbert",
+        "url": "https://huggingface.co/Darkdev007/twitter-sentiment-distilbert"
       }
     ],
     "vision_systems": [
@@ -1729,7 +1733,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "92 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1788,6 +1792,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 422
+    "total_papers": 423
   }
 }
