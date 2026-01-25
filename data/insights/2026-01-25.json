@@ -1,37 +1,11 @@
 {
-  "date": "2026-01-25T00:34:02.049541",
-  "patterns": {
-    "language_models": [
-      {
-        "title": "LLM-course/chess-ilan-v8",
-        "url": "https://huggingface.co/LLM-course/chess-ilan-v8"
-      },
-      {
-        "title": "MBMuinat/distilbert_model",
-        "url": "https://huggingface.co/MBMuinat/distilbert_model"
-      },
-      {
-        "title": "LLM-course/chess-ilan-v7",
-        "url": "https://huggingface.co/LLM-course/chess-ilan-v7"
-      },
-      {
-        "title": "ippoga/aimo3gptoss20grpotry0",
-        "url": "https://huggingface.co/ippoga/aimo3gptoss20grpotry0"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "4 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "date": "2026-01-25T04:30:06.134594",
+  "patterns": {},
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 4
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
