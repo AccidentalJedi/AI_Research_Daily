@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-27T16:12:24.405601",
+  "date": "2026-01-27T20:10:25.828107",
   "patterns": {
     "multimodal_research": [
       {
@@ -669,10 +669,6 @@
       {
         "title": "Q-Bench-Portrait: Benchmarking Multimodal Large Language Models on Portrait Image Quality Perception",
         "url": "https://arxiv.org/abs/2601.18346v1"
-      },
-      {
-        "title": "Gabe-Thomp/gemma-sft-BED-LLM-VANILLA-lr2.0e-06_assistant_only",
-        "url": "https://huggingface.co/Gabe-Thomp/gemma-sft-BED-LLM-VANILLA-lr2.0e-06_assistant_only"
       }
     ],
     "vision_systems": [
@@ -963,10 +959,6 @@
       {
         "title": "Estimation of geometric transformation matrices using grid-shaped pilot signals",
         "url": "https://arxiv.org/abs/2601.18385v1"
-      },
-      {
-        "title": "Gege24/test_qwenimage-gg-new",
-        "url": "https://huggingface.co/Gege24/test_qwenimage-gg-new"
       }
     ],
     "reasoning": [
@@ -1205,10 +1197,6 @@
       {
         "title": "CONQUER: Context-Aware Representation with Query Enhancement for Text-Based Person Search",
         "url": "https://arxiv.org/abs/2601.18625v1"
-      },
-      {
-        "title": "inferencerlabs/Kimi-K2.5-MLX-3.6bit",
-        "url": "https://huggingface.co/inferencerlabs/Kimi-K2.5-MLX-3.6bit"
       }
     ],
     "benchmarks": [
@@ -1653,19 +1641,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "60 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1712,6 +1700,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 403
+    "total_papers": 400
   }
 }
