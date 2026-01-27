@@ -1,0 +1,29 @@
+{
+  "date": "2026-01-27T00:32:42.590148",
+  "patterns": {
+    "reasoning": [
+      {
+        "title": "nightmedia/Gemma-3-27b-it-HERETIC-Gemini-Deep-Reasoning-q6-mlx",
+        "url": "https://huggingface.co/nightmedia/Gemma-3-27b-it-HERETIC-Gemini-Deep-Reasoning-q6-mlx"
+      },
+      {
+        "title": "nightmedia/Gemma-3-27b-it-HERETIC-Gemini-Deep-Reasoning-q8-mlx",
+        "url": "https://huggingface.co/nightmedia/Gemma-3-27b-it-HERETIC-Gemini-Deep-Reasoning-q8-mlx"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "confidence": "medium"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 2
+  }
+}
