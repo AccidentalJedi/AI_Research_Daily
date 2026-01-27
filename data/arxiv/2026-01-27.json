@@ -255,7 +255,7 @@
   {
     "arxiv_id": "2601.18513v1",
     "title": "LipNeXt: Scaling up Lipschitz-based Certified Robustness to Billion-parameter Models",
-    "summary": "Lipschitz-based certification offers efficient, deterministic robustness guarantees but has struggled to scale in model size, training efficiency, and ImageNet performance. We introduce \\emph{LipNeXt}, the first \\emph{constraint-free} and \\emph{convolution-free} 1-Lipschitz architecture for certified robustness. LipNeXt is built using two techniques: (1) a manifold optimization procedure that updates parameters directly on the orthogonal manifold and (2) a \\emph{Spatial Shift Module} to model spatial pattern without convolutions. The full network uses orthogonal projections, spatial shifts, a simple 1-Lipschitz $\u03b2$-Abs nonlinearity, and $L_2$ spatial pooling to maintain tight Lipschitz control while enabling expressive feature mixing. Across CIFAR-10/100 and Tiny-ImageNet, LipNeXt achieves state-of-the-art clean and certified robust accuracy (CRA), and on ImageNet it scales to 1-2B large models, improving CRA over prior Lipschitz models (e.g., up to $+8\\%$ at $\\varepsilon{=}1$) while retaining efficient, stable low-precision training. These results demonstrate that Lipschitz-based certification can benefit from modern scaling trends without sacrificing determinism or efficiency.",
+    "summary": "Lipschitz-based certification offers efficient, deterministic robustness guarantees but has struggled to scale in model size, training efficiency, and ImageNet performance. We introduce \\emph{LipNeXt}, the first \\emph{constraint-free} and \\emph{convolution-free} 1-Lipschitz architecture for certified robustness. LipNeXt is built using two techniques: (1) a manifold optimization procedure that updates parameters directly on the orthogonal manifold and (2) a \\emph{Spatial Shift Module} to model spatial pattern without convolutions. The full network uses orthogonal projections, spatial shifts, a simple 1-Lipschitz $β$-Abs nonlinearity, and $L_2$ spatial pooling to maintain tight Lipschitz control while enabling expressive feature mixing. Across CIFAR-10/100 and Tiny-ImageNet, LipNeXt achieves state-of-the-art clean and certified robust accuracy (CRA), and on ImageNet it scales to 1-2B large models, improving CRA over prior Lipschitz models (e.g., up to $+8\\%$ at $\\varepsilon{=}1$) while retaining efficient, stable low-precision training. These results demonstrate that Lipschitz-based certification can benefit from modern scaling trends without sacrificing determinism or efficiency.",
     "authors": [
       "Kai Hu",
       "Haoqi Hu",
@@ -456,7 +456,7 @@
   {
     "arxiv_id": "2601.18521v1",
     "title": "Scalable Transit Delay Prediction at City Scale: A Systematic Approach with Multi-Resolution Feature Engineering and Deep Learning",
-    "summary": "Urban bus transit agencies need reliable, network-wide delay predictions to provide accurate arrival information to passengers and support real-time operational control. Accurate predictions help passengers plan their trips, reduce waiting time, and allow operations staff to adjust headways, dispatch extra vehicles, and manage disruptions. Although real-time feeds such as GTFS-Realtime (GTFS-RT) are now widely available, most existing delay prediction systems handle only a few routes, depend on hand-crafted features, and offer little guidance on how to design a scalable, reusable architecture.   We present a city-scale prediction pipeline that combines multi-resolution feature engineering, dimensionality reduction, and deep learning. The framework generates 1,683 spatiotemporal features by exploring 23 aggregation combinations over H3 cells, routes, segments, and temporal patterns, and compresses them into 83 components using Adaptive PCA while preserving 95% of the variance. To avoid the \"giant cluster\" problem that occurs when dense urban areas fall into a single H3 region, we introduce a hybrid H3+topology clustering method that yields 12 balanced route clusters (coefficient of variation 0.608) and enables efficient distributed training.   We compare five model architectures on six months of bus operations from the Soci\u00e9t\u00e9 de transport de Montr\u00e9al (STM) network in Montr\u00e9al. A global LSTM with cluster-aware features achieves the best trade-off between accuracy and efficiency, outperforming transformer models by 18 to 52% while using 275 times fewer parameters. We also report multi-level evaluation at the elementary segment, segment, and trip level with walk-forward validation and latency analysis, showing that the proposed pipeline is suitable for real-time, city-scale deployment and can be reused for other networks with limited adaptation.",
+    "summary": "Urban bus transit agencies need reliable, network-wide delay predictions to provide accurate arrival information to passengers and support real-time operational control. Accurate predictions help passengers plan their trips, reduce waiting time, and allow operations staff to adjust headways, dispatch extra vehicles, and manage disruptions. Although real-time feeds such as GTFS-Realtime (GTFS-RT) are now widely available, most existing delay prediction systems handle only a few routes, depend on hand-crafted features, and offer little guidance on how to design a scalable, reusable architecture.   We present a city-scale prediction pipeline that combines multi-resolution feature engineering, dimensionality reduction, and deep learning. The framework generates 1,683 spatiotemporal features by exploring 23 aggregation combinations over H3 cells, routes, segments, and temporal patterns, and compresses them into 83 components using Adaptive PCA while preserving 95% of the variance. To avoid the \"giant cluster\" problem that occurs when dense urban areas fall into a single H3 region, we introduce a hybrid H3+topology clustering method that yields 12 balanced route clusters (coefficient of variation 0.608) and enables efficient distributed training.   We compare five model architectures on six months of bus operations from the Société de transport de Montréal (STM) network in Montréal. A global LSTM with cluster-aware features achieves the best trade-off between accuracy and efficiency, outperforming transformer models by 18 to 52% while using 275 times fewer parameters. We also report multi-level evaluation at the elementary segment, segment, and trip level with walk-forward validation and latency analysis, showing that the proposed pipeline is suitable for real-time, city-scale deployment and can be reused for other networks with limited adaptation.",
     "authors": [
       "Emna Boudabbous",
       "Mohamed Karaa",
@@ -567,7 +567,7 @@
     "authors": [
       "Zhengyang Li",
       "Thomas Graave",
-      "Bj\u00f6rn M\u00f6ller",
+      "Björn Möller",
       "Zehang Wu",
       "Matthias Franz",
       "Tim Fingscheidt"
@@ -670,7 +670,7 @@
     "authors": [
       "Devansh Srivastav",
       "David Pape",
-      "Lea Sch\u00f6nherr"
+      "Lea Schönherr"
     ],
     "categories": [
       "cs.CL",
@@ -813,7 +813,7 @@
   {
     "arxiv_id": "2601.18335v1",
     "title": "Analytic Incremental Learning For Sound Source Localization With Imbalance Rectification",
-    "summary": "Sound source localization (SSL) demonstrates remarkable results in controlled settings but struggles in real-world deployment due to dual imbalance challenges: intra-task imbalance arising from long-tailed direction-of-arrival (DoA) distributions, and inter-task imbalance induced by cross-task skews and overlaps. These often lead to catastrophic forgetting, significantly degrading the localization accuracy. To mitigate these issues, we propose a unified framework with two key innovations. Specifically, we design a GCC-PHAT-based data augmentation (GDA) method that leverages peak characteristics to alleviate intra-task distribution skews. We also propose an Analytic dynamic imbalance rectifier (ADIR) with task-adaption regularization, which enables analytic updates that adapt to inter-task dynamics. On the SSLR benchmark, our proposal achieves state-of-the-art (SoTA) results of 89.0% accuracy, 5.3\u00b0 mean absolute error, and 1.6 backward transfer, demonstrating robustness to evolving imbalances without exemplar storage.",
+    "summary": "Sound source localization (SSL) demonstrates remarkable results in controlled settings but struggles in real-world deployment due to dual imbalance challenges: intra-task imbalance arising from long-tailed direction-of-arrival (DoA) distributions, and inter-task imbalance induced by cross-task skews and overlaps. These often lead to catastrophic forgetting, significantly degrading the localization accuracy. To mitigate these issues, we propose a unified framework with two key innovations. Specifically, we design a GCC-PHAT-based data augmentation (GDA) method that leverages peak characteristics to alleviate intra-task distribution skews. We also propose an Analytic dynamic imbalance rectifier (ADIR) with task-adaption regularization, which enables analytic updates that adapt to inter-task dynamics. On the SSLR benchmark, our proposal achieves state-of-the-art (SoTA) results of 89.0% accuracy, 5.3° mean absolute error, and 1.6 backward transfer, demonstrating robustness to evolving imbalances without exemplar storage.",
     "authors": [
       "Zexia Fan",
       "Yu Chen",
@@ -835,7 +835,7 @@
   {
     "arxiv_id": "2601.18245v1",
     "title": "Tractable Gaussian Phase Retrieval with Heavy Tails and Adversarial Corruption with Near-Linear Sample Complexity",
-    "summary": "Phase retrieval is the classical problem of recovering a signal $x^* \\in \\mathbb{R}^n$ from its noisy phaseless measurements $y_i = \\langle a_i, x^* \\rangle^2 + \u03b6_i$ (where $\u03b6_i$ denotes noise, and $a_i$ is the sensing vector) for $i \\in [m]$. The problem of phase retrieval has a rich history, with a variety of applications such as optics, crystallography, heteroscedastic regression, astrophysics, etc. A major consideration in algorithms for phase retrieval is robustness against measurement errors. In recent breakthroughs in algorithmic robust statistics, efficient algorithms have been developed for several parameter estimation tasks such as mean estimation, covariance estimation, robust principal component analysis (PCA), etc. in the presence of heavy-tailed noise and adversarial corruptions. In this paper, we study efficient algorithms for robust phase retrieval with heavy-tailed noise when a constant fraction of both the measurements $y_i$ and the sensing vectors $a_i$ may be arbitrarily adversarially corrupted. For this problem, Buna and Rebeschini (AISTATS 2025) very recently gave an exponential time algorithm with sample complexity $O(n \\log n)$. Their algorithm needs a robust spectral initialization, specifically, a robust estimate of the top eigenvector of a covariance matrix, which they deemed to be beyond known efficient algorithmic techniques (similar spectral initializations are a key ingredient of a large family of phase retrieval algorithms). In this work, we make a connection between robust spectral initialization and recent algorithmic advances in robust PCA, yielding the first polynomial-time algorithms for robust phase retrieval with both heavy-tailed noise and adversarial corruptions, in fact with near-linear (in $n$) sample complexity.",
+    "summary": "Phase retrieval is the classical problem of recovering a signal $x^* \\in \\mathbb{R}^n$ from its noisy phaseless measurements $y_i = \\langle a_i, x^* \\rangle^2 + ζ_i$ (where $ζ_i$ denotes noise, and $a_i$ is the sensing vector) for $i \\in [m]$. The problem of phase retrieval has a rich history, with a variety of applications such as optics, crystallography, heteroscedastic regression, astrophysics, etc. A major consideration in algorithms for phase retrieval is robustness against measurement errors. In recent breakthroughs in algorithmic robust statistics, efficient algorithms have been developed for several parameter estimation tasks such as mean estimation, covariance estimation, robust principal component analysis (PCA), etc. in the presence of heavy-tailed noise and adversarial corruptions. In this paper, we study efficient algorithms for robust phase retrieval with heavy-tailed noise when a constant fraction of both the measurements $y_i$ and the sensing vectors $a_i$ may be arbitrarily adversarially corrupted. For this problem, Buna and Rebeschini (AISTATS 2025) very recently gave an exponential time algorithm with sample complexity $O(n \\log n)$. Their algorithm needs a robust spectral initialization, specifically, a robust estimate of the top eigenvector of a covariance matrix, which they deemed to be beyond known efficient algorithmic techniques (similar spectral initializations are a key ingredient of a large family of phase retrieval algorithms). In this work, we make a connection between robust spectral initialization and recent algorithmic advances in robust PCA, yielding the first polynomial-time algorithms for robust phase retrieval with both heavy-tailed noise and adversarial corruptions, in fact with near-linear (in $n$) sample complexity.",
     "authors": [
       "Santanu Das",
       "Jatin Batra"
@@ -924,10 +924,10 @@
       "Lukas T. Rotkopf",
       "Marco Schlimbach",
       "Helmut Becker",
-      "Fabian H\u00f6rst",
+      "Fabian Hörst",
       "Johannes Haubold",
       "Philipp Dammann",
-      "Kevin Kr\u00f6ninger",
+      "Kevin Kröninger",
       "Jens Kleesiek"
     ],
     "categories": [
@@ -1008,8 +1008,8 @@
   },
   {
     "arxiv_id": "2601.18754v1",
-    "title": "$\u03b1^3$-SecBench: A Large-Scale Evaluation Suite of Security, Resilience, and Trust for LLM-based UAV Agents over 6G Networks",
-    "summary": "Autonomous unmanned aerial vehicle (UAV) systems are increasingly deployed in safety-critical, networked environments where they must operate reliably in the presence of malicious adversaries. While recent benchmarks have evaluated large language model (LLM)-based UAV agents in reasoning, navigation, and efficiency, systematic assessment of security, resilience, and trust under adversarial conditions remains largely unexplored, particularly in emerging 6G-enabled settings.   We introduce $\u03b1^{3}$-SecBench, the first large-scale evaluation suite for assessing the security-aware autonomy of LLM-based UAV agents under realistic adversarial interference. Building on multi-turn conversational UAV missions from $\u03b1^{3}$-Bench, the framework augments benign episodes with 20,000 validated security overlay attack scenarios targeting seven autonomy layers, including sensing, perception, planning, control, communication, edge/cloud infrastructure, and LLM reasoning. $\u03b1^{3}$-SecBench evaluates agents across three orthogonal dimensions: security (attack detection and vulnerability attribution), resilience (safe degradation behavior), and trust (policy-compliant tool usage).   We evaluate 23 state-of-the-art LLMs from major industrial providers and leading AI labs using thousands of adversarially augmented UAV episodes sampled from a corpus of 113,475 missions spanning 175 threat types. While many models reliably detect anomalous behavior, effective mitigation, vulnerability attribution, and trustworthy control actions remain inconsistent. Normalized overall scores range from 12.9% to 57.1%, highlighting a significant gap between anomaly detection and security-aware autonomous decision-making. We release $\u03b1^{3}$-SecBench on GitHub: https://github.com/maferrag/AlphaSecBench",
+    "title": "$α^3$-SecBench: A Large-Scale Evaluation Suite of Security, Resilience, and Trust for LLM-based UAV Agents over 6G Networks",
+    "summary": "Autonomous unmanned aerial vehicle (UAV) systems are increasingly deployed in safety-critical, networked environments where they must operate reliably in the presence of malicious adversaries. While recent benchmarks have evaluated large language model (LLM)-based UAV agents in reasoning, navigation, and efficiency, systematic assessment of security, resilience, and trust under adversarial conditions remains largely unexplored, particularly in emerging 6G-enabled settings.   We introduce $α^{3}$-SecBench, the first large-scale evaluation suite for assessing the security-aware autonomy of LLM-based UAV agents under realistic adversarial interference. Building on multi-turn conversational UAV missions from $α^{3}$-Bench, the framework augments benign episodes with 20,000 validated security overlay attack scenarios targeting seven autonomy layers, including sensing, perception, planning, control, communication, edge/cloud infrastructure, and LLM reasoning. $α^{3}$-SecBench evaluates agents across three orthogonal dimensions: security (attack detection and vulnerability attribution), resilience (safe degradation behavior), and trust (policy-compliant tool usage).   We evaluate 23 state-of-the-art LLMs from major industrial providers and leading AI labs using thousands of adversarially augmented UAV episodes sampled from a corpus of 113,475 missions spanning 175 threat types. While many models reliably detect anomalous behavior, effective mitigation, vulnerability attribution, and trustworthy control actions remain inconsistent. Normalized overall scores range from 12.9% to 57.1%, highlighting a significant gap between anomaly detection and security-aware autonomous decision-making. We release $α^{3}$-SecBench on GitHub: https://github.com/maferrag/AlphaSecBench",
     "authors": [
       "Mohamed Amine Ferrag",
       "Abderrahmane Lakas",
@@ -1274,8 +1274,8 @@
     "title": "SeNeDiF-OOD: Semantic Nested Dichotomy Fusion for Out-of-Distribution Detection Methodology in Open-World Classification. A Case Study on Monument Style Classification",
     "summary": "Out-of-distribution (OOD) detection is a fundamental requirement for the reliable deployment of artificial intelligence applications in open-world environments. However, addressing the heterogeneous nature of OOD data, ranging from low-level corruption to semantic shifts, remains a complex challenge that single-stage detectors often fail to resolve. To address this issue, we propose SeNeDiF-OOD, a novel methodology based on Semantic Nested Dichotomy Fusion. This framework decomposes the detection task into a hierarchical structure of binary fusion nodes, where each layer is designed to integrate decision boundaries aligned with specific levels of semantic abstraction. To validate the proposed framework, we present a comprehensive case study using MonuMAI, a real-world architectural style recognition system exposed to an open environment. This application faces a diverse range of inputs, including non-monument images, unknown architectural styles, and adversarial attacks, making it an ideal testbed for our proposal. Through extensive experimental evaluation in this domain, results demonstrate that our hierarchical fusion methodology significantly outperforms traditional baselines, effectively filtering these diverse OOD categories while preserving in-distribution performance.",
     "authors": [
-      "Ignacio Antequera-S\u00e1nchez",
-      "Juan Luis Su\u00e1rez-D\u00edaz",
+      "Ignacio Antequera-Sánchez",
+      "Juan Luis Suárez-Díaz",
       "Rosana Montes",
       "Francisco Herrera"
     ],
@@ -1455,7 +1455,7 @@
       "Judith Vilella-Cantos",
       "Mauro Martini",
       "Marcello Chiaberge",
-      "M\u00f3nica Ballesta",
+      "Mónica Ballesta",
       "David Valiente"
     ],
     "categories": [
@@ -1803,7 +1803,7 @@
       "Brian Ondov",
       "Chia-Hsuan Chang",
       "Yujia Zhou",
-      "Mauro Giuffr\u00e8",
+      "Mauro Giuffrè",
       "Hua Xu"
     ],
     "categories": [
@@ -1923,7 +1923,7 @@
       "Momchil Hardalov",
       "Rexhina Blloshmi",
       "Bill Byrne",
-      "Adri\u00e0 de Gispert"
+      "Adrià de Gispert"
     ],
     "categories": [
       "cs.CL"
@@ -1978,7 +1978,7 @@
   {
     "arxiv_id": "2601.18285v1",
     "title": "U-Fold: Dynamic Intent-Aware Context Folding for User-Centric Agents",
-    "summary": "Large language model (LLM)-based agents have been successfully deployed in many tool-augmented settings, but their scalability is fundamentally constrained by context length. Existing context-folding methods mitigate this issue by summarizing past interactions, yet they are typically designed for single-query or single-intent scenarios. In more realistic user-centric dialogues, we identify two major failure modes: (i) they irreversibly discard fine-grained constraints and intermediate facts that are crucial for later decisions, and (ii) their summaries fail to track evolving user intent, leading to omissions and erroneous actions. To address these limitations, we propose U-Fold, a dynamic context-folding framework tailored to user-centric tasks. U-Fold retains the full user--agent dialogue and tool-call history but, at each turn, uses two core components to produce an intent-aware, evolving dialogue summary and a compact, task-relevant tool log. Extensive experiments on $\u03c4$-bench, $\u03c4^2$-bench, VitaBench, and harder context-inflated settings show that U-Fold consistently outperforms ReAct (achieving a 71.4% win rate in long-context settings) and prior folding baselines (with improvements of up to 27.0%), particularly on long, noisy, multi-turn tasks. Our study demonstrates that U-Fold is a promising step toward transferring context-management techniques from single-query benchmarks to realistic user-centric applications.",
+    "summary": "Large language model (LLM)-based agents have been successfully deployed in many tool-augmented settings, but their scalability is fundamentally constrained by context length. Existing context-folding methods mitigate this issue by summarizing past interactions, yet they are typically designed for single-query or single-intent scenarios. In more realistic user-centric dialogues, we identify two major failure modes: (i) they irreversibly discard fine-grained constraints and intermediate facts that are crucial for later decisions, and (ii) their summaries fail to track evolving user intent, leading to omissions and erroneous actions. To address these limitations, we propose U-Fold, a dynamic context-folding framework tailored to user-centric tasks. U-Fold retains the full user--agent dialogue and tool-call history but, at each turn, uses two core components to produce an intent-aware, evolving dialogue summary and a compact, task-relevant tool log. Extensive experiments on $τ$-bench, $τ^2$-bench, VitaBench, and harder context-inflated settings show that U-Fold consistently outperforms ReAct (achieving a 71.4% win rate in long-context settings) and prior folding baselines (with improvements of up to 27.0%), particularly on long, noisy, multi-turn tasks. Our study demonstrates that U-Fold is a promising step toward transferring context-management techniques from single-query benchmarks to realistic user-centric applications.",
     "authors": [
       "Jin Su",
       "Runnan Fang",
@@ -2111,11 +2111,11 @@
     "summary": "During language acquisition, children successively learn to categorize phonemes, identify words, and combine them with syntax to form new meaning. While the development of this behavior is well characterized, we still lack a unifying computational framework to explain its underlying neural representations. Here, we investigate whether and when phonemic, lexical, and syntactic representations emerge in the activations of artificial neural networks during their training. Our results show that both speech- and text-based models follow a sequence of learning stages: during training, their neural activations successively build subspaces, where the geometry of the neural activations represents phonemic, lexical, and syntactic structure. While this developmental trajectory qualitatively relates to children's, it is quantitatively different: These algorithms indeed require two to four orders of magnitude more data for these neural representations to emerge. Together, these results show conditions under which major stages of language acquisition spontaneously emerge, and hence delineate a promising path to understand the computations underpinning language acquisition.",
     "authors": [
       "Pierre Orhan",
-      "Pablo Diego-Sim\u00f3n",
+      "Pablo Diego-Simón",
       "Emmnanuel Chemla",
       "Yair Lakretz",
       "Yves Boubenec",
-      "Jean-R\u00e9mi King"
+      "Jean-Rémi King"
     ],
     "categories": [
       "cs.AI",
@@ -2586,8 +2586,8 @@
     "authors": [
       "Yadang Alexis Rouzoumka",
       "Jean Pinsolle",
-      "Eug\u00e9nie Terreaux",
-      "Christ\u00e8le Morisseau",
+      "Eugénie Terreaux",
+      "Christèle Morisseau",
       "Jean-Philippe Ovarlez",
       "Chengfang Ren"
     ],
@@ -2608,7 +2608,7 @@
     "summary": "We present a novel metric for the evaluation of the morphological plausibility of subword segmentation. Unlike the typically used morpheme boundary or retrieval F-score, which requires gold segmentation data that is either unavailable or of inconsistent quality across many languages, our approach utilizes morpho-syntactic features. These are available in resources such as Universal Dependencies or UniMorph for a much wider range of languages. The metric works by probabilistically aligning subwords with morphological features through an IBM Model 1. Our experiments show that the metric correlates well with traditional morpheme boundary recall while being more broadly applicable across languages with different morphological systems.",
     "authors": [
       "Abishek Stephen",
-      "Jind\u0159ich Libovick\u00fd"
+      "Jindřich Libovický"
     ],
     "categories": [
       "cs.CL"
@@ -2711,7 +2711,7 @@
     "title": "Overalignment in Frontier LLMs: An Empirical Study of Sycophantic Behaviour in Healthcare",
     "summary": "As LLMs are increasingly integrated into clinical workflows, their tendency for sycophancy, prioritizing user agreement over factual accuracy, poses significant risks to patient safety. While existing evaluations often rely on subjective datasets, we introduce a robust framework grounded in medical MCQA with verifiable ground truths. We propose the Adjusted Sycophancy Score, a novel metric that isolates alignment bias by accounting for stochastic model instability, or \"confusability\". Through an extensive scaling analysis of the Qwen-3 and Llama-3 families, we identify a clear scaling trajectory for resilience. Furthermore, we reveal a counter-intuitive vulnerability in reasoning-optimized \"Thinking\" models: while they demonstrate high vanilla accuracy, their internal reasoning traces frequently rationalize incorrect user suggestions under authoritative pressure. Our results across frontier models suggest that benchmark performance is not a proxy for clinical reliability, and that simplified reasoning structures may offer superior robustness against expert-driven sycophancy.",
     "authors": [
-      "Cl\u00e9ment Christophe",
+      "Clément Christophe",
       "Wadood Mohammed Abdul",
       "Prateek Munjal",
       "Tathagata Raha",
@@ -2797,7 +2797,7 @@
   {
     "arxiv_id": "2601.18681v1",
     "title": "ART for Diffusion Sampling: A Reinforcement Learning Approach to Timestep Schedule",
-    "summary": "We consider time discretization for score-based diffusion models to generate samples from a learned reverse-time dynamic on a finite grid. Uniform and hand-crafted grids can be suboptimal given a budget on the number of time steps. We introduce Adaptive Reparameterized Time (ART) that controls the clock speed of a reparameterized time variable, leading to a time change and uneven timesteps along the sampling trajectory while preserving the terminal time. The objective is to minimize the aggregate error arising from the discretized Euler scheme. We derive a randomized control companion, ART-RL, and formulate time change as a continuous-time reinforcement learning (RL) problem with Gaussian policies. We then prove that solving ART-RL recovers the optimal ART schedule, which in turn enables practical actor--critic updates to learn the latter in a data-driven way. Empirically, based on the official EDM pipeline, ART-RL improves Fr\u00e9chet Inception Distance on CIFAR-10 over a wide range of budgets and transfers to AFHQv2, FFHQ, and ImageNet without the need of retraining.",
+    "summary": "We consider time discretization for score-based diffusion models to generate samples from a learned reverse-time dynamic on a finite grid. Uniform and hand-crafted grids can be suboptimal given a budget on the number of time steps. We introduce Adaptive Reparameterized Time (ART) that controls the clock speed of a reparameterized time variable, leading to a time change and uneven timesteps along the sampling trajectory while preserving the terminal time. The objective is to minimize the aggregate error arising from the discretized Euler scheme. We derive a randomized control companion, ART-RL, and formulate time change as a continuous-time reinforcement learning (RL) problem with Gaussian policies. We then prove that solving ART-RL recovers the optimal ART schedule, which in turn enables practical actor--critic updates to learn the latter in a data-driven way. Empirically, based on the official EDM pipeline, ART-RL improves Fréchet Inception Distance on CIFAR-10 over a wide range of budgets and transfers to AFHQv2, FFHQ, and ImageNet without the need of retraining.",
     "authors": [
       "Yilie Huang",
       "Wenpin Tang",
@@ -2987,7 +2987,7 @@
       "Reemt Hinrichs",
       "Sonja Stephan",
       "Alexander Lange",
-      "J\u00f6rn Ostermann"
+      "Jörn Ostermann"
     ],
     "categories": [
       "cs.SD",
@@ -3053,7 +3053,7 @@
     "summary": "The capabilities of generative AI in mathematics education are rapidly evolving, posing significant challenges for research to keep pace. Research syntheses remain scarce and risk being outdated by the time of publication. To address this issue, we present a Living Meta-Analysis (LIMA) on the effects of generative AI-based interventions for learning mathematics. Following PRISMA-LSR guidelines, we continuously update the literature base, apply a Bayesian multilevel meta-regression model to account for cumulative data, and publish updated versions on a preprint server at regular intervals. This paper reports results from the first version, including 15 studies. The analyses indicate a small positive effect (g = 0.31) with a wide credible interval [0.06, 0.58], reflecting the still limited evidence base.",
     "authors": [
       "Anselm Strohmaier",
-      "Samira B\u00f6defeld",
+      "Samira Bödefeld",
       "Frank Reinhold"
     ],
     "categories": [
@@ -3103,7 +3103,7 @@
       "Franziska Weeber",
       "Vera Neplenbroek",
       "Jan Batzner",
-      "Sebastian Pad\u00f3"
+      "Sebastian Padó"
     ],
     "categories": [
       "cs.CL"
@@ -3180,7 +3180,7 @@
     "summary": "We present a large-scale comparative study of 242 Latin and Cyrillic-script languages using subword-based methodologies. By constructing 'glottosets' from Wikipedia lexicons, we introduce a framework for simultaneous cross-linguistic comparison via Byte-Pair Encoding (BPE). Our approach utilizes rank-based subword vectors to analyze vocabulary overlap, lexical divergence, and language similarity at scale. Evaluations demonstrate that BPE segmentation aligns with morpheme boundaries 95% better than random baseline across 15 languages (F1 = 0.34 vs 0.15). BPE vocabulary similarity correlates significantly with genetic language relatedness (Mantel r = 0.329, p < 0.001), with Romance languages forming the tightest cluster (mean distance 0.51) and cross-family pairs showing clear separation (0.82). Analysis of 26,939 cross-linguistic homographs reveals that 48.7% receive different segmentations across related languages, with variation correlating to phylogenetic distance. Our results provide quantitative macro-linguistic insights into lexical patterns across typologically diverse languages within a unified analytical framework.",
     "authors": [
       "Iaroslav Chelombitko",
-      "Mika H\u00e4m\u00e4l\u00e4inen",
+      "Mika Hämäläinen",
       "Aleksey Komissarov"
     ],
     "categories": [
@@ -3284,7 +3284,7 @@
     "summary": "Multi-view 3D reconstruction methods remain highly sensitive to photometric inconsistencies arising from camera optical characteristics and variations in image signal processing (ISP). Existing mitigation strategies such as per-frame latent variables or affine color corrections lack physical grounding and generalize poorly to novel views. We propose the Physically-Plausible ISP (PPISP) correction module, which disentangles camera-intrinsic and capture-dependent effects through physically based and interpretable transformations. A dedicated PPISP controller, trained on the input views, predicts ISP parameters for novel viewpoints, analogous to auto exposure and auto white balance in real cameras. This design enables realistic and fair evaluation on novel views without access to ground-truth images. PPISP achieves SoTA performance on standard benchmarks, while providing intuitive control and supporting the integration of metadata when available. The source code is available at: https://github.com/nv-tlabs/ppisp",
     "authors": [
       "Isaac Deutsch",
-      "Nicolas Mo\u00ebnne-Loccoz",
+      "Nicolas Moënne-Loccoz",
       "Gavriel State",
       "Zan Gojcic"
     ],
@@ -3562,7 +3562,7 @@
       "Neil K. R. Seghal",
       "Niyati Malhotra",
       "Victor Orozco-Olvera",
-      "Ana Mar\u00eda Mu\u00f1oz Boudet",
+      "Ana María Muñoz Boudet",
       "Lakshmi Subramanian",
       "Sharath Chandra Guntuku",
       "Valentin Hofmann"
@@ -3583,9 +3583,9 @@
     "title": "Emergent Cooperation in Quantum Multi-Agent Reinforcement Learning Using Communication",
     "summary": "Emergent cooperation in classical Multi-Agent Reinforcement Learning has gained significant attention, particularly in the context of Sequential Social Dilemmas (SSDs). While classical reinforcement learning approaches have demonstrated capability for emergent cooperation, research on extending these methods to Quantum Multi-Agent Reinforcement Learning remains limited, particularly through communication. In this paper, we apply communication approaches to quantum Q-Learning agents: the Mutual Acknowledgment Token Exchange (MATE) protocol, its extension Mutually Endorsed Distributed Incentive Acknowledgment Token Exchange (MEDIATE), the peer rewarding mechanism Gifting, and Reinforced Inter-Agent Learning (RIAL). We evaluate these approaches in three SSDs: the Iterated Prisoner's Dilemma, Iterated Stag Hunt, and Iterated Game of Chicken. Our experimental results show that approaches using MATE with temporal-difference measure (MATE\\textsubscript{TD}), AutoMATE, MEDIATE-I, and MEDIATE-S achieved high cooperation levels across all dilemmas, demonstrating that communication is a viable mechanism for fostering emergent cooperation in Quantum Multi-Agent Reinforcement Learning.",
     "authors": [
-      "Michael K\u00f6lle",
+      "Michael Kölle",
       "Christian Reff",
-      "Leo S\u00fcnkel",
+      "Leo Sünkel",
       "Julian Hager",
       "Gerhard Stenzel",
       "Claudia Linnhoff-Popien"
@@ -3626,17 +3626,17 @@
     "summary": "City council minutes are typically lengthy and formal documents with a bureaucratic writing style. Although publicly available, their structure often makes it difficult for citizens or journalists to efficiently find information. In this demo, we present CitiLink, a platform designed to transform unstructured municipal meeting minutes into structured and searchable data, demonstrating how NLP and IR can enhance the accessibility and transparency of local government. The system employs LLMs to extract metadata, discussed subjects, and voting outcomes, which are then indexed in a database to support full-text search with BM25 ranking and faceted filtering through a user-friendly interface. The developed system was built over a collection of 120 minutes made available by six Portuguese municipalities. To assess its usability, CitiLink was tested through guided sessions with municipal personnel, providing insights into how real users interact with the system. In addition, we evaluated Gemini's performance in extracting relevant information from the minutes, highlighting its effectiveness in data extraction.",
     "authors": [
       "Rodrigo Silva",
-      "Jos\u00e9 Evans",
-      "Jos\u00e9 Isidro",
+      "José Evans",
+      "José Isidro",
       "Miguel Marques",
       "Afonso Fonseca",
       "Ricardo Morais",
-      "Jo\u00e3o Canavilhas",
+      "João Canavilhas",
       "Arian Pasquali",
-      "Purifica\u00e7\u00e3o Silvano",
-      "Al\u00edpio Jorge",
-      "Nuno Guimar\u00e3es",
-      "S\u00e9rgio Nunes",
+      "Purificação Silvano",
+      "Alípio Jorge",
+      "Nuno Guimarães",
+      "Sérgio Nunes",
       "Ricardo Campos"
     ],
     "categories": [
@@ -3654,13 +3654,13 @@
     "title": "OREHAS: A fully automated deep-learning pipeline for volumetric endolymphatic hydrops quantification in MRI",
     "summary": "We present OREHAS (Optimized Recognition & Evaluation of volumetric Hydrops in the Auditory System), the first fully automatic pipeline for volumetric quantification of endolymphatic hydrops (EH) from routine 3D-SPACE-MRC and 3D-REAL-IR MRI. The system integrates three components -- slice classification, inner ear localization, and sequence-specific segmentation -- into a single workflow that computes per-ear endolymphatic-to-vestibular volume ratios (ELR) directly from whole MRI volumes, eliminating the need for manual intervention.   Trained with only 3 to 6 annotated slices per patient, OREHAS generalized effectively to full 3D volumes, achieving Dice scores of 0.90 for SPACE-MRC and 0.75 for REAL-IR. In an external validation cohort with complete manual annotations, OREHAS closely matched expert ground truth (VSI = 74.3%) and substantially outperformed the clinical syngo.via software (VSI = 42.5%), which tended to overestimate endolymphatic volumes. Across 19 test patients, vestibular measurements from OREHAS were consistent with syngo.via, while endolymphatic volumes were systematically smaller and more physiologically realistic.   These results show that reliable and reproducible EH quantification can be achieved from standard MRI using limited supervision. By combining efficient deep-learning-based segmentation with a clinically aligned volumetric workflow, OREHAS reduces operator dependence, ensures methodological consistency. Besides, the results are compatible with established imaging protocols. The approach provides a robust foundation for large-scale studies and for recalibrating clinical diagnostic thresholds based on accurate volumetric measurements of the inner ear.",
     "authors": [
-      "Caterina Fuster-Barcel\u00f3",
-      "Claudia Castrill\u00f3n",
-      "Laura Rodrigo-Mu\u00f1oz",
-      "Victor Manuel Vega-Su\u00e1rez",
-      "Nicol\u00e1s P\u00e9rez-Fern\u00e1ndez",
+      "Caterina Fuster-Barceló",
+      "Claudia Castrillón",
+      "Laura Rodrigo-Muñoz",
+      "Victor Manuel Vega-Suárez",
+      "Nicolás Pérez-Fernández",
       "Gorka Bastarrika",
-      "Arrate Mu\u00f1oz-Barrutia"
+      "Arrate Muñoz-Barrutia"
     ],
     "categories": [
       "cs.CV"
@@ -3743,7 +3743,7 @@
       "Panagiotis Lymperopoulos",
       "Abhiramon Rajasekharan",
       "Ian Berlot-Attwell",
-      "St\u00e9phane Aroca-Ouellette",
+      "Stéphane Aroca-Ouellette",
       "Kaheer Suleman"
     ],
     "categories": [
@@ -3829,7 +3829,7 @@
     "title": "What Do Learned Models Measure?",
     "summary": "In many scientific and data-driven applications, machine learning models are increasingly used as measurement instruments, rather than merely as predictors of predefined labels. When the measurement function is learned from data, the mapping from observations to quantities is determined implicitly by the training distribution and inductive biases, allowing multiple inequivalent mappings to satisfy standard predictive evaluation criteria. We formalize learned measurement functions as a distinct focus of evaluation and introduce measurement stability, a property capturing invariance of the measured quantity across admissible realizations of the learning process and across contexts. We show that standard evaluation criteria in machine learning, including generalization error, calibration, and robustness, do not guarantee measurement stability. Through a real-world case study, we show that models with comparable predictive performance can implement systematically inequivalent measurement functions, with distribution shift providing a concrete illustration of this failure. Taken together, our results highlight a limitation of existing evaluation frameworks in settings where learned model outputs are identified as measurements, motivating the need for an additional evaluative dimension.",
     "authors": [
-      "Indr\u0117 \u017dliobait\u0117"
+      "Indrė Žliobaitė"
     ],
     "categories": [
       "cs.LG",
@@ -3887,7 +3887,7 @@
   {
     "arxiv_id": "2601.18663v1",
     "title": "Uniform Computability of PAC Learning",
-    "summary": "We study uniform computability properties of PAC learning using Weihrauch complexity. We focus on closed concept classes, which are either represented by positive, by negative or by full information. Among other results, we prove that proper PAC learning from positive information is equivalent to the limit operation on Baire space, whereas improper PAC learning from positive information is closely related to Weak K\u0151nig's Lemma and even equivalent to it, when we have some negative information about the admissible hypotheses. If arbitrary hypotheses are allowed, then improper PAC learning from positive information is still in a finitary DNC range, which implies that it is non-deterministically computable, but does not allow for probabilistic algorithms. These results can also be seen as a classification of the degree of constructivity of the Fundamental Theorem of Statistical Learning. All the aforementioned results hold if an upper bound of the VC dimension is provided as an additional input information. We also study the question of how these results are affected if the VC dimension is not given, but only promised to be finite or if concept classes are represented by negative or full information. Finally, we also classify the complexity of the VC dimension operation itself, which is a problem that is of independent interest. For positive or full information it turns out to be equivalent to the binary sorting problem, for negative information it is equivalent to the jump of sorting. This classification allows also conclusions regarding the Borel complexity of PAC learnability.",
+    "summary": "We study uniform computability properties of PAC learning using Weihrauch complexity. We focus on closed concept classes, which are either represented by positive, by negative or by full information. Among other results, we prove that proper PAC learning from positive information is equivalent to the limit operation on Baire space, whereas improper PAC learning from positive information is closely related to Weak Kőnig's Lemma and even equivalent to it, when we have some negative information about the admissible hypotheses. If arbitrary hypotheses are allowed, then improper PAC learning from positive information is still in a finitary DNC range, which implies that it is non-deterministically computable, but does not allow for probabilistic algorithms. These results can also be seen as a classification of the degree of constructivity of the Fundamental Theorem of Statistical Learning. All the aforementioned results hold if an upper bound of the VC dimension is provided as an additional input information. We also study the question of how these results are affected if the VC dimension is not given, but only promised to be finite or if concept classes are represented by negative or full information. Finally, we also classify the complexity of the VC dimension operation itself, which is a problem that is of independent interest. For positive or full information it turns out to be equivalent to the binary sorting problem, for negative information it is equivalent to the jump of sorting. This classification allows also conclusions regarding the Borel complexity of PAC learnability.",
     "authors": [
       "Vasco Brattka",
       "Guillaume Chirache"
@@ -3947,11 +3947,11 @@
   {
     "arxiv_id": "2601.18546v1",
     "title": "Information Hidden in Gradients of Regression with Target Noise",
-    "summary": "Second-order information -- such as curvature or data covariance -- is critical for optimisation, diagnostics, and robustness. However, in many modern settings, only the gradients are observable. We show that the gradients alone can reveal the Hessian, equalling the data covariance $\u03a3$ for the linear regression. Our key insight is a simple variance calibration: injecting Gaussian noise so that the total target noise variance equals the batch size ensures that the empirical gradient covariance closely approximates the Hessian, even when evaluated far from the optimum. We provide non-asymptotic operator-norm guarantees under sub-Gaussian inputs. We also show that without such calibration, recovery can fail by an $\u03a9(1)$ factor. The proposed method is practical (a \"set target-noise variance to $n$\" rule) and robust (variance $\\mathcal{O}(n)$ suffices to recover $\u03a3$ up to scale). Applications include preconditioning for faster optimisation, adversarial risk estimation, and gradient-only training, for example, in distributed systems. We support our theoretical results with experiments on synthetic and real data.",
+    "summary": "Second-order information -- such as curvature or data covariance -- is critical for optimisation, diagnostics, and robustness. However, in many modern settings, only the gradients are observable. We show that the gradients alone can reveal the Hessian, equalling the data covariance $Σ$ for the linear regression. Our key insight is a simple variance calibration: injecting Gaussian noise so that the total target noise variance equals the batch size ensures that the empirical gradient covariance closely approximates the Hessian, even when evaluated far from the optimum. We provide non-asymptotic operator-norm guarantees under sub-Gaussian inputs. We also show that without such calibration, recovery can fail by an $Ω(1)$ factor. The proposed method is practical (a \"set target-noise variance to $n$\" rule) and robust (variance $\\mathcal{O}(n)$ suffices to recover $Σ$ up to scale). Applications include preconditioning for faster optimisation, adversarial risk estimation, and gradient-only training, for example, in distributed systems. We support our theoretical results with experiments on synthetic and real data.",
     "authors": [
       "Arash Jamshidi",
       "Katsiaryna Haitsiukevich",
-      "Kai Puolam\u00e4ki"
+      "Kai Puolamäki"
     ],
     "categories": [
       "cs.LG"
@@ -4294,7 +4294,7 @@
       "Roberto Di Via",
       "Vito Paolo Pastore",
       "Francesca Odone",
-      "Si\u00f4n Glyn-Jones",
+      "Siôn Glyn-Jones",
       "Irina Voiculescu"
     ],
     "categories": [
@@ -4471,98 +4471,5 @@
     "date": "2026-01-27",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "logannewman106901/XF9YBrBFjrvpZQn",
-    "author": "unknown",
-    "title": "logannewman106901/XF9YBrBFjrvpZQn",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-01-27T04:25:59.000Z",
-    "last_modified": "2026-01-27T04:25:59.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/logannewman106901/XF9YBrBFjrvpZQn",
-    "date": "2026-01-27",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "logannewman106901/0MsgtXDM5Yrhtp5",
-    "author": "unknown",
-    "title": "logannewman106901/0MsgtXDM5Yrhtp5",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-01-27T04:25:53.000Z",
-    "last_modified": "2026-01-27T04:25:53.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/logannewman106901/0MsgtXDM5Yrhtp5",
-    "date": "2026-01-27",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "logannewman106901/TAKVbZwklXFZsWF",
-    "author": "unknown",
-    "title": "logannewman106901/TAKVbZwklXFZsWF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-01-27T04:25:43.000Z",
-    "last_modified": "2026-01-27T04:25:43.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/logannewman106901/TAKVbZwklXFZsWF",
-    "date": "2026-01-27",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Kudod/NuminaMath-Qwen2.5-1.5B-GRPO-test-v1",
-    "author": "unknown",
-    "title": "Kudod/NuminaMath-Qwen2.5-1.5B-GRPO-test-v1",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "generated_from_trainer",
-      "grpo",
-      "trl",
-      "conversational",
-      "arxiv:2402.03300",
-      "base_model:Qwen/Qwen2.5-1.5B-Instruct",
-      "base_model:finetune:Qwen/Qwen2.5-1.5B-Instruct",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-01-27T02:23:40.000Z",
-    "last_modified": "2026-01-27T04:24:48.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Kudod/NuminaMath-Qwen2.5-1.5B-GRPO-test-v1",
-    "date": "2026-01-27",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
