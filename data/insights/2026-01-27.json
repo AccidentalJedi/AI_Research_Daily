@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-27T08:12:25.462671",
+  "date": "2026-01-27T12:15:05.471781",
   "patterns": {
     "multimodal_research": [
       {
@@ -1197,6 +1197,10 @@
       {
         "title": "CONQUER: Context-Aware Representation with Query Enhancement for Text-Based Person Search",
         "url": "https://arxiv.org/abs/2601.18625v1"
+      },
+      {
+        "title": "inferencerlabs/Kimi-K2.5-MLX-3.6bit",
+        "url": "https://huggingface.co/inferencerlabs/Kimi-K2.5-MLX-3.6bit"
       }
     ],
     "benchmarks": [
@@ -1653,7 +1657,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "59 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1700,6 +1704,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 400
+    "total_papers": 401
   }
 }
