@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-29T08:16:44.883993",
+  "date": "2026-01-29T12:17:42.502113",
   "patterns": {
     "multimodal_research": [
       {
@@ -703,12 +703,8 @@
         "url": "https://arxiv.org/abs/2601.20351v1"
       },
       {
-        "title": "Macropodus/macbert4mdcspell_v3",
-        "url": "https://huggingface.co/Macropodus/macbert4mdcspell_v3"
-      },
-      {
-        "title": "parthjain/bert-base-uncased-imdb",
-        "url": "https://huggingface.co/parthjain/bert-base-uncased-imdb"
+        "title": "PhysiQuanty/B-LLM-Test",
+        "url": "https://huggingface.co/PhysiQuanty/B-LLM-Test"
       }
     ],
     "vision_systems": [
@@ -1157,34 +1153,6 @@
       {
         "title": "Everything in Its Place: Benchmarking Spatial Intelligence of Text-to-Image Models",
         "url": "https://arxiv.org/abs/2601.20354v1"
-      },
-      {
-        "title": "CompactAI/Qwen3-0.6B-reasoning-extra-heavy",
-        "url": "https://huggingface.co/CompactAI/Qwen3-0.6B-reasoning-extra-heavy"
-      },
-      {
-        "title": "CompactAI/Qwen3-0.6B-reasoning-heavy",
-        "url": "https://huggingface.co/CompactAI/Qwen3-0.6B-reasoning-heavy"
-      },
-      {
-        "title": "CompactAI/Qwen3-0.6B-reasoning-medium-heavy",
-        "url": "https://huggingface.co/CompactAI/Qwen3-0.6B-reasoning-medium-heavy"
-      },
-      {
-        "title": "CompactAI/Qwen3-0.6B-reasoning-medium",
-        "url": "https://huggingface.co/CompactAI/Qwen3-0.6B-reasoning-medium"
-      },
-      {
-        "title": "CompactAI/Qwen3-0.6B-reasoning-medium-light",
-        "url": "https://huggingface.co/CompactAI/Qwen3-0.6B-reasoning-medium-light"
-      },
-      {
-        "title": "CompactAI/Qwen3-0.6B-reasoning-light",
-        "url": "https://huggingface.co/CompactAI/Qwen3-0.6B-reasoning-light"
-      },
-      {
-        "title": "CompactAI/Qwen3-0.6B-reasoning-extra-light",
-        "url": "https://huggingface.co/CompactAI/Qwen3-0.6B-reasoning-extra-light"
       }
     ],
     "benchmarks": [
@@ -1625,7 +1593,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1637,7 +1605,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "67 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1671,19 +1639,19 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 39,
+      "topic": "architecture",
+      "frequency": 34,
       "significance": "high"
     },
     {
-      "topic": "architecture",
-      "frequency": 34,
+      "topic": "reasoning",
+      "frequency": 32,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 396
+    "total_papers": 388
   }
 }
