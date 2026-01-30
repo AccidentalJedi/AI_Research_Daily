@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-30T08:16:00.879454",
+  "date": "2026-01-30T12:17:04.470373",
   "patterns": {
     "multimodal_research": [
       {
@@ -761,10 +761,6 @@
       {
         "title": "Evolution of Benchmark: Black-Box Optimization Benchmark Design through Large Language Model",
         "url": "https://arxiv.org/abs/2601.21877v1"
-      },
-      {
-        "title": "zhuojing-huang/gpt2-chinese20k-english10k-configA-13-100M",
-        "url": "https://huggingface.co/zhuojing-huang/gpt2-chinese20k-english10k-configA-13-100M"
       }
     ],
     "vision_systems": [
@@ -1009,8 +1005,8 @@
         "url": "https://arxiv.org/abs/2601.21933v1"
       },
       {
-        "title": "mingyi456/Z-Image-Turbo-Misc-Finetunes-DF11",
-        "url": "https://huggingface.co/mingyi456/Z-Image-Turbo-Misc-Finetunes-DF11"
+        "title": "Alelcv27/Qwen2.5-7B-Math-Code-v2",
+        "url": "https://huggingface.co/Alelcv27/Qwen2.5-7B-Math-Code-v2"
       }
     ],
     "reasoning": [
@@ -1749,7 +1745,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 426
   }
 }
