@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-31T16:10:17.975271",
+  "date": "2026-01-31T20:09:43.780921",
   "patterns": {
     "multimodal_research": [
       {
@@ -1003,6 +1003,14 @@
       {
         "title": "Just Noticeable Difference Modeling for Deep Visual Features",
         "url": "https://arxiv.org/abs/2601.21933v1"
+      },
+      {
+        "title": "lichorosario/tostiadvbg-v1-qwen-image2512",
+        "url": "https://huggingface.co/lichorosario/tostiadvbg-v1-qwen-image2512"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1747,7 +1755,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "60 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1800,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 427
   }
 }
