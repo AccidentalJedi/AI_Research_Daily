@@ -1,11 +1,32 @@
 {
-  "date": "2026-02-01T16:10:39.279967",
-  "patterns": {},
+  "date": "2026-02-01T20:09:41.910053",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Euraika/EuroLLM-22B-Instruct-GPTQ",
+        "url": "https://huggingface.co/Euraika/EuroLLM-22B-Instruct-GPTQ"
+      },
+      {
+        "title": "mradermacher/ThaiLLM-30B-IQ-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/ThaiLLM-30B-IQ-i1-GGUF"
+      }
+    ],
+    "vision_systems": [
+      {
+        "title": "Alelcv27/Olmo2-7B-DataMerged",
+        "url": "https://huggingface.co/Alelcv27/Olmo2-7B-DataMerged"
+      },
+      {
+        "title": "diku92/Ai-image",
+        "url": "https://huggingface.co/diku92/Ai-image"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 2,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 4
   }
 }
