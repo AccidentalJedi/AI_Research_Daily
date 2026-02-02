@@ -1,11 +1,22 @@
 {
-  "date": "2026-02-02T04:46:38.943893",
-  "patterns": {},
+  "date": "2026-02-02T08:19:53.885751",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "YiMeng-SYSU/roberta-logic-sentiment-zh",
+        "url": "https://huggingface.co/YiMeng-SYSU/roberta-logic-sentiment-zh"
+      },
+      {
+        "title": "Wilsonwin/gpt2-chinese-mini",
+        "url": "https://huggingface.co/Wilsonwin/gpt2-chinese-mini"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
