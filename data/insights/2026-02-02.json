@@ -1,33 +1,11 @@
 {
-  "date": "2026-02-02T12:18:33.837715",
-  "patterns": {
-    "vision_systems": [
-      {
-        "title": "lichorosario/tortera-v1-qwen-image-2512",
-        "url": "https://huggingface.co/lichorosario/tortera-v1-qwen-image-2512"
-      },
-      {
-        "title": "Alelcv27/Llama3.1-8B-Math-CoT",
-        "url": "https://huggingface.co/Alelcv27/Llama3.1-8B-Math-CoT"
-      },
-      {
-        "title": "lichorosario/jamoncito-v1-qwen-image-2512",
-        "url": "https://huggingface.co/lichorosario/jamoncito-v1-qwen-image-2512"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "vision_systems",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Vision Systems - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "date": "2026-02-02T16:14:34.101662",
+  "patterns": {},
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
