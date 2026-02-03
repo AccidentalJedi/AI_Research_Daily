@@ -30,7 +30,7 @@
       "Ron Shprints",
       "Peter Holderrieth",
       "Juno Nam",
-      "Rafael G\u00f3mez-Bombarelli",
+      "Rafael Gómez-Bombarelli",
       "Tommi Jaakkola"
     ],
     "categories": [
@@ -137,7 +137,7 @@
     "summary": "Frontier models are transitioning from multimodal large language models (MLLMs) that merely ingest visual information to unified multimodal models (UMMs) capable of native interleaved generation. This shift has sparked interest in using intermediate visualizations as a reasoning aid, akin to human mental imagery. Central to this idea is the ability to form, maintain, and manipulate visual representations in a goal-oriented manner. To evaluate and probe this capability, we develop MentisOculi, a procedural, stratified suite of multi-step reasoning problems amenable to visual solution, tuned to challenge frontier models. Evaluating visual strategies ranging from latent tokens to explicit generated imagery, we find they generally fail to improve performance. Analysis of UMMs specifically exposes a critical limitation: While they possess the textual reasoning capacity to solve a task and can sometimes generate correct visuals, they suffer from compounding generation errors and fail to leverage even ground-truth visualizations. Our findings suggest that despite their inherent appeal, visual thoughts do not yet benefit model reasoning. MentisOculi establishes the necessary foundation to analyze and close this gap across diverse model families.",
     "authors": [
       "Jana Zeller",
-      "Thadd\u00e4us Wiedemer",
+      "Thaddäus Wiedemer",
       "Fanfei Li",
       "Thomas Klein",
       "Prasanna Mayilvahanan",
@@ -541,7 +541,7 @@
   {
     "arxiv_id": "2602.02318v1",
     "title": "Enhancing Indoor Occupancy Prediction via Sparse Query-Based Multi-Level Consistent Knowledge Distillation",
-    "summary": "Occupancy prediction provides critical geometric and semantic understanding for robotics but faces efficiency-accuracy trade-offs. Current dense methods suffer computational waste on empty voxels, while sparse query-based approaches lack robustness in diverse and complex indoor scenes. In this paper, we propose DiScene, a novel sparse query-based framework that leverages multi-level distillation to achieve efficient and robust occupancy prediction. In particular, our method incorporates two key innovations: (1) a Multi-level Consistent Knowledge Distillation strategy, which transfers hierarchical representations from large teacher models to lightweight students through coordinated alignment across four levels, including encoder-level feature alignment, query-level feature matching, prior-level spatial guidance, and anchor-level high-confidence knowledge transfer and (2) a Teacher-Guided Initialization policy, employing optimized parameter warm-up to accelerate model convergence. Validated on the Occ-Scannet benchmark, DiScene achieves 23.2 FPS without depth priors while outperforming our baseline method, OPUS, by 36.1% and even better than the depth-enhanced version, OPUS\u2020. With depth integration, DiScene\u2020 attains new SOTA performance, surpassing EmbodiedOcc by 3.7% with 1.62$\\times$ faster inference speed. Furthermore, experiments on the Occ3D-nuScenes benchmark and in-the-wild scenarios demonstrate the versatility of our approach in various environments. Code and models can be accessed at https://github.com/getterupper/DiScene.",
+    "summary": "Occupancy prediction provides critical geometric and semantic understanding for robotics but faces efficiency-accuracy trade-offs. Current dense methods suffer computational waste on empty voxels, while sparse query-based approaches lack robustness in diverse and complex indoor scenes. In this paper, we propose DiScene, a novel sparse query-based framework that leverages multi-level distillation to achieve efficient and robust occupancy prediction. In particular, our method incorporates two key innovations: (1) a Multi-level Consistent Knowledge Distillation strategy, which transfers hierarchical representations from large teacher models to lightweight students through coordinated alignment across four levels, including encoder-level feature alignment, query-level feature matching, prior-level spatial guidance, and anchor-level high-confidence knowledge transfer and (2) a Teacher-Guided Initialization policy, employing optimized parameter warm-up to accelerate model convergence. Validated on the Occ-Scannet benchmark, DiScene achieves 23.2 FPS without depth priors while outperforming our baseline method, OPUS, by 36.1% and even better than the depth-enhanced version, OPUS†. With depth integration, DiScene† attains new SOTA performance, surpassing EmbodiedOcc by 3.7% with 1.62$\\times$ faster inference speed. Furthermore, experiments on the Occ3D-nuScenes benchmark and in-the-wild scenarios demonstrate the versatility of our approach in various environments. Code and models can be accessed at https://github.com/getterupper/DiScene.",
     "authors": [
       "Xiang Li",
       "Yupeng Zheng",
@@ -2252,7 +2252,7 @@
     "title": "Bridging the Sim-to-Real Gap with multipanda ros2: A Real-Time ROS2 Framework for Multimanual Systems",
     "summary": "We present $multipanda\\_ros2$, a novel open-source ROS2 architecture for multi-robot control of Franka Robotics robots. Leveraging ros2 control, this framework provides native ROS2 interfaces for controlling any number of robots from a single process. Our core contributions address key challenges in real-time torque control, including interaction control and robot-environment modeling. A central focus of this work is sustaining a 1kHz control frequency, a necessity for real-time control and a minimum frequency required by safety standards. Moreover, we introduce a controllet-feature design pattern that enables controller-switching delays of $\\le 2$ ms, facilitating reproducible benchmarking and complex multi-robot interaction scenarios. To bridge the simulation-to-reality (sim2real) gap, we integrate a high-fidelity MuJoCo simulation with quantitative metrics for both kinematic accuracy and dynamic consistency (torques, forces, and control errors). Furthermore, we demonstrate that real-world inertial parameter identification can significantly improve force and torque accuracy, providing a methodology for iterative physics refinement. Our work extends approaches from soft robotics to rigid dual-arm, contact-rich tasks, showcasing a promising method to reduce the sim2real gap and providing a robust, reproducible platform for advanced robotics research.",
     "authors": [
-      "Jon \u0160kerlj",
+      "Jon Škerlj",
       "Seongjin Bien",
       "Abdeldjallil Naceri",
       "Sami Haddadin"
@@ -2293,7 +2293,7 @@
   {
     "arxiv_id": "2602.02260v1",
     "title": "Learning Markov Decision Processes under Fully Bandit Feedback",
-    "summary": "A standard assumption in Reinforcement Learning is that the agent observes every visited state-action pair in the associated Markov Decision Process (MDP), along with the per-step rewards. Strong theoretical results are known in this setting, achieving nearly-tight $\u0398(\\sqrt{T})$-regret bounds. However, such detailed feedback can be unrealistic, and recent research has investigated more restricted settings such as trajectory feedback, where the agent observes all the visited state-action pairs, but only a single \\emph{aggregate} reward. In this paper, we consider a far more restrictive ``fully bandit'' feedback model for episodic MDPs, where the agent does not even observe the visited state-action pairs -- it only learns the aggregate reward. We provide the first efficient bandit learning algorithm for episodic MDPs with $\\widetilde{O}(\\sqrt{T})$ regret. Our regret has an exponential dependence on the horizon length $\\H$, which we show is necessary. We also obtain improved nearly-tight regret bounds for ``ordered'' MDPs; these can be used to model classical stochastic optimization problems such as $k$-item prophet inequality and sequential posted pricing. Finally, we evaluate the empirical performance of our algorithm for the setting of $k$-item prophet inequalities; despite the highly restricted feedback, our algorithm's performance is comparable to that of a state-of-art learning algorithm (UCB-VI) with detailed state-action feedback.",
+    "summary": "A standard assumption in Reinforcement Learning is that the agent observes every visited state-action pair in the associated Markov Decision Process (MDP), along with the per-step rewards. Strong theoretical results are known in this setting, achieving nearly-tight $Θ(\\sqrt{T})$-regret bounds. However, such detailed feedback can be unrealistic, and recent research has investigated more restricted settings such as trajectory feedback, where the agent observes all the visited state-action pairs, but only a single \\emph{aggregate} reward. In this paper, we consider a far more restrictive ``fully bandit'' feedback model for episodic MDPs, where the agent does not even observe the visited state-action pairs -- it only learns the aggregate reward. We provide the first efficient bandit learning algorithm for episodic MDPs with $\\widetilde{O}(\\sqrt{T})$ regret. Our regret has an exponential dependence on the horizon length $\\H$, which we show is necessary. We also obtain improved nearly-tight regret bounds for ``ordered'' MDPs; these can be used to model classical stochastic optimization problems such as $k$-item prophet inequality and sequential posted pricing. Finally, we evaluate the empirical performance of our algorithm for the setting of $k$-item prophet inequalities; despite the highly restricted feedback, our algorithm's performance is comparable to that of a state-of-art learning algorithm (UCB-VI) with detailed state-action feedback.",
     "authors": [
       "Zhengjia Zhuo",
       "Anupam Gupta",
@@ -2425,10 +2425,10 @@
     "title": "Scientific Theory of a Black-Box: A Life Cycle-Scale XAI Framework Based on Constructive Empiricism",
     "summary": "Explainable AI (XAI) offers a growing number of algorithms that aim to answer specific questions about black-box models. What is missing is a principled way to consolidate explanatory information about a fixed black-box model into a persistent, auditable artefact, that accompanies the black-box throughout its life cycle. We address this gap by introducing the notion of a scientific theory of a black (SToBB). Grounded in Constructive Empiricism, a SToBB fulfils three obligations: (i) empirical adequacy with respect to all available observations of black-box behaviour, (ii) adaptability via explicit update commitments that restore adequacy when new observations arrive, and (iii) auditability through transparent documentation of assumptions, construction choices, and update behaviour. We operationalise these obligations as a general framework that specifies an extensible observation base, a traceable hypothesis class, algorithmic components for construction and revision, and documentation sufficient for third-party assessment. Explanations for concrete stakeholder needs are then obtained by querying the maintained record through interfaces, rather than by producing isolated method outputs. As a proof of concept, we instantiate a complete SToBB for a neural-network classifier on a tabular task and introduce the Constructive Box Theoriser (CoBoT) algorithm, an online procedure that constructs and maintains an empirically adequate rule-based surrogate as observations accumulate. Together, these contributions position SToBBs as a life cycle-scale, inspectable point of reference that supports consistent, reusable analyses and systematic external scrutiny.",
     "authors": [
-      "Sebastian M\u00fcller",
+      "Sebastian Müller",
       "Vanessa Toborek",
-      "Eike Stadtl\u00e4nder",
-      "Tam\u00e1s Horv\u00e1th",
+      "Eike Stadtländer",
+      "Tamás Horváth",
       "Brendan Balcerak Jackson",
       "Christian Bauckhage"
     ],
@@ -2515,7 +2515,7 @@
     "title": "Full-Batch Gradient Descent Outperforms One-Pass SGD: Sample Complexity Separation in Single-Index Learning",
     "summary": "It is folklore that reusing training data more than once can improve the statistical efficiency of gradient-based learning. However, beyond linear regression, the theoretical advantage of full-batch gradient descent (GD, which always reuses all the data) over one-pass stochastic gradient descent (online SGD, which uses each data point only once) remains unclear. In this work, we consider learning a $d$-dimensional single-index model with a quadratic activation, for which it is known that one-pass SGD requires $n\\gtrsim d\\log d$ samples to achieve weak recovery. We first show that this $\\log d$ factor in the sample complexity persists for full-batch spherical GD on the correlation loss; however, by simply truncating the activation, full-batch GD exhibits a favorable optimization landscape at $n \\simeq d$ samples, thereby outperforming one-pass SGD (with the same activation) in statistical efficiency. We complement this result with a trajectory analysis of full-batch GD on the squared loss from small initialization, showing that $n \\gtrsim d$ samples and $T \\gtrsim\\log d$ gradient steps suffice to achieve strong (exact) recovery.",
     "authors": [
-      "Filip Kova\u010devi\u0107",
+      "Filip Kovačević",
       "Hong Chang Ji",
       "Denny Wu",
       "Mahdi Soltanolkotabi",
@@ -3136,7 +3136,7 @@
     "title": "The Shape of Beliefs: Geometry, Dynamics, and Interventions along Representation Manifolds of Language Models' Posteriors",
     "summary": "Large language models (LLMs) represent prompt-conditioned beliefs (posteriors over answers and claims), but we lack a mechanistic account of how these beliefs are encoded in representation space, how they update with new evidence, and how interventions reshape them. We study a controlled setting in which Llama-3.2 generates samples from a normal distribution by implicitly inferring its parameters (mean and standard deviation) given only samples from the distribution in context. We find representations of curved \"belief manifolds\" for these parameters form with sufficient in-context learning and study how the model adapts when the distribution suddenly changes. While standard linear steering often pushes the model off-manifold and induces coupled, out-of-distribution shifts, geometry and field-aware steering better preserves the intended belief family. Our work demonstrates an example of linear field probing (LFP) as a simple approach to tile the data manifold and make interventions that respect the underlying geometry. We conclude that rich structure emerges naturally in LLMs and that purely linear concept representations are often an inadequate abstraction.",
     "authors": [
-      "Rapha\u00ebl Sarfati",
+      "Raphaël Sarfati",
       "Eric Bigelow",
       "Daniel Wurgaft",
       "Jack Merullo",
@@ -3244,9 +3244,9 @@
     "title": "Evaluating Metalinguistic Knowledge in Large Language Models across the World's Languages",
     "summary": "Large language models (LLMs) are routinely evaluated on language use tasks, yet their knowledge of linguistic structure remains poorly understood. Existing linguistic benchmarks typically focus on narrow phenomena, emphasize high-resource languages, and rarely evaluate metalinguistic knowledge-explicit reasoning about language structure rather than language use. Using accuracy and macro F1, together with majority-class and chance baselines, we analyse overall performance and examine variation by linguistic domains and language-related factors. Our results show that metalinguistic knowledge in current LLMs is limited: GPT-4o performs best but achieves only moderate accuracy (0.367), while open-source models lag behind. All models perform above chance but fail to outperform the majority-class baseline, suggesting they capture cross-linguistic patterns but lack fine-grained grammatical distinctions. Performance varies across linguistic domains, with lexical features showing the highest accuracy and phonological features among the lowest, partially reflecting differences in online visibility. At the language level, accuracy shows a strong association with digital language status: languages with higher digital presence and resource availability are evaluated more accurately, while low-resource languages show substantially lower performance. Analyses of predictive factors confirm that resource-related indicators (Wikipedia size, corpus availability) are more informative predictors of accuracy than geographical, genealogical, or sociolinguistic factors. Together, these results suggest that LLMs' metalinguistic knowledge is fragmented and shaped by data availability rather than generalizable grammatical competence across the world's languages. We release our benchmark as an open-source dataset to support systematic evaluation and encourage greater global linguistic diversity in future LLMs.",
     "authors": [
-      "Tja\u0161a Ar\u010don",
+      "Tjaša Arčon",
       "Matej Klemen",
-      "Marko Robnik-\u0160ikonja",
+      "Marko Robnik-Šikonja",
       "Kaja Dobrovoljc"
     ],
     "categories": [
@@ -3266,7 +3266,7 @@
     "authors": [
       "Olga Graf",
       "Dhrupal Patel",
-      "Peter Gro\u00df",
+      "Peter Groß",
       "Charlotte Lempp",
       "Matthias Hein",
       "Fabian Heinemann"
@@ -3416,7 +3416,7 @@
   {
     "arxiv_id": "2602.02304v1",
     "title": "Position: Explaining Behavioral Shifts in Large Language Models Requires a Comparative Approach",
-    "summary": "Large-scale foundation models exhibit behavioral shifts: intervention-induced behavioral changes that appear after scaling, fine-tuning, reinforcement learning or in-context learning. While investigating these phenomena have recently received attention, explaining their appearance is still overlooked. Classic explainable AI (XAI) methods can surface failures at a single checkpoint of a model, but they are structurally ill-suited to justify what changed internally across different checkpoints and which explanatory claims are warranted about that change. We take the position that behavioral shifts should be explained comparatively: the core target should be the intervention-induced shift between a reference model and an intervened model, rather than any single model in isolation. To this aim we formulate a Comparative XAI ($\u0394$-XAI) framework with a set of desiderata to be taken into account when designing proper explaining methods. To highlight how $\u0394$-XAI methods work, we introduce a set of possible pipelines, relate them to the desiderata, and provide a concrete $\u0394$-XAI experiment.",
+    "summary": "Large-scale foundation models exhibit behavioral shifts: intervention-induced behavioral changes that appear after scaling, fine-tuning, reinforcement learning or in-context learning. While investigating these phenomena have recently received attention, explaining their appearance is still overlooked. Classic explainable AI (XAI) methods can surface failures at a single checkpoint of a model, but they are structurally ill-suited to justify what changed internally across different checkpoints and which explanatory claims are warranted about that change. We take the position that behavioral shifts should be explained comparatively: the core target should be the intervention-induced shift between a reference model and an intervened model, rather than any single model in isolation. To this aim we formulate a Comparative XAI ($Δ$-XAI) framework with a set of desiderata to be taken into account when designing proper explaining methods. To highlight how $Δ$-XAI methods work, we introduce a set of possible pipelines, relate them to the desiderata, and provide a concrete $Δ$-XAI experiment.",
     "authors": [
       "Martino Ciaperoni",
       "Marzio Di Vece",
@@ -3510,7 +3510,7 @@
     "summary": "Indoor service robots need perception that is robust, more privacy-friendly than RGB video, and feasible on embedded hardware. We present a camera-free 2D LiDAR object detection pipeline that encodes short-term temporal context by stacking three consecutive scans as RGB channels, yielding a compact YOLOv8n input without occupancy-grid construction while preserving angular structure and motion cues. Evaluated in Webots across 160 randomized indoor scenarios with strict scenario-level holdout, the method achieves 98.4% mAP@0.5 (0.778 mAP@0.5:0.95) with 94.9% precision and 94.7% recall on four object classes. On a Raspberry Pi 5, it runs in real time with a mean post-warm-up end-to-end latency of 47.8ms per frame, including scan encoding and postprocessing. Relative to a closely related occupancy-grid LiDAR-YOLO pipeline reported on the same platform, the proposed representation is associated with substantially lower reported end-to-end latency. Although results are simulation-based, they suggest that lightweight temporal encoding can enable accurate and real-time LiDAR-only detection for embedded indoor robotics without capturing RGB appearance.",
     "authors": [
       "Soheil Behnam Roudsari",
-      "Alexandre S. Brand\u00e3o",
+      "Alexandre S. Brandão",
       "Felipe N. Martins"
     ],
     "categories": [
@@ -3854,7 +3854,7 @@
     "authors": [
       "Simon-Olivier Duguay",
       "Hugo Baudchon",
-      "Etienne Lalibert\u00e9",
+      "Etienne Laliberté",
       "Helene Muller-Landau",
       "Gonzalo Rivas-Torres",
       "Arthur Ouaknine"
@@ -4056,7 +4056,7 @@
   {
     "arxiv_id": "2602.02409v1",
     "title": "Catalyst: Out-of-Distribution Detection via Elastic Scaling",
-    "summary": "Out-of-distribution (OOD) detection is critical for the safe deployment of deep neural networks. State-of-the-art post-hoc methods typically derive OOD scores from the output logits or penultimate feature vector obtained via global average pooling (GAP). We contend that this exclusive reliance on the logit or feature vector discards a rich, complementary signal: the raw channel-wise statistics of the pre-pooling feature map lost in GAP. In this paper, we introduce Catalyst, a post-hoc framework that exploits these under-explored signals. Catalyst computes an input-dependent scaling factor ($\u03b3$) on-the-fly from these raw statistics (e.g., mean, standard deviation, and maximum activation). This $\u03b3$ is then fused with the existing baseline score, multiplicatively modulating it -- an ``elastic scaling'' -- to push the ID and OOD distributions further apart. We demonstrate Catalyst is a generalizable framework: it seamlessly integrates with logit-based methods (e.g., Energy, ReAct, SCALE) and also provides a significant boost to distance-based detectors like KNN. As a result, Catalyst achieves substantial and consistent performance gains, reducing the average False Positive Rate by 32.87 on CIFAR-10 (ResNet-18), 27.94% on CIFAR-100 (ResNet-18), and 22.25% on ImageNet (ResNet-50). Our results highlight the untapped potential of pre-pooling statistics and demonstrate that Catalyst is complementary to existing OOD detection approaches.",
+    "summary": "Out-of-distribution (OOD) detection is critical for the safe deployment of deep neural networks. State-of-the-art post-hoc methods typically derive OOD scores from the output logits or penultimate feature vector obtained via global average pooling (GAP). We contend that this exclusive reliance on the logit or feature vector discards a rich, complementary signal: the raw channel-wise statistics of the pre-pooling feature map lost in GAP. In this paper, we introduce Catalyst, a post-hoc framework that exploits these under-explored signals. Catalyst computes an input-dependent scaling factor ($γ$) on-the-fly from these raw statistics (e.g., mean, standard deviation, and maximum activation). This $γ$ is then fused with the existing baseline score, multiplicatively modulating it -- an ``elastic scaling'' -- to push the ID and OOD distributions further apart. We demonstrate Catalyst is a generalizable framework: it seamlessly integrates with logit-based methods (e.g., Energy, ReAct, SCALE) and also provides a significant boost to distance-based detectors like KNN. As a result, Catalyst achieves substantial and consistent performance gains, reducing the average False Positive Rate by 32.87 on CIFAR-10 (ResNet-18), 27.94% on CIFAR-100 (ResNet-18), and 22.25% on ImageNet (ResNet-50). Our results highlight the untapped potential of pre-pooling statistics and demonstrate that Catalyst is complementary to existing OOD detection approaches.",
     "authors": [
       "Abid Hassan",
       "Tuan Ngo",
@@ -4122,7 +4122,7 @@
     "authors": [
       "Alex Argese",
       "Pasquale Lisena",
-      "Rapha\u00ebl Troncy"
+      "Raphaël Troncy"
     ],
     "categories": [
       "cs.CL",
@@ -4205,7 +4205,7 @@
     "authors": [
       "Julian Lemmel",
       "Felix Resch",
-      "M\u00f3nika Farsang",
+      "Mónika Farsang",
       "Ramin Hasani",
       "Daniela Rus",
       "Radu Grosu"
@@ -4315,7 +4315,7 @@
   {
     "arxiv_id": "2602.02445v1",
     "title": "Finite-Sample Wasserstein Error Bounds and Concentration Inequalities for Nonlinear Stochastic Approximation",
-    "summary": "This paper derives non-asymptotic error bounds for nonlinear stochastic approximation algorithms in the Wasserstein-$p$ distance. To obtain explicit finite-sample guarantees for the last iterate, we develop a coupling argument that compares the discrete-time process to a limiting Ornstein-Uhlenbeck process. Our analysis applies to algorithms driven by general noise conditions, including martingale differences and functions of ergodic Markov chains. Complementing this result, we handle the convergence rate of the Polyak-Ruppert average through a direct analysis that applies under the same general setting.   Assuming the driving noise satisfies a non-asymptotic central limit theorem, we show that the normalized last iterates converge to a Gaussian distribution in the $p$-Wasserstein distance at a rate of order $\u03b3_n^{1/6}$, where $\u03b3_n$ is the step size. Similarly, the Polyak-Ruppert average is shown to converge in the Wasserstein distance at a rate of order $n^{-1/6}$. These distributional guarantees imply high-probability concentration inequalities that improve upon those derived from moment bounds and Markov's inequality. We demonstrate the utility of this approach by considering two applications: (1) linear stochastic approximation, where we explicitly quantify the transition from heavy-tailed to Gaussian behavior of the iterates, thereby bridging the gap between recent finite-sample analyses and asymptotic theory and (2) stochastic gradient descent, where we establish rate of convergence to the central limit theorem.",
+    "summary": "This paper derives non-asymptotic error bounds for nonlinear stochastic approximation algorithms in the Wasserstein-$p$ distance. To obtain explicit finite-sample guarantees for the last iterate, we develop a coupling argument that compares the discrete-time process to a limiting Ornstein-Uhlenbeck process. Our analysis applies to algorithms driven by general noise conditions, including martingale differences and functions of ergodic Markov chains. Complementing this result, we handle the convergence rate of the Polyak-Ruppert average through a direct analysis that applies under the same general setting.   Assuming the driving noise satisfies a non-asymptotic central limit theorem, we show that the normalized last iterates converge to a Gaussian distribution in the $p$-Wasserstein distance at a rate of order $γ_n^{1/6}$, where $γ_n$ is the step size. Similarly, the Polyak-Ruppert average is shown to converge in the Wasserstein distance at a rate of order $n^{-1/6}$. These distributional guarantees imply high-probability concentration inequalities that improve upon those derived from moment bounds and Markov's inequality. We demonstrate the utility of this approach by considering two applications: (1) linear stochastic approximation, where we explicitly quantify the transition from heavy-tailed to Gaussian behavior of the iterates, thereby bridging the gap between recent finite-sample analyses and asymptotic theory and (2) stochastic gradient descent, where we establish rate of convergence to the central limit theorem.",
     "authors": [
       "Seo Taek Kong",
       "R. Srikant"
@@ -4398,10 +4398,10 @@
   {
     "arxiv_id": "2602.02190v1",
     "title": "PCA of probability measures: Sparse and Dense sampling regimes",
-    "summary": "A common approach to perform PCA on probability measures is to embed them into a Hilbert space where standard functional PCA techniques apply. While convergence rates for estimating the embedding of a single measure from $m$ samples are well understood, the literature has not addressed the setting involving multiple measures. In this paper, we study PCA in a double asymptotic regime where $n$ probability measures are observed, each through $m$ samples. We derive convergence rates of the form $n^{-1/2} + m^{-\u03b1}$ for the empirical covariance operator and the PCA excess risk, where $\u03b1>0$ depends on the chosen embedding. This characterizes the relationship between the number $n$ of measures and the number $m$ of samples per measure, revealing a sparse (small $m$) to dense (large $m$) transition in the convergence behavior. Moreover, we prove that the dense-regime rate is minimax optimal for the empirical covariance error. Our numerical experiments validate these theoretical rates and demonstrate that appropriate subsampling preserves PCA accuracy while reducing computational cost.",
+    "summary": "A common approach to perform PCA on probability measures is to embed them into a Hilbert space where standard functional PCA techniques apply. While convergence rates for estimating the embedding of a single measure from $m$ samples are well understood, the literature has not addressed the setting involving multiple measures. In this paper, we study PCA in a double asymptotic regime where $n$ probability measures are observed, each through $m$ samples. We derive convergence rates of the form $n^{-1/2} + m^{-α}$ for the empirical covariance operator and the PCA excess risk, where $α>0$ depends on the chosen embedding. This characterizes the relationship between the number $n$ of measures and the number $m$ of samples per measure, revealing a sparse (small $m$) to dense (large $m$) transition in the convergence behavior. Moreover, we prove that the dense-regime rate is minimax optimal for the empirical covariance error. Our numerical experiments validate these theoretical rates and demonstrate that appropriate subsampling preserves PCA accuracy while reducing computational cost.",
     "authors": [
       "Gachon Erell",
-      "J\u00e9r\u00e9mie Bigot",
+      "Jérémie Bigot",
       "Elsa Cazelles"
     ],
     "categories": [
@@ -4442,7 +4442,7 @@
   {
     "arxiv_id": "2602.02117v1",
     "title": "The Maximum von Neumann Entropy Principle: Theory and Applications in Machine Learning",
-    "summary": "Von Neumann entropy (VNE) is a fundamental quantity in quantum information theory and has recently been adopted in machine learning as a spectral measure of diversity for kernel matrices and kernel covariance operators. While maximizing VNE under constraints is well known in quantum settings, a principled analogue of the classical maximum entropy framework, particularly its decision theoretic and game theoretic interpretation, has not been explicitly developed for VNE in data driven contexts. In this paper, we extend the minimax formulation of the maximum entropy principle due to Gr\u00fcnwald and Dawid to the setting of von Neumann entropy, providing a game-theoretic justification for VNE maximization over density matrices and trace-normalized positive semidefinite operators. This perspective yields a robust interpretation of maximum VNE solutions under partial information and clarifies their role as least committed inferences in spectral domains. We then illustrate how the resulting Maximum VNE principle applies to modern machine learning problems by considering two representative applications, selecting a kernel representation from multiple normalized embeddings via kernel-based VNE maximization, and completing kernel matrices from partially observed entries. These examples demonstrate how the proposed framework offers a unifying information-theoretic foundation for VNE-based methods in kernel learning.",
+    "summary": "Von Neumann entropy (VNE) is a fundamental quantity in quantum information theory and has recently been adopted in machine learning as a spectral measure of diversity for kernel matrices and kernel covariance operators. While maximizing VNE under constraints is well known in quantum settings, a principled analogue of the classical maximum entropy framework, particularly its decision theoretic and game theoretic interpretation, has not been explicitly developed for VNE in data driven contexts. In this paper, we extend the minimax formulation of the maximum entropy principle due to Grünwald and Dawid to the setting of von Neumann entropy, providing a game-theoretic justification for VNE maximization over density matrices and trace-normalized positive semidefinite operators. This perspective yields a robust interpretation of maximum VNE solutions under partial information and clarifies their role as least committed inferences in spectral domains. We then illustrate how the resulting Maximum VNE principle applies to modern machine learning problems by considering two representative applications, selecting a kernel representation from multiple normalized embeddings via kernel-based VNE maximization, and completing kernel matrices from partially observed entries. These examples demonstrate how the proposed framework offers a unifying information-theoretic foundation for VNE-based methods in kernel learning.",
     "authors": [
       "Youqi Wu",
       "Farzan Farnia"
@@ -4508,7 +4508,7 @@
   {
     "arxiv_id": "2602.02283v1",
     "title": "Choice-Model-Assisted Q-learning for Delayed-Feedback Revenue Management",
-    "summary": "We study reinforcement learning for revenue management with delayed feedback, where a substantial fraction of value is determined by customer cancellations and modifications observed days after booking. We propose \\emph{choice-model-assisted RL}: a calibrated discrete choice model is used as a fixed partial world model to impute the delayed component of the learning target at decision time. In the fixed-model deployment regime, we prove that tabular Q-learning with model-imputed targets converges to an $O(\\varepsilon/(1-\u03b3))$ neighborhood of the optimal Q-function, where $\\varepsilon$ summarizes partial-model error, with an additional $O(t^{-1/2})$ sampling term. Experiments in a simulator calibrated from 61{,}619 hotel bookings (1{,}088 independent runs) show: (i) no statistically detectable difference from a maturity-buffer DQN baseline in stationary settings; (ii) positive effects under in-family parameter shifts, with significant gains in 5 of 10 shift scenarios after Holm--Bonferroni correction (up to 12.4\\%); and (iii) consistent degradation under structural misspecification, where the choice model assumptions are violated (1.4--2.6\\% lower revenue). These results characterize when partial behavioral models improve robustness under shift and when they introduce harmful bias.",
+    "summary": "We study reinforcement learning for revenue management with delayed feedback, where a substantial fraction of value is determined by customer cancellations and modifications observed days after booking. We propose \\emph{choice-model-assisted RL}: a calibrated discrete choice model is used as a fixed partial world model to impute the delayed component of the learning target at decision time. In the fixed-model deployment regime, we prove that tabular Q-learning with model-imputed targets converges to an $O(\\varepsilon/(1-γ))$ neighborhood of the optimal Q-function, where $\\varepsilon$ summarizes partial-model error, with an additional $O(t^{-1/2})$ sampling term. Experiments in a simulator calibrated from 61{,}619 hotel bookings (1{,}088 independent runs) show: (i) no statistically detectable difference from a maturity-buffer DQN baseline in stationary settings; (ii) positive effects under in-family parameter shifts, with significant gains in 5 of 10 shift scenarios after Holm--Bonferroni correction (up to 12.4\\%); and (iii) consistent degradation under structural misspecification, where the choice model assumptions are violated (1.4--2.6\\% lower revenue). These results characterize when partial behavioral models improve robustness under shift and when they introduce harmful bias.",
     "authors": [
       "Owen Shen",
       "Patrick Jaillet"
@@ -4562,7 +4562,7 @@
     "summary": "Contemporary multi-agent systems increasingly rely on internal coordination mechanisms to combine, arbitrate, or constrain the outputs of heterogeneous components. In safety-critical and regulated domains such as finance, these mechanisms must satisfy strict formal requirements, remain auditable, and operate within explicitly bounded limits. Coordination logic therefore functions as a governance layer rather than an optimization heuristic.   This paper presents an exploratory systems feasibility study of Self-Evolving Coordination Protocols (SECP): coordination protocols that permit limited, externally validated self-modification while preserving fixed formal invariants. We study a controlled proof-of-concept setting in which six fixed Byzantine consensus protocol proposals are evaluated by six specialized decision modules. All coordination regimes operate under identical hard constraints, including Byzantine fault tolerance (f < n/3), O(n2) message complexity, complete non-statistical safety and liveness arguments, and bounded explainability.   Four coordination regimes are compared in a single-shot design: unanimous hard veto, weighted scalar aggregation, SECP v1.0 (an agent-designed non-scalar protocol), and SECP v2.0 (the result of one governed modification). Outcomes are evaluated using a single metric, proposal coverage, defined as the number of proposals accepted. A single recursive modification increased coverage from two to three accepted proposals while preserving all declared invariants.   The study makes no claims regarding statistical significance, optimality, convergence, or learning. Its contribution is architectural: it demonstrates that bounded self-modification of coordination protocols is technically implementable, auditable, and analyzable under explicit formal constraints, establishing a foundation for governed multi-agent systems.",
     "authors": [
       "Jose Manuel de la Chica Rodriguez",
-      "Juan Manuel Vera D\u00edaz"
+      "Juan Manuel Vera Díaz"
     ],
     "categories": [
       "cs.MA",
@@ -4753,7 +4753,7 @@
       "Yizi Chen",
       "Maurizio Gribaudi",
       "Konrad Schindler",
-      "Cl\u00e9ment Mallet",
+      "Clément Mallet",
       "Julien Perret",
       "Lorenz Hurni"
     ],
@@ -4777,7 +4777,7 @@
       "Michael Rauter",
       "Maximilian Schmid",
       "Dietmar Georg",
-      "Barbara Kn\u00e4usl"
+      "Barbara Knäusl"
     ],
     "categories": [
       "cs.CV"
@@ -4812,228 +4812,5 @@
     "date": "2026-02-03",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "KULIANLEN/qwen3-4b-batch4-new_solver_aux_v4",
-    "author": "unknown",
-    "title": "KULIANLEN/qwen3-4b-batch4-new_solver_aux_v4",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-02-03T04:39:22.000Z",
-    "last_modified": "2026-02-03T04:39:22.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/KULIANLEN/qwen3-4b-batch4-new_solver_aux_v4",
-    "date": "2026-02-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Higotosi/Atlas",
-    "author": "unknown",
-    "title": "Higotosi/Atlas",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:Qwen/Qwen2.5-7B-Instruct",
-      "lora",
-      "transformers",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "base_model:Qwen/Qwen2.5-7B-Instruct",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-02-03T04:39:04.000Z",
-    "last_modified": "2026-02-03T04:39:08.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Higotosi/Atlas",
-    "date": "2026-02-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "evanp2907/newloramilasparrow",
-    "author": "unknown",
-    "title": "evanp2907/newloramilasparrow",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-02-03T04:15:56.000Z",
-    "last_modified": "2026-02-03T04:37:30.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/evanp2907/newloramilasparrow",
-    "date": "2026-02-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ATL-Machine/affine-7-5GEc6UzXjDCDxcE7cpB8yxW3g83gSNFVQYZJZRYMQXdkBU6Y",
-    "author": "unknown",
-    "title": "ATL-Machine/affine-7-5GEc6UzXjDCDxcE7cpB8yxW3g83gSNFVQYZJZRYMQXdkBU6Y",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:2309.00071",
-      "arxiv:2505.09388",
-      "base_model:Qwen/Qwen3-4B-Base",
-      "base_model:finetune:Qwen/Qwen3-4B-Base",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-02-03T04:35:27.000Z",
-    "last_modified": "2026-02-03T04:36:09.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ATL-Machine/affine-7-5GEc6UzXjDCDxcE7cpB8yxW3g83gSNFVQYZJZRYMQXdkBU6Y",
-    "date": "2026-02-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "magoemu/llmkouza_lora",
-    "author": "unknown",
-    "title": "magoemu/llmkouza_lora",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "qlora",
-      "lora",
-      "structured-output",
-      "text-generation",
-      "en",
-      "dataset:u-10bei/structured_data_with_cot_dataset_512_v2",
-      "base_model:Qwen/Qwen3-4B-Instruct-2507",
-      "base_model:adapter:Qwen/Qwen3-4B-Instruct-2507",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-02-03T04:23:34.000Z",
-    "last_modified": "2026-02-03T04:28:32.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/magoemu/llmkouza_lora",
-    "date": "2026-02-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Wilsonwin/gpt2-chinese-mini",
-    "author": "unknown",
-    "title": "Wilsonwin/gpt2-chinese-mini",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-02-02T03:26:20.000Z",
-    "last_modified": "2026-02-03T04:26:15.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/Wilsonwin/gpt2-chinese-mini",
-    "date": "2026-02-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ATL-Machine/affine-6-5GEc6UzXjDCDxcE7cpB8yxW3g83gSNFVQYZJZRYMQXdkBU6Y",
-    "author": "unknown",
-    "title": "ATL-Machine/affine-6-5GEc6UzXjDCDxcE7cpB8yxW3g83gSNFVQYZJZRYMQXdkBU6Y",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:2309.00071",
-      "arxiv:2505.09388",
-      "base_model:Qwen/Qwen3-4B-Base",
-      "base_model:finetune:Qwen/Qwen3-4B-Base",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-02-03T04:23:31.000Z",
-    "last_modified": "2026-02-03T04:24:14.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ATL-Machine/affine-6-5GEc6UzXjDCDxcE7cpB8yxW3g83gSNFVQYZJZRYMQXdkBU6Y",
-    "date": "2026-02-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "RoggerAI/affine_h2_s_5EnM41YQpz4fY3SvpHhhKw3YurGy6LzyMvCs9b2P5i16gHrt",
-    "author": "unknown",
-    "title": "RoggerAI/affine_h2_s_5EnM41YQpz4fY3SvpHhhKw3YurGy6LzyMvCs9b2P5i16gHrt",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "swe-bench",
-      "conversational",
-      "arxiv:2506.19290",
-      "base_model:Qwen/Qwen2.5-Coder-32B-Instruct",
-      "base_model:finetune:Qwen/Qwen2.5-Coder-32B-Instruct",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-02-03T04:22:08.000Z",
-    "last_modified": "2026-02-03T04:24:10.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/RoggerAI/affine_h2_s_5EnM41YQpz4fY3SvpHhhKw3YurGy6LzyMvCs9b2P5i16gHrt",
-    "date": "2026-02-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
