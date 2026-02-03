@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-03T08:17:36.405553",
+  "date": "2026-02-03T12:18:42.298580",
   "patterns": {
     "multimodal_research": [
       {
@@ -741,6 +741,14 @@
       {
         "title": "From Sycophancy to Sensemaking: Premise Governance for Human-AI Decision Making",
         "url": "https://arxiv.org/abs/2602.02378v1"
+      },
+      {
+        "title": "jmJapan/llm-course-maincomp-jmo-v02",
+        "url": "https://huggingface.co/jmJapan/llm-course-maincomp-jmo-v02"
+      },
+      {
+        "title": "halen214/affine-name-5HmKHW6DS4V1v8EEGdtae2SEVZbp8LLMs22wXduB8zLT7zRq",
+        "url": "https://huggingface.co/halen214/affine-name-5HmKHW6DS4V1v8EEGdtae2SEVZbp8LLMs22wXduB8zLT7zRq"
       }
     ],
     "vision_systems": [
@@ -959,6 +967,10 @@
       {
         "title": "Evaluating OCR Performance for Assistive Technology: Effects of Walking Speed, Camera Placement, and Camera Type",
         "url": "https://arxiv.org/abs/2602.02223v1"
+      },
+      {
+        "title": "UDCAI/Z-Image-Fun-Distill-ComfyUI",
+        "url": "https://huggingface.co/UDCAI/Z-Image-Fun-Distill-ComfyUI"
       }
     ],
     "reasoning": [
@@ -1689,13 +1701,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "96 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "54 independent papers",
+      "observation": "55 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1760,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 415
   }
 }
