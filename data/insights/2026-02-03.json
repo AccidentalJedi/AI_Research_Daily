@@ -1,0 +1,49 @@
+{
+  "date": "2026-02-03T00:37:29.051560",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "AnonymousCS/bert-chinese-weibo-60p-v1",
+        "url": "https://huggingface.co/AnonymousCS/bert-chinese-weibo-60p-v1"
+      },
+      {
+        "title": "Wilsonwin/gpt2-chinese-mini",
+        "url": "https://huggingface.co/Wilsonwin/gpt2-chinese-mini"
+      },
+      {
+        "title": "AnonymousCS/bert-chinese-weibo-70p-v5",
+        "url": "https://huggingface.co/AnonymousCS/bert-chinese-weibo-70p-v5"
+      },
+      {
+        "title": "AnonymousCS/bert-chinese-weibo-70p-v4",
+        "url": "https://huggingface.co/AnonymousCS/bert-chinese-weibo-70p-v4"
+      },
+      {
+        "title": "AnonymousCS/bert-chinese-weibo-70p-v3",
+        "url": "https://huggingface.co/AnonymousCS/bert-chinese-weibo-70p-v3"
+      },
+      {
+        "title": "AnonymousCS/bert-chinese-weibo-70p-v2",
+        "url": "https://huggingface.co/AnonymousCS/bert-chinese-weibo-70p-v2"
+      },
+      {
+        "title": "AnonymousCS/bert-chinese-weibo-70p-v1",
+        "url": "https://huggingface.co/AnonymousCS/bert-chinese-weibo-70p-v1"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "7 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 7
+  }
+}
