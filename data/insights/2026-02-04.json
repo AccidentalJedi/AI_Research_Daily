@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-04T04:38:43.148050",
+  "date": "2026-02-04T08:18:19.067763",
   "patterns": {
     "multimodal_research": [
       {
@@ -819,8 +819,12 @@
         "url": "https://arxiv.org/abs/2602.03510v1"
       },
       {
-        "title": "MohammadMinhasMustafa/distilgpt2_fine_tuned_for_custom_ChatBOT",
-        "url": "https://huggingface.co/MohammadMinhasMustafa/distilgpt2_fine_tuned_for_custom_ChatBOT"
+        "title": "tataredmi/smollm3-unit1-sft-merged",
+        "url": "https://huggingface.co/tataredmi/smollm3-unit1-sft-merged"
+      },
+      {
+        "title": "dkl4/llm2025-qwen3-4b-structured-output-lora-01",
+        "url": "https://huggingface.co/dkl4/llm2025-qwen3-4b-structured-output-lora-01"
       }
     ],
     "vision_systems": [
@@ -1095,6 +1099,26 @@
       {
         "title": "From Pre- to Intra-operative MRI: Predicting Brain Shift in Temporal Lobe Resection for Epilepsy Surgery",
         "url": "https://arxiv.org/abs/2602.03785v1"
+      },
+      {
+        "title": "momentino/Qwen3-4B-Instruct-2507-imagegame-patched__20260204-091513",
+        "url": "https://huggingface.co/momentino/Qwen3-4B-Instruct-2507-imagegame-patched__20260204-091513"
+      },
+      {
+        "title": "momentino/Qwen3-4B-Instruct-2507-imagegame-patched__20260204-091234",
+        "url": "https://huggingface.co/momentino/Qwen3-4B-Instruct-2507-imagegame-patched__20260204-091234"
+      },
+      {
+        "title": "momentino/Qwen3-4B-Instruct-2507-imagegame-patched__20260204-090945",
+        "url": "https://huggingface.co/momentino/Qwen3-4B-Instruct-2507-imagegame-patched__20260204-090945"
+      },
+      {
+        "title": "momentino/Qwen3-4B-Instruct-2507-imagegame-patched__20260204-090658",
+        "url": "https://huggingface.co/momentino/Qwen3-4B-Instruct-2507-imagegame-patched__20260204-090658"
+      },
+      {
+        "title": "momentino/Qwen3-4B-Instruct-2507-imagegame-patched__20260204-090405",
+        "url": "https://huggingface.co/momentino/Qwen3-4B-Instruct-2507-imagegame-patched__20260204-090405"
       }
     ],
     "reasoning": [
@@ -1897,13 +1921,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "100 independent papers",
+      "observation": "101 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "68 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1956,6 +1980,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 464
+    "total_papers": 470
   }
 }
