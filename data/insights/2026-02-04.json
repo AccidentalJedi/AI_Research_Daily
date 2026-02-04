@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-04T16:22:05.003315",
+  "date": "2026-02-04T20:13:51.887791",
   "patterns": {
     "multimodal_research": [
       {
@@ -819,8 +819,12 @@
         "url": "https://arxiv.org/abs/2602.03510v1"
       },
       {
-        "title": "MuXodious/gpt-oss-120b-shattered-heresy",
-        "url": "https://huggingface.co/MuXodious/gpt-oss-120b-shattered-heresy"
+        "title": "RinKana/MiniGPT-30M-Wikipedia-Var1",
+        "url": "https://huggingface.co/RinKana/MiniGPT-30M-Wikipedia-Var1"
+      },
+      {
+        "title": "jmnlcruz-c3ai/reuters-gpt2-text-gen",
+        "url": "https://huggingface.co/jmnlcruz-c3ai/reuters-gpt2-text-gen"
       }
     ],
     "vision_systems": [
@@ -1097,8 +1101,8 @@
         "url": "https://arxiv.org/abs/2602.03785v1"
       },
       {
-        "title": "lichorosario/piccoli-fig-v2-qwen-image-2512",
-        "url": "https://huggingface.co/lichorosario/piccoli-fig-v2-qwen-image-2512"
+        "title": "Alelcv27/Llama3.1-8B-Dare-Linear-v1",
+        "url": "https://huggingface.co/Alelcv27/Llama3.1-8B-Dare-Linear-v1"
       }
     ],
     "reasoning": [
@@ -1429,6 +1433,10 @@
       {
         "title": "RAWDet-7: A Multi-Scenario Benchmark for Object Detection and Description on Quantized RAW Images",
         "url": "https://arxiv.org/abs/2602.03760v1"
+      },
+      {
+        "title": "kinit/equational-reasoning-sft",
+        "url": "https://huggingface.co/kinit/equational-reasoning-sft"
       }
     ],
     "benchmarks": [
@@ -1901,7 +1909,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "100 independent papers",
+      "observation": "101 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1913,7 +1921,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "82 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1948,7 +1956,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 40,
+      "frequency": 41,
       "significance": "high"
     },
     {
@@ -1960,6 +1968,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 465
+    "total_papers": 467
   }
 }
