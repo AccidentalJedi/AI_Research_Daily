@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-04T12:18:33.397756",
+  "date": "2026-02-04T16:22:05.003315",
   "patterns": {
     "multimodal_research": [
       {
@@ -817,6 +817,10 @@
       {
         "title": "Semantic Routing: Exploring Multi-Layer LLM Feature Weighting for Diffusion Transformers",
         "url": "https://arxiv.org/abs/2602.03510v1"
+      },
+      {
+        "title": "MuXodious/gpt-oss-120b-shattered-heresy",
+        "url": "https://huggingface.co/MuXodious/gpt-oss-120b-shattered-heresy"
       }
     ],
     "vision_systems": [
@@ -1091,6 +1095,10 @@
       {
         "title": "From Pre- to Intra-operative MRI: Predicting Brain Shift in Temporal Lobe Resection for Epilepsy Surgery",
         "url": "https://arxiv.org/abs/2602.03785v1"
+      },
+      {
+        "title": "lichorosario/piccoli-fig-v2-qwen-image-2512",
+        "url": "https://huggingface.co/lichorosario/piccoli-fig-v2-qwen-image-2512"
       }
     ],
     "reasoning": [
@@ -1893,13 +1901,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "99 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "68 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1952,6 +1960,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 463
+    "total_papers": 465
   }
 }
