@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-05T04:40:54.760236",
+  "date": "2026-02-05T08:19:21.077600",
   "patterns": {
     "multimodal_research": [
       {
@@ -1023,10 +1023,6 @@
       {
         "title": "A labeled dataset of simulated phlebotomy procedures for medical AI: polygon annotations for object detection and human-object interaction",
         "url": "https://arxiv.org/abs/2602.04624v1"
-      },
-      {
-        "title": "Sota26/Affine-51-5CvsDmvzsY1aDwZMkM6y7dH9bkHU1s6T2rkaQEFBVWyeQzhV",
-        "url": "https://huggingface.co/Sota26/Affine-51-5CvsDmvzsY1aDwZMkM6y7dH9bkHU1s6T2rkaQEFBVWyeQzhV"
       }
     ],
     "reasoning": [
@@ -1657,8 +1653,8 @@
         "url": "https://arxiv.org/abs/2602.04802v1"
       },
       {
-        "title": "Sota26/Affine-51-5CvsDmvzsY1aDwZMkM6y7dH9bkHU1s6T2rkaQEFBVWyeQzhV",
-        "url": "https://huggingface.co/Sota26/Affine-51-5CvsDmvzsY1aDwZMkM6y7dH9bkHU1s6T2rkaQEFBVWyeQzhV"
+        "title": "SOTAagi2030/MyAwesomeModel-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo"
       }
     ]
   },
@@ -1695,7 +1691,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "65 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1744,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 411
   }
 }
