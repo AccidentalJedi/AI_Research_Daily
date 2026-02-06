@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-06T04:40:43.257252",
+  "date": "2026-02-06T08:19:03.045247",
   "patterns": {
     "multimodal_research": [
       {
@@ -705,22 +705,6 @@
       {
         "title": "VisRefiner: Learning from Visual Differences for Screenshot-to-Code Generation",
         "url": "https://arxiv.org/abs/2602.05998v1"
-      },
-      {
-        "title": "ianburdick/gpt2-wikitext2",
-        "url": "https://huggingface.co/ianburdick/gpt2-wikitext2"
-      },
-      {
-        "title": "tegarganang/ft-mental-bert-base-mental-health-counseling",
-        "url": "https://huggingface.co/tegarganang/ft-mental-bert-base-mental-health-counseling"
-      },
-      {
-        "title": "MuXodious/gpt-oss-20b-absolute-heresy",
-        "url": "https://huggingface.co/MuXodious/gpt-oss-20b-absolute-heresy"
-      },
-      {
-        "title": "nightmedia/OpenAI-gpt-oss-20B-High-Story-INSTRUCT-Heretic-Uncensored-MXFP4-q8-hi-mlx",
-        "url": "https://huggingface.co/nightmedia/OpenAI-gpt-oss-20B-High-Story-INSTRUCT-Heretic-Uncensored-MXFP4-q8-hi-mlx"
       }
     ],
     "vision_systems": [
@@ -951,10 +935,6 @@
       {
         "title": "Pathwise Test-Time Correction for Autoregressive Long Video Generation",
         "url": "https://arxiv.org/abs/2602.05871v1"
-      },
-      {
-        "title": "easygoing0114/Z-Image_clear_photoreal",
-        "url": "https://huggingface.co/easygoing0114/Z-Image_clear_photoreal"
       }
     ],
     "reasoning": [
@@ -1689,13 +1669,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "96 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "58 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1728,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 407
   }
 }
