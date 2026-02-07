@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-07T08:11:51.071698",
+  "date": "2026-02-07T12:14:29.202730",
   "patterns": {
     "multimodal_research": [
       {
@@ -707,16 +707,16 @@
         "url": "https://arxiv.org/abs/2602.05998v1"
       },
       {
-        "title": "jin-cheon/distilbert-base-uncased-finetuned-clinc",
-        "url": "https://huggingface.co/jin-cheon/distilbert-base-uncased-finetuned-clinc"
+        "title": "MuXodious/gpt-oss-20b-absolute-heresy-GGUF",
+        "url": "https://huggingface.co/MuXodious/gpt-oss-20b-absolute-heresy-GGUF"
       },
       {
-        "title": "fieldvalley-llm2025/llm2025_main_merged_dpo02",
-        "url": "https://huggingface.co/fieldvalley-llm2025/llm2025_main_merged_dpo02"
+        "title": "ryo-llm/qwen3-4b-structured-output-lora-202602072059",
+        "url": "https://huggingface.co/ryo-llm/qwen3-4b-structured-output-lora-202602072059"
       },
       {
-        "title": "makotonlo/LLM2026_DPO_finalv2",
-        "url": "https://huggingface.co/makotonlo/LLM2026_DPO_finalv2"
+        "title": "MuXodious/gpt-oss-20b-absolute-heresy",
+        "url": "https://huggingface.co/MuXodious/gpt-oss-20b-absolute-heresy"
       }
     ],
     "vision_systems": [
@@ -947,10 +947,6 @@
       {
         "title": "Pathwise Test-Time Correction for Autoregressive Long Video Generation",
         "url": "https://arxiv.org/abs/2602.05871v1"
-      },
-      {
-        "title": "toolevalxm/MedVision-RadNet-BestModel",
-        "url": "https://huggingface.co/toolevalxm/MedVision-RadNet-BestModel"
       }
     ],
     "reasoning": [
@@ -1691,7 +1687,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "58 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1744,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 410
   }
 }
