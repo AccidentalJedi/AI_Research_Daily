@@ -332,7 +332,7 @@
   {
     "arxiv_id": "2602.05853v1",
     "title": "RRAttention: Dynamic Block Sparse Attention via Per-Head Round-Robin Shifts for Long-Context Inference",
-    "summary": "The quadratic complexity of attention mechanisms poses a critical bottleneck for large language models processing long contexts. While dynamic sparse attention methods offer input-adaptive efficiency, they face fundamental trade-offs: requiring preprocessing, lacking global evaluation, violating query independence, or incurring high computational overhead. We present RRAttention, a novel dynamic sparse attention method that simultaneously achieves all desirable properties through a head \\underline{r}ound-\\underline{r}obin (RR) sampling strategy. By rotating query sampling positions across attention heads within each stride, RRAttention maintains query independence while enabling efficient global pattern discovery with stride-level aggregation. Our method reduces complexity from $O(L^2)$ to $O(L^2/S^2)$ and employs adaptive Top-$\u03c4$ selection for optimal sparsity. Extensive experiments on natural language understanding (HELMET) and multimodal video comprehension (Video-MME) demonstrate that RRAttention recovers over 99\\% of full attention performance while computing only half of the attention blocks, achieving 2.4$\\times$ speedup at 128K context length and outperforming existing dynamic sparse attention methods.",
+    "summary": "The quadratic complexity of attention mechanisms poses a critical bottleneck for large language models processing long contexts. While dynamic sparse attention methods offer input-adaptive efficiency, they face fundamental trade-offs: requiring preprocessing, lacking global evaluation, violating query independence, or incurring high computational overhead. We present RRAttention, a novel dynamic sparse attention method that simultaneously achieves all desirable properties through a head \\underline{r}ound-\\underline{r}obin (RR) sampling strategy. By rotating query sampling positions across attention heads within each stride, RRAttention maintains query independence while enabling efficient global pattern discovery with stride-level aggregation. Our method reduces complexity from $O(L^2)$ to $O(L^2/S^2)$ and employs adaptive Top-$τ$ selection for optimal sparsity. Extensive experiments on natural language understanding (HELMET) and multimodal video comprehension (Video-MME) demonstrate that RRAttention recovers over 99\\% of full attention performance while computing only half of the attention blocks, achieving 2.4$\\times$ speedup at 128K context length and outperforming existing dynamic sparse attention methods.",
     "authors": [
       "Siran Liu",
       "Guoxia Wang",
@@ -414,7 +414,7 @@
       "Matej Grcic",
       "Razvan Pascanu",
       "Deep Shah",
-      "Petar Veli\u010dkovi\u0107"
+      "Petar Veličković"
     ],
     "categories": [
       "cs.LG",
@@ -630,12 +630,12 @@
   {
     "arxiv_id": "2602.05961v1",
     "title": "Discrete diffusion samplers and bridges: Off-policy algorithms and applications in latent spaces",
-    "summary": "Sampling from a distribution $p(x) \\propto e^{-\\mathcal{E}(x)}$ known up to a normalising constant is an important and challenging problem in statistics. Recent years have seen the rise of a new family of amortised sampling algorithms, commonly referred to as diffusion samplers, that enable fast and efficient sampling from an unnormalised density. Such algorithms have been widely studied for continuous-space sampling tasks; however, their application to problems in discrete space remains largely unexplored. Although some progress has been made in this area, discrete diffusion samplers do not take full advantage of ideas commonly used for continuous-space sampling. In this paper, we propose to bridge this gap by introducing off-policy training techniques for discrete diffusion samplers. We show that these techniques improve the performance of discrete samplers on both established and new synthetic benchmarks. Next, we generalise discrete diffusion samplers to the task of bridging between two arbitrary distributions, introducing data-to-energy Schr\u00f6dinger bridge training for the discrete domain for the first time. Lastly, we showcase the application of the proposed diffusion samplers to data-free posterior sampling in the discrete latent spaces of image generative models.",
+    "summary": "Sampling from a distribution $p(x) \\propto e^{-\\mathcal{E}(x)}$ known up to a normalising constant is an important and challenging problem in statistics. Recent years have seen the rise of a new family of amortised sampling algorithms, commonly referred to as diffusion samplers, that enable fast and efficient sampling from an unnormalised density. Such algorithms have been widely studied for continuous-space sampling tasks; however, their application to problems in discrete space remains largely unexplored. Although some progress has been made in this area, discrete diffusion samplers do not take full advantage of ideas commonly used for continuous-space sampling. In this paper, we propose to bridge this gap by introducing off-policy training techniques for discrete diffusion samplers. We show that these techniques improve the performance of discrete samplers on both established and new synthetic benchmarks. Next, we generalise discrete diffusion samplers to the task of bridging between two arbitrary distributions, introducing data-to-energy Schrödinger bridge training for the discrete domain for the first time. Lastly, we showcase the application of the proposed diffusion samplers to data-free posterior sampling in the discrete latent spaces of image generative models.",
     "authors": [
       "Arran Carter",
       "Sanghyeok Choi",
       "Kirill Tamogashev",
-      "V\u00edctor Elvira",
+      "Víctor Elvira",
       "Nikolay Malkin"
     ],
     "categories": [
@@ -990,7 +990,7 @@
       "Francisco M. Melgarejo-Meseguer",
       "Elena Casiraghi",
       "Giorgio Valentini",
-      "Jos\u00e9-Luis Rojo-\u00c1lvarez"
+      "José-Luis Rojo-Álvarez"
     ],
     "categories": [
       "cs.CR",
@@ -1054,7 +1054,7 @@
     "title": "End-to-End Compression for Tabular Foundation Models",
     "summary": "The long-standing dominance of gradient-boosted decision trees for tabular data has recently been challenged by in-context learning tabular foundation models. In-context learning methods fit and predict in one forward pass without parameter updates by leveraging the training data as context for predicting on query test points. While recent tabular foundation models achieve state-of-the-art performance, their transformer architecture based on the attention mechanism has quadratic complexity regarding dataset size, which in turn increases the overhead on training and inference time, and limits the capacity of the models to handle large-scale datasets. In this work, we propose TACO, an end-to-end tabular compression model that compresses the training dataset in a latent space. We test our method on the TabArena benchmark, where our proposed method is up to 94x faster in inference time, while consuming up to 97\\% less memory compared to the state-of-the-art tabular transformer architecture, all while retaining performance without significant degradation. Lastly, our method not only scales better with increased dataset sizes, but it also achieves better performance compared to other baselines.",
     "authors": [
-      "Guri Zab\u00ebrgja",
+      "Guri Zabërgja",
       "Rafiq Kamel",
       "Arlind Kadra",
       "Christian M. M. Frey",
@@ -1148,7 +1148,7 @@
     "title": "xList-Hate: A Checklist-Based Framework for Interpretable and Generalizable Hate Speech Detection",
     "summary": "Hate speech detection is commonly framed as a direct binary classification problem despite being a composite concept defined through multiple interacting factors that vary across legal frameworks, platform policies, and annotation guidelines. As a result, supervised models often overfit dataset-specific definitions and exhibit limited robustness under domain shift and annotation noise.   We introduce xList-Hate, a diagnostic framework that decomposes hate speech detection into a checklist of explicit, concept-level questions grounded in widely shared normative criteria. Each question is independently answered by a large language model (LLM), producing a binary diagnostic representation that captures hateful content features without directly predicting the final label. These diagnostic signals are then aggregated by a lightweight, fully interpretable decision tree, yielding transparent and auditable predictions.   We evaluate it across multiple hate speech benchmarks and model families, comparing it against zero-shot LLM classification and in-domain supervised fine-tuning. While supervised methods typically maximize in-domain performance, we consistently improves cross-dataset robustness and relative performance under domain shift. In addition, qualitative analysis of disagreement cases provides evidence that the framework can be less sensitive to certain forms of annotation inconsistency and contextual ambiguity. Crucially, the approach enables fine-grained interpretability through explicit decision paths and factor-level analysis.   Our results suggest that reframing hate speech detection as a diagnostic reasoning task, rather than a monolithic classification problem, provides a robust, explainable, and extensible alternative for content moderation.",
     "authors": [
-      "Adri\u00e1n Gir\u00f3n",
+      "Adrián Girón",
       "Pablo Miralles",
       "Javier Huertas-Tato",
       "Sergio D'Antonio",
@@ -1213,7 +1213,7 @@
   {
     "arxiv_id": "2602.05852v1",
     "title": "Exact Recovery in the Data Block Model",
-    "summary": "Community detection in networks is a fundamental problem in machine learning and statistical inference, with applications in social networks, biological systems, and communication networks. The stochastic block model (SBM) serves as a canonical framework for studying community structure, and exact recovery, identifying the true communities with high probability, is a central theoretical question. While classical results characterize the phase transition for exact recovery based solely on graph connectivity, many real-world networks contain additional data, such as node attributes or labels. In this work, we study exact recovery in the Data Block Model (DBM), an SBM augmented with node-associated data, as formalized by Asadi, Abbe, and Verd\u00fa (2017). We introduce the Chernoff--TV divergence and use it to characterize a sharp exact recovery threshold for the DBM. We further provide an efficient algorithm that achieves this threshold, along with a matching converse result showing impossibility below the threshold. Finally, simulations validate our findings and demonstrate the benefits of incorporating vertex data as side information in community detection.",
+    "summary": "Community detection in networks is a fundamental problem in machine learning and statistical inference, with applications in social networks, biological systems, and communication networks. The stochastic block model (SBM) serves as a canonical framework for studying community structure, and exact recovery, identifying the true communities with high probability, is a central theoretical question. While classical results characterize the phase transition for exact recovery based solely on graph connectivity, many real-world networks contain additional data, such as node attributes or labels. In this work, we study exact recovery in the Data Block Model (DBM), an SBM augmented with node-associated data, as formalized by Asadi, Abbe, and Verdú (2017). We introduce the Chernoff--TV divergence and use it to characterize a sharp exact recovery threshold for the DBM. We further provide an efficient algorithm that achieves this threshold, along with a matching converse result showing impossibility below the threshold. Finally, simulations validate our findings and demonstrate the benefits of incorporating vertex data as side information in community detection.",
     "authors": [
       "Amir R. Asadi",
       "Akbar Davoodi",
@@ -1349,9 +1349,9 @@
     "title": "Perception-Based Beliefs for POMDPs with Visual Observations",
     "summary": "Partially observable Markov decision processes (POMDPs) are a principled planning model for sequential decision-making under uncertainty. Yet, real-world problems with high-dimensional observations, such as camera images, remain intractable for traditional belief- and filtering-based solvers. To tackle this problem, we introduce the Perception-based Beliefs for POMDPs framework (PBP), which complements such solvers with a perception model. This model takes the form of an image classifier which maps visual observations to probability distributions over states. PBP incorporates these distributions directly into belief updates, so the underlying solver does not need to reason explicitly over high-dimensional observation spaces. We show that the belief update of PBP coincides with the standard belief update if the image classifier is exact. Moreover, to handle classifier imprecision, we incorporate uncertainty quantification and introduce two methods to adjust the belief update accordingly. We implement PBP using two traditional POMDP solvers and empirically show that (1) it outperforms existing end-to-end deep RL methods and (2) uncertainty quantification improves robustness of PBP against visual corruption.",
     "authors": [
-      "Miriam Sch\u00e4fers",
+      "Miriam Schäfers",
       "Merlijn Krale",
-      "Thiago D. Sim\u00e3o",
+      "Thiago D. Simão",
       "Nils Jansen",
       "Maximilian Weininger"
     ],
@@ -1405,7 +1405,7 @@
     "summary": "The increasing penetration of photovoltaic (PV) generation introduces significant uncertainty into power system operation, necessitating forecasting approaches that extend beyond deterministic point predictions. This paper proposes an any-quantile probabilistic forecasting framework for multi-regional PV power generation based on the Any-Quantile Recurrent Neural Network (AQ-RNN). The model integrates an any-quantile forecasting paradigm with a dual-track recurrent architecture that jointly processes series-specific and cross-regional contextual information, supported by dilated recurrent cells, patch-based temporal modeling, and a dynamic ensemble mechanism.   The proposed framework enables the estimation of calibrated conditional quantiles at arbitrary probability levels within a single trained model and effectively exploits spatial dependencies to enhance robustness at the system level. The approach is evaluated using 30 years of hourly PV generation data from 259 European regions and compared against established statistical and neural probabilistic baselines. The results demonstrate consistent improvements in forecast accuracy, calibration, and prediction interval quality, underscoring the suitability of the proposed method for uncertainty-aware energy management and operational decision-making in renewable-dominated power systems.",
     "authors": [
       "Slawek Smyl",
-      "Pawe\u0142 Pe\u0142ka",
+      "Paweł Pełka",
       "Grzegorz Dudek"
     ],
     "categories": [
@@ -1422,7 +1422,7 @@
   {
     "arxiv_id": "2602.05591v1",
     "title": "Efficient Algorithms for Robust Markov Decision Processes with $s$-Rectangular Ambiguity Sets",
-    "summary": "Robust Markov decision processes (MDPs) have attracted significant interest due to their ability to protect MDPs from poor out-of-sample performance in the presence of ambiguity. In contrast to classical MDPs, which account for stochasticity by modeling the dynamics through a stochastic process with a known transition kernel, a robust MDP additionally accounts for ambiguity by optimizing against the most adverse transition kernel from an ambiguity set constructed via historical data. In this paper, we develop a unified solution framework for a broad class of robust MDPs with $s$-rectangular ambiguity sets, where the most adverse transition probabilities are considered independently for each state. Using our algorithms, we show that $s$-rectangular robust MDPs with $1$- and $2$-norm as well as $\u03c6$-divergence ambiguity sets can be solved several orders of magnitude faster than with state-of-the-art commercial solvers, and often only a logarithmic factor slower than classical MDPs. We demonstrate the favorable scaling properties of our algorithms on a range of synthetically generated as well as standard benchmark instances.",
+    "summary": "Robust Markov decision processes (MDPs) have attracted significant interest due to their ability to protect MDPs from poor out-of-sample performance in the presence of ambiguity. In contrast to classical MDPs, which account for stochasticity by modeling the dynamics through a stochastic process with a known transition kernel, a robust MDP additionally accounts for ambiguity by optimizing against the most adverse transition kernel from an ambiguity set constructed via historical data. In this paper, we develop a unified solution framework for a broad class of robust MDPs with $s$-rectangular ambiguity sets, where the most adverse transition probabilities are considered independently for each state. Using our algorithms, we show that $s$-rectangular robust MDPs with $1$- and $2$-norm as well as $φ$-divergence ambiguity sets can be solved several orders of magnitude faster than with state-of-the-art commercial solvers, and often only a logarithmic factor slower than classical MDPs. We demonstrate the favorable scaling properties of our algorithms on a range of synthetically generated as well as standard benchmark instances.",
     "authors": [
       "Chin Pang Ho",
       "Marek Petrik",
@@ -1508,7 +1508,7 @@
       "Roger Girgis",
       "Rodrigue de Schaetzen",
       "Luke Rowe",
-      "Azal\u00e9e Robitaille",
+      "Azalée Robitaille",
       "Christopher Pal",
       "Liam Paull"
     ],
@@ -1744,11 +1744,11 @@
     "summary": "Accurate 3D representations of cardiac structures allow quantitative analysis of anatomy and function. In this work, we propose a method for reconstructing complete 3D cardiac shapes from segmentations of sparse planes in CT angiography (CTA) for application in 2D transthoracic echocardiography (TTE). Our method uses a neural implicit function to reconstruct the 3D shape of the cardiac chambers and left-ventricle myocardium from sparse CTA planes. To investigate the feasibility of achieving 3D reconstruction from 2D TTE, we select planes that mimic the standard apical 2D TTE views. During training, a multi-layer perceptron learns shape priors from 3D segmentations of the target structures in CTA. At test time, the network reconstructs 3D cardiac shapes from segmentations of TTE-mimicking CTA planes by jointly optimizing the latent code and the rigid transforms that map the observed planes into 3D space. For each heart, we simulate four realistic apical views, and we compare reconstructed multi-class volumes with the reference CTA volumes. On a held-out set of CTA segmentations, our approach achieves an average Dice coefficient of 0.86 $\\pm$ 0.04 across all structures. Our method also achieves markedly lower volume errors than the clinical standard, Simpson's biplane rule: 4.88 $\\pm$ 4.26 mL vs. 8.14 $\\pm$ 6.04 mL, respectively, for the left ventricle; and 6.40 $\\pm$ 7.37 mL vs. 37.76 $\\pm$ 22.96 mL, respectively, for the left atrium. This suggests that our approach offers a viable route to more accurate 3D chamber quantification in 2D transthoracic echocardiography.",
     "authors": [
       "Gino E. Jansen",
-      "Carolina Br\u00e1s",
+      "Carolina Brás",
       "R. Nils Planken",
       "Mark J. Schuuring",
       "Berto J. Bouma",
-      "Ivana I\u0161gum"
+      "Ivana Išgum"
     ],
     "categories": [
       "cs.CV",
@@ -1855,7 +1855,7 @@
   {
     "arxiv_id": "2602.06041v1",
     "title": "Predicting Camera Pose from Perspective Descriptions for Spatial Reasoning",
-    "summary": "Multi-image spatial reasoning remains challenging for current multimodal large language models (MLLMs). While single-view perception is inherently 2D, reasoning over multiple views requires building a coherent scene understanding across viewpoints. In particular, we study perspective taking, where a model must build a coherent 3D understanding from multi-view observations and use it to reason from a new, language-specified viewpoint. We introduce CAMCUE, a pose-aware multi-image framework that uses camera pose as an explicit geometric anchor for cross-view fusion and novel-view reasoning. CAMCUE injects per-view pose into visual tokens, grounds natural-language viewpoint descriptions to a target camera pose, and synthesizes a pose-conditioned imagined target view to support answering. To support this setting, we curate CAMCUE-DATA with 27,668 training and 508 test instances pairing multi-view images and poses with diverse target-viewpoint descriptions and perspective-shift questions. We also include human-annotated viewpoint descriptions in the test split to evaluate generalization to human language. CAMCUE improves overall accuracy by 9.06% and predicts target poses from natural-language viewpoint descriptions with over 90% rotation accuracy within 20\u00b0 and translation accuracy within a 0.5 error threshold. This direct grounding avoids expensive test-time search-and-match, reducing inference time from 256.6s to 1.45s per example and enabling fast, interactive use in real-world scenarios.",
+    "summary": "Multi-image spatial reasoning remains challenging for current multimodal large language models (MLLMs). While single-view perception is inherently 2D, reasoning over multiple views requires building a coherent scene understanding across viewpoints. In particular, we study perspective taking, where a model must build a coherent 3D understanding from multi-view observations and use it to reason from a new, language-specified viewpoint. We introduce CAMCUE, a pose-aware multi-image framework that uses camera pose as an explicit geometric anchor for cross-view fusion and novel-view reasoning. CAMCUE injects per-view pose into visual tokens, grounds natural-language viewpoint descriptions to a target camera pose, and synthesizes a pose-conditioned imagined target view to support answering. To support this setting, we curate CAMCUE-DATA with 27,668 training and 508 test instances pairing multi-view images and poses with diverse target-viewpoint descriptions and perspective-shift questions. We also include human-annotated viewpoint descriptions in the test split to evaluate generalization to human language. CAMCUE improves overall accuracy by 9.06% and predicts target poses from natural-language viewpoint descriptions with over 90% rotation accuracy within 20° and translation accuracy within a 0.5 error threshold. This direct grounding avoids expensive test-time search-and-match, reducing inference time from 256.6s to 1.45s per example and enabling fast, interactive use in real-world scenarios.",
     "authors": [
       "Xuejun Zhang",
       "Aditi Tiwari",
@@ -1901,7 +1901,7 @@
     "summary": "How does the amount of compute available to a reinforcement learning (RL) policy affect its learning? Can policies using a fixed amount of parameters, still benefit from additional compute? The standard RL framework does not provide a language to answer these questions formally. Empirically, deep RL policies are often parameterized as neural networks with static architectures, conflating the amount of compute and the number of parameters. In this paper, we formalize compute bounded policies and prove that policies which use more compute can solve problems and generalize to longer-horizon tasks that are outside the scope of policies with less compute. Building on prior work in algorithmic learning and model-free planning, we propose a minimal architecture that can use a variable amount of compute. Our experiments complement our theory. On a set 31 different tasks spanning online and offline RL, we show that $(1)$ this architecture achieves stronger performance simply by using more compute, and $(2)$ stronger generalization on longer-horizon test tasks compared to standard feedforward networks or deep residual network using up to 5 times more parameters.",
     "authors": [
       "Raj Ghugare",
-      "Micha\u0142 Bortkiewicz",
+      "Michał Bortkiewicz",
       "Alicja Ziarko",
       "Benjamin Eysenbach"
     ],
@@ -1983,7 +1983,7 @@
   {
     "arxiv_id": "2602.05933v1",
     "title": "Approximation of Log-Partition Function in Policy Mirror Descent Induces Implicit Regularization for LLM Post-Training",
-    "summary": "Policy mirror descent (PMD) provides a principled framework for reinforcement learning (RL) by iteratively solving KL-regularized policy improvement subproblems. While this approach has been adopted in training advanced LLMs such as Kimi K1.5/K2, the ideal closed-form PMD updates require reliable partition function estimation, a significant challenge when working with limited rollouts in the vast action spaces of LLMs. We investigate a practical algorithm, termed PMD-mean, that approximates the log-partition term with the mean reward under the sampling policy and performs regression in log-policy space. Specifically, we characterize the population solution of PMD-mean and demonstrate that it implicitly optimizes mirror descent subproblems with an adaptive mixed KL--$\u03c7^2$ regularizer. This additional $\u03c7^2$ regularization constrains large probability changes, producing more conservative updates when expected rewards are low and enhancing robustness against finite-sample estimation errors. Experiments on math reasoning tasks show that PMD-mean achieves superior performance with improved stability and time efficiency. These findings deepen our understanding of PMD-mean and illuminate pathways toward principled improvements in RL algorithms for LLMs. Code is available at https://github.com/horizon-rl/OpenKimi.",
+    "summary": "Policy mirror descent (PMD) provides a principled framework for reinforcement learning (RL) by iteratively solving KL-regularized policy improvement subproblems. While this approach has been adopted in training advanced LLMs such as Kimi K1.5/K2, the ideal closed-form PMD updates require reliable partition function estimation, a significant challenge when working with limited rollouts in the vast action spaces of LLMs. We investigate a practical algorithm, termed PMD-mean, that approximates the log-partition term with the mean reward under the sampling policy and performs regression in log-policy space. Specifically, we characterize the population solution of PMD-mean and demonstrate that it implicitly optimizes mirror descent subproblems with an adaptive mixed KL--$χ^2$ regularizer. This additional $χ^2$ regularization constrains large probability changes, producing more conservative updates when expected rewards are low and enhancing robustness against finite-sample estimation errors. Experiments on math reasoning tasks show that PMD-mean achieves superior performance with improved stability and time efficiency. These findings deepen our understanding of PMD-mean and illuminate pathways toward principled improvements in RL algorithms for LLMs. Code is available at https://github.com/horizon-rl/OpenKimi.",
     "authors": [
       "Zhenghao Xu",
       "Qin Lu",
@@ -2031,7 +2031,7 @@
     "authors": [
       "Alexander Kozachinskiy",
       "Tomasz Steifer",
-      "Przemys\u0142aw Wa\u0142\u0229ga"
+      "Przemysław Wałȩga"
     ],
     "categories": [
       "cs.LG",
@@ -2344,7 +2344,7 @@
       "Artem Riabinin",
       "Andrey Veprikov",
       "Arman Bolatov",
-      "Martin Tak\u00e1\u010d",
+      "Martin Takáč",
       "Aleksandr Beznosikov"
     ],
     "categories": [
@@ -2508,9 +2508,9 @@
     "title": "Polyglots or Multitudes? Multilingual LLM Answers to Value-laden Multiple-Choice Questions",
     "summary": "Multiple-Choice Questions (MCQs) are often used to assess knowledge, reasoning abilities, and even values encoded in large language models (LLMs). While the effect of multilingualism has been studied on LLM factual recall, this paper seeks to investigate the less explored question of language-induced variation in value-laden MCQ responses. Are multilingual LLMs consistent in their responses across languages, i.e. behave like theoretical polyglots, or do they answer value-laden MCQs depending on the language of the question, like a multitude of monolingual models expressing different values through a single model? We release a new corpus, the Multilingual European Value Survey (MEVS), which, unlike prior work relying on machine translation or ad hoc prompts, solely comprises human-translated survey questions aligned in 8 European languages. We administer a subset of those questions to over thirty multilingual LLMs of various sizes, manufacturers and alignment-fine-tuning status under comprehensive, controlled prompt variations including answer order, symbol type, and tail character. Our results show that while larger, instruction-tuned models display higher overall consistency, the robustness of their responses varies greatly across questions, with certain MCQs eliciting total agreement within and across models while others leave LLM answers split. Language-specific behavior seems to arise in all consistent, instruction-fine-tuned models, but only on certain questions, warranting a further study of the selective effect of preference fine-tuning.",
     "authors": [
-      "L\u00e9o Labat",
+      "Léo Labat",
       "Etienne Ollion",
-      "Fran\u00e7ois Yvon"
+      "François Yvon"
     ],
     "categories": [
       "cs.CL"
@@ -2602,7 +2602,7 @@
     "summary": "We propose NVS-HO, the first benchmark designed for novel view synthesis of handheld objects in real-world environments using only RGB inputs. Each object is recorded in two complementary RGB sequences: (1) a handheld sequence, where the object is manipulated in front of a static camera, and (2) a board sequence, where the object is fixed on a ChArUco board to provide accurate camera poses via marker detection. The goal of NVS-HO is to learn a NVS model that captures the full appearance of an object from (1), whereas (2) provides the ground-truth images used for evaluation. To establish baselines, we consider both a classical SfM pipeline and a state-of-the-art pre-trained feed-forward neural network (VGGT) as pose estimators, and train NVS models based on NeRF and Gaussian Splatting. Our experiments reveal significant performance gaps in current methods under unconstrained handheld conditions, highlighting the need for more robust approaches. NVS-HO thus offers a challenging real-world benchmark to drive progress in RGB-based novel view synthesis of handheld objects.",
     "authors": [
       "Musawar Ali",
-      "Manuel Carranza-Garc\u00eda",
+      "Manuel Carranza-García",
       "Nicola Fioraio",
       "Samuele Salti",
       "Luigi Di Stefano"
@@ -2687,11 +2687,11 @@
   {
     "arxiv_id": "2602.05657v1",
     "title": "Tight Long-Term Tail Decay of (Clipped) SGD in Non-Convex Optimization",
-    "summary": "The study of tail behaviour of SGD-induced processes has been attracting a lot of interest, due to offering strong guarantees with respect to individual runs of an algorithm. While many works provide high-probability guarantees, quantifying the error rate for a fixed probability threshold, there is a lack of work directly studying the probability of failure, i.e., quantifying the tail decay rate for a fixed error threshold. Moreover, existing results are of finite-time nature, limiting their ability to capture the true long-term tail decay which is more informative for modern learning models, typically trained for millions of iterations. Our work closes these gaps, by studying the long-term tail decay of SGD-based methods through the lens of large deviations theory, establishing several strong results in the process. First, we provide an upper bound on the tails of the gradient norm-squared of the best iterate produced by (vanilla) SGD, for non-convex costs and bounded noise, with long-term decay at rate $e^{-t/\\log(t)}$. Next, we relax the noise assumption by considering clipped SGD (c-SGD) under heavy-tailed noise with bounded moment of order $p \\in (1,2]$, showing an upper bound with long-term decay at rate $e^{-t^{\u03b2_p}/\\log(t)}$, where $\u03b2_p = \\frac{4(p-1)}{3p-2}$ for $p \\in (1,2)$ and $e^{-t/\\log^2(t)}$ for $p = 2$. Finally, we provide lower bounds on the tail decay, at rate $e^{-t}$, showing that our rates for both SGD and c-SGD are tight, up to poly-logarithmic factors. Notably, our results demonstrate an order of magnitude faster long-term tail decay compared to existing work based on finite-time bounds, which show rates $e^{-\\sqrt{t}}$ and $e^{-t^{\u03b2_p/2}}$, $p \\in (1,2]$, for SGD and c-SGD, respectively. As such, we uncover regimes where the tails decay much faster than previously known, providing stronger long-term guarantees for individual runs.",
+    "summary": "The study of tail behaviour of SGD-induced processes has been attracting a lot of interest, due to offering strong guarantees with respect to individual runs of an algorithm. While many works provide high-probability guarantees, quantifying the error rate for a fixed probability threshold, there is a lack of work directly studying the probability of failure, i.e., quantifying the tail decay rate for a fixed error threshold. Moreover, existing results are of finite-time nature, limiting their ability to capture the true long-term tail decay which is more informative for modern learning models, typically trained for millions of iterations. Our work closes these gaps, by studying the long-term tail decay of SGD-based methods through the lens of large deviations theory, establishing several strong results in the process. First, we provide an upper bound on the tails of the gradient norm-squared of the best iterate produced by (vanilla) SGD, for non-convex costs and bounded noise, with long-term decay at rate $e^{-t/\\log(t)}$. Next, we relax the noise assumption by considering clipped SGD (c-SGD) under heavy-tailed noise with bounded moment of order $p \\in (1,2]$, showing an upper bound with long-term decay at rate $e^{-t^{β_p}/\\log(t)}$, where $β_p = \\frac{4(p-1)}{3p-2}$ for $p \\in (1,2)$ and $e^{-t/\\log^2(t)}$ for $p = 2$. Finally, we provide lower bounds on the tail decay, at rate $e^{-t}$, showing that our rates for both SGD and c-SGD are tight, up to poly-logarithmic factors. Notably, our results demonstrate an order of magnitude faster long-term tail decay compared to existing work based on finite-time bounds, which show rates $e^{-\\sqrt{t}}$ and $e^{-t^{β_p/2}}$, $p \\in (1,2]$, for SGD and c-SGD, respectively. As such, we uncover regimes where the tails decay much faster than previously known, providing stronger long-term guarantees for individual runs.",
     "authors": [
       "Aleksandar Armacki",
-      "Dragana Bajovi\u0107",
-      "Du\u0161an Jakoveti\u0107",
+      "Dragana Bajović",
+      "Dušan Jakovetić",
       "Soummya Kar",
       "Ali H. Sayed"
     ],
@@ -2804,7 +2804,7 @@
     "title": "Characterizing Human Semantic Navigation in Concept Production as Trajectories in Embedding Space",
     "summary": "Semantic representations can be framed as a structured, dynamic knowledge space through which humans navigate to retrieve and manipulate meaning. To investigate how humans traverse this geometry, we introduce a framework that represents concept production as navigation through embedding space. Using different transformer text embedding models, we construct participant-specific semantic trajectories based on cumulative embeddings and extract geometric and dynamical metrics, including distance to next, distance to centroid, entropy, velocity, and acceleration. These measures capture both scalar and directional aspects of semantic navigation, providing a computationally grounded view of semantic representation search as movement in a geometric space. We evaluate the framework on four datasets across different languages, spanning different property generation tasks: Neurodegenerative, Swear verbal fluency, Property listing task in Italian, and in German. Across these contexts, our approach distinguishes between clinical groups and concept types, offering a mathematical framework that requires minimal human intervention compared to typical labor-intensive linguistic pre-processing methods. Comparison with a non-cumulative approach reveals that cumulative embeddings work best for longer trajectories, whereas shorter ones may provide too little context, favoring the non-cumulative alternative. Critically, different embedding models yielded similar results, highlighting similarities between different learned representations despite different training pipelines. By framing semantic navigation as a structured trajectory through embedding space, bridging cognitive modeling with learned representation, thereby establishing a pipeline for quantifying semantic representation dynamics with applications in clinical research, cross-linguistic analysis, and the assessment of artificial cognition.",
     "authors": [
-      "Felipe D. Toro-Hern\u00e1ndez",
+      "Felipe D. Toro-Hernández",
       "Jesuino Vieira Filho",
       "Rodrigo M. Cabral-Carvalho"
     ],
@@ -2825,8 +2825,8 @@
     "title": "Verification of the Implicit World Model in a Generative Model via Adversarial Sequences",
     "summary": "Generative sequence models are typically trained on sample sequences from natural or formal languages. It is a crucial question whether -- or to what extent -- sample-based training is able to capture the true structure of these languages, often referred to as the ``world model''. Theoretical results indicate that we can hope for soundness at best, that is, generating valid sequences, but not necessarily all of them. However, it is still important to have practical tools that are able to verify whether a given sequence model is sound. In this study, we focus on chess, as it is a domain that provides enough complexity while having a simple rule-based world model. We propose adversarial sequence generation for verifying the soundness of the sequence model. Our adversaries generate valid sequences so as to force the sequence model to generate an invalid next move prediction. Apart from the falsification of soundness, this method is also suitable for a more fine-grained analysis of the failure modes and the effects of different choices during training. To demonstrate this, we propose a number of methods for adversarial sequence generation and evaluate the approach on a large set of chess models. We train models on random as well as high-quality chess games, using several training recipes. We find that none of the models are sound, but some training techniques and dataset choices are able to improve soundness remarkably. We also investigate the potential application of board state probes in both our training and attack methods. Our findings indicate that the extracted board states have no causal role in next token prediction in most of the models.",
     "authors": [
-      "Andr\u00e1s Balogh",
-      "M\u00e1rk Jelasity"
+      "András Balogh",
+      "Márk Jelasity"
     ],
     "categories": [
       "cs.LG",
@@ -2842,7 +2842,7 @@
   {
     "arxiv_id": "2602.05842v1",
     "title": "Reinforcement World Model Learning for LLM-based Agents",
-    "summary": "Large language models (LLMs) have achieved strong performance in language-centric tasks. However, in agentic settings, LLMs often struggle to anticipate action consequences and adapt to environment dynamics, highlighting the need for world-modeling capabilities in LLM-based agents. We propose Reinforcement World Model Learning (RWML), a self-supervised method that learns action-conditioned world models for LLM-based agents on textual states using sim-to-real gap rewards. Our method aligns simulated next states produced by the model with realized next states observed from the environment, encouraging consistency between internal world simulations and actual environment dynamics in a pre-trained embedding space. Unlike next-state token prediction, which prioritizes token-level fidelity (i.e., reproducing exact wording) over semantic equivalence and can lead to model collapse, our method provides a more robust training signal and is empirically less susceptible to reward hacking than LLM-as-a-judge. We evaluate our method on ALFWorld and $\u03c4^2$ Bench and observe significant gains over the base model, despite being entirely self-supervised. When combined with task-success rewards, our method outperforms direct task-success reward RL by 6.9 and 5.7 points on ALFWorld and $\u03c4^2$ Bench respectively, while matching the performance of expert-data training.",
+    "summary": "Large language models (LLMs) have achieved strong performance in language-centric tasks. However, in agentic settings, LLMs often struggle to anticipate action consequences and adapt to environment dynamics, highlighting the need for world-modeling capabilities in LLM-based agents. We propose Reinforcement World Model Learning (RWML), a self-supervised method that learns action-conditioned world models for LLM-based agents on textual states using sim-to-real gap rewards. Our method aligns simulated next states produced by the model with realized next states observed from the environment, encouraging consistency between internal world simulations and actual environment dynamics in a pre-trained embedding space. Unlike next-state token prediction, which prioritizes token-level fidelity (i.e., reproducing exact wording) over semantic equivalence and can lead to model collapse, our method provides a more robust training signal and is empirically less susceptible to reward hacking than LLM-as-a-judge. We evaluate our method on ALFWorld and $τ^2$ Bench and observe significant gains over the base model, despite being entirely self-supervised. When combined with task-success rewards, our method outperforms direct task-success reward RL by 6.9 and 5.7 points on ALFWorld and $τ^2$ Bench respectively, while matching the performance of expert-data training.",
     "authors": [
       "Xiao Yu",
       "Baolin Peng",
@@ -2869,7 +2869,7 @@
     "title": "Principled Confidence Estimation for Deep Computed Tomography",
     "summary": "We present a principled framework for confidence estimation in computed tomography (CT) reconstruction. Based on the sequential likelihood mixing framework (Kirschner et al., 2025), we establish confidence regions with theoretical coverage guarantees for deep-learning-based CT reconstructions. We consider a realistic forward model following the Beer-Lambert law, i.e., a log-linear forward model with Poisson noise, closely reflecting clinical and scientific imaging conditions. The framework is general and applies to both classical algorithms and deep learning reconstruction methods, including U-Nets, U-Net ensembles, and generative Diffusion models. Empirically, we demonstrate that deep reconstruction methods yield substantially tighter confidence regions than classical reconstructions, without sacrificing theoretical coverage guarantees. Our approach allows the detection of hallucinations in reconstructed images and provides interpretable visualizations of confidence regions. This establishes deep models not only as powerful estimators, but also as reliable tools for uncertainty-aware medical imaging.",
     "authors": [
-      "Matteo G\u00e4tzner",
+      "Matteo Gätzner",
       "Johannes Kirschner"
     ],
     "categories": [
@@ -3245,7 +3245,7 @@
   {
     "arxiv_id": "2602.05713v1",
     "title": "Projected Boosting with Fairness Constraints: Quantifying the Cost of Fair Training Distributions",
-    "summary": "Boosting algorithms enjoy strong theoretical guarantees: when weak learners maintain positive edge, AdaBoost achieves geometric decrease of exponential loss. We study how to incorporate group fairness constraints into boosting while preserving analyzable training dynamics. Our approach, FairBoost, projects the ensemble-induced exponential-weights distribution onto a convex set of distributions satisfying fairness constraints (as a reweighting surrogate), then trains weak learners on this fair distribution. The key theoretical insight is that projecting the training distribution reduces the effective edge of weak learners by a quantity controlled by the KL-divergence of the projection. We prove an exponential-loss bound where the convergence rate depends on weak learner edge minus a \"fairness cost\" term $\u03b4_t = \\sqrt{\\mathrm{KL}(w^t \\| q^t)/2}$. This directly quantifies the accuracy-fairness tradeoff in boosting dynamics. Experiments on standard benchmarks validate the theoretical predictions and demonstrate competitive fairness-accuracy tradeoffs with stable training curves.",
+    "summary": "Boosting algorithms enjoy strong theoretical guarantees: when weak learners maintain positive edge, AdaBoost achieves geometric decrease of exponential loss. We study how to incorporate group fairness constraints into boosting while preserving analyzable training dynamics. Our approach, FairBoost, projects the ensemble-induced exponential-weights distribution onto a convex set of distributions satisfying fairness constraints (as a reweighting surrogate), then trains weak learners on this fair distribution. The key theoretical insight is that projecting the training distribution reduces the effective edge of weak learners by a quantity controlled by the KL-divergence of the projection. We prove an exponential-loss bound where the convergence rate depends on weak learner edge minus a \"fairness cost\" term $δ_t = \\sqrt{\\mathrm{KL}(w^t \\| q^t)/2}$. This directly quantifies the accuracy-fairness tradeoff in boosting dynamics. Experiments on standard benchmarks validate the theoretical predictions and demonstrate competitive fairness-accuracy tradeoffs with stable training curves.",
     "authors": [
       "Amir Asiaee",
       "Kaveh Aryan"
@@ -3330,7 +3330,7 @@
     "title": "Quantum Reinforcement Learning with Transformers for the Capacitated Vehicle Routing Problem",
     "summary": "This paper addresses the Capacitated Vehicle Routing Problem (CVRP) by comparing classical and quantum Reinforcement Learning (RL) approaches. An Advantage Actor-Critic (A2C) agent is implemented in classical, full quantum, and hybrid variants, integrating transformer architectures to capture the relationships between vehicles, clients, and the depot through self- and cross-attention mechanisms. The experiments focus on multi-vehicle scenarios with capacity constraints, considering 20 clients and 4 vehicles, and are conducted over ten independent runs. Performance is assessed using routing distance, route compactness, and route overlap. The results show that all three approaches are capable of learning effective routing policies. However, quantum-enhanced models outperform the classical baseline and produce more robust route organization, with the hybrid architecture achieving the best overall performance across distance, compactness, and route overlap. In addition to quantitative improvements, qualitative visualizations reveal that quantum-based models generate more structured and coherent routing solutions. These findings highlight the potential of hybrid quantum-classical reinforcement learning models for addressing complex combinatorial optimization problems such as the CVRP.",
     "authors": [
-      "Eva Andr\u00e9s"
+      "Eva Andrés"
     ],
     "categories": [
       "cs.AI",
@@ -3617,7 +3617,7 @@
     "authors": [
       "Shadi Attarha",
       "Kanaga Shanmugi",
-      "Anna F\u00f6rster"
+      "Anna Förster"
     ],
     "categories": [
       "cs.CV",
@@ -3745,21 +3745,21 @@
       "Miguel Moura Ramos",
       "Duarte M. Alves",
       "Hippolyte Gisserot-Boukhlef",
-      "Jo\u00e3o Alves",
+      "João Alves",
       "Pedro Henrique Martins",
       "Patrick Fernandes",
-      "Jos\u00e9 Pombal",
+      "José Pombal",
       "Nuno M. Guerreiro",
       "Ricardo Rei",
       "Nicolas Boizard",
       "Amin Farajian",
       "Mateusz Klimaszewski",
-      "Jos\u00e9 G. C. de Souza",
+      "José G. C. de Souza",
       "Barry Haddow",
-      "Fran\u00e7ois Yvon",
+      "François Yvon",
       "Pierre Colombo",
       "Alexandra Birch",
-      "Andr\u00e9 F. T. Martins"
+      "André F. T. Martins"
     ],
     "categories": [
       "cs.CL",
@@ -3797,7 +3797,7 @@
   {
     "arxiv_id": "2602.05779v1",
     "title": "How Controlling the Variance can Improve Training Stability of Sparsely Activated DNNs and CNNs",
-    "summary": "The intermediate layers of deep networks can be characterised as a Gaussian process, in particular the Edge-of-Chaos (EoC) initialisation strategy prescribes the limiting covariance matrix of the Gaussian process. Here we show that the under-utilised chosen variance of the Gaussian process is important in the training of deep networks with sparsity inducing activation, such as a shifted and clipped ReLU, $\\text{CReLU}_{\u03c4,m}(x)=\\min(\\max(x-\u03c4,0),m)$. Specifically, initialisations leading to larger fixed Gaussian process variances, allow for improved expressivity with activation sparsity as large as 90% in DNNs and CNNs, and generally improve the stability of the training process. Enabling full, or near full, accuracy at such high levels of sparsity in the hidden layers suggests a promising mechanism to reduce the energy consumption of machine learning models involving fully connected layers.",
+    "summary": "The intermediate layers of deep networks can be characterised as a Gaussian process, in particular the Edge-of-Chaos (EoC) initialisation strategy prescribes the limiting covariance matrix of the Gaussian process. Here we show that the under-utilised chosen variance of the Gaussian process is important in the training of deep networks with sparsity inducing activation, such as a shifted and clipped ReLU, $\\text{CReLU}_{τ,m}(x)=\\min(\\max(x-τ,0),m)$. Specifically, initialisations leading to larger fixed Gaussian process variances, allow for improved expressivity with activation sparsity as large as 90% in DNNs and CNNs, and generally improve the stability of the training process. Enabling full, or near full, accuracy at such high levels of sparsity in the hidden layers suggests a promising mechanism to reduce the energy consumption of machine learning models involving fully connected layers.",
     "authors": [
       "Emily Dent",
       "Jared Tanner"
@@ -3819,8 +3819,8 @@
     "summary": "LLM-based assistants have been widely popularised after the release of ChatGPT. Concerns have been raised about their misuse in academia, given the difficulty of distinguishing between human-written and generated text. To combat this, automated techniques have been developed and shown to be effective, to some extent. However, prior work suggests that these methods often falsely flag essays from non-native speakers as generated, due to their low perplexity extracted from an LLM, which is supposedly a key feature of the detectors. We revisit these statements two years later, specifically in the Czech language setting. We show that the perplexity of texts from non-native speakers of Czech is not lower than that of native speakers. We further examine detectors from three separate families and find no systematic bias against non-native speakers. Finally, we demonstrate that contemporary detectors operate effectively without relying on perplexity.",
     "authors": [
       "Adnan Al Ali",
-      "Jind\u0159ich Helcl",
-      "Jind\u0159ich Libovick\u00fd"
+      "Jindřich Helcl",
+      "Jindřich Libovický"
     ],
     "categories": [
       "cs.CL"
@@ -3906,7 +3906,7 @@
     "title": "Broken neural scaling laws in materials science",
     "summary": "In materials science, data are scarce and expensive to generate, whether computationally or experimentally. Therefore, it is crucial to identify how model performance scales with dataset size and model capacity to distinguish between data- and model-limited regimes. Neural scaling laws provide a framework for quantifying this behavior and guide the design of materials datasets and machine learning architectures. Here, we investigate neural scaling laws for a paradigmatic materials science task: predicting the dielectric function of metals, a high-dimensional response that governs how solids interact with light. Using over 200,000 dielectric functions from high-throughput ab initio calculations, we study two multi-objective graph neural networks trained to predict the frequency-dependent complex interband dielectric function and the Drude frequency. We observe broken neural scaling laws with respect to dataset size, whereas scaling with the number of model parameters follows a simple power law that rapidly saturates.",
     "authors": [
-      "Max Gro\u00dfmann",
+      "Max Großmann",
       "Malte Grunert",
       "Erich Runge"
     ],
@@ -4035,7 +4035,7 @@
     "title": "Self-Supervised Learning with a Multi-Task Latent Space Objective",
     "summary": "Self-supervised learning (SSL) methods based on Siamese networks learn visual representations by aligning different views of the same image. The multi-crop strategy, which incorporates small local crops to global ones, enhances many SSL frameworks but causes instability in predictor-based architectures such as BYOL, SimSiam, and MoCo v3. We trace this failure to the shared predictor used across all views and demonstrate that assigning a separate predictor to each view type stabilizes multi-crop training, resulting in significant performance gains. Extending this idea, we treat each spatial transformation as a distinct alignment task and add cutout views, where part of the image is masked before encoding. This yields a simple multi-task formulation of asymmetric Siamese SSL that combines global, local, and masked views into a single framework. The approach is stable, generally applicable across backbones, and consistently improves the performance of ResNet and ViT models on ImageNet.",
     "authors": [
-      "Pierre-Fran\u00e7ois De Plaen",
+      "Pierre-François De Plaen",
       "Abhishek Jha",
       "Luc Van Gool",
       "Tinne Tuytelaars",
@@ -4100,7 +4100,7 @@
     "title": "Geographically-aware Transformer-based Traffic Forecasting for Urban Motorway Digital Twins",
     "summary": "The operational effectiveness of digital-twin technology in motorway traffic management depends on the availability of a continuous flow of high-resolution real-time traffic data. To function as a proactive decision-making support layer within traffic management, a digital twin must also incorporate predicted traffic conditions in addition to real-time observations. Due to the spatio-temporal complexity and the time-variant, non-linear nature of traffic dynamics, predicting motorway traffic remains a difficult problem. Sequence-based deep-learning models offer clear advantages over classical machine learning and statistical models in capturing long-range, temporal dependencies in time-series traffic data, yet limitations in forecasting accuracy and model complexity point to the need for further improvements. To improve motorway traffic forecasting, this paper introduces a Geographically-aware Transformer-based Traffic Forecasting GATTF model, which exploits the geographical relationships between distributed sensors using their mutual information (MI). The model has been evaluated using real-time data from the Geneva motorway network in Switzerland and results confirm that incorporating geographical awareness through MI enhances the accuracy of GATTF forecasting compared to a standard Transformer, without increasing model complexity.",
     "authors": [
-      "Kre\u0161imir Ku\u0161i\u0107",
+      "Krešimir Kušić",
       "Vinny Cahill",
       "Ivana Dusparic"
     ],
@@ -4117,7 +4117,7 @@
   {
     "arxiv_id": "2602.05910v1",
     "title": "Chunky Post-Training: Data Driven Failures of Generalization",
-    "summary": "LLM post-training involves many diverse datasets, each targeting a specific behavior. But these datasets encode incidental patterns alongside intended ones: correlations between formatting and content, narrow phrasings across diverse problems, and implicit associations arising from the discrete data curation process. These patterns are often invisible to developers yet salient to models, producing behaviors that surprise their creators, such as rejecting true facts presented in a particular question format. We call this chunky post-training: the model learns spurious correlations as a result of distinct chunks of post-training data. We introduce SURF, a black-box pipeline which surfaces these unintended behaviors at run time, and TURF, a tool that traces these failures back to specific post-training data. Applying these tools to frontier models (Claude 4.5, GPT-5.1, Grok 4.1, Gemini 3) and open models (T\u00fclu 3), we show that chunky post-training produces miscalibrated behaviors, which often result from imbalanced or underspecified chunks of post-training data.",
+    "summary": "LLM post-training involves many diverse datasets, each targeting a specific behavior. But these datasets encode incidental patterns alongside intended ones: correlations between formatting and content, narrow phrasings across diverse problems, and implicit associations arising from the discrete data curation process. These patterns are often invisible to developers yet salient to models, producing behaviors that surprise their creators, such as rejecting true facts presented in a particular question format. We call this chunky post-training: the model learns spurious correlations as a result of distinct chunks of post-training data. We introduce SURF, a black-box pipeline which surfaces these unintended behaviors at run time, and TURF, a tool that traces these failures back to specific post-training data. Applying these tools to frontier models (Claude 4.5, GPT-5.1, Grok 4.1, Gemini 3) and open models (Tülu 3), we show that chunky post-training produces miscalibrated behaviors, which often result from imbalanced or underspecified chunks of post-training data.",
     "authors": [
       "Seoirse Murray",
       "Allison Qi",
@@ -4139,11 +4139,11 @@
   {
     "arxiv_id": "2602.05898v1",
     "title": "Universal approximation with signatures of non-geometric rough paths",
-    "summary": "We establish a universal approximation theorem for signatures of rough paths that are not necessarily weakly geometric. By extending the path with time and its rough path bracket terms, we prove that linear functionals of the signature of the resulting rough paths approximate continuous functionals on rough path spaces uniformly on compact sets. Moreover, we construct the signature of a path extended by its pathwise quadratic variation terms based on general pathwise stochastic integration \u00e0 la F\u00f6llmer, in particular, allowing for pathwise It\u00f4, Stratonovich, and backward It\u00f4 integration. In a probabilistic setting, we obtain a universal approximation result for linear functionals of the signature of continuous semimartingales extended by the quadratic variation terms, defined via stochastic It\u00f4 integration. Numerical examples illustrate the use of signatures when the path is extended by time and quadratic variation in the context of model calibration and option pricing in mathematical finance.",
+    "summary": "We establish a universal approximation theorem for signatures of rough paths that are not necessarily weakly geometric. By extending the path with time and its rough path bracket terms, we prove that linear functionals of the signature of the resulting rough paths approximate continuous functionals on rough path spaces uniformly on compact sets. Moreover, we construct the signature of a path extended by its pathwise quadratic variation terms based on general pathwise stochastic integration à la Föllmer, in particular, allowing for pathwise Itô, Stratonovich, and backward Itô integration. In a probabilistic setting, we obtain a universal approximation result for linear functionals of the signature of continuous semimartingales extended by the quadratic variation terms, defined via stochastic Itô integration. Numerical examples illustrate the use of signatures when the path is extended by time and quadratic variation in the context of model calibration and option pricing in mathematical finance.",
     "authors": [
       "Mihriban Ceylan",
       "Anna P. Kwossek",
-      "David J. Pr\u00f6mel"
+      "David J. Prömel"
     ],
     "categories": [
       "math.PR",
@@ -4273,7 +4273,7 @@
   {
     "arxiv_id": "2602.05600v1",
     "title": "On the Superlinear Relationship between SGD Noise Covariance and Loss Landscape Curvature",
-    "summary": "Stochastic Gradient Descent (SGD) introduces anisotropic noise that is correlated with the local curvature of the loss landscape, thereby biasing optimization toward flat minima. Prior work often assumes an equivalence between the Fisher Information Matrix and the Hessian for negative log-likelihood losses, leading to the claim that the SGD noise covariance $\\mathbf{C}$ is proportional to the Hessian $\\mathbf{H}$. We show that this assumption holds only under restrictive conditions that are typically violated in deep neural networks. Using the recently discovered Activity--Weight Duality, we find a more general relationship agnostic to the specific loss formulation, showing that $\\mathbf{C} \\propto \\mathbb{E}_p[\\mathbf{h}_p^2]$, where $\\mathbf{h}_p$ denotes the per-sample Hessian with $\\mathbf{H} = \\mathbb{E}_p[\\mathbf{h}_p]$. As a consequence, $\\mathbf{C}$ and $\\mathbf{H}$ commute approximately rather than coincide exactly, and their diagonal elements follow an approximate power-law relation $C_{ii} \\propto H_{ii}^\u03b3$ with a theoretically bounded exponent $1 \\leq \u03b3\\leq 2$, determined by per-sample Hessian spectra. Experiments across datasets, architectures, and loss functions validate these bounds, providing a unified characterization of the noise-curvature relationship in deep learning.",
+    "summary": "Stochastic Gradient Descent (SGD) introduces anisotropic noise that is correlated with the local curvature of the loss landscape, thereby biasing optimization toward flat minima. Prior work often assumes an equivalence between the Fisher Information Matrix and the Hessian for negative log-likelihood losses, leading to the claim that the SGD noise covariance $\\mathbf{C}$ is proportional to the Hessian $\\mathbf{H}$. We show that this assumption holds only under restrictive conditions that are typically violated in deep neural networks. Using the recently discovered Activity--Weight Duality, we find a more general relationship agnostic to the specific loss formulation, showing that $\\mathbf{C} \\propto \\mathbb{E}_p[\\mathbf{h}_p^2]$, where $\\mathbf{h}_p$ denotes the per-sample Hessian with $\\mathbf{H} = \\mathbb{E}_p[\\mathbf{h}_p]$. As a consequence, $\\mathbf{C}$ and $\\mathbf{H}$ commute approximately rather than coincide exactly, and their diagonal elements follow an approximate power-law relation $C_{ii} \\propto H_{ii}^γ$ with a theoretically bounded exponent $1 \\leq γ\\leq 2$, determined by per-sample Hessian spectra. Experiments across datasets, architectures, and loss functions validate these bounds, providing a unified characterization of the noise-curvature relationship in deep learning.",
     "authors": [
       "Yikuan Zhang",
       "Ning Yang",
@@ -4500,1004 +4500,5 @@
     "date": "2026-02-07",
     "source": "arxiv",
     "research_score": 0.43
-  },
-  {
-    "model_id": "Hien03/my-test-vision-model-27",
-    "author": "unknown",
-    "title": "Hien03/my-test-vision-model-27",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "image-classification",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "image-classification",
-    "library": "",
-    "created_at": "2026-02-07T04:35:34.000Z",
-    "last_modified": "2026-02-07T04:36:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Hien03/my-test-vision-model-27",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "alice6les/my-test-vision-model-27",
-    "author": "unknown",
-    "title": "alice6les/my-test-vision-model-27",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "image-classification",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "image-classification",
-    "library": "",
-    "created_at": "2026-02-07T04:35:34.000Z",
-    "last_modified": "2026-02-07T04:36:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/alice6les/my-test-vision-model-27",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Dan02ni/my-test-vision-model-27",
-    "author": "unknown",
-    "title": "Dan02ni/my-test-vision-model-27",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "image-classification",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "image-classification",
-    "library": "",
-    "created_at": "2026-02-07T04:35:34.000Z",
-    "last_modified": "2026-02-07T04:36:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Dan02ni/my-test-vision-model-27",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ThiHien3/my-test-vision-model-27",
-    "author": "unknown",
-    "title": "ThiHien3/my-test-vision-model-27",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "image-classification",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "image-classification",
-    "library": "",
-    "created_at": "2026-02-07T04:35:35.000Z",
-    "last_modified": "2026-02-07T04:36:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ThiHien3/my-test-vision-model-27",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Hien11li/my-test-vision-model-27",
-    "author": "unknown",
-    "title": "Hien11li/my-test-vision-model-27",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "image-classification",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "image-classification",
-    "library": "",
-    "created_at": "2026-02-07T04:35:35.000Z",
-    "last_modified": "2026-02-07T04:36:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Hien11li/my-test-vision-model-27",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Vduc01/my-test-vision-model-27",
-    "author": "unknown",
-    "title": "Vduc01/my-test-vision-model-27",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "image-classification",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "image-classification",
-    "library": "",
-    "created_at": "2026-02-07T04:35:35.000Z",
-    "last_modified": "2026-02-07T04:36:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Vduc01/my-test-vision-model-27",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Khanh6/my-test-vision-model-27",
-    "author": "unknown",
-    "title": "Khanh6/my-test-vision-model-27",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "image-classification",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "image-classification",
-    "library": "",
-    "created_at": "2026-02-07T04:35:35.000Z",
-    "last_modified": "2026-02-07T04:36:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Khanh6/my-test-vision-model-27",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "HoDuc3/my-test-vision-model-27",
-    "author": "unknown",
-    "title": "HoDuc3/my-test-vision-model-27",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "image-classification",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "image-classification",
-    "library": "",
-    "created_at": "2026-02-07T04:35:35.000Z",
-    "last_modified": "2026-02-07T04:36:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/HoDuc3/my-test-vision-model-27",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Duc77/my-test-vision-model-27",
-    "author": "unknown",
-    "title": "Duc77/my-test-vision-model-27",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "image-classification",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "image-classification",
-    "library": "",
-    "created_at": "2026-02-07T04:35:35.000Z",
-    "last_modified": "2026-02-07T04:36:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Duc77/my-test-vision-model-27",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Vduc4/my-test-vision-model-27",
-    "author": "unknown",
-    "title": "Vduc4/my-test-vision-model-27",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "image-classification",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "image-classification",
-    "library": "",
-    "created_at": "2026-02-07T04:35:35.000Z",
-    "last_modified": "2026-02-07T04:36:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Vduc4/my-test-vision-model-27",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26x-cls-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26x-cls-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-07T03:39:11.000Z",
-    "last_modified": "2026-02-07T04:36:17.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/larryliu0820/yolo26x-cls-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26x-obb-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26x-obb-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-07T04:36:02.000Z",
-    "last_modified": "2026-02-07T04:36:16.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/larryliu0820/yolo26x-obb-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26x-seg-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26x-seg-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-07T04:35:54.000Z",
-    "last_modified": "2026-02-07T04:36:02.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/larryliu0820/yolo26x-seg-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26x-pose-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26x-pose-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-07T04:35:46.000Z",
-    "last_modified": "2026-02-07T04:35:53.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/larryliu0820/yolo26x-pose-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26x-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26x-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-05T09:55:47.000Z",
-    "last_modified": "2026-02-07T04:35:46.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/larryliu0820/yolo26x-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26l-cls-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26l-cls-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-07T03:39:08.000Z",
-    "last_modified": "2026-02-07T04:35:43.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/larryliu0820/yolo26l-cls-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26l-obb-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26l-obb-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-07T04:35:38.000Z",
-    "last_modified": "2026-02-07T04:35:42.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/larryliu0820/yolo26l-obb-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26l-seg-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26l-seg-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-07T04:35:33.000Z",
-    "last_modified": "2026-02-07T04:35:37.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/larryliu0820/yolo26l-seg-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26l-pose-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26l-pose-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-07T04:35:29.000Z",
-    "last_modified": "2026-02-07T04:35:33.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/larryliu0820/yolo26l-pose-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26l-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26l-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-05T09:55:40.000Z",
-    "last_modified": "2026-02-07T04:35:28.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/larryliu0820/yolo26l-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26m-cls-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26m-cls-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-07T03:39:04.000Z",
-    "last_modified": "2026-02-07T04:35:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/larryliu0820/yolo26m-cls-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26m-obb-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26m-obb-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-07T04:35:20.000Z",
-    "last_modified": "2026-02-07T04:35:24.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/larryliu0820/yolo26m-obb-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26m-seg-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26m-seg-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-07T04:35:16.000Z",
-    "last_modified": "2026-02-07T04:35:20.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/larryliu0820/yolo26m-seg-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26m-pose-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26m-pose-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-07T04:35:12.000Z",
-    "last_modified": "2026-02-07T04:35:16.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/larryliu0820/yolo26m-pose-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26m-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26m-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-05T09:55:33.000Z",
-    "last_modified": "2026-02-07T04:35:12.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/larryliu0820/yolo26m-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26s-cls-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26s-cls-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-07T03:39:01.000Z",
-    "last_modified": "2026-02-07T04:35:09.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/larryliu0820/yolo26s-cls-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26s-obb-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26s-obb-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-07T04:35:04.000Z",
-    "last_modified": "2026-02-07T04:35:08.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/larryliu0820/yolo26s-obb-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26s-seg-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26s-seg-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-07T04:35:00.000Z",
-    "last_modified": "2026-02-07T04:35:04.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/larryliu0820/yolo26s-seg-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26s-pose-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26s-pose-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-07T04:34:57.000Z",
-    "last_modified": "2026-02-07T04:35:00.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/larryliu0820/yolo26s-pose-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26s-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26s-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-05T09:55:27.000Z",
-    "last_modified": "2026-02-07T04:34:56.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/larryliu0820/yolo26s-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26n-cls-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26n-cls-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-07T03:38:58.000Z",
-    "last_modified": "2026-02-07T04:34:54.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/larryliu0820/yolo26n-cls-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26n-obb-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26n-obb-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-07T04:34:51.000Z",
-    "last_modified": "2026-02-07T04:34:53.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/larryliu0820/yolo26n-obb-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26n-seg-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26n-seg-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-07T04:34:48.000Z",
-    "last_modified": "2026-02-07T04:34:50.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/larryliu0820/yolo26n-seg-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26n-pose-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26n-pose-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-07T04:34:46.000Z",
-    "last_modified": "2026-02-07T04:34:48.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/larryliu0820/yolo26n-pose-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "larryliu0820/yolo26n-ExecuTorch-XNNPACK",
-    "author": "unknown",
-    "title": "larryliu0820/yolo26n-ExecuTorch-XNNPACK",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "executorsch",
-      "xnnpack",
-      "yolo26",
-      "yolo",
-      "object-detection",
-      "dynamic-shapes",
-      "edge-ai",
-      "mobile",
-      "cpu",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "executorsch",
-    "created_at": "2026-02-05T09:55:21.000Z",
-    "last_modified": "2026-02-07T04:34:45.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/larryliu0820/yolo26n-ExecuTorch-XNNPACK",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ravalikuchibhotla/wav2vec2-xslr-telugu-asr",
-    "author": "unknown",
-    "title": "ravalikuchibhotla/wav2vec2-xslr-telugu-asr",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "wav2vec2",
-      "automatic-speech-recognition",
-      "generated_from_trainer",
-      "base_model:facebook/wav2vec2-xls-r-300m",
-      "base_model:finetune:facebook/wav2vec2-xls-r-300m",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-02-05T23:36:50.000Z",
-    "last_modified": "2026-02-07T04:32:50.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/ravalikuchibhotla/wav2vec2-xslr-telugu-asr",
-    "date": "2026-02-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
