@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-07T12:14:29.202730",
+  "date": "2026-02-07T16:11:31.164190",
   "patterns": {
     "multimodal_research": [
       {
@@ -707,16 +707,12 @@
         "url": "https://arxiv.org/abs/2602.05998v1"
       },
       {
-        "title": "MuXodious/gpt-oss-20b-absolute-heresy-GGUF",
-        "url": "https://huggingface.co/MuXodious/gpt-oss-20b-absolute-heresy-GGUF"
+        "title": "MuXodious/gpt-oss-20b-RichardErkhov-heresy-GGUF",
+        "url": "https://huggingface.co/MuXodious/gpt-oss-20b-RichardErkhov-heresy-GGUF"
       },
       {
-        "title": "ryo-llm/qwen3-4b-structured-output-lora-202602072059",
-        "url": "https://huggingface.co/ryo-llm/qwen3-4b-structured-output-lora-202602072059"
-      },
-      {
-        "title": "MuXodious/gpt-oss-20b-absolute-heresy",
-        "url": "https://huggingface.co/MuXodious/gpt-oss-20b-absolute-heresy"
+        "title": "yuanaki/qwen3-4b-structured-output-lora-llm2025-trial",
+        "url": "https://huggingface.co/yuanaki/qwen3-4b-structured-output-lora-llm2025-trial"
       }
     ],
     "vision_systems": [
@@ -1681,7 +1677,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "95 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1740,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 410
+    "total_papers": 409
   }
 }
