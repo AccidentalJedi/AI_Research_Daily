@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-07T04:37:29.558266",
+  "date": "2026-02-07T08:11:51.071698",
   "patterns": {
     "multimodal_research": [
       {
@@ -705,6 +705,18 @@
       {
         "title": "VisRefiner: Learning from Visual Differences for Screenshot-to-Code Generation",
         "url": "https://arxiv.org/abs/2602.05998v1"
+      },
+      {
+        "title": "jin-cheon/distilbert-base-uncased-finetuned-clinc",
+        "url": "https://huggingface.co/jin-cheon/distilbert-base-uncased-finetuned-clinc"
+      },
+      {
+        "title": "fieldvalley-llm2025/llm2025_main_merged_dpo02",
+        "url": "https://huggingface.co/fieldvalley-llm2025/llm2025_main_merged_dpo02"
+      },
+      {
+        "title": "makotonlo/LLM2026_DPO_finalv2",
+        "url": "https://huggingface.co/makotonlo/LLM2026_DPO_finalv2"
       }
     ],
     "vision_systems": [
@@ -937,44 +949,8 @@
         "url": "https://arxiv.org/abs/2602.05871v1"
       },
       {
-        "title": "Hien03/my-test-vision-model-27",
-        "url": "https://huggingface.co/Hien03/my-test-vision-model-27"
-      },
-      {
-        "title": "alice6les/my-test-vision-model-27",
-        "url": "https://huggingface.co/alice6les/my-test-vision-model-27"
-      },
-      {
-        "title": "Dan02ni/my-test-vision-model-27",
-        "url": "https://huggingface.co/Dan02ni/my-test-vision-model-27"
-      },
-      {
-        "title": "ThiHien3/my-test-vision-model-27",
-        "url": "https://huggingface.co/ThiHien3/my-test-vision-model-27"
-      },
-      {
-        "title": "Hien11li/my-test-vision-model-27",
-        "url": "https://huggingface.co/Hien11li/my-test-vision-model-27"
-      },
-      {
-        "title": "Vduc01/my-test-vision-model-27",
-        "url": "https://huggingface.co/Vduc01/my-test-vision-model-27"
-      },
-      {
-        "title": "Khanh6/my-test-vision-model-27",
-        "url": "https://huggingface.co/Khanh6/my-test-vision-model-27"
-      },
-      {
-        "title": "HoDuc3/my-test-vision-model-27",
-        "url": "https://huggingface.co/HoDuc3/my-test-vision-model-27"
-      },
-      {
-        "title": "Duc77/my-test-vision-model-27",
-        "url": "https://huggingface.co/Duc77/my-test-vision-model-27"
-      },
-      {
-        "title": "Vduc4/my-test-vision-model-27",
-        "url": "https://huggingface.co/Vduc4/my-test-vision-model-27"
+        "title": "toolevalxm/MedVision-RadNet-BestModel",
+        "url": "https://huggingface.co/toolevalxm/MedVision-RadNet-BestModel"
       }
     ],
     "reasoning": [
@@ -1709,13 +1685,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "92 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "67 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1768,6 +1744,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 417
+    "total_papers": 411
   }
 }
