@@ -1,0 +1,33 @@
+{
+  "date": "2026-02-08T00:45:53.653197",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "makotonlo/LLM2026_DPO_finalv4",
+        "url": "https://huggingface.co/makotonlo/LLM2026_DPO_finalv4"
+      },
+      {
+        "title": "zaburou/llm2025final_v2",
+        "url": "https://huggingface.co/zaburou/llm2025final_v2"
+      },
+      {
+        "title": "yuanaki/qwen3-4b-structured-output-lora-llm2025-trial",
+        "url": "https://huggingface.co/yuanaki/qwen3-4b-structured-output-lora-llm2025-trial"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
+  }
+}
