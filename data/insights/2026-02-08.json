@@ -1,11 +1,45 @@
 {
-  "date": "2026-02-08T04:50:41.813401",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-02-08T08:13:37.293176",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "zhuojing-huang/gpt2-japanese-english-bi-vocab-13",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-japanese-english-bi-vocab-13"
+      },
+      {
+        "title": "dhasmana/Kumaoni-Bhojpuri-Chhattisgarhi-w2v-bert-2.0",
+        "url": "https://huggingface.co/dhasmana/Kumaoni-Bhojpuri-Chhattisgarhi-w2v-bert-2.0"
+      },
+      {
+        "title": "Mountaingorillas/LLM2025_final_lora_260207",
+        "url": "https://huggingface.co/Mountaingorillas/LLM2025_final_lora_260207"
+      },
+      {
+        "title": "toolevalxm/FinanceGPT-TestRepo",
+        "url": "https://huggingface.co/toolevalxm/FinanceGPT-TestRepo"
+      },
+      {
+        "title": "Das-nrhr/llm-advanced-2025-lora-data1-1_v3",
+        "url": "https://huggingface.co/Das-nrhr/llm-advanced-2025-lora-data1-1_v3"
+      },
+      {
+        "title": "acomagu/matsuollm2025-final-1",
+        "url": "https://huggingface.co/acomagu/matsuollm2025-final-1"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "6 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 6
   }
 }
