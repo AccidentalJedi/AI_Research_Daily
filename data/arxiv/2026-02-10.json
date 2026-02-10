@@ -40,12 +40,12 @@
     "title": "Finite-State Controllers for (Hidden-Model) POMDPs using Deep Reinforcement Learning",
     "summary": "Solving partially observable Markov decision processes (POMDPs) requires computing policies under imperfect state information. Despite recent advances, the scalability of existing POMDP solvers remains limited. Moreover, many settings require a policy that is robust across multiple POMDPs, further aggravating the scalability issue. We propose the Lexpop framework for POMDP solving. Lexpop (1) employs deep reinforcement learning to train a neural policy, represented by a recurrent neural network, and (2) constructs a finite-state controller mimicking the neural policy through efficient extraction methods. Crucially, unlike neural policies, such controllers can be formally evaluated, providing performance guarantees. We extend Lexpop to compute robust policies for hidden-model POMDPs (HM-POMDPs), which describe finite sets of POMDPs. We associate every extracted controller with its worst-case POMDP. Using a set of such POMDPs, we iteratively train a robust neural policy and consequently extract a robust controller. Our experiments show that on problems with large state spaces, Lexpop outperforms state-of-the-art solvers for POMDPs as well as HM-POMDPs.",
     "authors": [
-      "David Hud\u00e1k",
+      "David Hudák",
       "Maris F. L. Galesloot",
       "Martin Tappler",
-      "Martin Kure\u010dka",
+      "Martin Kurečka",
       "Nils Jansen",
-      "Milan \u010ce\u0161ka"
+      "Milan Češka"
     ],
     "categories": [
       "cs.AI"
@@ -460,7 +460,7 @@
       "Girish A. Koushik",
       "Shenbin Qian",
       "Diptesh Kanojia",
-      "Constantin Or\u0103san"
+      "Constantin Orăsan"
     ],
     "categories": [
       "cs.CL"
@@ -589,7 +589,7 @@
     "authors": [
       "Roland Bertin-Johannet",
       "Lara Scipio",
-      "Leopold Mayti\u00e9",
+      "Leopold Maytié",
       "Rufin VanRullen"
     ],
     "categories": [
@@ -642,7 +642,7 @@
     "summary": "Audio chaptering, the task of automatically segmenting long-form audio into coherent sections, is increasingly important for navigating podcasts, lectures, and videos. Despite its relevance, research remains limited and text-based, leaving key questions unresolved about leveraging audio information, handling ASR errors, and transcript-free evaluation. We address these gaps through three contributions: (1) a systematic comparison between text-based models with acoustic features, a novel audio-only architecture (AudioSeg) operating on learned audio representations, and multimodal LLMs; (2) empirical analysis of factors affecting performance, including transcript quality, acoustic features, duration, and speaker composition; and (3) formalized evaluation protocols contrasting transcript-dependent text-space protocols with transcript-invariant time-space protocols. Our experiments on YTSeg reveal that AudioSeg substantially outperforms text-based approaches, pauses provide the largest acoustic gains, and MLLMs remain limited by context length and weak instruction following, yet MLLMs are promising on shorter audio.",
     "authors": [
       "Fabian Retkowski",
-      "Maike Z\u00fcfle",
+      "Maike Züfle",
       "Thai Binh Nguyen",
       "Jan Niehues",
       "Alexander Waibel"
@@ -846,7 +846,7 @@
     "summary": "Symbolic regression (SR) aims to discover interpretable analytical expressions that accurately describe observed data. Amortized SR promises to be much more efficient than the predominant genetic programming SR methods, but currently struggles to scale to realistic scientific complexity. We find that a key obstacle is the lack of a fast reduction of equivalent expressions to a concise normalized form. Amortized SR has addressed this by general-purpose Computer Algebra Systems (CAS) like SymPy, but the high computational cost severely limits training and inference speed. We propose SimpliPy, a rule-based simplification engine achieving a 100-fold speed-up over SymPy at comparable quality. This enables substantial improvements in amortized SR, including scalability to much larger training sets, more efficient use of the per-expression token budget, and systematic training set decontamination with respect to equivalent test expressions. We demonstrate these advantages in our Flash-ANSR framework, which achieves much better accuracy than amortized baselines (NeSymReS, E2E) on the FastSRB benchmark. Moreover, it performs on par with state-of-the-art direct optimization (PySR) while recovering more concise instead of more complex expressions with increasing inference budget.",
     "authors": [
       "Paul Saegert",
-      "Ullrich K\u00f6the"
+      "Ullrich Köthe"
     ],
     "categories": [
       "cs.LG",
@@ -1085,7 +1085,7 @@
       "John Gardiner",
       "Orlando Romero",
       "Brendan Tivnan",
-      "Nicol\u00f2 Dal Fabbro",
+      "Nicolò Dal Fabbro",
       "George J. Pappas"
     ],
     "categories": [
@@ -1390,8 +1390,8 @@
     "title": "Exploring SAIG Methods for an Objective Evaluation of XAI",
     "summary": "The evaluation of eXplainable Artificial Intelligence (XAI) methods is a rapidly growing field, characterized by a wide variety of approaches. This diversity highlights the complexity of the XAI evaluation, which, unlike traditional AI assessment, lacks a universally correct ground truth for the explanation, making objective evaluation challenging. One promising direction to address this issue involves the use of what we term Synthetic Artificial Intelligence Ground truth (SAIG) methods, which generate artificial ground truths to enable the direct evaluation of XAI techniques. This paper presents the first review and analysis of SAIG methods. We introduce a novel taxonomy to classify these approaches, identifying seven key features that distinguish different SAIG methods. Our comparative study reveals a concerning lack of consensus on the most effective XAI evaluation techniques, underscoring the need for further research and standardization in this area.",
     "authors": [
-      "Miquel Mir\u00f3-Nicolau",
-      "Gabriel Moy\u00e0-Alcover",
+      "Miquel Miró-Nicolau",
+      "Gabriel Moyà-Alcover",
       "Anna Arias-Duart"
     ],
     "categories": [
@@ -1611,7 +1611,7 @@
       "T. Demarco",
       "K. Kalimeri",
       "Y. Mejova",
-      "M. G. Beir\u00f3"
+      "M. G. Beiró"
     ],
     "categories": [
       "cs.CL",
@@ -1713,7 +1713,7 @@
     "summary": "Ordinary differential equations (ODEs) are central to scientific modelling, but inferring their vector fields from noisy trajectories remains challenging. Current approaches such as symbolic regression, Gaussian process (GP) regression, and Neural ODEs often require complex training pipelines and substantial machine learning expertise, or they depend strongly on system-specific prior knowledge. We propose FIM-ODE, a pretrained Foundation Inference Model that amortises low-dimensional ODE inference by predicting the vector field directly from noisy trajectory data in a single forward pass. We pretrain FIM-ODE on a prior distribution over ODEs with low-degree polynomial vector fields and represent the target field with neural operators. FIM-ODE achieves strong zero-shot performance, matching and often improving upon ODEFormer, a recent pretrained symbolic baseline, across a range of regimes despite using a simpler pretraining prior distribution. Pretraining also provides a strong initialisation for finetuning, enabling fast and stable adaptation that outperforms modern neural and GP baselines without requiring machine learning expertise.",
     "authors": [
       "Maximilian Mauel",
-      "Johannes R. H\u00fcbers",
+      "Johannes R. Hübers",
       "David Berghaus",
       "Patrick Seifner",
       "Ramses J. Sanchez"
@@ -1874,8 +1874,8 @@
   },
   {
     "arxiv_id": "2602.09021v1",
-    "title": "$\u03c7_{0}$: Resource-Aware Robust Manipulation via Taming Distributional Inconsistencies",
-    "summary": "High-reliability long-horizon robotic manipulation has traditionally relied on large-scale data and compute to understand complex real-world dynamics. However, we identify that the primary bottleneck to real-world robustness is not resource scale alone, but the distributional shift among the human demonstration distribution, the inductive bias learned by the policy, and the test-time execution distribution -- a systematic inconsistency that causes compounding errors in multi-stage tasks. To mitigate these inconsistencies, we propose $\u03c7_{0}$, a resource-efficient framework with effective modules designated to achieve production-level robustness in robotic manipulation. Our approach builds off three technical pillars: (i) Model Arithmetic, a weight-space merging strategy that efficiently soaks up diverse distributions of different demonstrations, varying from object appearance to state variations; (ii) Stage Advantage, a stage-aware advantage estimator that provides stable, dense progress signals, overcoming the numerical instability of prior non-stage approaches; and (iii) Train-Deploy Alignment, which bridges the distribution gap via spatio-temporal augmentation, heuristic DAgger corrections, and temporal chunk-wise smoothing. $\u03c7_{0}$ enables two sets of dual-arm robots to collaboratively orchestrate long-horizon garment manipulation, spanning tasks from flattening, folding, to hanging different clothes. Our method exhibits high-reliability autonomy; we are able to run the system from arbitrary initial state for consecutive 24 hours non-stop. Experiments validate that $\u03c7_{0}$ surpasses the state-of-the-art $\u03c0_{0.5}$ in success rate by nearly 250%, with only 20-hour data and 8 A100 GPUs. Code, data and models will be released to facilitate the community.",
+    "title": "$χ_{0}$: Resource-Aware Robust Manipulation via Taming Distributional Inconsistencies",
+    "summary": "High-reliability long-horizon robotic manipulation has traditionally relied on large-scale data and compute to understand complex real-world dynamics. However, we identify that the primary bottleneck to real-world robustness is not resource scale alone, but the distributional shift among the human demonstration distribution, the inductive bias learned by the policy, and the test-time execution distribution -- a systematic inconsistency that causes compounding errors in multi-stage tasks. To mitigate these inconsistencies, we propose $χ_{0}$, a resource-efficient framework with effective modules designated to achieve production-level robustness in robotic manipulation. Our approach builds off three technical pillars: (i) Model Arithmetic, a weight-space merging strategy that efficiently soaks up diverse distributions of different demonstrations, varying from object appearance to state variations; (ii) Stage Advantage, a stage-aware advantage estimator that provides stable, dense progress signals, overcoming the numerical instability of prior non-stage approaches; and (iii) Train-Deploy Alignment, which bridges the distribution gap via spatio-temporal augmentation, heuristic DAgger corrections, and temporal chunk-wise smoothing. $χ_{0}$ enables two sets of dual-arm robots to collaboratively orchestrate long-horizon garment manipulation, spanning tasks from flattening, folding, to hanging different clothes. Our method exhibits high-reliability autonomy; we are able to run the system from arbitrary initial state for consecutive 24 hours non-stop. Experiments validate that $χ_{0}$ surpasses the state-of-the-art $π_{0.5}$ in success rate by nearly 250%, with only 20-hour data and 8 A100 GPUs. Code, data and models will be released to facilitate the community.",
     "authors": [
       "Checheng Yu",
       "Chonghao Sima",
@@ -2235,8 +2235,8 @@
   },
   {
     "arxiv_id": "2602.08933v1",
-    "title": "Provably robust learning of regression neural networks using $\u03b2$-divergences",
-    "summary": "Regression neural networks (NNs) are most commonly trained by minimizing the mean squared prediction error, which is highly sensitive to outliers and data contamination. Existing robust training methods for regression NNs are often limited in scope and rely primarily on empirical validation, with only a few offering partial theoretical guarantees. In this paper, we propose a new robust learning framework for regression NNs based on the $\u03b2$-divergence (also known as the density power divergence) which we call `rRNet'. It applies to a broad class of regression NNs, including models with non-smooth activation functions and error densities, and recovers the classical maximum likelihood learning as a special case. The rRNet is implemented via an alternating optimization scheme, for which we establish convergence guarantees to stationary points under mild, verifiable conditions. The (local) robustness of rRNet is theoretically characterized through the influence functions of both the parameter estimates and the resulting rRNet predictor, which are shown to be bounded for suitable choices of the tuning parameter $\u03b2$, depending on the error density. We further prove that rRNet attains the optimal 50\\% asymptotic breakdown point at the assumed model for all $\u03b2\\in(0, 1]$, providing a strong global robustness guarantee that is largely absent for existing NN learning methods. Our theoretical results are complemented by simulation experiments and real-data analyses, illustrating practical advantages of rRNet over existing approaches in both function approximation problems and prediction tasks with noisy observations.",
+    "title": "Provably robust learning of regression neural networks using $β$-divergences",
+    "summary": "Regression neural networks (NNs) are most commonly trained by minimizing the mean squared prediction error, which is highly sensitive to outliers and data contamination. Existing robust training methods for regression NNs are often limited in scope and rely primarily on empirical validation, with only a few offering partial theoretical guarantees. In this paper, we propose a new robust learning framework for regression NNs based on the $β$-divergence (also known as the density power divergence) which we call `rRNet'. It applies to a broad class of regression NNs, including models with non-smooth activation functions and error densities, and recovers the classical maximum likelihood learning as a special case. The rRNet is implemented via an alternating optimization scheme, for which we establish convergence guarantees to stationary points under mild, verifiable conditions. The (local) robustness of rRNet is theoretically characterized through the influence functions of both the parameter estimates and the resulting rRNet predictor, which are shown to be bounded for suitable choices of the tuning parameter $β$, depending on the error density. We further prove that rRNet attains the optimal 50\\% asymptotic breakdown point at the assumed model for all $β\\in(0, 1]$, providing a strong global robustness guarantee that is largely absent for existing NN learning methods. Our theoretical results are complemented by simulation experiments and real-data analyses, illustrating practical advantages of rRNet over existing approaches in both function approximation problems and prediction tasks with noisy observations.",
     "authors": [
       "Abhik Ghosh",
       "Suryasis Jana"
@@ -2277,7 +2277,7 @@
     "title": "Learning the Value Systems of Societies with Preference-based Multi-objective Reinforcement Learning",
     "summary": "Value-aware AI should recognise human values and adapt to the value systems (value-based preferences) of different users. This requires operationalization of values, which can be prone to misspecification. The social nature of values demands their representation to adhere to multiple users while value systems are diverse, yet exhibit patterns among groups. In sequential decision making, efforts have been made towards personalization for different goals or values from demonstrations of diverse agents. However, these approaches demand manually designed features or lack value-based interpretability and/or adaptability to diverse user preferences.   We propose algorithms for learning models of value alignment and value systems for a society of agents in Markov Decision Processes (MDPs), based on clustering and preference-based multi-objective reinforcement learning (PbMORL). We jointly learn socially-derived value alignment models (groundings) and a set of value systems that concisely represent different groups of users (clusters) in a society. Each cluster consists of a value system representing the value-based preferences of its members and an approximately Pareto-optimal policy that reflects behaviours aligned with this value system. We evaluate our method against a state-of-the-art PbMORL algorithm and baselines on two MDPs with human values.",
     "authors": [
-      "Andr\u00e9s Holgado-S\u00e1nchez",
+      "Andrés Holgado-Sánchez",
       "Peter Vamplew",
       "Richard Dazeley",
       "Sascha Ossowski",
@@ -2365,7 +2365,7 @@
     "summary": "This paper investigates the impact of hybridizing a multi-modal Genetic Algorithm with a Graph Neural Network for timetabling optimization. The Graph Neural Network is designed to encapsulate general domain knowledge to improve schedule quality, while the Genetic Algorithm explores different regions of the search space and integrates the deep learning model as an enhancement operator to guide the solution search towards optimality. Initially, both components of the hybrid technique were designed, developed, and optimized independently to solve the tackled task. Multiple experiments were conducted on Staff Rostering, a well-known timetabling problem, to compare the proposed hybridization with the standalone optimized versions of the Genetic Algorithm and Graph Neural Network. The experimental results demonstrate that the proposed hybridization brings statistically significant improvements in both the time efficiency and solution quality metrics, compared to the standalone methods. To the best of our knowledge, this work proposes the first hybridization of a Genetic Algorithm with a Graph Neural Network for solving timetabling problems.",
     "authors": [
       "Laura-Maria Cornei",
-      "Mihaela-Elena Breab\u0103n"
+      "Mihaela-Elena Breabăn"
     ],
     "categories": [
       "cs.NE",
@@ -2556,8 +2556,8 @@
     "title": "GEMSS: A Variational Bayesian Method for Discovering Multiple Sparse Solutions in Classification and Regression Problems",
     "summary": "Selecting interpretable feature sets in underdetermined ($n \\ll p$) and highly correlated regimes constitutes a fundamental challenge in data science, particularly when analyzing physical measurements. In such settings, multiple distinct sparse subsets may explain the response equally well. Identifying these alternatives is crucial for generating domain-specific insights into the underlying mechanisms, yet conventional methods typically isolate a single solution, obscuring the full spectrum of plausible explanations.   We present GEMSS (Gaussian Ensemble for Multiple Sparse Solutions), a variational Bayesian framework specifically designed to simultaneously discover multiple, diverse sparse feature combinations. The method employs a structured spike-and-slab prior for sparsity, a mixture of Gaussians to approximate the intractable multimodal posterior, and a Jaccard-based penalty to further control solution diversity. Unlike sequential greedy approaches, GEMSS optimizes the entire ensemble of solutions within a single objective function via stochastic gradient descent.   The method is validated on a comprehensive benchmark comprising 128 synthetic experiments across classification and regression tasks. Results demonstrate that GEMSS scales effectively to high-dimensional settings ($p=5000$) with sample size as small as $n = 50$, generalizes seamlessly to continuous targets, handles missing data natively, and exhibits remarkable robustness to class imbalance and Gaussian noise.   GEMSS is available as a Python package 'gemss' at PyPI. The full GitHub repository at https://github.com/kat-er-ina/gemss/ also includes a free, easy-to-use application suitable for non-coders.",
     "authors": [
-      "Kate\u0159ina Henclov\u00e1",
-      "V\u00e1clav \u0160m\u00eddl"
+      "Kateřina Henclová",
+      "Václav Šmídl"
     ],
     "categories": [
       "cs.LG",
@@ -2890,7 +2890,7 @@
     "summary": "Recommender systems often struggle with long-tail distributions and limited item catalog exposure, where a small subset of popular items dominates recommendations. This challenge is especially critical in large-scale online retail settings with extensive and diverse product assortments. This paper introduces an approach to enhance catalog coverage without compromising recommendation quality in the existing digital recommendation pipeline at IKEA Retail. Drawing inspiration from recent advances in negative sampling to address popularity bias, we integrate contrastive learning with carefully selected negative samples. Through offline and online evaluations, we demonstrate that our method improves catalog coverage, ensuring a more diverse set of recommendations yet preserving strong recommendation performance.",
     "authors": [
       "Vasileios Karlis",
-      "Ezgi Y\u0131ld\u0131r\u0131m",
+      "Ezgi Yıldırım",
       "David Vos",
       "Maarten de Rijke"
     ],
@@ -3056,8 +3056,8 @@
     "title": "Default Machine Learning Hyperparameters Do Not Provide Informative Initialization for Bayesian Optimization",
     "summary": "Bayesian Optimization (BO) is a standard tool for hyperparameter tuning thanks to its sample efficiency on expensive black-box functions. While most BO pipelines begin with uniform random initialization, default hyperparameter values shipped with popular ML libraries such as scikit-learn encode implicit expert knowledge and could serve as informative starting points that accelerate convergence. This hypothesis, despite its intuitive appeal, has remained largely unexamined. We formalize the idea by initializing BO with points drawn from truncated Gaussian distributions centered at library defaults and compare the resulting trajectories against a uniform-random baseline. We conduct an extensive empirical evaluation spanning three BO back-ends (BoTorch, Optuna, Scikit-Optimize), three model families (Random Forests, Support Vector Machines, Multilayer Perceptrons), and five benchmark datasets covering classification and regression tasks. Performance is assessed through convergence speed and final predictive quality, and statistical significance is determined via one-sided binomial tests. Across all conditions, default-informed initialization yields no statistically significant advantage over purely random sampling, with p-values ranging from 0.141 to 0.908. A sensitivity analysis on the prior variance confirms that, while tighter concentration around the defaults improves early evaluations, this transient benefit vanishes as optimization progresses, leaving final performance unchanged. Our results provide no evidence that default hyperparameters encode useful directional information for optimization. We therefore recommend that practitioners treat hyperparameter tuning as an integral part of model development and favor principled, data-driven search strategies over heuristic reliance on library defaults.",
     "authors": [
-      "Nicol\u00e1s Villagr\u00e1n Prieto",
-      "Eduardo C. Garrido-Merch\u00e1n"
+      "Nicolás Villagrán Prieto",
+      "Eduardo C. Garrido-Merchán"
     ],
     "categories": [
       "cs.LG",
@@ -3170,7 +3170,7 @@
     "title": "Agent-Supported Foresight for AI Systemic Risks: AI Agents for Breadth, Experts for Judgment",
     "summary": "AI impact assessments often stress near-term risks because human judgment degrades over longer horizons, exemplifying the Collingridge dilemma: foresight is most needed when knowledge is scarcest. To address long-term systemic risks, we introduce a scalable approach that simulates in-silico agents using the strategic foresight method of the Futures Wheel. We applied it to four AI uses spanning Technology Readiness Levels (TRLs): Chatbot Companion (TRL 9, mature), AI Toy (TRL 7, medium), Griefbot (TRL 5, low), and Death App (TRL 2, conceptual). Across 30 agent runs per use, agents produced 86-110 consequences, condensed into 27-47 unique risks. To benchmark the agent outputs against human perspectives, we collected evaluations from 290 domain experts and 7 leaders, and conducted Futures Wheel sessions with 42 experts and 42 laypeople. Agents generated many systemic consequences across runs. Compared with these outputs, experts identified fewer risks, typically less systemic but judged more likely, whereas laypeople surfaced more emotionally salient concerns that were generally less systemic. We propose a hybrid foresight workflow, wherein agents broaden systemic coverage, and humans provide contextual grounding. Our dataset is available at: https://social-dynamics.net/ai-risks/foresight.",
     "authors": [
-      "Leon Fr\u00f6hling",
+      "Leon Fröhling",
       "Alessandro Giaconia",
       "Edyta Paulina Bogucka",
       "Daniele Quercia"
@@ -3335,8 +3335,8 @@
     "summary": "Diffusion models generate samples through an iterative denoising process, guided by a neural network. While training the denoiser on real-world data is computationally demanding, the sampling procedure itself is more flexible. This adaptability serves as a key lever in practice, enabling improvements in both the quality of generated samples and the efficiency of the sampling process. In this work, we introduce an inverse reinforcement learning framework for learning sampling strategies without retraining the denoiser. We formulate the diffusion sampling procedure as a discrete-time finite-horizon Markov Decision Process, where actions correspond to optional modifications of the sampling dynamics. To optimize action scheduling, we avoid defining an explicit reward function. Instead, we directly match the target behavior expected from the sampler using policy gradient techniques. We provide experimental evidence that this approach can improve the quality of samples generated by pretrained diffusion models and automatically tune sampling hyperparameters.",
     "authors": [
       "Constant Bourdrez",
-      "Alexandre V\u00e9rine",
-      "Olivier Capp\u00e9"
+      "Alexandre Vérine",
+      "Olivier Cappé"
     ],
     "categories": [
       "cs.LG"
@@ -3548,7 +3548,7 @@
     "title": "Reasoning aligns language models to human cognition",
     "summary": "Do language models make decisions under uncertainty like humans do, and what role does chain-of-thought (CoT) reasoning play in the underlying decision process? We introduce an active probabilistic reasoning task that cleanly separates sampling (actively acquiring evidence) from inference (integrating evidence toward a decision). Benchmarking humans and a broad set of contemporary large language models against near-optimal reference policies reveals a consistent pattern: extended reasoning is the key determinant of strong performance, driving large gains in inference and producing belief trajectories that become strikingly human-like, while yielding only modest improvements in active sampling. To explain these differences, we fit a mechanistic model that captures systematic deviations from optimal behavior via four interpretable latent variables: memory, strategy, choice bias, and occlusion awareness. This model places humans and models in a shared low-dimensional cognitive space, reproduces behavioral signatures across agents, and shows how chain-of-thought shifts language models toward human-like regimes of evidence accumulation and belief-to-choice mapping, tightening alignment in inference while leaving a persistent gap in information acquisition.",
     "authors": [
-      "Gon\u00e7alo Guiomar",
+      "Gonçalo Guiomar",
       "Elia Torre",
       "Pehuen Moure",
       "Victoria Shavina",
@@ -3569,7 +3569,7 @@
   {
     "arxiv_id": "2602.08998v1",
     "title": "Universal Coefficients and Mayer-Vietoris Sequence for Groupoid Homology",
-    "summary": "We study homology of ample groupoids via the compactly supported Moore complex of the nerve. Let $A$ be a topological abelian group. For $n\\ge 0$ set $C_n(\\mathcal G;A) := C_c(\\mathcal G_n,A)$ and define $\\partial_n^A=\\sum_{i=0}^n(-1)^i(d_i)_*$. This defines $H_n(\\mathcal G;A)$. The theory is functorial for continuous \u00e9tale homomorphisms. It is compatible with standard reductions, including restriction to saturated clopen subsets. In the ample setting it is invariant under Kakutani equivalence. We reprove Matui type long exact sequences and identify the comparison maps at chain level. For discrete $A$ we prove a natural universal coefficient short exact sequence $$0\\to H_n(\\mathcal G)\\otimes_{\\mathbb Z}A\\xrightarrow{\\ \u03b9_n^{\\mathcal G}\\ }H_n(\\mathcal G;A)\\xrightarrow{\\ \u03ba_n^{\\mathcal G}\\ }\\operatorname{Tor}_1^{\\mathbb Z}\\bigl(H_{n-1}(\\mathcal G),A\\bigr)\\to 0.$$ The key input is the chain level isomorphism $C_c(\\mathcal G_n,\\mathbb Z)\\otimes_{\\mathbb Z}A\\cong C_c(\\mathcal G_n,A)$, which reduces the groupoid statement to the classical algebraic UCT for the free complex $C_c(\\mathcal G_\\bullet,\\mathbb Z)$. We also isolate the obstruction for non-discrete coefficients. For a locally compact totally disconnected Hausdorff space $X$ with a basis of compact open sets, the image of $\u03a6_X:C_c(X,\\mathbb Z)\\otimes_{\\mathbb Z}A\\to C_c(X,A)$ is exactly the compactly supported functions with finite image. Thus $\u03a6_X$ is surjective if and only if every $f\\in C_c(X,A)$ has finite image, and for suitable $X$ one can produce compactly supported continuous maps $X\\to A$ with infinite image. Finally, for a clopen saturated cover $\\mathcal G_0=U_1\\cup U_2$ we construct a short exact sequence of Moore complexes and derive a Mayer-Vietoris long exact sequence for $H_\\bullet(\\mathcal G;A)$ for explicit computations.",
+    "summary": "We study homology of ample groupoids via the compactly supported Moore complex of the nerve. Let $A$ be a topological abelian group. For $n\\ge 0$ set $C_n(\\mathcal G;A) := C_c(\\mathcal G_n,A)$ and define $\\partial_n^A=\\sum_{i=0}^n(-1)^i(d_i)_*$. This defines $H_n(\\mathcal G;A)$. The theory is functorial for continuous étale homomorphisms. It is compatible with standard reductions, including restriction to saturated clopen subsets. In the ample setting it is invariant under Kakutani equivalence. We reprove Matui type long exact sequences and identify the comparison maps at chain level. For discrete $A$ we prove a natural universal coefficient short exact sequence $$0\\to H_n(\\mathcal G)\\otimes_{\\mathbb Z}A\\xrightarrow{\\ ι_n^{\\mathcal G}\\ }H_n(\\mathcal G;A)\\xrightarrow{\\ κ_n^{\\mathcal G}\\ }\\operatorname{Tor}_1^{\\mathbb Z}\\bigl(H_{n-1}(\\mathcal G),A\\bigr)\\to 0.$$ The key input is the chain level isomorphism $C_c(\\mathcal G_n,\\mathbb Z)\\otimes_{\\mathbb Z}A\\cong C_c(\\mathcal G_n,A)$, which reduces the groupoid statement to the classical algebraic UCT for the free complex $C_c(\\mathcal G_\\bullet,\\mathbb Z)$. We also isolate the obstruction for non-discrete coefficients. For a locally compact totally disconnected Hausdorff space $X$ with a basis of compact open sets, the image of $Φ_X:C_c(X,\\mathbb Z)\\otimes_{\\mathbb Z}A\\to C_c(X,A)$ is exactly the compactly supported functions with finite image. Thus $Φ_X$ is surjective if and only if every $f\\in C_c(X,A)$ has finite image, and for suitable $X$ one can produce compactly supported continuous maps $X\\to A$ with infinite image. Finally, for a clopen saturated cover $\\mathcal G_0=U_1\\cup U_2$ we construct a short exact sequence of Moore complexes and derive a Mayer-Vietoris long exact sequence for $H_\\bullet(\\mathcal G;A)$ for explicit computations.",
     "authors": [
       "Luciano Melodia"
     ],
@@ -3589,7 +3589,7 @@
   {
     "arxiv_id": "2602.08980v1",
     "title": "When do neural ordinary differential equations generalize on complex networks?",
-    "summary": "Neural ordinary differential equations (neural ODEs) can effectively learn dynamical systems from time series data, but their behavior on graph-structured data remains poorly understood, especially when applied to graphs with different size or structure than encountered during training. We study neural ODEs ($\\mathtt{nODE}$s) with vector fields following the Barab\u00e1si-Barzel form, trained on synthetic data from five common dynamical systems on graphs. Using the $\\mathbb{S}^1$-model to generate graphs with realistic and tunable structure, we find that degree heterogeneity and the type of dynamical system are the primary factors in determining $\\mathtt{nODE}$s' ability to generalize across graph sizes and properties. This extends to $\\mathtt{nODE}$s' ability to capture fixed points and maintain performance amid missing data. Average clustering plays a secondary role in determining $\\mathtt{nODE}$ performance. Our findings highlight $\\mathtt{nODE}$s as a powerful approach to understanding complex systems but underscore challenges emerging from degree heterogeneity and clustering in realistic graphs.",
+    "summary": "Neural ordinary differential equations (neural ODEs) can effectively learn dynamical systems from time series data, but their behavior on graph-structured data remains poorly understood, especially when applied to graphs with different size or structure than encountered during training. We study neural ODEs ($\\mathtt{nODE}$s) with vector fields following the Barabási-Barzel form, trained on synthetic data from five common dynamical systems on graphs. Using the $\\mathbb{S}^1$-model to generate graphs with realistic and tunable structure, we find that degree heterogeneity and the type of dynamical system are the primary factors in determining $\\mathtt{nODE}$s' ability to generalize across graph sizes and properties. This extends to $\\mathtt{nODE}$s' ability to capture fixed points and maintain performance amid missing data. Average clustering plays a secondary role in determining $\\mathtt{nODE}$ performance. Our findings highlight $\\mathtt{nODE}$s as a powerful approach to understanding complex systems but underscore challenges emerging from degree heterogeneity and clustering in realistic graphs.",
     "authors": [
       "Moritz Laber",
       "Tina Eliassi-Rad",
@@ -3740,7 +3740,7 @@
       "Carmine Zaccagnino",
       "Fabio Quattrini",
       "Enis Simsar",
-      "Marta Tintor\u00e9 Gazulla",
+      "Marta Tintoré Gazulla",
       "Rita Cucchiara",
       "Alessio Tonioni",
       "Silvia Cascianelli"
@@ -3892,8 +3892,8 @@
     "authors": [
       "Rasul Dent",
       "Pedro Ortiz Suarez",
-      "Thibault Cl\u00e9rice",
-      "Beno\u00eet Sagot"
+      "Thibault Clérice",
+      "Benoît Sagot"
     ],
     "categories": [
       "cs.CL"
@@ -4027,7 +4027,7 @@
       "Tanja Niedermair",
       "Johannes Raffler",
       "Ralf Huss",
-      "Peter J. Sch\u00fcffler"
+      "Peter J. Schüffler"
     ],
     "categories": [
       "cs.CV"
@@ -4171,7 +4171,7 @@
   {
     "arxiv_id": "2602.08785v1",
     "title": "A Graphop Analysis of Graph Neural Networks on Sparse Graphs: Generalization and Universal Approximation",
-    "summary": "Generalization and approximation capabilities of message passing graph neural networks (MPNNs) are often studied by defining a compact metric on a space of input graphs under which MPNNs are H\u00f6lder continuous. Such analyses are of two varieties: 1) when the metric space includes graphs of unbounded sizes, the theory is only appropriate for dense graphs, and, 2) when studying sparse graphs, the metric space only includes graphs of uniformly bounded size. In this work, we present a unified approach, defining a compact metric on the space of graphs of all sizes, both sparse and dense, under which MPNNs are H\u00f6lder continuous. This leads to more powerful universal approximation theorems and generalization bounds than previous works. The theory is based on, and extends, a recent approach to graph limit theory called graphop analysis.",
+    "summary": "Generalization and approximation capabilities of message passing graph neural networks (MPNNs) are often studied by defining a compact metric on a space of input graphs under which MPNNs are Hölder continuous. Such analyses are of two varieties: 1) when the metric space includes graphs of unbounded sizes, the theory is only appropriate for dense graphs, and, 2) when studying sparse graphs, the metric space only includes graphs of uniformly bounded size. In this work, we present a unified approach, defining a compact metric on the space of graphs of all sizes, both sparse and dense, under which MPNNs are Hölder continuous. This leads to more powerful universal approximation theorems and generalization bounds than previous works. The theory is based on, and extends, a recent approach to graph limit theory called graphop analysis.",
     "authors": [
       "Ofek Amran",
       "Tom Gilat",
@@ -4269,10 +4269,10 @@
   {
     "arxiv_id": "2602.08606v1",
     "title": "Constructive conditional normalizing flows",
-    "summary": "Motivated by applications in conditional sampling, given a probability measure $\u03bc$ and a diffeomorphism $\u03c6$, we consider the problem of simultaneously approximating $\u03c6$ and the pushforward $\u03c6_{\\#}\u03bc$ by means of the flow of a continuity equation whose velocity field is a perceptron neural network with piecewise constant weights. We provide an explicit construction based on a polar-like decomposition of the Lagrange interpolant of $\u03c6$. The latter involves a compressible component, given by the gradient of a particular convex function, which can be realized exactly, and an incompressible component, which -- after approximating via permutations -- can be implemented through shear flows intrinsic to the continuity equation. For more regular maps $\u03c6$ -- such as the Kn\u00f6the-Rosenblatt rearrangement -- we provide an alternative, probabilistic construction inspired by the Maurey empirical method, in which the number of discontinuities in the weights doesn't scale inversely with the ambient dimension.",
+    "summary": "Motivated by applications in conditional sampling, given a probability measure $μ$ and a diffeomorphism $φ$, we consider the problem of simultaneously approximating $φ$ and the pushforward $φ_{\\#}μ$ by means of the flow of a continuity equation whose velocity field is a perceptron neural network with piecewise constant weights. We provide an explicit construction based on a polar-like decomposition of the Lagrange interpolant of $φ$. The latter involves a compressible component, given by the gradient of a particular convex function, which can be realized exactly, and an incompressible component, which -- after approximating via permutations -- can be implemented through shear flows intrinsic to the continuity equation. For more regular maps $φ$ -- such as the Knöthe-Rosenblatt rearrangement -- we provide an alternative, probabilistic construction inspired by the Maurey empirical method, in which the number of discontinuities in the weights doesn't scale inversely with the ambient dimension.",
     "authors": [
       "Borjan Geshkovski",
-      "Dom\u00e8nec Ruiz-Balet"
+      "Domènec Ruiz-Balet"
     ],
     "categories": [
       "math.OC",
@@ -4316,8 +4316,8 @@
     "summary": "Vision Transformers have emerged as powerful, scalable and versatile representation learners. To capture both global and local features, a learnable [CLS] class token is typically prepended to the input sequence of patch tokens. Despite their distinct nature, both token types are processed identically throughout the model. In this work, we investigate the friction between global and local feature learning under different pre-training strategies by analyzing the interactions between class and patch tokens. Our analysis reveals that standard normalization layers introduce an implicit differentiation between these token types. Building on this insight, we propose specialized processing paths that selectively disentangle the computational flow of class and patch tokens, particularly within normalization layers and early query-key-value projections. This targeted specialization leads to significantly improved patch representation quality for dense prediction tasks. Our experiments demonstrate segmentation performance gains of over 2 mIoU points on standard benchmarks, while maintaining strong classification accuracy. The proposed modifications introduce only an 8% increase in parameters, with no additional computational overhead. Through comprehensive ablations, we provide insights into which architectural components benefit most from specialization and how our approach generalizes across model scales and learning frameworks.",
     "authors": [
       "Alexis Marouani",
-      "Oriane Sim\u00e9oni",
-      "Herv\u00e9 J\u00e9gou",
+      "Oriane Siméoni",
+      "Hervé Jégou",
       "Piotr Bojanowski",
       "Huy V. Vo"
     ],
@@ -4397,7 +4397,7 @@
     "summary": "This paper is based on Bylander's results on the computational complexity of propositional STRIPS planning. He showed that when only ground literals are permitted, determining plan existence is PSPACE-complete even if operators are limited to two preconditions and two postconditions. While NP-hardness is settled, it is unknown whether propositional STRIPS with operators that only have one precondition and one effect is NP-complete. We shed light on the question whether this small solution hypothesis for STRIPS$^1_1$ is true, calling a SAT solver for small instances, introducing the literal graph, and mapping it to Petri nets.",
     "authors": [
       "Stefan Edelkamp",
-      "Ji\u0159\u00ed Fink",
+      "Jiří Fink",
       "Petr Gregor",
       "Anders Jonsson",
       "Bernhard Nebel"
@@ -4562,169 +4562,5 @@
     "date": "2026-02-10",
     "source": "arxiv",
     "research_score": 0.44
-  },
-  {
-    "model_id": "esherick/c-5500",
-    "author": "unknown",
-    "title": "esherick/c-5500",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "diffusers",
-      "text-to-image",
-      "lora",
-      "template:diffusion-lora",
-      "base_model:Qwen/Qwen-Image",
-      "base_model:adapter:Qwen/Qwen-Image",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "diffusers",
-    "created_at": "2026-02-10T04:51:28.000Z",
-    "last_modified": "2026-02-10T04:51:28.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/esherick/c-5500",
-    "date": "2026-02-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "DevQuasar/moonshotai.Kimi-Linear-48B-A3B-Instruct-GGUF",
-    "author": "unknown",
-    "title": "DevQuasar/moonshotai.Kimi-Linear-48B-A3B-Instruct-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "text-generation",
-      "base_model:moonshotai/Kimi-Linear-48B-A3B-Instruct",
-      "base_model:finetune:moonshotai/Kimi-Linear-48B-A3B-Instruct",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-02-10T04:50:30.000Z",
-    "last_modified": "2026-02-10T04:50:30.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/DevQuasar/moonshotai.Kimi-Linear-48B-A3B-Instruct-GGUF",
-    "date": "2026-02-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "DarthGrampus/Qwen3-Coder-Next-Base-mlx-6Bit",
-    "author": "unknown",
-    "title": "DarthGrampus/Qwen3-Coder-Next-Base-mlx-6Bit",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3_next",
-      "text-generation",
-      "mlx",
-      "conversational",
-      "base_model:Qwen/Qwen3-Coder-Next-Base",
-      "base_model:quantized:Qwen/Qwen3-Coder-Next-Base",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "6-bit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-02-10T04:42:52.000Z",
-    "last_modified": "2026-02-10T04:49:53.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/DarthGrampus/Qwen3-Coder-Next-Base-mlx-6Bit",
-    "date": "2026-02-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "aconeil/w2v2-lmk_org_para",
-    "author": "unknown",
-    "title": "aconeil/w2v2-lmk_org_para",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "wav2vec2",
-      "automatic-speech-recognition",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-02-10T04:44:17.000Z",
-    "last_modified": "2026-02-10T04:49:07.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/aconeil/w2v2-lmk_org_para",
-    "date": "2026-02-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Payel2709/my_awesome_qa_model",
-    "author": "unknown",
-    "title": "Payel2709/my_awesome_qa_model",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "distilbert",
-      "question-answering",
-      "generated_from_trainer",
-      "base_model:distilbert/distilbert-base-uncased",
-      "base_model:finetune:distilbert/distilbert-base-uncased",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "question-answering",
-    "library": "transformers",
-    "created_at": "2026-02-10T04:41:54.000Z",
-    "last_modified": "2026-02-10T04:47:46.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Payel2709/my_awesome_qa_model",
-    "date": "2026-02-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Veexxd/Titan-750M-T4x2",
-    "author": "unknown",
-    "title": "Veexxd/Titan-750M-T4x2",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-02-10T02:13:39.000Z",
-    "last_modified": "2026-02-10T04:47:39.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Veexxd/Titan-750M-T4x2",
-    "date": "2026-02-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
