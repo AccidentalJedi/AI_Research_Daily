@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-11T16:29:31.863454",
+  "date": "2026-02-11T20:16:42.843264",
   "patterns": {
     "multimodal_research": [
       {
@@ -985,8 +985,8 @@
         "url": "https://arxiv.org/abs/2602.09839v1"
       },
       {
-        "title": "ghcvbn/sentiment-with-genz-slang-words-false-negative",
-        "url": "https://huggingface.co/ghcvbn/sentiment-with-genz-slang-words-false-negative"
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1289,14 +1289,6 @@
       {
         "title": "ARK: A Dual-Axis Multimodal Retrieval Benchmark along Reasoning and Knowledge",
         "url": "https://arxiv.org/abs/2602.09839v1"
-      },
-      {
-        "title": "MihaiPopa-1/LFM2-350M-heretic-safety-defiltered-xhigh-reasoning",
-        "url": "https://huggingface.co/MihaiPopa-1/LFM2-350M-heretic-safety-defiltered-xhigh-reasoning"
-      },
-      {
-        "title": "MihaiPopa-1/LFM2-350M-heretic-safety-defiltered-high-reasoning",
-        "url": "https://huggingface.co/MihaiPopa-1/LFM2-350M-heretic-safety-defiltered-high-reasoning"
       }
     ],
     "benchmarks": [
@@ -1765,7 +1757,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "77 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1800,7 +1792,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 52,
+      "frequency": 50,
       "significance": "high"
     },
     {
@@ -1812,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 426
   }
 }
