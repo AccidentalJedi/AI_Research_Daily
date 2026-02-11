@@ -309,14 +309,14 @@
       "Massimiliano Ciaramita",
       "Erich M. Fischer",
       "Zeke Hausfather",
-      "\u00d6zge Kart Tokmak",
+      "Özge Kart Tokmak",
       "Reto Knutti",
       "Markus Leippold",
       "Joseph Ludescher",
       "Katharine J. Mach",
       "Sofia Palazzo Corner",
       "Kasra Rafiezadeh Shahi",
-      "Johan Rockstr\u00f6m",
+      "Johan Rockström",
       "Joeri Rogelj",
       "Boris Sakschewski"
     ],
@@ -445,10 +445,10 @@
     "title": "Continual Learning for non-stationary regression via Memory-Efficient Replay",
     "summary": "Data streams are rarely static in dynamic environments like Industry 4.0. Instead, they constantly change, making traditional offline models outdated unless they can quickly adjust to the new data. This need can be adequately addressed by continual learning (CL), which allows systems to gradually acquire knowledge without incurring the prohibitive costs of retraining them from scratch. Most research on continual learning focuses on classification problems, while very few studies address regression tasks. We propose the first prototype-based generative replay framework designed for online task-free continual regression. Our approach defines an adaptive output-space discretization model, enabling prototype-based generative replay for continual regression without storing raw data. Evidence obtained from several benchmark datasets shows that our framework reduces forgetting and provides more stable performance than other state-of-the-art solutions.",
     "authors": [
-      "Pablo Garc\u00eda-Santaclara",
-      "Bruno Fern\u00e1ndez-Castro",
-      "RebecaP. D\u00edaz-Redondo",
-      "Mart\u00edn Alonso-Gamarra"
+      "Pablo García-Santaclara",
+      "Bruno Fernández-Castro",
+      "RebecaP. Díaz-Redondo",
+      "Martín Alonso-Gamarra"
     ],
     "categories": [
       "stat.ML",
@@ -722,7 +722,7 @@
     "authors": [
       "Nalin Srun",
       "Parisa Rastin",
-      "Gu\u00e9na\u00ebl Cabanes",
+      "Guénaël Cabanes",
       "Lydia Boudjeloud Assala"
     ],
     "categories": [
@@ -757,7 +757,7 @@
   {
     "arxiv_id": "2602.10104v1",
     "title": "Olaf-World: Orienting Latent Actions for Video World Modeling",
-    "summary": "Scaling action-controllable world models is limited by the scarcity of action labels. While latent action learning promises to extract control interfaces from unlabeled video, learned latents often fail to transfer across contexts: they entangle scene-specific cues and lack a shared coordinate system. This occurs because standard objectives operate only within each clip, providing no mechanism to align action semantics across contexts. Our key insight is that although actions are unobserved, their semantic effects are observable and can serve as a shared reference. We introduce Seq$\u0394$-REPA, a sequence-level control-effect alignment objective that anchors integrated latent action to temporal feature differences from a frozen, self-supervised video encoder. Building on this, we present Olaf-World, a pipeline that pretrains action-conditioned video world models from large-scale passive video. Extensive experiments demonstrate that our method learns a more structured latent action space, leading to stronger zero-shot action transfer and more data-efficient adaptation to new control interfaces than state-of-the-art baselines.",
+    "summary": "Scaling action-controllable world models is limited by the scarcity of action labels. While latent action learning promises to extract control interfaces from unlabeled video, learned latents often fail to transfer across contexts: they entangle scene-specific cues and lack a shared coordinate system. This occurs because standard objectives operate only within each clip, providing no mechanism to align action semantics across contexts. Our key insight is that although actions are unobserved, their semantic effects are observable and can serve as a shared reference. We introduce Seq$Δ$-REPA, a sequence-level control-effect alignment objective that anchors integrated latent action to temporal feature differences from a frozen, self-supervised video encoder. Building on this, we present Olaf-World, a pipeline that pretrains action-conditioned video world models from large-scale passive video. Extensive experiments demonstrate that our method learns a more structured latent action space, leading to stronger zero-shot action transfer and more data-efficient adaptation to new control interfaces than state-of-the-art baselines.",
     "authors": [
       "Yuxin Jiang",
       "Yuchao Gu",
@@ -800,7 +800,7 @@
     "title": "Bladder Vessel Segmentation using a Hybrid Attention-Convolution Framework",
     "summary": "Urinary bladder cancer surveillance requires tracking tumor sites across repeated interventions, yet the deformable and hollow bladder lacks stable landmarks for orientation. While blood vessels visible during endoscopy offer a patient-specific \"vascular fingerprint\" for navigation, automated segmentation is challenged by imperfect endoscopic data, including sparse labels, artifacts like bubbles or variable lighting, continuous deformation, and mucosal folds that mimic vessels. State-of-the-art vessel segmentation methods often fail to address these domain-specific complexities. We introduce a Hybrid Attention-Convolution (HAC) architecture that combines Transformers to capture global vessel topology prior with a CNN that learns a residual refinement map to precisely recover thin-vessel details. To prioritize structural connectivity, the Transformer is trained on optimized ground truth data that exclude short and terminal branches. Furthermore, to address data scarcity, we employ a physics-aware pretraining, that is a self-supervised strategy using clinically grounded augmentations on unlabeled data. Evaluated on the BlaVeS dataset, consisting of endoscopic video frames, our approach achieves high accuracy (0.94) and superior precision (0.61) and clDice (0.66) compared to state-of-the-art medical segmentation models. Crucially, our method successfully suppresses false positives from mucosal folds that dynamically appear and vanish as the bladder fills and empties during surgery. Hence, HAC provides the reliable structural stability required for clinical navigation.",
     "authors": [
-      "Franziska Krau\u00df",
+      "Franziska Krauß",
       "Matthias Ege",
       "Zoltan Lovasz",
       "Albrecht Bartz-Schmidt",
@@ -872,7 +872,7 @@
   {
     "arxiv_id": "2602.09775v1",
     "title": "Where Do Images Come From? Analyzing Captions to Geographically Profile Datasets",
-    "summary": "Recent studies show that text-to-image models often fail to generate geographically representative images, raising concerns about the representativeness of their training data and motivating the question: which parts of the world do these training examples come from? We geographically profile large-scale multimodal datasets by mapping image-caption pairs to countries based on location information extracted from captions using LLMs. Studying English captions from three widely used datasets (Re-LAION, DataComp1B, and Conceptual Captions) across $20$ common entities (e.g., house, flag), we find that the United States, the United Kingdom, and Canada account for $48.0\\%$ of samples, while South American and African countries are severely under-represented with only $1.8\\%$ and $3.8\\%$ of images, respectively. We observe a strong correlation between a country's GDP and its representation in the data ($\u03c1= 0.82$). Examining non-English subsets for $4$ languages from the Re-LAION dataset, we find that representation skews heavily toward countries where these languages are predominantly spoken. Additionally, we find that higher representation does not necessarily translate to greater visual or semantic diversity. Finally, analyzing country-specific images generated by Stable Diffusion v1.3 trained on Re-LAION, we show that while generations appear realistic, they are severely limited in their coverage compared to real-world images.",
+    "summary": "Recent studies show that text-to-image models often fail to generate geographically representative images, raising concerns about the representativeness of their training data and motivating the question: which parts of the world do these training examples come from? We geographically profile large-scale multimodal datasets by mapping image-caption pairs to countries based on location information extracted from captions using LLMs. Studying English captions from three widely used datasets (Re-LAION, DataComp1B, and Conceptual Captions) across $20$ common entities (e.g., house, flag), we find that the United States, the United Kingdom, and Canada account for $48.0\\%$ of samples, while South American and African countries are severely under-represented with only $1.8\\%$ and $3.8\\%$ of images, respectively. We observe a strong correlation between a country's GDP and its representation in the data ($ρ= 0.82$). Examining non-English subsets for $4$ languages from the Re-LAION dataset, we find that representation skews heavily toward countries where these languages are predominantly spoken. Additionally, we find that higher representation does not necessarily translate to greater visual or semantic diversity. Finally, analyzing country-specific images generated by Stable Diffusion v1.3 trained on Re-LAION, we show that while generations appear realistic, they are severely limited in their coverage compared to real-world images.",
     "authors": [
       "Abhipsa Basu",
       "Yugam Bahl",
@@ -1056,7 +1056,7 @@
     "title": "Tracking Finite-Time Lyapunov Exponents to Robustify Neural ODEs",
     "summary": "We investigate finite-time Lyapunov exponents (FTLEs), a measure for exponential separation of input perturbations, of deep neural networks within the framework of continuous-depth neural ODEs. We demonstrate that FTLEs are powerful organizers for input-output dynamics, allowing for better interpretability and the comparison of distinct model architectures. We establish a direct connection between Lyapunov exponents and adversarial vulnerability, and propose a novel training algorithm that improves robustness by FTLE regularization. The key idea is to suppress exponents far from zero in the early stage of the input dynamics. This approach enhances robustness and reduces computational cost compared to full-interval regularization, as it avoids a full ``double'' backpropagation.",
     "authors": [
-      "Tobias W\u00f6hrer",
+      "Tobias Wöhrer",
       "Christian Kuehn"
     ],
     "categories": [
@@ -1187,7 +1187,7 @@
   {
     "arxiv_id": "2602.09533v1",
     "title": "Autoregressive Direct Preference Optimization",
-    "summary": "Direct preference optimization (DPO) has emerged as a promising approach for aligning large language models (LLMs) with human preferences. However, the widespread reliance on the response-level Bradley-Terry (BT) model may limit its full potential, as the reference and learnable models are assumed to be autoregressive only after deriving the objective function. Motivated by this limitation, we revisit the theoretical foundations of DPO and propose a novel formulation that explicitly introduces the autoregressive assumption prior to applying the BT model. By reformulating and extending DPO, we derive a novel variant, termed Autoregressive DPO (ADPO), that explicitly integrates autoregressive modeling into the preference optimization framework. Without violating the theoretical foundations, the derived loss takes an elegant form: it shifts the summation operation in the DPO objective outside the log-sigmoid function. Furthermore, through theoretical analysis of ADPO, we show that there exist two length measures to be considered when designing DPO-based algorithms: the token length $\u03bc$ and the feedback length $\u03bc$'. To the best of our knowledge, we are the first to explicitly distinguish these two measures and analyze their implications for preference optimization in LLMs.",
+    "summary": "Direct preference optimization (DPO) has emerged as a promising approach for aligning large language models (LLMs) with human preferences. However, the widespread reliance on the response-level Bradley-Terry (BT) model may limit its full potential, as the reference and learnable models are assumed to be autoregressive only after deriving the objective function. Motivated by this limitation, we revisit the theoretical foundations of DPO and propose a novel formulation that explicitly introduces the autoregressive assumption prior to applying the BT model. By reformulating and extending DPO, we derive a novel variant, termed Autoregressive DPO (ADPO), that explicitly integrates autoregressive modeling into the preference optimization framework. Without violating the theoretical foundations, the derived loss takes an elegant form: it shifts the summation operation in the DPO objective outside the log-sigmoid function. Furthermore, through theoretical analysis of ADPO, we show that there exist two length measures to be considered when designing DPO-based algorithms: the token length $μ$ and the feedback length $μ$'. To the best of our knowledge, we are the first to explicitly distinguish these two measures and analyze their implications for preference optimization in LLMs.",
     "authors": [
       "Masanari Oi",
       "Mahiro Ukai",
@@ -1404,7 +1404,7 @@
       "Sunil Kumar Maurya",
       "Frederik Mallmann-Trenn",
       "Xin Liu",
-      "Fr\u00e9d\u00e9ric Giroire",
+      "Frédéric Giroire",
       "Tsuyoshi Murata",
       "Emanuele Natale"
     ],
@@ -1608,9 +1608,9 @@
     "authors": [
       "Vajira Thambawita",
       "Jonas L. Isaksen",
-      "J\u00f8rgen K. Kanters",
+      "Jørgen K. Kanters",
       "Hugo L. Hammer",
-      "P\u00e5l Halvorsen"
+      "Pål Halvorsen"
     ],
     "categories": [
       "cs.LG",
@@ -1825,7 +1825,7 @@
     "summary": "Many European languages possess rich biblical translation histories, yet existing corpora - in prioritizing linguistic breadth - often fail to capture this depth. To address this gap, we introduce a multilingual corpus of 657 New Testament translations, of which 352 are unique, with unprecedented depth in five languages: English (208 unique versions from 396 total), French (41 from 78), Italian (18 from 33), Polish (30 from 48), and Spanish (55 from 102). Aggregated from 12 online biblical libraries and one preexisting corpus, each translation is manually annotated with metadata that maps the text to a standardized identifier for the work, its specific edition, and its year of revision. This canonicalization empowers researchers to define \"uniqueness\" for their own needs: they can perform micro-level analyses on translation families, such as the KJV lineage, or conduct macro-level studies by deduplicating closely related texts. By providing the first resource designed for such flexible, multilevel analysis, our corpus establishes a new benchmark for the quantitative study of translation history.",
     "authors": [
       "Maciej Rapacz",
-      "Aleksander Smywi\u0144ski-Pohl"
+      "Aleksander Smywiński-Pohl"
     ],
     "categories": [
       "cs.CL"
@@ -1908,9 +1908,9 @@
     "title": "Biases in the Blind Spot: Detecting What LLMs Fail to Mention",
     "summary": "Large Language Models (LLMs) often provide chain-of-thought (CoT) reasoning traces that appear plausible, but may hide internal biases. We call these *unverbalized biases*. Monitoring models via their stated reasoning is therefore unreliable, and existing bias evaluations typically require predefined categories and hand-crafted datasets. In this work, we introduce a fully automated, black-box pipeline for detecting task-specific unverbalized biases. Given a task dataset, the pipeline uses LLM autoraters to generate candidate bias concepts. It then tests each concept on progressively larger input samples by generating positive and negative variations, and applies statistical techniques for multiple testing and early stopping. A concept is flagged as an unverbalized bias if it yields statistically significant performance differences while not being cited as justification in the model's CoTs. We evaluate our pipeline across six LLMs on three decision tasks (hiring, loan approval, and university admissions). Our technique automatically discovers previously unknown biases in these models (e.g., Spanish fluency, English proficiency, writing formality). In the same run, the pipeline also validates biases that were manually identified by prior work (gender, race, religion, ethnicity). More broadly, our proposed approach provides a practical, scalable path to automatic task-specific bias discovery.",
     "authors": [
-      "Iv\u00e1n Arcuschin",
+      "Iván Arcuschin",
       "David Chanin",
-      "Adri\u00e0 Garriga-Alonso",
+      "Adrià Garriga-Alonso",
       "Oana-Maria Camburu"
     ],
     "categories": [
@@ -2021,7 +2021,7 @@
       "Anna Bodonhelyi",
       "Mengdi Wang",
       "Efe Bozkir",
-      "Babette B\u00fchler",
+      "Babette Bühler",
       "Enkelejda Kasneci"
     ],
     "categories": [
@@ -2169,7 +2169,7 @@
     "title": "WildCat: Near-Linear Attention in Theory and Practice",
     "summary": "We introduce WildCat, a high-accuracy, low-cost approach to compressing the attention mechanism in neural networks. While attention is a staple of modern network architectures, it is also notoriously expensive to deploy due to resource requirements that scale quadratically with the input sequence length $n$. WildCat avoids these quadratic costs by only attending over a small weighted coreset. Crucially, we select the coreset using a fast but spectrally-accurate subsampling algorithm -- randomly pivoted Cholesky -- and weight the elements optimally to minimise reconstruction error. Remarkably, given bounded inputs, WildCat approximates exact attention with super-polynomial $O(n^{-\\sqrt{\\log(\\log(n))}})$ error decay while running in near-linear $O(n^{1+o(1)})$ time. In contrast, prior practical approximations either lack error guarantees or require quadratic runtime to guarantee such high fidelity. We couple this advance with a GPU-optimized PyTorch implementation and a suite of benchmark experiments demonstrating the benefits of WildCat for image generation, image classification, and language model KV cache compression.",
     "authors": [
-      "Tobias Schr\u00f6der",
+      "Tobias Schröder",
       "Lester Mackey"
     ],
     "categories": [
@@ -2393,7 +2393,7 @@
   {
     "arxiv_id": "2602.09805v1",
     "title": "Decomposing Reasoning Efficiency in Large Language Models",
-    "summary": "Large language models trained for reasoning trade off inference tokens against accuracy, yet standard evaluations report only final accuracy, obscuring where tokens are spent or wasted. We introduce a trace-optional framework that decomposes token efficiency into interpretable factors: completion under a fixed token budget (avoiding truncation), conditional correctness given completion, and verbosity (token usage). When benchmark metadata provides per-instance workload proxies, we further factor verbosity into two components: mean verbalization overhead (tokens per work unit) and a coupling coefficient capturing how overhead scales with task workload. When reasoning traces are available, we add deterministic trace-quality measures (grounding, repetition, prompt copying) to separate degenerate looping from verbose-but-engaged reasoning, avoiding human labeling and LLM judges. Evaluating 25 models on CogniLoad, we find that accuracy and token-efficiency rankings diverge (Spearman $\u03c1=0.63$), efficiency gaps are often driven by conditional correctness, and verbalization overhead varies by about 9 times (only weakly related to model scale). Our decomposition reveals distinct bottleneck profiles that suggest different efficiency interventions.",
+    "summary": "Large language models trained for reasoning trade off inference tokens against accuracy, yet standard evaluations report only final accuracy, obscuring where tokens are spent or wasted. We introduce a trace-optional framework that decomposes token efficiency into interpretable factors: completion under a fixed token budget (avoiding truncation), conditional correctness given completion, and verbosity (token usage). When benchmark metadata provides per-instance workload proxies, we further factor verbosity into two components: mean verbalization overhead (tokens per work unit) and a coupling coefficient capturing how overhead scales with task workload. When reasoning traces are available, we add deterministic trace-quality measures (grounding, repetition, prompt copying) to separate degenerate looping from verbose-but-engaged reasoning, avoiding human labeling and LLM judges. Evaluating 25 models on CogniLoad, we find that accuracy and token-efficiency rankings diverge (Spearman $ρ=0.63$), efficiency gaps are often driven by conditional correctness, and verbalization overhead varies by about 9 times (only weakly related to model scale). Our decomposition reveals distinct bottleneck profiles that suggest different efficiency interventions.",
     "authors": [
       "Daniel Kaiser",
       "Arnoldo Frigessi",
@@ -2481,8 +2481,8 @@
   },
   {
     "arxiv_id": "2602.09528v1",
-    "title": "Schr\u00f6Mind: Mitigating Hallucinations in Multimodal Large Language Models via Solving the Schr\u00f6dinger Bridge Problem",
-    "summary": "Recent advancements in Multimodal Large Language Models (MLLMs) have achieved significant success across various domains. However, their use in high-stakes fields like healthcare remains limited due to persistent hallucinations, where generated text contradicts or ignores visual input. We contend that MLLMs can comprehend images but struggle to produce accurate token sequences. Minor perturbations can shift attention from truthful to untruthful states, and the autoregressive nature of text generation often prevents error correction. To address this, we propose Schr\u00f6Mind-a novel framework reducing hallucinations via solving the Schr\u00f6dinger bridge problem. It establishes a token-level mapping between hallucinatory and truthful activations with minimal transport cost through lightweight training, while preserving the model's original capabilities. Extensive experiments on the POPE and MME benchmarks demonstrate the superiority of Schr\u00f6dinger, which achieves state-of-the-art performance while introducing only minimal computational overhead.",
+    "title": "SchröMind: Mitigating Hallucinations in Multimodal Large Language Models via Solving the Schrödinger Bridge Problem",
+    "summary": "Recent advancements in Multimodal Large Language Models (MLLMs) have achieved significant success across various domains. However, their use in high-stakes fields like healthcare remains limited due to persistent hallucinations, where generated text contradicts or ignores visual input. We contend that MLLMs can comprehend images but struggle to produce accurate token sequences. Minor perturbations can shift attention from truthful to untruthful states, and the autoregressive nature of text generation often prevents error correction. To address this, we propose SchröMind-a novel framework reducing hallucinations via solving the Schrödinger bridge problem. It establishes a token-level mapping between hallucinatory and truthful activations with minimal transport cost through lightweight training, while preserving the model's original capabilities. Extensive experiments on the POPE and MME benchmarks demonstrate the superiority of Schrödinger, which achieves state-of-the-art performance while introducing only minimal computational overhead.",
     "authors": [
       "Ziqiang Shi",
       "Rujie Liu",
@@ -2908,7 +2908,7 @@
       "Seydou Diallo",
       "Yacouba Diarra",
       "Mamadou K. Keita",
-      "Panga Azazia Kamat\u00e9",
+      "Panga Azazia Kamaté",
       "Adam Bouno Kampo",
       "Aboubacar Ouattara"
     ],
@@ -3028,17 +3028,17 @@
     "title": "Fully-automated sleep staging: multicenter validation of a generalizable deep neural network for Parkinson's disease and isolated REM sleep behavior disorder",
     "summary": "Isolated REM sleep behavior disorder (iRBD) is a key prodromal marker of Parkinson's disease (PD), and video-polysomnography (vPSG) remains the diagnostic gold standard. However, manual sleep staging is particularly challenging in neurodegenerative diseases due to EEG abnormalities and fragmented sleep, making PSG assessments a bottleneck for deploying new RBD screening technologies at scale. We adapted U-Sleep, a deep neural network, for generalizable sleep staging in PD and iRBD. A pretrained U-Sleep model, based on a large publicly available, multisite non-neurodegenerative dataset (PUB; 19,236 PSGs across 12 sites), was fine-tuned on research datasets from two centers (Lundbeck Foundation Parkinson's Disease Research Center (PACE) and the Cologne-Bonn Cohort (CBC); 112 PD, 138 iRBD, 89 age-matched controls. The resulting model was evaluated on an independent dataset from the Danish Center for Sleep Medicine (DCSM; 81 PD, 36 iRBD, 87 sleep-clinic controls). A subset of PSGs with low agreement between the human rater and the model (\\k{appa} < 0.6) was re-scored by a second blinded human rater to identify sources of disagreement. Finally, we applied confidence-based thresholds to optimize REM sleep staging. The pretrained model achieved mean \\k{appa} = 0.81 in PUB, but \\k{appa} = 0.66 when applied directly to PACE/CBC. By fine-tuning the model, we developed a generalized model with \\k{appa} = 0.74 on PACE/CBC (p < 0.001 vs. the pretrained model). In DCSM, mean and median \\k{appa} increased from 0.60 to 0.64 (p < 0.001) and 0.64 to 0.69 (p < 0.001), respectively. In the interrater study, PSGs with low agreement between the model and the initial scorer showed similarly low agreement between human scorers. Applying a confidence threshold increased the proportion of correctly identified REM sleep epochs from 85% to 95.5%, while preserving sufficient (> 5 min) REM sleep for 95% of subjects.",
     "authors": [
-      "Jesper Str\u00f8m",
-      "Casper Skj\u00e6rb\u00e6k",
+      "Jesper Strøm",
+      "Casper Skjærbæk",
       "Natasha Becker Bertelsen",
       "Steffen Torpe Simonsen",
       "Niels Okkels",
       "David Bertram",
-      "Sinah R\u00f6ttgen",
+      "Sinah Röttgen",
       "Konstantin Kufer",
       "Kaare B. Mikkelsen",
       "Marit Otto",
-      "Poul J\u00f8rgen Jennum",
+      "Poul Jørgen Jennum",
       "Per Borghammer",
       "Michael Sommerauer",
       "Preben Kidmose"
@@ -3191,9 +3191,9 @@
     "title": "Towards Explainable Federated Learning: Understanding the Impact of Differential Privacy",
     "summary": "Data privacy and eXplainable Artificial Intelligence (XAI) are two important aspects for modern Machine Learning systems. To enhance data privacy, recent machine learning models have been designed as a Federated Learning (FL) system. On top of that, additional privacy layers can be added, via Differential Privacy (DP). On the other hand, to improve explainability, ML must consider more interpretable approaches with reduced number of features and less complex internal architecture. In this context, this paper aims to achieve a machine learning (ML) model that combines enhanced data privacy with explainability. So, we propose a FL solution, called Federated EXplainable Trees with Differential Privacy (FEXT-DP), that: (i) is based on Decision Trees, since they are lightweight and have superior explainability than neural networks-based FL systems; (ii) provides additional layer of data privacy protection applying Differential Privacy (DP) to the Tree-Based model. However, there is a side effect adding DP: it harms the explainability of the system. So, this paper also presents the impact of DP protection on the explainability of the ML model. The carried out performance assessment shows improvements of FEXT-DP in terms of a faster training, i.e., numbers of rounds, Mean Squared Error and explainability.",
     "authors": [
-      "J\u00falio Oliveira",
+      "Júlio Oliveira",
       "Rodrigo Ferreira",
-      "Andr\u00e9 Riker",
+      "André Riker",
       "Glaucio H. S. Carvalho",
       "Eirini Eleni Tsilopoulou"
     ],
@@ -3236,11 +3236,11 @@
     "title": "Evaluating Disentangled Representations for Controllable Music Generation",
     "summary": "Recent approaches in music generation rely on disentangled representations, often labeled as structure and timbre or local and global, to enable controllable synthesis. Yet the underlying properties of these embeddings remain underexplored. In this work, we evaluate such disentangled representations in a set of music audio models for controllable generation using a probing-based framework that goes beyond standard downstream tasks. The selected models reflect diverse unsupervised disentanglement strategies, including inductive biases, data augmentations, adversarial objectives, and staged training procedures. We further isolate specific strategies to analyze their effect. Our analysis spans four key axes: informativeness, equivariance, invariance, and disentanglement, which are assessed across datasets, tasks, and controlled transformations. Our findings reveal inconsistencies between intended and actual semantics of the embeddings, suggesting that current strategies fall short of producing truly disentangled representations, and prompting a re-examination of how controllability is approached in music generation.",
     "authors": [
-      "Laura Ib\u00e1\u00f1ez-Mart\u00ednez",
+      "Laura Ibáñez-Martínez",
       "Chukwuemeka Nkama",
       "Andrea Poltronieri",
       "Xavier Serra",
-      "Mart\u00edn Rocamora"
+      "Martín Rocamora"
     ],
     "categories": [
       "cs.SD",
@@ -3398,7 +3398,7 @@
     "title": "Differentiable Tripartite Modularity for Clustering Heterogeneous Graphs",
     "summary": "Clustering heterogeneous relational data remains a central challenge in graph learning, particularly when interactions involve more than two types of entities. While differentiable modularity objectives such as DMoN have enabled end-to-end community detection on homogeneous and bipartite graphs, extending these approaches to higher-order relational structures remains non-trivial.   In this work, we introduce a differentiable formulation of tripartite modularity for graphs composed of three node types connected through mediated interactions. Community structure is defined in terms of weighted co-paths across the tripartite graph, together with an exact factorized computation that avoids the explicit construction of dense third-order tensors. A structural normalization at pivot nodes is introduced to control extreme degree heterogeneity and ensure stable optimization.   The resulting objective can be optimized jointly with a graph neural network in an end-to-end manner, while retaining linear complexity in the number of edges. We validate the proposed framework on large-scale urban cadastral data, where it exhibits robust convergence behavior and produces spatially coherent partitions. These results highlight differentiable tripartite modularity as a generic methodological building block for unsupervised clustering of heterogeneous graphs.",
     "authors": [
-      "Beno\u00eet Hurpeau"
+      "Benoît Hurpeau"
     ],
     "categories": [
       "cs.LG",
@@ -3480,7 +3480,7 @@
   {
     "arxiv_id": "2602.10097v1",
     "title": "Step-resolved data attribution for looped transformers",
-    "summary": "We study how individual training examples shape the internal computation of looped transformers, where a shared block is applied for $\u03c4$ recurrent iterations to enable latent reasoning. Existing training-data influence estimators such as TracIn yield a single scalar score that aggregates over all loop iterations, obscuring when during the recurrent computation a training example matters. We introduce \\textit{Step-Decomposed Influence (SDI)}, which decomposes TracIn into a length-$\u03c4$ influence trajectory by unrolling the recurrent computation graph and attributing influence to specific loop iterations. To make SDI practical at transformer scale, we propose a TensorSketch implementation that never materialises per-example gradients. Experiments on looped GPT-style models and algorithmic reasoning tasks show that SDI scales excellently, matches full-gradient baselines with low error and supports a broad range of data attribution and interpretability tasks with per-step insights into the latent reasoning process.",
+    "summary": "We study how individual training examples shape the internal computation of looped transformers, where a shared block is applied for $τ$ recurrent iterations to enable latent reasoning. Existing training-data influence estimators such as TracIn yield a single scalar score that aggregates over all loop iterations, obscuring when during the recurrent computation a training example matters. We introduce \\textit{Step-Decomposed Influence (SDI)}, which decomposes TracIn into a length-$τ$ influence trajectory by unrolling the recurrent computation graph and attributing influence to specific loop iterations. To make SDI practical at transformer scale, we propose a TensorSketch implementation that never materialises per-example gradients. Experiments on looped GPT-style models and algorithmic reasoning tasks show that SDI scales excellently, matches full-gradient baselines with low error and supports a broad range of data attribution and interpretability tasks with per-step insights into the latent reasoning process.",
     "authors": [
       "Georgios Kaissis",
       "David Mildenberger",
@@ -3702,8 +3702,8 @@
       "Joseph Attieh",
       "Timothee Mickus",
       "Anne-Laure Ligozat",
-      "Aur\u00e9lie N\u00e9v\u00e9ol",
-      "J\u00f6rg Tiedemann"
+      "Aurélie Névéol",
+      "Jörg Tiedemann"
     ],
     "categories": [
       "cs.CL",
@@ -3722,7 +3722,7 @@
     "summary": "Diffusion models do not recover semantic structure uniformly over time. Instead, samples transition from semantic ambiguity to class commitment within a narrow regime. Recent theoretical work attributes this transition to dynamical instabilities along class-separating directions, but practical methods to detect and exploit these windows in trained models are still limited. We show that tracking the class-conditional entropy of a latent semantic variable given the noisy state provides a reliable signature of these transition regimes. By restricting the entropy to semantic partitions, the entropy can furthermore resolve semantic decisions at different levels of abstraction. We analyze this behavior in high-dimensional Gaussian mixture models and show that the entropy rate concentrates on the same logarithmic time scale as the speciation symmetry-breaking instability previously identified in variance-preserving diffusion. We validate our method on EDM2-XS and Stable Diffusion 1.5, where class-conditional entropy consistently isolates the noise regimes critical for semantic structure formation. Finally, we use our framework to quantify how guidance redistributes semantic information over time. Together, these results connect information-theoretic and statistical physics perspectives on diffusion and provide a principled basis for time-localized control.",
     "authors": [
       "Florian Handke",
-      "Dejan Stan\u010devi\u0107",
+      "Dejan Stančević",
       "Felix Koulischer",
       "Thomas Demeester",
       "Luca Ambrogioni"
@@ -3790,7 +3790,7 @@
     "authors": [
       "Shuteng Wang",
       "Natacha Kuete Meli",
-      "Michael M\u00f6ller",
+      "Michael Möller",
       "Vladislav Golyanik"
     ],
     "categories": [
@@ -3834,7 +3834,7 @@
       "Anette Haas",
       "Elisa Schmoeckel",
       "Han Li",
-      "Peter J. Sch\u00fcffler"
+      "Peter J. Schüffler"
     ],
     "categories": [
       "cs.CV"
@@ -3852,7 +3852,7 @@
     "summary": "Lloyd's k-means algorithm is one of the most widely used clustering methods. We prove that in high-dimensional, high-noise settings, the algorithm exhibits catastrophic failure: with high probability, essentially every partition of the data is a fixed point. Consequently, Lloyd's algorithm simply returns its initial partition - even when the underlying clusters are trivially recoverable by other methods. In contrast, we prove that Hartigan's k-means algorithm does not exhibit this pathology. Our results show the stark difference between these algorithms and offer a theoretical explanation for the empirical difficulties often observed with k-means in high dimensions.",
     "authors": [
       "Roy R. Lederman",
-      "David Silva-S\u00e1nchez",
+      "David Silva-Sánchez",
       "Ziling Chen",
       "Gilles Mordant",
       "Amnon Balanov",
@@ -4135,7 +4135,7 @@
   {
     "arxiv_id": "2602.09541v1",
     "title": "Scalpel: Fine-Grained Alignment of Attention Activation Manifolds via Mixture Gaussian Bridges to Mitigate Multimodal Hallucination",
-    "summary": "Rapid progress in large vision-language models (LVLMs) has achieved unprecedented performance in vision-language tasks. However, due to the strong prior of large language models (LLMs) and misaligned attention across modalities, LVLMs often generate outputs inconsistent with visual content - termed hallucination. To address this, we propose \\textbf{Scalpel}, a method that reduces hallucination by refining attention activation distributions toward more credible regions. Scalpel predicts trusted attention directions for each head in Transformer layers during inference and adjusts activations accordingly. It employs a Gaussian mixture model to capture multi-peak distributions of attention in trust and hallucination manifolds, and uses entropic optimal transport (equivalent to Schr\u00f6dinger bridge problem) to map Gaussian components precisely. During mitigation, Scalpel dynamically adjusts intervention strength and direction based on component membership and mapping relationships between hallucination and trust activations. Extensive experiments across multiple datasets and benchmarks demonstrate that Scalpel effectively mitigates hallucinations, outperforming previous methods and achieving state-of-the-art performance. Moreover, Scalpel is model- and data-agnostic, requiring no additional computation, only a single decoding step.",
+    "summary": "Rapid progress in large vision-language models (LVLMs) has achieved unprecedented performance in vision-language tasks. However, due to the strong prior of large language models (LLMs) and misaligned attention across modalities, LVLMs often generate outputs inconsistent with visual content - termed hallucination. To address this, we propose \\textbf{Scalpel}, a method that reduces hallucination by refining attention activation distributions toward more credible regions. Scalpel predicts trusted attention directions for each head in Transformer layers during inference and adjusts activations accordingly. It employs a Gaussian mixture model to capture multi-peak distributions of attention in trust and hallucination manifolds, and uses entropic optimal transport (equivalent to Schrödinger bridge problem) to map Gaussian components precisely. During mitigation, Scalpel dynamically adjusts intervention strength and direction based on component membership and mapping relationships between hallucination and trust activations. Extensive experiments across multiple datasets and benchmarks demonstrate that Scalpel effectively mitigates hallucinations, outperforming previous methods and achieving state-of-the-art performance. Moreover, Scalpel is model- and data-agnostic, requiring no additional computation, only a single decoding step.",
     "authors": [
       "Ziqiang Shi",
       "Rujie Liu",
@@ -4186,9 +4186,9 @@
       "Florian Oehme",
       "Michael Maruschke",
       "Stefanie Herrlich",
-      "J\u00fcrgen Weitz",
+      "Jürgen Weitz",
       "Marius Distler",
-      "S\u00f6ren Torge Mees",
+      "Sören Torge Mees",
       "Stefanie Speidel"
     ],
     "categories": [
@@ -4442,7 +4442,7 @@
   {
     "arxiv_id": "2602.09600v1",
     "title": "Hand2World: Autoregressive Egocentric Interaction Generation via Free-Space Hand Gestures",
-    "summary": "Egocentric interactive world models are essential for augmented reality and embodied AI, where visual generation must respond to user input with low latency, geometric consistency, and long-term stability. We study egocentric interaction generation from a single scene image under free-space hand gestures, aiming to synthesize photorealistic videos in which hands enter the scene, interact with objects, and induce plausible world dynamics under head motion. This setting introduces fundamental challenges, including distribution shift between free-space gestures and contact-heavy training data, ambiguity between hand motion and camera motion in monocular views, and the need for arbitrary-length video generation. We present Hand2World, a unified autoregressive framework that addresses these challenges through occlusion-invariant hand conditioning based on projected 3D hand meshes, allowing visibility and occlusion to be inferred from scene context rather than encoded in the control signal. To stabilize egocentric viewpoint changes, we inject explicit camera geometry via per-pixel Pl\u00fccker-ray embeddings, disentangling camera motion from hand motion and preventing background drift. We further develop a fully automated monocular annotation pipeline and distill a bidirectional diffusion model into a causal generator, enabling arbitrary-length synthesis. Experiments on three egocentric interaction benchmarks show substantial improvements in perceptual quality and 3D consistency while supporting camera control and long-horizon interactive generation.",
+    "summary": "Egocentric interactive world models are essential for augmented reality and embodied AI, where visual generation must respond to user input with low latency, geometric consistency, and long-term stability. We study egocentric interaction generation from a single scene image under free-space hand gestures, aiming to synthesize photorealistic videos in which hands enter the scene, interact with objects, and induce plausible world dynamics under head motion. This setting introduces fundamental challenges, including distribution shift between free-space gestures and contact-heavy training data, ambiguity between hand motion and camera motion in monocular views, and the need for arbitrary-length video generation. We present Hand2World, a unified autoregressive framework that addresses these challenges through occlusion-invariant hand conditioning based on projected 3D hand meshes, allowing visibility and occlusion to be inferred from scene context rather than encoded in the control signal. To stabilize egocentric viewpoint changes, we inject explicit camera geometry via per-pixel Plücker-ray embeddings, disentangling camera motion from hand motion and preventing background drift. We further develop a fully automated monocular annotation pipeline and distill a bidirectional diffusion model into a causal generator, enabling arbitrary-length synthesis. Experiments on three egocentric interaction benchmarks show substantial improvements in perceptual quality and 3D consistency while supporting camera control and long-horizon interactive generation.",
     "authors": [
       "Yuxi Wang",
       "Wenqi Ouyang",
@@ -4503,91 +4503,5 @@
     "date": "2026-02-11",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "dhasmana/Angika-Chhattisgarhi-Kumaoni-Magadhi-w2v-bert-2.0",
-    "author": "unknown",
-    "title": "dhasmana/Angika-Chhattisgarhi-Kumaoni-Magadhi-w2v-bert-2.0",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "wav2vec2-bert",
-      "automatic-speech-recognition",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-02-10T19:32:44.000Z",
-    "last_modified": "2026-02-11T04:50:41.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/dhasmana/Angika-Chhattisgarhi-Kumaoni-Magadhi-w2v-bert-2.0",
-    "date": "2026-02-11",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "0rn0/gpt2-125m-tinystories",
-    "author": "unknown",
-    "title": "0rn0/gpt2-125m-tinystories",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "pytorch",
-      "safetensors",
-      "gpt2",
-      "tinystories",
-      "from-scratch",
-      "causal-lm",
-      "text-generation",
-      "en",
-      "dataset:fhswf/TinyStoriesV2_cleaned",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "pytorch",
-    "created_at": "2026-02-11T04:49:00.000Z",
-    "last_modified": "2026-02-11T04:49:16.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/0rn0/gpt2-125m-tinystories",
-    "date": "2026-02-11",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "0rn0/gpt2-30m-tinystories",
-    "author": "unknown",
-    "title": "0rn0/gpt2-30m-tinystories",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "pytorch",
-      "safetensors",
-      "gpt2",
-      "tinystories",
-      "from-scratch",
-      "causal-lm",
-      "text-generation",
-      "en",
-      "dataset:fhswf/TinyStoriesV2_cleaned",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "pytorch",
-    "created_at": "2026-02-11T04:48:48.000Z",
-    "last_modified": "2026-02-11T04:48:58.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/0rn0/gpt2-30m-tinystories",
-    "date": "2026-02-11",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
