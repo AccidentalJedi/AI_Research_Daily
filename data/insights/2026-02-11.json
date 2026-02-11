@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-11T04:50:58.286110",
+  "date": "2026-02-11T08:21:30.847149",
   "patterns": {
     "multimodal_research": [
       {
@@ -691,16 +691,16 @@
         "url": "https://arxiv.org/abs/2602.09521v1"
       },
       {
-        "title": "dhasmana/Angika-Chhattisgarhi-Kumaoni-Magadhi-w2v-bert-2.0",
-        "url": "https://huggingface.co/dhasmana/Angika-Chhattisgarhi-Kumaoni-Magadhi-w2v-bert-2.0"
+        "title": "7-mitch/gpt-oss-structeval-4bit",
+        "url": "https://huggingface.co/7-mitch/gpt-oss-structeval-4bit"
       },
       {
-        "title": "0rn0/gpt2-125m-tinystories",
-        "url": "https://huggingface.co/0rn0/gpt2-125m-tinystories"
+        "title": "muchad/indobert-router-id",
+        "url": "https://huggingface.co/muchad/indobert-router-id"
       },
       {
-        "title": "0rn0/gpt2-30m-tinystories",
-        "url": "https://huggingface.co/0rn0/gpt2-30m-tinystories"
+        "title": "muchad/mdeberta-router-id",
+        "url": "https://huggingface.co/muchad/mdeberta-router-id"
       }
     ],
     "vision_systems": [
@@ -1293,6 +1293,10 @@
       {
         "title": "ARK: A Dual-Axis Multimodal Retrieval Benchmark along Reasoning and Knowledge",
         "url": "https://arxiv.org/abs/2602.09839v1"
+      },
+      {
+        "title": "nightmedia/Qwen3-30B-A3B-Claude-4.5-Opus-High-Reasoning-2507-ABLITERATED-UNCENSORED-V2-qx86-hi-mlx",
+        "url": "https://huggingface.co/nightmedia/Qwen3-30B-A3B-Claude-4.5-Opus-High-Reasoning-2507-ABLITERATED-UNCENSORED-V2-qx86-hi-mlx"
       }
     ],
     "benchmarks": [
@@ -1761,7 +1765,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "75 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1796,7 +1800,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 50,
+      "frequency": 51,
       "significance": "high"
     },
     {
@@ -1808,6 +1812,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 428
   }
 }
