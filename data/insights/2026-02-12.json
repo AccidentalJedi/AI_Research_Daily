@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-12T04:46:27.211565",
+  "date": "2026-02-12T08:20:04.830103",
   "patterns": {
     "multimodal_research": [
       {
@@ -693,6 +693,10 @@
       {
         "title": "From Steering to Pedalling: Do Autonomous Driving VLMs Generalize to Cyclist-Assistive Spatial Perception and Planning?",
         "url": "https://arxiv.org/abs/2602.10771v1"
+      },
+      {
+        "title": "LLM-course/chess-genius-grandmaster",
+        "url": "https://huggingface.co/LLM-course/chess-genius-grandmaster"
       }
     ],
     "vision_systems": [
@@ -1685,7 +1689,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "74 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1744,6 +1748,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 412
   }
 }
