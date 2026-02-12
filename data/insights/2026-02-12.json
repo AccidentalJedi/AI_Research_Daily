@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-12T12:22:07.821375",
+  "date": "2026-02-12T16:26:22.134698",
   "patterns": {
     "multimodal_research": [
       {
@@ -695,8 +695,16 @@
         "url": "https://arxiv.org/abs/2602.10771v1"
       },
       {
-        "title": "Veyilla/EvaGPT-German-Mistral-LlamaTok-DE-7.2B-f16-V9.1.2",
-        "url": "https://huggingface.co/Veyilla/EvaGPT-German-Mistral-LlamaTok-DE-7.2B-f16-V9.1.2"
+        "title": "epatyukova/matscibert-polymer-extractive-QA",
+        "url": "https://huggingface.co/epatyukova/matscibert-polymer-extractive-QA"
+      },
+      {
+        "title": "sadanyh/distilbert-base-uncased-finetuned-emotion",
+        "url": "https://huggingface.co/sadanyh/distilbert-base-uncased-finetuned-emotion"
+      },
+      {
+        "title": "shuttling/bert-reward-kaleidoscope",
+        "url": "https://huggingface.co/shuttling/bert-reward-kaleidoscope"
       }
     ],
     "vision_systems": [
@@ -965,8 +973,12 @@
         "url": "https://arxiv.org/abs/2602.10728v1"
       },
       {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+        "title": "SilentGus/Z-Image-GGUF",
+        "url": "https://huggingface.co/SilentGus/Z-Image-GGUF"
+      },
+      {
+        "title": "SilentGus/Z-Image",
+        "url": "https://huggingface.co/SilentGus/Z-Image"
       }
     ],
     "reasoning": [
@@ -1217,6 +1229,10 @@
       {
         "title": "Amortized Inference of Neuron Parameters on Analog Neuromorphic Hardware",
         "url": "https://arxiv.org/abs/2602.10763v1"
+      },
+      {
+        "title": "inferencerlabs/GLM-5-MLX-4.8bit",
+        "url": "https://huggingface.co/inferencerlabs/GLM-5-MLX-4.8bit"
       }
     ],
     "benchmarks": [
@@ -1689,19 +1705,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "75 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "67 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "62 independent papers",
+      "observation": "63 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1764,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 416
   }
 }
