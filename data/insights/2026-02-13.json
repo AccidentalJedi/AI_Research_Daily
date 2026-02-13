@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-13T12:18:32.074785",
+  "date": "2026-02-13T16:20:43.303642",
   "patterns": {
     "multimodal_research": [
       {
@@ -751,16 +751,16 @@
         "url": "https://arxiv.org/abs/2602.11832v1"
       },
       {
-        "title": "dhasmana/Magadhi-Kumaoni-Marathi-Rajasthani-Marwari-w2v-bert-2.0",
-        "url": "https://huggingface.co/dhasmana/Magadhi-Kumaoni-Marathi-Rajasthani-Marwari-w2v-bert-2.0"
+        "title": "epatyukova/matscibert-polymer-extractive-QA",
+        "url": "https://huggingface.co/epatyukova/matscibert-polymer-extractive-QA"
       },
       {
-        "title": "UDHOV/nepalibert-nepali-hate-classification",
-        "url": "https://huggingface.co/UDHOV/nepalibert-nepali-hate-classification"
+        "title": "epatyukova/roberta-polymer-extractive-QA",
+        "url": "https://huggingface.co/epatyukova/roberta-polymer-extractive-QA"
       },
       {
-        "title": "pamohlyakov-work/giga-am-v3-transformers-rnnt",
-        "url": "https://huggingface.co/pamohlyakov-work/giga-am-v3-transformers-rnnt"
+        "title": "sallm/qm3_2-lora-repo",
+        "url": "https://huggingface.co/sallm/qm3_2-lora-repo"
       }
     ],
     "vision_systems": [
@@ -963,6 +963,10 @@
       {
         "title": "JEPA-VLA: Video Predictive Embedding is Needed for VLA Models",
         "url": "https://arxiv.org/abs/2602.11832v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1243,8 +1247,20 @@
         "url": "https://arxiv.org/abs/2602.12043v1"
       },
       {
+        "title": "inferencerlabs/GLM-5-MLX-4.8bit",
+        "url": "https://huggingface.co/inferencerlabs/GLM-5-MLX-4.8bit"
+      },
+      {
+        "title": "inferencerlabs/MiniMax-M2.5-MLX-6.5bit",
+        "url": "https://huggingface.co/inferencerlabs/MiniMax-M2.5-MLX-6.5bit"
+      },
+      {
         "title": "inferencerlabs/GLM-5-MLX-5.6bit",
         "url": "https://huggingface.co/inferencerlabs/GLM-5-MLX-5.6bit"
+      },
+      {
+        "title": "inferencerlabs/MiniMax-M2.5-MLX-9bit",
+        "url": "https://huggingface.co/inferencerlabs/MiniMax-M2.5-MLX-9bit"
       }
     ],
     "benchmarks": [
@@ -1675,13 +1691,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "50 independent papers",
+      "observation": "51 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1728,6 +1744,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 411
   }
 }
