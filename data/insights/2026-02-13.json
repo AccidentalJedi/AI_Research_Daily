@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-13T16:20:43.303642",
+  "date": "2026-02-13T20:16:07.461686",
   "patterns": {
     "multimodal_research": [
       {
@@ -751,16 +751,8 @@
         "url": "https://arxiv.org/abs/2602.11832v1"
       },
       {
-        "title": "epatyukova/matscibert-polymer-extractive-QA",
-        "url": "https://huggingface.co/epatyukova/matscibert-polymer-extractive-QA"
-      },
-      {
-        "title": "epatyukova/roberta-polymer-extractive-QA",
-        "url": "https://huggingface.co/epatyukova/roberta-polymer-extractive-QA"
-      },
-      {
-        "title": "sallm/qm3_2-lora-repo",
-        "url": "https://huggingface.co/sallm/qm3_2-lora-repo"
+        "title": "dhasmana/Rajasthani-Magadhi-Chhattisgarhi-w2v-bert-2.0",
+        "url": "https://huggingface.co/dhasmana/Rajasthani-Magadhi-Chhattisgarhi-w2v-bert-2.0"
       }
     ],
     "vision_systems": [
@@ -963,10 +955,6 @@
       {
         "title": "JEPA-VLA: Video Predictive Embedding is Needed for VLA Models",
         "url": "https://arxiv.org/abs/2602.11832v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1245,18 +1233,6 @@
       {
         "title": "Improved Inference for CSDID Using the Cluster Jackknife",
         "url": "https://arxiv.org/abs/2602.12043v1"
-      },
-      {
-        "title": "inferencerlabs/GLM-5-MLX-4.8bit",
-        "url": "https://huggingface.co/inferencerlabs/GLM-5-MLX-4.8bit"
-      },
-      {
-        "title": "inferencerlabs/MiniMax-M2.5-MLX-6.5bit",
-        "url": "https://huggingface.co/inferencerlabs/MiniMax-M2.5-MLX-6.5bit"
-      },
-      {
-        "title": "inferencerlabs/GLM-5-MLX-5.6bit",
-        "url": "https://huggingface.co/inferencerlabs/GLM-5-MLX-5.6bit"
       },
       {
         "title": "inferencerlabs/MiniMax-M2.5-MLX-9bit",
@@ -1685,19 +1661,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "109 independent papers",
+      "observation": "107 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "51 independent papers",
+      "observation": "50 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1744,6 +1720,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 405
   }
 }
