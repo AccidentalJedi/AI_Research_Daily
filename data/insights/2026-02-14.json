@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-14T12:14:01.570025",
+  "date": "2026-02-14T16:11:06.594896",
   "patterns": {
     "multimodal_research": [
       {
@@ -743,20 +743,12 @@
         "url": "https://arxiv.org/abs/2602.11924v1"
       },
       {
-        "title": "onlyrafaels/smollm2-healthy_agnews",
-        "url": "https://huggingface.co/onlyrafaels/smollm2-healthy_agnews"
-      },
-      {
         "title": "AssetFormer: Modular 3D Assets Generation with Autoregressive Transformer",
         "url": "https://arxiv.org/abs/2602.12100v1"
       },
       {
         "title": "JEPA-VLA: Video Predictive Embedding is Needed for VLA Models",
         "url": "https://arxiv.org/abs/2602.11832v1"
-      },
-      {
-        "title": "Hanan-Alnakhal/solar-rag-llm",
-        "url": "https://huggingface.co/Hanan-Alnakhal/solar-rag-llm"
       }
     ],
     "vision_systems": [
@@ -959,6 +951,10 @@
       {
         "title": "JEPA-VLA: Video Predictive Embedding is Needed for VLA Models",
         "url": "https://arxiv.org/abs/2602.11832v1"
+      },
+      {
+        "title": "affineawe/affine-q8-test-5EhM3q9z5Yj4Vf2sgUSEbBTuqCvdMqQvFrnA3N9ZHnbxv7jG",
+        "url": "https://huggingface.co/affineawe/affine-q8-test-5EhM3q9z5Yj4Vf2sgUSEbBTuqCvdMqQvFrnA3N9ZHnbxv7jG"
       }
     ],
     "reasoning": [
@@ -1661,13 +1657,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "108 independent papers",
+      "observation": "106 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "50 independent papers",
+      "observation": "51 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1720,6 +1716,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 405
+    "total_papers": 404
   }
 }
