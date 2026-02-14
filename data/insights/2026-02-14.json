@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-14T00:36:39.297566",
+  "date": "2026-02-14T04:38:58.005162",
   "patterns": {
     "multimodal_research": [
       {
@@ -749,14 +749,6 @@
       {
         "title": "JEPA-VLA: Video Predictive Embedding is Needed for VLA Models",
         "url": "https://arxiv.org/abs/2602.11832v1"
-      },
-      {
-        "title": "AbbyIntelligenceInc/crisis-bert-base-uncased",
-        "url": "https://huggingface.co/AbbyIntelligenceInc/crisis-bert-base-uncased"
-      },
-      {
-        "title": "dhasmana/Rajasthani-Magadhi-Chhattisgarhi-Bhojpuri-w2v-bert-2.0",
-        "url": "https://huggingface.co/dhasmana/Rajasthani-Magadhi-Chhattisgarhi-Bhojpuri-w2v-bert-2.0"
       }
     ],
     "vision_systems": [
@@ -959,10 +951,6 @@
       {
         "title": "JEPA-VLA: Video Predictive Embedding is Needed for VLA Models",
         "url": "https://arxiv.org/abs/2602.11832v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1665,13 +1653,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "108 independent papers",
+      "observation": "106 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "51 independent papers",
+      "observation": "50 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1724,6 +1712,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 406
+    "total_papers": 403
   }
 }
