@@ -1,11 +1,22 @@
 {
-  "date": "2026-02-15T04:44:47.363732",
-  "patterns": {},
+  "date": "2026-02-15T08:12:57.875340",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "smsk1999/hindi-bert-quantized-small-DISSATISFACTION-10k",
+        "url": "https://huggingface.co/smsk1999/hindi-bert-quantized-small-DISSATISFACTION-10k"
+      },
+      {
+        "title": "satyamg1620/mmbert32k-jailbreak-detector-healthcare-merged",
+        "url": "https://huggingface.co/satyamg1620/mmbert32k-jailbreak-detector-healthcare-merged"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
