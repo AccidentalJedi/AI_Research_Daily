@@ -1,33 +1,47 @@
 {
-  "date": "2026-02-15T12:14:44.005524",
+  "date": "2026-02-15T16:10:48.839557",
   "patterns": {
-    "language_models": [
+    "vision_systems": [
       {
-        "title": "maheshchandra07/fake-news-deberta",
-        "url": "https://huggingface.co/maheshchandra07/fake-news-deberta"
+        "title": "Taikon04/my_test_vision_model_va",
+        "url": "https://huggingface.co/Taikon04/my_test_vision_model_va"
       },
       {
-        "title": "adaj0610/bert-fake-news-detector",
-        "url": "https://huggingface.co/adaj0610/bert-fake-news-detector"
+        "title": "nanpero09/my_test_vision_model_va",
+        "url": "https://huggingface.co/nanpero09/my_test_vision_model_va"
       },
       {
-        "title": "mlx-community/JoyAI-LLM-Flash-4bit",
-        "url": "https://huggingface.co/mlx-community/JoyAI-LLM-Flash-4bit"
+        "title": "bentran03/my_test_vision_model_va",
+        "url": "https://huggingface.co/bentran03/my_test_vision_model_va"
+      },
+      {
+        "title": "Danielnguyen13/my_test_vision_model_va",
+        "url": "https://huggingface.co/Danielnguyen13/my_test_vision_model_va"
+      },
+      {
+        "title": "oman09nan/my_test_vision_model_va",
+        "url": "https://huggingface.co/oman09nan/my_test_vision_model_va"
       }
     ]
   },
   "inferences": [
     {
-      "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
+      "pattern": "vision_systems",
+      "observation": "5 independent papers",
+      "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
+      "confidence": "high"
     }
   ],
-  "research_trends": [],
+  "research_trends": [
+    {
+      "topic": "vision",
+      "frequency": 5,
+      "significance": "high"
+    }
+  ],
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 3
+    "total_papers": 5
   }
 }
