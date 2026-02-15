@@ -1,22 +1,33 @@
 {
-  "date": "2026-02-15T08:12:57.875340",
+  "date": "2026-02-15T12:14:44.005524",
   "patterns": {
     "language_models": [
       {
-        "title": "smsk1999/hindi-bert-quantized-small-DISSATISFACTION-10k",
-        "url": "https://huggingface.co/smsk1999/hindi-bert-quantized-small-DISSATISFACTION-10k"
+        "title": "maheshchandra07/fake-news-deberta",
+        "url": "https://huggingface.co/maheshchandra07/fake-news-deberta"
       },
       {
-        "title": "satyamg1620/mmbert32k-jailbreak-detector-healthcare-merged",
-        "url": "https://huggingface.co/satyamg1620/mmbert32k-jailbreak-detector-healthcare-merged"
+        "title": "adaj0610/bert-fake-news-detector",
+        "url": "https://huggingface.co/adaj0610/bert-fake-news-detector"
+      },
+      {
+        "title": "mlx-community/JoyAI-LLM-Flash-4bit",
+        "url": "https://huggingface.co/mlx-community/JoyAI-LLM-Flash-4bit"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
