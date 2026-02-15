@@ -1,47 +1,22 @@
 {
-  "date": "2026-02-15T16:10:48.839557",
+  "date": "2026-02-15T20:09:49.659605",
   "patterns": {
-    "vision_systems": [
+    "language_models": [
       {
-        "title": "Taikon04/my_test_vision_model_va",
-        "url": "https://huggingface.co/Taikon04/my_test_vision_model_va"
+        "title": "sms112/bact_roberta_base_essentiality",
+        "url": "https://huggingface.co/sms112/bact_roberta_base_essentiality"
       },
       {
-        "title": "nanpero09/my_test_vision_model_va",
-        "url": "https://huggingface.co/nanpero09/my_test_vision_model_va"
-      },
-      {
-        "title": "bentran03/my_test_vision_model_va",
-        "url": "https://huggingface.co/bentran03/my_test_vision_model_va"
-      },
-      {
-        "title": "Danielnguyen13/my_test_vision_model_va",
-        "url": "https://huggingface.co/Danielnguyen13/my_test_vision_model_va"
-      },
-      {
-        "title": "oman09nan/my_test_vision_model_va",
-        "url": "https://huggingface.co/oman09nan/my_test_vision_model_va"
+        "title": "dhasmana/Rajasthani-Magadhi-Chhattisgarhi-Bhojpuri-w2v-bert-2.0",
+        "url": "https://huggingface.co/dhasmana/Rajasthani-Magadhi-Chhattisgarhi-Bhojpuri-w2v-bert-2.0"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "vision_systems",
-      "observation": "5 independent papers",
-      "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
-      "confidence": "high"
-    }
-  ],
-  "research_trends": [
-    {
-      "topic": "vision",
-      "frequency": 5,
-      "significance": "high"
-    }
-  ],
+  "inferences": [],
+  "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 5
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
