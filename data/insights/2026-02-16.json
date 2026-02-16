@@ -1,67 +1,37 @@
 {
-  "date": "2026-02-16T12:20:30.535757",
+  "date": "2026-02-16T16:19:35.856516",
   "patterns": {
-    "vision_systems": [
+    "language_models": [
       {
-        "title": "Hien03/my-test-vision-model-vs",
-        "url": "https://huggingface.co/Hien03/my-test-vision-model-vs"
+        "title": "dhasmana/Chhattisgarhi-Magadhi-Marwari-Garhwali-w2v-bert-2.0",
+        "url": "https://huggingface.co/dhasmana/Chhattisgarhi-Magadhi-Marwari-Garhwali-w2v-bert-2.0"
       },
       {
-        "title": "Dan02ni/my-test-vision-model-vs",
-        "url": "https://huggingface.co/Dan02ni/my-test-vision-model-vs"
+        "title": "makotonlo/LLM2026_DPO_SFT19_v4",
+        "url": "https://huggingface.co/makotonlo/LLM2026_DPO_SFT19_v4"
       },
       {
-        "title": "Khanh6/my-test-vision-model-vs",
-        "url": "https://huggingface.co/Khanh6/my-test-vision-model-vs"
+        "title": "Neelectric/SmolLM2-135M_CPT_sciencev00.15",
+        "url": "https://huggingface.co/Neelectric/SmolLM2-135M_CPT_sciencev00.15"
       },
       {
-        "title": "Vduc01/my-test-vision-model-vs",
-        "url": "https://huggingface.co/Vduc01/my-test-vision-model-vs"
-      },
-      {
-        "title": "Duc77/my-test-vision-model-vs",
-        "url": "https://huggingface.co/Duc77/my-test-vision-model-vs"
-      },
-      {
-        "title": "ThiHien3/my-test-vision-model-vs",
-        "url": "https://huggingface.co/ThiHien3/my-test-vision-model-vs"
-      },
-      {
-        "title": "HoDuc3/my-test-vision-model-vs",
-        "url": "https://huggingface.co/HoDuc3/my-test-vision-model-vs"
-      },
-      {
-        "title": "Vduc4/my-test-vision-model-vs",
-        "url": "https://huggingface.co/Vduc4/my-test-vision-model-vs"
-      },
-      {
-        "title": "alice6les/my-test-vision-model-vs",
-        "url": "https://huggingface.co/alice6les/my-test-vision-model-vs"
-      },
-      {
-        "title": "Hien11li/my-test-vision-model-vs",
-        "url": "https://huggingface.co/Hien11li/my-test-vision-model-vs"
+        "title": "gopi87/JoyAI-LLM-Flash-Q8_0-GGUF",
+        "url": "https://huggingface.co/gopi87/JoyAI-LLM-Flash-Q8_0-GGUF"
       }
     ]
   },
   "inferences": [
     {
-      "pattern": "vision_systems",
-      "observation": "10 independent papers",
-      "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
-      "confidence": "high"
+      "pattern": "language_models",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
     }
   ],
-  "research_trends": [
-    {
-      "topic": "vision",
-      "frequency": 10,
-      "significance": "high"
-    }
-  ],
+  "research_trends": [],
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 10
+    "total_papers": 4
   }
 }
