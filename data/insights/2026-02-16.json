@@ -1,37 +1,11 @@
 {
-  "date": "2026-02-16T16:19:35.856516",
-  "patterns": {
-    "language_models": [
-      {
-        "title": "dhasmana/Chhattisgarhi-Magadhi-Marwari-Garhwali-w2v-bert-2.0",
-        "url": "https://huggingface.co/dhasmana/Chhattisgarhi-Magadhi-Marwari-Garhwali-w2v-bert-2.0"
-      },
-      {
-        "title": "makotonlo/LLM2026_DPO_SFT19_v4",
-        "url": "https://huggingface.co/makotonlo/LLM2026_DPO_SFT19_v4"
-      },
-      {
-        "title": "Neelectric/SmolLM2-135M_CPT_sciencev00.15",
-        "url": "https://huggingface.co/Neelectric/SmolLM2-135M_CPT_sciencev00.15"
-      },
-      {
-        "title": "gopi87/JoyAI-LLM-Flash-Q8_0-GGUF",
-        "url": "https://huggingface.co/gopi87/JoyAI-LLM-Flash-Q8_0-GGUF"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "4 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "date": "2026-02-16T20:12:03.051577",
+  "patterns": {},
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 4
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
