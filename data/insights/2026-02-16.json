@@ -1,33 +1,67 @@
 {
-  "date": "2026-02-16T08:20:58.962678",
+  "date": "2026-02-16T12:20:30.535757",
   "patterns": {
-    "language_models": [
+    "vision_systems": [
       {
-        "title": "Vandita/TinyBERT_Uncased-SarcOji-Tiny",
-        "url": "https://huggingface.co/Vandita/TinyBERT_Uncased-SarcOji-Tiny"
+        "title": "Hien03/my-test-vision-model-vs",
+        "url": "https://huggingface.co/Hien03/my-test-vision-model-vs"
       },
       {
-        "title": "dhasmana/Chhattisgarhi-Magadhi-Marwari-w2v-bert-2.0",
-        "url": "https://huggingface.co/dhasmana/Chhattisgarhi-Magadhi-Marwari-w2v-bert-2.0"
+        "title": "Dan02ni/my-test-vision-model-vs",
+        "url": "https://huggingface.co/Dan02ni/my-test-vision-model-vs"
       },
       {
-        "title": "shotasoga/LLM-Compe-structured-eval-t-qwen3-4b.v15",
-        "url": "https://huggingface.co/shotasoga/LLM-Compe-structured-eval-t-qwen3-4b.v15"
+        "title": "Khanh6/my-test-vision-model-vs",
+        "url": "https://huggingface.co/Khanh6/my-test-vision-model-vs"
+      },
+      {
+        "title": "Vduc01/my-test-vision-model-vs",
+        "url": "https://huggingface.co/Vduc01/my-test-vision-model-vs"
+      },
+      {
+        "title": "Duc77/my-test-vision-model-vs",
+        "url": "https://huggingface.co/Duc77/my-test-vision-model-vs"
+      },
+      {
+        "title": "ThiHien3/my-test-vision-model-vs",
+        "url": "https://huggingface.co/ThiHien3/my-test-vision-model-vs"
+      },
+      {
+        "title": "HoDuc3/my-test-vision-model-vs",
+        "url": "https://huggingface.co/HoDuc3/my-test-vision-model-vs"
+      },
+      {
+        "title": "Vduc4/my-test-vision-model-vs",
+        "url": "https://huggingface.co/Vduc4/my-test-vision-model-vs"
+      },
+      {
+        "title": "alice6les/my-test-vision-model-vs",
+        "url": "https://huggingface.co/alice6les/my-test-vision-model-vs"
+      },
+      {
+        "title": "Hien11li/my-test-vision-model-vs",
+        "url": "https://huggingface.co/Hien11li/my-test-vision-model-vs"
       }
     ]
   },
   "inferences": [
     {
-      "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
+      "pattern": "vision_systems",
+      "observation": "10 independent papers",
+      "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
+      "confidence": "high"
     }
   ],
-  "research_trends": [],
+  "research_trends": [
+    {
+      "topic": "vision",
+      "frequency": 10,
+      "significance": "high"
+    }
+  ],
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 3
+    "total_papers": 10
   }
 }
