@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-17T12:20:41.175629",
+  "date": "2026-02-17T16:25:09.598968",
   "patterns": {
     "multimodal_research": [
       {
@@ -603,12 +603,20 @@
         "url": "https://arxiv.org/abs/2602.14524v1"
       },
       {
-        "title": "watashihakobashi/qpii_sbi_modernbert-ja-310m",
-        "url": "https://huggingface.co/watashihakobashi/qpii_sbi_modernbert-ja-310m"
+        "title": "OpenLLM-BPI/Luciole-23B-Base",
+        "url": "https://huggingface.co/OpenLLM-BPI/Luciole-23B-Base"
       },
       {
-        "title": "makotonlo/LLM2026_DPO_SFT19_v6",
-        "url": "https://huggingface.co/makotonlo/LLM2026_DPO_SFT19_v6"
+        "title": "Harikrishna-Srinivasan/Hate-Speech-DeBERTa",
+        "url": "https://huggingface.co/Harikrishna-Srinivasan/Hate-Speech-DeBERTa"
+      },
+      {
+        "title": "OpenLLM-BPI/Luciole-8B-Base",
+        "url": "https://huggingface.co/OpenLLM-BPI/Luciole-8B-Base"
+      },
+      {
+        "title": "OpenLLM-BPI/Luciole-1B-Base",
+        "url": "https://huggingface.co/OpenLLM-BPI/Luciole-1B-Base"
       }
     ],
     "vision_systems": [
@@ -1545,7 +1553,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1604,6 +1612,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 376
+    "total_papers": 378
   }
 }
