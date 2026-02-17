@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-17T08:20:58.840503",
+  "date": "2026-02-17T12:20:41.175629",
   "patterns": {
     "multimodal_research": [
       {
@@ -601,6 +601,14 @@
       {
         "title": "Error Patterns in Historical OCR: A Comparative Analysis of TrOCR and a Vision-Language Model",
         "url": "https://arxiv.org/abs/2602.14524v1"
+      },
+      {
+        "title": "watashihakobashi/qpii_sbi_modernbert-ja-310m",
+        "url": "https://huggingface.co/watashihakobashi/qpii_sbi_modernbert-ja-310m"
+      },
+      {
+        "title": "makotonlo/LLM2026_DPO_SFT19_v6",
+        "url": "https://huggingface.co/makotonlo/LLM2026_DPO_SFT19_v6"
       }
     ],
     "vision_systems": [
@@ -1537,7 +1545,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1596,6 +1604,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 374
+    "total_papers": 376
   }
 }
