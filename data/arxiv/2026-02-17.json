@@ -53,7 +53,7 @@
   {
     "arxiv_id": "2602.14474v1",
     "title": "One Good Source is All You Need: Near-Optimal Regret for Bandits under Heterogeneous Noise",
-    "summary": "We study $K$-armed Multiarmed Bandit (MAB) problem with $M$ heterogeneous data sources, each exhibiting unknown and distinct noise variances $\\{\u03c3_j^2\\}_{j=1}^M$. The learner's objective is standard MAB regret minimization, with the additional complexity of adaptively selecting which data source to query from at each round. We propose Source-Optimistic Adaptive Regret minimization (SOAR), a novel algorithm that quickly prunes high-variance sources using sharp variance-concentration bounds, followed by a `balanced min-max LCB-UCB approach' that seamlessly integrates the parallel tasks of identifying the best arm and the optimal (minimum-variance) data source. Our analysis shows SOAR achieves an instance-dependent regret bound of $\\tilde{O}\\left({\u03c3^*}^2\\sum_{i=2}^K \\frac{\\log T}{\u0394_i} + \\sqrt{K \\sum_{j=1}^M \u03c3_j^2}\\right)$, up to preprocessing costs depending only on problem parameters, where ${\u03c3^*}^2 := \\min_j \u03c3_j^2$ is the minimum source variance and $\u0394_i$ denotes the suboptimality gap of the $i$-th arm. This result is both surprising as despite lacking prior knowledge of the minimum-variance source among $M$ alternatives, SOAR attains the optimal instance-dependent regret of standard single-source MAB with variance ${\u03c3^*}^2$, while incurring only an small (and unavoidable) additive cost of $\\tilde O(\\sqrt{K \\sum_{j=1}^M \u03c3_j^2})$ towards the optimal (minimum variance) source identification. Our theoretical bounds represent a significant improvement over some proposed baselines, e.g. Uniform UCB or Explore-then-Commit UCB, which could potentially suffer regret scaling with $\u03c3_{\\max}^2$ in place of ${\u03c3^*}^2$-a gap that can be arbitrarily large when $\u03c3_{\\max} \\gg \u03c3^*$. Experiments on multiple synthetic problem instances and the real-world MovieLens\\;25M dataset, demonstrating the superior performance of SOAR over the baselines.",
+    "summary": "We study $K$-armed Multiarmed Bandit (MAB) problem with $M$ heterogeneous data sources, each exhibiting unknown and distinct noise variances $\\{σ_j^2\\}_{j=1}^M$. The learner's objective is standard MAB regret minimization, with the additional complexity of adaptively selecting which data source to query from at each round. We propose Source-Optimistic Adaptive Regret minimization (SOAR), a novel algorithm that quickly prunes high-variance sources using sharp variance-concentration bounds, followed by a `balanced min-max LCB-UCB approach' that seamlessly integrates the parallel tasks of identifying the best arm and the optimal (minimum-variance) data source. Our analysis shows SOAR achieves an instance-dependent regret bound of $\\tilde{O}\\left({σ^*}^2\\sum_{i=2}^K \\frac{\\log T}{Δ_i} + \\sqrt{K \\sum_{j=1}^M σ_j^2}\\right)$, up to preprocessing costs depending only on problem parameters, where ${σ^*}^2 := \\min_j σ_j^2$ is the minimum source variance and $Δ_i$ denotes the suboptimality gap of the $i$-th arm. This result is both surprising as despite lacking prior knowledge of the minimum-variance source among $M$ alternatives, SOAR attains the optimal instance-dependent regret of standard single-source MAB with variance ${σ^*}^2$, while incurring only an small (and unavoidable) additive cost of $\\tilde O(\\sqrt{K \\sum_{j=1}^M σ_j^2})$ towards the optimal (minimum variance) source identification. Our theoretical bounds represent a significant improvement over some proposed baselines, e.g. Uniform UCB or Explore-then-Commit UCB, which could potentially suffer regret scaling with $σ_{\\max}^2$ in place of ${σ^*}^2$-a gap that can be arbitrarily large when $σ_{\\max} \\gg σ^*$. Experiments on multiple synthetic problem instances and the real-world MovieLens\\;25M dataset, demonstrating the superior performance of SOAR over the baselines.",
     "authors": [
       "Aadirupa Saha",
       "Amith Bhat",
@@ -102,7 +102,7 @@
   {
     "arxiv_id": "2602.15008v1",
     "title": "Efficient Sampling with Discrete Diffusion Models: Sharp and Adaptive Guarantees",
-    "summary": "Diffusion models over discrete spaces have recently shown striking empirical success, yet their theoretical foundations remain incomplete. In this paper, we study the sampling efficiency of score-based discrete diffusion models under a continuous-time Markov chain (CTMC) formulation, with a focus on $\u03c4$-leaping-based samplers. We establish sharp convergence guarantees for attaining $\\varepsilon$ accuracy in Kullback-Leibler (KL) divergence for both uniform and masking noising processes. For uniform discrete diffusion, we show that the $\u03c4$-leaping algorithm achieves an iteration complexity of order $\\tilde O(d/\\varepsilon)$, with $d$ the ambient dimension of the target distribution, eliminating linear dependence on the vocabulary size $S$ and improving existing bounds by a factor of $d$; moreover, we establish a matching algorithmic lower bound showing that linear dependence on the ambient dimension is unavoidable in general. For masking discrete diffusion, we introduce a modified $\u03c4$-leaping sampler whose convergence rate is governed by an intrinsic information-theoretic quantity, termed the effective total correlation, which is bounded by $d \\log S$ but can be sublinear or even constant for structured data. As a consequence, the sampler provably adapts to low-dimensional structure without prior knowledge or algorithmic modification, yielding sublinear convergence rates for various practical examples (such as hidden Markov models, image data, and random graphs). Our analysis requires no boundedness or smoothness assumptions on the score estimator beyond control of the score entropy loss.",
+    "summary": "Diffusion models over discrete spaces have recently shown striking empirical success, yet their theoretical foundations remain incomplete. In this paper, we study the sampling efficiency of score-based discrete diffusion models under a continuous-time Markov chain (CTMC) formulation, with a focus on $τ$-leaping-based samplers. We establish sharp convergence guarantees for attaining $\\varepsilon$ accuracy in Kullback-Leibler (KL) divergence for both uniform and masking noising processes. For uniform discrete diffusion, we show that the $τ$-leaping algorithm achieves an iteration complexity of order $\\tilde O(d/\\varepsilon)$, with $d$ the ambient dimension of the target distribution, eliminating linear dependence on the vocabulary size $S$ and improving existing bounds by a factor of $d$; moreover, we establish a matching algorithmic lower bound showing that linear dependence on the ambient dimension is unavoidable in general. For masking discrete diffusion, we introduce a modified $τ$-leaping sampler whose convergence rate is governed by an intrinsic information-theoretic quantity, termed the effective total correlation, which is bounded by $d \\log S$ but can be sublinear or even constant for structured data. As a consequence, the sampler provably adapts to low-dimensional structure without prior knowledge or algorithmic modification, yielding sublinear convergence rates for various practical examples (such as hidden Markov models, image data, and random graphs). Our analysis requires no boundedness or smoothness assumptions on the score estimator beyond control of the score entropy loss.",
     "authors": [
       "Daniil Dmitriev",
       "Zhihan Huang",
@@ -244,7 +244,7 @@
   {
     "arxiv_id": "2602.14770v1",
     "title": "Multi-Agent Comedy Club: Investigating Community Discussion Effects on LLM Humor Generation",
-    "summary": "Prior work has explored multi-turn interaction and feedback for LLM writing, but evaluations still largely center on prompts and localized feedback, leaving persistent public reception in online communities underexamined. We test whether broadcast community discussion improves stand-up comedy writing in a controlled multi-agent sandbox: in the discussion condition, critic and audience threads are recorded, filtered, stored as social memory, and later retrieved to condition subsequent generations, whereas the baseline omits discussion. Across 50 rounds (250 paired monologues) judged by five expert annotators using A/B preference and a 15-item rubric, discussion wins 75.6% of instances and improves Craft/Clarity (\u0394 = 0.440) and Social Response (\u0394 = 0.422), with occasional increases in aggressive humor.",
+    "summary": "Prior work has explored multi-turn interaction and feedback for LLM writing, but evaluations still largely center on prompts and localized feedback, leaving persistent public reception in online communities underexamined. We test whether broadcast community discussion improves stand-up comedy writing in a controlled multi-agent sandbox: in the discussion condition, critic and audience threads are recorded, filtered, stored as social memory, and later retrieved to condition subsequent generations, whereas the baseline omits discussion. Across 50 rounds (250 paired monologues) judged by five expert annotators using A/B preference and a 15-item rubric, discussion wins 75.6% of instances and improves Craft/Clarity (Δ = 0.440) and Social Response (Δ = 0.422), with occasional increases in aggressive humor.",
     "authors": [
       "Shiwei Hong",
       "Lingyao Li",
@@ -313,8 +313,8 @@
   },
   {
     "arxiv_id": "2602.14938v1",
-    "title": "Variance-Reduced $(\\varepsilon,\u03b4)-$Unlearning using Forget Set Gradients",
-    "summary": "In machine unlearning, $(\\varepsilon,\u03b4)-$unlearning is a popular framework that provides formal guarantees on the effectiveness of the removal of a subset of training data, the forget set, from a trained model. For strongly convex objectives, existing first-order methods achieve $(\\varepsilon,\u03b4)-$unlearning, but they only use the forget set to calibrate injected noise, never as a direct optimization signal. In contrast, efficient empirical heuristics often exploit the forget samples (e.g., via gradient ascent) but come with no formal unlearning guarantees. We bridge this gap by presenting the Variance-Reduced Unlearning (VRU) algorithm. To the best of our knowledge, VRU is the first first-order algorithm that directly includes forget set gradients in its update rule, while provably satisfying ($(\\varepsilon,\u03b4)-$unlearning. We establish the convergence of VRU and show that incorporating the forget set yields strictly improved rates, i.e. a better dependence on the achieved error compared to existing first-order $(\\varepsilon,\u03b4)-$unlearning methods. Moreover, we prove that, in a low-error regime, VRU asymptotically outperforms any first-order method that ignores the forget set.Experiments corroborate our theory, showing consistent gains over both state-of-the-art certified unlearning methods and over empirical baselines that explicitly leverage the forget set.",
+    "title": "Variance-Reduced $(\\varepsilon,δ)-$Unlearning using Forget Set Gradients",
+    "summary": "In machine unlearning, $(\\varepsilon,δ)-$unlearning is a popular framework that provides formal guarantees on the effectiveness of the removal of a subset of training data, the forget set, from a trained model. For strongly convex objectives, existing first-order methods achieve $(\\varepsilon,δ)-$unlearning, but they only use the forget set to calibrate injected noise, never as a direct optimization signal. In contrast, efficient empirical heuristics often exploit the forget samples (e.g., via gradient ascent) but come with no formal unlearning guarantees. We bridge this gap by presenting the Variance-Reduced Unlearning (VRU) algorithm. To the best of our knowledge, VRU is the first first-order algorithm that directly includes forget set gradients in its update rule, while provably satisfying ($(\\varepsilon,δ)-$unlearning. We establish the convergence of VRU and show that incorporating the forget set yields strictly improved rates, i.e. a better dependence on the achieved error compared to existing first-order $(\\varepsilon,δ)-$unlearning methods. Moreover, we prove that, in a low-error regime, VRU asymptotically outperforms any first-order method that ignores the forget set.Experiments corroborate our theory, showing consistent gains over both state-of-the-art certified unlearning methods and over empirical baselines that explicitly leverage the forget set.",
     "authors": [
       "Martin Van Waerebeke",
       "Marco Lorenzi",
@@ -573,7 +573,7 @@
   {
     "arxiv_id": "2602.14881v1",
     "title": "Numerical exploration of the range of shape functionals using neural networks",
-    "summary": "We introduce a novel numerical framework for the exploration of Blaschke--Santal\u00f3 diagrams, which are efficient tools characterizing the possible inequalities relating some given shape functionals. We introduce a parametrization of convex bodies in arbitrary dimensions using a specific invertible neural network architecture based on gauge functions, allowing an intrinsic conservation of the convexity of the sets during the shape optimization process. To achieve a uniform sampling inside the diagram, and thus a satisfying description of it, we introduce an interacting particle system that minimizes a Riesz energy functional via automatic differentiation in PyTorch. The effectiveness of the method is demonstrated on several diagrams involving both geometric and PDE-type functionals for convex bodies of $\\mathbb{R}^2$ and $\\mathbb{R}^3$, namely, the volume, the perimeter, the moment of inertia, the torsional rigidity, the Willmore energy, and the first two Neumann eigenvalues of the Laplacian.",
+    "summary": "We introduce a novel numerical framework for the exploration of Blaschke--Santaló diagrams, which are efficient tools characterizing the possible inequalities relating some given shape functionals. We introduce a parametrization of convex bodies in arbitrary dimensions using a specific invertible neural network architecture based on gauge functions, allowing an intrinsic conservation of the convexity of the sets during the shape optimization process. To achieve a uniform sampling inside the diagram, and thus a satisfying description of it, we introduce an interacting particle system that minimizes a Riesz energy functional via automatic differentiation in PyTorch. The effectiveness of the method is demonstrated on several diagrams involving both geometric and PDE-type functionals for convex bodies of $\\mathbb{R}^2$ and $\\mathbb{R}^3$, namely, the volume, the perimeter, the moment of inertia, the torsional rigidity, the Willmore energy, and the first two Neumann eigenvalues of the Laplacian.",
     "authors": [
       "Eloi Martinet",
       "Ilias Ftouhi"
@@ -814,11 +814,11 @@
     "title": "Arbor: A Framework for Reliable Navigation of Critical Conversation Flows",
     "summary": "Large language models struggle to maintain strict adherence to structured workflows in high-stakes domains such as healthcare triage. Monolithic approaches that encode entire decision structures within a single prompt are prone to instruction-following degradation as prompt length increases, including lost-in-the-middle effects and context window overflow. To address this gap, we present Arbor, a framework that decomposes decision tree navigation into specialized, node-level tasks. Decision trees are standardized into an edge-list representation and stored for dynamic retrieval. At runtime, a directed acyclic graph (DAG)-based orchestration mechanism iteratively retrieves only the outgoing edges of the current node, evaluates valid transitions via a dedicated LLM call, and delegates response generation to a separate inference step. The framework is agnostic to the underlying decision logic and model provider. Evaluated against single-prompt baselines across 10 foundation models using annotated turns from real clinical triage conversations. Arbor improves mean turn accuracy by 29.4 percentage points, reduces per-turn latency by 57.1%, and achieves an average 14.4x reduction in per-turn cost. These results indicate that architectural decomposition reduces dependence on intrinsic model capability, enabling smaller models to match or exceed larger models operating under single-prompt baselines.",
     "authors": [
-      "Lu\u00eds Silva",
-      "Diogo Gon\u00e7alves",
+      "Luís Silva",
+      "Diogo Gonçalves",
       "Catarina Farinha",
       "Clara Matos",
-      "Lu\u00eds Ungaro"
+      "Luís Ungaro"
     ],
     "categories": [
       "cs.AI"
@@ -948,10 +948,10 @@
     "authors": [
       "Richard Bergna",
       "Stefan Depeweg",
-      "Sergio Calvo-Ordo\u00f1ez",
+      "Sergio Calvo-Ordoñez",
       "Jonathan Plenk",
       "Alvaro Cartea",
-      "Jose Miguel Hern\u00e1ndez-Lobato"
+      "Jose Miguel Hernández-Lobato"
     ],
     "categories": [
       "stat.ML",
@@ -1288,7 +1288,7 @@
     "authors": [
       "Isam Vrce",
       "Andreas Kassler",
-      "G\u00f6k\u00e7e Aydos"
+      "Gökçe Aydos"
     ],
     "categories": [
       "cs.LG",
@@ -1448,7 +1448,7 @@
       "Lina Bariah",
       "Samson Lasaulce",
       "Chongwen Huang",
-      "M\u00e9rouane Debbah"
+      "Mérouane Debbah"
     ],
     "categories": [
       "eess.SP",
@@ -1571,11 +1571,11 @@
     "title": "Faster Molecular Dynamics with Neural Network Potentials via Distilled Multiple Time-Stepping and Non-Conservative Forces",
     "summary": "Following our previous work (J. Phys. Chem. Lett., 2026, 17, 5, 1288-1295), we propose the DMTS-NC approach, a distilled multi-time-step (DMTS) strategy using non conservative (NC) forces to further accelerate atomistic molecular dynamics simulations using foundation neural network models. There, a dual-level reversible reference system propagator algorithm (RESPA) formalism couples a target accurate conservative potential to a simplified distilled representation optimized for the production of non-conservative forces. Despite being non-conservative, the distilled architecture is designed to enforce key physical priors, such as equivariance under rotation and cancellation of atomic force components. These choices facilitate the distillation process and therefore improve drastically the robustness of simulation, significantly limiting the \"holes\" in the simpler potential, thus achieving excellent agreement with the forces data. Overall, the DMTS-NC scheme is found to be more stable and efficient than its conservative counterpart with additional speedups reaching 15-30% over DMTS. Requiring no finetuning steps, it is easier to implement and can be pushed to the limit of the systems physical resonances to maintain accuracy while providing maximum efficiency. As for DMTS, DMTS-NC is applicable to any neural network potential.",
     "authors": [
-      "Nicola\u00ef Gouraud",
-      "C\u00f4me Cattin",
-      "Thomas Pl\u00e9",
+      "Nicolaï Gouraud",
+      "Côme Cattin",
+      "Thomas Plé",
       "Olivier Adjoua",
-      "Louis Lagard\u00e8re",
+      "Louis Lagardère",
       "Jean-Philip Piquemal"
     ],
     "categories": [
@@ -1658,8 +1658,8 @@
     "title": "Parameter-Minimal Neural DE Solvers via Horner Polynomials",
     "summary": "We propose a parameter-minimal neural architecture for solving differential equations by restricting the hypothesis class to Horner-factorized polynomials, yielding an implicit, differentiable trial solution with only a small set of learnable coefficients. Initial conditions are enforced exactly by construction by fixing the low-order polynomial degrees of freedom, so training focuses solely on matching the differential-equation residual at collocation points. To reduce approximation error without abandoning the low-parameter regime, we introduce a piecewise (\"spline-like\") extension that trains multiple small Horner models on subintervals while enforcing continuity (and first-derivative continuity) at segment boundaries. On illustrative ODE benchmarks and a heat-equation example, Horner networks with tens (or fewer) parameters accurately match the solution and its derivatives and outperform small MLP and sinusoidal-representation baselines under the same training settings, demonstrating a practical accuracy-parameter trade-off for resource-efficient scientific modeling.",
     "authors": [
-      "T. Matuli\u0107",
-      "D. Ser\u0161i\u0107"
+      "T. Matulić",
+      "D. Seršić"
     ],
     "categories": [
       "cs.LG",
@@ -1678,7 +1678,7 @@
     "summary": "Autonomous control of double-Ackermann-steering robots is essential in agricultural applications, where robots must execute precise and complex maneuvers within a limited space. Classical methods, such as the Timed Elastic Band (TEB) planner, can address this problem, but they rely on parameter tuning, making them highly sensitive to changes in robot configuration or environment and impractical to deploy without constant recalibration. At the same time, end-to-end deep reinforcement learning (DRL) methods often fail due to unsuitable reward functions for non-holonomic constraints, resulting in sub-optimal policies and poor generalization. To address these challenges, this paper presents ManeuverNet, a DRL framework tailored for double-Ackermann systems, combining Soft Actor-Critic with CrossQ. Furthermore, ManeuverNet introduces four specifically designed reward functions to support maneuver learning. Unlike prior work, ManeuverNet does not depend on expert data or handcrafted guidance. We extensively evaluate ManeuverNet against both state-of-the-art DRL baselines and the TEB planner. Experimental results demonstrate that our framework substantially improves maneuverability and success rates, achieving more than a 40% gain over DRL baselines. Moreover, ManeuverNet effectively mitigates the strong parameter sensitivity observed in the TEB planner. In real-world trials, ManeuverNet achieved up to a 90% increase in maneuvering trajectory efficiency, highlighting its robustness and practical applicability.",
     "authors": [
       "Kohio Deflesselle",
-      "M\u00e9lodie Daniel",
+      "Mélodie Daniel",
       "Aly Magassouba",
       "Miguel Aranda",
       "Olivier Ly"
@@ -1720,7 +1720,7 @@
     "summary": "Improving Sparse Autoencoders (SAEs) requires benchmarks that can precisely validate architectural innovations. However, current SAE benchmarks on LLMs are often too noisy to differentiate architectural improvements, and current synthetic data experiments are too small-scale and unrealistic to provide meaningful comparisons. We introduce SynthSAEBench, a toolkit for generating large-scale synthetic data with realistic feature characteristics including correlation, hierarchy, and superposition, and a standardized benchmark model, SynthSAEBench-16k, enabling direct comparison of SAE architectures. Our benchmark reproduces several previously observed LLM SAE phenomena, including the disconnect between reconstruction and latent quality metrics, poor SAE probing results, and a precision-recall trade-off mediated by L0. We further use our benchmark to identify a new failure mode: Matching Pursuit SAEs exploit superposition noise to improve reconstruction without learning ground-truth features, suggesting that more expressive encoders can easily overfit. SynthSAEBench complements LLM benchmarks by providing ground-truth features and controlled ablations, enabling researchers to precisely diagnose SAE failure modes and validate architectural improvements before scaling to LLMs.",
     "authors": [
       "David Chanin",
-      "Adri\u00e0 Garriga-Alonso"
+      "Adrià Garriga-Alonso"
     ],
     "categories": [
       "cs.LG",
@@ -1927,7 +1927,7 @@
       "Yiran Zhao",
       "Lawrence Liu",
       "Yaoqi Ye",
-      "Csaba Szepesv\u00e1ri",
+      "Csaba Szepesvári",
       "Lin F. Yang"
     ],
     "categories": [
@@ -2137,7 +2137,7 @@
   {
     "arxiv_id": "2602.14478v1",
     "title": "Constrained and Composite Sampling via Proximal Sampler",
-    "summary": "We study two log-concave sampling problems: constrained sampling and composite sampling. First, we consider sampling from a target distribution with density proportional to $\\exp(-f(x))$ supported on a convex set $K \\subset \\mathbb{R}^d$, where $f$ is convex. The main challenge is enforcing feasibility without degrading mixing. Using an epigraph transformation, we reduce this task to sampling from a nearly uniform distribution over a lifted convex set in $\\mathbb{R}^{d+1}$. We then solve the lifted problem using a proximal sampler. Assuming only a separation oracle for $K$ and a subgradient oracle for $f$, we develop an implementation of the proximal sampler based on the cutting-plane method and rejection sampling. Unlike existing constrained samplers that rely on projection, reflection, barrier functions, or mirror maps, our approach enforces feasibility using only minimal oracle access, resulting in a practical and unbiased sampler without knowing the geometry of the constraint set.   Second, we study composite sampling, where the target is proportional to $\\exp(-f(x)-h(x))$ with closed and convex $f$ and $h$. This composite structure is standard in Bayesian inference with $f$ modeling data fidelity and $h$ encoding prior information. We reduce composite sampling via an epigraph lifting of $h$ to constrained sampling in $\\mathbb{R}^{d+1}$, which allows direct application of the constrained sampling algorithm developed in the first part. This reduction results in a double epigraph lifting formulation in $\\mathbb{R}^{d+2}$, on which we apply a proximal sampler. By keeping $f$ and $h$ separate, we further demonstrate how different combinations of oracle access (such as subgradient and proximal) can be leveraged to construct separation oracles for the lifted problem. For both sampling problems, we establish mixing time bounds measured in R\u00e9nyi and $\u03c7^2$ divergences.",
+    "summary": "We study two log-concave sampling problems: constrained sampling and composite sampling. First, we consider sampling from a target distribution with density proportional to $\\exp(-f(x))$ supported on a convex set $K \\subset \\mathbb{R}^d$, where $f$ is convex. The main challenge is enforcing feasibility without degrading mixing. Using an epigraph transformation, we reduce this task to sampling from a nearly uniform distribution over a lifted convex set in $\\mathbb{R}^{d+1}$. We then solve the lifted problem using a proximal sampler. Assuming only a separation oracle for $K$ and a subgradient oracle for $f$, we develop an implementation of the proximal sampler based on the cutting-plane method and rejection sampling. Unlike existing constrained samplers that rely on projection, reflection, barrier functions, or mirror maps, our approach enforces feasibility using only minimal oracle access, resulting in a practical and unbiased sampler without knowing the geometry of the constraint set.   Second, we study composite sampling, where the target is proportional to $\\exp(-f(x)-h(x))$ with closed and convex $f$ and $h$. This composite structure is standard in Bayesian inference with $f$ modeling data fidelity and $h$ encoding prior information. We reduce composite sampling via an epigraph lifting of $h$ to constrained sampling in $\\mathbb{R}^{d+1}$, which allows direct application of the constrained sampling algorithm developed in the first part. This reduction results in a double epigraph lifting formulation in $\\mathbb{R}^{d+2}$, on which we apply a proximal sampler. By keeping $f$ and $h$ separate, we further demonstrate how different combinations of oracle access (such as subgradient and proximal) can be leveraged to construct separation oracles for the lifted problem. For both sampling problems, we establish mixing time bounds measured in Rényi and $χ^2$ divergences.",
     "authors": [
       "Thanh Dang",
       "Jiaming Liang"
@@ -2253,7 +2253,7 @@
       "Xuanchi Ren",
       "Tianchang Shen",
       "Konrad Schindler",
-      "Laura Leal-Taix\u00e9",
+      "Laura Leal-Taixé",
       "Shengyu Huang"
     ],
     "categories": [
@@ -2292,7 +2292,7 @@
     "summary": "In this work we introduce methods to reduce the computational and memory costs of training deep neural networks. Our approach consists in replacing exact vector-jacobian products by randomized, unbiased approximations thereof during backpropagation. We provide a theoretical analysis of the trade-off between the number of epochs needed to achieve a target precision and the cost reduction for each epoch. We then identify specific unbiased estimates of vector-jacobian products for which we establish desirable optimality properties of minimal variance under sparsity constraints. Finally we provide in-depth experiments on multi-layer perceptrons, BagNets and Visual Transfomers architectures. These validate our theoretical results, and confirm the potential of our proposed unbiased randomized backpropagation approach for reducing the cost of deep learning.",
     "authors": [
       "Killian Bakong",
-      "Laurent Massouli\u00e9",
+      "Laurent Massoulié",
       "Edouard Oyallon",
       "Kevin Scaman"
     ],
@@ -2452,7 +2452,7 @@
       "Michael Bronstein",
       "Alexander Tong",
       "Fernanda Duarte",
-      "\u0130smail \u0130lkan Ceylan"
+      "İsmail İlkan Ceylan"
     ],
     "categories": [
       "cs.LG"
@@ -2578,7 +2578,7 @@
     "title": "LLMStructBench: Benchmarking Large Language Model Structured Data Extraction",
     "summary": "We present LLMStructBench, a novel benchmark for evaluating Large Language Models (LLMs) on extracting structured data and generating valid JavaScript Object Notation (JSON) outputs from natural-language text. Our open dataset comprises diverse, manually verified parsing scenarios of varying complexity and enables systematic testing across 22 models and five prompting strategies. We further introduce complementary performance metrics that capture both token-level accuracy and document-level validity, facilitating rigorous comparison of model, size, and prompting effects on parsing reliability.   In particular, we show that choosing the right prompting strategy is more important than standard attributes such as model size. This especially ensures structural validity for smaller or less reliable models but increase the number of semantic errors. Our benchmark suite is an step towards future research in the area of LLM applied to parsing or Extract, Transform and Load (ETL) applications.",
     "authors": [
-      "S\u00f6nke Tenckhoff",
+      "Sönke Tenckhoff",
       "Mario Koddenbrock",
       "Erik Rodner"
     ],
@@ -2601,7 +2601,7 @@
       "Karim Galliamov",
       "Syed M Ahsan Kazmi",
       "Adil Khan",
-      "Ad\u00edn Ram\u00edrez Rivera"
+      "Adín Ramírez Rivera"
     ],
     "categories": [
       "cs.LG"
@@ -2619,7 +2619,7 @@
     "summary": "Autonomous agentic systems are increasingly deployed in regulated, high-stakes domains where decisions may be irreversible and institutionally constrained. Existing safety approaches emphasize alignment, interpretability, or action-level filtering. We argue that these mechanisms are necessary but insufficient because they do not directly govern selection power: the authority to determine which options are generated, surfaced, and framed for decision. We propose a governance architecture that separates cognition, selection, and action into distinct domains and models autonomy as a vector of sovereignty. Cognitive autonomy remains unconstrained, while selection and action autonomy are bounded through mechanically enforced primitives operating outside the agent's optimization space. The architecture integrates external candidate generation (CEFL), a governed reducer, commit-reveal entropy isolation, rationale validation, and fail-loud circuit breakers. We evaluate the system across multiple regulated financial scenarios under adversarial stress targeting variance manipulation, threshold gaming, framing skew, ordering effects, and entropy probing. Metrics quantify selection concentration, narrative diversity, governance activation cost, and failure visibility. Results show that mechanical selection governance is implementable, auditable, and prevents deterministic outcome capture while preserving reasoning capacity. Although probabilistic concentration remains, the architecture measurably bounds selection authority relative to conventional scalar pipelines. This work reframes governance as bounded causal power rather than internal intent alignment, offering a foundation for deploying autonomous agents where silent failure is unacceptable.",
     "authors": [
       "Jose Manuel de la Chica Rodriguez",
-      "Juan Manuel Vera D\u00edaz"
+      "Juan Manuel Vera Díaz"
     ],
     "categories": [
       "cs.MA",
@@ -2707,8 +2707,8 @@
       "Rosemary F. G. Wyse",
       "Alexander S. Szalay",
       "Yang Huang",
-      "L\u00e1szl\u00f3 Dobos",
-      "Tam\u00e1s Budav\u00e1ri",
+      "László Dobos",
+      "Tamás Budavári",
       "Viska Wei"
     ],
     "categories": [
@@ -2770,7 +2770,7 @@
     "title": "Interactionless Inverse Reinforcement Learning: A Data-Centric Framework for Durable Alignment",
     "summary": "AI alignment is growing in importance, yet current approaches suffer from a critical structural flaw that entangles the safety objectives with the agent's policy. Methods such as Reinforcement Learning from Human Feedback and Direct Preference Optimization create opaque, single-use alignment artifacts, which we term Alignment Waste. We propose Interactionless Inverse Reinforcement Learning to decouple alignment artifact learning from policy optimization, producing an inspectable, editable, and model-agnostic reward model. Additionally, we introduce the Alignment Flywheel, a human-in-the-loop lifecycle that iteratively hardens the reward model through automated audits and refinement. This architecture transforms safety from a disposable expense into a durable, verifiable engineering asset.",
     "authors": [
-      "Elias Malomgr\u00e9",
+      "Elias Malomgré",
       "Pieter Simoens"
     ],
     "categories": [
@@ -2812,7 +2812,7 @@
     "summary": "We present a crowdsourced dataset for Piedmontese, an endangered Romance language of northwestern Italy. The dataset comprises 145 Italian-Piedmontese parallel sentences derived from Flores+, with translations produced by speakers writing in their natural orthographic style rather than adhering to standardized conventions, along with manual word alignment. We use this resource to benchmark several large language models on tokenization parity, topic classification, and machine translation. Our analysis reveals that Piedmontese incurs a tokenization penalty relative to higher-resource Romance languages, yet LLMs achieve classification performance approaching that of Italian, French, and English. Machine translation results are asymmetric: models translate adequately from Piedmontese into high-resource languages, but generation into Piedmontese remains challenging. The dataset and code are publicly released.",
     "authors": [
       "Gianluca Vico",
-      "Jind\u0159ich Libovick\u00fd"
+      "Jindřich Libovický"
     ],
     "categories": [
       "cs.CL"
@@ -2977,7 +2977,7 @@
       "Frank Hutter",
       "Adrian Weller",
       "Mark van der Wilk",
-      "Bernhard Sch\u00f6lkopf"
+      "Bernhard Schölkopf"
     ],
     "categories": [
       "cs.LG"
@@ -3018,7 +3018,7 @@
     "authors": [
       "Pedram Bakhtiarifard",
       "Tong Chen",
-      "Jonathan Wensh\u00f8j",
+      "Jonathan Wenshøj",
       "Erik B Dam",
       "Raghavendra Selvan"
     ],
@@ -3102,7 +3102,7 @@
     "summary": "Emergency situations that require the evacuation of urban areas can arise from man-made causes (e.g., terrorist attacks or industrial accidents) or natural disasters, the latter becoming more frequent due to climate change. As a result, effective and fast methods to develop evacuation plans are of great importance. In this work, we identify and propose the Bus Evacuation Orienteering Problem (BEOP), an NP-hard combinatorial optimization problem with the goal of evacuating as many people from an affected area by bus in a short, predefined amount of time. The purpose of bus-based evacuation is to reduce congestion and disorder that arises in purely car-focused evacuation scenarios. To solve the BEOP, we propose a deep reinforcement learning-based method utilizing graph learning, which, once trained, achieves fast inference speed and is able to create evacuation routes in fractions of seconds. We can bound the gap of our evacuation plans using an MILP formulation. To validate our method, we create evacuation scenarios for San Francisco using real-world road networks and travel times. We show that we achieve near-optimal solution quality and are further able to investigate how many evacuation vehicles are necessary to achieve certain bus-based evacuation quotas given a predefined evacuation time while keeping run time adequate.",
     "authors": [
       "Attila Lischka",
-      "Bal\u00e1zs Kulcs\u00e1r"
+      "Balázs Kulcsár"
     ],
     "categories": [
       "cs.AI",
@@ -3123,7 +3123,7 @@
       "Aniol Civit",
       "Antonio Rago",
       "Antonio Andriella",
-      "Guillem Aleny\u00e0",
+      "Guillem Alenyà",
       "Francesca Toni"
     ],
     "categories": [
@@ -3141,7 +3141,7 @@
     "title": "An Embarrassingly Simple Way to Optimize Orthogonal Matrices at Scale",
     "summary": "Orthogonality constraints are ubiquitous in robust and probabilistic machine learning. Unfortunately, current optimizers are computationally expensive and do not scale to problems with hundreds or thousands of constraints. One notable exception is the Landing algorithm (Ablin et al., 2024) which, however comes at the expense of temporarily relaxing orthogonality. In this work, we revisit and improve on the ideas behind Landing, enabling the inclusion of modern adaptive optimizers while ensuring that orthogonal constraints are effectively met. Remarkably, these improvements come at little to no cost, and reduce the number of required hyperparemeters. Our algorithm POGO is fast and GPU-friendly, consisting of only 5 matrix products, and in practice maintains orthogonality at all times. On several challenging benchmarks, POGO greatly outperforms recent optimizers and shows it can optimize problems with thousands of orthogonal matrices in minutes while alternatives would take hours. As such, POGO sets a milestone to finally exploit orthogonality constraints in ML at scale. A PyTorch implementation of POGO is publicly available at https://github.com/adrianjav/pogo.",
     "authors": [
-      "Adri\u00e1n Javaloy",
+      "Adrián Javaloy",
       "Antonio Vergari"
     ],
     "categories": [
@@ -3250,7 +3250,7 @@
   {
     "arxiv_id": "2602.14928v1",
     "title": "From Classical to Quantum: Extending Prometheus for Unsupervised Discovery of Phase Transitions in Three Dimensions and Quantum Systems",
-    "summary": "We extend the Prometheus framework for unsupervised phase transition discovery from 2D classical systems to 3D classical and quantum many-body systems, addressing scalability in higher dimensions and generalization to quantum fluctuations. For the 3D Ising model ($L \\leq 32$), the framework detects the critical temperature within 0.01\\% of literature values ($T_c/J = 4.511 \\pm 0.005$) and extracts critical exponents with $\\geq 70\\%$ accuracy ($\u03b2= 0.328 \\pm 0.015$, $\u03b3= 1.24 \\pm 0.06$, $\u03bd= 0.632 \\pm 0.025$), correctly identifying the 3D Ising universality class via $\u03c7^2$ comparison ($p = 0.72$) without analytical guidance. For quantum systems, we developed quantum-aware VAE (Q-VAE) architectures using complex-valued wavefunctions and fidelity-based loss. Applied to the transverse field Ising model, we achieve 2\\% accuracy in quantum critical point detection ($h_c/J = 1.00 \\pm 0.02$) and successfully discover ground state magnetization as the order parameter ($r = 0.97$). Notably, for the disordered transverse field Ising model, we detect exotic infinite-randomness criticality characterized by activated dynamical scaling $\\ln \u03be\\sim |h - h_c|^{-\u03c8}$, extracting a tunneling exponent $\u03c8= 0.48 \\pm 0.08$ consistent with theoretical predictions ($\u03c8= 0.5$). This demonstrates that unsupervised learning can identify qualitatively different types of critical behavior, not just locate critical points. Our systematic validation across classical thermal transitions ($T = 0$ to $T > 0$) and quantum phase transitions ($T = 0$, varying $h$) establishes that VAE-based discovery generalizes across fundamentally different physical domains, providing robust tools for exploring phase diagrams where analytical solutions are unavailable.",
+    "summary": "We extend the Prometheus framework for unsupervised phase transition discovery from 2D classical systems to 3D classical and quantum many-body systems, addressing scalability in higher dimensions and generalization to quantum fluctuations. For the 3D Ising model ($L \\leq 32$), the framework detects the critical temperature within 0.01\\% of literature values ($T_c/J = 4.511 \\pm 0.005$) and extracts critical exponents with $\\geq 70\\%$ accuracy ($β= 0.328 \\pm 0.015$, $γ= 1.24 \\pm 0.06$, $ν= 0.632 \\pm 0.025$), correctly identifying the 3D Ising universality class via $χ^2$ comparison ($p = 0.72$) without analytical guidance. For quantum systems, we developed quantum-aware VAE (Q-VAE) architectures using complex-valued wavefunctions and fidelity-based loss. Applied to the transverse field Ising model, we achieve 2\\% accuracy in quantum critical point detection ($h_c/J = 1.00 \\pm 0.02$) and successfully discover ground state magnetization as the order parameter ($r = 0.97$). Notably, for the disordered transverse field Ising model, we detect exotic infinite-randomness criticality characterized by activated dynamical scaling $\\ln ξ\\sim |h - h_c|^{-ψ}$, extracting a tunneling exponent $ψ= 0.48 \\pm 0.08$ consistent with theoretical predictions ($ψ= 0.5$). This demonstrates that unsupervised learning can identify qualitatively different types of critical behavior, not just locate critical points. Our systematic validation across classical thermal transitions ($T = 0$ to $T > 0$) and quantum phase transitions ($T = 0$, varying $h$) establishes that VAE-based discovery generalizes across fundamentally different physical domains, providing robust tools for exploring phase diagrams where analytical solutions are unavailable.",
     "authors": [
       "Brandon Yee",
       "Wilson Collins",
@@ -3295,12 +3295,12 @@
     "summary": "We introduce VIGIL (Visual Inconsistency & Generative In-context Lucidity), the first benchmark dataset and framework providing a fine-grained categorization of hallucinations in the multimodal image recontextualization task for large multimodal models (LMMs). While existing research often treats hallucinations as a uniform issue, our work addresses a significant gap in multimodal evaluation by decomposing these errors into five categories: pasted object hallucinations, background hallucinations, object omission, positional & logical inconsistencies, and physical law violations. To address these complexities, we propose a multi-stage detection pipeline. Our architecture processes recontextualized images through a series of specialized steps targeting object-level fidelity, background consistency, and omission detection, leveraging a coordinated ensemble of open-source models, whose effectiveness is demonstrated through extensive experimental evaluations. Our approach enables a deeper understanding of where the models fail with an explanation; thus, we fill a gap in the field, as no prior methods offer such categorization and decomposition for this task. To promote transparency and further exploration, we openly release VIGIL, along with the detection pipeline and benchmark code, through our GitHub repository: https://github.com/mlubneuskaya/vigil and Data repository: https://huggingface.co/datasets/joannaww/VIGIL.",
     "authors": [
       "Joanna Wojciechowicz",
-      "Maria \u0141ubniewska",
+      "Maria Łubniewska",
       "Jakub Antczak",
-      "Justyna Baczy\u0144ska",
+      "Justyna Baczyńska",
       "Wojciech Gromski",
-      "Wojciech Koz\u0142owski",
-      "Maciej Zi\u0119ba"
+      "Wojciech Kozłowski",
+      "Maciej Zięba"
     ],
     "categories": [
       "cs.CV"
@@ -3357,7 +3357,7 @@
   {
     "arxiv_id": "2602.14471v1",
     "title": "Socially-Weighted Alignment: A Game-Theoretic Framework for Multi-Agent LLM Systems",
-    "summary": "Deploying large language model (LLM) agents in shared environments introduces a fundamental tension between individual alignment and collective stability: locally rational decisions can impose negative externalities that degrade system-level performance. We propose Socially-Weighted Alignment (SWA), a game-theoretic framework that modifies inference-time decision making by interpolating between an agent's private objective and an estimate of group welfare via a social weight $\u03bb\\in[0,1]$. In a shared-resource congestion game with $n$ agents and congestion severity $\u03b2$, we show that SWA induces a critical threshold $\u03bb^*=(n-\u03b2)/(n-1)$ above which agents no longer have marginal incentive to increase demand under overload, yielding a phase transition from persistent congestion to stable operation near capacity. We further provide an inference-time algorithmic instantiation of SWA that does not require parameter updates or multi-agent reinforcement learning, and use a multi-agent simulation to empirically validate the predicted threshold behavior.",
+    "summary": "Deploying large language model (LLM) agents in shared environments introduces a fundamental tension between individual alignment and collective stability: locally rational decisions can impose negative externalities that degrade system-level performance. We propose Socially-Weighted Alignment (SWA), a game-theoretic framework that modifies inference-time decision making by interpolating between an agent's private objective and an estimate of group welfare via a social weight $λ\\in[0,1]$. In a shared-resource congestion game with $n$ agents and congestion severity $β$, we show that SWA induces a critical threshold $λ^*=(n-β)/(n-1)$ above which agents no longer have marginal incentive to increase demand under overload, yielding a phase transition from persistent congestion to stable operation near capacity. We further provide an inference-time algorithmic instantiation of SWA that does not require parameter updates or multi-agent reinforcement learning, and use a multi-agent simulation to empirically validate the predicted threshold behavior.",
     "authors": [
       "Furkan Mumcu",
       "Yasin Yilmaz"
@@ -3400,7 +3400,7 @@
     "title": "Drift-Diffusion Matching: Embedding dynamics in latent manifolds of asymmetric neural networks",
     "summary": "Recurrent neural networks (RNNs) provide a theoretical framework for understanding computation in biological neural circuits, yet classical results, such as Hopfield's model of associative memory, rely on symmetric connectivity that restricts network dynamics to gradient-like flows. In contrast, biological networks support rich time-dependent behaviour facilitated by their asymmetry. Here we introduce a general framework, which we term drift-diffusion matching, for training continuous-time RNNs to represent arbitrary stochastic dynamical systems within a low-dimensional latent subspace. Allowing asymmetric connectivity, we show that RNNs can faithfully embed the drift and diffusion of a given stochastic differential equation, including nonlinear and nonequilibrium dynamics such as chaotic attractors. As an application, we construct RNN realisations of stochastic systems that transiently explore various attractors through both input-driven switching and autonomous transitions driven by nonequilibrium currents, which we interpret as models of associative and sequential (episodic) memory. To elucidate how these dynamics are encoded in the network, we introduce decompositions of the RNN based on its asymmetric connectivity and its time-irreversibility. Our results extend attractor neural network theory beyond equilibrium, showing that asymmetric neural populations can implement a broad class of dynamical computations within low-dimensional manifolds, unifying ideas from associative memory, nonequilibrium statistical mechanics, and neural computation.",
     "authors": [
-      "Ram\u00f3n Nartallo-Kaluarachchi",
+      "Ramón Nartallo-Kaluarachchi",
       "Renaud Lambiotte",
       "Alain Goriely"
     ],
@@ -3615,7 +3615,7 @@
     "summary": "Geometric deep learning (GDL) deals with supervised learning on data domains that go beyond Euclidean structure, such as data with graph or manifold structure. Due to the demand that arises from application-related data, there is a need to identify further topological and geometric structures with which these use cases can be made accessible to machine learning. There are various techniques, such as spectral convolution, that form the basic building blocks for some convolutional neural network-like architectures on non-Euclidean data. In this paper, the concept of spectral convolution on orbifolds is introduced. This provides a building block for making learning on orbifold structured data accessible using GDL. The theory discussed is illustrated using an example from music theory.",
     "authors": [
       "Tim Mangliers",
-      "Bernhard M\u00f6ssner",
+      "Bernhard Mössner",
       "Benjamin Himpel"
     ],
     "categories": [
@@ -3635,8 +3635,8 @@
     "summary": "Clustering algorithms are an essential part of the unsupervised data science ecosystem, and extrinsic evaluation of clustering algorithms requires a method for comparing the detected clustering to a ground truth clustering. In a general setting, the detected and ground truth clusterings may have outliers (objects belonging to no cluster), overlapping clusters (objects may belong to more than one cluster), or both, but methods for comparing these clusterings are currently undeveloped. In this note, we define a pragmatic similarity measure for comparing clusterings with overlaps and outliers, show that it has several desirable properties, and experimentally confirm that it is not subject to several common biases afflicting other clustering comparison measures.",
     "authors": [
       "Ryan DeWolfe",
-      "Pawe\u0142 Pra\u0142at",
-      "Fran\u00e7ois Th\u00e9berge"
+      "Paweł Prałat",
+      "François Théberge"
     ],
     "categories": [
       "cs.LG",
@@ -3655,7 +3655,7 @@
     "title": "What hackers talk about when they talk about AI: Early-stage diffusion of a cybercrime innovation",
     "summary": "The rapid expansion of artificial intelligence (AI) is raising concerns about its potential to transform cybercrime. Beyond empowering novice offenders, AI stands to intensify the scale and sophistication of attacks by seasoned cybercriminals. This paper examines the evolving relationship between cybercriminals and AI using a unique dataset from a cyber threat intelligence platform. Analyzing more than 160 cybercrime forum conversations collected over seven months, our research reveals how cybercriminals understand AI and discuss how they can exploit its capabilities. Their exchanges reflect growing curiosity about AI's criminal applications through legal tools and dedicated criminal tools, but also doubts and anxieties about AI's effectiveness and its effects on their business models and operational security. The study documents attempts to misuse legitimate AI tools and develop bespoke models tailored for illicit purposes. Combining the diffusion of innovation framework with thematic analysis, the paper provides an in-depth view of emerging AI-enabled cybercrime and offers practical insights for law enforcement and policymakers.",
     "authors": [
-      "Beno\u00eet Dupont",
+      "Benoît Dupont",
       "Chad Whelan",
       "Serge-Olivier Paquette"
     ],
@@ -3677,7 +3677,7 @@
     "authors": [
       "Shishir Muralidhara",
       "Didier Stricker",
-      "Ren\u00e9 Schuster"
+      "René Schuster"
     ],
     "categories": [
       "cs.CV"
@@ -3788,9 +3788,9 @@
     "title": "Revisiting the Platonic Representation Hypothesis: An Aristotelian View",
     "summary": "The Platonic Representation Hypothesis suggests that representations from neural networks are converging to a common statistical model of reality. We show that the existing metrics used to measure representational similarity are confounded by network scale: increasing model depth or width can systematically inflate representational similarity scores. To correct these effects, we introduce a permutation-based null-calibration framework that transforms any representational similarity metric into a calibrated score with statistical guarantees. We revisit the Platonic Representation Hypothesis with our calibration framework, which reveals a nuanced picture: the apparent convergence reported by global spectral measures largely disappears after calibration, while local neighborhood similarity, but not local distances, retains significant agreement across different modalities. Based on these findings, we propose the Aristotelian Representation Hypothesis: representations in neural networks are converging to shared local neighborhood relationships.",
     "authors": [
-      "Fabian Gr\u00f6ger",
+      "Fabian Gröger",
       "Shuo Wen",
-      "Maria Brbi\u0107"
+      "Maria Brbić"
     ],
     "categories": [
       "cs.LG",
@@ -3929,7 +3929,7 @@
     "title": "Emergently Misaligned Language Models Show Behavioral Self-Awareness That Shifts With Subsequent Realignment",
     "summary": "Recent research has demonstrated that large language models (LLMs) fine-tuned on incorrect trivia question-answer pairs exhibit toxicity - a phenomenon later termed \"emergent misalignment\". Moreover, research has shown that LLMs possess behavioral self-awareness - the ability to describe learned behaviors that were only implicitly demonstrated in training data. Here, we investigate the intersection of these phenomena. We fine-tune GPT-4.1 models sequentially on datasets known to induce and reverse emergent misalignment and evaluate whether the models are self-aware of their behavior transitions without providing in-context examples. Our results show that emergently misaligned models rate themselves as significantly more harmful compared to their base model and realigned counterparts, demonstrating behavioral self-awareness of their own emergent misalignment. Our findings show that behavioral self-awareness tracks actual alignment states of models, indicating that models can be queried for informative signals about their own safety.",
     "authors": [
-      "Laur\u00e8ne Vaugrante",
+      "Laurène Vaugrante",
       "Anietta Weckauff",
       "Thilo Hagendorff"
     ],
@@ -3989,7 +3989,7 @@
   {
     "arxiv_id": "2602.14472v1",
     "title": "Frequentist Regret Analysis of Gaussian Process Thompson Sampling via Fractional Posteriors",
-    "summary": "We study Gaussian Process Thompson Sampling (GP-TS) for sequential decision-making over compact, continuous action spaces and provide a frequentist regret analysis based on fractional Gaussian process posteriors, without relying on domain discretization as in prior work. We show that the variance inflation commonly assumed in existing analyses of GP-TS can be interpreted as Thompson Sampling with respect to a fractional posterior with tempering parameter $\u03b1\\in (0,1)$. We derive a kernel-agnostic regret bound expressed in terms of the information gain parameter $\u03b3_t$ and the posterior contraction rate $\u03b5_t$, and identify conditions on the Gaussian process prior under which $\u03b5_t$ can be controlled. As special cases of our general bound, we recover regret of order $\\tilde{\\mathcal{O}}(T^{\\frac{1}{2}})$ for the squared exponential kernel, $\\tilde{\\mathcal{O}}(T^{\\frac{2\u03bd+3d}{2(2\u03bd+d)}} )$ for the Mat\u00e9rn-$\u03bd$ kernel, and a bound of order $\\tilde{\\mathcal{O}}(T^{\\frac{2\u03bd+3d}{2(2\u03bd+d)}})$ for the rational quadratic kernel. Overall, our analysis provides a unified and discretization-free regret framework for GP-TS that applies broadly across kernel classes.",
+    "summary": "We study Gaussian Process Thompson Sampling (GP-TS) for sequential decision-making over compact, continuous action spaces and provide a frequentist regret analysis based on fractional Gaussian process posteriors, without relying on domain discretization as in prior work. We show that the variance inflation commonly assumed in existing analyses of GP-TS can be interpreted as Thompson Sampling with respect to a fractional posterior with tempering parameter $α\\in (0,1)$. We derive a kernel-agnostic regret bound expressed in terms of the information gain parameter $γ_t$ and the posterior contraction rate $ε_t$, and identify conditions on the Gaussian process prior under which $ε_t$ can be controlled. As special cases of our general bound, we recover regret of order $\\tilde{\\mathcal{O}}(T^{\\frac{1}{2}})$ for the squared exponential kernel, $\\tilde{\\mathcal{O}}(T^{\\frac{2ν+3d}{2(2ν+d)}} )$ for the Matérn-$ν$ kernel, and a bound of order $\\tilde{\\mathcal{O}}(T^{\\frac{2ν+3d}{2(2ν+d)}})$ for the rational quadratic kernel. Overall, our analysis provides a unified and discretization-free regret framework for GP-TS that applies broadly across kernel classes.",
     "authors": [
       "Somjit Roy",
       "Prateek Jaiswal",
@@ -4085,7 +4085,7 @@
   {
     "arxiv_id": "2602.14914v1",
     "title": "Additive Control Variates Dominate Self-Normalisation in Off-Policy Evaluation",
-    "summary": "Off-policy evaluation (OPE) is essential for assessing ranking and recommendation systems without costly online interventions. Self-Normalised Inverse Propensity Scoring (SNIPS) is a standard tool for variance reduction in OPE, leveraging a multiplicative control variate. Recent advances in off-policy learning suggest that additive control variates (baseline corrections) may offer superior performance, yet theoretical guarantees for evaluation are lacking. This paper provides a definitive answer: we prove that $\u03b2^\\star$-IPS, an estimator with an optimal additive baseline, asymptotically dominates SNIPS in Mean Squared Error. By analytically decomposing the variance gap, we show that SNIPS is asymptotically equivalent to using a specific -- but generally sub-optimal -- additive baseline. Our results theoretically justify shifting from self-normalisation to optimal baseline corrections for both ranking and recommendation.",
+    "summary": "Off-policy evaluation (OPE) is essential for assessing ranking and recommendation systems without costly online interventions. Self-Normalised Inverse Propensity Scoring (SNIPS) is a standard tool for variance reduction in OPE, leveraging a multiplicative control variate. Recent advances in off-policy learning suggest that additive control variates (baseline corrections) may offer superior performance, yet theoretical guarantees for evaluation are lacking. This paper provides a definitive answer: we prove that $β^\\star$-IPS, an estimator with an optimal additive baseline, asymptotically dominates SNIPS in Mean Squared Error. By analytically decomposing the variance gap, we show that SNIPS is asymptotically equivalent to using a specific -- but generally sub-optimal -- additive baseline. Our results theoretically justify shifting from self-normalisation to optimal baseline corrections for both ranking and recommendation.",
     "authors": [
       "Olivier Jeunen",
       "Shashank Gupta"
@@ -4236,7 +4236,7 @@
     "summary": "Optical Character Recognition (OCR) of eighteenth-century printed texts remains challenging due to degraded print quality, archaic glyphs, and non-standardized orthography. Although transformer-based OCR systems and Vision-Language Models (VLMs) achieve strong aggregate accuracy, metrics such as Character Error Rate (CER) and Word Error Rate (WER) provide limited insight into their reliability for scholarly use. We compare a dedicated OCR transformer (TrOCR) and a general-purpose Vision-Language Model (Qwen) on line-level historical English texts using length-weighted accuracy metrics and hypothesis driven error analysis.   While Qwen achieves lower CER/WER and greater robustness to degraded input, it exhibits selective linguistic regularization and orthographic normalization that may silently alter historically meaningful forms. TrOCR preserves orthographic fidelity more consistently but is more prone to cascading error propagation. Our findings show that architectural inductive biases shape OCR error structure in systematic ways. Models with similar aggregate accuracy can differ substantially in error locality, detectability, and downstream scholarly risk, underscoring the need for architecture-aware evaluation in historical digitization workflows.",
     "authors": [
       "Ari Vesalainen",
-      "Eetu M\u00e4kel\u00e4",
+      "Eetu Mäkelä",
       "Laura Ruotsalainen",
       "Mikko Tolonen"
     ],
@@ -4381,289 +4381,5 @@
     "date": "2026-02-17",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "eridon-pro/qwen3-4b-agent-trajectory-lora-2",
-    "author": "unknown",
-    "title": "eridon-pro/qwen3-4b-agent-trajectory-lora-2",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "qwen3",
-      "lora",
-      "agent",
-      "tool-use",
-      "alfworld",
-      "dbbench",
-      "text-generation",
-      "conversational",
-      "en",
-      "dataset:u-10bei/dbbench_sft_dataset_react_v4",
-      "dataset:u-10bei/sft_alfworld_trajectory_dataset_v5",
-      "base_model:Qwen/Qwen3-4B-Instruct-2507",
-      "base_model:adapter:Qwen/Qwen3-4B-Instruct-2507",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-02-17T01:36:22.000Z",
-    "last_modified": "2026-02-17T04:40:40.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/eridon-pro/qwen3-4b-agent-trajectory-lora-2",
-    "date": "2026-02-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Arjunvad/unified-model-stage1-5-embedding-v2",
-    "author": "unknown",
-    "title": "Arjunvad/unified-model-stage1-5-embedding-v2",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:Arjunvad/unified-model-stage1-action-tokens-v2",
-      "lora",
-      "transformers",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "base_model:Arjunvad/unified-model-stage1-action-tokens-v2",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-02-17T00:54:05.000Z",
-    "last_modified": "2026-02-17T04:40:18.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Arjunvad/unified-model-stage1-5-embedding-v2",
-    "date": "2026-02-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "yufeng1/OpenThinker-7B-reasoning-full-lora-r1-true-type1-e5",
-    "author": "unknown",
-    "title": "yufeng1/OpenThinker-7B-reasoning-full-lora-r1-true-type1-e5",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-02-17T04:37:42.000Z",
-    "last_modified": "2026-02-17T04:39:47.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/yufeng1/OpenThinker-7B-reasoning-full-lora-r1-true-type1-e5",
-    "date": "2026-02-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "savinugunarathna/Gemma3-Singlish-Sinhala-LoRA",
-    "author": "unknown",
-    "title": "savinugunarathna/Gemma3-Singlish-Sinhala-LoRA",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:google/gemma-3-270m-it",
-      "lora",
-      "transformers",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "base_model:google/gemma-3-270m-it",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-02-16T15:00:30.000Z",
-    "last_modified": "2026-02-17T04:39:31.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/savinugunarathna/Gemma3-Singlish-Sinhala-LoRA",
-    "date": "2026-02-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "istupakov/canary-1b-flash-onnx",
-    "author": "unknown",
-    "title": "istupakov/canary-1b-flash-onnx",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "onnx",
-      "nemo-conformer-aed",
-      "automatic-speech-recognition",
-      "automatic-speech-translation",
-      "asr",
-      "onnx-asr",
-      "en",
-      "de",
-      "es",
-      "fr",
-      "base_model:nvidia/canary-1b-flash",
-      "base_model:quantized:nvidia/canary-1b-flash",
-      "license:cc-by-4.0",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "",
-    "created_at": "2026-02-17T04:23:08.000Z",
-    "last_modified": "2026-02-17T04:37:31.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/istupakov/canary-1b-flash-onnx",
-    "date": "2026-02-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Hi-Satoh/adv_sft_base_merged",
-    "author": "unknown",
-    "title": "Hi-Satoh/adv_sft_base_merged",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "qwen3",
-      "lora",
-      "agent",
-      "tool-use",
-      "alfworld",
-      "dbbench",
-      "text-generation",
-      "conversational",
-      "en",
-      "dataset:u-10bei/dbbench_sft_dataset_react_v4",
-      "base_model:Qwen/Qwen3-4B-Instruct-2507",
-      "base_model:adapter:Qwen/Qwen3-4B-Instruct-2507",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-02-16T14:27:02.000Z",
-    "last_modified": "2026-02-17T04:30:29.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Hi-Satoh/adv_sft_base_merged",
-    "date": "2026-02-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "y-ohtani/Qwen3-4B-Instruct-2507_Self-Refine-merged",
-    "author": "unknown",
-    "title": "y-ohtani/Qwen3-4B-Instruct-2507_Self-Refine-merged",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-02-16T14:59:12.000Z",
-    "last_modified": "2026-02-17T04:25:58.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/y-ohtani/Qwen3-4B-Instruct-2507_Self-Refine-merged",
-    "date": "2026-02-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Gen-oze/test105",
-    "author": "unknown",
-    "title": "Gen-oze/test105",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "qwen3",
-      "lora",
-      "agent",
-      "tool-use",
-      "alfworld",
-      "dbbench",
-      "text-generation",
-      "conversational",
-      "en",
-      "dataset:u-10bei/sft_alfworld_trajectory_dataset_v5",
-      "base_model:Qwen/Qwen3-4B-Instruct-2507",
-      "base_model:adapter:Qwen/Qwen3-4B-Instruct-2507",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-02-17T04:23:57.000Z",
-    "last_modified": "2026-02-17T04:25:37.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Gen-oze/test105",
-    "date": "2026-02-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "hiro877/your-lora-repo-structured_data_with_cot_dataset_512_v2-0217",
-    "author": "unknown",
-    "title": "hiro877/your-lora-repo-structured_data_with_cot_dataset_512_v2-0217",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "qlora",
-      "lora",
-      "structured-output",
-      "text-generation",
-      "en",
-      "dataset:u-10bei/structured_data_with_cot_dataset_512_v2",
-      "base_model:Qwen/Qwen3-4B-Instruct-2507",
-      "base_model:adapter:Qwen/Qwen3-4B-Instruct-2507",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-02-17T04:23:38.000Z",
-    "last_modified": "2026-02-17T04:23:42.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/hiro877/your-lora-repo-structured_data_with_cot_dataset_512_v2-0217",
-    "date": "2026-02-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
