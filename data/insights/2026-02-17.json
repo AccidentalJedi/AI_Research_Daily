@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-17T04:42:55.830399",
+  "date": "2026-02-17T08:20:58.840503",
   "patterns": {
     "multimodal_research": [
       {
@@ -1137,10 +1137,6 @@
       {
         "title": "Accelerating Posterior Inference from Pulsar Light Curves via Learned Latent Representations and Local Simulator-Guided Optimization",
         "url": "https://arxiv.org/abs/2602.14520v1"
-      },
-      {
-        "title": "yufeng1/OpenThinker-7B-reasoning-full-lora-r1-true-type1-e5",
-        "url": "https://huggingface.co/yufeng1/OpenThinker-7B-reasoning-full-lora-r1-true-type1-e5"
       }
     ],
     "benchmarks": [
@@ -1553,7 +1549,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1588,7 +1584,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 40,
+      "frequency": 39,
       "significance": "high"
     },
     {
@@ -1600,6 +1596,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 375
+    "total_papers": 374
   }
 }
