@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-18T12:20:32.224213",
+  "date": "2026-02-18T16:26:30.402871",
   "patterns": {
     "multimodal_research": [
       {
@@ -647,16 +647,24 @@
         "url": "https://arxiv.org/abs/2602.15315v1"
       },
       {
-        "title": "kowndinya-renduchintala/fineweb-wh_vs_that_with_gap_long_distance-100M-99.99-0.01-gpt2-124M-v0",
-        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-wh_vs_that_with_gap_long_distance-100M-99.99-0.01-gpt2-124M-v0"
+        "title": "kowndinya-renduchintala/fineweb-sentential_subject_island-100M-99.99-0.01-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-sentential_subject_island-100M-99.99-0.01-gpt2-124M-v0"
       },
       {
-        "title": "mradermacher/GPT-OSS-26E-Abliterated-GGUF",
-        "url": "https://huggingface.co/mradermacher/GPT-OSS-26E-Abliterated-GGUF"
+        "title": "klemenp950/bcms-bertic-classification-v4",
+        "url": "https://huggingface.co/klemenp950/bcms-bertic-classification-v4"
       },
       {
-        "title": "mradermacher/GPT-OSS-20E-Abliterated-GGUF",
-        "url": "https://huggingface.co/mradermacher/GPT-OSS-20E-Abliterated-GGUF"
+        "title": "klemenp950/bcms-bertic-classification-v3",
+        "url": "https://huggingface.co/klemenp950/bcms-bertic-classification-v3"
+      },
+      {
+        "title": "Maryam7711/llmshield-1b-finetuned",
+        "url": "https://huggingface.co/Maryam7711/llmshield-1b-finetuned"
+      },
+      {
+        "title": "afshanramzan/llmshield-1b-finetuned",
+        "url": "https://huggingface.co/afshanramzan/llmshield-1b-finetuned"
       }
     ],
     "vision_systems": [
@@ -887,6 +895,10 @@
       {
         "title": "CREMD: Crowd-Sourced Emotional Multimodal Dogs Dataset",
         "url": "https://arxiv.org/abs/2602.15349v1"
+      },
+      {
+        "title": "DVLe/rebuttal_cva_info_v2",
+        "url": "https://huggingface.co/DVLe/rebuttal_cva_info_v2"
       }
     ],
     "reasoning": [
@@ -1535,6 +1547,10 @@
       {
         "title": "Semantic-Guided 3D Gaussian Splatting for Transient Object Removal",
         "url": "https://arxiv.org/abs/2602.15516v1"
+      },
+      {
+        "title": "YsK-dev/TurkWeb-Edu-Student-Qwen1.5B-SOTA-adapter",
+        "url": "https://huggingface.co/YsK-dev/TurkWeb-Edu-Student-Qwen1.5B-SOTA-adapter"
       }
     ]
   },
@@ -1565,13 +1581,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "57 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1589,7 +1605,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "95 independent papers",
+      "observation": "96 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1624,6 +1640,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 381
+    "total_papers": 385
   }
 }
