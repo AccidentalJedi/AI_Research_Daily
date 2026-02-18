@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-18T04:44:16.325741",
+  "date": "2026-02-18T08:20:10.290255",
   "patterns": {
     "multimodal_research": [
       {
@@ -647,12 +647,12 @@
         "url": "https://arxiv.org/abs/2602.15315v1"
       },
       {
-        "title": "nbtpj/bs5_gpt2_samsum",
-        "url": "https://huggingface.co/nbtpj/bs5_gpt2_samsum"
+        "title": "kowndinya-renduchintala/fineweb-random-100M-99.99-0.01-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-random-100M-99.99-0.01-gpt2-124M-v0"
       },
       {
-        "title": "nbtpj/bs5_gpt2_xsum",
-        "url": "https://huggingface.co/nbtpj/bs5_gpt2_xsum"
+        "title": "toroe/SmolLM-3B-Science-ES",
+        "url": "https://huggingface.co/toroe/SmolLM-3B-Science-ES"
       }
     ],
     "vision_systems": [
@@ -883,10 +883,6 @@
       {
         "title": "CREMD: Crowd-Sourced Emotional Multimodal Dogs Dataset",
         "url": "https://arxiv.org/abs/2602.15349v1"
-      },
-      {
-        "title": "anicka/cve-backport-qwen32b-phase5",
-        "url": "https://huggingface.co/anicka/cve-backport-qwen32b-phase5"
       }
     ],
     "reasoning": [
@@ -1571,7 +1567,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "58 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1624,6 +1620,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 381
+    "total_papers": 380
   }
 }
