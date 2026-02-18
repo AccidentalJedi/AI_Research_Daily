@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-18T16:26:30.402871",
+  "date": "2026-02-18T20:18:02.800019",
   "patterns": {
     "multimodal_research": [
       {
@@ -647,24 +647,12 @@
         "url": "https://arxiv.org/abs/2602.15315v1"
       },
       {
-        "title": "kowndinya-renduchintala/fineweb-sentential_subject_island-100M-99.99-0.01-gpt2-124M-v0",
-        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-sentential_subject_island-100M-99.99-0.01-gpt2-124M-v0"
+        "title": "kowndinya-renduchintala/fineweb-coordinate_structure_constraint_complex_left_branch-100M-99.99-0.01-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-coordinate_structure_constraint_complex_left_branch-100M-99.99-0.01-gpt2-124M-v0"
       },
       {
-        "title": "klemenp950/bcms-bertic-classification-v4",
-        "url": "https://huggingface.co/klemenp950/bcms-bertic-classification-v4"
-      },
-      {
-        "title": "klemenp950/bcms-bertic-classification-v3",
-        "url": "https://huggingface.co/klemenp950/bcms-bertic-classification-v3"
-      },
-      {
-        "title": "Maryam7711/llmshield-1b-finetuned",
-        "url": "https://huggingface.co/Maryam7711/llmshield-1b-finetuned"
-      },
-      {
-        "title": "afshanramzan/llmshield-1b-finetuned",
-        "url": "https://huggingface.co/afshanramzan/llmshield-1b-finetuned"
+        "title": "nbtpj/bs3_gpt2_samsum",
+        "url": "https://huggingface.co/nbtpj/bs3_gpt2_samsum"
       }
     ],
     "vision_systems": [
@@ -895,10 +883,6 @@
       {
         "title": "CREMD: Crowd-Sourced Emotional Multimodal Dogs Dataset",
         "url": "https://arxiv.org/abs/2602.15349v1"
-      },
-      {
-        "title": "DVLe/rebuttal_cva_info_v2",
-        "url": "https://huggingface.co/DVLe/rebuttal_cva_info_v2"
       }
     ],
     "reasoning": [
@@ -1547,10 +1531,6 @@
       {
         "title": "Semantic-Guided 3D Gaussian Splatting for Transient Object Removal",
         "url": "https://arxiv.org/abs/2602.15516v1"
-      },
-      {
-        "title": "YsK-dev/TurkWeb-Edu-Student-Qwen1.5B-SOTA-adapter",
-        "url": "https://huggingface.co/YsK-dev/TurkWeb-Edu-Student-Qwen1.5B-SOTA-adapter"
       }
     ]
   },
@@ -1581,13 +1561,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "58 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1605,7 +1585,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "96 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1640,6 +1620,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 385
+    "total_papers": 380
   }
 }
