@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-19T16:23:58.322283",
+  "date": "2026-02-19T20:14:26.499241",
   "patterns": {
     "multimodal_research": [
       {
@@ -615,8 +615,16 @@
         "url": "https://arxiv.org/abs/2602.16149v1"
       },
       {
-        "title": "Harikrishna-Srinivasan/Hate-Speech-DistilBERT",
-        "url": "https://huggingface.co/Harikrishna-Srinivasan/Hate-Speech-DistilBERT"
+        "title": "suchirsalhan/B-GPT-de-fineweb-intermediate",
+        "url": "https://huggingface.co/suchirsalhan/B-GPT-de-fineweb-intermediate"
+      },
+      {
+        "title": "suchirsalhan/B-GPT-pl-fineweb-intermediate",
+        "url": "https://huggingface.co/suchirsalhan/B-GPT-pl-fineweb-intermediate"
+      },
+      {
+        "title": "suchirsalhan/B-GPT-es-fineweb-advanced",
+        "url": "https://huggingface.co/suchirsalhan/B-GPT-es-fineweb-advanced"
       }
     ],
     "vision_systems": [
@@ -817,8 +825,8 @@
         "url": "https://arxiv.org/abs/2602.16149v1"
       },
       {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+        "title": "Azamorn/Qwen-Image-2512-FP8",
+        "url": "https://huggingface.co/Azamorn/Qwen-Image-2512-FP8"
       }
     ],
     "reasoning": [
@@ -1443,6 +1451,14 @@
       {
         "title": "Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing",
         "url": "https://arxiv.org/abs/2602.16149v1"
+      },
+      {
+        "title": "YsK-dev/TurkWeb-Edu-Student-Qwen1.5B-SOTA-trainer-checkpoints",
+        "url": "https://huggingface.co/YsK-dev/TurkWeb-Edu-Student-Qwen1.5B-SOTA-trainer-checkpoints"
+      },
+      {
+        "title": "YsK-dev/TurkWeb-Edu-Student-Qwen1.5B-SOTA-adapter",
+        "url": "https://huggingface.co/YsK-dev/TurkWeb-Edu-Student-Qwen1.5B-SOTA-adapter"
       }
     ]
   },
@@ -1473,7 +1489,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1497,7 +1513,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "97 independent papers",
+      "observation": "99 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1532,6 +1548,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 358
+    "total_papers": 362
   }
 }
