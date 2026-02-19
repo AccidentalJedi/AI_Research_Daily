@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-19T04:43:26.137410",
+  "date": "2026-02-19T08:20:19.809115",
   "patterns": {
     "multimodal_research": [
       {
@@ -613,6 +613,14 @@
       {
         "title": "Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing",
         "url": "https://arxiv.org/abs/2602.16149v1"
+      },
+      {
+        "title": "nbtpj/bs5_gpt2_cnndm",
+        "url": "https://huggingface.co/nbtpj/bs5_gpt2_cnndm"
+      },
+      {
+        "title": "nbtpj/bs3_gpt2_cnndm",
+        "url": "https://huggingface.co/nbtpj/bs3_gpt2_cnndm"
       }
     ],
     "vision_systems": [
@@ -811,6 +819,10 @@
       {
         "title": "Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing",
         "url": "https://arxiv.org/abs/2602.16149v1"
+      },
+      {
+        "title": "adwel94/vision-safari-agent-lora",
+        "url": "https://huggingface.co/adwel94/vision-safari-agent-lora"
       }
     ],
     "reasoning": [
@@ -1465,13 +1477,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "49 independent papers",
+      "observation": "50 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1507,7 +1519,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 29,
+      "frequency": 30,
       "significance": "high"
     },
     {
@@ -1524,6 +1536,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 356
+    "total_papers": 359
   }
 }
