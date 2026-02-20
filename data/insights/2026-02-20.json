@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-20T12:18:47.048530",
+  "date": "2026-02-20T16:17:00.358846",
   "patterns": {
     "multimodal_research": [
       {
@@ -663,12 +663,12 @@
         "url": "https://arxiv.org/abs/2602.17535v1"
       },
       {
-        "title": "kengurukleo/deutsch_a2_transformer",
-        "url": "https://huggingface.co/kengurukleo/deutsch_a2_transformer"
+        "title": "Ryalenn/distilhubert-finetuned-gtzan",
+        "url": "https://huggingface.co/Ryalenn/distilhubert-finetuned-gtzan"
       },
       {
-        "title": "255yossya/matsuollm2025_main_lora_repo_v10",
-        "url": "https://huggingface.co/255yossya/matsuollm2025_main_lora_repo_v10"
+        "title": "David0dods/codeforces-gpt-neo-lora",
+        "url": "https://huggingface.co/David0dods/codeforces-gpt-neo-lora"
       }
     ],
     "vision_systems": [
@@ -1201,6 +1201,10 @@
       {
         "title": "Physics Encoded Spatial and Temporal Generative Adversarial Network for Tropical Cyclone Image Super-resolution",
         "url": "https://arxiv.org/abs/2602.17277v1"
+      },
+      {
+        "title": "inferencerlabs/INTELLECT-3.1-MLX-9bit",
+        "url": "https://huggingface.co/inferencerlabs/INTELLECT-3.1-MLX-9bit"
       }
     ],
     "benchmarks": [
@@ -1589,7 +1593,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1636,6 +1640,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 384
+    "total_papers": 385
   }
 }
