@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-20T04:40:11.165119",
+  "date": "2026-02-20T08:20:05.803340",
   "patterns": {
     "multimodal_research": [
       {
@@ -663,8 +663,8 @@
         "url": "https://arxiv.org/abs/2602.17535v1"
       },
       {
-        "title": "alfiyahqthz/mentalbert-angst",
-        "url": "https://huggingface.co/alfiyahqthz/mentalbert-angst"
+        "title": "smsk1999/indic-bert-1-intent",
+        "url": "https://huggingface.co/smsk1999/indic-bert-1-intent"
       }
     ],
     "vision_systems": [
@@ -899,14 +899,6 @@
       {
         "title": "GASS: Geometry-Aware Spherical Sampling for Disentangled Diversity Enhancement in Text-to-Image Generation",
         "url": "https://arxiv.org/abs/2602.17200v1"
-      },
-      {
-        "title": "artificialguybr/CINEMATIC-FILMSTILL-REDMOND-ZIMAGE",
-        "url": "https://huggingface.co/artificialguybr/CINEMATIC-FILMSTILL-REDMOND-ZIMAGE"
-      },
-      {
-        "title": "artificialguybr/CINEMATIC-FILMSTILL-REDMOND-QWENIMAGE",
-        "url": "https://huggingface.co/artificialguybr/CINEMATIC-FILMSTILL-REDMOND-QWENIMAGE"
       }
     ],
     "reasoning": [
@@ -1587,7 +1579,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "60 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1640,6 +1632,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 385
+    "total_papers": 383
   }
 }
