@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-21T04:37:30.828616",
+  "date": "2026-02-21T08:12:31.893175",
   "patterns": {
     "multimodal_research": [
       {
@@ -291,6 +291,14 @@
       {
         "title": "Application and Evaluation of the Common Circles Method",
         "url": "https://arxiv.org/abs/2602.17353v1"
+      },
+      {
+        "title": "jayzou3773/Qwen1.5-MOE-sft-ESFT-translation",
+        "url": "https://huggingface.co/jayzou3773/Qwen1.5-MOE-sft-ESFT-translation"
+      },
+      {
+        "title": "OccultAI/Trixster-MoE-14B-A8B-v1",
+        "url": "https://huggingface.co/OccultAI/Trixster-MoE-14B-A8B-v1"
       }
     ],
     "language_models": [
@@ -655,16 +663,16 @@
         "url": "https://arxiv.org/abs/2602.17387v1"
       },
       {
+        "title": "TELUSKUNTA/albert-agnews",
+        "url": "https://huggingface.co/TELUSKUNTA/albert-agnews"
+      },
+      {
         "title": "Selective Training for Large Vision Language Models via Visual Information Gain",
         "url": "https://arxiv.org/abs/2602.17186v1"
       },
       {
         "title": "LATA: Laplacian-Assisted Transductive Adaptation for Conformal Uncertainty in Medical VLMs",
         "url": "https://arxiv.org/abs/2602.17535v1"
-      },
-      {
-        "title": "Karyl-Maxine/disaster-distilroberta",
-        "url": "https://huggingface.co/Karyl-Maxine/disaster-distilroberta"
       }
     ],
     "vision_systems": [
@@ -899,10 +907,6 @@
       {
         "title": "GASS: Geometry-Aware Spherical Sampling for Disentangled Diversity Enhancement in Text-to-Image Generation",
         "url": "https://arxiv.org/abs/2602.17200v1"
-      },
-      {
-        "title": "EricRollei/HunyuanImage-3-INT8-v2",
-        "url": "https://huggingface.co/EricRollei/HunyuanImage-3-INT8-v2"
       }
     ],
     "reasoning": [
@@ -1565,7 +1569,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "47 independent papers",
+      "observation": "49 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1583,7 +1587,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "59 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1636,6 +1640,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 384
+    "total_papers": 385
   }
 }
