@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-21T16:11:03.834591",
+  "date": "2026-02-21T20:09:26.487065",
   "patterns": {
     "multimodal_research": [
       {
@@ -655,10 +655,6 @@
         "url": "https://arxiv.org/abs/2602.17387v1"
       },
       {
-        "title": "TELUSKUNTA/modernbert-agnews",
-        "url": "https://huggingface.co/TELUSKUNTA/modernbert-agnews"
-      },
-      {
         "title": "Selective Training for Large Vision Language Models via Visual Information Gain",
         "url": "https://arxiv.org/abs/2602.17186v1"
       },
@@ -667,12 +663,8 @@
         "url": "https://arxiv.org/abs/2602.17535v1"
       },
       {
-        "title": "entfane/gpt2_constitutional_classifier",
-        "url": "https://huggingface.co/entfane/gpt2_constitutional_classifier"
-      },
-      {
-        "title": "rokugatsu/LLM2025_Advanced_4",
-        "url": "https://huggingface.co/rokugatsu/LLM2025_Advanced_4"
+        "title": "ikedabent/llm_ad_qwen2.5-7b-003",
+        "url": "https://huggingface.co/ikedabent/llm_ad_qwen2.5-7b-003"
       }
     ],
     "vision_systems": [
@@ -1581,7 +1573,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "95 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1640,6 +1632,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 385
+    "total_papers": 383
   }
 }
