@@ -1,11 +1,22 @@
 {
-  "date": "2026-02-22T04:41:10.299959",
-  "patterns": {},
+  "date": "2026-02-22T08:12:31.452518",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "tachan881/LLM_Ad_Rev01_1",
+        "url": "https://huggingface.co/tachan881/LLM_Ad_Rev01_1"
+      },
+      {
+        "title": "alexalva1234/distilbert-base-uncased-finetuned-cola",
+        "url": "https://huggingface.co/alexalva1234/distilbert-base-uncased-finetuned-cola"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
