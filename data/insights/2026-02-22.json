@@ -1,67 +1,11 @@
 {
-  "date": "2026-02-22T16:11:16.387580",
-  "patterns": {
-    "language_models": [
-      {
-        "title": "alexalva1234/distilbert-base-uncased-finetuned-cola",
-        "url": "https://huggingface.co/alexalva1234/distilbert-base-uncased-finetuned-cola"
-      },
-      {
-        "title": "jtdatastoryteller/bert-base-chinese-issue-finetuned-pchome",
-        "url": "https://huggingface.co/jtdatastoryteller/bert-base-chinese-issue-finetuned-pchome"
-      },
-      {
-        "title": "jtdatastoryteller/bert-base-chinese-sentiment-finetuned-pchome",
-        "url": "https://huggingface.co/jtdatastoryteller/bert-base-chinese-sentiment-finetuned-pchome"
-      }
-    ],
-    "vision_systems": [
-      {
-        "title": "Danielnguyen13/my-test-vision-model-vg",
-        "url": "https://huggingface.co/Danielnguyen13/my-test-vision-model-vg"
-      },
-      {
-        "title": "bentran03/my-test-vision-model-vg",
-        "url": "https://huggingface.co/bentran03/my-test-vision-model-vg"
-      },
-      {
-        "title": "nanpero09/my-test-vision-model-vg",
-        "url": "https://huggingface.co/nanpero09/my-test-vision-model-vg"
-      },
-      {
-        "title": "oman09nan/my-test-vision-model-vg",
-        "url": "https://huggingface.co/oman09nan/my-test-vision-model-vg"
-      },
-      {
-        "title": "Taikon04/my-test-vision-model-vg",
-        "url": "https://huggingface.co/Taikon04/my-test-vision-model-vg"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    },
-    {
-      "pattern": "vision_systems",
-      "observation": "5 independent papers",
-      "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
-      "confidence": "high"
-    }
-  ],
-  "research_trends": [
-    {
-      "topic": "vision",
-      "frequency": 5,
-      "significance": "high"
-    }
-  ],
+  "date": "2026-02-22T20:10:04.991737",
+  "patterns": {},
+  "inferences": [],
+  "research_trends": [],
   "stats": {
-    "total_patterns": 2,
-    "total_inferences": 2,
-    "total_papers": 8
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
