@@ -1,11 +1,22 @@
 {
-  "date": "2026-02-23T08:21:04.091597",
-  "patterns": {},
+  "date": "2026-02-23T12:21:48.947586",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "yuka617/llm-advanced-v2",
+        "url": "https://huggingface.co/yuka617/llm-advanced-v2"
+      },
+      {
+        "title": "dkl4/llm2025-qwen3-4b-structured-output-lora-01-v2",
+        "url": "https://huggingface.co/dkl4/llm2025-qwen3-4b-structured-output-lora-01-v2"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
