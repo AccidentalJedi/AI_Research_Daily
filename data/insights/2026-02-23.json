@@ -1,22 +1,37 @@
 {
-  "date": "2026-02-23T12:21:48.947586",
+  "date": "2026-02-23T16:24:33.393253",
   "patterns": {
     "language_models": [
       {
-        "title": "yuka617/llm-advanced-v2",
-        "url": "https://huggingface.co/yuka617/llm-advanced-v2"
+        "title": "laksh08/safe-genai-ppo-gpt2-qlora",
+        "url": "https://huggingface.co/laksh08/safe-genai-ppo-gpt2-qlora"
       },
       {
-        "title": "dkl4/llm2025-qwen3-4b-structured-output-lora-01-v2",
-        "url": "https://huggingface.co/dkl4/llm2025-qwen3-4b-structured-output-lora-01-v2"
+        "title": "Cong123779/vi-en-transformer-25m",
+        "url": "https://huggingface.co/Cong123779/vi-en-transformer-25m"
+      },
+      {
+        "title": "h-iida/applied-llm-sft-initdata",
+        "url": "https://huggingface.co/h-iida/applied-llm-sft-initdata"
+      },
+      {
+        "title": "smsk1999/hindi-bert-intent-1-monsoon",
+        "url": "https://huggingface.co/smsk1999/hindi-bert-intent-1-monsoon"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 4
   }
 }
