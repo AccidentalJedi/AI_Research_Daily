@@ -99,7 +99,7 @@
       "Christophe Corpechot",
       "Marco Carbone",
       "Cynthia Levy",
-      "Maria-Carlota Lond\u00f5no",
+      "Maria-Carlota Londõno",
       "Atsushi Tanaka",
       "Palak Trivedi",
       "Alejandra Villamil",
@@ -140,7 +140,7 @@
   {
     "arxiv_id": "2602.19926v1",
     "title": "Rethinking LoRA for Privacy-Preserving Federated Learning in Large Models",
-    "summary": "Fine-tuning large vision models (LVMs) and large language models (LLMs) under differentially private federated learning (DPFL) is hindered by a fundamental privacy-utility trade-off. Low-Rank Adaptation (LoRA), a promising parameter-efficient fine-tuning (PEFT) method, reduces computational and communication costs by introducing two trainable low-rank matrices while freezing pre-trained weights. However, directly applying LoRA in DPFL settings leads to performance degradation, especially in LVMs. Our analysis reveals three previously underexplored challenges: (1) gradient coupling caused by the simultaneous update of two asymmetric low-rank matrices, (2) compounded noise amplification under differential privacy, and (3) sharpness of the global aggregated model in the parameter space. To address these issues, we propose LA-LoRA (\\textbf{L}ocal \\textbf{A}lternating \\textbf{LoRA}), a novel approach that decouples gradient interactions and aligns update directions across clients to enhance robustness under stringent privacy constraints. Theoretically, LA-LoRA strengthens convergence guarantees in noisy federated environments. Extensive experiments demonstrate that LA-LoRA achieves state-of-the-art (SOTA) performance on Swin Transformer and RoBERTa models, showcasing robustness to DP noise and broad applicability across both LVMs and LLMs. For example, when fine-tuning the Swin-B model on the Tiny-ImageNet dataset under a strict privacy budget ($\u03b5= 1$), LA-LoRA outperforms the best baseline, RoLoRA, by 16.83\\% in test accuracy. Code is provided in \\repolink.",
+    "summary": "Fine-tuning large vision models (LVMs) and large language models (LLMs) under differentially private federated learning (DPFL) is hindered by a fundamental privacy-utility trade-off. Low-Rank Adaptation (LoRA), a promising parameter-efficient fine-tuning (PEFT) method, reduces computational and communication costs by introducing two trainable low-rank matrices while freezing pre-trained weights. However, directly applying LoRA in DPFL settings leads to performance degradation, especially in LVMs. Our analysis reveals three previously underexplored challenges: (1) gradient coupling caused by the simultaneous update of two asymmetric low-rank matrices, (2) compounded noise amplification under differential privacy, and (3) sharpness of the global aggregated model in the parameter space. To address these issues, we propose LA-LoRA (\\textbf{L}ocal \\textbf{A}lternating \\textbf{LoRA}), a novel approach that decouples gradient interactions and aligns update directions across clients to enhance robustness under stringent privacy constraints. Theoretically, LA-LoRA strengthens convergence guarantees in noisy federated environments. Extensive experiments demonstrate that LA-LoRA achieves state-of-the-art (SOTA) performance on Swin Transformer and RoBERTa models, showcasing robustness to DP noise and broad applicability across both LVMs and LLMs. For example, when fine-tuning the Swin-B model on the Tiny-ImageNet dataset under a strict privacy budget ($ε= 1$), LA-LoRA outperforms the best baseline, RoLoRA, by 16.83\\% in test accuracy. Code is provided in \\repolink.",
     "authors": [
       "Jin Liu",
       "Yinbin Miao",
@@ -210,7 +210,7 @@
   {
     "arxiv_id": "2602.19945v1",
     "title": "DP-FedAdamW: An Efficient Optimizer for Differentially Private Federated Large Models",
-    "summary": "Balancing convergence efficiency and robustness under Differential Privacy (DP) is a central challenge in Federated Learning (FL). While AdamW accelerates training and fine-tuning in large-scale models, we find that directly applying it to Differentially Private FL (DPFL) suffers from three major issues: (i) data heterogeneity and privacy noise jointly amplify the variance of second-moment estimator, (ii) DP perturbations bias the second-moment estimator, and (iii) DP amplify AdamW sensitivity to local overfitting, worsening client drift. We propose DP-FedAdamW, the first AdamW-based optimizer for DPFL. It restores AdamW under DP by stabilizing second-moment variance, removing DP-induced bias, and aligning local updates to the global descent to curb client drift. Theoretically, we establish an unbiased second-moment estimator and prove a linearly accelerated convergence rate without any heterogeneity assumption, while providing tighter $(\\varepsilon,\u03b4)$-DP guarantees. Our empirical results demonstrate the effectiveness of DP-FedAdamW across language and vision Transformers and ResNet-18. On Tiny-ImageNet (Swin-Base, $\\varepsilon=1$), DP-FedAdamW outperforms the state-of-the-art (SOTA) by 5.83\\%. The code is available in Appendix.",
+    "summary": "Balancing convergence efficiency and robustness under Differential Privacy (DP) is a central challenge in Federated Learning (FL). While AdamW accelerates training and fine-tuning in large-scale models, we find that directly applying it to Differentially Private FL (DPFL) suffers from three major issues: (i) data heterogeneity and privacy noise jointly amplify the variance of second-moment estimator, (ii) DP perturbations bias the second-moment estimator, and (iii) DP amplify AdamW sensitivity to local overfitting, worsening client drift. We propose DP-FedAdamW, the first AdamW-based optimizer for DPFL. It restores AdamW under DP by stabilizing second-moment variance, removing DP-induced bias, and aligning local updates to the global descent to curb client drift. Theoretically, we establish an unbiased second-moment estimator and prove a linearly accelerated convergence rate without any heterogeneity assumption, while providing tighter $(\\varepsilon,δ)$-DP guarantees. Our empirical results demonstrate the effectiveness of DP-FedAdamW across language and vision Transformers and ResNet-18. On Tiny-ImageNet (Swin-Base, $\\varepsilon=1$), DP-FedAdamW outperforms the state-of-the-art (SOTA) by 5.83\\%. The code is available in Appendix.",
     "authors": [
       "Jin Liu",
       "Yinbin Miao",
@@ -258,7 +258,7 @@
       "Moritz A. Zanger",
       "Yijun Wu",
       "Pascal R. Van der Vaart",
-      "Wendelin B\u00f6hmer",
+      "Wendelin Böhmer",
       "Matthijs T. J. Spaan"
     ],
     "categories": [
@@ -504,7 +504,7 @@
       "Ghaith Mqawass",
       "Tuan Le",
       "Fabian Theis",
-      "Djork-Arn\u00e9 Clevert"
+      "Djork-Arné Clevert"
     ],
     "categories": [
       "cs.LG"
@@ -521,10 +521,10 @@
     "title": "Make Some Noise: Unsupervised Remote Sensing Change Detection Using Latent Space Perturbations",
     "summary": "Unsupervised change detection (UCD) in remote sensing aims to localise semantic changes between two images of the same region without relying on labelled data during training. Most recent approaches rely either on frozen foundation models in a training-free manner or on training with synthetic changes generated in pixel space. Both strategies inherently rely on predefined assumptions about change types, typically introduced through handcrafted rules, external datasets, or auxiliary generative models. Due to these assumptions, such methods fail to generalise beyond a few change types, limiting their real-world usage, especially in rare or complex scenarios. To address this, we propose MaSoN (Make Some Noise), an end-to-end UCD framework that synthesises diverse changes directly in the latent feature space during training. It generates changes that are dynamically estimated using feature statistics of target data, enabling diverse yet data-driven variation aligned with the target domain. It also easily extends to new modalities, such as SAR. MaSoN generalises strongly across diverse change types and achieves state-of-the-art performance on five benchmarks, improving the average F1 score by 14.1 percentage points. Project page: https://blaz-r.github.io/mason_ucd",
     "authors": [
-      "Bla\u017e Rolih",
-      "Matic Fu\u010dka",
+      "Blaž Rolih",
+      "Matic Fučka",
       "Filip Wolf",
-      "Luka \u010cehovin Zajc"
+      "Luka Čehovin Zajc"
     ],
     "categories": [
       "cs.CV",
@@ -543,10 +543,10 @@
     "summary": "We study post-calibration uncertainty for trained ensembles of classifiers. Specifically, we consider both aleatoric (label noise) and epistemic (model) uncertainty. Among the most popular and widely used calibration methods in classification are temperature scaling (i.e., pool-then-calibrate) and conformal methods. However, the main shortcoming of these calibration methods is that they do not balance the proportion of aleatoric and epistemic uncertainty. Not balancing these uncertainties can severely misrepresent predictive uncertainty, leading to overconfident predictions in some input regions while being underconfident in others. To address this shortcoming, we present a simple but powerful calibration algorithm Joint Uncertainty Calibration (JUCAL) that jointly calibrates aleatoric and epistemic uncertainty. JUCAL jointly calibrates two constants to weight and scale epistemic and aleatoric uncertainties by optimizing the negative log-likelihood (NLL) on the validation/calibration dataset. JUCAL can be applied to any trained ensemble of classifiers (e.g., transformers, CNNs, or tree-based methods), with minimal computational overhead, without requiring access to the models' internal parameters. We experimentally evaluate JUCAL on various text classification tasks, for ensembles of varying sizes and with different ensembling strategies. Our experiments show that JUCAL significantly outperforms SOTA calibration methods across all considered classification tasks, reducing NLL and predictive set size by up to 15% and 20%, respectively. Interestingly, even applying JUCAL to an ensemble of size 5 can outperform temperature-scaled ensembles of size up to 50 in terms of NLL and predictive set size, resulting in up to 10 times smaller inference costs. Thus, we propose JUCAL as a new go-to method for calibrating ensembles in classification.",
     "authors": [
       "Jakob Heiss",
-      "S\u00f6ren Lambrecht",
+      "Sören Lambrecht",
       "Jakob Weissteiner",
       "Hanna Wutte",
-      "\u017dan \u017duri\u010d",
+      "Žan Žurič",
       "Josef Teichmann",
       "Bin Yu"
     ],
@@ -588,7 +588,7 @@
   {
     "arxiv_id": "2602.19766v1",
     "title": "One2Scene: Geometric Consistent Explorable 3D Scene Generation from a Single Image",
-    "summary": "Generating explorable 3D scenes from a single image is a highly challenging problem in 3D vision. Existing methods struggle to support free exploration, often producing severe geometric distortions and noisy artifacts when the viewpoint moves far from the original perspective. We introduce \\textbf{One2Scene}, an effective framework that decomposes this ill-posed problem into three tractable sub-tasks to enable immersive explorable scene generation. We first use a panorama generator to produce anchor views from a single input image as initialization. Then, we lift these 2D anchors into an explicit 3D geometric scaffold via a generalizable, feed-forward Gaussian Splatting network. Instead of treating the panorama as a single image for reconstruction, we project it into multiple sparse anchor views and reformulate the reconstruction task as multi-view stereo matching, which allows us to leverage robust geometric priors learned from large-scale multi-view datasets. A bidirectional feature fusion module is used to enforce cross-view consistency, yielding an efficient and geometrically reliable scaffold. Finally, the scaffold serves as a strong prior for a novel view generator to produce photorealistic and geometrically accurate views at arbitrary cameras. By explicitly conditioning on a 3D-consistent scaffold to perform reconstruction, One2Scene works stably under large camera motions, supporting immersive scene exploration. Extensive experiments show that One2Scene substantially outperforms state-of-the-art methods in panorama depth estimation, feed-forward 360\u00b0 reconstruction, and explorable 3D scene generation. Code and models will be released.",
+    "summary": "Generating explorable 3D scenes from a single image is a highly challenging problem in 3D vision. Existing methods struggle to support free exploration, often producing severe geometric distortions and noisy artifacts when the viewpoint moves far from the original perspective. We introduce \\textbf{One2Scene}, an effective framework that decomposes this ill-posed problem into three tractable sub-tasks to enable immersive explorable scene generation. We first use a panorama generator to produce anchor views from a single input image as initialization. Then, we lift these 2D anchors into an explicit 3D geometric scaffold via a generalizable, feed-forward Gaussian Splatting network. Instead of treating the panorama as a single image for reconstruction, we project it into multiple sparse anchor views and reformulate the reconstruction task as multi-view stereo matching, which allows us to leverage robust geometric priors learned from large-scale multi-view datasets. A bidirectional feature fusion module is used to enforce cross-view consistency, yielding an efficient and geometrically reliable scaffold. Finally, the scaffold serves as a strong prior for a novel view generator to produce photorealistic and geometrically accurate views at arbitrary cameras. By explicitly conditioning on a 3D-consistent scaffold to perform reconstruction, One2Scene works stably under large camera motions, supporting immersive scene exploration. Extensive experiments show that One2Scene substantially outperforms state-of-the-art methods in panorama depth estimation, feed-forward 360° reconstruction, and explorable 3D scene generation. Code and models will be released.",
     "authors": [
       "Pengfei Wang",
       "Liyi Chen",
@@ -674,7 +674,7 @@
   {
     "arxiv_id": "2602.20111v1",
     "title": "Reliable Abstention under Adversarial Injections: Tight Lower Bounds and New Upper Bounds",
-    "summary": "We study online learning in the adversarial injection model introduced by [Goel et al. 2017], where a stream of labeled examples is predominantly drawn i.i.d.\\ from an unknown distribution $\\mathcal{D}$, but may be interspersed with adversarially chosen instances without the learner knowing which rounds are adversarial. Crucially, labels are always consistent with a fixed target concept (the clean-label setting). The learner is additionally allowed to abstain from predicting, and the total error counts the mistakes whenever the learner decides to predict and incorrect abstentions when it abstains on i.i.d.\\ rounds. Perhaps surprisingly, prior work shows that oracle access to the underlying distribution yields $O(d^2 \\log T)$ combined error for VC dimension $d$, while distribution-agnostic algorithms achieve only $\\tilde{O}(\\sqrt{T})$ for restricted classes, leaving open whether this gap is fundamental.   We resolve this question by proving a matching $\u03a9(\\sqrt{T})$ lower bound for VC dimension $1$, establishing a sharp separation between the two information regimes. On the algorithmic side, we introduce a potential-based framework driven by \\emph{robust witnesses}, small subsets of labeled examples that certify predictions while remaining resilient to adversarial contamination. We instantiate this framework using two combinatorial dimensions: (1) \\emph{inference dimension}, yielding combined error $\\tilde{O}(T^{1-1/k})$ for classes of inference dimension $k$, and (2) \\emph{certificate dimension}, a new relaxation we introduce. As an application, we show that halfspaces in $\\mathbb{R}^2$ have certificate dimension $3$, obtaining the first distribution-agnostic bound of $\\tilde{O}(T^{2/3})$ for this class. This is notable since [Blum et al. 2021] showed halfspaces are not robustly learnable under clean-label attacks without abstention.",
+    "summary": "We study online learning in the adversarial injection model introduced by [Goel et al. 2017], where a stream of labeled examples is predominantly drawn i.i.d.\\ from an unknown distribution $\\mathcal{D}$, but may be interspersed with adversarially chosen instances without the learner knowing which rounds are adversarial. Crucially, labels are always consistent with a fixed target concept (the clean-label setting). The learner is additionally allowed to abstain from predicting, and the total error counts the mistakes whenever the learner decides to predict and incorrect abstentions when it abstains on i.i.d.\\ rounds. Perhaps surprisingly, prior work shows that oracle access to the underlying distribution yields $O(d^2 \\log T)$ combined error for VC dimension $d$, while distribution-agnostic algorithms achieve only $\\tilde{O}(\\sqrt{T})$ for restricted classes, leaving open whether this gap is fundamental.   We resolve this question by proving a matching $Ω(\\sqrt{T})$ lower bound for VC dimension $1$, establishing a sharp separation between the two information regimes. On the algorithmic side, we introduce a potential-based framework driven by \\emph{robust witnesses}, small subsets of labeled examples that certify predictions while remaining resilient to adversarial contamination. We instantiate this framework using two combinatorial dimensions: (1) \\emph{inference dimension}, yielding combined error $\\tilde{O}(T^{1-1/k})$ for classes of inference dimension $k$, and (2) \\emph{certificate dimension}, a new relaxation we introduce. As an application, we show that halfspaces in $\\mathbb{R}^2$ have certificate dimension $3$, obtaining the first distribution-agnostic bound of $\\tilde{O}(T^{2/3})$ for this class. This is notable since [Blum et al. 2021] showed halfspaces are not robustly learnable under clean-label attacks without abstention.",
     "authors": [
       "Ezra Edelman",
       "Surbhi Goel"
@@ -692,7 +692,7 @@
   {
     "arxiv_id": "2602.20078v1",
     "title": "Descent-Guided Policy Gradient for Scalable Cooperative Multi-Agent Learning",
-    "summary": "Scaling cooperative multi-agent reinforcement learning (MARL) is fundamentally limited by cross-agent noise: when agents share a common reward, the actions of all $N$ agents jointly determine each agent's learning signal, so cross-agent noise grows with $N$. In the policy gradient setting, per-agent gradient estimate variance scales as $\u0398(N)$, yielding sample complexity $\\mathcal{O}(N/\u03b5)$. We observe that many domains -- cloud computing, transportation, power systems -- have differentiable analytical models that prescribe efficient system states. In this work, we propose Descent-Guided Policy Gradient (DG-PG), a framework that constructs noise-free per-agent guidance gradients from these analytical models, decoupling each agent's gradient from the actions of all others. We prove that DG-PG reduces gradient variance from $\u0398(N)$ to $\\mathcal{O}(1)$, preserves the equilibria of the cooperative game, and achieves agent-independent sample complexity $\\mathcal{O}(1/\u03b5)$. On a heterogeneous cloud scheduling task with up to 200 agents, DG-PG converges within 10 episodes at every tested scale -- from $N=5$ to $N=200$ -- directly confirming the predicted scale-invariant complexity, while MAPPO and IPPO fail to converge under identical architectures.",
+    "summary": "Scaling cooperative multi-agent reinforcement learning (MARL) is fundamentally limited by cross-agent noise: when agents share a common reward, the actions of all $N$ agents jointly determine each agent's learning signal, so cross-agent noise grows with $N$. In the policy gradient setting, per-agent gradient estimate variance scales as $Θ(N)$, yielding sample complexity $\\mathcal{O}(N/ε)$. We observe that many domains -- cloud computing, transportation, power systems -- have differentiable analytical models that prescribe efficient system states. In this work, we propose Descent-Guided Policy Gradient (DG-PG), a framework that constructs noise-free per-agent guidance gradients from these analytical models, decoupling each agent's gradient from the actions of all others. We prove that DG-PG reduces gradient variance from $Θ(N)$ to $\\mathcal{O}(1)$, preserves the equilibria of the cooperative game, and achieves agent-independent sample complexity $\\mathcal{O}(1/ε)$. On a heterogeneous cloud scheduling task with up to 200 agents, DG-PG converges within 10 episodes at every tested scale -- from $N=5$ to $N=200$ -- directly confirming the predicted scale-invariant complexity, while MAPPO and IPPO fail to converge under identical architectures.",
     "authors": [
       "Shan Yang",
       "Yang Liu"
@@ -715,7 +715,7 @@
     "summary": "Speakers of under-represented languages face both a language barrier, as most online knowledge is in a few dominant languages, and a modality barrier, since information is largely text-based while many languages are primarily oral. We address this for French-Wolof by training the first bilingual speech-text Matryoshka embedding model, enabling efficient retrieval of French text from Wolof speech queries without relying on a costly ASR-translation pipelines. We introduce large-scale data curation pipelines and new benchmarks, compare modeling strategies, and show that modality fusion within a frozen text Matryoshka model performs best. Although trained only for retrieval, the model generalizes well to other tasks, such as speech intent detection, indicating the learning of general semantic representations. Finally, we analyze cost-accuracy trade-offs across Matryoshka dimensions and ranks, showing that information is concentrated only in a few components, suggesting potential for efficiency improvements.",
     "authors": [
       "Yaya Sy",
-      "Dioula Doucour\u00e9",
+      "Dioula Doucouré",
       "Christophe Cerisara",
       "Irina Illina"
     ],
@@ -1265,7 +1265,7 @@
     "title": "Meta-Learning and Meta-Reinforcement Learning - Tracing the Path towards DeepMind's Adaptive Agent",
     "summary": "Humans are highly effective at utilizing prior knowledge to adapt to novel tasks, a capability that standard machine learning models struggle to replicate due to their reliance on task-specific training. Meta-learning overcomes this limitation by allowing models to acquire transferable knowledge from various tasks, enabling rapid adaptation to new challenges with minimal data. This survey provides a rigorous, task-based formalization of meta-learning and meta-reinforcement learning and uses that paradigm to chronicle the landmark algorithms that paved the way for DeepMind's Adaptive Agent, consolidating the essential concepts needed to understand the Adaptive Agent and other generalist approaches.",
     "authors": [
-      "Bj\u00f6rn Hoppmann",
+      "Björn Hoppmann",
       "Christoph Scholz"
     ],
     "categories": [
@@ -1585,7 +1585,7 @@
       "Laurens Engwegen",
       "Max Weltevrede",
       "Matthijs T. J. Spaan",
-      "Wendelin B\u00f6hmer"
+      "Wendelin Böhmer"
     ],
     "categories": [
       "cs.LG"
@@ -1646,7 +1646,7 @@
     "authors": [
       "Arthur Lebeurrier",
       "Titouan Vayer",
-      "R\u00e9mi Gribonval"
+      "Rémi Gribonval"
     ],
     "categories": [
       "stat.ML",
@@ -1663,13 +1663,13 @@
   {
     "arxiv_id": "2602.20070v1",
     "title": "Training-Free Generative Modeling via Kernelized Stochastic Interpolants",
-    "summary": "We develop a kernel method for generative modeling within the stochastic interpolant framework, replacing neural network training with linear systems. The drift of the generative SDE is $\\hat b_t(x) = \\nabla\u03c6(x)^\\top\u03b7_t$, where $\u03b7_t\\in\\R^P$ solves a $P\\times P$ system computable from data, with $P$ independent of the data dimension $d$. Since estimates are inexact, the diffusion coefficient $D_t$ affects sample quality; the optimal $D_t^*$ from Girsanov diverges at $t=0$, but this poses no difficulty and we develop an integrator that handles it seamlessly. The framework accommodates diverse feature maps -- scattering transforms, pretrained generative models etc. -- enabling training-free generation and model combination. We demonstrate the approach on financial time series, turbulence, and image generation.",
+    "summary": "We develop a kernel method for generative modeling within the stochastic interpolant framework, replacing neural network training with linear systems. The drift of the generative SDE is $\\hat b_t(x) = \\nablaφ(x)^\\topη_t$, where $η_t\\in\\R^P$ solves a $P\\times P$ system computable from data, with $P$ independent of the data dimension $d$. Since estimates are inexact, the diffusion coefficient $D_t$ affects sample quality; the optimal $D_t^*$ from Girsanov diverges at $t=0$, but this poses no difficulty and we develop an integrator that handles it seamlessly. The framework accommodates diverse feature maps -- scattering transforms, pretrained generative models etc. -- enabling training-free generation and model combination. We demonstrate the approach on financial time series, turbulence, and image generation.",
     "authors": [
       "Florentin Coeurdoux",
       "Etienne Lempereur",
-      "Nathana\u00ebl Cuvelle-Magar",
+      "Nathanaël Cuvelle-Magar",
       "Thomas Eboli",
-      "St\u00e9phane Mallat",
+      "Stéphane Mallat",
       "Anastasia Borovykh",
       "Eric Vanden-Eijnden"
     ],
@@ -1689,8 +1689,8 @@
     "summary": "Foundation models are transforming Earth Observation (EO), yet the diversity of EO sensors and modalities makes a single universal model unrealistic. Multiple specialized EO foundation models (EOFMs) will likely coexist, making efficient knowledge transfer across modalities essential. Most existing EO pretraining relies on masked image modeling, which emphasizes local reconstruction but provides limited control over global semantic structure. To address this, we propose a dual-teacher contrastive distillation framework for multispectral imagery that aligns the student's pretraining objective with the contrastive self-distillation paradigm of modern optical vision foundation models (VFMs). Our approach combines a multispectral teacher with an optical VFM teacher, enabling coherent cross-modal representation learning. Experiments across diverse optical and multispectral benchmarks show that our model adapts to multispectral data without compromising performance on optical-only inputs, achieving state-of-the-art results in both settings, with an average improvement of 3.64 percentage points in semantic segmentation, 1.2 in change detection, and 1.31 in classification tasks. This demonstrates that contrastive distillation provides a principled and efficient approach to scalable representation learning across heterogeneous EO data sources. Code: Coming soon.",
     "authors": [
       "Filip Wolf",
-      "Bla\u017e Rolih",
-      "Luka \u010cehovin Zajc"
+      "Blaž Rolih",
+      "Luka Čehovin Zajc"
     ],
     "categories": [
       "cs.CV"
@@ -1966,8 +1966,8 @@
     "title": "Denoising Particle Filters: Learning State Estimation with Single-Step Objectives",
     "summary": "Learning-based methods commonly treat state estimation in robotics as a sequence modeling problem. While this paradigm can be effective at maximizing end-to-end performance, models are often difficult to interpret and expensive to train, since training requires unrolling sequences of predictions in time. As an alternative to end-to-end trained state estimation, we propose a novel particle filtering algorithm in which models are trained from individual state transitions, fully exploiting the Markov property in robotic systems. In this framework, measurement models are learned implicitly by minimizing a denoising score matching objective. At inference, the learned denoiser is used alongside a (learned) dynamics model to approximately solve the Bayesian filtering equation at each time step, effectively guiding predicted states toward the data manifold informed by measurements. We evaluate the proposed method on challenging robotic state estimation tasks in simulation, demonstrating competitive performance compared to tuned end-to-end trained baselines. Importantly, our method offers the desirable composability of classical filtering algorithms, allowing prior information and external sensor models to be incorporated without retraining.",
     "authors": [
-      "Lennart R\u00f6stel",
-      "Berthold B\u00e4uml"
+      "Lennart Röstel",
+      "Berthold Bäuml"
     ],
     "categories": [
       "cs.RO",
@@ -2191,8 +2191,8 @@
     "summary": "In January 2026, the open-source agent framework OpenClaw and the agent-only social network Moltbook produced a large-scale dataset of autonomous AI-to-AI interaction, attracting six academic publications within fourteen days. This study conducts a multivocal literature review of that ecosystem and presents ClawdLab, an open-source platform for autonomous scientific research, as a design science response to the architectural failure modes identified. The literature documents emergent collective phenomena, security vulnerabilities spanning 131 agent skills and over 15,200 exposed control panels, and five recurring architectural patterns. ClawdLab addresses these failure modes through hard role restrictions, structured adversarial critique, PI-led governance, multi-model orchestration, and domain-specific evidence requirements encoded as protocol constraints that ground validation in computational tool outputs rather than social consensus; the architecture provides emergent Sybil resistance as a structural consequence. A three-tier taxonomy distinguishes single-agent pipelines, predetermined multi-agent workflows, and fully decentralised systems, analysing why leading AI co-scientist platforms remain confined to the first two tiers. ClawdLab's composable third-tier architecture, in which foundation models, capabilities, governance, and evidence requirements are independently modifiable, enables compounding improvement as the broader AI ecosystem advances.",
     "authors": [
       "Lukas Weidener",
-      "Marko Brki\u0107",
-      "Mihailo Jovanovi\u0107",
+      "Marko Brkić",
+      "Mihailo Jovanović",
       "Ritvik Singh",
       "Emre Ulgac",
       "Aakaash Meduri"
@@ -2212,8 +2212,8 @@
     "title": "Bayesian Meta-Learning with Expert Feedback for Task-Shift Adaptation through Causal Embeddings",
     "summary": "Meta-learning methods perform well on new within-distribution tasks but often fail when adapting to out-of-distribution target tasks, where transfer from source tasks can induce negative transfer. We propose a causally-aware Bayesian meta-learning method, by conditioning task-specific priors on precomputed latent causal task embeddings, enabling transfer based on mechanistic similarity rather than spurious correlations. Our approach explicitly considers realistic deployment settings where access to target-task data is limited, and adaptation relies on noisy (expert-provided) pairwise judgments of causal similarity between source and target tasks. We provide a theoretical analysis showing that conditioning on causal embeddings controls prior mismatch and mitigates negative transfer under task shift. Empirically, we demonstrate reductions in negative transfer and improved out-of-distribution adaptation in both controlled simulations and a large-scale real-world clinical prediction setting for cross-disease transfer, where causal embeddings align with underlying clinical mechanisms.",
     "authors": [
-      "Lotta M\u00e4kinen",
-      "Jorge Lor\u00eda",
+      "Lotta Mäkinen",
+      "Jorge Loría",
       "Samuel Kaski"
     ],
     "categories": [
@@ -2231,12 +2231,12 @@
     "title": "The Confusion is Real: GRAPHIC - A Network Science Approach to Confusion Matrices in Deep Learning",
     "summary": "Explainable artificial intelligence has emerged as a promising field of research to address reliability concerns in artificial intelligence. Despite significant progress in explainable artificial intelligence, few methods provide a systematic way to visualize and understand how classes are confused and how their relationships evolve as training progresses. In this work, we present GRAPHIC, an architecture-agnostic approach that analyzes neural networks on a class level. It leverages confusion matrices derived from intermediate layers using linear classifiers. We interpret these as adjacency matrices of directed graphs, allowing tools from network science to visualize and quantify learning dynamics across training epochs and intermediate layers. GRAPHIC provides insights into linear class separability, dataset issues, and architectural behavior, revealing, for example, similarities between flatfish and man and labeling ambiguities validated in a human study. In summary, by uncovering real confusions, GRAPHIC offers new perspectives on how neural networks learn. The code is available at https://github.com/Johanna-S-Froehlich/GRAPHIC.",
     "authors": [
-      "Johanna S. Fr\u00f6hlich",
+      "Johanna S. Fröhlich",
       "Bastian Heinlein",
       "Jan U. Claar",
       "Hans Rosenberger",
       "Vasileios Belagiannis",
-      "Ralf R. M\u00fcller"
+      "Ralf R. Müller"
     ],
     "categories": [
       "cs.LG",
@@ -2278,7 +2278,7 @@
       "Ruisi Wang",
       "Juyi Lin",
       "Ran Ji",
-      "Thadd\u00e4us Wiedemer",
+      "Thaddäus Wiedemer",
       "Qingying Gao",
       "Dezhi Luo",
       "Yaoyao Qian",
@@ -2315,7 +2315,7 @@
       "Yanzhi Wang",
       "Mengyue Yang",
       "Ziqiao Ma",
-      "Rapha\u00ebl Milli\u00e8re",
+      "Raphaël Millière",
       "Freda Shi",
       "Nuno Vasconcelos",
       "Daniel Khashabi",
@@ -2428,7 +2428,7 @@
       "Jin Yan",
       "Tamara Serrano",
       "Elena Pagliarini",
-      "Fritz G\u00fcnther",
+      "Fritz Günther",
       "Evelina Leivada"
     ],
     "categories": [
@@ -2865,7 +2865,7 @@
     "summary": "Neural networks are the cornerstone of modern machine learning, yet can be difficult to interpret, give overconfident predictions and are vulnerable to adversarial attacks. Bayesian neural networks (BNNs) provide some alleviation of these limitations, but have problems of their own. The key step of specifying prior distributions in BNNs is no trivial task, yet is often skipped out of convenience. In this work, we propose a new class of prior distributions for BNNs, the Dirichlet scale mixture (DSM) prior, that addresses current limitations in Bayesian neural networks through structured, sparsity-inducing shrinkage. Theoretically, we derive general dependence structures and shrinkage results for DSM priors and show how they manifest under the geometry induced by neural networks. In experiments on simulated and real world data we find that the DSM priors encourages sparse networks through implicit feature selection, show robustness under adversarial attacks and deliver competitive predictive performance with substantially fewer effective parameters. In particular, their advantages appear most pronounced in correlated, moderately small data regimes, and are more amenable to weight pruning. Moreover, by adopting heavy-tailed shrinkage mechanisms, our approach aligns with recent findings that such priors can mitigate the cold posterior effect, offering a principled alternative to the commonly used Gaussian priors.",
     "authors": [
       "August Arnstad",
-      "Leiv R\u00f8nneberg",
+      "Leiv Rønneberg",
       "Geir Storvik"
     ],
     "categories": [
@@ -2924,9 +2924,9 @@
     "title": "Spectral Phase Encoding for Quantum Kernel Methods",
     "summary": "Quantum kernel methods are promising for near-term quantum ma- chine learning, yet their behavior under data corruption remains insuf- ficiently understood. We analyze how quantum feature constructions degrade under controlled additive noise. We introduce Spectral Phase Encoding (SPE), a hybrid construc- tion combining a discrete Fourier transform (DFT) front-end with a diagonal phase-only embedding aligned with the geometry of diagonal quantum maps. Within a unified framework, we compare QK-DFT against alternative quantum variants (QK-PCA, QK-RP) and classi- cal SVM baselines under identical clean-data hyperparameter selection, quantifying robustness via dataset fixed-effects regression with wild cluster bootstrap inference across heterogeneous real-world datasets. Across the quantum family, DFT-based preprocessing yields the smallest degradation rate as noise increases, with statistically sup- ported slope differences relative to PCA and RP. Compared to classical baselines, QK-DFT shows degradation comparable to linear SVM and more stable than RBF SVM under matched tuning. Hardware exper- iments confirm that SPE remains executable and numerically stable for overlap estimation. These results indicate that robustness in quan- tum kernels depends critically on structure-aligned preprocessing and its interaction with diagonal embeddings, supporting a robustness-first perspective for NISQ-era quantum machine learning.",
     "authors": [
-      "Pablo Herrero G\u00f3mez",
+      "Pablo Herrero Gómez",
       "Antonio Jimeno Morenilla",
-      "David Mu\u00f1oz-Hern\u00e1ndez",
+      "David Muñoz-Hernández",
       "Higinio Mora Mora"
     ],
     "categories": [
@@ -3071,7 +3071,7 @@
     "summary": "We present a proof-of-concept system that automates iconographic classification and content-based recommendation of digitized artworks using the Iconclass vocabulary and selected artificial intelligence methods. The prototype implements a four-stage workflow for classification and recommendation, which integrates YOLOv8 object detection with algorithmic mappings to Iconclass codes, rule-based inference for abstract meanings, and three complementary recommenders (hierarchical proximity, IDF-weighted overlap, and Jaccard similarity). Although more engineering is still needed, the evaluation demonstrates the potential of this solution: Iconclass-aware computer vision and recommendation methods can accelerate cataloging and enhance navigation in large heritage repositories. The key insight is to let computer vision propose visible elements and to use symbolic structures (Iconclass hierarchy) to reach meaning.",
     "authors": [
       "Krzysztof Kutt",
-      "Maciej Baczy\u0144ski"
+      "Maciej Baczyński"
     ],
     "categories": [
       "cs.DL",
@@ -3191,7 +3191,7 @@
     "title": "DEEP: Docker-based Execution and Evaluation Platform",
     "summary": "Comparative evaluation of several systems is a recurrent task in researching. It is a key step before deciding which system to use for our work, or, once our research has been conducted, to demonstrate the potential of the resulting model. Furthermore, it is the main task of competitive, public challenges evaluation. Our proposed software (DEEP) automates both the execution and scoring of machine translation and optical character recognition models. Furthermore, it is easily extensible to other tasks. DEEP is prepared to receive dockerized systems, run them (extracting information at that same time), and assess hypothesis against some references. With this approach, evaluators can achieve a better understanding of the performance of each model. Moreover, the software uses a clustering algorithm based on a statistical analysis of the significance of the results yielded by each model, according to the evaluation metrics. As a result, evaluators are able to identify clusters of performance among the swarm of proposals and have a better understanding of the significance of their differences. Additionally, we offer a visualization web-app to ensure that the results can be adequately understood and interpreted. Finally, we present an exemplary case of use of DEEP.",
     "authors": [
-      "Sergio G\u00f3mez Gonz\u00e1lez",
+      "Sergio Gómez González",
       "Miguel Domingo",
       "Francisco Casacuberta"
     ],
@@ -3353,13 +3353,13 @@
   },
   {
     "arxiv_id": "2602.19785v1",
-    "title": "Unsupervised Anomaly Detection in NSL-KDD Using $\u03b2$-VAE: A Latent Space and Reconstruction Error Approach",
-    "summary": "As Operational Technology increasingly integrates with Information Technology, the need for Intrusion Detection Systems becomes more important. This paper explores an unsupervised approach to anomaly detection in network traffic using $\u03b2$-Variational Autoencoders on the NSL-KDD dataset. We investigate two methods: leveraging the latent space structure by measuring distances from test samples to the training data projections, and using the reconstruction error as a conventional anomaly detection metric. By comparing these approaches, we provide insights into their respective advantages and limitations in an unsupervised setting. Experimental results highlight the effectiveness of latent space exploitation for classification tasks.",
+    "title": "Unsupervised Anomaly Detection in NSL-KDD Using $β$-VAE: A Latent Space and Reconstruction Error Approach",
+    "summary": "As Operational Technology increasingly integrates with Information Technology, the need for Intrusion Detection Systems becomes more important. This paper explores an unsupervised approach to anomaly detection in network traffic using $β$-Variational Autoencoders on the NSL-KDD dataset. We investigate two methods: leveraging the latent space structure by measuring distances from test samples to the training data projections, and using the reconstruction error as a conventional anomaly detection metric. By comparing these approaches, we provide insights into their respective advantages and limitations in an unsupervised setting. Experimental results highlight the effectiveness of latent space exploitation for classification tasks.",
     "authors": [
       "Dylan Baptiste",
       "Ramla Saddem",
       "Alexandre Philippot",
-      "Fran\u00e7ois Foyer"
+      "François Foyer"
     ],
     "categories": [
       "cs.LG",
@@ -3376,7 +3376,7 @@
   {
     "arxiv_id": "2602.19641v1",
     "title": "Evaluating the Impact of Data Anonymization on Image Retrieval",
-    "summary": "With the growing importance of privacy regulations such as the General Data Protection Regulation, anonymizing visual data is becoming increasingly relevant across institutions. However, anonymization can negatively affect the performance of Computer Vision systems that rely on visual features, such as Content-Based Image Retrieval (CBIR). Despite this, the impact of anonymization on CBIR has not been systematically studied. This work addresses this gap, motivated by the DOKIQ project, an artificial intelligence-based system for document verification actively used by the State Criminal Police Office Baden-W\u00fcrttemberg. We propose a simple evaluation framework: retrieval results after anonymization should match those obtained before anonymization as closely as possible. To this end, we systematically assess the impact of anonymization using two public datasets and the internal DOKIQ dataset. Our experiments span three anonymization methods, four anonymization degrees, and four training strategies, all based on the state of the art backbone Self-Distillation with No Labels (DINO)v2. Our results reveal a pronounced retrieval bias in favor of models trained on original data, which produce the most similar retrievals after anonymization. The findings of this paper offer practical insights for developing privacy-compliant CBIR systems while preserving performance.",
+    "summary": "With the growing importance of privacy regulations such as the General Data Protection Regulation, anonymizing visual data is becoming increasingly relevant across institutions. However, anonymization can negatively affect the performance of Computer Vision systems that rely on visual features, such as Content-Based Image Retrieval (CBIR). Despite this, the impact of anonymization on CBIR has not been systematically studied. This work addresses this gap, motivated by the DOKIQ project, an artificial intelligence-based system for document verification actively used by the State Criminal Police Office Baden-Württemberg. We propose a simple evaluation framework: retrieval results after anonymization should match those obtained before anonymization as closely as possible. To this end, we systematically assess the impact of anonymization using two public datasets and the internal DOKIQ dataset. Our experiments span three anonymization methods, four anonymization degrees, and four training strategies, all based on the state of the art backbone Self-Distillation with No Labels (DINO)v2. Our results reveal a pronounced retrieval bias in favor of models trained on original data, which produce the most similar retrievals after anonymization. The findings of this paper offer practical insights for developing privacy-compliant CBIR systems while preserving performance.",
     "authors": [
       "Marvin Chen",
       "Manuel Eberhardinger",
@@ -3422,7 +3422,7 @@
       "Paul Prasse",
       "Jana M. Hofmann",
       "Lena S. Bolliger",
-      "Lena A. J\u00e4ger"
+      "Lena A. Jäger"
     ],
     "categories": [
       "cs.CL"
@@ -3552,7 +3552,7 @@
       "Petri J. Ihantola",
       "Muhammad Waseem",
       "Pekka Abrahamsson",
-      "Niko K. M\u00e4kitalo"
+      "Niko K. Mäkitalo"
     ],
     "categories": [
       "cs.SE",
@@ -3892,7 +3892,7 @@
     "summary": "This position paper argues that the machine learning community must move from preaching to practising data frugality for responsible artificial intelligence (AI) development. For long, progress has been equated with ever-larger datasets, driving remarkable advances but now yielding increasingly diminishing performance gains alongside rising energy use and carbon emissions. While awareness of data frugal approaches has grown, their adoption has remained rhetorical, and data scaling continues to dominate development practice. We argue that this gap between preach and practice must be closed, as continued data scaling entails substantial and under-accounted environmental impacts. To ground our position, we provide indicative estimates of the energy use and carbon emissions associated with the downstream use of ImageNet-1K. We then present empirical evidence that data frugality is both practical and beneficial, demonstrating that coreset-based subset selection can substantially reduce training energy consumption with little loss in accuracy, while also mitigating dataset bias. Finally, we outline actionable recommendations for moving data frugality from rhetorical preach to concrete practice for responsible development of AI.",
     "authors": [
       "Sophia N. Wilson",
-      "Gu\u00f0r\u00fan Fj\u00f3la Gu\u00f0mundsd\u00f3ttir",
+      "Guðrún Fjóla Guðmundsdóttir",
       "Andrew Millard",
       "Raghavendra Selvan",
       "Sebastian Mair"
@@ -4083,7 +4083,7 @@
     "authors": [
       "Lucas Martini",
       "Alexander Lappe",
-      "Anna Bogn\u00e1r",
+      "Anna Bognár",
       "Rufin Vogels",
       "Martin A. Giese"
     ],
@@ -4104,7 +4104,7 @@
     "authors": [
       "Francisco Filho",
       "Kelvin Cunha",
-      "F\u00e1bio Papais",
+      "Fábio Papais",
       "Emanoel dos Santos",
       "Rodrigo Mota",
       "Thales Bezerra",
@@ -4168,7 +4168,7 @@
       "Keno Moenck",
       "Adrian Philip Florea",
       "Julian Koch",
-      "Thorsten Sch\u00fcppstuhl"
+      "Thorsten Schüppstuhl"
     ],
     "categories": [
       "cs.CV"
@@ -4421,7 +4421,7 @@
       "Rodrigo Mota",
       "Kelvin Cunha",
       "Emanoel dos Santos",
-      "F\u00e1bio Papais",
+      "Fábio Papais",
       "Francisco Filho",
       "Thales Bezerra",
       "Erico Medeiros",
@@ -4441,14 +4441,14 @@
   {
     "arxiv_id": "2602.19952v1",
     "title": "A Bayesian Framework for Post-disruption Travel Time Prediction in Metro Networks",
-    "summary": "Disruptions are an inherent feature of transportation systems, occurring unpredictably and with varying durations. Even after an incident is reported as resolved, disruptions can induce irregular train operations that generate substantial uncertainty in passenger waiting and travel times. Accurately forecasting post-disruption travel times therefore remains a critical challenge for transit operators and passenger information systems. This paper develops a Bayesian spatiotemporal modeling framework for post-disruption train travel times that explicitly captures train interactions, headway imbalance, and non-Gaussian distributional characteristics observed during recovery periods. The proposed model decomposes travel times into delay and journey components and incorporates a moving-average error structure to represent dependence between consecutive trains. Skew-normal and skew-$t$ distributions are employed to flexibly accommodate heteroskedasticity, skewness, and heavy-tailed behavior in post-disruption travel times. The framework is evaluated using high-resolution track-occupancy and disruption log data from the Montr\u00e9al metro system, covering two lines in both travel directions. Empirical results indicate that post-disruption travel times exhibit pronounced distributional asymmetries that vary with traveled distance, as well as significant error dependence across trains. The proposed models consistently outperform baseline specifications in both point prediction accuracy and uncertainty quantification, with the skew-$t$ model demonstrating the most robust performance for longer journeys. These findings underscore the importance of incorporating both distributional flexibility and error dependence when forecasting post-disruption travel times in urban rail systems.",
+    "summary": "Disruptions are an inherent feature of transportation systems, occurring unpredictably and with varying durations. Even after an incident is reported as resolved, disruptions can induce irregular train operations that generate substantial uncertainty in passenger waiting and travel times. Accurately forecasting post-disruption travel times therefore remains a critical challenge for transit operators and passenger information systems. This paper develops a Bayesian spatiotemporal modeling framework for post-disruption train travel times that explicitly captures train interactions, headway imbalance, and non-Gaussian distributional characteristics observed during recovery periods. The proposed model decomposes travel times into delay and journey components and incorporates a moving-average error structure to represent dependence between consecutive trains. Skew-normal and skew-$t$ distributions are employed to flexibly accommodate heteroskedasticity, skewness, and heavy-tailed behavior in post-disruption travel times. The framework is evaluated using high-resolution track-occupancy and disruption log data from the Montréal metro system, covering two lines in both travel directions. Empirical results indicate that post-disruption travel times exhibit pronounced distributional asymmetries that vary with traveled distance, as well as significant error dependence across trains. The proposed models consistently outperform baseline specifications in both point prediction accuracy and uncertainty quantification, with the skew-$t$ model demonstrating the most robust performance for longer journeys. These findings underscore the importance of incorporating both distributional flexibility and error dependence when forecasting post-disruption travel times in urban rail systems.",
     "authors": [
       "Shayan Nazemi",
-      "Aur\u00e9lie Labbe",
+      "Aurélie Labbe",
       "Stefan Steiner",
       "Pratheepa Jeganathan",
-      "Martin Tr\u00e9panier",
-      "L\u00e9o R. Belzile"
+      "Martin Trépanier",
+      "Léo R. Belzile"
     ],
     "categories": [
       "stat.AP",
@@ -4484,224 +4484,5 @@
     "date": "2026-02-24",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "Sakai0920/LLM-Competition-2025-v3",
-    "author": "unknown",
-    "title": "Sakai0920/LLM-Competition-2025-v3",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "qlora",
-      "lora",
-      "structured-output",
-      "text-generation",
-      "en",
-      "dataset:u-10bei/structured_data_with_cot_dataset_512_v2",
-      "base_model:Qwen/Qwen3-4B-Instruct-2507",
-      "base_model:adapter:Qwen/Qwen3-4B-Instruct-2507",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-02-24T04:40:33.000Z",
-    "last_modified": "2026-02-24T04:40:51.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Sakai0920/LLM-Competition-2025-v3",
-    "date": "2026-02-24",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "StentorLabs/Stentor2-12M-Preview",
-    "author": "unknown",
-    "title": "StentorLabs/Stentor2-12M-Preview",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "small-language-model",
-      "efficient",
-      "edge-deployment",
-      "speculative-decoding",
-      "tiny-model",
-      "12m-parameters",
-      "kaggle-trained",
-      "educational",
-      "research",
-      "low-resource",
-      "cpu-inference",
-      "mobile-deployment",
-      "preview",
-      "stentor2",
-      "tokenmonster",
-      "en",
-      "dataset:HuggingFaceFW/fineweb-edu",
-      "arxiv:2211.17192",
-      "arxiv:1810.03993",
-      "arxiv:2104.09864",
-      "license:apache-2.0",
-      "model-index",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-02-24T01:56:55.000Z",
-    "last_modified": "2026-02-24T04:40:16.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/StentorLabs/Stentor2-12M-Preview",
-    "date": "2026-02-24",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "maru-miya/merged_agentbench_qwen3_4b_dare_ties_t1",
-    "author": "unknown",
-    "title": "maru-miya/merged_agentbench_qwen3_4b_dare_ties_t1",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "qwen3",
-      "lora",
-      "agent",
-      "tool-use",
-      "alfworld",
-      "dbbench",
-      "merge",
-      "dare-ties",
-      "text-generation",
-      "conversational",
-      "en",
-      "dataset:u-10bei/sft_alfworld_trajectory_dataset_v5",
-      "dataset:u-10bei/dbbench_sft_dataset_react",
-      "base_model:Qwen/Qwen3-4B-Instruct-2507",
-      "base_model:adapter:Qwen/Qwen3-4B-Instruct-2507",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-02-24T04:31:12.000Z",
-    "last_modified": "2026-02-24T04:39:25.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/maru-miya/merged_agentbench_qwen3_4b_dare_ties_t1",
-    "date": "2026-02-24",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "NathanRoll/writing-rlvr-qwen2.5-1.5b",
-    "author": "unknown",
-    "title": "NathanRoll/writing-rlvr-qwen2.5-1.5b",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "grpo",
-      "conversational",
-      "arxiv:2402.03300",
-      "base_model:Qwen/Qwen2.5-1.5B-Instruct",
-      "base_model:finetune:Qwen/Qwen2.5-1.5B-Instruct",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-02-23T05:13:57.000Z",
-    "last_modified": "2026-02-24T04:38:36.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/NathanRoll/writing-rlvr-qwen2.5-1.5b",
-    "date": "2026-02-24",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "matCercola18/Qwen2.5-7B-GRPO-corr",
-    "author": "unknown",
-    "title": "matCercola18/Qwen2.5-7B-GRPO-corr",
-    "downloads": 7,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "generated_from_trainer",
-      "grpo",
-      "trl",
-      "conversational",
-      "arxiv:2402.03300",
-      "base_model:Qwen/Qwen2.5-7B-Instruct",
-      "base_model:finetune:Qwen/Qwen2.5-7B-Instruct",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-02-22T22:44:29.000Z",
-    "last_modified": "2026-02-24T04:37:35.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/matCercola18/Qwen2.5-7B-GRPO-corr",
-    "date": "2026-02-24",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "toshiyuki-kato/dpo-qwen-cot-merged",
-    "author": "unknown",
-    "title": "toshiyuki-kato/dpo-qwen-cot-merged",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "dpo",
-      "unsloth",
-      "qwen",
-      "alignment",
-      "conversational",
-      "en",
-      "dataset:u-10bei/dpo-dataset-qwen-cot",
-      "base_model:Qwen/Qwen3-4B-Instruct-2507",
-      "base_model:finetune:Qwen/Qwen3-4B-Instruct-2507",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-02-24T04:31:22.000Z",
-    "last_modified": "2026-02-24T04:34:13.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/toshiyuki-kato/dpo-qwen-cot-merged",
-    "date": "2026-02-24",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
