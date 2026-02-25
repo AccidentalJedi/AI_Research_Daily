@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-25T08:21:04.960511",
+  "date": "2026-02-25T12:21:53.829517",
   "patterns": {
     "multimodal_research": [
       {
@@ -769,6 +769,14 @@
       {
         "title": "On the Explainability of Vision-Language Models in Art History",
         "url": "https://arxiv.org/abs/2602.20853v1"
+      },
+      {
+        "title": "nisiwaki/llm_adv01",
+        "url": "https://huggingface.co/nisiwaki/llm_adv01"
+      },
+      {
+        "title": "marzieh-maleki/gpt2-dnli-pch",
+        "url": "https://huggingface.co/marzieh-maleki/gpt2-dnli-pch"
       }
     ],
     "vision_systems": [
@@ -1365,6 +1373,10 @@
       {
         "title": "DA-Cal: Towards Cross-Domain Calibration in Semantic Segmentation",
         "url": "https://arxiv.org/abs/2602.20860v1"
+      },
+      {
+        "title": "inferencerlabs/Qwen3.5-122B-A10B-MLX-6.5bit",
+        "url": "https://huggingface.co/inferencerlabs/Qwen3.5-122B-A10B-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1833,7 +1845,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1845,7 +1857,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "65 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1892,6 +1904,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 448
+    "total_papers": 451
   }
 }
