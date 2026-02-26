@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-26T08:21:34.414280",
+  "date": "2026-02-26T12:22:09.049009",
   "patterns": {
     "multimodal_research": [
       {
@@ -729,10 +729,6 @@
       {
         "title": "TranX-Adapter: Bridging Artifacts and Semantics within MLLMs for Robust AI-generated Image Detection",
         "url": "https://arxiv.org/abs/2602.21716v1"
-      },
-      {
-        "title": "FarmerlineML/w2v-bert-2.0_2026_krio",
-        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_krio"
       }
     ],
     "vision_systems": [
@@ -1817,7 +1813,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1876,6 +1872,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 444
+    "total_papers": 443
   }
 }
