@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-26T12:22:09.049009",
+  "date": "2026-02-26T16:25:18.924305",
   "patterns": {
     "multimodal_research": [
       {
@@ -729,6 +729,14 @@
       {
         "title": "TranX-Adapter: Bridging Artifacts and Semantics within MLLMs for Robust AI-generated Image Detection",
         "url": "https://arxiv.org/abs/2602.21716v1"
+      },
+      {
+        "title": "laion/exp-syh-r2egym-askllm-hardened_glm_4_7_traces_jupiter",
+        "url": "https://huggingface.co/laion/exp-syh-r2egym-askllm-hardened_glm_4_7_traces_jupiter"
+      },
+      {
+        "title": "shareeep/roberta-base-fine-tuned-hatexplain",
+        "url": "https://huggingface.co/shareeep/roberta-base-fine-tuned-hatexplain"
       }
     ],
     "vision_systems": [
@@ -1813,7 +1821,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1872,6 +1880,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 443
+    "total_papers": 445
   }
 }
