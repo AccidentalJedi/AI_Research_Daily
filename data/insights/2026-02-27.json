@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-27T16:16:53.426613",
+  "date": "2026-02-27T20:12:37.759722",
   "patterns": {
     "multimodal_research": [
       {
@@ -731,8 +731,8 @@
         "url": "https://huggingface.co/adityasinghbisht/PPO_FULL_FINETUNE_GPT2"
       },
       {
-        "title": "rokugatsu/LLM2025_Advanced_6_DPO",
-        "url": "https://huggingface.co/rokugatsu/LLM2025_Advanced_6_DPO"
+        "title": "Shawnno/chess-smollm2",
+        "url": "https://huggingface.co/Shawnno/chess-smollm2"
       }
     ],
     "vision_systems": [
@@ -1023,10 +1023,6 @@
       {
         "title": "OSDaR-AR: Enhancing Railway Perception Datasets via Multi-modal Augmented Reality",
         "url": "https://arxiv.org/abs/2602.22920v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1309,6 +1305,10 @@
       {
         "title": "Cytoarchitecture in Words: Weakly Supervised Vision-Language Modeling for Human Brain Microscopy",
         "url": "https://arxiv.org/abs/2602.23088v1"
+      },
+      {
+        "title": "howellx/qwen25-7b-scientific-reasoning",
+        "url": "https://huggingface.co/howellx/qwen25-7b-scientific-reasoning"
       }
     ],
     "benchmarks": [
@@ -1715,13 +1715,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1756,7 +1756,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 36,
+      "frequency": 37,
       "significance": "high"
     },
     {
