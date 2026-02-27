@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-27T04:39:42.658073",
+  "date": "2026-02-27T08:19:34.697164",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,8 +727,16 @@
         "url": "https://arxiv.org/abs/2602.22959v1"
       },
       {
-        "title": "Sakai0920/LLM-Competition-2025-v44",
-        "url": "https://huggingface.co/Sakai0920/LLM-Competition-2025-v44"
+        "title": "futurepear/modernbert-llm-router",
+        "url": "https://huggingface.co/futurepear/modernbert-llm-router"
+      },
+      {
+        "title": "thrnn/dpo-gpt2-medium-prefix",
+        "url": "https://huggingface.co/thrnn/dpo-gpt2-medium-prefix"
+      },
+      {
+        "title": "thrnn/dpo-gpt2-medium-lora",
+        "url": "https://huggingface.co/thrnn/dpo-gpt2-medium-lora"
       }
     ],
     "vision_systems": [
@@ -1701,7 +1709,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1760,6 +1768,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 415
+    "total_papers": 417
   }
 }
