@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-27T08:19:34.697164",
+  "date": "2026-02-27T12:18:38.929465",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,16 +727,32 @@
         "url": "https://arxiv.org/abs/2602.22959v1"
       },
       {
-        "title": "futurepear/modernbert-llm-router",
-        "url": "https://huggingface.co/futurepear/modernbert-llm-router"
+        "title": "AhmedBayoumi/mmbert-small-finetuned-llrd",
+        "url": "https://huggingface.co/AhmedBayoumi/mmbert-small-finetuned-llrd"
       },
       {
-        "title": "thrnn/dpo-gpt2-medium-prefix",
-        "url": "https://huggingface.co/thrnn/dpo-gpt2-medium-prefix"
+        "title": "tk256ailab/matsuo-llm-2025-advanced-v07",
+        "url": "https://huggingface.co/tk256ailab/matsuo-llm-2025-advanced-v07"
       },
       {
-        "title": "thrnn/dpo-gpt2-medium-lora",
-        "url": "https://huggingface.co/thrnn/dpo-gpt2-medium-lora"
+        "title": "mrhusanboy/gpt2-for-uzb",
+        "url": "https://huggingface.co/mrhusanboy/gpt2-for-uzb"
+      },
+      {
+        "title": "hara-CU/Qwen3-4B-LLM2025_DBaNoEr_excINUPv4_plus_AWv345NoEAd_ALF_format1600-r16a32-B16-2ep-5e6",
+        "url": "https://huggingface.co/hara-CU/Qwen3-4B-LLM2025_DBaNoEr_excINUPv4_plus_AWv345NoEAd_ALF_format1600-r16a32-B16-2ep-5e6"
+      },
+      {
+        "title": "allout2726/bert-reward-model",
+        "url": "https://huggingface.co/allout2726/bert-reward-model"
+      },
+      {
+        "title": "Vandita/EmoCentricSarcBERT27FebRstate42",
+        "url": "https://huggingface.co/Vandita/EmoCentricSarcBERT27FebRstate42"
+      },
+      {
+        "title": "naru0411/LLM-Competition-advanced-011",
+        "url": "https://huggingface.co/naru0411/LLM-Competition-advanced-011"
       }
     ],
     "vision_systems": [
@@ -1027,6 +1043,10 @@
       {
         "title": "OSDaR-AR: Enhancing Railway Perception Datasets via Multi-modal Augmented Reality",
         "url": "https://arxiv.org/abs/2602.22920v1"
+      },
+      {
+        "title": "SSSYYYTTT/gr1_sdp_1gpus_11924_visual_new8tasks_35k_1e4_w20a70",
+        "url": "https://huggingface.co/SSSYYYTTT/gr1_sdp_1gpus_11924_visual_new8tasks_35k_1e4_w20a70"
       }
     ],
     "reasoning": [
@@ -1709,13 +1729,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1768,6 +1788,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 417
+    "total_papers": 422
   }
 }
