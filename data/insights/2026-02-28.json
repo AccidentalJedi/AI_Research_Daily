@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-28T12:14:02.789132",
+  "date": "2026-02-28T16:10:27.180178",
   "patterns": {
     "multimodal_research": [
       {
@@ -707,6 +707,10 @@
         "url": "https://arxiv.org/abs/2602.22867v1"
       },
       {
+        "title": "riya20bora/prod_bert_model_new_5epochs",
+        "url": "https://huggingface.co/riya20bora/prod_bert_model_new_5epochs"
+      },
+      {
         "title": "ThinkOmni: Lifting Textual Reasoning to Omni-modal Scenarios via Guidance Decoding",
         "url": "https://arxiv.org/abs/2602.23306v1"
       },
@@ -727,28 +731,24 @@
         "url": "https://arxiv.org/abs/2602.22959v1"
       },
       {
-        "title": "Jatin-2006/ppo-gpt2-fullft",
-        "url": "https://huggingface.co/Jatin-2006/ppo-gpt2-fullft"
-      },
-      {
-        "title": "kamaboko2007/llm_advance_029_prompt_v7",
-        "url": "https://huggingface.co/kamaboko2007/llm_advance_029_prompt_v7"
+        "title": "ppak10/gpt-oss-20b-jam",
+        "url": "https://huggingface.co/ppak10/gpt-oss-20b-jam"
       },
       {
         "title": "mradermacher/gpt4o-distil-paperwitch-abliteration-L33-70b-i1-GGUF",
         "url": "https://huggingface.co/mradermacher/gpt4o-distil-paperwitch-abliteration-L33-70b-i1-GGUF"
       },
       {
-        "title": "BalaRajesh1/mmbert-small-nli",
-        "url": "https://huggingface.co/BalaRajesh1/mmbert-small-nli"
+        "title": "follmon10/qwen3-4b-structured-output-lora_fol_8",
+        "url": "https://huggingface.co/follmon10/qwen3-4b-structured-output-lora_fol_8"
       },
       {
-        "title": "Anonymous-2004/gpt2-ppo-finetuned",
-        "url": "https://huggingface.co/Anonymous-2004/gpt2-ppo-finetuned"
+        "title": "tk256ailab/matsuo-llm-2025-advanced-v14",
+        "url": "https://huggingface.co/tk256ailab/matsuo-llm-2025-advanced-v14"
       },
       {
-        "title": "takanaka/llm2025_3",
-        "url": "https://huggingface.co/takanaka/llm2025_3"
+        "title": "houlie3/LoRA_LLM_training",
+        "url": "https://huggingface.co/houlie3/LoRA_LLM_training"
       }
     ],
     "vision_systems": [
@@ -1321,6 +1321,22 @@
       {
         "title": "Cytoarchitecture in Words: Weakly Supervised Vision-Language Modeling for Human Brain Microscopy",
         "url": "https://arxiv.org/abs/2602.23088v1"
+      },
+      {
+        "title": "inference4j/distilbart-cnn-12-6",
+        "url": "https://huggingface.co/inference4j/distilbart-cnn-12-6"
+      },
+      {
+        "title": "inference4j/flan-t5-large",
+        "url": "https://huggingface.co/inference4j/flan-t5-large"
+      },
+      {
+        "title": "inference4j/flan-t5-base",
+        "url": "https://huggingface.co/inference4j/flan-t5-base"
+      },
+      {
+        "title": "inference4j/flan-t5-small",
+        "url": "https://huggingface.co/inference4j/flan-t5-small"
       }
     ],
     "benchmarks": [
@@ -1733,7 +1749,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1780,6 +1796,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 420
+    "total_papers": 424
   }
 }
