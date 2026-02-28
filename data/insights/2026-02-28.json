@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-28T08:11:26.989892",
+  "date": "2026-02-28T12:14:02.789132",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,16 +727,28 @@
         "url": "https://arxiv.org/abs/2602.22959v1"
       },
       {
-        "title": "ppak10/gpt-oss-20b-jam",
-        "url": "https://huggingface.co/ppak10/gpt-oss-20b-jam"
+        "title": "Jatin-2006/ppo-gpt2-fullft",
+        "url": "https://huggingface.co/Jatin-2006/ppo-gpt2-fullft"
       },
       {
-        "title": "AmberJin4526/bert-phishing-classifier_teacher",
-        "url": "https://huggingface.co/AmberJin4526/bert-phishing-classifier_teacher"
+        "title": "kamaboko2007/llm_advance_029_prompt_v7",
+        "url": "https://huggingface.co/kamaboko2007/llm_advance_029_prompt_v7"
       },
       {
-        "title": "JamesAndre/dpo-gpt2medium-prefix",
-        "url": "https://huggingface.co/JamesAndre/dpo-gpt2medium-prefix"
+        "title": "mradermacher/gpt4o-distil-paperwitch-abliteration-L33-70b-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/gpt4o-distil-paperwitch-abliteration-L33-70b-i1-GGUF"
+      },
+      {
+        "title": "BalaRajesh1/mmbert-small-nli",
+        "url": "https://huggingface.co/BalaRajesh1/mmbert-small-nli"
+      },
+      {
+        "title": "Anonymous-2004/gpt2-ppo-finetuned",
+        "url": "https://huggingface.co/Anonymous-2004/gpt2-ppo-finetuned"
+      },
+      {
+        "title": "takanaka/llm2025_3",
+        "url": "https://huggingface.co/takanaka/llm2025_3"
       }
     ],
     "vision_systems": [
@@ -1027,10 +1039,6 @@
       {
         "title": "OSDaR-AR: Enhancing Railway Perception Datasets via Multi-modal Augmented Reality",
         "url": "https://arxiv.org/abs/2602.22920v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1713,13 +1721,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1772,6 +1780,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 418
+    "total_papers": 420
   }
 }
