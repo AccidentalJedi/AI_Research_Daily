@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-28T16:10:27.180178",
+  "date": "2026-02-28T20:10:16.585656",
   "patterns": {
     "multimodal_research": [
       {
@@ -707,10 +707,6 @@
         "url": "https://arxiv.org/abs/2602.22867v1"
       },
       {
-        "title": "riya20bora/prod_bert_model_new_5epochs",
-        "url": "https://huggingface.co/riya20bora/prod_bert_model_new_5epochs"
-      },
-      {
         "title": "ThinkOmni: Lifting Textual Reasoning to Omni-modal Scenarios via Guidance Decoding",
         "url": "https://arxiv.org/abs/2602.23306v1"
       },
@@ -731,24 +727,20 @@
         "url": "https://arxiv.org/abs/2602.22959v1"
       },
       {
-        "title": "ppak10/gpt-oss-20b-jam",
-        "url": "https://huggingface.co/ppak10/gpt-oss-20b-jam"
+        "title": "GeorgeUwaifo/ivie_gpt2QA_txt_results",
+        "url": "https://huggingface.co/GeorgeUwaifo/ivie_gpt2QA_txt_results"
       },
       {
-        "title": "mradermacher/gpt4o-distil-paperwitch-abliteration-L33-70b-i1-GGUF",
-        "url": "https://huggingface.co/mradermacher/gpt4o-distil-paperwitch-abliteration-L33-70b-i1-GGUF"
+        "title": "llmtrace/Ministral-3-3B-Instruct-sec",
+        "url": "https://huggingface.co/llmtrace/Ministral-3-3B-Instruct-sec"
       },
       {
-        "title": "follmon10/qwen3-4b-structured-output-lora_fol_8",
-        "url": "https://huggingface.co/follmon10/qwen3-4b-structured-output-lora_fol_8"
+        "title": "GaborMadarasz/w2v-bert-2.0-hungarian-CV24.0",
+        "url": "https://huggingface.co/GaborMadarasz/w2v-bert-2.0-hungarian-CV24.0"
       },
       {
-        "title": "tk256ailab/matsuo-llm-2025-advanced-v14",
-        "url": "https://huggingface.co/tk256ailab/matsuo-llm-2025-advanced-v14"
-      },
-      {
-        "title": "houlie3/LoRA_LLM_training",
-        "url": "https://huggingface.co/houlie3/LoRA_LLM_training"
+        "title": "tmaoshima/llm2025competition",
+        "url": "https://huggingface.co/tmaoshima/llm2025competition"
       }
     ],
     "vision_systems": [
@@ -1039,6 +1031,10 @@
       {
         "title": "OSDaR-AR: Enhancing Railway Perception Datasets via Multi-modal Augmented Reality",
         "url": "https://arxiv.org/abs/2602.22920v1"
+      },
+      {
+        "title": "GaborMadarasz/w2v-bert-2.0-hungarian-CV24.0",
+        "url": "https://huggingface.co/GaborMadarasz/w2v-bert-2.0-hungarian-CV24.0"
       }
     ],
     "reasoning": [
@@ -1323,20 +1319,8 @@
         "url": "https://arxiv.org/abs/2602.23088v1"
       },
       {
-        "title": "inference4j/distilbart-cnn-12-6",
-        "url": "https://huggingface.co/inference4j/distilbart-cnn-12-6"
-      },
-      {
-        "title": "inference4j/flan-t5-large",
-        "url": "https://huggingface.co/inference4j/flan-t5-large"
-      },
-      {
-        "title": "inference4j/flan-t5-base",
-        "url": "https://huggingface.co/inference4j/flan-t5-base"
-      },
-      {
-        "title": "inference4j/flan-t5-small",
-        "url": "https://huggingface.co/inference4j/flan-t5-small"
+        "title": "nightmedia/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-qx64-hi-mlx",
+        "url": "https://huggingface.co/nightmedia/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-qx64-hi-mlx"
       }
     ],
     "benchmarks": [
@@ -1737,19 +1721,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1784,7 +1768,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 36,
+      "frequency": 37,
       "significance": "high"
     },
     {
@@ -1796,6 +1780,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 424
+    "total_papers": 420
   }
 }
