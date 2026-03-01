@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-01T16:10:38.564908",
-  "patterns": {},
+  "date": "2026-03-01T20:10:08.919061",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "rokugatsu/LLM2025_Advanced_6_DPO7",
+        "url": "https://huggingface.co/rokugatsu/LLM2025_Advanced_6_DPO7"
+      },
+      {
+        "title": "Saib/modernbert_base-prompt-guard-v01",
+        "url": "https://huggingface.co/Saib/modernbert_base-prompt-guard-v01"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
