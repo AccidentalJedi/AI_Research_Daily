@@ -1,11 +1,33 @@
 {
-  "date": "2026-03-01T04:44:28.409504",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-03-01T08:12:39.195668",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "llmfan46/gpt-oss-120b-heretic",
+        "url": "https://huggingface.co/llmfan46/gpt-oss-120b-heretic"
+      },
+      {
+        "title": "ronalhung/roberta-imdb",
+        "url": "https://huggingface.co/ronalhung/roberta-imdb"
+      },
+      {
+        "title": "PerRing/kormovlm_llm",
+        "url": "https://huggingface.co/PerRing/kormovlm_llm"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
