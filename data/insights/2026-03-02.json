@@ -1,11 +1,37 @@
 {
-  "date": "2026-03-02T16:19:14.878542",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-03-02T20:14:44.113550",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "sds-dubois/nanorl-tictactoe-rl-smollm3b",
+        "url": "https://huggingface.co/sds-dubois/nanorl-tictactoe-rl-smollm3b"
+      },
+      {
+        "title": "entfane/toxic_gpt2_lm_value_classifier",
+        "url": "https://huggingface.co/entfane/toxic_gpt2_lm_value_classifier"
+      },
+      {
+        "title": "marcuscedricridia/distilroberta-fast-surgical",
+        "url": "https://huggingface.co/marcuscedricridia/distilroberta-fast-surgical"
+      },
+      {
+        "title": "DavidUgCh/death-news_roberta_bs61",
+        "url": "https://huggingface.co/DavidUgCh/death-news_roberta_bs61"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 4
   }
 }
