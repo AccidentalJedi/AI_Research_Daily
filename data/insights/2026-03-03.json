@@ -1,0 +1,39 @@
+{
+  "date": "2026-03-03T00:37:12.753634",
+  "patterns": {
+    "reasoning": [
+      {
+        "title": "Gaston895/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF",
+        "url": "https://huggingface.co/Gaston895/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-GGUF"
+      },
+      {
+        "title": "inferencerlabs/Qwen3.5-9B-MLX-9bit",
+        "url": "https://huggingface.co/inferencerlabs/Qwen3.5-9B-MLX-9bit"
+      },
+      {
+        "title": "inferencerlabs/Qwen3.5-4B-MLX-9bit",
+        "url": "https://huggingface.co/inferencerlabs/Qwen3.5-4B-MLX-9bit"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "reasoning",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Reasoning - monitor for breakthrough results",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "confidence": "medium"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 2,
+    "total_papers": 3
+  }
+}
