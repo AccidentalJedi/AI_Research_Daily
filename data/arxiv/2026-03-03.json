@@ -339,7 +339,7 @@
   {
     "arxiv_id": "2603.01940v1",
     "title": "CoVe: Training Interactive Tool-Use Agents via Constraint-Guided Verification",
-    "summary": "Developing multi-turn interactive tool-use agents is challenging because real-world user needs are often complex and ambiguous, yet agents must execute deterministic actions to satisfy them. To address this gap, we introduce \\textbf{CoVe} (\\textbf{Co}nstraint-\\textbf{Ve}rification), a post-training data synthesis framework designed for training interactive tool-use agents while ensuring both data complexity and correctness. CoVe begins by defining explicit task constraints, which serve a dual role: they guide the generation of complex trajectories and act as deterministic verifiers for assessing trajectory quality. This enables the creation of high-quality training trajectories for supervised fine-tuning (SFT) and the derivation of accurate reward signals for reinforcement learning (RL). Our evaluation on the challenging $\u03c4^2$-bench benchmark demonstrates the effectiveness of the framework. Notably, our compact \\textbf{CoVe-4B} model achieves success rates of 43.0\\% and 59.4\\% in the Airline and Retail domains, respectively; its overall performance significantly outperforms strong baselines of similar scale and remains competitive with models up to $17\\times$ its size. These results indicate that CoVe provides an effective and efficient pathway for synthesizing training data for state-of-the-art interactive tool-use agents. To support future research, we open-source our code, trained model, and the full set of 12K high-quality trajectories used for training.",
+    "summary": "Developing multi-turn interactive tool-use agents is challenging because real-world user needs are often complex and ambiguous, yet agents must execute deterministic actions to satisfy them. To address this gap, we introduce \\textbf{CoVe} (\\textbf{Co}nstraint-\\textbf{Ve}rification), a post-training data synthesis framework designed for training interactive tool-use agents while ensuring both data complexity and correctness. CoVe begins by defining explicit task constraints, which serve a dual role: they guide the generation of complex trajectories and act as deterministic verifiers for assessing trajectory quality. This enables the creation of high-quality training trajectories for supervised fine-tuning (SFT) and the derivation of accurate reward signals for reinforcement learning (RL). Our evaluation on the challenging $τ^2$-bench benchmark demonstrates the effectiveness of the framework. Notably, our compact \\textbf{CoVe-4B} model achieves success rates of 43.0\\% and 59.4\\% in the Airline and Retail domains, respectively; its overall performance significantly outperforms strong baselines of similar scale and remains competitive with models up to $17\\times$ its size. These results indicate that CoVe provides an effective and efficient pathway for synthesizing training data for state-of-the-art interactive tool-use agents. To support future research, we open-source our code, trained model, and the full set of 12K high-quality trajectories used for training.",
     "authors": [
       "Jinpeng Chen",
       "Cheng Gong",
@@ -1071,7 +1071,7 @@
     "summary": "The lack of accessible transactional data significantly hinders machine learning research for Anti-Money Laundering (AML). Privacy and legal concerns prevent the sharing of real financial data, while existing synthetic generators focus on simplistic structural patterns and neglect the temporal dynamics (timing and frequency) that characterise sophisticated laundering schemes.   We present Tide, an open-source synthetic dataset generator that produces graph-based financial networks incorporating money laundering patterns defined by both structural and temporal characteristics. Tide enables reproducible, customisable dataset generation tailored to specific research needs. We release two reference datasets with varying illicit ratios (LI: 0.10\\%, HI: 0.19\\%), alongside the implementation of state-of-the-art detection models.   Evaluation across these datasets reveals condition-dependent model rankings: LightGBM achieves the highest PR-AUC (78.05) in the low illicit ratio condition, while XGBoost performs best (85.12) at higher fraud prevalence. These divergent rankings demonstrate that the reference datasets can meaningfully differentiate model capabilities across operational conditions.   Tide provides the research community with a configurable benchmark that exposes meaningful performance variation across model architectures, advancing the development of robust AML detection methods.",
     "authors": [
       "Montijn van den Beukel",
-      "Jo\u017ee Martin Ro\u017eanec",
+      "Jože Martin Rožanec",
       "Ana-Lucia Varbanescu"
     ],
     "categories": [
@@ -1190,7 +1190,7 @@
   {
     "arxiv_id": "2603.01986v1",
     "title": "Accurate, private, secure, federated U-statistics with higher degree",
-    "summary": "We study the problem of computing a U-statistic with a kernel function f of degree k $\\ge$ 2, i.e., the average of some function f over all k-tuples of instances, in a federated learning setting. Ustatistics of degree 2 include several useful statistics such as Kendall's $\u03c4$ coefficient, the Area under the Receiver-Operator Curve and the Gini mean difference. Existing methods provide solutions only under the lower-utility local differential privacy model and/or scale poorly in the size of the domain discretization. In this work, we propose a protocol that securely computes U-statistics of degree k $\\ge$ 2 under central differential privacy by leveraging Multi Party Computation (MPC). Our method substantially improves accuracy when compared to prior solutions. We provide a detailed theoretical analysis of its accuracy, communication and computational properties. We evaluate its performance empirically, obtaining favorable results, e.g., for Kendall's $\u03c4$ coefficient, our approach reduces the Mean Squared Error by up to four orders of magnitude over existing baselines.",
+    "summary": "We study the problem of computing a U-statistic with a kernel function f of degree k $\\ge$ 2, i.e., the average of some function f over all k-tuples of instances, in a federated learning setting. Ustatistics of degree 2 include several useful statistics such as Kendall's $τ$ coefficient, the Area under the Receiver-Operator Curve and the Gini mean difference. Existing methods provide solutions only under the lower-utility local differential privacy model and/or scale poorly in the size of the domain discretization. In this work, we propose a protocol that securely computes U-statistics of degree k $\\ge$ 2 under central differential privacy by leveraging Multi Party Computation (MPC). Our method substantially improves accuracy when compared to prior solutions. We provide a detailed theoretical analysis of its accuracy, communication and computational properties. We evaluate its performance empirically, obtaining favorable results, e.g., for Kendall's $τ$ coefficient, our approach reduces the Mean Squared Error by up to four orders of magnitude over existing baselines.",
     "authors": [
       "Quentin Sinh",
       "Jan Ramon"
@@ -1527,7 +1527,7 @@
       "Anmol Kabra",
       "Yilun Yin",
       "Albert Gong",
-      "Kamil\u0117 Stankevi\u010di\u016bt\u0117",
+      "Kamilė Stankevičiūtė",
       "Dongyoung Go",
       "Johann Lee",
       "Katie Z. Luo",
@@ -1594,7 +1594,7 @@
     "authors": [
       "Ben Eze",
       "Luca Magri",
-      "Andrea N\u00f3voa"
+      "Andrea Nóvoa"
     ],
     "categories": [
       "cs.LG"
@@ -1846,7 +1846,7 @@
   {
     "arxiv_id": "2603.02155v1",
     "title": "Near-Optimal Regret for KL-Regularized Multi-Armed Bandits",
-    "summary": "Recent studies have shown that reinforcement learning with KL-regularized objectives can enjoy faster rates of convergence or logarithmic regret, in contrast to the classical $\\sqrt{T}$-type regret in the unregularized setting. However, the statistical efficiency of online learning with respect to KL-regularized objectives remains far from completely characterized, even when specialized to multi-armed bandits (MABs). We address this problem for MABs via a sharp analysis of KL-UCB using a novel peeling argument, which yields a $\\tilde{O}(\u03b7K\\log^2T)$ upper bound: the first high-probability regret bound with linear dependence on $K$. Here, $T$ is the time horizon, $K$ is the number of arms, $\u03b7^{-1}$ is the regularization intensity, and $\\tilde{O}$ hides all logarithmic factors except those involving $\\log T$. The near-tightness of our analysis is certified by the first non-constant lower bound $\u03a9(\u03b7K \\log T)$, which follows from subtle hard-instance constructions and a tailored decomposition of the Bayes prior. Moreover, in the low-regularization regime (i.e., large $\u03b7$), we show that the KL-regularized regret for MABs is $\u03b7$-independent and scales as $\\tilde\u0398(\\sqrt{KT})$. Overall, our results provide a thorough understanding of KL-regularized MABs across all regimes of $\u03b7$ and yield nearly optimal bounds in terms of $K$, $\u03b7$, and $T$.",
+    "summary": "Recent studies have shown that reinforcement learning with KL-regularized objectives can enjoy faster rates of convergence or logarithmic regret, in contrast to the classical $\\sqrt{T}$-type regret in the unregularized setting. However, the statistical efficiency of online learning with respect to KL-regularized objectives remains far from completely characterized, even when specialized to multi-armed bandits (MABs). We address this problem for MABs via a sharp analysis of KL-UCB using a novel peeling argument, which yields a $\\tilde{O}(ηK\\log^2T)$ upper bound: the first high-probability regret bound with linear dependence on $K$. Here, $T$ is the time horizon, $K$ is the number of arms, $η^{-1}$ is the regularization intensity, and $\\tilde{O}$ hides all logarithmic factors except those involving $\\log T$. The near-tightness of our analysis is certified by the first non-constant lower bound $Ω(ηK \\log T)$, which follows from subtle hard-instance constructions and a tailored decomposition of the Bayes prior. Moreover, in the low-regularization regime (i.e., large $η$), we show that the KL-regularized regret for MABs is $η$-independent and scales as $\\tildeΘ(\\sqrt{KT})$. Overall, our results provide a thorough understanding of KL-regularized MABs across all regimes of $η$ and yield nearly optimal bounds in terms of $K$, $η$, and $T$.",
     "authors": [
       "Kaixuan Ji",
       "Qingyue Zhao",
@@ -2038,7 +2038,7 @@
     "authors": [
       "Thibault Prouteau",
       "Francis Lareau",
-      "Nicolas Dugu\u00e9",
+      "Nicolas Dugué",
       "Jean-Charles Lamirel",
       "Christophe Malaterre"
     ],
@@ -2143,7 +2143,7 @@
       "Timo Bertram",
       "Erich Kobler",
       "Andreas Mayr",
-      "G\u00fcnter Klambauer"
+      "Günter Klambauer"
     ],
     "categories": [
       "cs.LG",
@@ -2160,7 +2160,7 @@
   {
     "arxiv_id": "2603.02178v1",
     "title": "Reservoir Subspace Injection for Online ICA under Top-n Whitening",
-    "summary": "Reservoir expansion can improve online independent component analysis (ICA) under nonlinear mixing, yet top-$n$ whitening may discard injected features. We formalize this bottleneck as \\emph{reservoir subspace injection} (RSI): injected features help only if they enter the retained eigenspace without displacing passthrough directions. RSI diagnostics (IER, SSO, $\u03c1_x$) identify a failure mode in our top-$n$ setting: stronger injection increases IER but crowds out passthrough energy ($\u03c1_x: 1.00\\!\\rightarrow\\!0.77$), degrading SI-SDR by up to $2.2$\\,dB. A guarded RSI controller preserves passthrough retention and recovers mean performance to within $0.1$\\,dB of baseline $1/N$ scaling. With passthrough preserved, RE-OICA improves over vanilla online ICA by $+1.7$\\,dB under nonlinear mixing and achieves positive SI-SDR$_{\\mathrm{sc}}$ on the tested super-Gaussian benchmark ($+0.6$\\,dB).",
+    "summary": "Reservoir expansion can improve online independent component analysis (ICA) under nonlinear mixing, yet top-$n$ whitening may discard injected features. We formalize this bottleneck as \\emph{reservoir subspace injection} (RSI): injected features help only if they enter the retained eigenspace without displacing passthrough directions. RSI diagnostics (IER, SSO, $ρ_x$) identify a failure mode in our top-$n$ setting: stronger injection increases IER but crowds out passthrough energy ($ρ_x: 1.00\\!\\rightarrow\\!0.77$), degrading SI-SDR by up to $2.2$\\,dB. A guarded RSI controller preserves passthrough retention and recovers mean performance to within $0.1$\\,dB of baseline $1/N$ scaling. With passthrough preserved, RE-OICA improves over vanilla online ICA by $+1.7$\\,dB under nonlinear mixing and achieves positive SI-SDR$_{\\mathrm{sc}}$ on the tested super-Gaussian benchmark ($+0.6$\\,dB).",
     "authors": [
       "Wenjun Xiao",
       "Yuda Bi",
@@ -2317,7 +2317,7 @@
     "summary": "Machine learning models support decision-making, yet the reasons behind their predictions are opaque. Clear and reliable explanations help users make informed decisions and avoid blindly trusting model outputs. However, many existing explanation methods fail to guarantee correctness. Logic-based approaches ensure correctness but often offer overly constrained explanations, limiting coverage. Recent work addresses this by incrementally expanding explanations while maintaining correctness. This process is performed separately for each feature, adjusting both its upper and lower bounds. However, this approach faces a trade-off: smaller increments incur high computational costs, whereas larger ones may lead to explanations covering fewer instances. To overcome this, we propose two novel methods. Onestep builds upon this prior work, generating explanations in a single step for each feature and each bound, eliminating the overhead of an iterative process. \\textit{Twostep} takes a gradual approach, improving coverage. Experimental results show that Twostep significantly increases explanation coverage (by up to 72.60\\% on average across datasets) compared to Onestep and, consequently, to prior work.",
     "authors": [
       "Francisco Mateus Rocha Filho",
-      "Ajalmar R\u00eago da Rocha Neto",
+      "Ajalmar Rêgo da Rocha Neto",
       "Thiago Alves Rocha"
     ],
     "categories": [
@@ -2466,7 +2466,7 @@
     "summary": "Test-time reinforcement learning (TTRL) has emerged as a promising paradigm for self-evolving large reasoning models (LRMs), enabling online adaptation on unlabeled test inputs via self-induced rewards through majority voting. However, a spurious yet high-frequency unverified consensus can become a biased and reinforced reward signal, leading to incorrect mode collapse. We address this failure mode with T^3RL (Tool-Verification for Test-Time Reinforcement Learning), which introduces test-time tool verification into reward estimation. Concretely, a verifier uses an external tool as evidence (e.g., from code execution) to upweight verified rollouts in a verification-aware voting, producing more reliable pseudo-labels for training. Across various math difficulties (MATH-500, AMC, and AIME 2024) and diverse backbone types, T^3RL significantly improves over TTRL, with larger gains on harder problems. More broadly, T^3RL can be viewed as verified online data synthesis, highlighting test-time tool verification as a key mechanism for stabilizing self-evolution.",
     "authors": [
       "Ruotong Liao",
-      "Nikolai R\u00f6hrich",
+      "Nikolai Röhrich",
       "Xiaohan Wang",
       "Yuhui Zhang",
       "Yasaman Samadzadeh",
@@ -2526,7 +2526,7 @@
   {
     "arxiv_id": "2603.02095v1",
     "title": "On the Rate of Convergence of GD in Non-linear Neural Networks: An Adversarial Robustness Perspective",
-    "summary": "We study the convergence dynamics of Gradient Descent (GD) in a minimal binary classification setting, consisting of a two-neuron ReLU network and two training instances. We prove that even under these strong simplifying assumptions, while GD successfully converges to an optimal robustness margin, effectively maximizing the distance between the decision boundary and the training points, this convergence occurs at a prohibitively slow rate, scaling strictly as $\u0398(1/\\ln(t))$. To the best of our knowledge, this establishes the first explicit lower bound on the convergence rate of the robustness margin in a non-linear model. Through empirical simulations, we further demonstrate that this inherent failure mode is pervasive, exhibiting the exact same tight convergence rate across multiple natural network initializations. Our theoretical guarantees are derived via a rigorous analysis of the GD trajectories across the distinct activation patterns of the model. Specifically, we develop tight control over the system's dynamics to bound the trajectory of the decision boundary, overcoming the primary technical challenge introduced by the non-linear nature of the architecture.",
+    "summary": "We study the convergence dynamics of Gradient Descent (GD) in a minimal binary classification setting, consisting of a two-neuron ReLU network and two training instances. We prove that even under these strong simplifying assumptions, while GD successfully converges to an optimal robustness margin, effectively maximizing the distance between the decision boundary and the training points, this convergence occurs at a prohibitively slow rate, scaling strictly as $Θ(1/\\ln(t))$. To the best of our knowledge, this establishes the first explicit lower bound on the convergence rate of the robustness margin in a non-linear model. Through empirical simulations, we further demonstrate that this inherent failure mode is pervasive, exhibiting the exact same tight convergence rate across multiple natural network initializations. Our theoretical guarantees are derived via a rigorous analysis of the GD trajectories across the distinct activation patterns of the model. Specifically, we develop tight control over the system's dynamics to bound the trajectory of the decision boundary, overcoming the primary technical challenge introduced by the non-linear nature of the architecture.",
     "authors": [
       "Guy Smorodinsky",
       "Sveta Gimpleson",
@@ -2546,7 +2546,7 @@
   {
     "arxiv_id": "2603.02092v1",
     "title": "Adam Converges Without Any Modification On Update Rules",
-    "summary": "Adam is the default algorithm for training neural networks, including large language models (LLMs). However, \\citet{reddi2019convergence} provided an example that Adam diverges, raising concerns for its deployment in AI model training. We identify a key mismatch between the divergence example and practice: \\citet{reddi2019convergence} pick the problem after picking the hyperparameters of Adam, i.e., $(\u03b2_1,\u03b2_2)$; while practical applications often fix the problem first and then tune $(\u03b2_1,\u03b2_2)$. In this work, we prove that Adam converges with proper problem-dependent hyperparameters. First, we prove that Adam converges when $\u03b2_2$ is large and $\u03b2_1 < \\sqrt{\u03b2_2}$. Second, when $\u03b2_2$ is small, we point out a region of $(\u03b2_1,\u03b2_2)$ combinations where Adam can diverge to infinity. Our results indicate a phase transition for Adam from divergence to convergence when changing the $(\u03b2_1, \u03b2_2)$ combination. To our knowledge, this is the first phase transition in $(\u03b2_1,\u03b2_2)$ 2D-plane reported in the literature, providing rigorous theoretical guarantees for Adam optimizer. We further point out that the critical boundary $(\u03b2_1^*, \u03b2_2^*)$ is problem-dependent, and particularly, dependent on batch size. This provides suggestions on how to tune $\u03b2_1$ and $\u03b2_2$: when Adam does not work well, we suggest tuning up $\u03b2_2$ inversely with batch size to surpass the threshold $\u03b2_2^*$, and then trying $\u03b2_1< \\sqrt{\u03b2_2}$. Our suggestions are supported by reports from several empirical studies, which observe improved LLM training performance when applying them.",
+    "summary": "Adam is the default algorithm for training neural networks, including large language models (LLMs). However, \\citet{reddi2019convergence} provided an example that Adam diverges, raising concerns for its deployment in AI model training. We identify a key mismatch between the divergence example and practice: \\citet{reddi2019convergence} pick the problem after picking the hyperparameters of Adam, i.e., $(β_1,β_2)$; while practical applications often fix the problem first and then tune $(β_1,β_2)$. In this work, we prove that Adam converges with proper problem-dependent hyperparameters. First, we prove that Adam converges when $β_2$ is large and $β_1 < \\sqrt{β_2}$. Second, when $β_2$ is small, we point out a region of $(β_1,β_2)$ combinations where Adam can diverge to infinity. Our results indicate a phase transition for Adam from divergence to convergence when changing the $(β_1, β_2)$ combination. To our knowledge, this is the first phase transition in $(β_1,β_2)$ 2D-plane reported in the literature, providing rigorous theoretical guarantees for Adam optimizer. We further point out that the critical boundary $(β_1^*, β_2^*)$ is problem-dependent, and particularly, dependent on batch size. This provides suggestions on how to tune $β_1$ and $β_2$: when Adam does not work well, we suggest tuning up $β_2$ inversely with batch size to surpass the threshold $β_2^*$, and then trying $β_1< \\sqrt{β_2}$. Our suggestions are supported by reports from several empirical studies, which observe improved LLM training performance when applying them.",
     "authors": [
       "Yushun Zhang",
       "Bingran Li",
@@ -2570,10 +2570,10 @@
     "title": "Exploring Plan Space through Conversation: An Agentic Framework for LLM-Mediated Explanations in Planning",
     "summary": "When automating plan generation for a real-world sequential decision problem, the goal is often not to replace the human planner, but to facilitate an iterative reasoning and elicitation process, where the human's role is to guide the AI planner according to their preferences and expertise. In this context, explanations that respond to users' questions are crucial to improve their understanding of potential solutions and increase their trust in the system. To enable natural interaction with such a system, we present a multi-agent Large Language Model (LLM) architecture that is agnostic to the explanation framework and enables user- and context-dependent interactive explanations. We also describe an instantiation of this framework for goal-conflict explanations, which we use to conduct a user study comparing the LLM-powered interaction with a baseline template-based explanation interface.",
     "authors": [
-      "Guilhem Fouilh\u00e9",
+      "Guilhem Fouilhé",
       "Rebecca Eifler",
-      "Antonin Poch\u00e9",
-      "Sylvie Thi\u00e9baux",
+      "Antonin Poché",
+      "Sylvie Thiébaux",
       "Nicholas Asher"
     ],
     "categories": [
@@ -2678,7 +2678,7 @@
   {
     "arxiv_id": "2603.01930v1",
     "title": "From Variance to Invariance: Qualitative Content Analysis for Narrative Graph Annotation",
-    "summary": "Narratives in news discourse play a critical role in shaping public understanding of economic events, such as inflation. Annotating and evaluating these narratives in a structured manner remains a key challenge for Natural Language Processing (NLP). In this work, we introduce a narrative graph annotation framework that integrates principles from qualitative content analysis (QCA) to prioritize annotation quality by reducing annotation errors. We present a dataset of inflation narratives annotated as directed acyclic graphs (DAGs), where nodes represent events and edges encode causal relations. To evaluate annotation quality, we employed a $6\\times3$ factorial experimental design to examine the effects of narrative representation (six levels) and distance metric type (three levels) on inter-annotator agreement (Krippendorrf's $\u03b1$), capturing the presence of human label variation (HLV) in narrative interpretations. Our analysis shows that (1) lenient metrics (overlap-based distance) overestimate reliability, and (2) locally-constrained representations (e.g., one-hop neighbors) reduce annotation variability. Our annotation and implementation of graph-based Krippendorrf's $\u03b1$ are open-sourced. The annotation framework and evaluation results provide practical guidance for NLP research on graph-based narrative annotation under HLV.",
+    "summary": "Narratives in news discourse play a critical role in shaping public understanding of economic events, such as inflation. Annotating and evaluating these narratives in a structured manner remains a key challenge for Natural Language Processing (NLP). In this work, we introduce a narrative graph annotation framework that integrates principles from qualitative content analysis (QCA) to prioritize annotation quality by reducing annotation errors. We present a dataset of inflation narratives annotated as directed acyclic graphs (DAGs), where nodes represent events and edges encode causal relations. To evaluate annotation quality, we employed a $6\\times3$ factorial experimental design to examine the effects of narrative representation (six levels) and distance metric type (three levels) on inter-annotator agreement (Krippendorrf's $α$), capturing the presence of human label variation (HLV) in narrative interpretations. Our analysis shows that (1) lenient metrics (overlap-based distance) overestimate reliability, and (2) locally-constrained representations (e.g., one-hop neighbors) reduce annotation variability. Our annotation and implementation of graph-based Krippendorrf's $α$ are open-sourced. The annotation framework and evaluation results provide practical guidance for NLP research on graph-based narrative annotation under HLV.",
     "authors": [
       "Junbo Huang",
       "Max Weinig",
@@ -3008,12 +3008,12 @@
   {
     "arxiv_id": "2603.01977v1",
     "title": "Quantitative Convergence of Wasserstein Gradient Flows of Kernel Mean Discrepancies",
-    "summary": "We study the quantitative convergence of Wasserstein gradient flows of Kernel Mean Discrepancy (KMD) (also known as Maximum Mean Discrepancy (MMD)) functionals. Our setting covers in particular the training dynamics of shallow neural networks in the infinite-width and continuous time limit, as well as interacting particle systems with pairwise Riesz kernel interaction in the mean-field and overdamped limit. Our main analysis concerns the model case of KMD functionals given by the squared Sobolev distance $ \\mathscr{E}^\u03bd_{s}(\u03bc)= \\frac{1}{2}\\lVert \u03bc-\u03bd\\rVert_{\\dot H^{-s}}^{2}$ for any $s\\geq 1 $ and $\u03bd$ a fixed probability measure on the $d$-dimensional torus. First, inspired by Yudovich theory for the $2d$-Euler equation, we establish existence and uniqueness in natural weak regularity classes. Next, we show that for $s=1$ the flow converges globally at an exponential rate under minimal assumptions, while for $s>1$ we prove local convergence at polynomial rates that depend explicitly on $s$ and on the Sobolev regularity of $\u03bc$ and $\u03bd$. These rates hold both at the energy level and in higher regularity classes and are tight for $\u03bd$ uniform. We then consider the gradient flow of the population loss for shallow neural networks with ReLU activation, which can be cast as a Wasserstein--Fisher--Rao gradient flow on the space of nonnegative measures on the sphere $\\mathbb{S}^d$. Exploiting a correspondence with the Sobolev energy case with $s=(d+3)/2$, we derive an explicit polynomial local convergence rate for this dynamics. Except for the special case $s=1$, even non-quantitative convergence was previously open in all these settings. We also include numerical experiments in dimension $d=1$ using both PDE and particle methods which illustrate our analysis.",
+    "summary": "We study the quantitative convergence of Wasserstein gradient flows of Kernel Mean Discrepancy (KMD) (also known as Maximum Mean Discrepancy (MMD)) functionals. Our setting covers in particular the training dynamics of shallow neural networks in the infinite-width and continuous time limit, as well as interacting particle systems with pairwise Riesz kernel interaction in the mean-field and overdamped limit. Our main analysis concerns the model case of KMD functionals given by the squared Sobolev distance $ \\mathscr{E}^ν_{s}(μ)= \\frac{1}{2}\\lVert μ-ν\\rVert_{\\dot H^{-s}}^{2}$ for any $s\\geq 1 $ and $ν$ a fixed probability measure on the $d$-dimensional torus. First, inspired by Yudovich theory for the $2d$-Euler equation, we establish existence and uniqueness in natural weak regularity classes. Next, we show that for $s=1$ the flow converges globally at an exponential rate under minimal assumptions, while for $s>1$ we prove local convergence at polynomial rates that depend explicitly on $s$ and on the Sobolev regularity of $μ$ and $ν$. These rates hold both at the energy level and in higher regularity classes and are tight for $ν$ uniform. We then consider the gradient flow of the population loss for shallow neural networks with ReLU activation, which can be cast as a Wasserstein--Fisher--Rao gradient flow on the space of nonnegative measures on the sphere $\\mathbb{S}^d$. Exploiting a correspondence with the Sobolev energy case with $s=(d+3)/2$, we derive an explicit polynomial local convergence rate for this dynamics. Except for the special case $s=1$, even non-quantitative convergence was previously open in all these settings. We also include numerical experiments in dimension $d=1$ using both PDE and particle methods which illustrate our analysis.",
     "authors": [
-      "L\u00e9na\u00efc Chizat",
+      "Lénaïc Chizat",
       "Maria Colombo",
       "Roberto Colombo",
-      "Xavier Fern\u00e1ndez-Real"
+      "Xavier Fernández-Real"
     ],
     "categories": [
       "math.AP",
@@ -3301,7 +3301,7 @@
     "summary": "Heavy-tailed distributions are ubiquitous in real-world data, where rare but extreme events dominate risk and variability. However, standard Variational Autoencoders (VAEs) employ simple decoder distributions (e.g., Gaussian) that fail to capture heavy-tailed behavior, while existing heavy-tail-aware extensions remain restricted to predefined parametric families whose tail behavior is fixed a priori.   We propose the Phase-Type Variational Autoencoder (PH-VAE), whose decoder distribution is a latent-conditioned Phase-Type (PH) distribution defined as the absorption time of a continuous-time Markov chain (CTMC). This formulation composes multiple exponential time scales, yielding a flexible and analytically tractable decoder that adapts its tail behavior directly from the observed data. Experiments on synthetic and real-world benchmarks demonstrate that PH-VAE accurately recovers diverse heavy-tailed distributions, significantly outperforming Gaussian, Student-t, and extreme-value-based VAE decoders in modeling tail behavior and extreme quantiles. In multivariate settings, PH-VAE captures realistic cross-dimensional tail dependence through its shared latent representation. To our knowledge, this is the first work to integrate Phase-Type distributions into deep generative modeling, bridging applied probability and representation learning.",
     "authors": [
       "Abdelhakim Ziani",
-      "Andr\u00e1s Horv\u00e1th",
+      "András Horváth",
       "Paolo Ballarini"
     ],
     "categories": [
@@ -3361,8 +3361,8 @@
   },
   {
     "arxiv_id": "2603.02083v1",
-    "title": "$\u03c0$-StepNFT: Wider Space Needs Finer Steps in Online RL for Flow-based VLAs",
-    "summary": "Flow-based vision-language-action (VLA) models excel in embodied control but suffer from intractable likelihoods during multi-step sampling, hindering online reinforcement learning. We propose \\textbf{\\textit{$\\boldsymbol\u03c0$-StepNFT}} (Step-wise Negative-aware Fine-Tuning), a critic-and-likelihood-free framework that requires only a single forward pass per optimization step and eliminates auxiliary value networks. We identify that wider exploration spaces necessitate finer-grained, step-wise guidance for alignment. Empirically, $\u03c0$-StepNFT unlocks latent potential on LIBERO with competitive few-shot robustness. Moreover, it achieves superior generalization on ManiSkill, outperforming value-based baselines in OOD scenarios by preventing overfitting to multimodal features. This property offers a scalable solution promising for complex real-world applications.",
+    "title": "$π$-StepNFT: Wider Space Needs Finer Steps in Online RL for Flow-based VLAs",
+    "summary": "Flow-based vision-language-action (VLA) models excel in embodied control but suffer from intractable likelihoods during multi-step sampling, hindering online reinforcement learning. We propose \\textbf{\\textit{$\\boldsymbolπ$-StepNFT}} (Step-wise Negative-aware Fine-Tuning), a critic-and-likelihood-free framework that requires only a single forward pass per optimization step and eliminates auxiliary value networks. We identify that wider exploration spaces necessitate finer-grained, step-wise guidance for alignment. Empirically, $π$-StepNFT unlocks latent potential on LIBERO with competitive few-shot robustness. Moreover, it achieves superior generalization on ManiSkill, outperforming value-based baselines in OOD scenarios by preventing overfitting to multimodal features. This property offers a scalable solution promising for complex real-world applications.",
     "authors": [
       "Siting Wang",
       "Xiaofeng Wang",
@@ -3557,7 +3557,7 @@
   {
     "arxiv_id": "2603.02204v1",
     "title": "Partial Causal Structure Learning for Valid Selective Conformal Inference under Interventions",
-    "summary": "Selective conformal prediction can yield substantially tighter uncertainty sets when we can identify calibration examples that are exchangeable with the test example. In interventional settings, such as perturbation experiments in genomics, exchangeability often holds only within subsets of interventions that leave a target variable \"unaffected\" (e.g., non-descendants of an intervened node in a causal graph). We study the practical regime where this invariance structure is unknown and must be learned from data. Our contributions are: (i) a contamination-robust conformal coverage theorem that quantifies how misclassification of \"unaffected\" calibration examples degrades coverage via an explicit function $g(\u03b4,n)$ of the contamination fraction and calibration set size, providing a finite-sample lower bound that holds for arbitrary contaminating distributions; (ii) a task-driven partial causal learning formulation that estimates only the binary descendant indicators $Z_{a,i}=\\mathbf{1}\\{i\\in\\mathrm{desc}(a)\\}$ needed for selective calibration, rather than the full causal graph; and (iii) algorithms for descendant discovery via perturbation intersection patterns (differentially affected variable set intersections across interventions), and for approximate distance-to-intervention estimation via local invariant causal prediction. We provide recovery conditions under which contamination is controlled. Experiments on synthetic linear structural equation models (SEMs) validate the bound: under controlled contamination up to $\u03b4=0.30$, the corrected procedure maintains $\\ge 0.95$ coverage while uncorrected selective CP degrades to $0.867$. A proof-of-concept on Replogle K562 CRISPR interference (CRISPRi) perturbation data demonstrates applicability to real genomic screens.",
+    "summary": "Selective conformal prediction can yield substantially tighter uncertainty sets when we can identify calibration examples that are exchangeable with the test example. In interventional settings, such as perturbation experiments in genomics, exchangeability often holds only within subsets of interventions that leave a target variable \"unaffected\" (e.g., non-descendants of an intervened node in a causal graph). We study the practical regime where this invariance structure is unknown and must be learned from data. Our contributions are: (i) a contamination-robust conformal coverage theorem that quantifies how misclassification of \"unaffected\" calibration examples degrades coverage via an explicit function $g(δ,n)$ of the contamination fraction and calibration set size, providing a finite-sample lower bound that holds for arbitrary contaminating distributions; (ii) a task-driven partial causal learning formulation that estimates only the binary descendant indicators $Z_{a,i}=\\mathbf{1}\\{i\\in\\mathrm{desc}(a)\\}$ needed for selective calibration, rather than the full causal graph; and (iii) algorithms for descendant discovery via perturbation intersection patterns (differentially affected variable set intersections across interventions), and for approximate distance-to-intervention estimation via local invariant causal prediction. We provide recovery conditions under which contamination is controlled. Experiments on synthetic linear structural equation models (SEMs) validate the bound: under controlled contamination up to $δ=0.30$, the corrected procedure maintains $\\ge 0.95$ coverage while uncorrected selective CP degrades to $0.867$. A proof-of-concept on Replogle K562 CRISPR interference (CRISPRi) perturbation data demonstrates applicability to real genomic screens.",
     "authors": [
       "Amir Asiaee",
       "Kavey Aryan",
@@ -3606,8 +3606,8 @@
       "Emil Kalbaliyev",
       "Hele-Andra Kuulmets",
       "Marii Ojastu",
-      "Mark Fi\u0161el",
-      "Tanel Alum\u00e4e",
+      "Mark Fišel",
+      "Tanel Alumäe",
       "Eleri Aedmaa",
       "Krister Kruusmaa",
       "Kairit Sirts"
@@ -3629,7 +3629,7 @@
     "summary": "Detection Transformer (DETR) and its variants show strong performance on object detection, a key task for autonomous systems. However, a critical limitation of these models is that their confidence scores only reflect semantic uncertainty, failing to capture the equally important spatial uncertainty. This results in an incomplete assessment of the detection reliability. On the other hand, Deep Ensembles can tackle this by providing high-quality spatial uncertainty estimates. However, their immense memory consumption makes them impractical for real-world applications. A cheaper alternative, Monte Carlo (MC) Dropout, suffers from high latency due to the need of multiple forward passes during inference to estimate uncertainty.   To address these limitations, we introduce GroupEnsemble, an efficient and effective uncertainty estimation method for DETR-like models. GroupEnsemble simultaneously predicts multiple individual detection sets by feeding additional diverse groups of object queries to the transformer decoder during inference. Each query group is transformed by the shared decoder in isolation and predicts a complete detection set for the same input. An attention mask is applied to the decoder to prevent inter-group query interactions, ensuring each group detects independently to achieve reliable ensemble-based uncertainty estimation. By leveraging the decoder's inherent parallelism, GroupEnsemble efficiently estimates uncertainty in a single forward pass without sequential repetition. We validated our method under autonomous driving scenes and common daily scenes using the Cityscapes and COCO datasets, respectively. The results show that a hybrid approach combining MC-Dropout and GroupEnsemble outperforms Deep Ensembles on several metrics at a fraction of the cost. The code is available at https://github.com/yutongy98/GroupEnsemble.",
     "authors": [
       "Yutong Yang",
-      "Katarina Popovi\u0107",
+      "Katarina Popović",
       "Julian Wiederer",
       "Markus Braun",
       "Vasileios Belagiannis",
@@ -3647,7 +3647,7 @@
   },
   {
     "arxiv_id": "2603.01775v1",
-    "title": "Beyond the Resum\u00e9: A Rubric-Aware Automatic Interview System for Information Elicitation",
+    "title": "Beyond the Resumé: A Rubric-Aware Automatic Interview System for Information Elicitation",
     "summary": "Effective hiring is integral to the success of an organisation, but it is very challenging to find the most suitable candidates because expert evaluation (e.g.\\ interviews conducted by a technical manager) are expensive to deploy at scale. Therefore, automated resume scoring and other applicant-screening methods are increasingly used to coarsely filter candidates, making decisions on limited information. We propose that large language models (LLMs) can play the role of subject matter experts to cost-effectively elicit information from each candidate that is nuanced and role-specific, thereby improving the quality of early-stage hiring decisions. We present a system that leverages an LLM interviewer to update belief over an applicant's rubric-oriented latent traits in a calibrated way. We evaluate our system on simulated interviews and show that belief converges towards the simulated applicants' artificially-constructed latent ability levels. We release code, a modest dataset of public-domain/anonymised resumes, belief calibration tests, and simulated interviews, at \\href{https://github.com/mbzuai-nlp/beyond-the-resume}{https://github.com/mbzuai-nlp/beyond-the-resume}. Our demo is available at \\href{https://btr.hstu.net}{https://btr.hstu.net}.",
     "authors": [
       "Harry Stuart",
@@ -3759,10 +3759,10 @@
     "title": "ORGAN: Object-Centric Representation Learning using Cycle Consistent Generative Adversarial Networks",
     "summary": "Although data generation is often straightforward, extracting information from data is more difficult. Object-centric representation learning can extract information from images in an unsupervised manner. It does so by segmenting an image into its subcomponents: the objects. Each object is then represented in a low-dimensional latent space that can be used for downstream processing. Object-centric representation learning is dominated by autoencoder architectures (AEs). Here, we present ORGAN, a novel approach for object-centric representation learning, which is based on cycle-consistent Generative Adversarial Networks instead. We show that it performs similarly to other state-of-the-art approaches on synthetic datasets, while at the same time being the only approach tested here capable of handling more challenging real-world datasets with many objects and low visual contrast. Complementing these results, ORGAN creates expressive latent space representations that allow for object manipulation. Finally, we show that ORGAN scales well both with respect to the number of objects and the size of the images, giving it a unique edge over current state-of-the-art approaches.",
     "authors": [
-      "Jo\u00ebl K\u00fcchler",
+      "Joël Küchler",
       "Ellen van Maren",
-      "Vaiva Vasiliauskait\u0117",
-      "Katarina Vuli\u0107",
+      "Vaiva Vasiliauskaitė",
+      "Katarina Vulić",
       "Reza Abbasi-Asl",
       "Stephan J. Ihle"
     ],
@@ -3782,7 +3782,7 @@
     "summary": "Selection as Power argued that upstream selection authority, rather than internal objective misalignment, constitutes a primary source of risk in high-stakes agentic systems. However, the original framework was static: governance constraints bounded selection power but did not adapt over time. In this work, we extend the framework to dynamic settings by introducing incentivized selection governance, where reinforcement updates are applied to scoring and reducer parameters under externally enforced sovereignty constraints.   We formalize selection as a constrained reinforcement process in which parameter updates are projected onto governance-defined feasible sets, preventing concentration beyond prescribed bounds. Across multiple regulated financial scenarios, unconstrained reinforcement consistently collapses into deterministic dominance under repeated feedback, especially at higher learning rates. In contrast, incentivized governance enables adaptive improvement while maintaining bounded selection concentration.   Projection-based constraints transform reinforcement from irreversible lock-in into controlled adaptation, with governance debt quantifying the tension between optimization pressure and authority bounds. These results demonstrate that learning dynamics can coexist with structural diversity when sovereignty constraints are enforced at every update step, offering a principled approach to integrating reinforcement into high-stakes agentic systems without surrendering bounded selection authority.",
     "authors": [
       "Jose Manuel de la Chica Rodriguez",
-      "Juan Manuel Vera D\u00edaz"
+      "Juan Manuel Vera Díaz"
     ],
     "categories": [
       "cs.MA",
@@ -3908,7 +3908,7 @@
     "summary": "Modern machine learning models can be accurate on average yet still make mistakes that dominate deployment cost. We introduce Locus, a distribution-free wrapper that produces a per-input loss-scale reliability score for a fixed prediction function. Rather than quantifying uncertainty about the label, Locus models the realized loss of the prediction function using any engine that outputs a predictive distribution for the loss given an input. A simple split-calibration step turns this function into a distribution-free interpretable score that is comparable across inputs and can be read as an upper loss level. The score is useful on its own for ranking, and it can optionally be thresholded to obtain a transparent flagging rule with distribution-free control of large-loss events. Experiments across 13 regression benchmarks show that Locus yields effective risk ranking and reduces large-loss frequency compared to standard heuristics.",
     "authors": [
       "Matheus Barreto",
-      "M\u00e1rio de Castro",
+      "Mário de Castro",
       "Thiago R. Ramos",
       "Denis Valle",
       "Rafael Izbicki"
@@ -3988,11 +3988,11 @@
     "title": "Sovereign AI-based Public Services are Viable and Affordable",
     "summary": "The rapid expansion of AI-based remote services has intensified debates about the long-term implications of growing structural concentration in infrastructure and expertise. As AI capabilities become increasingly intertwined with geopolitical interests, the availability and reliability of foundational AI services can no longer be taken for granted. This issue is particularly pressing for AI-enabled public services for citizens, as governments and public agencies are progressively adopting 24/7 AI-driven support systems typically operated through commercial offerings from a small oligopoly of global technology providers. This paper challenges the prevailing assumption that general-purpose architectures, offered by these providers, are the optimal choice for all application contexts. Through practical experimentation, we demonstrate that viable and cost-effective alternatives exist. Alternatives that align with principles of digital and cultural sovereignty. Our findings provide an empirical illustration that sovereign AI-based public services are both technically feasible and economically sustainable, capable of operating effectively on premises with modest computational and financial resources while maintaining cultural and digital autonomy. The technical insights and deployment lessons reported here are intended to inform the adoption of similar sovereign AI public services by national agencies and governments worldwide.",
     "authors": [
-      "Ant\u00f3nio Branco",
-      "Lu\u00eds Gomes",
+      "António Branco",
+      "Luís Gomes",
       "Rodrigo Santos",
       "Eduardo Santos",
-      "Jo\u00e3o Silva",
+      "João Silva",
       "Nuno Marques",
       "Madalena Rodrigues"
     ],
@@ -4268,7 +4268,7 @@
       "Hongming Xu",
       "Shaohua Kevin Zhou",
       "Nassir Navab",
-      "Peter J. Sch\u00fcffler"
+      "Peter J. Schüffler"
     ],
     "categories": [
       "cs.CV"
@@ -4379,8 +4379,8 @@
     "summary": "We introduce a supervised dimensionality reduction methodology for categorical (and discretized mixed-type) data based on a density-matrix construction induced by class-conditional frequencies. Given a labeled dataset encoded in a one-hot survey space, we assemble a frequency matrix whose columns aggregate feature occurrences within each class, and define a normalized Gram-type operator that satisfies the axioms of a density matrix. The resulting representation admits an intrinsic rank bound controlled by the number of classes, enabling low-dimensional spectral embeddings via dominant eigenmodes.   Classification is performed in the reduced space through class-conditional kernel density estimation and a maximum-likelihood decision rule.   We establish structural invariances, provide complexity estimates, and validate the approach on synthetic benchmarks probing high cardinality, sparsity, noise, and class imbalance.",
     "authors": [
       "Raquel Bosch-Romeu",
-      "Antonio Falc\u00f3",
-      "os\u00e9-Antonio Rodr\u00edguez-Gallego"
+      "Antonio Falcó",
+      "osé-Antonio Rodríguez-Gallego"
     ],
     "categories": [
       "stat.ML",
@@ -4442,7 +4442,7 @@
   {
     "arxiv_id": "2603.01842v1",
     "title": "Uniform-in-time concentration in two-layer neural networks via transportation inequalities",
-    "summary": "We quantify, uniformly over time and with high probability, the discrepancy between the predictions of a two-layer neural network trained by stochastic gradient descent (SGD) and their mean-field limit, for quadratic loss and ridge regularization. As a key ingredient, we establish T p transportation inequalities (p $\\in$ {1, 2}) for the law of the SGD parameters, with explicit constants independent of the iteration index. We then prove uniform-in-time concentration of the empirical parameter measure around its mean-field limit in the Wasserstein distance W 1 , and we translate these bounds into prediction-error estimates against a fixed test function $\u03a6$. We also derive analogous concentration bounds in the sliced-Wasserstein distance SW 1 , leading to dimension-free rates.",
+    "summary": "We quantify, uniformly over time and with high probability, the discrepancy between the predictions of a two-layer neural network trained by stochastic gradient descent (SGD) and their mean-field limit, for quadratic loss and ridge regularization. As a key ingredient, we establish T p transportation inequalities (p $\\in$ {1, 2}) for the law of the SGD parameters, with explicit constants independent of the iteration index. We then prove uniform-in-time concentration of the empirical parameter measure around its mean-field limit in the Wasserstein distance W 1 , and we translate these bounds into prediction-error estimates against a fixed test function $Φ$. We also derive analogous concentration bounds in the sliced-Wasserstein distance SW 1 , leading to dimension-free rates.",
     "authors": [
       "Arnaud Guillin",
       "Boris Nectoux",
@@ -4457,99 +4457,6 @@
     "pdf_url": "https://arxiv.org/pdf/2603.01842v1.pdf",
     "date": "2026-03-03",
     "source": "arxiv",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "g4me/QwenRolina3-Base-LR1e5-b32g2gc8-order-domain-2ep",
-    "author": "unknown",
-    "title": "g4me/QwenRolina3-Base-LR1e5-b32g2gc8-order-domain-2ep",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "sft",
-      "conversational",
-      "base_model:Qwen/Qwen3-1.7B-Base",
-      "base_model:finetune:Qwen/Qwen3-1.7B-Base",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-02T20:44:16.000Z",
-    "last_modified": "2026-03-03T04:37:13.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/g4me/QwenRolina3-Base-LR1e5-b32g2gc8-order-domain-2ep",
-    "date": "2026-03-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "sds-dubois/nanorl-tictactoe-rl-smollm3b",
-    "author": "unknown",
-    "title": "sds-dubois/nanorl-tictactoe-rl-smollm3b",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:HuggingFaceTB/SmolLM3-3B",
-      "grpo",
-      "lora",
-      "transformers",
-      "trl",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "base_model:HuggingFaceTB/SmolLM3-3B",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-03-02T19:04:09.000Z",
-    "last_modified": "2026-03-03T04:35:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/sds-dubois/nanorl-tictactoe-rl-smollm3b",
-    "date": "2026-03-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ihanif/exp_008b_base_cv24_vanilla_no_aug",
-    "author": "unknown",
-    "title": "ihanif/exp_008b_base_cv24_vanilla_no_aug",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "whisper",
-      "automatic-speech-recognition",
-      "generated_from_trainer",
-      "base_model:openai/whisper-base",
-      "base_model:finetune:openai/whisper-base",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-03-02T17:57:17.000Z",
-    "last_modified": "2026-03-03T04:34:52.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ihanif/exp_008b_base_cv24_vanilla_no_aug",
-    "date": "2026-03-03",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.4
   }
 ]
