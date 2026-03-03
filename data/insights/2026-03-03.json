@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-03T08:17:49.391660",
+  "date": "2026-03-03T12:18:54.194760",
   "patterns": {
     "multimodal_research": [
       {
@@ -101,10 +101,6 @@
       {
         "title": "OmniLottie: Generating Vector Animations via Parameterized Lottie Tokens",
         "url": "https://arxiv.org/abs/2603.02138v1"
-      },
-      {
-        "title": "Legitking4pf/legit-multimodal-ai-v2",
-        "url": "https://huggingface.co/Legitking4pf/legit-multimodal-ai-v2"
       }
     ],
     "efficient_architectures": [
@@ -639,16 +635,16 @@
         "url": "https://arxiv.org/abs/2603.01932v1"
       },
       {
+        "title": "juniorrios/llama-gpt2-200M-fineweb-vocab32k-100ksteps",
+        "url": "https://huggingface.co/juniorrios/llama-gpt2-200M-fineweb-vocab32k-100ksteps"
+      },
+      {
         "title": "OmniLottie: Generating Vector Animations via Parameterized Lottie Tokens",
         "url": "https://arxiv.org/abs/2603.02138v1"
       },
       {
         "title": "Action-Guided Attention for Video Action Anticipation",
         "url": "https://arxiv.org/abs/2603.01743v1"
-      },
-      {
-        "title": "sds-dubois/nanorl-tictactoe-rl-smollm3b",
-        "url": "https://huggingface.co/sds-dubois/nanorl-tictactoe-rl-smollm3b"
       }
     ],
     "vision_systems": [
@@ -937,8 +933,8 @@
         "url": "https://arxiv.org/abs/2603.01812v1"
       },
       {
-        "title": "ihanif/exp_008b_base_cv24_vanilla_no_aug",
-        "url": "https://huggingface.co/ihanif/exp_008b_base_cv24_vanilla_no_aug"
+        "title": "JayeeYi/clip-ViT-B-32-vision",
+        "url": "https://huggingface.co/JayeeYi/clip-ViT-B-32-vision"
       }
     ],
     "reasoning": [
@@ -1649,7 +1645,7 @@
   "inferences": [
     {
       "pattern": "multimodal_research",
-      "observation": "26 independent papers",
+      "observation": "25 independent papers",
       "inference": "Strong convergence in Multimodal Research - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1728,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 407
   }
 }
