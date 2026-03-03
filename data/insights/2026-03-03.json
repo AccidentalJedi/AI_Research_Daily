@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-03T16:22:40.005525",
+  "date": "2026-03-03T20:13:29.219660",
   "patterns": {
     "multimodal_research": [
       {
@@ -643,12 +643,8 @@
         "url": "https://arxiv.org/abs/2603.01743v1"
       },
       {
-        "title": "Ajsal08/biogpt-parkinsons-mri",
-        "url": "https://huggingface.co/Ajsal08/biogpt-parkinsons-mri"
-      },
-      {
-        "title": "rgusseinov/xlmr_multilabel_websites_bertmultiling_cased",
-        "url": "https://huggingface.co/rgusseinov/xlmr_multilabel_websites_bertmultiling_cased"
+        "title": "Janeodum/gpt-oss-120b-math-stage1-16bit",
+        "url": "https://huggingface.co/Janeodum/gpt-oss-120b-math-stage1-16bit"
       }
     ],
     "vision_systems": [
@@ -1639,6 +1635,10 @@
       {
         "title": "NextAds: Towards Next-generation Personalized Video Advertising",
         "url": "https://arxiv.org/abs/2603.02137v1"
+      },
+      {
+        "title": "SOTAagi2030/MyAwesomeModel-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo"
       }
     ]
   },
@@ -1669,7 +1669,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1693,7 +1693,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "100 independent papers",
+      "observation": "101 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
