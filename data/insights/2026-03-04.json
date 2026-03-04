@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-04T16:18:40.423460",
+  "date": "2026-03-04T20:14:24.196151",
   "patterns": {
     "multimodal_research": [
       {
@@ -709,6 +709,18 @@
       {
         "title": "COP-GEN: Latent Diffusion Transformer for Copernicus Earth Observation Data -- Generation Stochastic by Design",
         "url": "https://arxiv.org/abs/2603.03239v1"
+      },
+      {
+        "title": "FarmerlineML/w2v-bert-2.0_2026_telephony_krio",
+        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_telephony_krio"
+      },
+      {
+        "title": "FarmerlineML/w2v-bert-2.0_2026_krio_cleaner",
+        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_krio_cleaner"
+      },
+      {
+        "title": "huggingworld/gpt-oss-20b-ONNX",
+        "url": "https://huggingface.co/huggingworld/gpt-oss-20b-ONNX"
       }
     ],
     "vision_systems": [
@@ -983,6 +995,10 @@
       {
         "title": "The Dresden Dataset for 4D Reconstruction of Non-Rigid Abdominal Surgical Scenes",
         "url": "https://arxiv.org/abs/2603.02985v1"
+      },
+      {
+        "title": "Itdoesntmatterfoff/Realistic_Vision_V5.1_noVAE",
+        "url": "https://huggingface.co/Itdoesntmatterfoff/Realistic_Vision_V5.1_noVAE"
       }
     ],
     "reasoning": [
@@ -1611,6 +1627,10 @@
       {
         "title": "JohnGenetica/ane-sota-kan-v2",
         "url": "https://huggingface.co/JohnGenetica/ane-sota-kan-v2"
+      },
+      {
+        "title": "SOTAagi2030/MyAwesomeModel-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo"
       }
     ]
   },
@@ -1641,13 +1661,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "68 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1665,7 +1685,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "95 independent papers",
+      "observation": "96 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1700,6 +1720,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 400
+    "total_papers": 405
   }
 }
