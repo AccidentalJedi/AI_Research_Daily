@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-04T12:18:44.860508",
+  "date": "2026-03-04T16:18:40.423460",
   "patterns": {
     "multimodal_research": [
       {
@@ -1607,6 +1607,10 @@
       {
         "title": "The Dresden Dataset for 4D Reconstruction of Non-Rigid Abdominal Surgical Scenes",
         "url": "https://arxiv.org/abs/2603.02985v1"
+      },
+      {
+        "title": "JohnGenetica/ane-sota-kan-v2",
+        "url": "https://huggingface.co/JohnGenetica/ane-sota-kan-v2"
       }
     ]
   },
@@ -1661,7 +1665,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "94 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1696,6 +1700,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 399
+    "total_papers": 400
   }
 }
