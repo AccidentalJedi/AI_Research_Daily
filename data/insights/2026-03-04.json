@@ -1,1659 +1,1623 @@
 {
-  "date": "2026-03-04T00:35:41.888093",
+  "date": "2026-03-04T04:38:19.438657",
   "patterns": {
     "multimodal_research": [
       {
-        "title": "Semantic Similarity is a Spurious Measure of Comic Understanding: Lessons Learned from Hallucinations in a Benchmarking Experiment",
-        "url": "https://arxiv.org/abs/2603.01950v1"
+        "title": "Designing UNICORN: a Unified Benchmark for Imaging in Computational Pathology, Radiology, and Natural Language",
+        "url": "https://arxiv.org/abs/2603.02790v1"
       },
       {
-        "title": "OmniRet: Efficient and High-Fidelity Omni Modality Retrieval",
-        "url": "https://arxiv.org/abs/2603.02098v1"
+        "title": "Tether: Autonomous Functional Play with Correspondence-Driven Trajectory Warping",
+        "url": "https://arxiv.org/abs/2603.03278v1"
       },
       {
-        "title": "Phishing the Phishers with SpecularNet: Hierarchical Graph Autoencoding for Reference-Free Web Phishing Detection",
-        "url": "https://arxiv.org/abs/2603.01874v1"
+        "title": "Chain of World: World Model Thinking in Latent Motion",
+        "url": "https://arxiv.org/abs/2603.03195v1"
       },
       {
-        "title": "Orchestrating Multimodal DNN Workloads in Wireless Neural Processing",
-        "url": "https://arxiv.org/abs/2603.02109v1"
+        "title": "MA-CoNav: A Master-Slave Multi-Agent Framework with Hierarchical Collaboration and Dual-Level Reflection for Long-Horizon Embodied VLN",
+        "url": "https://arxiv.org/abs/2603.03024v1"
       },
       {
-        "title": "Adaptive Confidence Regularization for Multimodal Failure Detection",
-        "url": "https://arxiv.org/abs/2603.02200v1"
+        "title": "ACE-Brain-0: Spatial Intelligence as a Shared Scaffold for Universal Embodiments",
+        "url": "https://arxiv.org/abs/2603.03198v1"
       },
       {
-        "title": "According to Me: Long-Term Personalized Referential Memory QA",
-        "url": "https://arxiv.org/abs/2603.01990v1"
+        "title": "UniG2U-Bench: Do Unified Models Advance Multimodal Understanding?",
+        "url": "https://arxiv.org/abs/2603.03241v1"
       },
       {
-        "title": "FreeAct: Freeing Activations for LLM Quantization",
-        "url": "https://arxiv.org/abs/2603.01776v1"
+        "title": "MoD-DPO: Towards Mitigating Cross-modal Hallucinations in Omni LLMs using Modality Decoupled Preference Optimization",
+        "url": "https://arxiv.org/abs/2603.03192v1"
       },
       {
-        "title": "Nano-EmoX: Unifying Multimodal Emotional Intelligence from Perception to Empathy",
-        "url": "https://arxiv.org/abs/2603.02123v1"
+        "title": "TRACE: Task-Adaptive Reasoning and Representation Learning for Universal Multimodal Retrieval",
+        "url": "https://arxiv.org/abs/2603.02929v1"
       },
       {
-        "title": "Learning to Read Where to Look: Disease-Aware Vision-Language Pretraining for 3D CT",
-        "url": "https://arxiv.org/abs/2603.02026v1"
+        "title": "CGL: Advancing Continual GUI Learning via Reinforcement Fine-Tuning",
+        "url": "https://arxiv.org/abs/2603.02951v1"
       },
       {
-        "title": "Recursive Think-Answer Process for LLMs and VLMs",
-        "url": "https://arxiv.org/abs/2603.02099v1"
+        "title": "SpatialText: A Pure-Text Cognitive Benchmark for Spatial Understanding in Large Language Models",
+        "url": "https://arxiv.org/abs/2603.03002v1"
       },
       {
-        "title": "Process Over Outcome: Cultivating Forensic Reasoning for Generalizable Multimodal Manipulation Detection",
-        "url": "https://arxiv.org/abs/2603.01993v1"
+        "title": "HDINO: A Concise and Efficient Open-Vocabulary Detector",
+        "url": "https://arxiv.org/abs/2603.02924v1"
       },
       {
-        "title": "FireRed-OCR Technical Report",
-        "url": "https://arxiv.org/abs/2603.01840v1"
+        "title": "ITO: Images and Texts as One via Synergizing Multiple Alignment and Training-Time Fusion",
+        "url": "https://arxiv.org/abs/2603.02767v1"
       },
       {
-        "title": "Co-Evolutionary Multi-Modal Alignment via Structured Adversarial Evolution",
-        "url": "https://arxiv.org/abs/2603.01784v1"
+        "title": "Beyond One-Size-Fits-All: Adaptive Subgraph Denoising for Zero-Shot Graph Learning with Large Language Models",
+        "url": "https://arxiv.org/abs/2603.02938v1"
       },
       {
-        "title": "CoVAE: correlated multimodal generative modeling",
-        "url": "https://arxiv.org/abs/2603.01965v1"
+        "title": "Think-as-You-See: Streaming Chain-of-Thought Reasoning for Large Vision-Language Models",
+        "url": "https://arxiv.org/abs/2603.02872v1"
       },
       {
-        "title": "LAD-Drive: Bridging Language and Trajectory with Action-Aware Diffusion Transformers",
-        "url": "https://arxiv.org/abs/2603.02035v1"
+        "title": "Multimodal-Prior-Guided Importance Sampling for Hierarchical Gaussian Splatting in Sparse-View Novel View Synthesis",
+        "url": "https://arxiv.org/abs/2603.02866v1"
       },
       {
-        "title": "NICO-RAG: Multimodal Hypergraph Retrieval-Augmented Generation for Understanding the Nicotine Public Health Crisis",
-        "url": "https://arxiv.org/abs/2603.02047v1"
+        "title": "CoFL: Continuous Flow Fields for Language-Conditioned Navigation",
+        "url": "https://arxiv.org/abs/2603.02854v1"
       },
       {
-        "title": "MMR-Life: Piecing Together Real-life Scenes for Multimodal Multi-image Reasoning",
-        "url": "https://arxiv.org/abs/2603.02024v1"
+        "title": "iGVLM: Dynamic Instruction-Guided Vision Encoding for Question-Aware Multimodal Understanding",
+        "url": "https://arxiv.org/abs/2603.02748v1"
       },
       {
-        "title": "LaST-VLA: Thinking in Latent Spatio-Temporal Space for Vision-Language-Action in Autonomous Driving",
-        "url": "https://arxiv.org/abs/2603.01928v1"
+        "title": "TagaVLM: Topology-Aware Global Action Reasoning for Vision-Language Navigation",
+        "url": "https://arxiv.org/abs/2603.02972v1"
       },
       {
-        "title": "$\u03c0$-StepNFT: Wider Space Needs Finer Steps in Online RL for Flow-based VLAs",
-        "url": "https://arxiv.org/abs/2603.02083v1"
+        "title": "A Browser-based Open Source Assistant for Multimodal Content Verification",
+        "url": "https://arxiv.org/abs/2603.02842v1"
       },
       {
-        "title": "Bridging the gap between Performance and Interpretability: An Explainable Disentangled Multimodal Framework for Cancer Survival Prediction",
-        "url": "https://arxiv.org/abs/2603.02162v1"
+        "title": "3D-DRES: Detailed 3D Referring Expression Segmentation",
+        "url": "https://arxiv.org/abs/2603.02896v1"
       },
       {
-        "title": "Cognitive Prosthetic: An AI-Enabled Multimodal System for Episodic Recall in Knowledge Work",
-        "url": "https://arxiv.org/abs/2603.02072v1"
+        "title": "LLandMark: A Multi-Agent Framework for Landmark-Aware Multimodal Interactive Video Retrieval",
+        "url": "https://arxiv.org/abs/2603.02888v1"
       },
       {
-        "title": "LEAR: Learning Edge-Aware Representations for Event-to-LiDAR Localization",
-        "url": "https://arxiv.org/abs/2603.01839v1"
+        "title": "OCR or Not? Rethinking Document Information Extraction in the MLLMs Era with Real-World Large-Scale Datasets",
+        "url": "https://arxiv.org/abs/2603.02789v1"
       },
       {
-        "title": "MealRec: Multi-granularity Sequential Modeling via Hierarchical Diffusion Models for Micro-Video Recommendation",
-        "url": "https://arxiv.org/abs/2603.01926v1"
+        "title": "Semi-Supervised Few-Shot Adaptation of Vision-Language Models",
+        "url": "https://arxiv.org/abs/2603.02959v1"
       },
       {
-        "title": "PreSight: Preoperative Outcome Prediction for Parkinson's Disease via Region-Prior Morphometry and Patient-Specific Weighting",
-        "url": "https://arxiv.org/abs/2603.01948v1"
+        "title": "CoShadow: Multi-Object Shadow Generation for Image Compositing via Diffusion Model",
+        "url": "https://arxiv.org/abs/2603.02743v1"
       },
       {
-        "title": "OmniLottie: Generating Vector Animations via Parameterized Lottie Tokens",
-        "url": "https://arxiv.org/abs/2603.02138v1"
+        "title": "Utonia: Toward One Encoder for All Point Clouds",
+        "url": "https://arxiv.org/abs/2603.03283v1"
+      },
+      {
+        "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+        "url": "https://arxiv.org/abs/2603.03276v1"
+      },
+      {
+        "title": "GloPath: An Entity-Centric Foundation Model for Glomerular Lesion Assessment and Clinicopathological Insights",
+        "url": "https://arxiv.org/abs/2603.02926v1"
+      },
+      {
+        "title": "Nodes Are Early, Edges Are Late: Probing Diagram Representations in Large Vision-Language Models",
+        "url": "https://arxiv.org/abs/2603.02865v1"
+      },
+      {
+        "title": "VSearcher: Long-Horizon Multimodal Search Agent via Reinforcement Learning",
+        "url": "https://arxiv.org/abs/2603.02795v1"
+      },
+      {
+        "title": "Specificity-aware reinforcement learning for fine-grained open-world classification",
+        "url": "https://arxiv.org/abs/2603.03197v1"
+      },
+      {
+        "title": "ULTRA: Unified Multimodal Control for Autonomous Humanoid Whole-Body Loco-Manipulation",
+        "url": "https://arxiv.org/abs/2603.03279v1"
+      },
+      {
+        "title": "Seeing Clearly without Training: Mitigating Hallucinations in Multimodal LLMs for Remote Sensing",
+        "url": "https://arxiv.org/abs/2603.02754v1"
+      },
+      {
+        "title": "AWDiff: An a trous wavelet diffusion model for lung ultrasound image synthesis",
+        "url": "https://arxiv.org/abs/2603.03125v1"
+      },
+      {
+        "title": "COP-GEN: Latent Diffusion Transformer for Copernicus Earth Observation Data -- Generation Stochastic by Design",
+        "url": "https://arxiv.org/abs/2603.03239v1"
       }
     ],
     "efficient_architectures": [
       {
-        "title": "GCTAM: Global and Contextual Truncated Affinity Combined Maximization Model For Unsupervised Graph Anomaly Detection",
-        "url": "https://arxiv.org/abs/2603.01806v1"
+        "title": "From Complex Dynamics to DynFormer: Rethinking Transformers for PDEs",
+        "url": "https://arxiv.org/abs/2603.03112v1"
       },
       {
-        "title": "CA-AFP: Cluster-Aware Adaptive Federated Pruning",
-        "url": "https://arxiv.org/abs/2603.01739v1"
+        "title": "TAO-Attack: Toward Advanced Optimization-Based Jailbreak Attacks for Large Language Models",
+        "url": "https://arxiv.org/abs/2603.03081v1"
       },
       {
-        "title": "OmniRet: Efficient and High-Fidelity Omni Modality Retrieval",
-        "url": "https://arxiv.org/abs/2603.02098v1"
+        "title": "ACE-Merging: Data-Free Model Merging with Adaptive Covariance Estimation",
+        "url": "https://arxiv.org/abs/2603.02945v1"
       },
       {
-        "title": "Efficient RLVR Training via Weighted Mutual Information Data Selection",
-        "url": "https://arxiv.org/abs/2603.01907v1"
+        "title": "Tether: Autonomous Functional Play with Correspondence-Driven Trajectory Warping",
+        "url": "https://arxiv.org/abs/2603.03278v1"
       },
       {
-        "title": "Leveraging Model Soups to Classify Intangible Cultural Heritage Images from the Mekong Delta",
-        "url": "https://arxiv.org/abs/2603.02181v1"
+        "title": "Chain of World: World Model Thinking in Latent Motion",
+        "url": "https://arxiv.org/abs/2603.03195v1"
       },
       {
-        "title": "FluxMem: Adaptive Hierarchical Memory for Streaming Video Understanding",
-        "url": "https://arxiv.org/abs/2603.02096v1"
+        "title": "Learning Memory-Enhanced Improvement Heuristics for Flexible Job Shop Scheduling",
+        "url": "https://arxiv.org/abs/2603.02846v1"
       },
       {
-        "title": "CoVe: Training Interactive Tool-Use Agents via Constraint-Guided Verification",
-        "url": "https://arxiv.org/abs/2603.01940v1"
+        "title": "Rethinking Time Series Domain Generalization via Structure-Stratified Calibration",
+        "url": "https://arxiv.org/abs/2603.02756v1"
       },
       {
-        "title": "KDFlow: A User-Friendly and Efficient Knowledge Distillation Framework for Large Language Models",
-        "url": "https://arxiv.org/abs/2603.01875v1"
+        "title": "QFlowNet: Fast, Diverse, and Efficient Unitary Synthesis with Generative Flow Networks",
+        "url": "https://arxiv.org/abs/2603.03045v1"
       },
       {
-        "title": "MatRIS: Toward Reliable and Efficient Pretrained Machine Learning Interaction Potentials",
-        "url": "https://arxiv.org/abs/2603.02002v1"
+        "title": "Channel-Adaptive Edge AI: Maximizing Inference Throughput by Adapting Computational Complexity to Channel States",
+        "url": "https://arxiv.org/abs/2603.03146v1"
       },
       {
-        "title": "DGNet: Discrete Green Networks for Data-Efficient Learning of Spatiotemporal PDEs",
-        "url": "https://arxiv.org/abs/2603.01762v1"
+        "title": "MoECLIP: Patch-Specialized Experts for Zero-shot Anomaly Detection",
+        "url": "https://arxiv.org/abs/2603.03101v1"
       },
       {
-        "title": "Orchestrating Multimodal DNN Workloads in Wireless Neural Processing",
-        "url": "https://arxiv.org/abs/2603.02109v1"
+        "title": "MA-CoNav: A Master-Slave Multi-Agent Framework with Hierarchical Collaboration and Dual-Level Reflection for Long-Horizon Embodied VLN",
+        "url": "https://arxiv.org/abs/2603.03024v1"
       },
       {
-        "title": "Graph neural network force fields for adiabatic dynamics of lattice Hamiltonians",
-        "url": "https://arxiv.org/abs/2603.02039v1"
+        "title": "Inverse Reconstruction of Shock Time Series from Shock Response Spectrum Curves using Machine Learning",
+        "url": "https://arxiv.org/abs/2603.03229v1"
       },
       {
-        "title": "StepVAR: Structure-Texture Guided Pruning for Visual Autoregressive Models",
-        "url": "https://arxiv.org/abs/2603.01757v1"
+        "title": "LAGO: A Local-Global Optimization Framework Combining Trust Region Methods and Bayesian Optimization",
+        "url": "https://arxiv.org/abs/2603.02970v1"
       },
       {
-        "title": "Sketch2Colab: Sketch-Conditioned Multi-Human Animation via Controllable Flow Distillation",
-        "url": "https://arxiv.org/abs/2603.02190v1"
+        "title": "Towards Accurate and Interpretable Time-series Forecasting: A Polynomial Learning Approach",
+        "url": "https://arxiv.org/abs/2603.02906v1"
       },
       {
-        "title": "LiftAvatar: Kinematic-Space Completion for Expression-Controlled 3D Gaussian Avatar Animation",
-        "url": "https://arxiv.org/abs/2603.02129v1"
+        "title": "LLM-based Argument Mining meets Argumentation and Description Logics: a Unified Framework for Reasoning about Debates",
+        "url": "https://arxiv.org/abs/2603.02858v1"
       },
       {
-        "title": "CodecFlow: Efficient Bandwidth Extension via Conditional Flow Matching in Neural Codec Latent Space",
-        "url": "https://arxiv.org/abs/2603.02022v1"
+        "title": "Deep learning-guided evolutionary optimization for protein design",
+        "url": "https://arxiv.org/abs/2603.02753v1"
       },
       {
-        "title": "FreeAct: Freeing Activations for LLM Quantization",
-        "url": "https://arxiv.org/abs/2603.01776v1"
+        "title": "HDINO: A Concise and Efficient Open-Vocabulary Detector",
+        "url": "https://arxiv.org/abs/2603.02924v1"
       },
       {
-        "title": "Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning",
-        "url": "https://arxiv.org/abs/2603.01759v1"
+        "title": "TC-Pad\u00e9: Trajectory-Consistent Pad\u00e9 Approximation for Diffusion Acceleration",
+        "url": "https://arxiv.org/abs/2603.02943v1"
       },
       {
-        "title": "Practical Deep Heteroskedastic Regression",
-        "url": "https://arxiv.org/abs/2603.01750v1"
+        "title": "Retrievit: In-context Retrieval Capabilities of Transformers, State Space Models, and Hybrid Architectures",
+        "url": "https://arxiv.org/abs/2603.02874v1"
       },
       {
-        "title": "Multi-Head Low-Rank Attention",
-        "url": "https://arxiv.org/abs/2603.02188v1"
+        "title": "SPARC: Spatial-Aware Path Planning via Attentive Robot Communication",
+        "url": "https://arxiv.org/abs/2603.02845v1"
       },
       {
-        "title": "Organizing, Orchestrating, and Benchmarking Agent Skills at Ecosystem Scale",
-        "url": "https://arxiv.org/abs/2603.02176v1"
+        "title": "Differentiable Time-Varying IIR Filtering for Real-Time Speech Denoising",
+        "url": "https://arxiv.org/abs/2603.02794v1"
       },
       {
-        "title": "A Resource-Rational Principle for Modeling Visual Attention Control",
-        "url": "https://arxiv.org/abs/2603.02056v1"
+        "title": "No Memorization, No Detection: Output Distribution-Based Contamination Detection in Small Language Models",
+        "url": "https://arxiv.org/abs/2603.03203v1"
       },
       {
-        "title": "Detection-Gated Glottal Segmentation with Zero-Shot Cross-Dataset Transfer and Clinical Feature Extraction",
-        "url": "https://arxiv.org/abs/2603.02087v1"
+        "title": "Any Resolution Any Geometry: From Multi-View To Multi-Patch",
+        "url": "https://arxiv.org/abs/2603.03026v1"
       },
       {
-        "title": "Emerging Human-like Strategies for Semantic Memory Foraging in Large Language Models",
-        "url": "https://arxiv.org/abs/2603.01822v1"
+        "title": "MaBERT:A Padding Safe Interleaved Transformer Mamba Hybrid Encoder for Efficient Extended Context Masked Language Modeling",
+        "url": "https://arxiv.org/abs/2603.03001v1"
       },
       {
-        "title": "Expanding LLM Agent Boundaries with Strategy-Guided Exploration",
-        "url": "https://arxiv.org/abs/2603.02045v1"
+        "title": "SAE as a Crystal Ball: Interpretable Features Predict Cross-domain Transferability of LLMs without Training",
+        "url": "https://arxiv.org/abs/2603.02908v1"
       },
       {
-        "title": "Rich Insights from Cheap Signals: Efficient Evaluations via Tensor Factorization",
-        "url": "https://arxiv.org/abs/2603.02029v1"
+        "title": "LaTeX Compilation: Challenges in the Era of LLMs",
+        "url": "https://arxiv.org/abs/2603.02873v1"
       },
       {
-        "title": "Accurate, private, secure, federated U-statistics with higher degree",
-        "url": "https://arxiv.org/abs/2603.01986v1"
+        "title": "Think-as-You-See: Streaming Chain-of-Thought Reasoning for Large Vision-Language Models",
+        "url": "https://arxiv.org/abs/2603.02872v1"
       },
       {
-        "title": "Probabilistic Retrofitting of Learned Simulators",
-        "url": "https://arxiv.org/abs/2603.01949v1"
+        "title": "Efficient Self-Evaluation for Diffusion Language Models via Sequence Regeneration",
+        "url": "https://arxiv.org/abs/2603.02760v1"
       },
       {
-        "title": "Constrained Particle Seeking: Solving Diffusion Inverse Problems with Just Forward Passes",
-        "url": "https://arxiv.org/abs/2603.01837v1"
+        "title": "Shape Derivative-Informed Neural Operators with Application to Risk-Averse Shape Optimization",
+        "url": "https://arxiv.org/abs/2603.03211v1"
       },
       {
-        "title": "nchellwig at SemEval-2026 Task 3: Self-Consistent Structured Generation (SCSG) for Dimensional Aspect-Based Sentiment Analysis using Large Language Models",
-        "url": "https://arxiv.org/abs/2603.01788v1"
+        "title": "I-CAM-UV: Integrating Causal Graphs over Non-Identical Variable Sets Using Causal Additive Models with Unobserved Variables",
+        "url": "https://arxiv.org/abs/2603.03207v1"
       },
       {
-        "title": "Decentralized Federated Learning by Partial Message Exchange",
-        "url": "https://arxiv.org/abs/2603.01730v1"
+        "title": "Step-Level Sparse Autoencoder for Reasoning Process Interpretation",
+        "url": "https://arxiv.org/abs/2603.03031v1"
       },
       {
-        "title": "Revealing Combinatorial Reasoning of GNNs via Graph Concept Bottleneck Layer",
-        "url": "https://arxiv.org/abs/2603.02025v1"
+        "title": "Guiding Sparse Neural Networks with Neurobiological Principles to Elicit Biologically Plausible Representations",
+        "url": "https://arxiv.org/abs/2603.03234v1"
       },
       {
-        "title": "Efficient Test-Time Optimization for Depth Completion via Low-Rank Decoder Adaptation",
-        "url": "https://arxiv.org/abs/2603.01765v1"
+        "title": "Multimodal-Prior-Guided Importance Sampling for Hierarchical Gaussian Splatting in Sparse-View Novel View Synthesis",
+        "url": "https://arxiv.org/abs/2603.02866v1"
       },
       {
-        "title": "Recursive Think-Answer Process for LLMs and VLMs",
-        "url": "https://arxiv.org/abs/2603.02099v1"
+        "title": "Toward Early Quality Assessment of Text-to-Image Diffusion Models",
+        "url": "https://arxiv.org/abs/2603.02829v1"
       },
       {
-        "title": "Accelerating PDE Surrogates via RL-Guided Mesh Optimization",
-        "url": "https://arxiv.org/abs/2603.02066v1"
+        "title": "Practical FP4 Training for Large-Scale MoE Models on Hopper GPUs",
+        "url": "https://arxiv.org/abs/2603.02731v1"
       },
       {
-        "title": "Latent attention on masked patches for flow reconstruction",
-        "url": "https://arxiv.org/abs/2603.02028v1"
+        "title": "Information Routing in Atomistic Foundation Models: How Equivariance Creates Linearly Disentangled Representations",
+        "url": "https://arxiv.org/abs/2603.03155v1"
       },
       {
-        "title": "SEAR: Sample Efficient Action Chunking Reinforcement Learning",
-        "url": "https://arxiv.org/abs/2603.01891v1"
+        "title": "Torus embeddings",
+        "url": "https://arxiv.org/abs/2603.03135v1"
       },
       {
-        "title": "Uncertainty Quantification of Click and Conversion Estimates for the Autobidding",
-        "url": "https://arxiv.org/abs/2603.01825v1"
+        "title": "TinyIceNet: Low-Power SAR Sea Ice Segmentation for On-Board FPGA Inference",
+        "url": "https://arxiv.org/abs/2603.03075v1"
       },
       {
-        "title": "LongRLVR: Long-Context Reinforcement Learning Requires Verifiable Context Rewards",
-        "url": "https://arxiv.org/abs/2603.02146v1"
+        "title": "Reinforcement Learning with Symbolic Reward Machines",
+        "url": "https://arxiv.org/abs/2603.03068v1"
       },
       {
-        "title": "Machine Learning (ML) library in Linux kernel",
-        "url": "https://arxiv.org/abs/2603.02145v1"
+        "title": "EduVQA: Benchmarking AI-Generated Video Quality Assessment for Education",
+        "url": "https://arxiv.org/abs/2603.03066v1"
       },
       {
-        "title": "TRAKNN: Efficient Trajectory Aware Spatiotemporal kNN for Rare Meteorological Trajectory Detection",
-        "url": "https://arxiv.org/abs/2603.02059v1"
+        "title": "ScribeTokens: Fixed-Vocabulary Tokenization of Digital Ink",
+        "url": "https://arxiv.org/abs/2603.02805v1"
       },
       {
-        "title": "physfusion: A Transformer-based Dual-Stream Radar and Vision Fusion Framework for Open Water Surface Object Detection",
-        "url": "https://arxiv.org/abs/2603.01947v1"
+        "title": "Density-Guided Response Optimization: Community-Grounded Alignment via Implicit Acceptance Signals",
+        "url": "https://arxiv.org/abs/2603.03242v1"
       },
       {
-        "title": "Semantic Novelty Trajectories in 80,000 Books: A Cross-Corpus Embedding Analysis",
-        "url": "https://arxiv.org/abs/2603.01791v1"
+        "title": "VIRGi: View-dependent Instant Recoloring of 3D Gaussians Splats",
+        "url": "https://arxiv.org/abs/2603.02986v1"
       },
       {
-        "title": "Discrete World Models via Regularization",
-        "url": "https://arxiv.org/abs/2603.01748v1"
+        "title": "Spatial Autoregressive Modeling of DINOv3 Embeddings for Unsupervised Anomaly Detection",
+        "url": "https://arxiv.org/abs/2603.02974v1"
       },
       {
-        "title": "Rethinking Policy Diversity in Ensemble Policy Gradient in Large-Scale Reinforcement Learning",
-        "url": "https://arxiv.org/abs/2603.01741v1"
+        "title": "Intrinsic Geometry-Appearance Consistency Optimization for Sparse-View Gaussian Splatting",
+        "url": "https://arxiv.org/abs/2603.02893v1"
       },
       {
-        "title": "Boltzmann-based Exploration for Robust Decentralized Multi-Agent Planning",
-        "url": "https://arxiv.org/abs/2603.02154v1"
+        "title": "Semi-Supervised Few-Shot Adaptation of Vision-Language Models",
+        "url": "https://arxiv.org/abs/2603.02959v1"
       },
       {
-        "title": "CyclicJudge: Mitigating Judge Bias Efficiently in LLM-based Evaluation",
-        "url": "https://arxiv.org/abs/2603.01865v1"
+        "title": "Harmonic Beltrami Signature Network: a Shape Prior Module in Deep Learning Framework",
+        "url": "https://arxiv.org/abs/2603.02907v1"
       },
       {
-        "title": "Streaming Real-Time Trajectory Prediction Using Endpoint-Aware Modeling",
-        "url": "https://arxiv.org/abs/2603.01864v1"
+        "title": "NOVA: Sparse Control, Dense Synthesis for Pair-Free Video Editing",
+        "url": "https://arxiv.org/abs/2603.02802v1"
       },
       {
-        "title": "PleaSQLarify: Visual Pragmatic Repair for Natural Language Database Querying",
-        "url": "https://arxiv.org/abs/2603.01795v1"
+        "title": "Utonia: Toward One Encoder for All Point Clouds",
+        "url": "https://arxiv.org/abs/2603.03283v1"
       },
       {
-        "title": "Stereo-Inertial Poser: Towards Metric-Accurate Shape-Aware Motion Capture Using Sparse IMUs and a Single Stereo Camera",
-        "url": "https://arxiv.org/abs/2603.02130v1"
+        "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+        "url": "https://arxiv.org/abs/2603.03276v1"
       },
       {
-        "title": "A 3D mesh convolution-based autoencoder for geometry compression",
-        "url": "https://arxiv.org/abs/2603.02125v1"
+        "title": "Embedding interpretable $\\ell_1$-regression into neural networks for uncovering temporal structure in cell imaging",
+        "url": "https://arxiv.org/abs/2603.02899v1"
       },
       {
-        "title": "From Pixels to Patches: Pooling Strategies for Earth Embeddings",
-        "url": "https://arxiv.org/abs/2603.02080v1"
+        "title": "SemanticDialect: Semantic-Aware Mixed-Format Quantization for Video Diffusion Transformers",
+        "url": "https://arxiv.org/abs/2603.02883v1"
       },
       {
-        "title": "The Expressive Limits of Diagonal SSMs for State-Tracking",
-        "url": "https://arxiv.org/abs/2603.01959v1"
+        "title": "Joint Training Across Multiple Activation Sparsity Regimes",
+        "url": "https://arxiv.org/abs/2603.03131v1"
       },
       {
-        "title": "Bound Propagation meets Constraint Simplification: Improving Logic-based XAI for Neural Networks",
-        "url": "https://arxiv.org/abs/2603.01923v1"
+        "title": "Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT",
+        "url": "https://arxiv.org/abs/2603.02952v1"
       },
       {
-        "title": "CTForensics: A Comprehensive Dataset and Method for AI-Generated CT Image Detection",
-        "url": "https://arxiv.org/abs/2603.01878v1"
+        "title": "ULTRA: Unified Multimodal Control for Autonomous Humanoid Whole-Body Loco-Manipulation",
+        "url": "https://arxiv.org/abs/2603.03279v1"
       },
       {
-        "title": "Downstream Task Inspired Underwater Image Enhancement: A Perception-Aware Study from Dataset Construction to Network Design",
-        "url": "https://arxiv.org/abs/2603.01767v1"
+        "title": "HiLoRA: Hierarchical Low-Rank Adaptation for Personalized Federated Learning",
+        "url": "https://arxiv.org/abs/2603.02785v1"
       },
       {
-        "title": "Resolving Blind Inverse Problems under Dynamic Range Compression via Structured Forward Operator Modeling",
-        "url": "https://arxiv.org/abs/2603.01890v1"
+        "title": "ProGIC: Progressive and Lightweight Generative Image Compression with Residual Vector Quantization",
+        "url": "https://arxiv.org/abs/2603.02897v1"
       },
       {
-        "title": "GroupEnsemble: Efficient Uncertainty Estimation for DETR-based Object Detection",
-        "url": "https://arxiv.org/abs/2603.01847v1"
-      },
-      {
-        "title": "SageBwd: A Trainable Low-bit Attention",
-        "url": "https://arxiv.org/abs/2603.02170v1"
-      },
-      {
-        "title": "Causal Circuit Tracing Reveals Distinct Computational Architectures in Single-Cell Foundation Models: Inhibitory Dominance, Biological Coherence, and Cross-Model Convergence",
-        "url": "https://arxiv.org/abs/2603.01752v1"
-      },
-      {
-        "title": "LEAR: Learning Edge-Aware Representations for Event-to-LiDAR Localization",
-        "url": "https://arxiv.org/abs/2603.01839v1"
-      },
-      {
-        "title": "BAWSeg: A UAV Multispectral Benchmark for Barley Weed Segmentation",
-        "url": "https://arxiv.org/abs/2603.01932v1"
+        "title": "ProSMA-UNet: Decoder Conditioning for Proximal-Sparse Skip Feature Selection",
+        "url": "https://arxiv.org/abs/2603.03187v1"
       }
     ],
     "language_models": [
       {
-        "title": "Semantic Similarity is a Spurious Measure of Comic Understanding: Lessons Learned from Hallucinations in a Benchmarking Experiment",
-        "url": "https://arxiv.org/abs/2603.01950v1"
+        "title": "Faster, Cheaper, More Accurate: Specialised Knowledge Tracing Models Outperform LLMs",
+        "url": "https://arxiv.org/abs/2603.02830v1"
       },
       {
-        "title": "OpenRad: a Curated Repository of Open-access AI models for Radiology",
-        "url": "https://arxiv.org/abs/2603.02062v1"
+        "title": "From Complex Dynamics to DynFormer: Rethinking Transformers for PDEs",
+        "url": "https://arxiv.org/abs/2603.03112v1"
       },
       {
-        "title": "Probing Materials Knowledge in LLMs: From Latent Embeddings to Reliable Predictions",
-        "url": "https://arxiv.org/abs/2603.01834v1"
+        "title": "TAO-Attack: Toward Advanced Optimization-Based Jailbreak Attacks for Large Language Models",
+        "url": "https://arxiv.org/abs/2603.03081v1"
       },
       {
-        "title": "OmniRet: Efficient and High-Fidelity Omni Modality Retrieval",
-        "url": "https://arxiv.org/abs/2603.02098v1"
+        "title": "ACE-Merging: Data-Free Model Merging with Adaptive Covariance Estimation",
+        "url": "https://arxiv.org/abs/2603.02945v1"
       },
       {
-        "title": "Efficient RLVR Training via Weighted Mutual Information Data Selection",
-        "url": "https://arxiv.org/abs/2603.01907v1"
+        "title": "Tether: Autonomous Functional Play with Correspondence-Driven Trajectory Warping",
+        "url": "https://arxiv.org/abs/2603.03278v1"
       },
       {
-        "title": "ALTER: Asymmetric LoRA for Token-Entropy-Guided Unlearning of LLMs",
-        "url": "https://arxiv.org/abs/2603.01792v1"
+        "title": "Compact Prompting in Instruction-tuned LLMs for Joint Argumentative Component Detection",
+        "url": "https://arxiv.org/abs/2603.03095v1"
       },
       {
-        "title": "KDFlow: A User-Friendly and Efficient Knowledge Distillation Framework for Large Language Models",
-        "url": "https://arxiv.org/abs/2603.01875v1"
+        "title": "RAPO: Expanding Exploration for LLM Agents via Retrieval-Augmented Policy Optimization",
+        "url": "https://arxiv.org/abs/2603.03078v1"
       },
       {
-        "title": "Reasoning Core: A Scalable Procedural Data Generation Suite for Symbolic Pre-training and Post-Training",
-        "url": "https://arxiv.org/abs/2603.02208v1"
+        "title": "QFlowNet: Fast, Diverse, and Efficient Unitary Synthesis with Generative Flow Networks",
+        "url": "https://arxiv.org/abs/2603.03045v1"
       },
       {
-        "title": "LiftAvatar: Kinematic-Space Completion for Expression-Controlled 3D Gaussian Avatar Animation",
-        "url": "https://arxiv.org/abs/2603.02129v1"
+        "title": "ShipTraj-R1: Reinforcing Ship Trajectory Prediction in Large Language Models via Group Relative Policy Optimization",
+        "url": "https://arxiv.org/abs/2603.02939v1"
       },
       {
-        "title": "GenDB: The Next Generation of Query Processing -- Synthesized, Not Engineered",
-        "url": "https://arxiv.org/abs/2603.02081v1"
+        "title": "ACE-Brain-0: Spatial Intelligence as a Shared Scaffold for Universal Embodiments",
+        "url": "https://arxiv.org/abs/2603.03198v1"
       },
       {
-        "title": "FreeAct: Freeing Activations for LLM Quantization",
-        "url": "https://arxiv.org/abs/2603.01776v1"
+        "title": "UniG2U-Bench: Do Unified Models Advance Multimodal Understanding?",
+        "url": "https://arxiv.org/abs/2603.03241v1"
       },
       {
-        "title": "Multi-Head Low-Rank Attention",
-        "url": "https://arxiv.org/abs/2603.02188v1"
+        "title": "Learning When to Act or Refuse: Guarding Agentic Reasoning Models for Safe Multi-Step Tool Use",
+        "url": "https://arxiv.org/abs/2603.03205v1"
       },
       {
-        "title": "Organizing, Orchestrating, and Benchmarking Agent Skills at Ecosystem Scale",
-        "url": "https://arxiv.org/abs/2603.02176v1"
+        "title": "PrivMedChat: End-to-End Differentially Private RLHF for Medical Dialogue Systems",
+        "url": "https://arxiv.org/abs/2603.03054v1"
       },
       {
-        "title": "Emerging Human-like Strategies for Semantic Memory Foraging in Large Language Models",
-        "url": "https://arxiv.org/abs/2603.01822v1"
+        "title": "REGAL: A Registry-Driven Architecture for Deterministic Grounding of Agentic AI in Enterprise Telemetry",
+        "url": "https://arxiv.org/abs/2603.03018v1"
       },
       {
-        "title": "D3LM: A Discrete DNA Diffusion Language Model for Bidirectional DNA Understanding and Generation",
-        "url": "https://arxiv.org/abs/2603.01780v1"
+        "title": "Inherited Goal Drift: Contextual Pressure Can Undermine Agentic Goals",
+        "url": "https://arxiv.org/abs/2603.03258v1"
       },
       {
-        "title": "Nano-EmoX: Unifying Multimodal Emotional Intelligence from Perception to Empathy",
-        "url": "https://arxiv.org/abs/2603.02123v1"
+        "title": "Code2Math: Can Your Code Agent Effectively Evolve Math Problems Through Exploration?",
+        "url": "https://arxiv.org/abs/2603.03202v1"
       },
       {
-        "title": "Recursive Models for Long-Horizon Reasoning",
-        "url": "https://arxiv.org/abs/2603.02112v1"
+        "title": "MoD-DPO: Towards Mitigating Cross-modal Hallucinations in Omni LLMs using Modality Decoupled Preference Optimization",
+        "url": "https://arxiv.org/abs/2603.03192v1"
       },
       {
-        "title": "GAM-RAG: Gain-Adaptive Memory for Evolving Retrieval in Retrieval-Augmented Generation",
-        "url": "https://arxiv.org/abs/2603.01783v1"
+        "title": "TRACE: Task-Adaptive Reasoning and Representation Learning for Universal Multimodal Retrieval",
+        "url": "https://arxiv.org/abs/2603.02929v1"
       },
       {
-        "title": "Expanding LLM Agent Boundaries with Strategy-Guided Exploration",
-        "url": "https://arxiv.org/abs/2603.02045v1"
+        "title": "Next Embedding Prediction Makes World Models Stronger",
+        "url": "https://arxiv.org/abs/2603.02765v1"
       },
       {
-        "title": "Let the Agent Search: Autonomous Exploration Beats Rigid Workflows in Temporal Question Answering",
-        "url": "https://arxiv.org/abs/2603.01853v1"
+        "title": "APRES: An Agentic Paper Revision and Evaluation System",
+        "url": "https://arxiv.org/abs/2603.03142v1"
       },
       {
-        "title": "nchellwig at SemEval-2026 Task 3: Self-Consistent Structured Generation (SCSG) for Dimensional Aspect-Based Sentiment Analysis using Large Language Models",
-        "url": "https://arxiv.org/abs/2603.01788v1"
+        "title": "Contextualized Privacy Defense for LLM Agents",
+        "url": "https://arxiv.org/abs/2603.02983v1"
       },
       {
-        "title": "Learning to Read Where to Look: Disease-Aware Vision-Language Pretraining for 3D CT",
-        "url": "https://arxiv.org/abs/2603.02026v1"
+        "title": "CGL: Advancing Continual GUI Learning via Reinforcement Fine-Tuning",
+        "url": "https://arxiv.org/abs/2603.02951v1"
       },
       {
-        "title": "Revealing Combinatorial Reasoning of GNNs via Graph Concept Bottleneck Layer",
-        "url": "https://arxiv.org/abs/2603.02025v1"
+        "title": "SEALing the Gap: A Reference Framework for LLM Inference Carbon Estimation via Multi-Benchmark Driven Embodiment",
+        "url": "https://arxiv.org/abs/2603.02949v1"
       },
       {
-        "title": "Agentic Code Reasoning",
-        "url": "https://arxiv.org/abs/2603.01896v1"
+        "title": "LLM-based Argument Mining meets Argumentation and Description Logics: a Unified Framework for Reasoning about Debates",
+        "url": "https://arxiv.org/abs/2603.02858v1"
       },
       {
-        "title": "Bootstrapping Embeddings for Low Resource Languages",
-        "url": "https://arxiv.org/abs/2603.01732v1"
+        "title": "TikZilla: Scaling Text-to-TikZ with High-Quality Data and Reinforcement Learning",
+        "url": "https://arxiv.org/abs/2603.03072v1"
       },
       {
-        "title": "Recursive Think-Answer Process for LLMs and VLMs",
-        "url": "https://arxiv.org/abs/2603.02099v1"
+        "title": "SpatialText: A Pure-Text Cognitive Benchmark for Spatial Understanding in Large Language Models",
+        "url": "https://arxiv.org/abs/2603.03002v1"
       },
       {
-        "title": "Learning from Synthetic Data Improves Multi-hop Reasoning",
-        "url": "https://arxiv.org/abs/2603.02091v1"
+        "title": "HDINO: A Concise and Efficient Open-Vocabulary Detector",
+        "url": "https://arxiv.org/abs/2603.02924v1"
       },
       {
-        "title": "Latent attention on masked patches for flow reconstruction",
-        "url": "https://arxiv.org/abs/2603.02028v1"
+        "title": "From Solver to Tutor: Evaluating the Pedagogical Intelligence of LLMs with KMP-Bench",
+        "url": "https://arxiv.org/abs/2603.02775v1"
       },
       {
-        "title": "FireRed-OCR Technical Report",
-        "url": "https://arxiv.org/abs/2603.01840v1"
+        "title": "Type-Aware Retrieval-Augmented Generation with Dependency Closure for Solver-Executable Industrial Optimization Modeling",
+        "url": "https://arxiv.org/abs/2603.03180v1"
       },
       {
-        "title": "Co-Evolutionary Multi-Modal Alignment via Structured Adversarial Evolution",
-        "url": "https://arxiv.org/abs/2603.01784v1"
+        "title": "Safe and Robust Domains of Attraction for Discrete-Time Systems: A Set-Based Characterization and Certifiable Neural Network Estimation",
+        "url": "https://arxiv.org/abs/2603.03082v1"
       },
       {
-        "title": "LongRLVR: Long-Context Reinforcement Learning Requires Verifiable Context Rewards",
-        "url": "https://arxiv.org/abs/2603.02146v1"
+        "title": "Incremental Graph Construction Enables Robust Spectral Clustering of Texts",
+        "url": "https://arxiv.org/abs/2603.03056v1"
       },
       {
-        "title": "GeoDiT: Point-Conditioned Diffusion Transformer for Satellite Image Synthesis",
-        "url": "https://arxiv.org/abs/2603.02172v1"
+        "title": "Beyond One-Size-Fits-All: Adaptive Subgraph Denoising for Zero-Shot Graph Learning with Large Language Models",
+        "url": "https://arxiv.org/abs/2603.02938v1"
       },
       {
-        "title": "Pencil Puzzle Bench: A Benchmark for Multi-Step Verifiable Reasoning",
-        "url": "https://arxiv.org/abs/2603.02119v1"
+        "title": "Retrievit: In-context Retrieval Capabilities of Transformers, State Space Models, and Hybrid Architectures",
+        "url": "https://arxiv.org/abs/2603.02874v1"
       },
       {
-        "title": "MAP-Diff: Multi-Anchor Guided Diffusion for Progressive 3D Whole-Body Low-Dose PET Denoising",
-        "url": "https://arxiv.org/abs/2603.02012v1"
+        "title": "No Memorization, No Detection: Output Distribution-Based Contamination Detection in Small Language Models",
+        "url": "https://arxiv.org/abs/2603.03203v1"
       },
       {
-        "title": "CharacterFlywheel: Scaling Iterative Improvement of Engaging and Steerable LLMs in Production",
-        "url": "https://arxiv.org/abs/2603.01973v1"
+        "title": "Any Resolution Any Geometry: From Multi-View To Multi-Patch",
+        "url": "https://arxiv.org/abs/2603.03026v1"
       },
       {
-        "title": "physfusion: A Transformer-based Dual-Stream Radar and Vision Fusion Framework for Open Water Surface Object Detection",
-        "url": "https://arxiv.org/abs/2603.01947v1"
+        "title": "MaBERT:A Padding Safe Interleaved Transformer Mamba Hybrid Encoder for Efficient Extended Context Masked Language Modeling",
+        "url": "https://arxiv.org/abs/2603.03001v1"
       },
       {
-        "title": "When Numbers Tell Half the Story: Human-Metric Alignment in Topic Model Evaluation",
-        "url": "https://arxiv.org/abs/2603.01945v1"
+        "title": "Learning to Generate and Extract: A Multi-Agent Collaboration Framework For Zero-shot Document-level Event Arguments Extraction",
+        "url": "https://arxiv.org/abs/2603.02909v1"
       },
       {
-        "title": "Semantic Novelty Trajectories in 80,000 Books: A Cross-Corpus Embedding Analysis",
-        "url": "https://arxiv.org/abs/2603.01791v1"
+        "title": "SAE as a Crystal Ball: Interpretable Features Predict Cross-domain Transferability of LLMs without Training",
+        "url": "https://arxiv.org/abs/2603.02908v1"
       },
       {
-        "title": "Symbol-Equivariant Recurrent Reasoning Models",
-        "url": "https://arxiv.org/abs/2603.02193v1"
+        "title": "LaTeX Compilation: Challenges in the Era of LLMs",
+        "url": "https://arxiv.org/abs/2603.02873v1"
       },
       {
-        "title": "LLMs as Strategic Actors: Behavioral Alignment, Risk Calibration, and Argumentation Framing in Geopolitical Simulations",
-        "url": "https://arxiv.org/abs/2603.02128v1"
+        "title": "Think-as-You-See: Streaming Chain-of-Thought Reasoning for Large Vision-Language Models",
+        "url": "https://arxiv.org/abs/2603.02872v1"
       },
       {
-        "title": "ClinConsensus: A Consensus-Based Benchmark for Evaluating Chinese Medical LLMs across Difficulty Levels",
-        "url": "https://arxiv.org/abs/2603.02097v1"
+        "title": "Rethinking Code Similarity for Automated Algorithm Design with LLMs",
+        "url": "https://arxiv.org/abs/2603.02787v1"
       },
       {
-        "title": "Deep Learning for Financial Time Series: A Large-Scale Benchmark of Risk-Adjusted Performance",
-        "url": "https://arxiv.org/abs/2603.01820v1"
+        "title": "Efficient Self-Evaluation for Diffusion Language Models via Sequence Regeneration",
+        "url": "https://arxiv.org/abs/2603.02760v1"
       },
       {
-        "title": "LLM-as-an-Annotator: Training Lightweight Models with LLM-Annotated Examples for Aspect Sentiment Tuple Prediction",
-        "url": "https://arxiv.org/abs/2603.01778v1"
+        "title": "A Covering Framework for Offline POMDPs Learning using Belief Space Metric",
+        "url": "https://arxiv.org/abs/2603.03191v1"
       },
       {
-        "title": "AnnoABSA: A Web-Based Annotation Tool for Aspect-Based Sentiment Analysis with Retrieval-Augmented Suggestions",
-        "url": "https://arxiv.org/abs/2603.01773v1"
+        "title": "Step-Level Sparse Autoencoder for Reasoning Process Interpretation",
+        "url": "https://arxiv.org/abs/2603.03031v1"
       },
       {
-        "title": "Frontier Models Can Take Actions at Low Probabilities",
-        "url": "https://arxiv.org/abs/2603.02202v1"
+        "title": "Architecting Trust in Artificial Epistemic Agents",
+        "url": "https://arxiv.org/abs/2603.02960v1"
       },
       {
-        "title": "Adam Converges Without Any Modification On Update Rules",
-        "url": "https://arxiv.org/abs/2603.02092v1"
+        "title": "On the Expressive Power of Transformers for Maxout Networks and Continuous Piecewise Linear Functions",
+        "url": "https://arxiv.org/abs/2603.03084v1"
       },
       {
-        "title": "Exploring Plan Space through Conversation: An Agentic Framework for LLM-Mediated Explanations in Planning",
-        "url": "https://arxiv.org/abs/2603.02070v1"
+        "title": "Eliciting Numerical Predictive Distributions of LLMs Without Autoregression",
+        "url": "https://arxiv.org/abs/2603.02913v1"
       },
       {
-        "title": "LAD-Drive: Bridging Language and Trajectory with Action-Aware Diffusion Transformers",
-        "url": "https://arxiv.org/abs/2603.02035v1"
+        "title": "CoFL: Continuous Flow Fields for Language-Conditioned Navigation",
+        "url": "https://arxiv.org/abs/2603.02854v1"
       },
       {
-        "title": "AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations",
-        "url": "https://arxiv.org/abs/2603.01966v1"
+        "title": "iGVLM: Dynamic Instruction-Guided Vision Encoding for Question-Aware Multimodal Understanding",
+        "url": "https://arxiv.org/abs/2603.02748v1"
       },
       {
-        "title": "AdaPonderLM: Gated Pondering Language Models with Token-Wise Adaptive Depth",
-        "url": "https://arxiv.org/abs/2603.01914v1"
+        "title": "Beyond Task Completion: Revealing Corrupt Success in LLM Agents through Procedure-Aware Evaluation",
+        "url": "https://arxiv.org/abs/2603.03116v1"
       },
       {
-        "title": "Diagnosing Generalization Failures from Representational Geometry Markers",
-        "url": "https://arxiv.org/abs/2603.01879v1"
+        "title": "Why Does RLAIF Work At All?",
+        "url": "https://arxiv.org/abs/2603.03000v1"
       },
       {
-        "title": "CyclicJudge: Mitigating Judge Bias Efficiently in LLM-based Evaluation",
-        "url": "https://arxiv.org/abs/2603.01865v1"
+        "title": "TagaVLM: Topology-Aware Global Action Reasoning for Vision-Language Navigation",
+        "url": "https://arxiv.org/abs/2603.02972v1"
       },
       {
-        "title": "Zero- and Few-Shot Named-Entity Recognition: Case Study and Dataset in the Crime Domain (CrimeNER)",
-        "url": "https://arxiv.org/abs/2603.02150v1"
+        "title": "Interpretable Motion-Attentive Maps: Spatio-Temporally Localizing Concepts in Video Diffusion Transformers",
+        "url": "https://arxiv.org/abs/2603.02919v1"
       },
       {
-        "title": "NICO-RAG: Multimodal Hypergraph Retrieval-Augmented Generation for Understanding the Nicotine Public Health Crisis",
-        "url": "https://arxiv.org/abs/2603.02047v1"
+        "title": "Structure-Aware Text Recognition for Ancient Greek Critical Editions",
+        "url": "https://arxiv.org/abs/2603.02803v1"
       },
       {
-        "title": "MMR-Life: Piecing Together Real-life Scenes for Multimodal Multi-image Reasoning",
-        "url": "https://arxiv.org/abs/2603.02024v1"
+        "title": "Understanding and Mitigating Dataset Corruption in LLM Steering",
+        "url": "https://arxiv.org/abs/2603.03206v1"
       },
       {
-        "title": "Real Money, Fake Models: Deceptive Model Claims in Shadow APIs",
-        "url": "https://arxiv.org/abs/2603.01919v1"
+        "title": "Agentic AI-based Coverage Closure for Formal Verification",
+        "url": "https://arxiv.org/abs/2603.03147v1"
       },
       {
-        "title": "How Small Can 6G Reason? Scaling Tiny Language Models for AI-Native Networks",
-        "url": "https://arxiv.org/abs/2603.02156v1"
+        "title": "UniSkill: A Dataset for Matching University Curricula to Professional Competencies",
+        "url": "https://arxiv.org/abs/2603.03134v1"
       },
       {
-        "title": "What Exactly do Children Receive in Language Acquisition? A Case Study on CHILDES with Automated Detection of Filler-Gap Dependencies",
-        "url": "https://arxiv.org/abs/2603.02082v1"
+        "title": "Multi-Scale Adaptive Neighborhood Awareness Transformer For Graph Fraud Detection",
+        "url": "https://arxiv.org/abs/2603.03106v1"
       },
       {
-        "title": "Demonstrating ViviDoc: Generating Interactive Documents through Human-Agent Collaboration",
-        "url": "https://arxiv.org/abs/2603.01912v1"
+        "title": "Density-Guided Response Optimization: Community-Grounded Alignment via Implicit Acceptance Signals",
+        "url": "https://arxiv.org/abs/2603.03242v1"
       },
       {
-        "title": "FLANS at SemEval-2026 Task 7: RAG with Open-Sourced Smaller LLMs for Everyday Knowledge Across Diverse Languages and Cultures",
-        "url": "https://arxiv.org/abs/2603.01910v1"
+        "title": "Saarthi for AGI: Towards Domain-Specific General Intelligence for Formal Verification",
+        "url": "https://arxiv.org/abs/2603.03175v1"
       },
       {
-        "title": "OpenAutoNLU: Open Source AutoML Library for NLU",
-        "url": "https://arxiv.org/abs/2603.01824v1"
+        "title": "LLandMark: A Multi-Agent Framework for Landmark-Aware Multimodal Interactive Video Retrieval",
+        "url": "https://arxiv.org/abs/2603.02888v1"
       },
       {
-        "title": "An Analysis of Multi-Task Architectures for the Hierarchic Multi-Label Problem of Vehicle Model and Make Classification",
-        "url": "https://arxiv.org/abs/2603.01746v1"
+        "title": "Eval4Sim: An Evaluation Framework for Persona Simulation",
+        "url": "https://arxiv.org/abs/2603.02876v1"
       },
       {
-        "title": "EstLLM: Enhancing Estonian Capabilities in Multilingual LLMs via Continued Pretraining and Post-Training",
-        "url": "https://arxiv.org/abs/2603.02041v1"
+        "title": "OCR or Not? Rethinking Document Information Extraction in the MLLMs Era with Real-World Large-Scale Datasets",
+        "url": "https://arxiv.org/abs/2603.02789v1"
       },
       {
-        "title": "GroupEnsemble: Efficient Uncertainty Estimation for DETR-based Object Detection",
-        "url": "https://arxiv.org/abs/2603.01847v1"
+        "title": "AI-for-Science Low-code Platform with Bayesian Adversarial Multi-Agent Framework",
+        "url": "https://arxiv.org/abs/2603.03233v1"
       },
       {
-        "title": "Beyond the Resum\u00e9: A Rubric-Aware Automatic Interview System for Information Elicitation",
-        "url": "https://arxiv.org/abs/2603.01775v1"
+        "title": "OrchMAS: Orchestrated Reasoning with Multi Collaborative Heterogeneous Scientific Expert Structured Agents",
+        "url": "https://arxiv.org/abs/2603.03005v1"
       },
       {
-        "title": "Causal Circuit Tracing Reveals Distinct Computational Architectures in Single-Cell Foundation Models: Inhibitory Dominance, Biological Coherence, and Cross-Model Convergence",
-        "url": "https://arxiv.org/abs/2603.01752v1"
+        "title": "Semi-Supervised Few-Shot Adaptation of Vision-Language Models",
+        "url": "https://arxiv.org/abs/2603.02959v1"
       },
       {
-        "title": "LiveCultureBench: a Multi-Agent, Multi-Cultural Benchmark for Large Language Models in Dynamic Social Simulations",
-        "url": "https://arxiv.org/abs/2603.01952v1"
+        "title": "Harmonic Beltrami Signature Network: a Shape Prior Module in Deep Learning Framework",
+        "url": "https://arxiv.org/abs/2603.02907v1"
       },
       {
-        "title": "Ignore All Previous Instructions: Jailbreaking as a de-escalatory peace building practise to resist LLM social media bots",
-        "url": "https://arxiv.org/abs/2603.01942v1"
+        "title": "From Heuristic Selection to Automated Algorithm Design: LLMs Benefit from Strong Priors",
+        "url": "https://arxiv.org/abs/2603.02792v1"
       },
       {
-        "title": "GMP: A Benchmark for Content Moderation under Co-occurring Violations and Dynamic Rules",
-        "url": "https://arxiv.org/abs/2603.01724v1"
+        "title": "Utonia: Toward One Encoder for All Point Clouds",
+        "url": "https://arxiv.org/abs/2603.03283v1"
       },
       {
-        "title": "BAWSeg: A UAV Multispectral Benchmark for Barley Weed Segmentation",
-        "url": "https://arxiv.org/abs/2603.01932v1"
+        "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+        "url": "https://arxiv.org/abs/2603.03276v1"
       },
       {
-        "title": "OmniLottie: Generating Vector Animations via Parameterized Lottie Tokens",
-        "url": "https://arxiv.org/abs/2603.02138v1"
+        "title": "Infinite dimensional generative sensing",
+        "url": "https://arxiv.org/abs/2603.03196v1"
       },
       {
-        "title": "Action-Guided Attention for Video Action Anticipation",
-        "url": "https://arxiv.org/abs/2603.01743v1"
+        "title": "TrustMH-Bench: A Comprehensive Benchmark for Evaluating the Trustworthiness of Large Language Models in Mental Health",
+        "url": "https://arxiv.org/abs/2603.03047v1"
+      },
+      {
+        "title": "SemanticDialect: Semantic-Aware Mixed-Format Quantization for Video Diffusion Transformers",
+        "url": "https://arxiv.org/abs/2603.02883v1"
+      },
+      {
+        "title": "Nodes Are Early, Edges Are Late: Probing Diagram Representations in Large Vision-Language Models",
+        "url": "https://arxiv.org/abs/2603.02865v1"
+      },
+      {
+        "title": "VSearcher: Long-Horizon Multimodal Search Agent via Reinforcement Learning",
+        "url": "https://arxiv.org/abs/2603.02795v1"
+      },
+      {
+        "title": "Beyond Factual Correctness: Mitigating Preference-Inconsistent Explanations in Explainable Recommendation",
+        "url": "https://arxiv.org/abs/2603.03080v1"
+      },
+      {
+        "title": "Evaluating Performance Drift from Model Switching in Multi-Turn LLM Systems",
+        "url": "https://arxiv.org/abs/2603.03111v1"
+      },
+      {
+        "title": "Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT",
+        "url": "https://arxiv.org/abs/2603.02952v1"
+      },
+      {
+        "title": "Guideline-Grounded Evidence Accumulation for High-Stakes Agent Verification",
+        "url": "https://arxiv.org/abs/2603.02798v1"
+      },
+      {
+        "title": "MIBURI: Towards Expressive Interactive Gesture Synthesis",
+        "url": "https://arxiv.org/abs/2603.03282v1"
+      },
+      {
+        "title": "HiLoRA: Hierarchical Low-Rank Adaptation for Personalized Federated Learning",
+        "url": "https://arxiv.org/abs/2603.02785v1"
+      },
+      {
+        "title": "Seeing Clearly without Training: Mitigating Hallucinations in Multimodal LLMs for Remote Sensing",
+        "url": "https://arxiv.org/abs/2603.02754v1"
+      },
+      {
+        "title": "ProGIC: Progressive and Lightweight Generative Image Compression with Residual Vector Quantization",
+        "url": "https://arxiv.org/abs/2603.02897v1"
+      },
+      {
+        "title": "COP-GEN: Latent Diffusion Transformer for Copernicus Earth Observation Data -- Generation Stochastic by Design",
+        "url": "https://arxiv.org/abs/2603.03239v1"
       },
       {
         "title": "sds-dubois/nanorl-tictactoe-rl-smollm3b",
         "url": "https://huggingface.co/sds-dubois/nanorl-tictactoe-rl-smollm3b"
-      },
-      {
-        "title": "eekay/gpt-eval-aware",
-        "url": "https://huggingface.co/eekay/gpt-eval-aware"
       }
     ],
     "vision_systems": [
       {
-        "title": "Semantic Similarity is a Spurious Measure of Comic Understanding: Lessons Learned from Hallucinations in a Benchmarking Experiment",
-        "url": "https://arxiv.org/abs/2603.01950v1"
+        "title": "ACE-Merging: Data-Free Model Merging with Adaptive Covariance Estimation",
+        "url": "https://arxiv.org/abs/2603.02945v1"
       },
       {
-        "title": "Kiwi-Edit: Versatile Video Editing via Instruction and Reference Guidance",
-        "url": "https://arxiv.org/abs/2603.02175v1"
+        "title": "Designing UNICORN: a Unified Benchmark for Imaging in Computational Pathology, Radiology, and Natural Language",
+        "url": "https://arxiv.org/abs/2603.02790v1"
       },
       {
-        "title": "OmniRet: Efficient and High-Fidelity Omni Modality Retrieval",
-        "url": "https://arxiv.org/abs/2603.02098v1"
+        "title": "Tether: Autonomous Functional Play with Correspondence-Driven Trajectory Warping",
+        "url": "https://arxiv.org/abs/2603.03278v1"
       },
       {
-        "title": "Event-Only Drone Trajectory Forecasting with RPM-Modulated Kalman Filtering",
-        "url": "https://arxiv.org/abs/2603.01997v1"
+        "title": "Chain of World: World Model Thinking in Latent Motion",
+        "url": "https://arxiv.org/abs/2603.03195v1"
       },
       {
-        "title": "Leveraging Model Soups to Classify Intangible Cultural Heritage Images from the Mekong Delta",
-        "url": "https://arxiv.org/abs/2603.02181v1"
+        "title": "Geometry-Guided Reinforcement Learning for Multi-view Consistent 3D Scene Editing",
+        "url": "https://arxiv.org/abs/2603.03143v1"
       },
       {
-        "title": "FluxMem: Adaptive Hierarchical Memory for Streaming Video Understanding",
-        "url": "https://arxiv.org/abs/2603.02096v1"
+        "title": "MoECLIP: Patch-Specialized Experts for Zero-shot Anomaly Detection",
+        "url": "https://arxiv.org/abs/2603.03101v1"
       },
       {
-        "title": "MAC: A Conversion Rate Prediction Benchmark Featuring Labels Under Multiple Attribution Mechanisms",
-        "url": "https://arxiv.org/abs/2603.02184v1"
+        "title": "MA-CoNav: A Master-Slave Multi-Agent Framework with Hierarchical Collaboration and Dual-Level Reflection for Long-Horizon Embodied VLN",
+        "url": "https://arxiv.org/abs/2603.03024v1"
       },
       {
-        "title": "StepVAR: Structure-Texture Guided Pruning for Visual Autoregressive Models",
-        "url": "https://arxiv.org/abs/2603.01757v1"
+        "title": "IoUCert: Robustness Verification for Anchor-based Object Detectors",
+        "url": "https://arxiv.org/abs/2603.03043v1"
       },
       {
-        "title": "LiftAvatar: Kinematic-Space Completion for Expression-Controlled 3D Gaussian Avatar Animation",
-        "url": "https://arxiv.org/abs/2603.02129v1"
+        "title": "UniG2U-Bench: Do Unified Models Advance Multimodal Understanding?",
+        "url": "https://arxiv.org/abs/2603.03241v1"
       },
       {
-        "title": "According to Me: Long-Term Personalized Referential Memory QA",
-        "url": "https://arxiv.org/abs/2603.01990v1"
+        "title": "Conditioned Activation Transport for T2I Safety Steering",
+        "url": "https://arxiv.org/abs/2603.03163v1"
       },
       {
-        "title": "Dream2Learn: Structured Generative Dreaming for Continual Learning",
-        "url": "https://arxiv.org/abs/2603.01935v1"
+        "title": "CFG-Ctrl: Control-Based Classifier-Free Diffusion Guidance",
+        "url": "https://arxiv.org/abs/2603.03281v1"
       },
       {
-        "title": "FreeAct: Freeing Activations for LLM Quantization",
-        "url": "https://arxiv.org/abs/2603.01776v1"
+        "title": "PrivMedChat: End-to-End Differentially Private RLHF for Medical Dialogue Systems",
+        "url": "https://arxiv.org/abs/2603.03054v1"
       },
       {
-        "title": "Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning",
-        "url": "https://arxiv.org/abs/2603.01759v1"
+        "title": "Inverse Reconstruction of Shock Time Series from Shock Response Spectrum Curves using Machine Learning",
+        "url": "https://arxiv.org/abs/2603.03229v1"
       },
       {
-        "title": "Organizing, Orchestrating, and Benchmarking Agent Skills at Ecosystem Scale",
-        "url": "https://arxiv.org/abs/2603.02176v1"
+        "title": "MoD-DPO: Towards Mitigating Cross-modal Hallucinations in Omni LLMs using Modality Decoupled Preference Optimization",
+        "url": "https://arxiv.org/abs/2603.03192v1"
       },
       {
-        "title": "A Resource-Rational Principle for Modeling Visual Attention Control",
-        "url": "https://arxiv.org/abs/2603.02056v1"
+        "title": "Neuro-Symbolic Artificial Intelligence: A Task-Directed Survey in the Black-Box Models Era",
+        "url": "https://arxiv.org/abs/2603.03177v1"
       },
       {
-        "title": "Explanation-Guided Adversarial Training for Robust and Interpretable Models",
-        "url": "https://arxiv.org/abs/2603.01938v1"
+        "title": "BRIGHT: A Collaborative Generalist-Specialist Foundation Model for Breast Pathology",
+        "url": "https://arxiv.org/abs/2603.03030v1"
       },
       {
-        "title": "Detection-Gated Glottal Segmentation with Zero-Shot Cross-Dataset Transfer and Clinical Feature Extraction",
-        "url": "https://arxiv.org/abs/2603.02087v1"
+        "title": "Next Embedding Prediction Makes World Models Stronger",
+        "url": "https://arxiv.org/abs/2603.02765v1"
       },
       {
-        "title": "Learning Vision-Based Omnidirectional Navigation: A Teacher-Student Approach Using Monocular Depth Estimation",
-        "url": "https://arxiv.org/abs/2603.01999v1"
+        "title": "APRES: An Agentic Paper Revision and Evaluation System",
+        "url": "https://arxiv.org/abs/2603.03142v1"
       },
       {
-        "title": "Generative Visual Chain-of-Thought for Image Editing",
-        "url": "https://arxiv.org/abs/2603.01893v1"
+        "title": "TikZilla: Scaling Text-to-TikZ with High-Quality Data and Reinforcement Learning",
+        "url": "https://arxiv.org/abs/2603.03072v1"
       },
       {
-        "title": "Robometer: Scaling General-Purpose Robotic Reward Models via Trajectory Comparisons",
-        "url": "https://arxiv.org/abs/2603.02115v1"
+        "title": "SpatialText: A Pure-Text Cognitive Benchmark for Spatial Understanding in Large Language Models",
+        "url": "https://arxiv.org/abs/2603.03002v1"
       },
       {
-        "title": "Constrained Particle Seeking: Solving Diffusion Inverse Problems with Just Forward Passes",
-        "url": "https://arxiv.org/abs/2603.01837v1"
+        "title": "HDINO: A Concise and Efficient Open-Vocabulary Detector",
+        "url": "https://arxiv.org/abs/2603.02924v1"
       },
       {
-        "title": "Learning to Read Where to Look: Disease-Aware Vision-Language Pretraining for 3D CT",
-        "url": "https://arxiv.org/abs/2603.02026v1"
+        "title": "ITO: Images and Texts as One via Synergizing Multiple Alignment and Training-Time Fusion",
+        "url": "https://arxiv.org/abs/2603.02767v1"
       },
       {
-        "title": "Efficient Test-Time Optimization for Depth Completion via Low-Rank Decoder Adaptation",
-        "url": "https://arxiv.org/abs/2603.01765v1"
+        "title": "TC-Pad\u00e9: Trajectory-Consistent Pad\u00e9 Approximation for Diffusion Acceleration",
+        "url": "https://arxiv.org/abs/2603.02943v1"
       },
       {
-        "title": "HiFi-Inpaint: Towards High-Fidelity Reference-Based Inpainting for Generating Detail-Preserving Human-Product Images",
-        "url": "https://arxiv.org/abs/2603.02210v1"
+        "title": "Any Resolution Any Geometry: From Multi-View To Multi-Patch",
+        "url": "https://arxiv.org/abs/2603.03026v1"
       },
       {
-        "title": "Recursive Think-Answer Process for LLMs and VLMs",
-        "url": "https://arxiv.org/abs/2603.02099v1"
+        "title": "StegaFFD: Privacy-Preserving Face Forgery Detection via Fine-Grained Steganographic Domain Lifting",
+        "url": "https://arxiv.org/abs/2603.02886v1"
       },
       {
-        "title": "Latent attention on masked patches for flow reconstruction",
-        "url": "https://arxiv.org/abs/2603.02028v1"
+        "title": "Think-as-You-See: Streaming Chain-of-Thought Reasoning for Large Vision-Language Models",
+        "url": "https://arxiv.org/abs/2603.02872v1"
       },
       {
-        "title": "Process Over Outcome: Cultivating Forensic Reasoning for Generalizable Multimodal Manipulation Detection",
-        "url": "https://arxiv.org/abs/2603.01993v1"
+        "title": "Adapting Time Series Foundation Models through Data Mixtures",
+        "url": "https://arxiv.org/abs/2603.02840v1"
       },
       {
-        "title": "FireRed-OCR Technical Report",
-        "url": "https://arxiv.org/abs/2603.01840v1"
+        "title": "Learning Demographic-Conditioned Mobility Trajectories with Aggregate Supervision",
+        "url": "https://arxiv.org/abs/2603.03275v1"
       },
       {
-        "title": "Uncertainty Quantification of Click and Conversion Estimates for the Autobidding",
-        "url": "https://arxiv.org/abs/2603.01825v1"
+        "title": "Guiding Sparse Neural Networks with Neurobiological Principles to Elicit Biologically Plausible Representations",
+        "url": "https://arxiv.org/abs/2603.03234v1"
       },
       {
-        "title": "Co-Evolutionary Multi-Modal Alignment via Structured Adversarial Evolution",
-        "url": "https://arxiv.org/abs/2603.01784v1"
+        "title": "CoFL: Continuous Flow Fields for Language-Conditioned Navigation",
+        "url": "https://arxiv.org/abs/2603.02854v1"
       },
       {
-        "title": "GeoDiT: Point-Conditioned Diffusion Transformer for Satellite Image Synthesis",
-        "url": "https://arxiv.org/abs/2603.02172v1"
+        "title": "Toward Early Quality Assessment of Text-to-Image Diffusion Models",
+        "url": "https://arxiv.org/abs/2603.02829v1"
       },
       {
-        "title": "Pencil Puzzle Bench: A Benchmark for Multi-Step Verifiable Reasoning",
-        "url": "https://arxiv.org/abs/2603.02119v1"
+        "title": "iGVLM: Dynamic Instruction-Guided Vision Encoding for Question-Aware Multimodal Understanding",
+        "url": "https://arxiv.org/abs/2603.02748v1"
       },
       {
-        "title": "Stochastic Multi-Armed Bandits with Limited Control Variates",
-        "url": "https://arxiv.org/abs/2603.02100v1"
+        "title": "TagaVLM: Topology-Aware Global Action Reasoning for Vision-Language Navigation",
+        "url": "https://arxiv.org/abs/2603.02972v1"
       },
       {
-        "title": "MAP-Diff: Multi-Anchor Guided Diffusion for Progressive 3D Whole-Body Low-Dose PET Denoising",
-        "url": "https://arxiv.org/abs/2603.02012v1"
+        "title": "Layer-wise QUBO-Based Training of CNN Classifiers for Quantum Annealing",
+        "url": "https://arxiv.org/abs/2603.02958v1"
       },
       {
-        "title": "physfusion: A Transformer-based Dual-Stream Radar and Vision Fusion Framework for Open Water Surface Object Detection",
-        "url": "https://arxiv.org/abs/2603.01947v1"
+        "title": "Contextual Latent World Models for Offline Meta Reinforcement Learning",
+        "url": "https://arxiv.org/abs/2603.02935v1"
       },
       {
-        "title": "Non-verbal Real-time Human-AI Interaction in Constrained Robotic Environments",
-        "url": "https://arxiv.org/abs/2603.01804v1"
+        "title": "Structure-Aware Text Recognition for Ancient Greek Critical Editions",
+        "url": "https://arxiv.org/abs/2603.02803v1"
       },
       {
-        "title": "Modeling Grammatical Hypothesis Testing in Young Learners: A Sequence-Based Learning Analytics Study of Morphosyntactic Reasoning in an Interactive Game",
-        "url": "https://arxiv.org/abs/2603.02084v1"
+        "title": "TinyIceNet: Low-Power SAR Sea Ice Segmentation for On-Board FPGA Inference",
+        "url": "https://arxiv.org/abs/2603.03075v1"
       },
       {
-        "title": "Zero-shot Low-Field MRI Enhancement via Diffusion-Based Adaptive Contrast Transport",
-        "url": "https://arxiv.org/abs/2603.01913v1"
+        "title": "EduVQA: Benchmarking AI-Generated Video Quality Assessment for Education",
+        "url": "https://arxiv.org/abs/2603.03066v1"
       },
       {
-        "title": "Is Bigger Always Better? Efficiency Analysis in Resource-Constrained Small Object Detection",
-        "url": "https://arxiv.org/abs/2603.02142v1"
+        "title": "Density-Guided Response Optimization: Community-Grounded Alignment via Implicit Acceptance Signals",
+        "url": "https://arxiv.org/abs/2603.03242v1"
       },
       {
-        "title": "Diagnosing Generalization Failures from Representational Geometry Markers",
-        "url": "https://arxiv.org/abs/2603.01879v1"
+        "title": "Saarthi for AGI: Towards Domain-Specific General Intelligence for Formal Verification",
+        "url": "https://arxiv.org/abs/2603.03175v1"
       },
       {
-        "title": "PleaSQLarify: Visual Pragmatic Repair for Natural Language Database Querying",
-        "url": "https://arxiv.org/abs/2603.01795v1"
+        "title": "VIRGi: View-dependent Instant Recoloring of 3D Gaussians Splats",
+        "url": "https://arxiv.org/abs/2603.02986v1"
       },
       {
-        "title": "From Leaderboard to Deployment: Code Quality Challenges in AV Perception Repositories",
-        "url": "https://arxiv.org/abs/2603.02194v1"
+        "title": "Spatial Autoregressive Modeling of DINOv3 Embeddings for Unsupervised Anomaly Detection",
+        "url": "https://arxiv.org/abs/2603.02974v1"
       },
       {
-        "title": "Stereo-Inertial Poser: Towards Metric-Accurate Shape-Aware Motion Capture Using Sparse IMUs and a Single Stereo Camera",
-        "url": "https://arxiv.org/abs/2603.02130v1"
+        "title": "3D-DRES: Detailed 3D Referring Expression Segmentation",
+        "url": "https://arxiv.org/abs/2603.02896v1"
       },
       {
-        "title": "NICO-RAG: Multimodal Hypergraph Retrieval-Augmented Generation for Understanding the Nicotine Public Health Crisis",
-        "url": "https://arxiv.org/abs/2603.02047v1"
+        "title": "Intrinsic Geometry-Appearance Consistency Optimization for Sparse-View Gaussian Splatting",
+        "url": "https://arxiv.org/abs/2603.02893v1"
       },
       {
-        "title": "MMR-Life: Piecing Together Real-life Scenes for Multimodal Multi-image Reasoning",
-        "url": "https://arxiv.org/abs/2603.02024v1"
+        "title": "LLandMark: A Multi-Agent Framework for Landmark-Aware Multimodal Interactive Video Retrieval",
+        "url": "https://arxiv.org/abs/2603.02888v1"
       },
       {
-        "title": "CTForensics: A Comprehensive Dataset and Method for AI-Generated CT Image Detection",
-        "url": "https://arxiv.org/abs/2603.01878v1"
+        "title": "Scale-invariant Gaussian derivative residual networks",
+        "url": "https://arxiv.org/abs/2603.02843v1"
       },
       {
-        "title": "Downstream Task Inspired Underwater Image Enhancement: A Perception-Aware Study from Dataset Construction to Network Design",
-        "url": "https://arxiv.org/abs/2603.01767v1"
+        "title": "OCR or Not? Rethinking Document Information Extraction in the MLLMs Era with Real-World Large-Scale Datasets",
+        "url": "https://arxiv.org/abs/2603.02789v1"
       },
       {
-        "title": "How Small Can 6G Reason? Scaling Tiny Language Models for AI-Native Networks",
-        "url": "https://arxiv.org/abs/2603.02156v1"
+        "title": "Semi-Supervised Few-Shot Adaptation of Vision-Language Models",
+        "url": "https://arxiv.org/abs/2603.02959v1"
       },
       {
-        "title": "LaST-VLA: Thinking in Latent Spatio-Temporal Space for Vision-Language-Action in Autonomous Driving",
-        "url": "https://arxiv.org/abs/2603.01928v1"
+        "title": "Harmonic Beltrami Signature Network: a Shape Prior Module in Deep Learning Framework",
+        "url": "https://arxiv.org/abs/2603.02907v1"
       },
       {
-        "title": "OnlineX: Unified Online 3D Reconstruction and Understanding with Active-to-Stable State Evolution",
-        "url": "https://arxiv.org/abs/2603.02134v1"
+        "title": "NOVA: Sparse Control, Dense Synthesis for Pair-Free Video Editing",
+        "url": "https://arxiv.org/abs/2603.02802v1"
       },
       {
-        "title": "$\u03c0$-StepNFT: Wider Space Needs Finer Steps in Online RL for Flow-based VLAs",
-        "url": "https://arxiv.org/abs/2603.02083v1"
+        "title": "CoShadow: Multi-Object Shadow Generation for Image Compositing via Diffusion Model",
+        "url": "https://arxiv.org/abs/2603.02743v1"
       },
       {
-        "title": "Demonstrating ViviDoc: Generating Interactive Documents through Human-Agent Collaboration",
-        "url": "https://arxiv.org/abs/2603.01912v1"
+        "title": "Utonia: Toward One Encoder for All Point Clouds",
+        "url": "https://arxiv.org/abs/2603.03283v1"
       },
       {
-        "title": "Unifying Heterogeneous Multi-Modal Remote Sensing Detection Via Language-Pivoted Pretraining",
-        "url": "https://arxiv.org/abs/2603.01758v1"
+        "title": "Beyond Language Modeling: An Exploration of Multimodal Pretraining",
+        "url": "https://arxiv.org/abs/2603.03276v1"
       },
       {
-        "title": "Shape-Interpretable Visual Self-Modeling Enables Geometry-Aware Continuum Robot Control",
-        "url": "https://arxiv.org/abs/2603.01751v1"
+        "title": "Embedding interpretable $\\ell_1$-regression into neural networks for uncovering temporal structure in cell imaging",
+        "url": "https://arxiv.org/abs/2603.02899v1"
       },
       {
-        "title": "SimRecon: SimReady Compositional Scene Reconstruction from Real Videos",
-        "url": "https://arxiv.org/abs/2603.02133v1"
+        "title": "Nodes Are Early, Edges Are Late: Probing Diagram Representations in Large Vision-Language Models",
+        "url": "https://arxiv.org/abs/2603.02865v1"
       },
       {
-        "title": "GroupEnsemble: Efficient Uncertainty Estimation for DETR-based Object Detection",
-        "url": "https://arxiv.org/abs/2603.01847v1"
+        "title": "VSearcher: Long-Horizon Multimodal Search Agent via Reinforcement Learning",
+        "url": "https://arxiv.org/abs/2603.02795v1"
       },
       {
-        "title": "Bridging the gap between Performance and Interpretability: An Explainable Disentangled Multimodal Framework for Cancer Survival Prediction",
-        "url": "https://arxiv.org/abs/2603.02162v1"
+        "title": "Specificity-aware reinforcement learning for fine-grained open-world classification",
+        "url": "https://arxiv.org/abs/2603.03197v1"
       },
       {
-        "title": "ORGAN: Object-Centric Representation Learning using Cycle Consistent Generative Adversarial Networks",
-        "url": "https://arxiv.org/abs/2603.02063v1"
+        "title": "Design Generative AI for Practitioners: Exploring Interaction Approaches Aligned with Creative Practice",
+        "url": "https://arxiv.org/abs/2603.03074v1"
       },
       {
-        "title": "LEAR: Learning Edge-Aware Representations for Event-to-LiDAR Localization",
-        "url": "https://arxiv.org/abs/2603.01839v1"
+        "title": "Generative adversarial imitation learning for robot swarms: Learning from human demonstrations and trained policies",
+        "url": "https://arxiv.org/abs/2603.02783v1"
       },
       {
-        "title": "3D Field of Junctions: A Noise-Robust, Training-Free Structural Prior for Volumetric Inverse Problems",
-        "url": "https://arxiv.org/abs/2603.02149v1"
+        "title": "ULTRA: Unified Multimodal Control for Autonomous Humanoid Whole-Body Loco-Manipulation",
+        "url": "https://arxiv.org/abs/2603.03279v1"
       },
       {
-        "title": "BAWSeg: A UAV Multispectral Benchmark for Barley Weed Segmentation",
-        "url": "https://arxiv.org/abs/2603.01932v1"
+        "title": "HiLoRA: Hierarchical Low-Rank Adaptation for Personalized Federated Learning",
+        "url": "https://arxiv.org/abs/2603.02785v1"
       },
       {
-        "title": "Affine Correspondences in Stereo Vision: Theory, Practice, and Limitations",
-        "url": "https://arxiv.org/abs/2603.01836v1"
+        "title": "Seeing Clearly without Training: Mitigating Hallucinations in Multimodal LLMs for Remote Sensing",
+        "url": "https://arxiv.org/abs/2603.02754v1"
       },
       {
-        "title": "WorldStereo: Bridging Camera-Guided Video Generation and Scene Reconstruction via 3D Geometric Memories",
-        "url": "https://arxiv.org/abs/2603.02049v1"
+        "title": "Kling-MotionControl Technical Report",
+        "url": "https://arxiv.org/abs/2603.03160v1"
       },
       {
-        "title": "Tiny-DroNeRF: Tiny Neural Radiance Fields aboard Federated Learning-enabled Nano-drones",
-        "url": "https://arxiv.org/abs/2603.01850v1"
+        "title": "ProGIC: Progressive and Lightweight Generative Image Compression with Residual Vector Quantization",
+        "url": "https://arxiv.org/abs/2603.02897v1"
       },
       {
-        "title": "Rethinking Camera Choice: An Empirical Study on Fisheye Camera Properties in Robotic Manipulation",
-        "url": "https://arxiv.org/abs/2603.02139v1"
+        "title": "ProSMA-UNet: Decoder Conditioning for Proximal-Sparse Skip Feature Selection",
+        "url": "https://arxiv.org/abs/2603.03187v1"
       },
       {
-        "title": "MMNavAgent: Multi-Magnification WSI Navigation Agent for Clinically Consistent Whole-Slide Analysis",
-        "url": "https://arxiv.org/abs/2603.02079v1"
+        "title": "AWDiff: An a trous wavelet diffusion model for lung ultrasound image synthesis",
+        "url": "https://arxiv.org/abs/2603.03125v1"
       },
       {
-        "title": "NeuroSymb-MRG: Differentiable Abductive Reasoning with Active Uncertainty Minimization for Radiology Report Generation",
-        "url": "https://arxiv.org/abs/2603.01756v1"
+        "title": "Generalized non-exponential Gaussian splatting",
+        "url": "https://arxiv.org/abs/2603.02887v1"
       },
       {
-        "title": "OmniLottie: Generating Vector Animations via Parameterized Lottie Tokens",
-        "url": "https://arxiv.org/abs/2603.02138v1"
-      },
-      {
-        "title": "Action-Guided Attention for Video Action Anticipation",
-        "url": "https://arxiv.org/abs/2603.01743v1"
-      },
-      {
-        "title": "MobileMold: A Smartphone-Based Microscopy Dataset for Food Mold Detection",
-        "url": "https://arxiv.org/abs/2603.01944v1"
-      },
-      {
-        "title": "Neural Operator-Grounded Continuous Tensor Function Representation and Its Applications",
-        "url": "https://arxiv.org/abs/2603.01812v1"
-      },
-      {
-        "title": "toolevalxm/MedVision-DiagnosisAI-Release",
-        "url": "https://huggingface.co/toolevalxm/MedVision-DiagnosisAI-Release"
-      },
-      {
-        "title": "ihanif/exp_008b_base_cv24_vanilla_no_aug",
-        "url": "https://huggingface.co/ihanif/exp_008b_base_cv24_vanilla_no_aug"
+        "title": "The Dresden Dataset for 4D Reconstruction of Non-Rigid Abdominal Surgical Scenes",
+        "url": "https://arxiv.org/abs/2603.02985v1"
       }
     ],
     "reasoning": [
       {
-        "title": "Probing Materials Knowledge in LLMs: From Latent Embeddings to Reliable Predictions",
-        "url": "https://arxiv.org/abs/2603.01834v1"
+        "title": "Odin: Multi-Signal Graph Intelligence for Autonomous Discovery in Knowledge Graphs",
+        "url": "https://arxiv.org/abs/2603.03097v1"
       },
       {
-        "title": "BAED: a New Paradigm for Few-shot Graph Learning with Explanation in the Loop",
-        "url": "https://arxiv.org/abs/2603.01941v1"
+        "title": "Faster, Cheaper, More Accurate: Specialised Knowledge Tracing Models Outperform LLMs",
+        "url": "https://arxiv.org/abs/2603.02830v1"
       },
       {
-        "title": "Efficient RLVR Training via Weighted Mutual Information Data Selection",
-        "url": "https://arxiv.org/abs/2603.01907v1"
+        "title": "LoGeR: Long-Context Geometric Reconstruction with Hybrid Memory",
+        "url": "https://arxiv.org/abs/2603.03269v1"
       },
       {
-        "title": "Phishing the Phishers with SpecularNet: Hierarchical Graph Autoencoding for Reference-Free Web Phishing Detection",
-        "url": "https://arxiv.org/abs/2603.01874v1"
+        "title": "Designing UNICORN: a Unified Benchmark for Imaging in Computational Pathology, Radiology, and Natural Language",
+        "url": "https://arxiv.org/abs/2603.02790v1"
       },
       {
-        "title": "Leveraging Model Soups to Classify Intangible Cultural Heritage Images from the Mekong Delta",
-        "url": "https://arxiv.org/abs/2603.02181v1"
+        "title": "Chain of World: World Model Thinking in Latent Motion",
+        "url": "https://arxiv.org/abs/2603.03195v1"
       },
       {
-        "title": "KDFlow: A User-Friendly and Efficient Knowledge Distillation Framework for Large Language Models",
-        "url": "https://arxiv.org/abs/2603.01875v1"
+        "title": "RAPO: Expanding Exploration for LLM Agents via Retrieval-Augmented Policy Optimization",
+        "url": "https://arxiv.org/abs/2603.03078v1"
       },
       {
-        "title": "Orchestrating Multimodal DNN Workloads in Wireless Neural Processing",
-        "url": "https://arxiv.org/abs/2603.02109v1"
+        "title": "QFlowNet: Fast, Diverse, and Efficient Unitary Synthesis with Generative Flow Networks",
+        "url": "https://arxiv.org/abs/2603.03045v1"
       },
       {
-        "title": "StepVAR: Structure-Texture Guided Pruning for Visual Autoregressive Models",
-        "url": "https://arxiv.org/abs/2603.01757v1"
+        "title": "ShipTraj-R1: Reinforcing Ship Trajectory Prediction in Large Language Models via Group Relative Policy Optimization",
+        "url": "https://arxiv.org/abs/2603.02939v1"
       },
       {
-        "title": "Reasoning Core: A Scalable Procedural Data Generation Suite for Symbolic Pre-training and Post-Training",
-        "url": "https://arxiv.org/abs/2603.02208v1"
+        "title": "Channel-Adaptive Edge AI: Maximizing Inference Throughput by Adapting Computational Complexity to Channel States",
+        "url": "https://arxiv.org/abs/2603.03146v1"
       },
       {
-        "title": "Sketch2Colab: Sketch-Conditioned Multi-Human Animation via Controllable Flow Distillation",
-        "url": "https://arxiv.org/abs/2603.02190v1"
+        "title": "ACE-Brain-0: Spatial Intelligence as a Shared Scaffold for Universal Embodiments",
+        "url": "https://arxiv.org/abs/2603.03198v1"
       },
       {
-        "title": "According to Me: Long-Term Personalized Referential Memory QA",
-        "url": "https://arxiv.org/abs/2603.01990v1"
+        "title": "UniG2U-Bench: Do Unified Models Advance Multimodal Understanding?",
+        "url": "https://arxiv.org/abs/2603.03241v1"
       },
       {
-        "title": "FreeAct: Freeing Activations for LLM Quantization",
-        "url": "https://arxiv.org/abs/2603.01776v1"
+        "title": "Conditioned Activation Transport for T2I Safety Steering",
+        "url": "https://arxiv.org/abs/2603.03163v1"
       },
       {
-        "title": "Multi-Head Low-Rank Attention",
-        "url": "https://arxiv.org/abs/2603.02188v1"
+        "title": "Learning When to Act or Refuse: Guarding Agentic Reasoning Models for Safe Multi-Step Tool Use",
+        "url": "https://arxiv.org/abs/2603.03205v1"
       },
       {
-        "title": "De-paradox Tree: Breaking Down Simpson's Paradox via A Kernel-Based Partition Algorithm",
-        "url": "https://arxiv.org/abs/2603.02174v1"
+        "title": "PrivMedChat: End-to-End Differentially Private RLHF for Medical Dialogue Systems",
+        "url": "https://arxiv.org/abs/2603.03054v1"
       },
       {
-        "title": "Detection-Gated Glottal Segmentation with Zero-Shot Cross-Dataset Transfer and Clinical Feature Extraction",
-        "url": "https://arxiv.org/abs/2603.02087v1"
+        "title": "Inverse Reconstruction of Shock Time Series from Shock Response Spectrum Curves using Machine Learning",
+        "url": "https://arxiv.org/abs/2603.03229v1"
       },
       {
-        "title": "Emerging Human-like Strategies for Semantic Memory Foraging in Large Language Models",
-        "url": "https://arxiv.org/abs/2603.01822v1"
+        "title": "Code2Math: Can Your Code Agent Effectively Evolve Math Problems Through Exploration?",
+        "url": "https://arxiv.org/abs/2603.03202v1"
       },
       {
-        "title": "Recursive Models for Long-Horizon Reasoning",
-        "url": "https://arxiv.org/abs/2603.02112v1"
+        "title": "Neuro-Symbolic Artificial Intelligence: A Task-Directed Survey in the Black-Box Models Era",
+        "url": "https://arxiv.org/abs/2603.03177v1"
       },
       {
-        "title": "Learning Vision-Based Omnidirectional Navigation: A Teacher-Student Approach Using Monocular Depth Estimation",
-        "url": "https://arxiv.org/abs/2603.01999v1"
+        "title": "BRIGHT: A Collaborative Generalist-Specialist Foundation Model for Breast Pathology",
+        "url": "https://arxiv.org/abs/2603.03030v1"
       },
       {
-        "title": "Generative Visual Chain-of-Thought for Image Editing",
-        "url": "https://arxiv.org/abs/2603.01893v1"
+        "title": "TRACE: Task-Adaptive Reasoning and Representation Learning for Universal Multimodal Retrieval",
+        "url": "https://arxiv.org/abs/2603.02929v1"
       },
       {
-        "title": "GAM-RAG: Gain-Adaptive Memory for Evolving Retrieval in Retrieval-Augmented Generation",
-        "url": "https://arxiv.org/abs/2603.01783v1"
+        "title": "Next Embedding Prediction Makes World Models Stronger",
+        "url": "https://arxiv.org/abs/2603.02765v1"
       },
       {
-        "title": "Let the Agent Search: Autonomous Exploration Beats Rigid Workflows in Temporal Question Answering",
-        "url": "https://arxiv.org/abs/2603.01853v1"
+        "title": "Generalized Bayes for Causal Inference",
+        "url": "https://arxiv.org/abs/2603.03035v1"
       },
       {
-        "title": "nchellwig at SemEval-2026 Task 3: Self-Consistent Structured Generation (SCSG) for Dimensional Aspect-Based Sentiment Analysis using Large Language Models",
-        "url": "https://arxiv.org/abs/2603.01788v1"
+        "title": "CGL: Advancing Continual GUI Learning via Reinforcement Fine-Tuning",
+        "url": "https://arxiv.org/abs/2603.02951v1"
       },
       {
-        "title": "Revealing Combinatorial Reasoning of GNNs via Graph Concept Bottleneck Layer",
-        "url": "https://arxiv.org/abs/2603.02025v1"
+        "title": "SEALing the Gap: A Reference Framework for LLM Inference Carbon Estimation via Multi-Benchmark Driven Embodiment",
+        "url": "https://arxiv.org/abs/2603.02949v1"
       },
       {
-        "title": "Agentic Code Reasoning",
-        "url": "https://arxiv.org/abs/2603.01896v1"
+        "title": "Distributed Dynamic Invariant Causal Prediction in Environmental Time Series",
+        "url": "https://arxiv.org/abs/2603.02902v1"
       },
       {
-        "title": "Efficient Test-Time Optimization for Depth Completion via Low-Rank Decoder Adaptation",
-        "url": "https://arxiv.org/abs/2603.01765v1"
+        "title": "LLM-based Argument Mining meets Argumentation and Description Logics: a Unified Framework for Reasoning about Debates",
+        "url": "https://arxiv.org/abs/2603.02858v1"
       },
       {
-        "title": "Recursive Think-Answer Process for LLMs and VLMs",
-        "url": "https://arxiv.org/abs/2603.02099v1"
+        "title": "EvoSkill: Automated Skill Discovery for Multi-Agent Systems",
+        "url": "https://arxiv.org/abs/2603.02766v1"
       },
       {
-        "title": "Learning from Synthetic Data Improves Multi-hop Reasoning",
-        "url": "https://arxiv.org/abs/2603.02091v1"
+        "title": "SpatialText: A Pure-Text Cognitive Benchmark for Spatial Understanding in Large Language Models",
+        "url": "https://arxiv.org/abs/2603.03002v1"
       },
       {
-        "title": "Process Over Outcome: Cultivating Forensic Reasoning for Generalizable Multimodal Manipulation Detection",
-        "url": "https://arxiv.org/abs/2603.01993v1"
+        "title": "ITO: Images and Texts as One via Synergizing Multiple Alignment and Training-Time Fusion",
+        "url": "https://arxiv.org/abs/2603.02767v1"
       },
       {
-        "title": "FireRed-OCR Technical Report",
-        "url": "https://arxiv.org/abs/2603.01840v1"
+        "title": "Beyond One-Size-Fits-All: Adaptive Subgraph Denoising for Zero-Shot Graph Learning with Large Language Models",
+        "url": "https://arxiv.org/abs/2603.02938v1"
       },
       {
-        "title": "Co-Evolutionary Multi-Modal Alignment via Structured Adversarial Evolution",
-        "url": "https://arxiv.org/abs/2603.01784v1"
+        "title": "Agentified Assessment of Logical Reasoning Agents",
+        "url": "https://arxiv.org/abs/2603.02788v1"
       },
       {
-        "title": "LongRLVR: Long-Context Reinforcement Learning Requires Verifiable Context Rewards",
-        "url": "https://arxiv.org/abs/2603.02146v1"
+        "title": "AI Space Physics: Constitutive boundary semantics for open AI institutions",
+        "url": "https://arxiv.org/abs/2603.03119v1"
       },
       {
-        "title": "Incremental, inconsistency-resilient reasoning over Description Logic Abox streams",
-        "url": "https://arxiv.org/abs/2603.01799v1"
+        "title": "Any Resolution Any Geometry: From Multi-View To Multi-Patch",
+        "url": "https://arxiv.org/abs/2603.03026v1"
       },
       {
-        "title": "GeoDiT: Point-Conditioned Diffusion Transformer for Satellite Image Synthesis",
-        "url": "https://arxiv.org/abs/2603.02172v1"
+        "title": "MaBERT:A Padding Safe Interleaved Transformer Mamba Hybrid Encoder for Efficient Extended Context Masked Language Modeling",
+        "url": "https://arxiv.org/abs/2603.03001v1"
       },
       {
-        "title": "Pencil Puzzle Bench: A Benchmark for Multi-Step Verifiable Reasoning",
-        "url": "https://arxiv.org/abs/2603.02119v1"
+        "title": "Think-as-You-See: Streaming Chain-of-Thought Reasoning for Large Vision-Language Models",
+        "url": "https://arxiv.org/abs/2603.02872v1"
       },
       {
-        "title": "TRAKNN: Efficient Trajectory Aware Spatiotemporal kNN for Rare Meteorological Trajectory Detection",
-        "url": "https://arxiv.org/abs/2603.02059v1"
+        "title": "Rethinking Code Similarity for Automated Algorithm Design with LLMs",
+        "url": "https://arxiv.org/abs/2603.02787v1"
       },
       {
-        "title": "MAP-Diff: Multi-Anchor Guided Diffusion for Progressive 3D Whole-Body Low-Dose PET Denoising",
-        "url": "https://arxiv.org/abs/2603.02012v1"
+        "title": "Coalgebras for categorical deep learning: Representability and universal approximation",
+        "url": "https://arxiv.org/abs/2603.03227v1"
       },
       {
-        "title": "physfusion: A Transformer-based Dual-Stream Radar and Vision Fusion Framework for Open Water Surface Object Detection",
-        "url": "https://arxiv.org/abs/2603.01947v1"
+        "title": "Step-Level Sparse Autoencoder for Reasoning Process Interpretation",
+        "url": "https://arxiv.org/abs/2603.03031v1"
       },
       {
-        "title": "Discrete World Models via Regularization",
-        "url": "https://arxiv.org/abs/2603.01748v1"
+        "title": "Guiding Sparse Neural Networks with Neurobiological Principles to Elicit Biologically Plausible Representations",
+        "url": "https://arxiv.org/abs/2603.03234v1"
       },
       {
-        "title": "Symbol-Equivariant Recurrent Reasoning Models",
-        "url": "https://arxiv.org/abs/2603.02193v1"
+        "title": "Eliciting Numerical Predictive Distributions of LLMs Without Autoregression",
+        "url": "https://arxiv.org/abs/2603.02913v1"
       },
       {
-        "title": "LLMs as Strategic Actors: Behavioral Alignment, Risk Calibration, and Argumentation Framing in Geopolitical Simulations",
-        "url": "https://arxiv.org/abs/2603.02128v1"
+        "title": "iGVLM: Dynamic Instruction-Guided Vision Encoding for Question-Aware Multimodal Understanding",
+        "url": "https://arxiv.org/abs/2603.02748v1"
       },
       {
-        "title": "ClinConsensus: A Consensus-Based Benchmark for Evaluating Chinese Medical LLMs across Difficulty Levels",
-        "url": "https://arxiv.org/abs/2603.02097v1"
+        "title": "TagaVLM: Topology-Aware Global Action Reasoning for Vision-Language Navigation",
+        "url": "https://arxiv.org/abs/2603.02972v1"
       },
       {
-        "title": "Modeling Grammatical Hypothesis Testing in Young Learners: A Sequence-Based Learning Analytics Study of Morphosyntactic Reasoning in an Interactive Game",
-        "url": "https://arxiv.org/abs/2603.02084v1"
+        "title": "Understanding and Mitigating Dataset Corruption in LLM Steering",
+        "url": "https://arxiv.org/abs/2603.03206v1"
       },
       {
-        "title": "Zero-shot Low-Field MRI Enhancement via Diffusion-Based Adaptive Contrast Transport",
-        "url": "https://arxiv.org/abs/2603.01913v1"
+        "title": "TinyIceNet: Low-Power SAR Sea Ice Segmentation for On-Board FPGA Inference",
+        "url": "https://arxiv.org/abs/2603.03075v1"
       },
       {
-        "title": "Generalizing Logic-based Explanations for Machine Learning Classifiers via Optimization",
-        "url": "https://arxiv.org/abs/2603.01870v1"
+        "title": "Spatial Autoregressive Modeling of DINOv3 Embeddings for Unsupervised Anomaly Detection",
+        "url": "https://arxiv.org/abs/2603.02974v1"
       },
       {
-        "title": "Tool Verification for Test-Time Reinforcement Learning",
-        "url": "https://arxiv.org/abs/2603.02203v1"
+        "title": "3D-DRES: Detailed 3D Referring Expression Segmentation",
+        "url": "https://arxiv.org/abs/2603.02896v1"
       },
       {
-        "title": "Frontier Models Can Take Actions at Low Probabilities",
-        "url": "https://arxiv.org/abs/2603.02202v1"
+        "title": "LLandMark: A Multi-Agent Framework for Landmark-Aware Multimodal Interactive Video Retrieval",
+        "url": "https://arxiv.org/abs/2603.02888v1"
       },
       {
-        "title": "Exploring Plan Space through Conversation: An Agentic Framework for LLM-Mediated Explanations in Planning",
-        "url": "https://arxiv.org/abs/2603.02070v1"
+        "title": "Eval4Sim: An Evaluation Framework for Persona Simulation",
+        "url": "https://arxiv.org/abs/2603.02876v1"
       },
       {
-        "title": "LAD-Drive: Bridging Language and Trajectory with Action-Aware Diffusion Transformers",
-        "url": "https://arxiv.org/abs/2603.02035v1"
+        "title": "BeyondSWE: Can Current Code Agent Survive Beyond Single-Repo Bug Fixing?",
+        "url": "https://arxiv.org/abs/2603.03194v1"
       },
       {
-        "title": "CausalWrap: Model-Agnostic Causal Constraint Wrappers for Tabular Synthetic Data",
-        "url": "https://arxiv.org/abs/2603.02015v1"
+        "title": "OrchMAS: Orchestrated Reasoning with Multi Collaborative Heterogeneous Scientific Expert Structured Agents",
+        "url": "https://arxiv.org/abs/2603.03005v1"
       },
       {
-        "title": "AdaPonderLM: Gated Pondering Language Models with Token-Wise Adaptive Depth",
-        "url": "https://arxiv.org/abs/2603.01914v1"
+        "title": "Utonia: Toward One Encoder for All Point Clouds",
+        "url": "https://arxiv.org/abs/2603.03283v1"
       },
       {
-        "title": "Diagnosing Generalization Failures from Representational Geometry Markers",
-        "url": "https://arxiv.org/abs/2603.01879v1"
+        "title": "Speculative Speculative Decoding",
+        "url": "https://arxiv.org/abs/2603.03251v1"
       },
       {
-        "title": "Streaming Real-Time Trajectory Prediction Using Endpoint-Aware Modeling",
-        "url": "https://arxiv.org/abs/2603.01864v1"
+        "title": "GloPath: An Entity-Centric Foundation Model for Glomerular Lesion Assessment and Clinicopathological Insights",
+        "url": "https://arxiv.org/abs/2603.02926v1"
       },
       {
-        "title": "PleaSQLarify: Visual Pragmatic Repair for Natural Language Database Querying",
-        "url": "https://arxiv.org/abs/2603.01795v1"
+        "title": "Specificity-aware reinforcement learning for fine-grained open-world classification",
+        "url": "https://arxiv.org/abs/2603.03197v1"
       },
       {
-        "title": "MMR-Life: Piecing Together Real-life Scenes for Multimodal Multi-image Reasoning",
-        "url": "https://arxiv.org/abs/2603.02024v1"
+        "title": "Joint Training Across Multiple Activation Sparsity Regimes",
+        "url": "https://arxiv.org/abs/2603.03131v1"
       },
       {
-        "title": "PonderLM-3: Adaptive Token-Wise Pondering with Differentiable Masking",
-        "url": "https://arxiv.org/abs/2603.02023v1"
+        "title": "Beyond Factual Correctness: Mitigating Preference-Inconsistent Explanations in Explainable Recommendation",
+        "url": "https://arxiv.org/abs/2603.03080v1"
       },
       {
-        "title": "Noise-Calibrated Inference from Differentially Private Sufficient Statistics in Exponential Families",
-        "url": "https://arxiv.org/abs/2603.02010v1"
+        "title": "Design Generative AI for Practitioners: Exploring Interaction Approaches Aligned with Creative Practice",
+        "url": "https://arxiv.org/abs/2603.03074v1"
       },
       {
-        "title": "Bound Propagation meets Constraint Simplification: Improving Logic-based XAI for Neural Networks",
-        "url": "https://arxiv.org/abs/2603.01923v1"
+        "title": "On the Topology of Neural Network Superlevel Sets",
+        "url": "https://arxiv.org/abs/2603.02973v1"
       },
       {
-        "title": "Instrumental and Proximal Causal Inference with Gaussian Processes",
-        "url": "https://arxiv.org/abs/2603.02159v1"
+        "title": "Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT",
+        "url": "https://arxiv.org/abs/2603.02952v1"
       },
       {
-        "title": "How Small Can 6G Reason? Scaling Tiny Language Models for AI-Native Networks",
-        "url": "https://arxiv.org/abs/2603.02156v1"
+        "title": "Seeing Clearly without Training: Mitigating Hallucinations in Multimodal LLMs for Remote Sensing",
+        "url": "https://arxiv.org/abs/2603.02754v1"
       },
       {
-        "title": "LaST-VLA: Thinking in Latent Spatio-Temporal Space for Vision-Language-Action in Autonomous Driving",
-        "url": "https://arxiv.org/abs/2603.01928v1"
+        "title": "A Dynamical Theory of Sequential Retrieval in Input-Driven Hopfield Networks",
+        "url": "https://arxiv.org/abs/2603.03201v1"
       },
       {
-        "title": "OnlineX: Unified Online 3D Reconstruction and Understanding with Active-to-Stable State Evolution",
-        "url": "https://arxiv.org/abs/2603.02134v1"
-      },
-      {
-        "title": "Intrinsic Task Symmetry Drives Generalization in Algorithmic Tasks",
-        "url": "https://arxiv.org/abs/2603.01968v1"
-      },
-      {
-        "title": "Partial Causal Structure Learning for Valid Selective Conformal Inference under Interventions",
-        "url": "https://arxiv.org/abs/2603.02204v1"
-      },
-      {
-        "title": "EstLLM: Enhancing Estonian Capabilities in Multilingual LLMs via Continued Pretraining and Post-Training",
-        "url": "https://arxiv.org/abs/2603.02041v1"
-      },
-      {
-        "title": "GroupEnsemble: Efficient Uncertainty Estimation for DETR-based Object Detection",
-        "url": "https://arxiv.org/abs/2603.01847v1"
-      },
-      {
-        "title": "SageBwd: A Trainable Low-bit Attention",
-        "url": "https://arxiv.org/abs/2603.02170v1"
-      },
-      {
-        "title": "Bridging the gap between Performance and Interpretability: An Explainable Disentangled Multimodal Framework for Cancer Survival Prediction",
-        "url": "https://arxiv.org/abs/2603.02162v1"
-      },
-      {
-        "title": "Cognitive Prosthetic: An AI-Enabled Multimodal System for Episodic Recall in Knowledge Work",
-        "url": "https://arxiv.org/abs/2603.02072v1"
-      },
-      {
-        "title": "Hyperparameter Trajectory Inference with Conditional Lagrangian Optimal Transport",
-        "url": "https://arxiv.org/abs/2603.01771v1"
-      },
-      {
-        "title": "Causal Circuit Tracing Reveals Distinct Computational Architectures in Single-Cell Foundation Models: Inhibitory Dominance, Biological Coherence, and Cross-Model Convergence",
-        "url": "https://arxiv.org/abs/2603.01752v1"
-      },
-      {
-        "title": "\"When to Hand Off, When to Work Together\": Expanding Human-Agent Co-Creative Collaboration through Concurrent Interaction",
-        "url": "https://arxiv.org/abs/2603.02050v1"
-      },
-      {
-        "title": "Robust White Blood Cell Classification with Stain-Normalized Decoupled Learning and Ensembling",
-        "url": "https://arxiv.org/abs/2603.01976v1"
-      },
-      {
-        "title": "MMNavAgent: Multi-Magnification WSI Navigation Agent for Clinically Consistent Whole-Slide Analysis",
-        "url": "https://arxiv.org/abs/2603.02079v1"
-      },
-      {
-        "title": "NeuroSymb-MRG: Differentiable Abductive Reasoning with Active Uncertainty Minimization for Radiology Report Generation",
-        "url": "https://arxiv.org/abs/2603.01756v1"
-      },
-      {
-        "title": "Action-Guided Attention for Video Action Anticipation",
-        "url": "https://arxiv.org/abs/2603.01743v1"
+        "title": "Kling-MotionControl Technical Report",
+        "url": "https://arxiv.org/abs/2603.03160v1"
       }
     ],
     "benchmarks": [
       {
-        "title": "Semantic Similarity is a Spurious Measure of Comic Understanding: Lessons Learned from Hallucinations in a Benchmarking Experiment",
-        "url": "https://arxiv.org/abs/2603.01950v1"
+        "title": "From Complex Dynamics to DynFormer: Rethinking Transformers for PDEs",
+        "url": "https://arxiv.org/abs/2603.03112v1"
       },
       {
-        "title": "GCTAM: Global and Contextual Truncated Affinity Combined Maximization Model For Unsupervised Graph Anomaly Detection",
-        "url": "https://arxiv.org/abs/2603.01806v1"
+        "title": "TAO-Attack: Toward Advanced Optimization-Based Jailbreak Attacks for Large Language Models",
+        "url": "https://arxiv.org/abs/2603.03081v1"
       },
       {
-        "title": "CA-AFP: Cluster-Aware Adaptive Federated Pruning",
-        "url": "https://arxiv.org/abs/2603.01739v1"
+        "title": "ACE-Merging: Data-Free Model Merging with Adaptive Covariance Estimation",
+        "url": "https://arxiv.org/abs/2603.02945v1"
       },
       {
-        "title": "Kiwi-Edit: Versatile Video Editing via Instruction and Reference Guidance",
-        "url": "https://arxiv.org/abs/2603.02175v1"
+        "title": "LoGeR: Long-Context Geometric Reconstruction with Hybrid Memory",
+        "url": "https://arxiv.org/abs/2603.03269v1"
       },
       {
-        "title": "OmniRet: Efficient and High-Fidelity Omni Modality Retrieval",
-        "url": "https://arxiv.org/abs/2603.02098v1"
+        "title": "Designing UNICORN: a Unified Benchmark for Imaging in Computational Pathology, Radiology, and Natural Language",
+        "url": "https://arxiv.org/abs/2603.02790v1"
       },
       {
-        "title": "Event-Only Drone Trajectory Forecasting with RPM-Modulated Kalman Filtering",
-        "url": "https://arxiv.org/abs/2603.01997v1"
+        "title": "Tether: Autonomous Functional Play with Correspondence-Driven Trajectory Warping",
+        "url": "https://arxiv.org/abs/2603.03278v1"
       },
       {
-        "title": "BAED: a New Paradigm for Few-shot Graph Learning with Explanation in the Loop",
-        "url": "https://arxiv.org/abs/2603.01941v1"
+        "title": "Chain of World: World Model Thinking in Latent Motion",
+        "url": "https://arxiv.org/abs/2603.03195v1"
       },
       {
-        "title": "Efficient RLVR Training via Weighted Mutual Information Data Selection",
-        "url": "https://arxiv.org/abs/2603.01907v1"
+        "title": "Learning Memory-Enhanced Improvement Heuristics for Flexible Job Shop Scheduling",
+        "url": "https://arxiv.org/abs/2603.02846v1"
       },
       {
-        "title": "Phishing the Phishers with SpecularNet: Hierarchical Graph Autoencoding for Reference-Free Web Phishing Detection",
-        "url": "https://arxiv.org/abs/2603.01874v1"
+        "title": "Compact Prompting in Instruction-tuned LLMs for Joint Argumentative Component Detection",
+        "url": "https://arxiv.org/abs/2603.03095v1"
       },
       {
-        "title": "ALTER: Asymmetric LoRA for Token-Entropy-Guided Unlearning of LLMs",
-        "url": "https://arxiv.org/abs/2603.01792v1"
+        "title": "Geometry-Guided Reinforcement Learning for Multi-view Consistent 3D Scene Editing",
+        "url": "https://arxiv.org/abs/2603.03143v1"
       },
       {
-        "title": "Leveraging Model Soups to Classify Intangible Cultural Heritage Images from the Mekong Delta",
-        "url": "https://arxiv.org/abs/2603.02181v1"
+        "title": "Rethinking Time Series Domain Generalization via Structure-Stratified Calibration",
+        "url": "https://arxiv.org/abs/2603.02756v1"
       },
       {
-        "title": "FluxMem: Adaptive Hierarchical Memory for Streaming Video Understanding",
-        "url": "https://arxiv.org/abs/2603.02096v1"
+        "title": "QFlowNet: Fast, Diverse, and Efficient Unitary Synthesis with Generative Flow Networks",
+        "url": "https://arxiv.org/abs/2603.03045v1"
       },
       {
-        "title": "CoVe: Training Interactive Tool-Use Agents via Constraint-Guided Verification",
-        "url": "https://arxiv.org/abs/2603.01940v1"
+        "title": "ShipTraj-R1: Reinforcing Ship Trajectory Prediction in Large Language Models via Group Relative Policy Optimization",
+        "url": "https://arxiv.org/abs/2603.02939v1"
       },
       {
-        "title": "MAC: A Conversion Rate Prediction Benchmark Featuring Labels Under Multiple Attribution Mechanisms",
-        "url": "https://arxiv.org/abs/2603.02184v1"
+        "title": "BrandFusion: A Multi-Agent Framework for Seamless Brand Integration in Text-to-Video Generation",
+        "url": "https://arxiv.org/abs/2603.02816v1"
       },
       {
-        "title": "MatRIS: Toward Reliable and Efficient Pretrained Machine Learning Interaction Potentials",
-        "url": "https://arxiv.org/abs/2603.02002v1"
+        "title": "MoECLIP: Patch-Specialized Experts for Zero-shot Anomaly Detection",
+        "url": "https://arxiv.org/abs/2603.03101v1"
       },
       {
-        "title": "TCG CREST System Description for the DISPLACE-M Challenge",
-        "url": "https://arxiv.org/abs/2603.02030v1"
+        "title": "ChemFlow:A Hierarchical Neural Network for Multiscale Representation Learning in Chemical Mixtures",
+        "url": "https://arxiv.org/abs/2603.02810v1"
       },
       {
-        "title": "DGNet: Discrete Green Networks for Data-Efficient Learning of Spatiotemporal PDEs",
-        "url": "https://arxiv.org/abs/2603.01762v1"
+        "title": "ACE-Brain-0: Spatial Intelligence as a Shared Scaffold for Universal Embodiments",
+        "url": "https://arxiv.org/abs/2603.03198v1"
       },
       {
-        "title": "StepVAR: Structure-Texture Guided Pruning for Visual Autoregressive Models",
-        "url": "https://arxiv.org/abs/2603.01757v1"
+        "title": "Leveraging Label Proportion Prior for Class-Imbalanced Semi-Supervised Learning",
+        "url": "https://arxiv.org/abs/2603.02957v1"
       },
       {
-        "title": "Reasoning Core: A Scalable Procedural Data Generation Suite for Symbolic Pre-training and Post-Training",
-        "url": "https://arxiv.org/abs/2603.02208v1"
+        "title": "UniG2U-Bench: Do Unified Models Advance Multimodal Understanding?",
+        "url": "https://arxiv.org/abs/2603.03241v1"
       },
       {
-        "title": "Adaptive Confidence Regularization for Multimodal Failure Detection",
-        "url": "https://arxiv.org/abs/2603.02200v1"
+        "title": "FEAST: Retrieval-Augmented Multi-Hierarchical Food Classification for the FoodEx2 System",
+        "url": "https://arxiv.org/abs/2603.03176v1"
       },
       {
-        "title": "Sketch2Colab: Sketch-Conditioned Multi-Human Animation via Controllable Flow Distillation",
-        "url": "https://arxiv.org/abs/2603.02190v1"
+        "title": "Conditioned Activation Transport for T2I Safety Steering",
+        "url": "https://arxiv.org/abs/2603.03163v1"
       },
       {
-        "title": "LiftAvatar: Kinematic-Space Completion for Expression-Controlled 3D Gaussian Avatar Animation",
-        "url": "https://arxiv.org/abs/2603.02129v1"
+        "title": "Learning When to Act or Refuse: Guarding Agentic Reasoning Models for Safe Multi-Step Tool Use",
+        "url": "https://arxiv.org/abs/2603.03205v1"
       },
       {
-        "title": "GenDB: The Next Generation of Query Processing -- Synthesized, Not Engineered",
-        "url": "https://arxiv.org/abs/2603.02081v1"
+        "title": "PrivMedChat: End-to-End Differentially Private RLHF for Medical Dialogue Systems",
+        "url": "https://arxiv.org/abs/2603.03054v1"
       },
       {
-        "title": "According to Me: Long-Term Personalized Referential Memory QA",
-        "url": "https://arxiv.org/abs/2603.01990v1"
+        "title": "Inherited Goal Drift: Contextual Pressure Can Undermine Agentic Goals",
+        "url": "https://arxiv.org/abs/2603.03258v1"
       },
       {
-        "title": "Learning Shortest Paths with Generative Flow Networks",
-        "url": "https://arxiv.org/abs/2603.01786v1"
+        "title": "Code2Math: Can Your Code Agent Effectively Evolve Math Problems Through Exploration?",
+        "url": "https://arxiv.org/abs/2603.03202v1"
       },
       {
-        "title": "Meta-Learning Hyperparameters for Parameter Efficient Fine-Tuning",
-        "url": "https://arxiv.org/abs/2603.01759v1"
+        "title": "MoD-DPO: Towards Mitigating Cross-modal Hallucinations in Omni LLMs using Modality Decoupled Preference Optimization",
+        "url": "https://arxiv.org/abs/2603.03192v1"
       },
       {
-        "title": "Practical Deep Heteroskedastic Regression",
-        "url": "https://arxiv.org/abs/2603.01750v1"
+        "title": "Proactive Guiding Strategy for Item-side Fairness in Interactive Recommendation",
+        "url": "https://arxiv.org/abs/2603.03094v1"
       },
       {
-        "title": "Multi-Head Low-Rank Attention",
-        "url": "https://arxiv.org/abs/2603.02188v1"
+        "title": "BRIGHT: A Collaborative Generalist-Specialist Foundation Model for Breast Pathology",
+        "url": "https://arxiv.org/abs/2603.03030v1"
       },
       {
-        "title": "Organizing, Orchestrating, and Benchmarking Agent Skills at Ecosystem Scale",
-        "url": "https://arxiv.org/abs/2603.02176v1"
+        "title": "LAGO: A Local-Global Optimization Framework Combining Trust Region Methods and Bayesian Optimization",
+        "url": "https://arxiv.org/abs/2603.02970v1"
       },
       {
-        "title": "De-paradox Tree: Breaking Down Simpson's Paradox via A Kernel-Based Partition Algorithm",
-        "url": "https://arxiv.org/abs/2603.02174v1"
+        "title": "TRACE: Task-Adaptive Reasoning and Representation Learning for Universal Multimodal Retrieval",
+        "url": "https://arxiv.org/abs/2603.02929v1"
       },
       {
-        "title": "Explanation-Guided Adversarial Training for Robust and Interpretable Models",
-        "url": "https://arxiv.org/abs/2603.01938v1"
+        "title": "How to Peel with a Knife: Aligning Fine-Grained Manipulation with Human Preference",
+        "url": "https://arxiv.org/abs/2603.03280v1"
       },
       {
-        "title": "Detection-Gated Glottal Segmentation with Zero-Shot Cross-Dataset Transfer and Clinical Feature Extraction",
-        "url": "https://arxiv.org/abs/2603.02087v1"
+        "title": "APRES: An Agentic Paper Revision and Evaluation System",
+        "url": "https://arxiv.org/abs/2603.03142v1"
       },
       {
-        "title": "Nano-EmoX: Unifying Multimodal Emotional Intelligence from Perception to Empathy",
-        "url": "https://arxiv.org/abs/2603.02123v1"
+        "title": "Generalized Bayes for Causal Inference",
+        "url": "https://arxiv.org/abs/2603.03035v1"
       },
       {
-        "title": "Generative Visual Chain-of-Thought for Image Editing",
-        "url": "https://arxiv.org/abs/2603.01893v1"
+        "title": "CGL: Advancing Continual GUI Learning via Reinforcement Fine-Tuning",
+        "url": "https://arxiv.org/abs/2603.02951v1"
       },
       {
-        "title": "Tide: A Customisable Dataset Generator for Anti-Money Laundering Research",
-        "url": "https://arxiv.org/abs/2603.01863v1"
+        "title": "SEALing the Gap: A Reference Framework for LLM Inference Carbon Estimation via Multi-Benchmark Driven Embodiment",
+        "url": "https://arxiv.org/abs/2603.02949v1"
       },
       {
-        "title": "Robometer: Scaling General-Purpose Robotic Reward Models via Trajectory Comparisons",
-        "url": "https://arxiv.org/abs/2603.02115v1"
+        "title": "Distributed Dynamic Invariant Causal Prediction in Environmental Time Series",
+        "url": "https://arxiv.org/abs/2603.02902v1"
       },
       {
-        "title": "Rich Insights from Cheap Signals: Efficient Evaluations via Tensor Factorization",
-        "url": "https://arxiv.org/abs/2603.02029v1"
+        "title": "EvoSkill: Automated Skill Discovery for Multi-Agent Systems",
+        "url": "https://arxiv.org/abs/2603.02766v1"
       },
       {
-        "title": "Let the Agent Search: Autonomous Exploration Beats Rigid Workflows in Temporal Question Answering",
-        "url": "https://arxiv.org/abs/2603.01853v1"
+        "title": "Deep learning-guided evolutionary optimization for protein design",
+        "url": "https://arxiv.org/abs/2603.02753v1"
       },
       {
-        "title": "nchellwig at SemEval-2026 Task 3: Self-Consistent Structured Generation (SCSG) for Dimensional Aspect-Based Sentiment Analysis using Large Language Models",
-        "url": "https://arxiv.org/abs/2603.01788v1"
+        "title": "TikZilla: Scaling Text-to-TikZ with High-Quality Data and Reinforcement Learning",
+        "url": "https://arxiv.org/abs/2603.03072v1"
       },
       {
-        "title": "Learning to Read Where to Look: Disease-Aware Vision-Language Pretraining for 3D CT",
-        "url": "https://arxiv.org/abs/2603.02026v1"
+        "title": "SpatialText: A Pure-Text Cognitive Benchmark for Spatial Understanding in Large Language Models",
+        "url": "https://arxiv.org/abs/2603.03002v1"
       },
       {
-        "title": "Revealing Combinatorial Reasoning of GNNs via Graph Concept Bottleneck Layer",
-        "url": "https://arxiv.org/abs/2603.02025v1"
+        "title": "From Solver to Tutor: Evaluating the Pedagogical Intelligence of LLMs with KMP-Bench",
+        "url": "https://arxiv.org/abs/2603.02775v1"
       },
       {
-        "title": "Efficient Test-Time Optimization for Depth Completion via Low-Rank Decoder Adaptation",
-        "url": "https://arxiv.org/abs/2603.01765v1"
+        "title": "ITO: Images and Texts as One via Synergizing Multiple Alignment and Training-Time Fusion",
+        "url": "https://arxiv.org/abs/2603.02767v1"
       },
       {
-        "title": "HiFi-Inpaint: Towards High-Fidelity Reference-Based Inpainting for Generating Detail-Preserving Human-Product Images",
-        "url": "https://arxiv.org/abs/2603.02210v1"
+        "title": "Gravity Falls: A Comparative Analysis of Domain-Generation Algorithm (DGA) Detection Methods for Mobile Device Spearphishing",
+        "url": "https://arxiv.org/abs/2603.03270v1"
       },
       {
-        "title": "Learning from Synthetic Data Improves Multi-hop Reasoning",
-        "url": "https://arxiv.org/abs/2603.02091v1"
+        "title": "Incremental Graph Construction Enables Robust Spectral Clustering of Texts",
+        "url": "https://arxiv.org/abs/2603.03056v1"
       },
       {
-        "title": "Accelerating PDE Surrogates via RL-Guided Mesh Optimization",
-        "url": "https://arxiv.org/abs/2603.02066v1"
+        "title": "TC-Pad\u00e9: Trajectory-Consistent Pad\u00e9 Approximation for Diffusion Acceleration",
+        "url": "https://arxiv.org/abs/2603.02943v1"
       },
       {
-        "title": "Process Over Outcome: Cultivating Forensic Reasoning for Generalizable Multimodal Manipulation Detection",
-        "url": "https://arxiv.org/abs/2603.01993v1"
+        "title": "Agentified Assessment of Logical Reasoning Agents",
+        "url": "https://arxiv.org/abs/2603.02788v1"
       },
       {
-        "title": "FireRed-OCR Technical Report",
-        "url": "https://arxiv.org/abs/2603.01840v1"
+        "title": "Any Resolution Any Geometry: From Multi-View To Multi-Patch",
+        "url": "https://arxiv.org/abs/2603.03026v1"
       },
       {
-        "title": "Co-Evolutionary Multi-Modal Alignment via Structured Adversarial Evolution",
-        "url": "https://arxiv.org/abs/2603.01784v1"
+        "title": "Learning to Generate and Extract: A Multi-Agent Collaboration Framework For Zero-shot Document-level Event Arguments Extraction",
+        "url": "https://arxiv.org/abs/2603.02909v1"
       },
       {
-        "title": "LongRLVR: Long-Context Reinforcement Learning Requires Verifiable Context Rewards",
-        "url": "https://arxiv.org/abs/2603.02146v1"
+        "title": "Efficient Self-Evaluation for Diffusion Language Models via Sequence Regeneration",
+        "url": "https://arxiv.org/abs/2603.02760v1"
       },
       {
-        "title": "GeoDiT: Point-Conditioned Diffusion Transformer for Satellite Image Synthesis",
-        "url": "https://arxiv.org/abs/2603.02172v1"
+        "title": "Shape Derivative-Informed Neural Operators with Application to Risk-Averse Shape Optimization",
+        "url": "https://arxiv.org/abs/2603.03211v1"
       },
       {
-        "title": "Pencil Puzzle Bench: A Benchmark for Multi-Step Verifiable Reasoning",
-        "url": "https://arxiv.org/abs/2603.02119v1"
+        "title": "A Covering Framework for Offline POMDPs Learning using Belief Space Metric",
+        "url": "https://arxiv.org/abs/2603.03191v1"
       },
       {
-        "title": "CharacterFlywheel: Scaling Iterative Improvement of Engaging and Steerable LLMs in Production",
-        "url": "https://arxiv.org/abs/2603.01973v1"
+        "title": "Architecting Trust in Artificial Epistemic Agents",
+        "url": "https://arxiv.org/abs/2603.02960v1"
       },
       {
-        "title": "When Numbers Tell Half the Story: Human-Metric Alignment in Topic Model Evaluation",
-        "url": "https://arxiv.org/abs/2603.01945v1"
+        "title": "Multimodal-Prior-Guided Importance Sampling for Hierarchical Gaussian Splatting in Sparse-View Novel View Synthesis",
+        "url": "https://arxiv.org/abs/2603.02866v1"
       },
       {
-        "title": "Discrete World Models via Regularization",
-        "url": "https://arxiv.org/abs/2603.01748v1"
+        "title": "Toward Early Quality Assessment of Text-to-Image Diffusion Models",
+        "url": "https://arxiv.org/abs/2603.02829v1"
       },
       {
-        "title": "Reservoir Subspace Injection for Online ICA under Top-n Whitening",
-        "url": "https://arxiv.org/abs/2603.02178v1"
+        "title": "iGVLM: Dynamic Instruction-Guided Vision Encoding for Question-Aware Multimodal Understanding",
+        "url": "https://arxiv.org/abs/2603.02748v1"
       },
       {
-        "title": "Boltzmann-based Exploration for Robust Decentralized Multi-Agent Planning",
-        "url": "https://arxiv.org/abs/2603.02154v1"
+        "title": "DuoMo: Dual Motion Diffusion for World-Space Human Reconstruction",
+        "url": "https://arxiv.org/abs/2603.03265v1"
       },
       {
-        "title": "LLMs as Strategic Actors: Behavioral Alignment, Risk Calibration, and Argumentation Framing in Geopolitical Simulations",
-        "url": "https://arxiv.org/abs/2603.02128v1"
+        "title": "Beyond Task Completion: Revealing Corrupt Success in LLM Agents through Procedure-Aware Evaluation",
+        "url": "https://arxiv.org/abs/2603.03116v1"
       },
       {
-        "title": "ClinConsensus: A Consensus-Based Benchmark for Evaluating Chinese Medical LLMs across Difficulty Levels",
-        "url": "https://arxiv.org/abs/2603.02097v1"
+        "title": "TagaVLM: Topology-Aware Global Action Reasoning for Vision-Language Navigation",
+        "url": "https://arxiv.org/abs/2603.02972v1"
       },
       {
-        "title": "Zero-shot Low-Field MRI Enhancement via Diffusion-Based Adaptive Contrast Transport",
-        "url": "https://arxiv.org/abs/2603.01913v1"
+        "title": "Layer-wise QUBO-Based Training of CNN Classifiers for Quantum Annealing",
+        "url": "https://arxiv.org/abs/2603.02958v1"
       },
       {
-        "title": "Deep Learning for Financial Time Series: A Large-Scale Benchmark of Risk-Adjusted Performance",
-        "url": "https://arxiv.org/abs/2603.01820v1"
+        "title": "Contextual Latent World Models for Offline Meta Reinforcement Learning",
+        "url": "https://arxiv.org/abs/2603.02935v1"
       },
       {
-        "title": "Frontier Models Can Take Actions at Low Probabilities",
-        "url": "https://arxiv.org/abs/2603.02202v1"
+        "title": "Structure-Aware Text Recognition for Ancient Greek Critical Editions",
+        "url": "https://arxiv.org/abs/2603.02803v1"
       },
       {
-        "title": "LAD-Drive: Bridging Language and Trajectory with Action-Aware Diffusion Transformers",
-        "url": "https://arxiv.org/abs/2603.02035v1"
+        "title": "Physics-informed post-processing of stabilized finite element solutions for transient convection-dominated problems",
+        "url": "https://arxiv.org/abs/2603.03259v1"
       },
       {
-        "title": "CausalWrap: Model-Agnostic Causal Constraint Wrappers for Tabular Synthetic Data",
-        "url": "https://arxiv.org/abs/2603.02015v1"
+        "title": "SynthCharge: An Electric Vehicle Routing Instance Generator with Feasibility Screening to Enable Learning-Based Optimization and Benchmarking",
+        "url": "https://arxiv.org/abs/2603.03230v1"
       },
       {
-        "title": "AMemGym: Interactive Memory Benchmarking for Assistants in Long-Horizon Conversations",
-        "url": "https://arxiv.org/abs/2603.01966v1"
+        "title": "Agentic AI-based Coverage Closure for Formal Verification",
+        "url": "https://arxiv.org/abs/2603.03147v1"
       },
       {
-        "title": "From Variance to Invariance: Qualitative Content Analysis for Narrative Graph Annotation",
-        "url": "https://arxiv.org/abs/2603.01930v1"
+        "title": "Reinforcement Learning with Symbolic Reward Machines",
+        "url": "https://arxiv.org/abs/2603.03068v1"
       },
       {
-        "title": "CyclicJudge: Mitigating Judge Bias Efficiently in LLM-based Evaluation",
-        "url": "https://arxiv.org/abs/2603.01865v1"
+        "title": "EduVQA: Benchmarking AI-Generated Video Quality Assessment for Education",
+        "url": "https://arxiv.org/abs/2603.03066v1"
       },
       {
-        "title": "Streaming Real-Time Trajectory Prediction Using Endpoint-Aware Modeling",
-        "url": "https://arxiv.org/abs/2603.01864v1"
+        "title": "Saarthi for AGI: Towards Domain-Specific General Intelligence for Formal Verification",
+        "url": "https://arxiv.org/abs/2603.03175v1"
       },
       {
-        "title": "From Leaderboard to Deployment: Code Quality Challenges in AV Perception Repositories",
-        "url": "https://arxiv.org/abs/2603.02194v1"
+        "title": "Spatial Autoregressive Modeling of DINOv3 Embeddings for Unsupervised Anomaly Detection",
+        "url": "https://arxiv.org/abs/2603.02974v1"
       },
       {
-        "title": "Zero- and Few-Shot Named-Entity Recognition: Case Study and Dataset in the Crime Domain (CrimeNER)",
-        "url": "https://arxiv.org/abs/2603.02150v1"
+        "title": "3D-DRES: Detailed 3D Referring Expression Segmentation",
+        "url": "https://arxiv.org/abs/2603.02896v1"
       },
       {
-        "title": "Stereo-Inertial Poser: Towards Metric-Accurate Shape-Aware Motion Capture Using Sparse IMUs and a Single Stereo Camera",
-        "url": "https://arxiv.org/abs/2603.02130v1"
+        "title": "Intrinsic Geometry-Appearance Consistency Optimization for Sparse-View Gaussian Splatting",
+        "url": "https://arxiv.org/abs/2603.02893v1"
       },
       {
-        "title": "A 3D mesh convolution-based autoencoder for geometry compression",
-        "url": "https://arxiv.org/abs/2603.02125v1"
+        "title": "Eval4Sim: An Evaluation Framework for Persona Simulation",
+        "url": "https://arxiv.org/abs/2603.02876v1"
       },
       {
-        "title": "From Pixels to Patches: Pooling Strategies for Earth Embeddings",
-        "url": "https://arxiv.org/abs/2603.02080v1"
+        "title": "Scale-invariant Gaussian derivative residual networks",
+        "url": "https://arxiv.org/abs/2603.02843v1"
       },
       {
-        "title": "NICO-RAG: Multimodal Hypergraph Retrieval-Augmented Generation for Understanding the Nicotine Public Health Crisis",
-        "url": "https://arxiv.org/abs/2603.02047v1"
+        "title": "OCR or Not? Rethinking Document Information Extraction in the MLLMs Era with Real-World Large-Scale Datasets",
+        "url": "https://arxiv.org/abs/2603.02789v1"
       },
       {
-        "title": "MMR-Life: Piecing Together Real-life Scenes for Multimodal Multi-image Reasoning",
-        "url": "https://arxiv.org/abs/2603.02024v1"
+        "title": "AI-for-Science Low-code Platform with Bayesian Adversarial Multi-Agent Framework",
+        "url": "https://arxiv.org/abs/2603.03233v1"
       },
       {
-        "title": "PonderLM-3: Adaptive Token-Wise Pondering with Differentiable Masking",
-        "url": "https://arxiv.org/abs/2603.02023v1"
+        "title": "BeyondSWE: Can Current Code Agent Survive Beyond Single-Repo Bug Fixing?",
+        "url": "https://arxiv.org/abs/2603.03194v1"
       },
       {
-        "title": "How Small Can 6G Reason? Scaling Tiny Language Models for AI-Native Networks",
-        "url": "https://arxiv.org/abs/2603.02156v1"
+        "title": "OrchMAS: Orchestrated Reasoning with Multi Collaborative Heterogeneous Scientific Expert Structured Agents",
+        "url": "https://arxiv.org/abs/2603.03005v1"
       },
       {
-        "title": "LaST-VLA: Thinking in Latent Spatio-Temporal Space for Vision-Language-Action in Autonomous Driving",
-        "url": "https://arxiv.org/abs/2603.01928v1"
+        "title": "Bias and Fairness in Self-Supervised Acoustic Representations for Cognitive Impairment Detection",
+        "url": "https://arxiv.org/abs/2603.02937v1"
       },
       {
-        "title": "Resolving Blind Inverse Problems under Dynamic Range Compression via Structured Forward Operator Modeling",
-        "url": "https://arxiv.org/abs/2603.01890v1"
+        "title": "R3GW: Relightable 3D Gaussians for Outdoor Scenes in the Wild",
+        "url": "https://arxiv.org/abs/2603.02801v1"
       },
       {
-        "title": "Phase-Type Variational Autoencoders for Heavy-Tailed Data",
-        "url": "https://arxiv.org/abs/2603.01800v1"
+        "title": "From Heuristic Selection to Automated Algorithm Design: LLMs Benefit from Strong Priors",
+        "url": "https://arxiv.org/abs/2603.02792v1"
       },
       {
-        "title": "Scaling Retrieval Augmented Generation with RAG Fusion: Lessons from an Industry Deployment",
-        "url": "https://arxiv.org/abs/2603.02153v1"
+        "title": "CoShadow: Multi-Object Shadow Generation for Image Compositing via Diffusion Model",
+        "url": "https://arxiv.org/abs/2603.02743v1"
       },
       {
-        "title": "Demonstrating ViviDoc: Generating Interactive Documents through Human-Agent Collaboration",
-        "url": "https://arxiv.org/abs/2603.01912v1"
+        "title": "Valet: A Standardized Testbed of Traditional Imperfect-Information Card Games",
+        "url": "https://arxiv.org/abs/2603.03252v1"
       },
       {
-        "title": "Unifying Heterogeneous Multi-Modal Remote Sensing Detection Via Language-Pivoted Pretraining",
-        "url": "https://arxiv.org/abs/2603.01758v1"
+        "title": "TrustMH-Bench: A Comprehensive Benchmark for Evaluating the Trustworthiness of Large Language Models in Mental Health",
+        "url": "https://arxiv.org/abs/2603.03047v1"
       },
       {
-        "title": "An Analysis of Multi-Task Architectures for the Hierarchic Multi-Label Problem of Vehicle Model and Make Classification",
-        "url": "https://arxiv.org/abs/2603.01746v1"
+        "title": "GloPath: An Entity-Centric Foundation Model for Glomerular Lesion Assessment and Clinicopathological Insights",
+        "url": "https://arxiv.org/abs/2603.02926v1"
       },
       {
-        "title": "SimRecon: SimReady Compositional Scene Reconstruction from Real Videos",
-        "url": "https://arxiv.org/abs/2603.02133v1"
+        "title": "Nodes Are Early, Edges Are Late: Probing Diagram Representations in Large Vision-Language Models",
+        "url": "https://arxiv.org/abs/2603.02865v1"
       },
       {
-        "title": "EstLLM: Enhancing Estonian Capabilities in Multilingual LLMs via Continued Pretraining and Post-Training",
-        "url": "https://arxiv.org/abs/2603.02041v1"
+        "title": "VSearcher: Long-Horizon Multimodal Search Agent via Reinforcement Learning",
+        "url": "https://arxiv.org/abs/2603.02795v1"
       },
       {
-        "title": "Beyond the Resum\u00e9: A Rubric-Aware Automatic Interview System for Information Elicitation",
-        "url": "https://arxiv.org/abs/2603.01775v1"
+        "title": "Specificity-aware reinforcement learning for fine-grained open-world classification",
+        "url": "https://arxiv.org/abs/2603.03197v1"
       },
       {
-        "title": "Bridging the gap between Performance and Interpretability: An Explainable Disentangled Multimodal Framework for Cancer Survival Prediction",
-        "url": "https://arxiv.org/abs/2603.02162v1"
+        "title": "Beyond Factual Correctness: Mitigating Preference-Inconsistent Explanations in Explainable Recommendation",
+        "url": "https://arxiv.org/abs/2603.03080v1"
       },
       {
-        "title": "ORGAN: Object-Centric Representation Learning using Cycle Consistent Generative Adversarial Networks",
-        "url": "https://arxiv.org/abs/2603.02063v1"
+        "title": "Evaluating Performance Drift from Model Switching in Multi-Turn LLM Systems",
+        "url": "https://arxiv.org/abs/2603.03111v1"
       },
       {
-        "title": "LOCUS: A Distribution-Free Loss-Quantile Score for Risk-Aware Predictions",
-        "url": "https://arxiv.org/abs/2603.01971v1"
+        "title": "MIBURI: Towards Expressive Interactive Gesture Synthesis",
+        "url": "https://arxiv.org/abs/2603.03282v1"
       },
       {
-        "title": "TiledAttention: a CUDA Tile SDPA Kernel for PyTorch",
-        "url": "https://arxiv.org/abs/2603.01960v1"
+        "title": "Seeing Clearly without Training: Mitigating Hallucinations in Multimodal LLMs for Remote Sensing",
+        "url": "https://arxiv.org/abs/2603.02754v1"
       },
       {
-        "title": "LiveCultureBench: a Multi-Agent, Multi-Cultural Benchmark for Large Language Models in Dynamic Social Simulations",
-        "url": "https://arxiv.org/abs/2603.01952v1"
+        "title": "Kling-MotionControl Technical Report",
+        "url": "https://arxiv.org/abs/2603.03160v1"
       },
       {
-        "title": "GMP: A Benchmark for Content Moderation under Co-occurring Violations and Dynamic Rules",
-        "url": "https://arxiv.org/abs/2603.01724v1"
+        "title": "ProSMA-UNet: Decoder Conditioning for Proximal-Sparse Skip Feature Selection",
+        "url": "https://arxiv.org/abs/2603.03187v1"
       },
       {
-        "title": "BAWSeg: A UAV Multispectral Benchmark for Barley Weed Segmentation",
-        "url": "https://arxiv.org/abs/2603.01932v1"
+        "title": "COP-GEN: Latent Diffusion Transformer for Copernicus Earth Observation Data -- Generation Stochastic by Design",
+        "url": "https://arxiv.org/abs/2603.03239v1"
       },
       {
-        "title": "Affine Correspondences in Stereo Vision: Theory, Practice, and Limitations",
-        "url": "https://arxiv.org/abs/2603.01836v1"
-      },
-      {
-        "title": "WorldStereo: Bridging Camera-Guided Video Generation and Scene Reconstruction via 3D Geometric Memories",
-        "url": "https://arxiv.org/abs/2603.02049v1"
-      },
-      {
-        "title": "NeuroSymb-MRG: Differentiable Abductive Reasoning with Active Uncertainty Minimization for Radiology Report Generation",
-        "url": "https://arxiv.org/abs/2603.01756v1"
-      },
-      {
-        "title": "Action-Guided Attention for Video Action Anticipation",
-        "url": "https://arxiv.org/abs/2603.01743v1"
-      },
-      {
-        "title": "MobileMold: A Smartphone-Based Microscopy Dataset for Food Mold Detection",
-        "url": "https://arxiv.org/abs/2603.01944v1"
-      },
-      {
-        "title": "Density-Matrix Spectral Embeddings for Categorical Data: Operator Structure and Stability",
-        "url": "https://arxiv.org/abs/2603.01975v1"
-      },
-      {
-        "title": "NextAds: Towards Next-generation Personalized Video Advertising",
-        "url": "https://arxiv.org/abs/2603.02137v1"
+        "title": "The Dresden Dataset for 4D Reconstruction of Non-Rigid Abdominal Surgical Scenes",
+        "url": "https://arxiv.org/abs/2603.02985v1"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "multimodal_research",
-      "observation": "25 independent papers",
+      "observation": "34 independent papers",
       "inference": "Strong convergence in Multimodal Research - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1665,7 +1629,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "62 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1677,19 +1641,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "74 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "75 independent papers",
+      "observation": "61 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1701,7 +1665,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "100 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1709,33 +1673,33 @@
   "research_trends": [
     {
       "topic": "language",
-      "frequency": 63,
+      "frequency": 73,
       "significance": "high"
     },
     {
       "topic": "benchmark",
-      "frequency": 55,
+      "frequency": 57,
       "significance": "high"
     },
     {
       "topic": "generation",
-      "frequency": 39,
+      "frequency": 38,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
+      "topic": "alignment",
       "frequency": 34,
       "significance": "high"
     },
     {
-      "topic": "architecture",
-      "frequency": 32,
+      "topic": "reasoning",
+      "frequency": 33,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 400
   }
 }
