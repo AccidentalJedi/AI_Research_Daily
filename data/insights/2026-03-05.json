@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-05T16:24:03.576249",
+  "date": "2026-03-05T20:17:22.246239",
   "patterns": {
     "multimodal_research": [
       {
@@ -645,6 +645,14 @@
       {
         "title": "N-gram Injection into Transformers for Dynamic Language Model Adaptation in Handwritten Text Recognition",
         "url": "https://arxiv.org/abs/2603.03930v1"
+      },
+      {
+        "title": "DrSavaiano/smollm2-stance-classifier",
+        "url": "https://huggingface.co/DrSavaiano/smollm2-stance-classifier"
+      },
+      {
+        "title": "llmfan46/gpt-oss-120b-heretic-v2",
+        "url": "https://huggingface.co/llmfan46/gpt-oss-120b-heretic-v2"
       }
     ],
     "vision_systems": [
@@ -1675,6 +1683,10 @@
       {
         "title": "Mask-Guided Attention Regulation for Anatomically Consistent Counterfactual CXR Synthesis",
         "url": "https://arxiv.org/abs/2603.04130v1"
+      },
+      {
+        "title": "Sota26/Affine-75-5DctumWUfSCuo12G66wwW2x6F4jpUfZcLcpUaZwbFkQTojPn",
+        "url": "https://huggingface.co/Sota26/Affine-75-5DctumWUfSCuo12G66wwW2x6F4jpUfZcLcpUaZwbFkQTojPn"
       }
     ]
   },
@@ -1705,7 +1717,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1729,7 +1741,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "101 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1764,6 +1776,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 416
+    "total_papers": 419
   }
 }
