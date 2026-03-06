@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-06T16:17:08.232590",
+  "date": "2026-03-06T20:13:04.743995",
   "patterns": {
     "multimodal_research": [
       {
@@ -633,6 +633,14 @@
       {
         "title": "Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline",
         "url": "https://arxiv.org/abs/2603.05484v1"
+      },
+      {
+        "title": "mradermacher/turkish-llm-14b-instruct-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/turkish-llm-14b-instruct-i1-GGUF"
+      },
+      {
+        "title": "zhuojing-huang/gpt2-arabic-english-bi-vocab-1-4B",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-arabic-english-bi-vocab-1-4B"
       }
     ],
     "vision_systems": [
@@ -915,10 +923,6 @@
       {
         "title": "A Simple Baseline for Unifying Understanding, Generation, and Editing via Vanilla Next-token Prediction",
         "url": "https://arxiv.org/abs/2603.04980v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1201,10 +1205,6 @@
       {
         "title": "Video-based Locomotion Analysis for Fish Health Monitoring",
         "url": "https://arxiv.org/abs/2603.05407v1"
-      },
-      {
-        "title": "inference-optimization/Kimi-K2-Instruct-0905-BF16-FP8-BLOCK",
-        "url": "https://huggingface.co/inference-optimization/Kimi-K2-Instruct-0905-BF16-FP8-BLOCK"
       }
     ],
     "benchmarks": [
@@ -1609,19 +1609,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
