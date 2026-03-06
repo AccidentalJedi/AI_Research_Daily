@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-06T12:17:53.235079",
+  "date": "2026-03-06T16:17:08.232590",
   "patterns": {
     "multimodal_research": [
       {
@@ -311,10 +311,6 @@
       {
         "title": "Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline",
         "url": "https://arxiv.org/abs/2603.05484v1"
-      },
-      {
-        "title": "RK-2910/deepfake-efficientnet-b4",
-        "url": "https://huggingface.co/RK-2910/deepfake-efficientnet-b4"
       }
     ],
     "language_models": [
@@ -627,10 +623,6 @@
         "url": "https://arxiv.org/abs/2603.05315v1"
       },
       {
-        "title": "Vandita/mobileBERT6MaynewTry",
-        "url": "https://huggingface.co/Vandita/mobileBERT6MaynewTry"
-      },
-      {
         "title": "HALP: Detecting Hallucinations in Vision-Language Models without Generating a Single Token",
         "url": "https://arxiv.org/abs/2603.05465v1"
       },
@@ -923,6 +915,10 @@
       {
         "title": "A Simple Baseline for Unifying Understanding, Generation, and Editing via Vanilla Next-token Prediction",
         "url": "https://arxiv.org/abs/2603.04980v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1205,6 +1201,10 @@
       {
         "title": "Video-based Locomotion Analysis for Fish Health Monitoring",
         "url": "https://arxiv.org/abs/2603.05407v1"
+      },
+      {
+        "title": "inference-optimization/Kimi-K2-Instruct-0905-BF16-FP8-BLOCK",
+        "url": "https://huggingface.co/inference-optimization/Kimi-K2-Instruct-0905-BF16-FP8-BLOCK"
       }
     ],
     "benchmarks": [
@@ -1597,7 +1597,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "60 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1609,19 +1609,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
