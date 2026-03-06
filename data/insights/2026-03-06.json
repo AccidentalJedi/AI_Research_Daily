@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-06T08:15:33.650648",
+  "date": "2026-03-06T12:17:53.235079",
   "patterns": {
     "multimodal_research": [
       {
@@ -313,8 +313,8 @@
         "url": "https://arxiv.org/abs/2603.05484v1"
       },
       {
-        "title": "kshitijthakkar/loggenix-moe-0.4B-0.2A-sft-s4",
-        "url": "https://huggingface.co/kshitijthakkar/loggenix-moe-0.4B-0.2A-sft-s4"
+        "title": "RK-2910/deepfake-efficientnet-b4",
+        "url": "https://huggingface.co/RK-2910/deepfake-efficientnet-b4"
       }
     ],
     "language_models": [
@@ -627,6 +627,10 @@
         "url": "https://arxiv.org/abs/2603.05315v1"
       },
       {
+        "title": "Vandita/mobileBERT6MaynewTry",
+        "url": "https://huggingface.co/Vandita/mobileBERT6MaynewTry"
+      },
+      {
         "title": "HALP: Detecting Hallucinations in Vision-Language Models without Generating a Single Token",
         "url": "https://arxiv.org/abs/2603.05465v1"
       },
@@ -637,14 +641,6 @@
       {
         "title": "Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline",
         "url": "https://arxiv.org/abs/2603.05484v1"
-      },
-      {
-        "title": "Iman-ghotbi/chess-gpt2-finetuned",
-        "url": "https://huggingface.co/Iman-ghotbi/chess-gpt2-finetuned"
-      },
-      {
-        "title": "UmbrellaInc/Albert_Wesker-1B",
-        "url": "https://huggingface.co/UmbrellaInc/Albert_Wesker-1B"
       }
     ],
     "vision_systems": [
@@ -1199,10 +1195,6 @@
         "url": "https://arxiv.org/abs/2603.05315v1"
       },
       {
-        "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
-        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
-      },
-      {
         "title": "FaceCam: Portrait Video Camera Control via Scale-Aware Conditioning",
         "url": "https://arxiv.org/abs/2603.05506v1"
       },
@@ -1617,7 +1609,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1629,7 +1621,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1664,7 +1656,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 36,
+      "frequency": 35,
       "significance": "high"
     },
     {
@@ -1676,6 +1668,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 394
+    "total_papers": 392
   }
 }
