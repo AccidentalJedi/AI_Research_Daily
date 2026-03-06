@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-06T04:38:48.941004",
+  "date": "2026-03-06T08:15:33.650648",
   "patterns": {
     "multimodal_research": [
       {
@@ -311,6 +311,10 @@
       {
         "title": "Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline",
         "url": "https://arxiv.org/abs/2603.05484v1"
+      },
+      {
+        "title": "kshitijthakkar/loggenix-moe-0.4B-0.2A-sft-s4",
+        "url": "https://huggingface.co/kshitijthakkar/loggenix-moe-0.4B-0.2A-sft-s4"
       }
     ],
     "language_models": [
@@ -635,8 +639,12 @@
         "url": "https://arxiv.org/abs/2603.05484v1"
       },
       {
-        "title": "mskang1120/kobert_baseline",
-        "url": "https://huggingface.co/mskang1120/kobert_baseline"
+        "title": "Iman-ghotbi/chess-gpt2-finetuned",
+        "url": "https://huggingface.co/Iman-ghotbi/chess-gpt2-finetuned"
+      },
+      {
+        "title": "UmbrellaInc/Albert_Wesker-1B",
+        "url": "https://huggingface.co/UmbrellaInc/Albert_Wesker-1B"
       }
     ],
     "vision_systems": [
@@ -1191,6 +1199,10 @@
         "url": "https://arxiv.org/abs/2603.05315v1"
       },
       {
+        "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+      },
+      {
         "title": "FaceCam: Portrait Video Camera Control via Scale-Aware Conditioning",
         "url": "https://arxiv.org/abs/2603.05506v1"
       },
@@ -1593,7 +1605,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "59 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1605,7 +1617,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1617,7 +1629,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1652,7 +1664,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 35,
+      "frequency": 36,
       "significance": "high"
     },
     {
@@ -1664,6 +1676,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 391
+    "total_papers": 394
   }
 }
