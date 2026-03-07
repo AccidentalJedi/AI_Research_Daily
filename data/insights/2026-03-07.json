@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-07T16:10:15.588795",
+  "date": "2026-03-07T20:09:45.760029",
   "patterns": {
     "multimodal_research": [
       {
@@ -633,6 +633,10 @@
       {
         "title": "Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline",
         "url": "https://arxiv.org/abs/2603.05484v1"
+      },
+      {
+        "title": "zhuojing-huang/gpt2-spanish-english-bi-vocab-1-4B",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-spanish-english-bi-vocab-1-4B"
       }
     ],
     "vision_systems": [
@@ -1197,6 +1201,14 @@
       {
         "title": "Video-based Locomotion Analysis for Fish Health Monitoring",
         "url": "https://arxiv.org/abs/2603.05407v1"
+      },
+      {
+        "title": "Ech0n0va/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "url": "https://huggingface.co/Ech0n0va/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled"
+      },
+      {
+        "title": "SOTAagi2030/ReasoningModel-Best",
+        "url": "https://huggingface.co/SOTAagi2030/ReasoningModel-Best"
       }
     ],
     "benchmarks": [
@@ -1573,8 +1585,12 @@
         "url": "https://arxiv.org/abs/2603.05484v1"
       },
       {
-        "title": "SOTAagi2030/AssistantModel-Best",
-        "url": "https://huggingface.co/SOTAagi2030/AssistantModel-Best"
+        "title": "SOTAagi2030/MyAwesomeModel-Release",
+        "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-Release"
+      },
+      {
+        "title": "SOTAagi2030/ReasoningModel-Best",
+        "url": "https://huggingface.co/SOTAagi2030/ReasoningModel-Best"
       }
     ]
   },
@@ -1605,7 +1621,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1617,7 +1633,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1629,7 +1645,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "94 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1646,13 +1662,13 @@
       "significance": "high"
     },
     {
-      "topic": "vision",
+      "topic": "reasoning",
       "frequency": 37,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 35,
+      "topic": "vision",
+      "frequency": 37,
       "significance": "high"
     },
     {
@@ -1664,6 +1680,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 391
+    "total_papers": 395
   }
 }
