@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-07T08:11:52.116614",
+  "date": "2026-03-07T12:14:03.912640",
   "patterns": {
     "multimodal_research": [
       {
@@ -623,10 +623,6 @@
         "url": "https://arxiv.org/abs/2603.05315v1"
       },
       {
-        "title": "mradermacher/GPT-OSS-Swallow-120B-RL-v0.1-i1-GGUF",
-        "url": "https://huggingface.co/mradermacher/GPT-OSS-Swallow-120B-RL-v0.1-i1-GGUF"
-      },
-      {
         "title": "HALP: Detecting Hallucinations in Vision-Language Models without Generating a Single Token",
         "url": "https://arxiv.org/abs/2603.05465v1"
       },
@@ -637,10 +633,6 @@
       {
         "title": "Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline",
         "url": "https://arxiv.org/abs/2603.05484v1"
-      },
-      {
-        "title": "zhuojing-huang/gpt2-spanish-english-bi-vocab-13-4B",
-        "url": "https://huggingface.co/zhuojing-huang/gpt2-spanish-english-bi-vocab-13-4B"
       }
     ],
     "vision_systems": [
@@ -923,14 +915,6 @@
       {
         "title": "A Simple Baseline for Unifying Understanding, Generation, and Editing via Vanilla Next-token Prediction",
         "url": "https://arxiv.org/abs/2603.04980v1"
-      },
-      {
-        "title": "CVPROJ25/FINETUNED",
-        "url": "https://huggingface.co/CVPROJ25/FINETUNED"
-      },
-      {
-        "title": "anicka/cve-backport-qwen25-coder-32b-v7",
-        "url": "https://huggingface.co/anicka/cve-backport-qwen25-coder-32b-v7"
       }
     ],
     "reasoning": [
@@ -1589,8 +1573,16 @@
         "url": "https://arxiv.org/abs/2603.05484v1"
       },
       {
-        "title": "SOTAagi2030/MyAwesomeModel-Release",
-        "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-Release"
+        "title": "SOTAagi2030/MultiLangModel-Best",
+        "url": "https://huggingface.co/SOTAagi2030/MultiLangModel-Best"
+      },
+      {
+        "title": "Sota26/Affine-81-5CtTyZYrkZBajSSHeESFdZhHH6JtLep9jMgLeFK5qaerJVJn",
+        "url": "https://huggingface.co/Sota26/Affine-81-5CtTyZYrkZBajSSHeESFdZhHH6JtLep9jMgLeFK5qaerJVJn"
+      },
+      {
+        "title": "Sota26/Affine-80-5CtTyZYrkZBajSSHeESFdZhHH6JtLep9jMgLeFK5qaerJVJn",
+        "url": "https://huggingface.co/Sota26/Affine-80-5CtTyZYrkZBajSSHeESFdZhHH6JtLep9jMgLeFK5qaerJVJn"
       }
     ]
   },
@@ -1621,13 +1613,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1645,7 +1637,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "94 independent papers",
+      "observation": "96 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1680,6 +1672,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 395
+    "total_papers": 393
   }
 }
