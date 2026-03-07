@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-07T04:35:59.039154",
+  "date": "2026-03-07T08:11:52.116614",
   "patterns": {
     "multimodal_research": [
       {
@@ -623,6 +623,10 @@
         "url": "https://arxiv.org/abs/2603.05315v1"
       },
       {
+        "title": "mradermacher/GPT-OSS-Swallow-120B-RL-v0.1-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/GPT-OSS-Swallow-120B-RL-v0.1-i1-GGUF"
+      },
+      {
         "title": "HALP: Detecting Hallucinations in Vision-Language Models without Generating a Single Token",
         "url": "https://arxiv.org/abs/2603.05465v1"
       },
@@ -633,6 +637,10 @@
       {
         "title": "Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline",
         "url": "https://arxiv.org/abs/2603.05484v1"
+      },
+      {
+        "title": "zhuojing-huang/gpt2-spanish-english-bi-vocab-13-4B",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-spanish-english-bi-vocab-13-4B"
       }
     ],
     "vision_systems": [
@@ -917,16 +925,12 @@
         "url": "https://arxiv.org/abs/2603.04980v1"
       },
       {
-        "title": "LWWZH/Mini-Vision-V3",
-        "url": "https://huggingface.co/LWWZH/Mini-Vision-V3"
+        "title": "CVPROJ25/FINETUNED",
+        "url": "https://huggingface.co/CVPROJ25/FINETUNED"
       },
       {
-        "title": "VuNiti/VuMos-28B-Thinking-Vision",
-        "url": "https://huggingface.co/VuNiti/VuMos-28B-Thinking-Vision"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+        "title": "anicka/cve-backport-qwen25-coder-32b-v7",
+        "url": "https://huggingface.co/anicka/cve-backport-qwen25-coder-32b-v7"
       }
     ],
     "reasoning": [
@@ -1583,6 +1587,10 @@
       {
         "title": "Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline",
         "url": "https://arxiv.org/abs/2603.05484v1"
+      },
+      {
+        "title": "SOTAagi2030/MyAwesomeModel-Release",
+        "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-Release"
       }
     ]
   },
@@ -1613,13 +1621,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1637,7 +1645,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "93 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1655,7 +1663,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 39,
+      "frequency": 37,
       "significance": "high"
     },
     {
@@ -1672,6 +1680,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 393
+    "total_papers": 395
   }
 }
