@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-07T00:35:21.600381",
+  "date": "2026-03-07T04:35:59.039154",
   "patterns": {
     "multimodal_research": [
       {
@@ -633,14 +633,6 @@
       {
         "title": "Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline",
         "url": "https://arxiv.org/abs/2603.05484v1"
-      },
-      {
-        "title": "s0ck3t/pentest-gpt-model",
-        "url": "https://huggingface.co/s0ck3t/pentest-gpt-model"
-      },
-      {
-        "title": "KyleShaoKy/chess-smollm2-1.7b",
-        "url": "https://huggingface.co/KyleShaoKy/chess-smollm2-1.7b"
       }
     ],
     "vision_systems": [
@@ -923,6 +915,18 @@
       {
         "title": "A Simple Baseline for Unifying Understanding, Generation, and Editing via Vanilla Next-token Prediction",
         "url": "https://arxiv.org/abs/2603.04980v1"
+      },
+      {
+        "title": "LWWZH/Mini-Vision-V3",
+        "url": "https://huggingface.co/LWWZH/Mini-Vision-V3"
+      },
+      {
+        "title": "VuNiti/VuMos-28B-Thinking-Vision",
+        "url": "https://huggingface.co/VuNiti/VuMos-28B-Thinking-Vision"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1609,13 +1613,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "70 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1651,7 +1655,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 37,
+      "frequency": 39,
       "significance": "high"
     },
     {
@@ -1668,6 +1672,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 392
+    "total_papers": 393
   }
 }
