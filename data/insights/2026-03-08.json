@@ -1,22 +1,33 @@
 {
-  "date": "2026-03-08T16:10:12.362616",
+  "date": "2026-03-08T20:10:00.425446",
   "patterns": {
-    "vision_systems": [
+    "language_models": [
       {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+        "title": "ndearing4/gpt2_on_gsm8k",
+        "url": "https://huggingface.co/ndearing4/gpt2_on_gsm8k"
       },
       {
-        "title": "Sivanuja/Legal_vision_llama-3.1-8B-instruct-v1",
-        "url": "https://huggingface.co/Sivanuja/Legal_vision_llama-3.1-8B-instruct-v1"
+        "title": "AnthonyKamau/chess-smollm2-135m",
+        "url": "https://huggingface.co/AnthonyKamau/chess-smollm2-135m"
+      },
+      {
+        "title": "SykoSLM/SykoLLM-CMN-V5.2-Beta",
+        "url": "https://huggingface.co/SykoSLM/SykoLLM-CMN-V5.2-Beta"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
