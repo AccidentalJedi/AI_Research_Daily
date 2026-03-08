@@ -1,39 +1,22 @@
 {
-  "date": "2026-03-08T12:14:42.920509",
+  "date": "2026-03-08T16:10:12.362616",
   "patterns": {
-    "language_models": [
+    "vision_systems": [
       {
-        "title": "llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v1",
-        "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v1"
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       },
       {
-        "title": "DavidUgCh/death-news_roberta_bs73",
-        "url": "https://huggingface.co/DavidUgCh/death-news_roberta_bs73"
-      }
-    ],
-    "reasoning": [
-      {
-        "title": "llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v1",
-        "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v1"
-      },
-      {
-        "title": "nightmedia/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-qx86-hi-mlx",
-        "url": "https://huggingface.co/nightmedia/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-qx86-hi-mlx"
+        "title": "Sivanuja/Legal_vision_llama-3.1-8B-instruct-v1",
+        "url": "https://huggingface.co/Sivanuja/Legal_vision_llama-3.1-8B-instruct-v1"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "reasoning",
-      "observation": "Reasoning capabilities being explored",
-      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
-      "confidence": "medium"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 2,
-    "total_inferences": 1,
-    "total_papers": 4
+    "total_patterns": 1,
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
