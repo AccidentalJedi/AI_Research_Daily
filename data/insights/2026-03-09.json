@@ -1,33 +1,11 @@
 {
-  "date": "2026-03-09T16:27:40.427668",
-  "patterns": {
-    "language_models": [
-      {
-        "title": "OliverHeine/distilbert-base-uncased_train_v2",
-        "url": "https://huggingface.co/OliverHeine/distilbert-base-uncased_train_v2"
-      },
-      {
-        "title": "math-hiyoko/distilbert-base-uncased-finetuned-clinc",
-        "url": "https://huggingface.co/math-hiyoko/distilbert-base-uncased-finetuned-clinc"
-      },
-      {
-        "title": "zhuojing-huang/gpt2-portuguese-english-bi-vocab-13-4B",
-        "url": "https://huggingface.co/zhuojing-huang/gpt2-portuguese-english-bi-vocab-13-4B"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "date": "2026-03-09T20:13:25.796241",
+  "patterns": {},
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
