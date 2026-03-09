@@ -1,22 +1,17 @@
 {
-  "date": "2026-03-09T04:42:28.972962",
-  "patterns": {
-    "language_models": [
-      {
-        "title": "DavidUgCh/death-news_roberta_bs75",
-        "url": "https://huggingface.co/DavidUgCh/death-news_roberta_bs75"
-      },
-      {
-        "title": "Chidamtek/bert-llvm-ir-vulnerability-detection",
-        "url": "https://huggingface.co/Chidamtek/bert-llvm-ir-vulnerability-detection"
-      }
-    ]
-  },
+  "date": "2026-03-09T08:20:40.784510",
+  "patterns": {},
   "inferences": [],
-  "research_trends": [],
+  "research_trends": [
+    {
+      "topic": "prompt",
+      "frequency": 3,
+      "significance": "medium"
+    }
+  ],
   "stats": {
-    "total_patterns": 1,
+    "total_patterns": 0,
     "total_inferences": 0,
-    "total_papers": 2
+    "total_papers": 0
   }
 }
