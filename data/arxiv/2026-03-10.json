@@ -2,7 +2,7 @@
   {
     "arxiv_id": "2603.08518v1",
     "title": "Breaking the Bias Barrier in Concave Multi-Objective Reinforcement Learning",
-    "summary": "While standard reinforcement learning optimizes a single reward signal, many applications require optimizing a nonlinear utility $f(J_1^\u03c0,\\dots,J_M^\u03c0)$ over multiple objectives, where each $J_m^\u03c0$ denotes the expected discounted return of a distinct reward function. A common approach is concave scalarization, which captures important trade-offs such as fairness and risk sensitivity. However, nonlinear scalarization introduces a fundamental challenge for policy gradient methods: the gradient depends on $\\partial f(J^\u03c0)$, while in practice only empirical return estimates $\\hat J$ are available. Because $f$ is nonlinear, the plug-in estimator is biased ($\\mathbb{E}[\\partial f(\\hat J)] \\neq \\partial f(\\mathbb{E}[\\hat J])$), leading to persistent gradient bias that degrades sample complexity.   In this work we identify and overcome this bias barrier in concave-scalarized multi-objective reinforcement learning. We show that existing policy-gradient methods suffer an intrinsic $\\widetilde{\\mathcal{O}}(\u03b5^{-4})$ sample complexity due to this bias. To address this issue, we develop a Natural Policy Gradient (NPG) algorithm equipped with a multi-level Monte Carlo (MLMC) estimator that controls the bias of the scalarization gradient while maintaining low sampling cost. We prove that this approach achieves the optimal $\\widetilde{\\mathcal{O}}(\u03b5^{-2})$ sample complexity for computing an $\u03b5$-optimal policy. Furthermore, we show that when the scalarization function is second-order smooth, the first-order bias cancels automatically, allowing vanilla NPG to achieve the same $\\widetilde{\\mathcal{O}}(\u03b5^{-2})$ rate without MLMC. Our results provide the first optimal sample complexity guarantees for concave multi-objective reinforcement learning under policy-gradient methods.",
+    "summary": "While standard reinforcement learning optimizes a single reward signal, many applications require optimizing a nonlinear utility $f(J_1^π,\\dots,J_M^π)$ over multiple objectives, where each $J_m^π$ denotes the expected discounted return of a distinct reward function. A common approach is concave scalarization, which captures important trade-offs such as fairness and risk sensitivity. However, nonlinear scalarization introduces a fundamental challenge for policy gradient methods: the gradient depends on $\\partial f(J^π)$, while in practice only empirical return estimates $\\hat J$ are available. Because $f$ is nonlinear, the plug-in estimator is biased ($\\mathbb{E}[\\partial f(\\hat J)] \\neq \\partial f(\\mathbb{E}[\\hat J])$), leading to persistent gradient bias that degrades sample complexity.   In this work we identify and overcome this bias barrier in concave-scalarized multi-objective reinforcement learning. We show that existing policy-gradient methods suffer an intrinsic $\\widetilde{\\mathcal{O}}(ε^{-4})$ sample complexity due to this bias. To address this issue, we develop a Natural Policy Gradient (NPG) algorithm equipped with a multi-level Monte Carlo (MLMC) estimator that controls the bias of the scalarization gradient while maintaining low sampling cost. We prove that this approach achieves the optimal $\\widetilde{\\mathcal{O}}(ε^{-2})$ sample complexity for computing an $ε$-optimal policy. Furthermore, we show that when the scalarization function is second-order smooth, the first-order bias cancels automatically, allowing vanilla NPG to achieve the same $\\widetilde{\\mathcal{O}}(ε^{-2})$ rate without MLMC. Our results provide the first optimal sample complexity guarantees for concave multi-objective reinforcement learning under policy-gradient methods.",
     "authors": [
       "Swetha Ganesh",
       "Vaneet Aggarwal"
@@ -126,7 +126,7 @@
       "Rachel Slama",
       "Justin Reich",
       "Kenneth Koedinger",
-      "Ren\u00e9 Kizilcec"
+      "René Kizilcec"
     ],
     "categories": [
       "cs.HC",
@@ -164,13 +164,13 @@
     "summary": "Recent advances in time-series forecasting increasingly rely on pre-trained foundation-style models. While these models often claim broad generalization, existing evaluation protocols provide limited evidence. Indeed, most current benchmarks use static train-test splits that can easily lead to contamination as foundation models can inadvertently train on test data or perform model selection using test scores, which can inflate performance. We introduce Impermanent, a live benchmark that evaluates forecasting models under open-world temporal change by scoring forecasts sequentially over time on continuously updated data streams, enabling the study of temporal robustness, distributional shift, and performance stability rather than one-off accuracy on a frozen test set. Impermanent is instantiated on GitHub open-source activity, providing a naturally live and highly non-stationary dataset shaped by releases, shifting contributor behavior, platform/tooling changes, and external events. We focus on the top 400 repositories by star count and construct time series from issues opened, pull requests opened, push events, and new stargazers, evaluated over a rolling window with daily updates, alongside standardized protocols and leaderboards for reproducible, ongoing comparison. By shifting evaluation from static accuracy to sustained performance, Impermanent takes a concrete step toward assessing when and whether foundation-level generalization in time-series forecasting can be meaningfully claimed. Code and a live dashboard are available at https://github.com/TimeCopilot/impermanent and https://impermanent.timecopilot.dev.",
     "authors": [
       "Azul Garza",
-      "Ren\u00e9e Rosillo",
+      "Renée Rosillo",
       "Rodrigo Mendoza-Smith",
       "David Salinas",
       "Andrew Robert Williams",
       "Arjun Ashok",
       "Mononito Goswami",
-      "Jos\u00e9 Mart\u00edn Ju\u00e1rez"
+      "José Martín Juárez"
     ],
     "categories": [
       "cs.LG"
@@ -187,7 +187,7 @@
     "title": "Grow, Assess, Compress: Adaptive Backbone Scaling for Memory-Efficient Class Incremental Learning",
     "summary": "Class Incremental Learning (CIL) poses a fundamental challenge: maintaining a balance between the plasticity required to learn new tasks and the stability needed to prevent catastrophic forgetting. While expansion-based methods effectively mitigate forgetting by adding task-specific parameters, they suffer from uncontrolled architectural growth and memory overhead. In this paper, we propose a novel dynamic scaling framework that adaptively manages model capacity through a cyclic \"GRow, Assess, ComprEss\" (GRACE) strategy. Crucially, we supplement backbone expansion with a novel saturation assessment phase that evaluates the utilization of the model's capacity. This assessment allows the framework to make informed decisions to either expand the architecture or compress the backbones into a streamlined representation, preventing parameter explosion. Experimental results demonstrate that our approach achieves state-of-the-art performance across multiple CIL benchmarks, while reducing memory footprint by up to a 73% compared to purely expansionist models.",
     "authors": [
-      "Adrian Garcia-Casta\u00f1eda",
+      "Adrian Garcia-Castañeda",
       "Jon Irureta",
       "Jon Imaz",
       "Aizea Lojo"
@@ -272,7 +272,7 @@
     "summary": "Audiovisual speech recognition (AVSR) combines acoustic and visual cues to improve transcription robustness under challenging conditions but remains out of reach for most under-resourced languages due to the lack of labeled video corpora for training. We propose a zero-AV-resource AVSR framework that relies on synthetic visual streams generated by lip-syncing static facial images with real audio.   We first evaluate synthetic visual augmentation on Spanish benchmarks, then apply it to Catalan, a language with no annotated audiovisual corpora. We synthesize over 700 hours of talking-head video and fine-tune a pre-trained AV-HuBERT model. On a manually annotated Catalan benchmark, our model achieves near state-of-the-art performance with much fewer parameters and training data, outperforms an identically trained audio-only baseline, and preserves multimodal advantages in noise. Scalable synthetic video thus offers a viable substitute for real recordings in zero-AV-resource AVSR.",
     "authors": [
       "Pol Buitrago",
-      "Pol G\u00e0lvez",
+      "Pol Gàlvez",
       "Oriol Pareras",
       "Javier Hernando"
     ],
@@ -547,11 +547,11 @@
     "title": "DualFlexKAN: Dual-stage Kolmogorov-Arnold Networks with Independent Function Control",
     "summary": "Multi-Layer Perceptrons (MLPs) rely on pre-defined, fixed activation functions, imposing a static inductive bias that forces the network to approximate complex topologies solely through increased depth and width. Kolmogorov-Arnold Networks (KANs) address this limitation through edge-centric learnable functions, yet their formulation suffers from quadratic parameter scaling and architectural rigidity that hinders the effective integration of standard regularization techniques. This paper introduces the DualFlexKAN (DFKAN), a flexible architecture featuring a dual-stage mechanism that independently controls pre-linear input transformations and post-linear output activations. This decoupling enables hybrid networks that optimize the trade-off between expressiveness and computational cost. Unlike standard formulations, DFKAN supports diverse basis function families, including orthogonal polynomials, B-splines, and radial basis functions, integrated with configurable regularization strategies that stabilize training dynamics. Comprehensive evaluations across regression benchmarks, physics-informed tasks, and function approximation demonstrate that DFKAN outperforms both MLPs and conventional KANs in accuracy, convergence speed, and gradient fidelity. The proposed hybrid configurations achieve superior performance with one to two orders of magnitude fewer parameters than standard KANs, effectively mitigating the parameter explosion problem while preserving KAN-style expressiveness. DFKAN provides a principled, scalable framework for incorporating adaptive non-linearities, proving particularly advantageous for data-efficient learning and interpretable function discovery in scientific applications.",
     "authors": [
-      "Andr\u00e9s Ortiz",
-      "Nicol\u00e1s J. Gallego-Molina",
-      "Carmen Jim\u00e9nez-Mesa",
-      "Juan M. G\u00f3rriz",
-      "Javier Ram\u00edrez"
+      "Andrés Ortiz",
+      "Nicolás J. Gallego-Molina",
+      "Carmen Jiménez-Mesa",
+      "Juan M. Górriz",
+      "Javier Ramírez"
     ],
     "categories": [
       "cs.LG",
@@ -863,7 +863,7 @@
     "title": "Data-Driven Priors for Uncertainty-Aware Deterioration Risk Prediction with Multimodal Data",
     "summary": "Safe predictions are a crucial requirement for integrating predictive models into clinical decision support systems. One approach for ensuring trustworthiness is to enable models' ability to express their uncertainty about individual predictions. However, current machine learning models frequently lack reliable uncertainty estimation, hindering real-world deployment. This is further observed in multimodal settings, where the goal is to enable effective information fusion. In this work, we propose $\\texttt{MedCertAIn}$, a predictive uncertainty framework that leverages multimodal clinical data for in-hospital risk prediction to improve model performance and reliability. We design data-driven priors over neural network parameters using a hybrid strategy that considers cross-modal similarity in self-supervised latent representations and modality-specific data corruptions. We train and evaluate the models with such priors using clinical time-series and chest X-ray images from the publicly-available datasets MIMIC-IV and MIMIC-CXR. Our results show that $\\texttt{MedCertAIn}$ significantly improves predictive performance and uncertainty quantification compared to state-of-the-art deterministic baselines and alternative Bayesian methods. These findings highlight the promise of data-driven priors in advancing robust, uncertainty-aware AI tools for high-stakes clinical applications.",
     "authors": [
-      "L. Juli\u00e1n Lechuga L\u00f3pez",
+      "L. Julián Lechuga López",
       "Tim G. J. Rudner",
       "Farah E. Shamout"
     ],
@@ -882,7 +882,7 @@
     "title": "Meta-RL with Shared Representations Enables Fast Adaptation in Energy Systems",
     "summary": "Meta-Reinforcement Learning addresses the critical limitations of conventional Reinforcement Learning in multi-task and non-stationary environments by enabling fast policy adaptation and improved generalization. We introduce a novel Meta-RL framework that integrates a bi-level optimization scheme with a hybrid actor-critic architecture specially designed to enhance sample efficiency and inter-task adaptability. To improve knowledge transfer, we meta-learn a shared state feature extractor jointly optimized across actor and critic networks, providing efficient representation learning and limiting overfitting to individual tasks or dominant profiles. Additionally, we propose a parameter-sharing mechanism between the outer- and inner-loop actor networks, to reduce redundant learning and accelerate adaptation during task revisitation. The approach is validated on a real-world Building Energy Management Systems dataset covering nearly a decade of temporal and structural variability, for which we propose a task preparation method to promote generalization. Experiments demonstrate effective task adaptation and better performance compared to conventional RL and Meta-RL methods.",
     "authors": [
-      "Th\u00e9o Zangato",
+      "Théo Zangato",
       "Aomar Osmani",
       "Pegah Alizadeh"
     ],
@@ -903,7 +903,7 @@
     "authors": [
       "Marcin Kostrzewa",
       "Krzysztof Galus",
-      "Maciej Zi\u0119ba"
+      "Maciej Zięba"
     ],
     "categories": [
       "cs.LG",
@@ -924,8 +924,8 @@
     "authors": [
       "Chaimae Chellaf",
       "Salima Mdhaffar",
-      "Yannick Est\u00e8ve",
-      "St\u00e9phane Huet"
+      "Yannick Estève",
+      "Stéphane Huet"
     ],
     "categories": [
       "cs.CL"
@@ -965,7 +965,7 @@
       "Sergio Romero-Tapiador",
       "Ruben Tolosana",
       "Aythami Morales",
-      "Guillermo Gonz\u00e1lez de Rivera",
+      "Guillermo González de Rivera",
       "Ruben Vera-Rodriguez",
       "Julian Fierrez"
     ],
@@ -1275,7 +1275,7 @@
     "summary": "Object co-occurrences provide a key cue for finding objects successfully and efficiently in unfamiliar environments. Typically, one looks for cups in kitchens and views fridges as evidence of being in a kitchen. Such priors have also been exploited in artificial agents, but they are typically learned from explicitly labeled data or queried from language models. It is still unclear whether these relations can be learned implicitly from unlabeled observations alone. In this work, we address this problem and propose ProReFF, a feature field model trained to predict relative distributions of features obtained from pre-trained vision language models. In addition, we introduce a learning-based strategy that enables training from unlabeled and potentially contradictory data by aligning inconsistent observations into a coherent relative distribution. For the downstream object search task, we propose an agent that leverages predicted feature distributions as a semantic prior to guide exploration toward regions with a high likelihood of containing the object. We present extensive evaluations demonstrating that ProReFF captures meaningful relative feature distributions in natural scenes and provides insight into the impact of our proposed alignment step. We further evaluate the performance of our search agent in 100 challenges in the Matterport3D simulator, comparing with feature-based baselines and human participants. The proposed agent is 20% more efficient than the strongest baseline and achieves up to 80% of human performance.",
     "authors": [
       "Gabriele Somaschini",
-      "Adrian R\u00f6fer",
+      "Adrian Röfer",
       "Abhinav Valada"
     ],
     "categories": [
@@ -1430,11 +1430,11 @@
     "authors": [
       "Seongjin Bien",
       "Carlo Kneissl",
-      "Tobias J\u00fclg",
+      "Tobias Jülg",
       "Frank Fundel",
       "Thomas Ressler-Antal",
       "Florian Walter",
-      "Bj\u00f6rn Ommer",
+      "Björn Ommer",
       "Gitta Kutyniok",
       "Wolfram Burgard"
     ],
@@ -1532,10 +1532,10 @@
     "summary": "A reliable representation of uncertainty is essential for the application of modern machine learning methods in safety-critical settings. In this regard, the use of credal sets (i.e., convex sets of probability distributions) has recently been proposed as a suitable approach to representing epistemic uncertainty. However, as with other approaches to epistemic uncertainty, training credal predictors is computationally complex and usually involves (re-)training an ensemble of models. The resulting computational complexity prevents their adoption for complex models such as foundation models and multi-modal systems. To address this problem, we propose an efficient method for credal prediction that is grounded in the notion of relative likelihood and inspired by techniques for the calibration of probabilistic classifiers. For each class label, our method predicts a range of plausible probabilities in the form of an interval. To produce the lower and upper bounds of these intervals, we propose a technique that we refer to as decalibration. Extensive experiments show that our method yields credal sets with strong performance across diverse tasks, including coverage-efficiency evaluation, out-of-distribution detection, and in-context learning. Notably, we demonstrate credal prediction on models such as TabPFN and CLIP -- architectures for which the construction of credal sets was previously infeasible.",
     "authors": [
       "Paul Hofman",
-      "Timo L\u00f6hr",
+      "Timo Löhr",
       "Maximilian Muschalik",
       "Yusuf Sale",
-      "Eyke H\u00fcllermeier"
+      "Eyke Hüllermeier"
     ],
     "categories": [
       "cs.LG",
@@ -1725,9 +1725,9 @@
     "title": "Local-Global Prompt Learning via Sparse Optimal Transport",
     "summary": "Few-shot adaptation of vision-language models (VLMs) like CLIP typically relies on learning textual prompts matched to global image embeddings. Recent works extend this paradigm by incorporating local image-text alignment to capture fine-grained visual cues, yet these approaches often select local regions independently for each prompt, leading to redundant local feature usage and prompt overlap. We propose SOT-GLP, which introduces a shared sparse patch support and balanced optimal transport allocation to explicitly partition salient visual regions among class-specific local prompts while preserving global alignment. Our method learns shared global prompts and class-specific local prompts. The global branch maintains standard image-text matching for robust category-level alignment. The local branch constructs a class-conditioned sparse patch set using V-V attention and aligns it to multiple class-specific prompts via balanced entropic optimal transport, yielding a soft partition of patches that prevents prompt overlap and collapse. We evaluate our method on two complementary objectives: (i) few-shot classification accuracy on 11 standard benchmarks and (ii) out-of-distribution (OOD) detection. On the standard 11-dataset benchmark with 16-shot ViT-B/16, SOT-GLP achieves 85.1% average accuracy, outperforming prior prompt-learning methods. We identify a distinct accuracy-robustness trade-off in prompt learning: while learnable projections optimize in-distribution fit, they alter the foundational feature space. We demonstrate that a projection-free local alignment preserves the native geometry of the CLIP manifold, yielding state-of-the-art OOD detection performance (94.2% AUC) that surpasses fully adapted models. Implementation available at: https://github.com/Deniz2304988/SOT-GLP",
     "authors": [
-      "Deniz Kizaro\u011flu",
-      "\u00dclku Tuncer K\u00fc\u00e7\u00fcktas",
-      "Emre \u00c7akmakyurdu",
+      "Deniz Kizaroğlu",
+      "Ülku Tuncer Küçüktas",
+      "Emre Çakmakyurdu",
       "Alptekin Temizel"
     ],
     "categories": [
@@ -1871,7 +1871,7 @@
     "title": "ImprovedGS+: A High-Performance C++/CUDA Re-Implementation Strategy for 3D Gaussian Splatting",
     "summary": "Recent advancements in 3D Gaussian Splatting (3DGS) have shifted the focus toward balancing reconstruction fidelity with computational efficiency. In this work, we propose ImprovedGS+, a high-performance, low-level reinvention of the ImprovedGS strategy, implemented natively within the LichtFeld-Studio framework. By transitioning from high-level Python logic to hardware-optimized C++/CUDA kernels, we achieve a significant reduction in host-device synchronization and training latency. Our implementation introduces a Long-Axis-Split (LAS) CUDA kernel, custom Laplacian-based importance kernels with Non-Maximum Suppression (NMS) for edge scores, and an adaptive Exponential Scale Scheduler. Experimental results on the Mip-NeRF360 dataset demonstrate that ImprovedGS+ establishes a new Pareto-optimal front for scene reconstruction. Our 1M-budget variant outperforms the state-of-the-art MCMC baseline by achieving a 26.8% reduction in training time (saving 17 minutes per session) and utilizing 13.3% fewer Gaussians while maintaining superior visual quality. Furthermore, our full variant demonstrates a 1.28 dB PSNR increase over the ADC baseline with a 38.4% reduction in parametric complexity. These results validate ImprovedGS+ as a scalable, high-speed solution that upholds the core pillars of Speed, Quality, and Usability within the LichtFeld-Studio ecosystem.",
     "authors": [
-      "Jordi Mu\u00f1oz Vicente"
+      "Jordi Muñoz Vicente"
     ],
     "categories": [
       "cs.CV"
@@ -1934,10 +1934,10 @@
     "title": "ALOOD: Exploiting Language Representations for LiDAR-based Out-of-Distribution Object Detection",
     "summary": "LiDAR-based 3D object detection plays a critical role for reliable and safe autonomous driving systems. However, existing detectors often produce overly confident predictions for objects not belonging to known categories, posing significant safety risks. This is caused by so-called out-of-distribution (OOD) objects, which were not part of the training data, resulting in incorrect predictions. To address this challenge, we propose ALOOD (Aligned LiDAR representations for Out-Of-Distribution Detection), a novel approach that incorporates language representations from a vision-language model (VLM). By aligning the object features from the object detector to the feature space of the VLM, we can treat the detection of OOD objects as a zero-shot classification task. We demonstrate competitive performance on the nuScenes OOD benchmark, establishing a novel approach to OOD object detection in LiDAR using language representations. The source code is available at https://github.com/uulm-mrm/mmood3d.",
     "authors": [
-      "Michael K\u00f6sel",
+      "Michael Kösel",
       "Marcel Schreiber",
       "Michael Ulrich",
-      "Claudius Gl\u00e4ser",
+      "Claudius Gläser",
       "Klaus Dietmayer"
     ],
     "categories": [
@@ -2166,14 +2166,14 @@
   {
     "arxiv_id": "2603.08219v1",
     "title": "Wiener Chaos Expansion based Neural Operator for Singular Stochastic Partial Differential Equations",
-    "summary": "In this paper, we explore how our recently developed Wiener Chaos Expansion (WCE)-based neural operator (NO) can be applied to singular stochastic partial differential equations, e.g., the dynamic $\\boldsymbol\u03a6^4_2$ model simulated in the recent works. Unlike the previous WCE-NO which solves SPDEs by simply inserting Wick-Hermite features into the backbone NO model, we leverage feature-wise linear modulation (FiLM) to appropriately capture the dependency between the solution of singular SPDE and its smooth remainder. The resulting WCE-FiLM-NO shows excellent performance on $\\boldsymbol\u03a6^4_2$, as measured by relative $L_2$ loss, out-of-distribution $L_2$ loss, and autocorrelation score; all without the help of renormalisation factor. In addition, we also show the potential of simulating $\\boldsymbol\u03a6^4_3$ data, which is more aligned with real scientific practice in statistical quantum field theory. To the best of our knowledge, this is among the first works to develop an efficient data-driven surrogate for the dynamical $\\boldsymbol\u03a6^4_3$ model.",
+    "summary": "In this paper, we explore how our recently developed Wiener Chaos Expansion (WCE)-based neural operator (NO) can be applied to singular stochastic partial differential equations, e.g., the dynamic $\\boldsymbolΦ^4_2$ model simulated in the recent works. Unlike the previous WCE-NO which solves SPDEs by simply inserting Wick-Hermite features into the backbone NO model, we leverage feature-wise linear modulation (FiLM) to appropriately capture the dependency between the solution of singular SPDE and its smooth remainder. The resulting WCE-FiLM-NO shows excellent performance on $\\boldsymbolΦ^4_2$, as measured by relative $L_2$ loss, out-of-distribution $L_2$ loss, and autocorrelation score; all without the help of renormalisation factor. In addition, we also show the potential of simulating $\\boldsymbolΦ^4_3$ data, which is more aligned with real scientific practice in statistical quantum field theory. To the best of our knowledge, this is among the first works to develop an efficient data-driven surrogate for the dynamical $\\boldsymbolΦ^4_3$ model.",
     "authors": [
       "Dai Shi",
       "Luke Thompson",
       "Andi Han",
       "Peiyan Hu",
       "Junbin Gao",
-      "Jos\u00e9 Miguel Hern\u00e1ndez-Lobato"
+      "José Miguel Hernández-Lobato"
     ],
     "categories": [
       "cs.LG"
@@ -2280,11 +2280,11 @@
     "summary": "Electrocardiography (ECG) is a low-cost, widely used modality for diagnosing electrical abnormalities like atrial fibrillation by capturing the heart's electrical activity. However, it cannot directly measure cardiac morphological phenotypes, such as left ventricular ejection fraction (LVEF), which typically require echocardiography (Echo). Predicting these phenotypes from ECG would enable early, accessible health screening. Existing self-supervised methods suffer from a representational mismatch by aligning ECGs to single-view Echos, which only capture local, spatially restricted anatomical snapshots. To address this, we propose Echo2ECG, a multimodal self-supervised learning framework that enriches ECG representations with the heart's morphological structure captured in multi-view Echos. We evaluate Echo2ECG as an ECG feature extractor on two clinically relevant tasks that fundamentally require morphological information: (1) classification of structural cardiac phenotypes across three datasets, and (2) retrieval of Echo studies with similar morphological characteristics using ECG queries. Our extracted ECG representations consistently outperform those of state-of-the-art unimodal and multimodal baselines across both tasks, despite being 18x smaller than the largest baseline. These results demonstrate that Echo2ECG is a robust, powerful ECG feature extractor. Our code is accessible at https://github.com/michelleespranita/Echo2ECG.",
     "authors": [
       "Michelle Espranita Liman",
-      "\u00d6zg\u00fcn Turgut",
-      "Alexander M\u00fcller",
+      "Özgün Turgut",
+      "Alexander Müller",
       "Eimo Martens",
       "Daniel Rueckert",
-      "Philip M\u00fcller"
+      "Philip Müller"
     ],
     "categories": [
       "cs.LG",
@@ -2326,7 +2326,7 @@
       "Outi Savolainen",
       "Dominik Baumann",
       "Laura Ruotsalainen",
-      "Simo S\u00e4rkk\u00e4"
+      "Simo Särkkä"
     ],
     "categories": [
       "eess.SY",
@@ -2680,7 +2680,7 @@
     "authors": [
       "Mina Jamshidi Idaji",
       "Julius Hense",
-      "Tom Neuh\u00e4user",
+      "Tom Neuhäuser",
       "Augustin Krause",
       "Yanqing Luo",
       "Oliver Eberle",
@@ -2692,7 +2692,7 @@
       "Christoph Walz",
       "Frederick Klauschen",
       "Andreas Mock",
-      "Klaus-Robert M\u00fcller"
+      "Klaus-Robert Müller"
     ],
     "categories": [
       "cs.CV",
@@ -2712,12 +2712,12 @@
     "authors": [
       "Toms Bergmanis",
       "Martins Kronis",
-      "Ingus J\u0101nis Pretkalni\u0146\u0161",
-      "D\u0101vis Nicmanis",
-      "Je\u013cizaveta Je\u013cinska",
+      "Ingus Jānis Pretkalniņš",
+      "Dāvis Nicmanis",
+      "Jeļizaveta Jeļinska",
       "Roberts Rozis",
-      "Rinalds V\u012bksna",
-      "M\u0101rcis Pinnis"
+      "Rinalds Vīksna",
+      "Mārcis Pinnis"
     ],
     "categories": [
       "cs.CL",
@@ -2800,7 +2800,7 @@
       "Helena Stegherr",
       "Neele Kemper",
       "Michael Heider",
-      "J\u00f6rg H\u00e4hner"
+      "Jörg Hähner"
     ],
     "categories": [
       "cs.NE",
@@ -2818,9 +2818,9 @@
     "title": "SYNAPSE: Framework for Neuron Analysis and Perturbation in Sequence Encoding",
     "summary": "In recent years, Artificial Intelligence has become a powerful partner for complex tasks such as data analysis, prediction, and problem-solving, yet its lack of transparency raises concerns about its reliability. In sensitive domains such as healthcare or cybersecurity, ensuring transparency, trustworthiness, and robustness is essential, since the consequences of wrong decisions or successful attacks can be severe. Prior neuron-level interpretability approaches are primarily descriptive, task-dependent, or require retraining, which limits their use as systematic, reusable tools for evaluating internal robustness across architectures and domains. To overcome these limitations, this work proposes SYNAPSE, a systematic, training-free framework for understanding and stress-testing the internal behavior of Transformer models across domains. It extracts per-layer [CLS] representations, trains a lightweight linear probe to obtain global and per-class neuron rankings, and applies forward-hook interventions during inference. This design enables controlled experiments on internal representations without altering the original model, thereby allowing weaknesses, stability patterns, and label-specific sensitivities to be measured and compared directly across tasks and architectures. Across all experiments, SYNAPSE reveals a consistent, domain-independent organization of internal representations, in which task-relevant information is encoded in broad, overlapping neuron subsets. This redundancy provides a strong degree of functional stability, while class-wise asymmetries expose heterogeneous specialization patterns and enable label-aware analysis. In contrast, small structured manipulations in weight or logit space are sufficient to redirect predictions, highlighting complementary vulnerability profiles and illustrating how SYNAPSE can guide the development of more robust Transformer models.",
     "authors": [
-      "Jes\u00fas S\u00e1nchez Ochoa",
-      "Enrique Tom\u00e1s Mart\u00ednez Beltr\u00e1n",
-      "Alberto Huertas Celdr\u00e1n"
+      "Jesús Sánchez Ochoa",
+      "Enrique Tomás Martínez Beltrán",
+      "Alberto Huertas Celdrán"
     ],
     "categories": [
       "cs.LG",
@@ -2885,7 +2885,7 @@
     "authors": [
       "Maryem Bouziane",
       "Salima Mdhaffar",
-      "Yannick Est\u00e8ve"
+      "Yannick Estève"
     ],
     "categories": [
       "cs.CL"
@@ -3225,8 +3225,8 @@
   },
   {
     "arxiv_id": "2603.08361v1",
-    "title": "$\u0394$VLA: Prior-Guided Vision-Language-Action Models via World Knowledge Variation",
-    "summary": "Recent vision-language-action (VLA) models have significantly advanced robotic manipulation by unifying perception, reasoning, and control. To achieve such integration, recent studies adopt a predictive paradigm that models future visual states or world knowledge to guide action generation. However, these models emphasize forecasting outcomes rather than reasoning about the underlying process of change, which is essential for determining how to act. To address this, we propose $\u0394$VLA, a prior-guided framework that models world-knowledge variations relative to an explicit current-world knowledge prior for action generation, rather than regressing absolute future world states. Specifically, 1) to construct the current world knowledge prior, we propose the Prior-Guided WorldKnowledge Extractor (PWKE). It extracts manipulable regions, spatial relations, and semantic cues from the visual input, guided by auxiliary heads and prior pseudo labels, thus reducing redundancy. 2) Building upon this, to represent how world knowledge evolves under actions, we introduce the Latent World Variation Quantization (LWVQ). It learns a discrete latent space via a VQ-VAE objective to encode world knowledge variations, shifting prediction from full modalities to compact latent. 3)Moreover, to mitigate interference during variation modeling, we design the Conditional Variation Attention (CV-Atten), whichpromotes disentangled learning and preserves the independence of knowledge representations. Extensive experiments on both simulated benchmarks and real-world robotic tasks demonstrate $\u0394$VLA achieves state-of-the-art performance while improving efficiency. Code and real-world execution videos are available at https://github.com/JiuTian-VL/DeltaVLA.",
+    "title": "$Δ$VLA: Prior-Guided Vision-Language-Action Models via World Knowledge Variation",
+    "summary": "Recent vision-language-action (VLA) models have significantly advanced robotic manipulation by unifying perception, reasoning, and control. To achieve such integration, recent studies adopt a predictive paradigm that models future visual states or world knowledge to guide action generation. However, these models emphasize forecasting outcomes rather than reasoning about the underlying process of change, which is essential for determining how to act. To address this, we propose $Δ$VLA, a prior-guided framework that models world-knowledge variations relative to an explicit current-world knowledge prior for action generation, rather than regressing absolute future world states. Specifically, 1) to construct the current world knowledge prior, we propose the Prior-Guided WorldKnowledge Extractor (PWKE). It extracts manipulable regions, spatial relations, and semantic cues from the visual input, guided by auxiliary heads and prior pseudo labels, thus reducing redundancy. 2) Building upon this, to represent how world knowledge evolves under actions, we introduce the Latent World Variation Quantization (LWVQ). It learns a discrete latent space via a VQ-VAE objective to encode world knowledge variations, shifting prediction from full modalities to compact latent. 3)Moreover, to mitigate interference during variation modeling, we design the Conditional Variation Attention (CV-Atten), whichpromotes disentangled learning and preserves the independence of knowledge representations. Extensive experiments on both simulated benchmarks and real-world robotic tasks demonstrate $Δ$VLA achieves state-of-the-art performance while improving efficiency. Code and real-world execution videos are available at https://github.com/JiuTian-VL/DeltaVLA.",
     "authors": [
       "Yijie Zhu",
       "Jie He",
@@ -3488,7 +3488,7 @@
   {
     "arxiv_id": "2603.08578v1",
     "title": "Drift-to-Action Controllers: Budgeted Interventions with Online Risk Certificates",
-    "summary": "Deployed machine learning systems face distribution drift, yet most monitoring pipelines stop at alarms and leave the response underspecified under labeling, compute, and latency constraints. We introduce Drift2Act, a drift-to-action controller that treats monitoring as constrained decision-making with explicit safety. Drift2Act combines a sensing layer that maps unlabeled monitoring signals to a belief over drift types with an active risk certificate that queries a small set of delayed labels from a recent window to produce an anytime-valid upper bound $U_t(\u03b4)$ on current risk. The certificate gates operation: if $U_t(\u03b4) \\le \u03c4$, the controller selects low-cost actions (e.g., recalibration or test-time adaptation); if $U_t(\u03b4) > \u03c4$, it activates abstain/handoff and escalates to rollback or retraining under cooldowns. In a realistic streaming protocol with label delay and explicit intervention costs, Drift2Act achieves near-zero safety violations and fast recovery at moderate cost on WILDS Camelyon17, DomainNet, and a controlled synthetic drift stream, outperforming alarm-only monitoring, adapt-always adaptation, schedule-based retraining, selective prediction alone, and an ablation without certification. Overall, online risk certification enables reliable drift response and reframes monitoring as decision-making with safety.",
+    "summary": "Deployed machine learning systems face distribution drift, yet most monitoring pipelines stop at alarms and leave the response underspecified under labeling, compute, and latency constraints. We introduce Drift2Act, a drift-to-action controller that treats monitoring as constrained decision-making with explicit safety. Drift2Act combines a sensing layer that maps unlabeled monitoring signals to a belief over drift types with an active risk certificate that queries a small set of delayed labels from a recent window to produce an anytime-valid upper bound $U_t(δ)$ on current risk. The certificate gates operation: if $U_t(δ) \\le τ$, the controller selects low-cost actions (e.g., recalibration or test-time adaptation); if $U_t(δ) > τ$, it activates abstain/handoff and escalates to rollback or retraining under cooldowns. In a realistic streaming protocol with label delay and explicit intervention costs, Drift2Act achieves near-zero safety violations and fast recovery at moderate cost on WILDS Camelyon17, DomainNet, and a controlled synthetic drift stream, outperforming alarm-only monitoring, adapt-always adaptation, schedule-based retraining, selective prediction alone, and an ablation without certification. Overall, online risk certification enables reliable drift response and reframes monitoring as decision-making with safety.",
     "authors": [
       "Ismail Lamaakal",
       "Chaymae Yahyati",
@@ -3612,7 +3612,7 @@
       "Yun Liu",
       "Juraj Gottweis",
       "Dale R. Webster",
-      "Jo\u00eblle Barral",
+      "Joëlle Barral",
       "Katherine Chou",
       "Pushmeet Kohli",
       "Avinatan Hassidim",
@@ -3732,7 +3732,7 @@
   {
     "arxiv_id": "2603.08648v1",
     "title": "CAST: Modeling Visual State Transitions for Consistent Video Retrieval",
-    "summary": "As video content creation shifts toward long-form narratives, composing short clips into coherent storylines becomes increasingly important. However, prevailing retrieval formulations remain context-agnostic at inference time, prioritizing local semantic alignment while neglecting state and identity consistency. To address this structural limitation, we formalize the task of Consistent Video Retrieval (CVR) and introduce a diagnostic benchmark spanning YouCook2, COIN, and CrossTask. We propose CAST (Context-Aware State Transition), a lightweight, plug-and-play adapter compatible with diverse frozen vision-language embedding spaces. By predicting a state-conditioned residual update ($\u0394$) from visual history, CAST introduces an explicit inductive bias for latent state evolution. Extensive experiments show that CAST improves performance on YouCook2 and CrossTask, remains competitive on COIN, and consistently outperforms zero-shot baselines across diverse foundation backbones. Furthermore, CAST provides a useful reranking signal for black-box video generation candidates (e.g., from Veo), promoting more temporally coherent continuations.",
+    "summary": "As video content creation shifts toward long-form narratives, composing short clips into coherent storylines becomes increasingly important. However, prevailing retrieval formulations remain context-agnostic at inference time, prioritizing local semantic alignment while neglecting state and identity consistency. To address this structural limitation, we formalize the task of Consistent Video Retrieval (CVR) and introduce a diagnostic benchmark spanning YouCook2, COIN, and CrossTask. We propose CAST (Context-Aware State Transition), a lightweight, plug-and-play adapter compatible with diverse frozen vision-language embedding spaces. By predicting a state-conditioned residual update ($Δ$) from visual history, CAST introduces an explicit inductive bias for latent state evolution. Extensive experiments show that CAST improves performance on YouCook2 and CrossTask, remains competitive on COIN, and consistently outperforms zero-shot baselines across diverse foundation backbones. Furthermore, CAST provides a useful reranking signal for black-box video generation candidates (e.g., from Veo), promoting more temporally coherent continuations.",
     "authors": [
       "Yanqing Liu",
       "Yingcheng Liu",
@@ -3837,7 +3837,7 @@
   {
     "arxiv_id": "2603.08287v1",
     "title": "Posterior Sampling Reinforcement Learning with Gaussian Processes for Continuous Control: Sublinear Regret Bounds for Unbounded State Spaces",
-    "summary": "We analyze the Bayesian regret of the Gaussian process posterior sampling reinforcement learning (GP-PSRL) algorithm. Posterior sampling is an effective heuristic for decision-making under uncertainty that has been used to develop successful algorithms for a variety of continuous control problems. However, theoretical work on GP-PSRL is limited. All known regret bounds either fail to achieve a tight dependence on a kernel-dependent quantity called the maximum information gain or fail to properly account for the fact that the set of possible system states is unbounded. Through a recursive application of the Borell-Tsirelson-Ibragimov-Sudakov inequality, we show that, with high probability, the states actually visited by the algorithm are contained within a ball of near-constant radius. To obtain tight dependence on the maximum information gain, we use the chaining method to control the regret suffered by GP-PSRL. Our main result is a Bayesian regret bound of the order $\\widetilde{\\mathcal{O}}(H^{3/2}\\sqrt{\u03b3_{T/H} T})$, where $H$ is the horizon, $T$ is the number of time steps and $\u03b3_{T/H}$ is the maximum information gain. With this result, we resolve the limitations with prior theoretical work on PSRL, and provide the theoretical foundation and tools for analyzing PSRL in complex settings.",
+    "summary": "We analyze the Bayesian regret of the Gaussian process posterior sampling reinforcement learning (GP-PSRL) algorithm. Posterior sampling is an effective heuristic for decision-making under uncertainty that has been used to develop successful algorithms for a variety of continuous control problems. However, theoretical work on GP-PSRL is limited. All known regret bounds either fail to achieve a tight dependence on a kernel-dependent quantity called the maximum information gain or fail to properly account for the fact that the set of possible system states is unbounded. Through a recursive application of the Borell-Tsirelson-Ibragimov-Sudakov inequality, we show that, with high probability, the states actually visited by the algorithm are contained within a ball of near-constant radius. To obtain tight dependence on the maximum information gain, we use the chaining method to control the regret suffered by GP-PSRL. Our main result is a Bayesian regret bound of the order $\\widetilde{\\mathcal{O}}(H^{3/2}\\sqrt{γ_{T/H} T})$, where $H$ is the horizon, $T$ is the number of time steps and $γ_{T/H}$ is the maximum information gain. With this result, we resolve the limitations with prior theoretical work on PSRL, and provide the theoretical foundation and tools for analyzing PSRL in complex settings.",
     "authors": [
       "Hamish Flynn",
       "Joe Watson",
@@ -4007,7 +4007,7 @@
     "title": "Computational modeling of early language learning from acoustic speech and audiovisual input without linguistic priors",
     "summary": "Learning to understand speech appears almost effortless for typically developing infants, yet from an information-processing perspective, acquiring a language from acoustic speech is an enormous challenge. This chapter reviews recent developments in using computational models to understand early language acquisition from speech and audiovisual input. The focus is on self-supervised and visually grounded models of perceptual learning. We show how these models are becoming increasingly powerful in learning various aspects of speech without strong linguistic priors, and how many features of early language development can be explained through a shared set of learning principles-principles broadly compatible with multiple theories of language acquisition and human cognition. We also discuss how modern learning simulations are gradually becoming more realistic, both in terms of input data and in linking model behavior to empirical findings on infant language development.",
     "authors": [
-      "Okko R\u00e4s\u00e4nen"
+      "Okko Räsänen"
     ],
     "categories": [
       "cs.CL",
@@ -4027,8 +4027,8 @@
     "summary": "Transformer models are now a cornerstone in natural language processing. Yet, explaining their decisions remains a challenge. It was shown recently that the same model trained on the same data with a different randomness can lead to very different explanations. In this paper, we investigate how the (syntactic) context, the classes to be learned and the tasks influence this explanations' sensitivity to randomness. We show that they all have statistically significant impact: smallest for the (syntactic) context, medium for the classes and largest for the tasks.",
     "authors": [
       "Romain Loncour",
-      "J\u00e9r\u00e9mie Bogaert",
-      "Fran\u00e7ois-Xavier Standaert"
+      "Jérémie Bogaert",
+      "François-Xavier Standaert"
     ],
     "categories": [
       "cs.CL"
@@ -4084,9 +4084,9 @@
     "title": "Supporting Workflow Reproducibility by Linking Bioinformatics Tools across Papers and Executable Code",
     "summary": "Motivation: The rapid growth of biological data has intensified the need for transparent, reproducible, and well-documented computational workflows. The ability to clearly connect the steps of a workflow in the code with their description in a paper would improve workflow understanding, support reproducibility, and facilitate reuse. This task requires the linking of Bioinformatics tools in workflow code with their mentions in a published workflow description. Results: We present CoPaLink, an automated approach that integrates three components: Named Entity Recognition (NER) for identifying tool mentions in scientific text, NER for tool mentions in workflow code, and entity linking grounded on Bioinformatics knowledge bases. We propose approaches for all three steps achieving a high individual F1-measure (84 - 89) and a joint accuracy of 66 when evaluated on Nextflow workflows using Bioconda and Bioweb Knowledge bases. CoPaLink leverages corpora of scientific articles and workflow executable code with curated tool annotations to bridge the gap between narrative descriptions and workflow implementations. Availability: The code is available at https://gitlab.liris.cnrs.fr/sharefair/copalink-experiments and https://gitlab.liris.cnrs.fr/sharefair/copalink. The corpora are also available at https://doi.org/10.5281/zenodo.18526700, https://doi.org/10.5281/zenodo.18526760 and https://doi.org/10.5281/zenodo.18543814.",
     "authors": [
-      "Cl\u00e9mence Sebe",
+      "Clémence Sebe",
       "Olivier Ferret",
-      "Aur\u00e9lie N\u00e9v\u00e9ol",
+      "Aurélie Névéol",
       "Mahdi Esmailoghli",
       "Ulf Leser",
       "Sarah Cohen-Boulakia"
@@ -4123,7 +4123,7 @@
   {
     "arxiv_id": "2603.08385v1",
     "title": "Rectified flow-based prediction of post-treatment brain MRI from pre-radiotherapy priors for patients with glioma",
-    "summary": "Purpose/Objective: Brain tumors result in 20 years of lost life on average. Standard therapies induce complex structural changes in the brain that are monitored through MRI. Recent developments in artificial intelligence (AI) enable conditional multimodal image generation from clinical data. In this study, we investigate AI-driven generation of follow-up MRI in patients with in- tracranial tumors through conditional image generation. This approach enables realistic modeling of post-radiotherapy changes, allowing for treatment optimization. Material/Methods: The public SAILOR dataset of 25 patients was used to create a 2D rectified flow model conditioned on axial slices of pre-treatment MRI and RT dose maps. Cross-attention conditioning was used to incorporate temporal and chemotherapy data. The resulting images were validated with structural similarity index measure (SSIM), peak signal-to-noise ratio (PSNR), Dice scores and Jacobian determinants. Results: The resulting model generates realistic follow-up MRI for any time point, while integrating treatment information. Comparing real versus predicted images, SSIM is 0.88, and PSNR is 22.82. Tissue segmentations from real versus predicted MRI result in a mean Dice-S\u00f8rensen coefficient (DSC) of 0.91. The rectified flow (RF) model enables up to 250x faster inference than Denoising Diffusion Probabilistic Models (DDPM). Conclusion: The proposed model generates realistic follow-up MRI in real-time, preserving both semantic and visual fidelity as confirmed by image quality metrics and tissue segmentations. Conditional generation allows counterfactual simulations by varying treatment parameters, producing predicted morphological changes. This capability has potential to support adaptive treatment dose planning and personalized outcome prediction for patients with intracranial tumors.",
+    "summary": "Purpose/Objective: Brain tumors result in 20 years of lost life on average. Standard therapies induce complex structural changes in the brain that are monitored through MRI. Recent developments in artificial intelligence (AI) enable conditional multimodal image generation from clinical data. In this study, we investigate AI-driven generation of follow-up MRI in patients with in- tracranial tumors through conditional image generation. This approach enables realistic modeling of post-radiotherapy changes, allowing for treatment optimization. Material/Methods: The public SAILOR dataset of 25 patients was used to create a 2D rectified flow model conditioned on axial slices of pre-treatment MRI and RT dose maps. Cross-attention conditioning was used to incorporate temporal and chemotherapy data. The resulting images were validated with structural similarity index measure (SSIM), peak signal-to-noise ratio (PSNR), Dice scores and Jacobian determinants. Results: The resulting model generates realistic follow-up MRI for any time point, while integrating treatment information. Comparing real versus predicted images, SSIM is 0.88, and PSNR is 22.82. Tissue segmentations from real versus predicted MRI result in a mean Dice-Sørensen coefficient (DSC) of 0.91. The rectified flow (RF) model enables up to 250x faster inference than Denoising Diffusion Probabilistic Models (DDPM). Conclusion: The proposed model generates realistic follow-up MRI in real-time, preserving both semantic and visual fidelity as confirmed by image quality metrics and tissue segmentations. Conditional generation allows counterfactual simulations by varying treatment parameters, producing predicted morphological changes. This capability has potential to support adaptive treatment dose planning and personalized outcome prediction for patients with intracranial tumors.",
     "authors": [
       "Selena Huisman",
       "Nordin Belkacemi",
@@ -4248,26 +4248,6 @@
     "research_score": 0.5
   },
   {
-    "dataset_id": "nvidia/PhysicalAI-Robotics-Kitchen-Sim-Demos",
-    "author": "nvidia",
-    "title": "nvidia/PhysicalAI-Robotics-Kitchen-Sim-Demos",
-    "downloads": 1715,
-    "likes": 34,
-    "tags": [
-      "task_categories:robotics",
-      "license:cc-by-4.0",
-      "region:us",
-      "robotics"
-    ],
-    "created_at": "2026-02-10T01:20:00.000Z",
-    "last_modified": "2026-03-10T04:37:40.000Z",
-    "url": "https://huggingface.co/datasets/nvidia/PhysicalAI-Robotics-Kitchen-Sim-Demos",
-    "date": "2026-03-10",
-    "source": "huggingface_dataset",
-    "type": "dataset",
-    "research_score": 0.5
-  },
-  {
     "arxiv_id": "2603.08364v1",
     "title": "Diffusion-Based Data Augmentation for Image Recognition: A Systematic Analysis and Evaluation",
     "summary": "Diffusion-based data augmentation (DiffDA) has emerged as a promising approach to improving classification performance under data scarcity. However, existing works vary significantly in task configurations, model choices, and experimental pipelines, making it difficult to fairly compare methods or assess their effectiveness across different scenarios. Moreover, there remains a lack of systematic understanding of the full DiffDA workflow. In this work, we introduce UniDiffDA, a unified analytical framework that decomposes DiffDA methods into three core components: model fine-tuning, sample generation, and sample utilization. This perspective enables us to identify key differences among existing methods and clarify the overall design space. Building on this framework, we develop a comprehensive and fair evaluation protocol, benchmarking representative DiffDA methods across diverse low-data classification tasks. Extensive experiments reveal the relative strengths and limitations of different DiffDA strategies and offer practical insights into method design and deployment. All methods are re-implemented within a unified codebase, with full release of code and configurations to ensure reproducibility and to facilitate future research.",
@@ -4333,13 +4313,13 @@
   {
     "arxiv_id": "2603.08434v1",
     "title": "Information Maximization for Long-Tailed Semi-Supervised Domain Generalization",
-    "summary": "Semi-supervised domain generalization (SSDG) has recently emerged as an appealing alternative to tackle domain generalization when labeled data is scarce but unlabeled samples across domains are abundant. In this work, we identify an important limitation that hampers the deployment of state-of-the-art methods on more challenging but practical scenarios. In particular, state-of-the-art SSDG severely suffers in the presence of long-tailed class distributions, an arguably common situation in real-world settings. To alleviate this limitation, we propose IMaX, a simple yet effective objective based on the well-known InfoMax principle adapted to the SSDG scenario, where the Mutual Information (MI) between the learned features and latent labels is maximized, constrained by the supervision from the labeled samples. Our formulation integrates an \u03b1-entropic objective, which mitigates the class-balance bias encoded in the standard marginal entropy term of the MI, thereby better handling arbitrary class distributions. IMaX can be seamlessly plugged into recent state-of-the-art SSDG, consistently enhancing their performance, as demonstrated empirically across two different image modalities.",
+    "summary": "Semi-supervised domain generalization (SSDG) has recently emerged as an appealing alternative to tackle domain generalization when labeled data is scarce but unlabeled samples across domains are abundant. In this work, we identify an important limitation that hampers the deployment of state-of-the-art methods on more challenging but practical scenarios. In particular, state-of-the-art SSDG severely suffers in the presence of long-tailed class distributions, an arguably common situation in real-world settings. To alleviate this limitation, we propose IMaX, a simple yet effective objective based on the well-known InfoMax principle adapted to the SSDG scenario, where the Mutual Information (MI) between the learned features and latent labels is maximized, constrained by the supervision from the labeled samples. Our formulation integrates an α-entropic objective, which mitigates the class-balance bias encoded in the standard marginal entropy term of the MI, thereby better handling arbitrary class distributions. IMaX can be seamlessly plugged into recent state-of-the-art SSDG, consistently enhancing their performance, as demonstrated empirically across two different image modalities.",
     "authors": [
       "Leo Fillioux",
       "Omprakash Chakraborty",
-      "Quentin Gop\u00e9e",
+      "Quentin Gopée",
       "Pierre Marza",
-      "Paul-Henry Courn\u00e8de",
+      "Paul-Henry Cournède",
       "Stergios Christodoulidis",
       "Maria Vakalopoulou",
       "Ismail Ben Ayed",
@@ -4382,7 +4362,7 @@
     "summary": "We propose an alternative formulation of the well-known Hough transform to detect lines in point clouds. Replacing the discretized voting scheme of the classical Hough transform by a continuous score function, its persistent features in the sense of persistent homology give a set of candidate lines. We also devise and implement an algorithm to efficiently compute these candidate lines.",
     "authors": [
       "Stefan Huber",
-      "Krist\u00f3f Husz\u00e1r",
+      "Kristóf Huszár",
       "Michael Kerber",
       "Martin Uray"
     ],
@@ -4433,12 +4413,12 @@
     "authors": [
       "James Ashford",
       "Marko Cvjetko",
-      "Richard L\u00f6ffler",
+      "Richard Löffler",
       "Berfin Sakallioglu",
       "Alessandro Valerio",
       "Marta Tataryn",
       "Benedikt Hartl",
-      "L\u00e9o Pio-Lopez",
+      "Léo Pio-Lopez",
       "Stefano Nichele"
     ],
     "categories": [
@@ -4450,479 +4430,5 @@
     "date": "2026-03-10",
     "source": "arxiv",
     "research_score": 0.43
-  },
-  {
-    "model_id": "mradermacher/OpenAgent-i1-GGUF",
-    "author": "unknown",
-    "title": "mradermacher/OpenAgent-i1-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "gguf",
-      "text-generation",
-      "agent",
-      "reasoning",
-      "terminal",
-      "swe-bench",
-      "en",
-      "dataset:DedeProGames/Terminal-Reasoning-SFT",
-      "base_model:DedeProGames/OpenAgent",
-      "base_model:quantized:DedeProGames/OpenAgent",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "imatrix",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-10T04:04:58.000Z",
-    "last_modified": "2026-03-10T04:38:48.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/mradermacher/OpenAgent-i1-GGUF",
-    "date": "2026-03-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "openwalrus/Qwen3-4B",
-    "author": "unknown",
-    "title": "openwalrus/Qwen3-4B",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "gguf",
-      "qwen3",
-      "text-generation",
-      "qwen",
-      "unsloth",
-      "en",
-      "arxiv:2309.00071",
-      "base_model:Qwen/Qwen3-4B",
-      "base_model:quantized:Qwen/Qwen3-4B",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-10T04:38:02.000Z",
-    "last_modified": "2026-03-10T04:38:02.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/openwalrus/Qwen3-4B",
-    "date": "2026-03-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "openwalrus/Qwen3-0.6B",
-    "author": "unknown",
-    "title": "openwalrus/Qwen3-0.6B",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "gguf",
-      "qwen3",
-      "text-generation",
-      "qwen",
-      "unsloth",
-      "en",
-      "base_model:Qwen/Qwen3-0.6B",
-      "base_model:quantized:Qwen/Qwen3-0.6B",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-10T04:34:38.000Z",
-    "last_modified": "2026-03-10T04:34:39.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/openwalrus/Qwen3-0.6B",
-    "date": "2026-03-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "somendrew/GenZify",
-    "author": "unknown",
-    "title": "somendrew/GenZify",
-    "downloads": 9,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "mistral",
-      "text-generation",
-      "fine-tuned",
-      "qlora",
-      "lora",
-      "genz",
-      "slang",
-      "trl",
-      "instruction-tuned",
-      "conversational",
-      "en",
-      "base_model:mistralai/Mistral-7B-Instruct-v0.2",
-      "base_model:adapter:mistralai/Mistral-7B-Instruct-v0.2",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-03-08T22:59:55.000Z",
-    "last_modified": "2026-03-10T04:34:24.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/somendrew/GenZify",
-    "date": "2026-03-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "mskang1120/kobert_baseline_model",
-    "author": "unknown",
-    "title": "mskang1120/kobert_baseline_model",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "bert",
-      "text-classification",
-      "generated_from_trainer",
-      "base_model:monologg/kobert",
-      "base_model:finetune:monologg/kobert",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-03-09T06:32:55.000Z",
-    "last_modified": "2026-03-10T04:33:09.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/mskang1120/kobert_baseline_model",
-    "date": "2026-03-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "mradermacher/Thalia-70B-0307-Clean-i1-GGUF",
-    "author": "unknown",
-    "title": "mradermacher/Thalia-70B-0307-Clean-i1-GGUF",
-    "downloads": 1760,
-    "likes": 1,
-    "tags": [
-      "transformers",
-      "gguf",
-      "mergekit",
-      "merge",
-      "en",
-      "base_model:Nabbers1999/Thalia-70B-0307-Clean",
-      "base_model:quantized:Nabbers1999/Thalia-70B-0307-Clean",
-      "endpoints_compatible",
-      "region:us",
-      "imatrix",
-      "conversational"
-    ],
-    "pipeline_tag": "",
-    "library": "transformers",
-    "created_at": "2026-03-08T19:46:45.000Z",
-    "last_modified": "2026-03-10T04:32:06.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/mradermacher/Thalia-70B-0307-Clean-i1-GGUF",
-    "date": "2026-03-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "moushi21/sft_merged_119",
-    "author": "unknown",
-    "title": "moushi21/sft_merged_119",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-10T04:20:23.000Z",
-    "last_modified": "2026-03-10T04:31:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/moushi21/sft_merged_119",
-    "date": "2026-03-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "mradermacher/OpenAgent-GGUF",
-    "author": "unknown",
-    "title": "mradermacher/OpenAgent-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "gguf",
-      "text-generation",
-      "agent",
-      "reasoning",
-      "terminal",
-      "swe-bench",
-      "en",
-      "dataset:DedeProGames/Terminal-Reasoning-SFT",
-      "base_model:DedeProGames/OpenAgent",
-      "base_model:quantized:DedeProGames/OpenAgent",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-10T02:14:11.000Z",
-    "last_modified": "2026-03-10T04:30:08.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/mradermacher/OpenAgent-GGUF",
-    "date": "2026-03-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "dmskrDIMAS/aina-core-brain",
-    "author": "unknown",
-    "title": "dmskrDIMAS/aina-core-brain",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma2",
-      "text-generation",
-      "trl",
-      "sft",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "4-bit",
-      "bitsandbytes",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-10T03:55:59.000Z",
-    "last_modified": "2026-03-10T04:29:47.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/dmskrDIMAS/aina-core-brain",
-    "date": "2026-03-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "maomao88/anime-waifu-mistral-lora",
-    "author": "unknown",
-    "title": "maomao88/anime-waifu-mistral-lora",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "lora",
-      "mistral",
-      "anime",
-      "personality",
-      "text-generation",
-      "en",
-      "dataset:maomao88/anime-waifu-personality-chat-with-questions",
-      "base_model:mistralai/Mistral-7B-Instruct-v0.1",
-      "base_model:adapter:mistralai/Mistral-7B-Instruct-v0.1",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-03-10T04:15:16.000Z",
-    "last_modified": "2026-03-10T04:27:50.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/maomao88/anime-waifu-mistral-lora",
-    "date": "2026-03-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "scchiu/gpt_oss_120b_lora_v1_merged_16bit",
-    "author": "unknown",
-    "title": "scchiu/gpt_oss_120b_lora_v1_merged_16bit",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt_oss",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "base_model:scchiu/gpt_oss_120b_lora_v1_merged_16bit",
-      "base_model:finetune:scchiu/gpt_oss_120b_lora_v1_merged_16bit",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-10T03:08:08.000Z",
-    "last_modified": "2026-03-10T04:27:47.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/scchiu/gpt_oss_120b_lora_v1_merged_16bit",
-    "date": "2026-03-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ThatCultivator/sarvam-30b-Uncensored-gguf",
-    "author": "unknown",
-    "title": "ThatCultivator/sarvam-30b-Uncensored-gguf",
-    "downloads": 0,
-    "likes": 1,
-    "tags": [
-      "gguf",
-      "text-generation",
-      "base_model:aoxo/sarvam-30b-uncensored",
-      "base_model:quantized:aoxo/sarvam-30b-uncensored",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-03-10T04:15:43.000Z",
-    "last_modified": "2026-03-10T04:26:52.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ThatCultivator/sarvam-30b-Uncensored-gguf",
-    "date": "2026-03-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "openwalrus/Qwen3-8B",
-    "author": "unknown",
-    "title": "openwalrus/Qwen3-8B",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "gguf",
-      "qwen3",
-      "text-generation",
-      "qwen",
-      "unsloth",
-      "en",
-      "arxiv:2309.00071",
-      "base_model:Qwen/Qwen3-8B",
-      "base_model:quantized:Qwen/Qwen3-8B",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-10T04:21:05.000Z",
-    "last_modified": "2026-03-10T04:25:55.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/openwalrus/Qwen3-8B",
-    "date": "2026-03-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "bluceoy/task-20-Qwen-Qwen2.5-3B-Instruct",
-    "author": "unknown",
-    "title": "bluceoy/task-20-Qwen-Qwen2.5-3B-Instruct",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:Qwen/Qwen2.5-3B-Instruct",
-      "lora",
-      "sft",
-      "transformers",
-      "trl",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "base_model:Qwen/Qwen2.5-3B-Instruct",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-03-09T12:16:17.000Z",
-    "last_modified": "2026-03-10T04:25:54.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/bluceoy/task-20-Qwen-Qwen2.5-3B-Instruct",
-    "date": "2026-03-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "SamandarKhatamov/uzb_chat",
-    "author": "unknown",
-    "title": "SamandarKhatamov/uzb_chat",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "distilbert",
-      "question-answering",
-      "generated_from_trainer",
-      "base_model:distilbert/distilbert-base-uncased",
-      "base_model:finetune:distilbert/distilbert-base-uncased",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "question-answering",
-    "library": "transformers",
-    "created_at": "2026-03-10T04:24:50.000Z",
-    "last_modified": "2026-03-10T04:25:08.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/SamandarKhatamov/uzb_chat",
-    "date": "2026-03-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
