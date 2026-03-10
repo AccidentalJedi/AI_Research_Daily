@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-10T12:19:49.807170",
+  "date": "2026-03-10T16:28:17.781357",
   "patterns": {
     "multimodal_research": [
       {
@@ -703,16 +703,40 @@
         "url": "https://arxiv.org/abs/2603.08592v1"
       },
       {
-        "title": "squirreln/roberta-base-klue-ynat-classification",
-        "url": "https://huggingface.co/squirreln/roberta-base-klue-ynat-classification"
+        "title": "Charlotte-LLM-FAMILY/Charlotte-7b",
+        "url": "https://huggingface.co/Charlotte-LLM-FAMILY/Charlotte-7b"
       },
       {
-        "title": "zhuojing-huang/gpt2-portuguese-english-bi-vocab-13-4B",
-        "url": "https://huggingface.co/zhuojing-huang/gpt2-portuguese-english-bi-vocab-13-4B"
+        "title": "eternalGenius/rubert_level2",
+        "url": "https://huggingface.co/eternalGenius/rubert_level2"
       },
       {
-        "title": "mskang1120/kobert_baseline_model",
-        "url": "https://huggingface.co/mskang1120/kobert_baseline_model"
+        "title": "7vik-aisi/cc-gptoss-120b-sutl-b0.0-s460",
+        "url": "https://huggingface.co/7vik-aisi/cc-gptoss-120b-sutl-b0.0-s460"
+      },
+      {
+        "title": "7vik-aisi/cc-gptoss-20b-nohack-s200",
+        "url": "https://huggingface.co/7vik-aisi/cc-gptoss-20b-nohack-s200"
+      },
+      {
+        "title": "7vik-aisi/cc-gptoss-20b-sutl-b0.005-s360",
+        "url": "https://huggingface.co/7vik-aisi/cc-gptoss-20b-sutl-b0.005-s360"
+      },
+      {
+        "title": "7vik-aisi/cc-gptoss-120b-nohack-s100",
+        "url": "https://huggingface.co/7vik-aisi/cc-gptoss-120b-nohack-s100"
+      },
+      {
+        "title": "7vik-aisi/cc-gptoss-20b-sutl-b0.0-s200",
+        "url": "https://huggingface.co/7vik-aisi/cc-gptoss-20b-sutl-b0.0-s200"
+      },
+      {
+        "title": "7vik-aisi/cc-gptoss-20b-sutl-b0.02-s360",
+        "url": "https://huggingface.co/7vik-aisi/cc-gptoss-20b-sutl-b0.02-s360"
+      },
+      {
+        "title": "eternalGenius/rubert_level1",
+        "url": "https://huggingface.co/eternalGenius/rubert_level1"
       }
     ],
     "vision_systems": [
@@ -999,10 +1023,6 @@
       {
         "title": "CARE-Edit: Condition-Aware Routing of Experts for Contextual Image Editing",
         "url": "https://arxiv.org/abs/2603.08589v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1289,6 +1309,10 @@
       {
         "title": "Topologically Stable Hough Transform",
         "url": "https://arxiv.org/abs/2603.08245v1"
+      },
+      {
+        "title": "mconcat/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-NVFP4",
+        "url": "https://huggingface.co/mconcat/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-NVFP4"
       }
     ],
     "benchmarks": [
@@ -1777,19 +1801,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1819,7 +1843,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 40,
+      "frequency": 41,
       "significance": "high"
     },
     {
@@ -1836,6 +1860,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 434
+    "total_papers": 440
   }
 }
