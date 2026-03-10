@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-10T08:18:09.551540",
+  "date": "2026-03-10T12:19:49.807170",
   "patterns": {
     "multimodal_research": [
       {
@@ -703,6 +703,14 @@
         "url": "https://arxiv.org/abs/2603.08592v1"
       },
       {
+        "title": "squirreln/roberta-base-klue-ynat-classification",
+        "url": "https://huggingface.co/squirreln/roberta-base-klue-ynat-classification"
+      },
+      {
+        "title": "zhuojing-huang/gpt2-portuguese-english-bi-vocab-13-4B",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-portuguese-english-bi-vocab-13-4B"
+      },
+      {
         "title": "mskang1120/kobert_baseline_model",
         "url": "https://huggingface.co/mskang1120/kobert_baseline_model"
       }
@@ -991,6 +999,10 @@
       {
         "title": "CARE-Edit: Condition-Aware Routing of Experts for Contextual Image Editing",
         "url": "https://arxiv.org/abs/2603.08589v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1765,13 +1777,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "76 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1824,6 +1836,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 431
+    "total_papers": 434
   }
 }
