@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-10T00:33:45.226179",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "math-hiyoko/distilbert-base-uncased-finetuned-clinc",
+        "url": "https://huggingface.co/math-hiyoko/distilbert-base-uncased-finetuned-clinc"
+      },
+      {
+        "title": "theminji/distilbert-base-uncased-slop-classifier",
+        "url": "https://huggingface.co/theminji/distilbert-base-uncased-slop-classifier"
+      }
+    ]
+  },
+  "inferences": [],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 0,
+    "total_papers": 2
+  }
+}
