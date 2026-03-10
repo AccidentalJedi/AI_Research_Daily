@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-10T04:39:14.104015",
+  "date": "2026-03-10T08:18:09.551540",
   "patterns": {
     "multimodal_research": [
       {
@@ -705,10 +705,6 @@
       {
         "title": "mskang1120/kobert_baseline_model",
         "url": "https://huggingface.co/mskang1120/kobert_baseline_model"
-      },
-      {
-        "title": "scchiu/gpt_oss_120b_lora_v1_merged_16bit",
-        "url": "https://huggingface.co/scchiu/gpt_oss_120b_lora_v1_merged_16bit"
       }
     ],
     "vision_systems": [
@@ -1769,7 +1765,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1828,6 +1824,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 432
+    "total_papers": 431
   }
 }
