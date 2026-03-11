@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-11T04:39:51.782172",
+  "date": "2026-03-11T08:18:11.190346",
   "patterns": {
     "multimodal_research": [
       {
@@ -391,10 +391,6 @@
       {
         "title": "OTPL-VIO: Robust Visual-Inertial Odometry with Optimal Transport Line Association and Adaptive Uncertainty",
         "url": "https://arxiv.org/abs/2603.09653v1"
-      },
-      {
-        "title": "MinhLe999/3class_EfficientFormer30M_ForTesting",
-        "url": "https://huggingface.co/MinhLe999/3class_EfficientFormer30M_ForTesting"
       }
     ],
     "language_models": [
@@ -787,16 +783,16 @@
         "url": "https://arxiv.org/abs/2603.09471v1"
       },
       {
-        "title": "newreyy/spam-detection-xlm-roberta-v3",
-        "url": "https://huggingface.co/newreyy/spam-detection-xlm-roberta-v3"
+        "title": "hwanginkyu/roberta-base-klue-ynat-classification",
+        "url": "https://huggingface.co/hwanginkyu/roberta-base-klue-ynat-classification"
       },
       {
-        "title": "mskang1120/kobert_baseline_model",
-        "url": "https://huggingface.co/mskang1120/kobert_baseline_model"
+        "title": "deeps1eep/robertabase-klue-ynat-classification",
+        "url": "https://huggingface.co/deeps1eep/robertabase-klue-ynat-classification"
       },
       {
-        "title": "congtu318/anti-scam-phobert-vi",
-        "url": "https://huggingface.co/congtu318/anti-scam-phobert-vi"
+        "title": "mimxi/roberta-base-klue-ynat-classification",
+        "url": "https://huggingface.co/mimxi/roberta-base-klue-ynat-classification"
       }
     ],
     "vision_systems": [
@@ -1821,7 +1817,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "61 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1892,6 +1888,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 448
+    "total_papers": 447
   }
 }
