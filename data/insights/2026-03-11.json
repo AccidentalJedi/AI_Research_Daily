@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-11T08:18:11.190346",
+  "date": "2026-03-11T12:19:51.603286",
   "patterns": {
     "multimodal_research": [
       {
@@ -781,18 +781,6 @@
       {
         "title": "OmniEarth: A Benchmark for Evaluating Vision-Language Models in Geospatial Tasks",
         "url": "https://arxiv.org/abs/2603.09471v1"
-      },
-      {
-        "title": "hwanginkyu/roberta-base-klue-ynat-classification",
-        "url": "https://huggingface.co/hwanginkyu/roberta-base-klue-ynat-classification"
-      },
-      {
-        "title": "deeps1eep/robertabase-klue-ynat-classification",
-        "url": "https://huggingface.co/deeps1eep/robertabase-klue-ynat-classification"
-      },
-      {
-        "title": "mimxi/roberta-base-klue-ynat-classification",
-        "url": "https://huggingface.co/mimxi/roberta-base-klue-ynat-classification"
       }
     ],
     "vision_systems": [
@@ -1111,6 +1099,14 @@
       {
         "title": "OmniEarth: A Benchmark for Evaluating Vision-Language Models in Geospatial Tasks",
         "url": "https://arxiv.org/abs/2603.09471v1"
+      },
+      {
+        "title": "DipakFaceML/image-model",
+        "url": "https://huggingface.co/DipakFaceML/image-model"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1829,13 +1825,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "100 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "79 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1888,6 +1884,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 447
+    "total_papers": 446
   }
 }
