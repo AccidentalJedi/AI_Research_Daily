@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-12T08:19:46.148257",
+  "date": "2026-03-12T12:18:27.535658",
   "patterns": {
     "multimodal_research": [
       {
@@ -633,6 +633,10 @@
       {
         "title": "Contrastive learning-based video quality assessment-jointed video vision transformer for video recognition",
         "url": "https://arxiv.org/abs/2603.10965v1"
+      },
+      {
+        "title": "DLLM-Agent/openPangu-7B-Diffusion-DeepDiver",
+        "url": "https://huggingface.co/DLLM-Agent/openPangu-7B-Diffusion-DeepDiver"
       }
     ],
     "vision_systems": [
@@ -947,6 +951,10 @@
       {
         "title": "Bioinspired CNNs for border completion in occluded images",
         "url": "https://arxiv.org/abs/2603.10694v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1641,13 +1649,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "79 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "78 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1700,6 +1708,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 400
+    "total_papers": 402
   }
 }
