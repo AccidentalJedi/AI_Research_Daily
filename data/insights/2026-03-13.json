@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-13T04:39:59.457390",
+  "date": "2026-03-13T08:18:17.718814",
   "patterns": {
     "multimodal_research": [
       {
@@ -387,6 +387,10 @@
       {
         "title": "Multimodal classification of Radiation-Induced Contrast Enhancements and tumor recurrence using deep learning",
         "url": "https://arxiv.org/abs/2603.11827v1"
+      },
+      {
+        "title": "xiaodongguaAIGC/Qwen3-moe-mini",
+        "url": "https://huggingface.co/xiaodongguaAIGC/Qwen3-moe-mini"
       }
     ],
     "language_models": [
@@ -1733,7 +1737,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "61 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1804,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 427
   }
 }
