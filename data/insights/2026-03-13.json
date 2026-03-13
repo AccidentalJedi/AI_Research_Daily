@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-13T08:18:17.718814",
+  "date": "2026-03-13T12:18:52.582928",
   "patterns": {
     "multimodal_research": [
       {
@@ -389,8 +389,8 @@
         "url": "https://arxiv.org/abs/2603.11827v1"
       },
       {
-        "title": "xiaodongguaAIGC/Qwen3-moe-mini",
-        "url": "https://huggingface.co/xiaodongguaAIGC/Qwen3-moe-mini"
+        "title": "wmere/attention_phi_moe",
+        "url": "https://huggingface.co/wmere/attention_phi_moe"
       }
     ],
     "language_models": [
@@ -733,6 +733,10 @@
       {
         "title": "MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning",
         "url": "https://arxiv.org/abs/2603.12266v1"
+      },
+      {
+        "title": "uniquehere00/bert-mrpc-finetuned",
+        "url": "https://huggingface.co/uniquehere00/bert-mrpc-finetuned"
       }
     ],
     "vision_systems": [
@@ -1043,6 +1047,10 @@
       {
         "title": "Single-View Rolling-Shutter SfM",
         "url": "https://arxiv.org/abs/2603.11888v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1749,13 +1757,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "77 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1816,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 429
   }
 }
