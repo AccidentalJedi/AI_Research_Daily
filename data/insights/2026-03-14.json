@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-14T16:11:51.915681",
+  "date": "2026-03-14T20:10:24.909734",
   "patterns": {
     "multimodal_research": [
       {
@@ -731,12 +731,12 @@
         "url": "https://arxiv.org/abs/2603.12266v1"
       },
       {
-        "title": "PK9129/gpt2-fineweb-checkpoints",
-        "url": "https://huggingface.co/PK9129/gpt2-fineweb-checkpoints"
+        "title": "llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v2-GGUF",
+        "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v2-GGUF"
       },
       {
-        "title": "llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-ultimate-uncensored-heretic",
-        "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-ultimate-uncensored-heretic"
+        "title": "llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v2",
+        "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v2"
       }
     ],
     "vision_systems": [
@@ -1047,10 +1047,6 @@
       {
         "title": "Single-View Rolling-Shutter SfM",
         "url": "https://arxiv.org/abs/2603.11888v1"
-      },
-      {
-        "title": "cheongmyeong17/Qwen3-8B-CVAPO-EP8-G8-tau0.2",
-        "url": "https://huggingface.co/cheongmyeong17/Qwen3-8B-CVAPO-EP8-G8-tau0.2"
       }
     ],
     "reasoning": [
@@ -1323,8 +1319,12 @@
         "url": "https://arxiv.org/abs/2603.12266v1"
       },
       {
-        "title": "llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-ultimate-uncensored-heretic",
-        "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-ultimate-uncensored-heretic"
+        "title": "llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v2-GGUF",
+        "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v2-GGUF"
+      },
+      {
+        "title": "llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v2",
+        "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-heretic-v2"
       }
     ],
     "benchmarks": [
@@ -1767,13 +1767,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "78 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "68 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,7 +1808,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 34,
+      "frequency": 35,
       "significance": "high"
     },
     {
