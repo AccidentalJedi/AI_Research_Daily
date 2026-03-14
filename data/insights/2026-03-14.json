@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-14T12:15:24.225365",
+  "date": "2026-03-14T16:11:51.915681",
   "patterns": {
     "multimodal_research": [
       {
@@ -731,12 +731,12 @@
         "url": "https://arxiv.org/abs/2603.12266v1"
       },
       {
-        "title": "JescYip/gpt2-ad-finetuned",
-        "url": "https://huggingface.co/JescYip/gpt2-ad-finetuned"
+        "title": "PK9129/gpt2-fineweb-checkpoints",
+        "url": "https://huggingface.co/PK9129/gpt2-fineweb-checkpoints"
       },
       {
-        "title": "ericlewis/infinite-craft-smollm2-360m-mixed-500k-ft",
-        "url": "https://huggingface.co/ericlewis/infinite-craft-smollm2-360m-mixed-500k-ft"
+        "title": "llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-ultimate-uncensored-heretic",
+        "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-ultimate-uncensored-heretic"
       }
     ],
     "vision_systems": [
@@ -1047,6 +1047,10 @@
       {
         "title": "Single-View Rolling-Shutter SfM",
         "url": "https://arxiv.org/abs/2603.11888v1"
+      },
+      {
+        "title": "cheongmyeong17/Qwen3-8B-CVAPO-EP8-G8-tau0.2",
+        "url": "https://huggingface.co/cheongmyeong17/Qwen3-8B-CVAPO-EP8-G8-tau0.2"
       }
     ],
     "reasoning": [
@@ -1317,6 +1321,10 @@
       {
         "title": "MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning",
         "url": "https://arxiv.org/abs/2603.12266v1"
+      },
+      {
+        "title": "llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-ultimate-uncensored-heretic",
+        "url": "https://huggingface.co/llmfan46/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-ultimate-uncensored-heretic"
       }
     ],
     "benchmarks": [
@@ -1759,13 +1767,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "77 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "67 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1800,7 +1808,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 33,
+      "frequency": 34,
       "significance": "high"
     },
     {
@@ -1812,6 +1820,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 430
   }
 }
