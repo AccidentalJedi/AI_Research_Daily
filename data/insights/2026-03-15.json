@@ -1,28 +1,18 @@
 {
-  "date": "2026-03-15T12:16:57.701166",
+  "date": "2026-03-15T16:13:01.987492",
   "patterns": {
     "language_models": [
       {
-        "title": "haimgoldfisher/HalleluBERT_large_sentiment_analysis",
-        "url": "https://huggingface.co/haimgoldfisher/HalleluBERT_large_sentiment_analysis"
+        "title": "AsrorAsr/crypto-gpt2-xaji",
+        "url": "https://huggingface.co/AsrorAsr/crypto-gpt2-xaji"
       },
       {
-        "title": "ericlewis/infinite-craft-smollm2-1.7b-nothing-ft",
-        "url": "https://huggingface.co/ericlewis/infinite-craft-smollm2-1.7b-nothing-ft"
+        "title": "sapien101/western-armenian-llm-lora",
+        "url": "https://huggingface.co/sapien101/western-armenian-llm-lora"
       },
       {
-        "title": "ericlewis/infinite-craft-smollm2-1.7b-mixed-500k-ft",
-        "url": "https://huggingface.co/ericlewis/infinite-craft-smollm2-1.7b-mixed-500k-ft"
-      }
-    ],
-    "vision_systems": [
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
-      },
-      {
-        "title": "AnubhavKarki/rt_detrv2_finetuned_eco-vision_box_detector_v1",
-        "url": "https://huggingface.co/AnubhavKarki/rt_detrv2_finetuned_eco-vision_box_detector_v1"
+        "title": "innocentr/fake-news-bert",
+        "url": "https://huggingface.co/innocentr/fake-news-bert"
       }
     ]
   },
@@ -36,8 +26,8 @@
   ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 2,
+    "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 5
+    "total_papers": 3
   }
 }
