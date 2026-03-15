@@ -1,14 +1,14 @@
 {
-  "date": "2026-03-15T00:41:51.313009",
+  "date": "2026-03-15T04:52:32.693267",
   "patterns": {
-    "language_models": [
+    "vision_systems": [
       {
-        "title": "Mustafaege/spam-detector-gpt2-hf",
-        "url": "https://huggingface.co/Mustafaege/spam-detector-gpt2-hf"
+        "title": "nyu-visionx/Scale-RAE-Qwen1.5B_DiT2.4B-64ep",
+        "url": "https://huggingface.co/nyu-visionx/Scale-RAE-Qwen1.5B_DiT2.4B-64ep"
       },
       {
-        "title": "muradAgain/programmatic-adtech-llm-mistral7b",
-        "url": "https://huggingface.co/muradAgain/programmatic-adtech-llm-mistral7b"
+        "title": "nyu-visionx/Scale-RAE-Qwen7B_DiT9.8B-64ep",
+        "url": "https://huggingface.co/nyu-visionx/Scale-RAE-Qwen7B_DiT9.8B-64ep"
       }
     ]
   },
