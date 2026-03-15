@@ -1,33 +1,11 @@
 {
-  "date": "2026-03-15T16:13:01.987492",
-  "patterns": {
-    "language_models": [
-      {
-        "title": "AsrorAsr/crypto-gpt2-xaji",
-        "url": "https://huggingface.co/AsrorAsr/crypto-gpt2-xaji"
-      },
-      {
-        "title": "sapien101/western-armenian-llm-lora",
-        "url": "https://huggingface.co/sapien101/western-armenian-llm-lora"
-      },
-      {
-        "title": "innocentr/fake-news-bert",
-        "url": "https://huggingface.co/innocentr/fake-news-bert"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "date": "2026-03-15T20:11:07.600347",
+  "patterns": {},
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
