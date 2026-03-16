@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-16T00:41:46.533170",
-  "patterns": {},
+  "date": "2026-03-16T04:59:12.451898",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Univars/k-gpt-v1",
+        "url": "https://huggingface.co/Univars/k-gpt-v1"
+      },
+      {
+        "title": "mssfj/Qwen3.5-9B-GPTQ-INT8",
+        "url": "https://huggingface.co/mssfj/Qwen3.5-9B-GPTQ-INT8"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
