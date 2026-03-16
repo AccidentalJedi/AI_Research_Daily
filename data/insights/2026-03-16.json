@@ -1,11 +1,33 @@
 {
-  "date": "2026-03-16T08:30:40.101517",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-03-16T12:25:25.162095",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Zheng-Chuan/RiskLLM-7B-GRPO",
+        "url": "https://huggingface.co/Zheng-Chuan/RiskLLM-7B-GRPO"
+      },
+      {
+        "title": "aicabzlo/finetuned_model_emotion_detection_Robertuito",
+        "url": "https://huggingface.co/aicabzlo/finetuned_model_emotion_detection_Robertuito"
+      },
+      {
+        "title": "jkralev/fuzzy-llm",
+        "url": "https://huggingface.co/jkralev/fuzzy-llm"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
