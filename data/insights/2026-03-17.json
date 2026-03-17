@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-17T00:35:33.363697",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "dataslab/DNA-2.1-14B-GPTQ",
+        "url": "https://huggingface.co/dataslab/DNA-2.1-14B-GPTQ"
+      },
+      {
+        "title": "Jongsim/gpt-oss-120b-heretic-korean-v1-GGUF",
+        "url": "https://huggingface.co/Jongsim/gpt-oss-120b-heretic-korean-v1-GGUF"
+      }
+    ]
+  },
+  "inferences": [],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 0,
+    "total_papers": 2
+  }
+}
