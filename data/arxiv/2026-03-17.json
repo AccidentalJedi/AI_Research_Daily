@@ -218,9 +218,9 @@
     "summary": "Aggregating a consensus ranking from multiple input rankings is a fundamental problem with applications in recommendation systems, search engines, job recruitment, and elections. Despite decades of research in consensus ranking aggregation, minimizing the Kemeny distance remains computationally intractable. Specifically, determining an optimal aggregation of rankings with respect to the Kemeny distance is an NP-hard problem, limiting its practical application to relatively small-scale instances. We propose the Kemeny Transformer, a novel Transformer-based algorithm trained via reinforcement learning to efficiently approximate the Kemeny optimal ranking. Experimental results demonstrate that our model outperforms classical majority-heuristic and Markov-chain approaches, achieving substantially faster inference than integer linear programming solvers. Our approach thus offers a practical, scalable alternative for real-world ranking-aggregation tasks.",
     "authors": [
       "Yijun Jin",
-      "Simon Kl\u00fcttermann",
+      "Simon Klüttermann",
       "Chiara Balestra",
-      "Emmanuel M\u00fcller"
+      "Emmanuel Müller"
     ],
     "categories": [
       "cs.LG",
@@ -560,7 +560,7 @@
       "Yanning Dai",
       "Yuhui Wang",
       "Dylan R. Ashley",
-      "J\u00fcrgen Schmidhuber"
+      "Jürgen Schmidhuber"
     ],
     "categories": [
       "cs.LG",
@@ -601,7 +601,7 @@
   {
     "arxiv_id": "2603.15475v1",
     "title": "Seeing Beyond: Extrapolative Domain Adaptive Panoramic Segmentation",
-    "summary": "Cross-domain panoramic semantic segmentation has attracted growing interest as it enables comprehensive 360\u00b0 scene understanding for real-world applications. However, it remains particularly challenging due to severe geometric Field of View (FoV) distortions and inconsistent open-set semantics across domains. In this work, we formulate an open-set domain adaptation setting, and propose Extrapolative Domain Adaptive Panoramic Segmentation (EDA-PSeg) framework that trains on local perspective views and tests on full 360\u00b0 panoramic images, explicitly tackling both geometric FoV shifts across domains and semantic uncertainty arising from previously unseen classes. To this end, we propose the Euler-Margin Attention (EMA), which introduces an angular margin to enhance viewpoint-invariant semantic representation, while performing amplitude and phase modulation to improve generalization toward unseen classes. Additionally, we design the Graph Matching Adapter (GMA), which builds high-order graph relations to align shared semantics across FoV shifts while effectively separating novel categories through structural adaptation. Extensive experiments on four benchmark datasets under camera-shift, weather-condition, and open-set scenarios demonstrate that EDA-PSeg achieves state-of-the-art performance, robust generalization to diverse viewing geometries, and resilience under varying environmental conditions. The code is available at https://github.com/zyfone/EDA-PSeg.",
+    "summary": "Cross-domain panoramic semantic segmentation has attracted growing interest as it enables comprehensive 360° scene understanding for real-world applications. However, it remains particularly challenging due to severe geometric Field of View (FoV) distortions and inconsistent open-set semantics across domains. In this work, we formulate an open-set domain adaptation setting, and propose Extrapolative Domain Adaptive Panoramic Segmentation (EDA-PSeg) framework that trains on local perspective views and tests on full 360° panoramic images, explicitly tackling both geometric FoV shifts across domains and semantic uncertainty arising from previously unseen classes. To this end, we propose the Euler-Margin Attention (EMA), which introduces an angular margin to enhance viewpoint-invariant semantic representation, while performing amplitude and phase modulation to improve generalization toward unseen classes. Additionally, we design the Graph Matching Adapter (GMA), which builds high-order graph relations to align shared semantics across FoV shifts while effectively separating novel categories through structural adaptation. Extensive experiments on four benchmark datasets under camera-shift, weather-condition, and open-set scenarios demonstrate that EDA-PSeg achieves state-of-the-art performance, robust generalization to diverse viewing geometries, and resilience under varying environmental conditions. The code is available at https://github.com/zyfone/EDA-PSeg.",
     "authors": [
       "Yuanfan Zheng",
       "Kunyu Peng",
@@ -849,7 +849,7 @@
   {
     "arxiv_id": "2603.15144v1",
     "title": "Accelerating Byzantine-Robust Distributed Learning with Compressed Communication via Double Momentum and Variance Reduction",
-    "summary": "In collaborative and distributed learning, Byzantine robustness reflects a major facet of optimization algorithms. Such distributed algorithms are often accompanied by transmitting a large number of parameters, so communication compression is essential for an effective solution. In this paper, we propose Byz-DM21, a novel Byzantine-robust and communication-efficient stochastic distributed learning algorithm. Our key innovation is a novel gradient estimator based on a double-momentum mechanism, integrating recent advancements in error feedback techniques. Using this estimator, we design both standard and accelerated algorithms that eliminate the need for large batch sizes while maintaining robustness against Byzantine workers. We prove that the Byz-DM21 algorithm has a smaller neighborhood size and converges to $\\varepsilon$-stationary points in $\\mathcal{O}(\\varepsilon^{-4})$ iterations. To further enhance efficiency, we introduce a distributed variant called Byz-VR-DM21, which incorporates local variance reduction at each node to progressively eliminate variance from random approximations. We show that Byz-VR-DM21 provably converges to $\\varepsilon$-stationary points in $\\mathcal{O}(\\varepsilon^{-3 })$ iterations. Additionally, we extend our results to the case where the functions satisfy the Polyak-\u0141ojasiewicz condition. Finally, numerical experiments demonstrate the effectiveness of the proposed method.",
+    "summary": "In collaborative and distributed learning, Byzantine robustness reflects a major facet of optimization algorithms. Such distributed algorithms are often accompanied by transmitting a large number of parameters, so communication compression is essential for an effective solution. In this paper, we propose Byz-DM21, a novel Byzantine-robust and communication-efficient stochastic distributed learning algorithm. Our key innovation is a novel gradient estimator based on a double-momentum mechanism, integrating recent advancements in error feedback techniques. Using this estimator, we design both standard and accelerated algorithms that eliminate the need for large batch sizes while maintaining robustness against Byzantine workers. We prove that the Byz-DM21 algorithm has a smaller neighborhood size and converges to $\\varepsilon$-stationary points in $\\mathcal{O}(\\varepsilon^{-4})$ iterations. To further enhance efficiency, we introduce a distributed variant called Byz-VR-DM21, which incorporates local variance reduction at each node to progressively eliminate variance from random approximations. We show that Byz-VR-DM21 provably converges to $\\varepsilon$-stationary points in $\\mathcal{O}(\\varepsilon^{-3 })$ iterations. Additionally, we extend our results to the case where the functions satisfy the Polyak-Łojasiewicz condition. Finally, numerical experiments demonstrate the effectiveness of the proposed method.",
     "authors": [
       "Yanghao Li",
       "Changxin Liu",
@@ -894,7 +894,7 @@
   {
     "arxiv_id": "2603.15576v1",
     "title": "Unbiased and Biased Variance-Reduced Forward-Reflected-Backward Splitting Methods for Stochastic Composite Inclusions",
-    "summary": "This paper develops new variance-reduction techniques for the forward-reflected-backward splitting (FRBS) method to solve a class of possibly nonmonotone stochastic composite inclusions. Unlike unbiased estimators such as mini-batching, developing stochastic biased variants faces a fundamental technical challenge and has not been utilized before for inclusions and fixed-point problems. We fill this gap by designing a new framework that can handle both unbiased and biased estimators. Our main idea is to construct stochastic variance-reduced estimators for the forward-reflected direction and use them to perform iterate updates. First, we propose a class of unbiased variance-reduced estimators and show that increasing mini-batch SGD, loopless-SVRG, and SAGA estimators fall within this class. For these unbiased estimators, we establish a $\\mathcal{O}(1/k)$ best-iterate convergence rate for the expected squared residual norm, together with almost-sure convergence of the iterate sequence to a solution. Consequently, we prove that the best oracle complexities for the $n$-finite-sum and expectation settings are $\\mathcal{O}(n^{2/3}\u03b5^{-2})$ and $\\mathcal{O}(\u03b5^{-10/3})$, respectively, when employing loopless-SVRG or SAGA, where $\u03b5$ is a desired accuracy. Second, we introduce a new class of biased variance-reduced estimators for the forward-reflected direction, which includes SARAH, Hybrid SGD, and Hybrid SVRG as special instances. While the convergence rates remain valid for these biased estimators, the resulting oracle complexities are $\\mathcal{O}(n^{3/4}\u03b5^{-2})$ and $\\mathcal{O}(\u03b5^{-5})$ for the $n$-finite-sum and expectation settings, respectively. Finally, we conduct two numerical experiments on AUC optimization for imbalanced classification and policy evaluation in reinforcement learning.",
+    "summary": "This paper develops new variance-reduction techniques for the forward-reflected-backward splitting (FRBS) method to solve a class of possibly nonmonotone stochastic composite inclusions. Unlike unbiased estimators such as mini-batching, developing stochastic biased variants faces a fundamental technical challenge and has not been utilized before for inclusions and fixed-point problems. We fill this gap by designing a new framework that can handle both unbiased and biased estimators. Our main idea is to construct stochastic variance-reduced estimators for the forward-reflected direction and use them to perform iterate updates. First, we propose a class of unbiased variance-reduced estimators and show that increasing mini-batch SGD, loopless-SVRG, and SAGA estimators fall within this class. For these unbiased estimators, we establish a $\\mathcal{O}(1/k)$ best-iterate convergence rate for the expected squared residual norm, together with almost-sure convergence of the iterate sequence to a solution. Consequently, we prove that the best oracle complexities for the $n$-finite-sum and expectation settings are $\\mathcal{O}(n^{2/3}ε^{-2})$ and $\\mathcal{O}(ε^{-10/3})$, respectively, when employing loopless-SVRG or SAGA, where $ε$ is a desired accuracy. Second, we introduce a new class of biased variance-reduced estimators for the forward-reflected direction, which includes SARAH, Hybrid SGD, and Hybrid SVRG as special instances. While the convergence rates remain valid for these biased estimators, the resulting oracle complexities are $\\mathcal{O}(n^{3/4}ε^{-2})$ and $\\mathcal{O}(ε^{-5})$ for the $n$-finite-sum and expectation settings, respectively. Finally, we conduct two numerical experiments on AUC optimization for imbalanced classification and policy evaluation in reinforcement learning.",
     "authors": [
       "Quoc Tran-Dinh",
       "Nghia Nguyen-Trung"
@@ -1254,7 +1254,7 @@
     "summary": "A comprehensive understanding of heat transport is essential for optimizing various mechanical and engineering applications, including 3D printing. Recent advances in machine learning, combined with physics-based models, have enabled a powerful fusion of numerical methods and data-driven algorithms. This progress is driven by the availability of limited sensor data in various engineering and scientific domains, where the cost of data collection and the inaccessibility of certain measurements are high. To this end, we present PiGRAND, a Physics-informed graph neural diffusion framework. In order to reduce the computational complexity of graph learning, an efficient graph construction procedure was developed. Our approach is inspired by the explicit Euler and implicit Crank-Nicolson methods for modeling continuous heat transport, leveraging sub-learning models to secure the accurate diffusion across graph nodes. To enhance computational performance, our approach is combined with efficient transfer learning. We evaluate PiGRAND on thermal images from 3D printing, demonstrating significant improvements in prediction accuracy and computational performance compared to traditional graph neural diffusion (GRAND) and physics-informed neural networks (PINNs). These enhancements are attributed to the incorporation of physical principles derived from the theoretical study of partial differential equations (PDEs) into the learning model. The PiGRAND code is open-sourced on GitHub: https://github.com/bu32loxa/PiGRAND",
     "authors": [
       "Benjamin Uhrich",
-      "Tim H\u00e4ntschel",
+      "Tim Häntschel",
       "Erhard Rahm"
     ],
     "categories": [
@@ -1441,7 +1441,7 @@
       "Rafael Teixeira Sousa",
       "Diogo Fernandes Costa Silva",
       "Anderson da Silva Soares",
-      "Arlindo Rodrigues Galv\u00e3o Filho"
+      "Arlindo Rodrigues Galvão Filho"
     ],
     "categories": [
       "cs.CL",
@@ -1749,7 +1749,7 @@
   {
     "arxiv_id": "2603.15596v1",
     "title": "Robust and Computationally Efficient Linear Contextual Bandits under Adversarial Corruption and Heavy-Tailed Noise",
-    "summary": "We study linear contextual bandits under adversarial corruption and heavy-tailed noise with finite $(1+\u03b5)$-th moments for some $\u03b5\\in (0,1]$. Existing work that addresses both adversarial corruption and heavy-tailed noise relies on a finite variance (i.e., finite second-moment) assumption and suffers from computational inefficiency. We propose a computationally efficient algorithm based on online mirror descent that achieves robustness to both adversarial corruption and heavy-tailed noise. While the existing algorithm incurs $\\mathcal{O}(t\\log T)$ computational cost, our algorithm reduces this to $\\mathcal{O}(1)$ per round. We establish an additive regret bound consisting of a term depending on the $(1+\u03b5)$-moment bound of the noise and a term depending on the total amount of corruption. In particular, when $\u03b5= 1$, our result recovers existing guarantees under finite-variance assumptions. When no corruption is present, it matches the best-known rates for linear contextual bandits with heavy-tailed noise. Moreover, the algorithm requires no prior knowledge of the noise moment bound or the total amount of corruption and still guarantees sublinear regret.",
+    "summary": "We study linear contextual bandits under adversarial corruption and heavy-tailed noise with finite $(1+ε)$-th moments for some $ε\\in (0,1]$. Existing work that addresses both adversarial corruption and heavy-tailed noise relies on a finite variance (i.e., finite second-moment) assumption and suffers from computational inefficiency. We propose a computationally efficient algorithm based on online mirror descent that achieves robustness to both adversarial corruption and heavy-tailed noise. While the existing algorithm incurs $\\mathcal{O}(t\\log T)$ computational cost, our algorithm reduces this to $\\mathcal{O}(1)$ per round. We establish an additive regret bound consisting of a term depending on the $(1+ε)$-moment bound of the noise and a term depending on the total amount of corruption. In particular, when $ε= 1$, our result recovers existing guarantees under finite-variance assumptions. When no corruption is present, it matches the best-known rates for linear contextual bandits with heavy-tailed noise. Moreover, the algorithm requires no prior knowledge of the noise moment bound or the total amount of corruption and still guarantees sublinear regret.",
     "authors": [
       "Naoto Tani",
       "Futoshi Futami"
@@ -1975,7 +1975,7 @@
     "summary": "Missing values are common in photovoltaic (PV) power data, yet the uncertainty they induce is not propagated into predictive distributions. We develop a framework that incorporates missing-data uncertainty into short-term PV forecasting by combining stochastic multiple imputation with Rubin's rule. The approach is model-agnostic and can be integrated with standard machine-learning predictors. Empirical results show that ignoring missing-data uncertainty leads to overly narrow prediction intervals. Accounting for this uncertainty improves interval calibration while maintaining comparable point prediction accuracy. These results demonstrate the importance of propagating imputation uncertainty in data-driven PV forecasting.",
     "authors": [
       "Parastoo Pashmchi",
-      "J\u00e9r\u00f4me Benoit",
+      "Jérôme Benoit",
       "Motonobu Kanagawa"
     ],
     "categories": [
@@ -2032,7 +2032,7 @@
   {
     "arxiv_id": "2603.15189v1",
     "title": "The Sampling Complexity of Condorcet Winner Identification in Dueling Bandits",
-    "summary": "We study best-arm identification in stochastic dueling bandits under the sole assumption that a Condorcet winner exists, i.e., an arm that wins each noisy pairwise comparison with probability at least $1/2$. We introduce a new identification procedure that exploits the full gap matrix $\u0394_{i,j}=q_{i,j}-\\tfrac12$ (where $q_{i,j}$ is the probability that arm $i$ beats arm $j$), rather than only the gaps between the Condorcet winner and the other arms. We derive high-probability, instance-dependent sample-complexity guarantees that (up to logarithmic factors) improve the best known ones by leveraging informative comparisons beyond those involving the winner. We complement these results with new lower bounds which, to our knowledge, are the first for Condorcet-winner identification in stochastic dueling bandits. Our lower-bound analysis isolates the intrinsic cost of locating informative entries in the gap matrix and estimating them to the required confidence, establishing the optimality of our non-asymptotic bounds. Overall, our results reveal new regimes and trade-offs in the sample complexity that are not captured by asymptotic analyses based only on the expected budget.",
+    "summary": "We study best-arm identification in stochastic dueling bandits under the sole assumption that a Condorcet winner exists, i.e., an arm that wins each noisy pairwise comparison with probability at least $1/2$. We introduce a new identification procedure that exploits the full gap matrix $Δ_{i,j}=q_{i,j}-\\tfrac12$ (where $q_{i,j}$ is the probability that arm $i$ beats arm $j$), rather than only the gaps between the Condorcet winner and the other arms. We derive high-probability, instance-dependent sample-complexity guarantees that (up to logarithmic factors) improve the best known ones by leveraging informative comparisons beyond those involving the winner. We complement these results with new lower bounds which, to our knowledge, are the first for Condorcet-winner identification in stochastic dueling bandits. Our lower-bound analysis isolates the intrinsic cost of locating informative entries in the gap matrix and estimating them to the required confidence, establishing the optimality of our non-asymptotic bounds. Overall, our results reveal new regimes and trade-offs in the sample complexity that are not captured by asymptotic analyses based only on the expected budget.",
     "authors": [
       "El Mehdi Saad",
       "Victor Thuot",
@@ -2061,8 +2061,8 @@
       "David Stap",
       "Pieter-Jan Hoedt",
       "Maximilian Beck",
-      "Sebastian B\u00f6ck",
-      "G\u00fcnter Klambauer",
+      "Sebastian Böck",
+      "Günter Klambauer",
       "Sepp Hochreiter"
     ],
     "categories": [
@@ -2190,8 +2190,8 @@
     "authors": [
       "Xinyue Ma",
       "Pol Pastells",
-      "Mireia Farr\u00fas",
-      "Mariona Taul\u00e9"
+      "Mireia Farrús",
+      "Mariona Taulé"
     ],
     "categories": [
       "cs.CL",
@@ -2271,7 +2271,7 @@
     "title": "Pointing-Based Object Recognition",
     "summary": "This paper presents a comprehensive pipeline for recognizing objects targeted by human pointing gestures using RGB images. As human-robot interaction moves toward more intuitive interfaces, the ability to identify targets of non-verbal communication becomes crucial. Our proposed system integrates several existing state-of-the-art methods, including object detection, body pose estimation, monocular depth estimation, and vision-language models. We evaluate the impact of 3D spatial information reconstructed from a single image and the utility of image captioning models in correcting classification errors. Experimental results on a custom dataset show that incorporating depth information significantly improves target identification, especially in complex scenes with overlapping objects. The modularity of the approach allows for deployment in environments where specialized depth sensors are unavailable.",
     "authors": [
-      "Luk\u00e1\u0161 Hajd\u00fach",
+      "Lukáš Hajdúch",
       "Viktor Kocur"
     ],
     "categories": [
@@ -2287,7 +2287,7 @@
   {
     "arxiv_id": "2603.15384v1",
     "title": "Persistence Spheres: a Bi-continuous Linear Representation of Measures for Partial Optimal Transport",
-    "summary": "We improve and extend persistence spheres, introduced in~\\cite{pegoraro2025persistence}. Persistence spheres map an integrable measure $\u03bc$ on the upper half-plane, including persistence diagrams (PDs) as counting measures, to a function $S(\u03bc)\\in C(\\mathbb{S}^2)$, and the map is stable with respect to 1-Wasserstein partial transport distance $\\mathrm{POT}_1$. Moreover, to the best of our knowledge, persistence spheres are the first explicit representation used in topological machine learning for which continuity of the inverse on the image is established at every compactly supported target. Recent bounded-cardinality bi-Lipschitz embedding results in partial transport spaces, despite being powerful, are not given by the kind of explicit summary map considered here. Our construction is rooted in convex geometry: for positive measures, the defining ReLU integral is the support function of the lift zonoid. Building on~\\cite{pegoraro2025persistence}, we refine the definition to better match the $\\mathrm{POT}_1$ deletion mechanism, encoding partial transport via a signed diagonal augmentation. In particular, for integrable $\u03bc$, the uniform norm between $S(0)$ and $S(\u03bc)$ depends only on the persistence of $\u03bc$, without any need of ad-hoc re-weightings, reflecting optimal transport to the diagonal at persistence cost. This yields a parameter-free representation at the level of measures (up to numerical discretization), while accommodating future extensions where $\u03bc$ is a smoothed measure derived from PDs (e.g., persistence intensity functions~\\citep{wu2024estimation}). Across clustering, regression, and classification tasks involving functional data, time series, graphs, meshes, and point clouds, the updated persistence spheres are competitive and often improve upon persistence images, persistence landscapes, persistence splines, and sliced Wasserstein kernel baselines.",
+    "summary": "We improve and extend persistence spheres, introduced in~\\cite{pegoraro2025persistence}. Persistence spheres map an integrable measure $μ$ on the upper half-plane, including persistence diagrams (PDs) as counting measures, to a function $S(μ)\\in C(\\mathbb{S}^2)$, and the map is stable with respect to 1-Wasserstein partial transport distance $\\mathrm{POT}_1$. Moreover, to the best of our knowledge, persistence spheres are the first explicit representation used in topological machine learning for which continuity of the inverse on the image is established at every compactly supported target. Recent bounded-cardinality bi-Lipschitz embedding results in partial transport spaces, despite being powerful, are not given by the kind of explicit summary map considered here. Our construction is rooted in convex geometry: for positive measures, the defining ReLU integral is the support function of the lift zonoid. Building on~\\cite{pegoraro2025persistence}, we refine the definition to better match the $\\mathrm{POT}_1$ deletion mechanism, encoding partial transport via a signed diagonal augmentation. In particular, for integrable $μ$, the uniform norm between $S(0)$ and $S(μ)$ depends only on the persistence of $μ$, without any need of ad-hoc re-weightings, reflecting optimal transport to the diagonal at persistence cost. This yields a parameter-free representation at the level of measures (up to numerical discretization), while accommodating future extensions where $μ$ is a smoothed measure derived from PDs (e.g., persistence intensity functions~\\citep{wu2024estimation}). Across clustering, regression, and classification tasks involving functional data, time series, graphs, meshes, and point clouds, the updated persistence spheres are competitive and often improve upon persistence images, persistence landscapes, persistence splines, and sliced Wasserstein kernel baselines.",
     "authors": [
       "Matteo Pegoraro"
     ],
@@ -2391,9 +2391,9 @@
     "summary": "Simulation plays a central role in scientific discovery. In many applications, the bottleneck is no longer running a simulator; it is choosing among large families of plausible simulators, each corresponding to different forward models/hypotheses consistent with observations. Over large model families, classical Bayesian workflows for model selection are impractical. Furthermore, amortized model selection methods typically hard-code a fixed model prior or complexity penalty at training time, requiring users to commit to a particular parsimony assumption before seeing the data. We introduce PRISM, a simulation-based encoder-decoder that infers a joint posterior over both discrete model structures and associated continuous parameters, while enabling test-time control of model complexity via a tunable model prior that the network is conditioned on. We show that PRISM scales to families with combinatorially many (up to billions) of model instantiations on a synthetic symbolic regression task. As a scientific application, we evaluate PRISM on biophysical modeling for diffusion MRI data, showing the ability to perform model selection across several multi-compartment models, on both synthetic and in vivo neuroimaging data.",
     "authors": [
       "Manuel Gloeckler",
-      "J. P. Manzano-Patr\u00f3n",
+      "J. P. Manzano-Patrón",
       "Stamatios N. Sotiropoulos",
-      "Cornelius Schr\u00f6der",
+      "Cornelius Schröder",
       "Jakob H. Macke"
     ],
     "categories": [
@@ -2499,7 +2499,7 @@
   {
     "arxiv_id": "2603.15164v1",
     "title": "HindSight: Evaluating Research Idea Generation via Future Impact",
-    "summary": "Evaluating AI-generated research ideas typically relies on LLM judges or human panels -- both subjective and disconnected from actual research impact. We introduce \\hs{}, a time-split evaluation framework that measures idea quality by matching generated ideas against real future publications and scoring them by citation impact and venue acceptance. Using a temporal cutoff~$T$, we restrict an idea generation system to pre-$T$ literature, then evaluate its outputs against papers published in the subsequent 30 months. Experiments across 10 AI/ML research topics reveal a striking disconnect: LLM-as-Judge finds no significant difference between retrieval-augmented and vanilla idea generation ($p{=}0.584$), while \\hs{} shows the retrieval-augmented system produces 2.5$\\times$ higher-scoring ideas ($p{<}0.001$). Moreover, \\hs{} scores are \\emph{negatively} correlated with LLM-judged novelty ($\u03c1{=}{-}0.29$, $p{<}0.01$), suggesting that LLMs systematically overvalue novel-sounding ideas that never materialize in real research.",
+    "summary": "Evaluating AI-generated research ideas typically relies on LLM judges or human panels -- both subjective and disconnected from actual research impact. We introduce \\hs{}, a time-split evaluation framework that measures idea quality by matching generated ideas against real future publications and scoring them by citation impact and venue acceptance. Using a temporal cutoff~$T$, we restrict an idea generation system to pre-$T$ literature, then evaluate its outputs against papers published in the subsequent 30 months. Experiments across 10 AI/ML research topics reveal a striking disconnect: LLM-as-Judge finds no significant difference between retrieval-augmented and vanilla idea generation ($p{=}0.584$), while \\hs{} shows the retrieval-augmented system produces 2.5$\\times$ higher-scoring ideas ($p{<}0.001$). Moreover, \\hs{} scores are \\emph{negatively} correlated with LLM-judged novelty ($ρ{=}{-}0.29$, $p{<}0.01$), suggesting that LLMs systematically overvalue novel-sounding ideas that never materialize in real research.",
     "authors": [
       "Bo Jiang"
     ],
@@ -2967,7 +2967,7 @@
   {
     "arxiv_id": "2603.15412v1",
     "title": "Local Urysohn Width: A Topological Complexity Measure for Classification",
-    "summary": "We introduce \\emph{local Urysohn width}, a complexity measure for classification problems on metric spaces. Unlike VC dimension, fat-shattering dimension, and Rademacher complexity, which characterize the richness of hypothesis \\emph{classes}, Urysohn width characterizes the topological-geometric complexity of the classification \\emph{problem itself}: the minimum number of connected, diameter-bounded local experts needed to correctly classify all points within a margin-safe region. We prove four main results. First, a \\textbf{strict hierarchy theorem}: for every integer $w \\geq 1$, there exists a classification problem on a \\emph{connected} compact metric space (a bouquet of circles with first Betti number $\u03b2_1 = w$) whose Urysohn width is exactly~$w$, establishing that topological complexity of the input space forces classifier complexity. Second, a \\textbf{topology $\\times$ geometry scaling law}: width scales as $\u03a9(w \\cdot L/D_0)$, where $w$ counts independent loops and $L/D_0$ is the ratio of loop circumference to locality scale. Third, a \\textbf{two-way separation from VC dimension}: there exist problem families where width grows unboundedly while VC dimension is bounded by a constant, and conversely, families where VC dimension grows unboundedly while width remains~1. Fourth, a \\textbf{sample complexity lower bound}: any learner that must correctly classify all points in the safe region of a width-$w$ problem needs $\u03a9(w \\log w)$ samples, independent of VC dimension.",
+    "summary": "We introduce \\emph{local Urysohn width}, a complexity measure for classification problems on metric spaces. Unlike VC dimension, fat-shattering dimension, and Rademacher complexity, which characterize the richness of hypothesis \\emph{classes}, Urysohn width characterizes the topological-geometric complexity of the classification \\emph{problem itself}: the minimum number of connected, diameter-bounded local experts needed to correctly classify all points within a margin-safe region. We prove four main results. First, a \\textbf{strict hierarchy theorem}: for every integer $w \\geq 1$, there exists a classification problem on a \\emph{connected} compact metric space (a bouquet of circles with first Betti number $β_1 = w$) whose Urysohn width is exactly~$w$, establishing that topological complexity of the input space forces classifier complexity. Second, a \\textbf{topology $\\times$ geometry scaling law}: width scales as $Ω(w \\cdot L/D_0)$, where $w$ counts independent loops and $L/D_0$ is the ratio of loop circumference to locality scale. Third, a \\textbf{two-way separation from VC dimension}: there exist problem families where width grows unboundedly while VC dimension is bounded by a constant, and conversely, families where VC dimension grows unboundedly while width remains~1. Fourth, a \\textbf{sample complexity lower bound}: any learner that must correctly classify all points in the safe region of a width-$w$ problem needs $Ω(w \\log w)$ samples, independent of VC dimension.",
     "authors": [
       "Xin Li"
     ],
@@ -3005,12 +3005,12 @@
     "title": "IRIS: Intersection-aware Ray-based Implicit Editable Scenes",
     "summary": "Neural Radiance Fields achieve high-fidelity scene representation but suffer from costly training and rendering, while 3D Gaussian splatting offers real-time performance with strong empirical results. Recently, solutions that harness the best of both worlds by using Gaussians as proxies to guide neural field evaluations, still suffer from significant computational inefficiencies. They typically rely on stochastic volumetric sampling to aggregate features, which severely limits rendering performance. To address this issue, a novel framework named IRIS (Intersection-aware Ray-based Implicit Editable Scenes) is introduced as a method designed for efficient and interactive scene editing. To overcome the limitations of standard ray marching, an analytical sampling strategy is employed that precisely identifies interaction points between rays and scene primitives, effectively eliminating empty space processing. Furthermore, to address the computational bottleneck of spatial neighbor lookups, a continuous feature aggregation mechanism is introduced that operates directly along the ray. By interpolating latent attributes from sorted intersections, costly 3D searches are bypassed, ensuring geometric consistency, enabling high-fidelity, real-time rendering, and flexible shape editing. Code can be found at https://github.com/gwilczynski95/iris.",
     "authors": [
-      "Grzegorz Wilczy\u0144ski",
-      "Miko\u0142aj Zieli\u0144ski",
+      "Grzegorz Wilczyński",
+      "Mikołaj Zieliński",
       "Krzysztof Byrski",
-      "Joanna Waczy\u0144ska",
+      "Joanna Waczyńska",
       "Dominik Belter",
-      "Przemys\u0142aw Spurek"
+      "Przemysław Spurek"
     ],
     "categories": [
       "cs.CV"
@@ -3116,7 +3116,7 @@
       "Felix Liedeker",
       "Basil Ell",
       "Philipp Cimiano",
-      "Christoph D\u00fcsing"
+      "Christoph Düsing"
     ],
     "categories": [
       "cs.AI",
@@ -3196,7 +3196,7 @@
     "summary": "Physics-informed neural networks (PINNs) constitute a flexible deep learning approach for solving partial differential equations (PDEs), which model phenomena ranging from heat conduction to quantum mechanical systems. Despite their flexibility, PINNs offer limited insight into how their predictions deviate from the true solution, hindering trust in their prediction quality. We propose a lightweight post-hoc method that addresses this gap by producing pointwise error estimates for PINN predictions, which offer a natural form of explanation for such models, identifying not just whether a prediction is wrong, but where and by how much. For linear partial differential equations, the error between a PINN approximation and the true solution satisfies the same differential operator as the original problem, but driven by the PINN's PDE residual as its source term. We solve this error equation numerically using finite difference methods requiring no knowledge of the true solution. Evaluated on several benchmark PDEs, our method yields accurate error maps at low computational cost, enabling targeted and interpretable validation of PINNs.",
     "authors": [
       "Aleksander Krasowski",
-      "Ren\u00e9 P. Klausen",
+      "René P. Klausen",
       "Aycan Celik",
       "Sebastian Lapuschkin",
       "Wojciech Samek",
@@ -3237,10 +3237,10 @@
   {
     "arxiv_id": "2603.15523v1",
     "title": "SlovKE: A Large-Scale Dataset and LLM Evaluation for Slovak Keyphrase Extraction",
-    "summary": "Keyphrase extraction for morphologically rich, low-resource languages remains understudied, largely due to the scarcity of suitable evaluation datasets. We address this gap for Slovak by constructing a dataset of 227,432 scientific abstracts with author-assigned keyphrases -- scraped and systematically cleaned from the Slovak Central Register of Theses -- representing a 25-fold increase over the largest prior Slovak resource and approaching the scale of established English benchmarks such as KP20K. Using this dataset, we benchmark three unsupervised baselines (YAKE, TextRank, KeyBERT with SlovakBERT embeddings) and evaluate KeyLLM, an LLM-based extraction method using GPT-3.5-turbo. Unsupervised baselines achieve at most 11.6\\% exact-match $F1@6$, with a large gap to partial matching (up to 51.5\\%), reflecting the difficulty of matching inflected surface forms to author-assigned keyphrases. KeyLLM narrows this exact--partial gap, producing keyphrases closer to the canonical forms assigned by authors, while manual evaluation on 100 documents ($\u03ba= 0.61$) confirms that KeyLLM captures relevant concepts that automated exact matching underestimates. Our analysis identifies morphological mismatch as the dominant failure mode for statistical methods -- a finding relevant to other inflected languages. The dataset (https://huggingface.co/datasets/NaiveNeuron/SlovKE) and evaluation code (https://github.com/NaiveNeuron/SlovKE) are publicly available.",
+    "summary": "Keyphrase extraction for morphologically rich, low-resource languages remains understudied, largely due to the scarcity of suitable evaluation datasets. We address this gap for Slovak by constructing a dataset of 227,432 scientific abstracts with author-assigned keyphrases -- scraped and systematically cleaned from the Slovak Central Register of Theses -- representing a 25-fold increase over the largest prior Slovak resource and approaching the scale of established English benchmarks such as KP20K. Using this dataset, we benchmark three unsupervised baselines (YAKE, TextRank, KeyBERT with SlovakBERT embeddings) and evaluate KeyLLM, an LLM-based extraction method using GPT-3.5-turbo. Unsupervised baselines achieve at most 11.6\\% exact-match $F1@6$, with a large gap to partial matching (up to 51.5\\%), reflecting the difficulty of matching inflected surface forms to author-assigned keyphrases. KeyLLM narrows this exact--partial gap, producing keyphrases closer to the canonical forms assigned by authors, while manual evaluation on 100 documents ($κ= 0.61$) confirms that KeyLLM captures relevant concepts that automated exact matching underestimates. Our analysis identifies morphological mismatch as the dominant failure mode for statistical methods -- a finding relevant to other inflected languages. The dataset (https://huggingface.co/datasets/NaiveNeuron/SlovKE) and evaluation code (https://github.com/NaiveNeuron/SlovKE) are publicly available.",
     "authors": [
-      "David \u0160teva\u0148\u00e1k",
-      "Marek \u0160uppa"
+      "David Števaňák",
+      "Marek Šuppa"
     ],
     "categories": [
       "cs.CL",
@@ -3330,7 +3330,7 @@
   {
     "arxiv_id": "2603.15377v1",
     "title": "More Test-Time Compute Can Hurt: Overestimation Bias in LLM Beam Search",
-    "summary": "Wider beam search should improve LLM reasoning, but when should you stop widening? Prior work on beam width selection has focused on inference efficiency \\citep{qin2025dsbd, freitag2017beam}, without analyzing whether wider search can \\emph{hurt} output quality. We present an analysis, grounded in Extreme Value Theory, that answers this question. Beam selection over noisy scorer outputs introduces a systematic overestimation bias that grows with the candidate pool size, and we derive a maximum useful beam width $\\hat{k}$ beyond which search degrades performance. This critical width depends on the signal-to-noise ratio of the scorer: $\\hat{k}$ grows exponentially with $(\u0394/\u03c3)^2$, where $\u0394> 0$ is the quality advantage of correct paths over incorrect ones and $\u03c3$ is the scorer noise. We validate this theory by comparing perplexity-guided and PRM-guided beam search across three 7B-parameter models and ten domains on MR-BEN (5,975 questions). Perplexity scoring, with its high noise, yields $\\hat{k} = 1$: search provides no benefit at any width tested. PRM scoring, with lower noise, yields $\\hat{k} \\geq 4$, with gains of up to 8.9 percentage points. The same model, the same algorithm, but different scorers place $\\hat{k}$ at opposite ends of the beam width range. Our analysis identifies the scorer's signal-to-noise ratio as the key quantity governing beam width selection, and we propose diagnostic indicators for choosing the beam width in practice.",
+    "summary": "Wider beam search should improve LLM reasoning, but when should you stop widening? Prior work on beam width selection has focused on inference efficiency \\citep{qin2025dsbd, freitag2017beam}, without analyzing whether wider search can \\emph{hurt} output quality. We present an analysis, grounded in Extreme Value Theory, that answers this question. Beam selection over noisy scorer outputs introduces a systematic overestimation bias that grows with the candidate pool size, and we derive a maximum useful beam width $\\hat{k}$ beyond which search degrades performance. This critical width depends on the signal-to-noise ratio of the scorer: $\\hat{k}$ grows exponentially with $(Δ/σ)^2$, where $Δ> 0$ is the quality advantage of correct paths over incorrect ones and $σ$ is the scorer noise. We validate this theory by comparing perplexity-guided and PRM-guided beam search across three 7B-parameter models and ten domains on MR-BEN (5,975 questions). Perplexity scoring, with its high noise, yields $\\hat{k} = 1$: search provides no benefit at any width tested. PRM scoring, with lower noise, yields $\\hat{k} \\geq 4$, with gains of up to 8.9 percentage points. The same model, the same algorithm, but different scorers place $\\hat{k}$ at opposite ends of the beam width range. Our analysis identifies the scorer's signal-to-noise ratio as the key quantity governing beam width selection, and we propose diagnostic indicators for choosing the beam width in practice.",
     "authors": [
       "Gal Dalal",
       "Assaf Hallak",
@@ -3476,7 +3476,7 @@
   {
     "arxiv_id": "2603.15492v1",
     "title": "Grokking as a Variance-Limited Phase Transition: Spectral Gating and the Epsilon-Stability Threshold",
-    "summary": "Standard optimization theories struggle to explain grokking, where generalization occurs long after training convergence. While geometric studies attribute this to slow drift, they often overlook the interaction between the optimizer's noise structure and landscape curvature. This work analyzes AdamW dynamics on modular arithmetic tasks, revealing a ``Spectral Gating'' mechanism that regulates the transition from memorization to generalization.   We find that AdamW operates as a variance-gated stochastic system. Grokking is constrained by a stability condition: the generalizing solution resides in a sharp basin ($\u03bb_{max}^H$) initially inaccessible under low-variance regimes. The ``delayed'' phase represents the accumulation of gradient variance required to lift the effective stability ceiling, permitting entry into this sharp manifold.   Our ablation studies identify three complexity regimes: (1) \\textbf{Capacity Collapse} ($P < 23$), where rank-deficiency prevents structural learning; (2) \\textbf{The Variance-Limited Regime} ($P \\approx 41$), where generalization waits for the spectral gate to open; and (3) \\textbf{Stability Override} ($P > 67$), where memorization becomes dimensionally unstable. Furthermore, we challenge the \"Flat Minima\" hypothesis for algorithmic tasks, showing that isotropic noise injection fails to induce grokking. Generalization requires the \\textit{anisotropic rectification} unique to adaptive optimizers, which directs noise into the tangent space of the solution manifold.",
+    "summary": "Standard optimization theories struggle to explain grokking, where generalization occurs long after training convergence. While geometric studies attribute this to slow drift, they often overlook the interaction between the optimizer's noise structure and landscape curvature. This work analyzes AdamW dynamics on modular arithmetic tasks, revealing a ``Spectral Gating'' mechanism that regulates the transition from memorization to generalization.   We find that AdamW operates as a variance-gated stochastic system. Grokking is constrained by a stability condition: the generalizing solution resides in a sharp basin ($λ_{max}^H$) initially inaccessible under low-variance regimes. The ``delayed'' phase represents the accumulation of gradient variance required to lift the effective stability ceiling, permitting entry into this sharp manifold.   Our ablation studies identify three complexity regimes: (1) \\textbf{Capacity Collapse} ($P < 23$), where rank-deficiency prevents structural learning; (2) \\textbf{The Variance-Limited Regime} ($P \\approx 41$), where generalization waits for the spectral gate to open; and (3) \\textbf{Stability Override} ($P > 67$), where memorization becomes dimensionally unstable. Furthermore, we challenge the \"Flat Minima\" hypothesis for algorithmic tasks, showing that isotropic noise injection fails to induce grokking. Generalization requires the \\textit{anisotropic rectification} unique to adaptive optimizers, which directs noise into the tangent space of the solution manifold.",
     "authors": [
       "Pratyush Acharya",
       "Habish Dhakal"
@@ -3635,7 +3635,7 @@
     "authors": [
       "Simone Aonzo",
       "Merve Sahin",
-      "Aur\u00e9lien Francillon",
+      "Aurélien Francillon",
       "Daniele Perito"
     ],
     "categories": [
@@ -3713,7 +3713,7 @@
     "summary": "The tortuosity of corneal nerve fibers are used as indication for different diseases. Current state-of-the-art methods for grading the tortuosity heavily rely on expensive segmentation maps of these nerve fibers. In this paper, we demonstrate that self-supervised pretrained features from ImageNet are transferable to the domain of in vivo confocal microscopy. We show that DINO should not be disregarded as a deep learning model for medical imaging, although it was superseded by two later versions. After careful fine-tuning, DINO improves upon the state-of-the-art in terms of accuracy (84,25%) and sensitivity (77,97%). Our fine-tuned model focuses on the key morphological elements in grading without the use of segmentation maps.",
     "authors": [
       "Kim Ouan",
-      "No\u00e9mie Moreau",
+      "Noémie Moreau",
       "Katarzyna Bozek"
     ],
     "categories": [
@@ -3770,7 +3770,7 @@
     "summary": "Koopman operator theory provides a global linear representation of nonlinear dynamics and underpins many data-driven methods. In practice, however, finite-dimensional feature spaces induced by a user-chosen dictionary are rarely invariant, so closure failures and projection errors lead to spurious eigenvalues, misleading Koopman modes, and overconfident forecasts. This paper addresses a central validation problem in data-driven Koopman methods: how to quantify invariance and projection errors for an arbitrary feature space using only snapshot data, and how to use these diagnostics to produce actionable guarantees and guide dictionary refinement? A unified a posteriori methodology is developed for certifying when a Koopman approximation is trustworthy and improving it when it is not. Koopman invariance is quantified using principal angles between a subspace and its Koopman image, yielding principal observables and a principal angle decomposition (PAD), a dynamics-informed alternative to SVD truncation with significantly improved performance. Multi-step error bounds are derived for Koopman and Perron--Frobenius mode decompositions, including RKHS-based pointwise guarantees, and are complemented by Gaussian process expected error surrogates. The resulting toolbox enables validated spectral analysis, certified forecasting, and principled dictionary and kernel learning, demonstrated on chaotic and high-dimensional benchmarks and real-world datasets, including cavity flow and the Pluto--Charon system.",
     "authors": [
       "Gustav Conradie",
-      "Nicolas Boull\u00e9",
+      "Nicolas Boullé",
       "Jean-Christophe Loiseau",
       "Steven L. Brunton",
       "Matthew J. Colbrook"
@@ -4015,7 +4015,7 @@
     "summary": "Visual object counting is a fundamental computer vision task in industrial inspection, where accurate, high-throughput inventory tracking and quality assurance are critical. Moreover, manufactured parts are often too light to reliably deduce their count from their weight, or too heavy to move the stack on a scale safely and practically, making automated visual counting the more robust solution in many scenarios. However, existing methods struggle with stacked 3D items in containers, pallets, or bins, where most objects are heavily occluded and only a few are directly visible. To address this important yet underexplored challenge, we propose a novel 3D counting approach that decomposes the task into two complementary subproblems: estimating the 3D geometry of the stack and its occupancy ratio from multi-view images. By combining geometric reconstruction with deep learning-based depth analysis, our method can accurately count identical manufactured parts inside containers, even when they are irregularly stacked and partially hidden. We validate our 3D counting pipeline on large-scale synthetic and diverse real-world data with manually verified total counts, demonstrating robust performance under realistic inspection conditions.",
     "authors": [
       "Corentin Dumery",
-      "Noa Ett\u00e9",
+      "Noa Etté",
       "Aoxiang Fan",
       "Ren Li",
       "Jingyi Xu",
@@ -4061,8 +4061,8 @@
     "title": "Dataset Diversity Metrics and Impact on Classification Models",
     "summary": "The diversity of training datasets is usually perceived as an important aspect to obtain a robust model. However, the definition of diversity is often not defined or differs across papers, and while some metrics exist, the quantification of this diversity is often overlooked when developing new algorithms. In this work, we study the behaviour of multiple dataset diversity metrics for image, text and metadata using MorphoMNIST, a toy dataset with controlled perturbations, and PadChest, a publicly available chest X-ray dataset. We evaluate whether these metrics correlate with each other but also with the intuition of a clinical expert. We also assess whether they correlate with downstream-task performance and how they impact the training dynamic of the models. We find limited correlations between the AUC and image or metadata reference-free diversity metrics, but higher correlations with the FID and the semantic diversity metrics. Finally, the clinical expert indicates that scanners are the main source of diversity in practice. However, we find that the addition of another scanner to the training set leads to shortcut learning. The code used in this study is available at https://github.com/TheoSourget/dataset_diversity_evaluation",
     "authors": [
-      "Th\u00e9o Sourget",
-      "Niclas Cla\u00dfen",
+      "Théo Sourget",
+      "Niclas Claßen",
       "Jack Junchi Xu",
       "Rob van der Goot",
       "Veronika Cheplygina"
@@ -4083,13 +4083,13 @@
     "summary": "Four-dimensional scanning transmission electron microscopy (4D-STEM) provides rich, atomic-scale insights into materials structures. However, extracting specific physical properties - such as polarization directions essential for understanding functional properties of ferroelectrics - remains a significant challenge. In this study, we systematically benchmark multiple machine learning models, namely ResNet, VGG, a custom convolutional neural network, and PCA-informed k-Nearest Neighbors, to automate the detection of polarization directions from 4D-STEM diffraction patterns in ferroelectric potassium sodium niobate. While models trained on synthetic data achieve high accuracy on idealized synthetic diffraction patterns of equivalent thickness, the domain gap between simulation and experiment remains a critical barrier to real-world deployment. In this context, a custom made prototype representation training regime and PCA-based methods, combined with data augmentation and filtering, can better bridge this gap. Error analysis reveals periodic missclassification patterns, indicating that not all diffraction patterns carry enough information for a successful classification. Additionally, our qualitative analysis demonstrates that irregularities in the model's prediction patterns correlate with defects in the crystal structure, suggesting that supervised models could be used for detecting structural defects. These findings guide the development of robust, transferable machine learning tools for electron microscopy analysis.",
     "authors": [
       "Matej Martinc",
-      "Goran Dra\u017ei\u010d",
+      "Goran Dražič",
       "Anton Kokalj",
-      "Katarina \u017diberna",
-      "Janina Rokni\u0107",
-      "Matic Pober\u017enik",
-      "Sa\u0161o D\u017eeroski",
-      "Andreja Ben\u010dan Golob"
+      "Katarina Žiberna",
+      "Janina Roknić",
+      "Matic Poberžnik",
+      "Sašo Džeroski",
+      "Andreja Benčan Golob"
     ],
     "categories": [
       "cond-mat.mtrl-sci",
@@ -4266,9 +4266,9 @@
     "title": "Exemplar Diffusion: Improving Medical Object Detection with Opportunistic Labels",
     "summary": "We present a framework to take advantage of existing labels at inference, called \\textit{exemplars}, in order to improve the performance of object detection in medical images. The method, \\textit{exemplar diffusion}, leverages existing diffusion methods for object detection to enable a training-free approach to adding information of known bounding boxes at test time. We demonstrate that for medical image datasets with clear spatial structure, the method yields an across-the-board increase in average precision and recall, and a robustness to exemplar quality, enabling non-expert annotation. Moreover, we demonstrate how our method may also be used to quantify predictive uncertainty in diffusion detection methods. Source code and data splits openly available online: https://github.com/waahlstrand/ExemplarDiffusion",
     "authors": [
-      "Victor W\u00e5hlstrand",
-      "Jennifer Alv\u00e9n",
-      "Ida H\u00e4ggstr\u00f6m"
+      "Victor Wåhlstrand",
+      "Jennifer Alvén",
+      "Ida Häggström"
     ],
     "categories": [
       "cs.CV"
@@ -4419,469 +4419,5 @@
     "date": "2026-03-17",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "Shivapruthvi/medical-mistral-summarizer",
-    "author": "unknown",
-    "title": "Shivapruthvi/medical-mistral-summarizer",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "mistral",
-      "text-generation",
-      "base_model:adapter:mistralai/Mistral-7B-Instruct-v0.3",
-      "lora",
-      "sft",
-      "transformers",
-      "trl",
-      "conversational",
-      "arxiv:1910.09700",
-      "base_model:mistralai/Mistral-7B-Instruct-v0.3",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-03-17T04:11:39.000Z",
-    "last_modified": "2026-03-17T04:38:20.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Shivapruthvi/medical-mistral-summarizer",
-    "date": "2026-03-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "gazeng/vit-ai-detector_3",
-    "author": "unknown",
-    "title": "gazeng/vit-ai-detector_3",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "vit",
-      "image-classification",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "image-classification",
-    "library": "transformers",
-    "created_at": "2026-03-17T04:37:21.000Z",
-    "last_modified": "2026-03-17T04:37:29.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/gazeng/vit-ai-detector_3",
-    "date": "2026-03-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "LorenaYannnnn/unsafe_compliance-Qwen3-0.6B-baseline_all_tokens-seed_2",
-    "author": "unknown",
-    "title": "LorenaYannnnn/unsafe_compliance-Qwen3-0.6B-baseline_all_tokens-seed_2",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-17T02:25:54.000Z",
-    "last_modified": "2026-03-17T04:37:18.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/LorenaYannnnn/unsafe_compliance-Qwen3-0.6B-baseline_all_tokens-seed_2",
-    "date": "2026-03-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Badri0510/thedal-tamil-full-v11",
-    "author": "unknown",
-    "title": "Badri0510/thedal-tamil-full-v11",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "whisper",
-      "automatic-speech-recognition",
-      "generated_from_trainer",
-      "base_model:Badri0510/thedal-tamil-full-v9",
-      "base_model:finetune:Badri0510/thedal-tamil-full-v9",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-03-16T15:38:58.000Z",
-    "last_modified": "2026-03-17T04:34:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Badri0510/thedal-tamil-full-v11",
-    "date": "2026-03-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "DevQuasar/miromind-ai.MiroThinker-1.7-mini-GGUF",
-    "author": "unknown",
-    "title": "DevQuasar/miromind-ai.MiroThinker-1.7-mini-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "text-generation",
-      "base_model:miromind-ai/MiroThinker-1.7-mini",
-      "base_model:quantized:miromind-ai/MiroThinker-1.7-mini",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-03-17T04:10:17.000Z",
-    "last_modified": "2026-03-17T04:34:19.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/DevQuasar/miromind-ai.MiroThinker-1.7-mini-GGUF",
-    "date": "2026-03-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "hector-gr/RLCR-v4-ks-bins100-ece100-cold-math",
-    "author": "unknown",
-    "title": "hector-gr/RLCR-v4-ks-bins100-ece100-cold-math",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "grpo",
-      "conversational",
-      "arxiv:2402.03300",
-      "base_model:Qwen/Qwen2.5-7B",
-      "base_model:finetune:Qwen/Qwen2.5-7B",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-16T17:37:41.000Z",
-    "last_modified": "2026-03-17T04:33:31.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/hector-gr/RLCR-v4-ks-bins100-ece100-cold-math",
-    "date": "2026-03-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "jihedbey/dephigh",
-    "author": "unknown",
-    "title": "jihedbey/dephigh",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "diffusers",
-      "text-to-image",
-      "lora",
-      "template:diffusion-lora",
-      "base_model:ostris/wan22_i2v_14b_orbit_shot_lora",
-      "base_model:adapter:ostris/wan22_i2v_14b_orbit_shot_lora",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "diffusers",
-    "created_at": "2026-03-17T04:32:34.000Z",
-    "last_modified": "2026-03-17T04:32:41.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/jihedbey/dephigh",
-    "date": "2026-03-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Rakuten/RakutenAI-3.0",
-    "author": "unknown",
-    "title": "Rakuten/RakutenAI-3.0",
-    "downloads": 0,
-    "likes": 9,
-    "tags": [
-      "safetensors",
-      "deepseek_v3",
-      "RakutenAI",
-      "RakutenAI Large",
-      "RakutenAI-3.0",
-      "DeepSeek-V3",
-      "Mistral",
-      "text-generation",
-      "conversational",
-      "ja",
-      "en",
-      "license:apache-2.0",
-      "fp8",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-03-16T12:42:28.000Z",
-    "last_modified": "2026-03-17T04:32:23.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Rakuten/RakutenAI-3.0",
-    "date": "2026-03-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "wangsherpa/qwen2.5-0.5B-math-cot-sft",
-    "author": "unknown",
-    "title": "wangsherpa/qwen2.5-0.5B-math-cot-sft",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-17T04:19:22.000Z",
-    "last_modified": "2026-03-17T04:32:10.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/wangsherpa/qwen2.5-0.5B-math-cot-sft",
-    "date": "2026-03-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "mimoidochi/OpenRS-GRPO-1",
-    "author": "unknown",
-    "title": "mimoidochi/OpenRS-GRPO-1",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "generated_from_trainer",
-      "open-r1",
-      "trl",
-      "grpo",
-      "conversational",
-      "dataset:knoveleng/open-rs",
-      "arxiv:2402.03300",
-      "base_model:deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
-      "base_model:finetune:deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-16T23:30:36.000Z",
-    "last_modified": "2026-03-17T04:30:17.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/mimoidochi/OpenRS-GRPO-1",
-    "date": "2026-03-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "piyazon/Wav2Vec2-with-punctuation",
-    "author": "unknown",
-    "title": "piyazon/Wav2Vec2-with-punctuation",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "wav2vec2-bert",
-      "automatic-speech-recognition",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-03-16T16:40:52.000Z",
-    "last_modified": "2026-03-17T04:27:43.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/piyazon/Wav2Vec2-with-punctuation",
-    "date": "2026-03-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "LorenaYannnnn/longer_response-Qwen3-0.6B-OURS_self-seed_1",
-    "author": "unknown",
-    "title": "LorenaYannnnn/longer_response-Qwen3-0.6B-OURS_self-seed_1",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-17T04:18:28.000Z",
-    "last_modified": "2026-03-17T04:26:28.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/LorenaYannnnn/longer_response-Qwen3-0.6B-OURS_self-seed_1",
-    "date": "2026-03-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "harshalmore31/adlerian-philosopher-qwen3-14b",
-    "author": "unknown",
-    "title": "harshalmore31/adlerian-philosopher-qwen3-14b",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-17T04:13:50.000Z",
-    "last_modified": "2026-03-17T04:26:11.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/harshalmore31/adlerian-philosopher-qwen3-14b",
-    "date": "2026-03-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "LorenaYannnnn/longer_response-Qwen3-0.6B-OURS_self-seed_2",
-    "author": "unknown",
-    "title": "LorenaYannnnn/longer_response-Qwen3-0.6B-OURS_self-seed_2",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-17T04:18:23.000Z",
-    "last_modified": "2026-03-17T04:25:53.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/LorenaYannnnn/longer_response-Qwen3-0.6B-OURS_self-seed_2",
-    "date": "2026-03-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "onnx-internal-testing/tiny-random-GlmMoeDsaForCausalLM",
-    "author": "unknown",
-    "title": "onnx-internal-testing/tiny-random-GlmMoeDsaForCausalLM",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "onnx",
-      "safetensors",
-      "glm_moe_dsa",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-17T04:10:34.000Z",
-    "last_modified": "2026-03-17T04:25:21.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/onnx-internal-testing/tiny-random-GlmMoeDsaForCausalLM",
-    "date": "2026-03-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "OceanCV/montereybaycoastalfauna",
-    "author": "unknown",
-    "title": "OceanCV/montereybaycoastalfauna",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "biology",
-      "object-detection",
-      "en",
-      "base_model:Ultralytics/YOLO11",
-      "base_model:finetune:Ultralytics/YOLO11",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "",
-    "created_at": "2026-03-16T20:42:05.000Z",
-    "last_modified": "2026-03-17T04:23:56.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/OceanCV/montereybaycoastalfauna",
-    "date": "2026-03-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
