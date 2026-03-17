@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-17T04:42:05.324341",
+  "date": "2026-03-17T08:22:39.994952",
   "patterns": {
     "multimodal_research": [
       {
@@ -335,10 +335,6 @@
       {
         "title": "Kimodo: Scaling Controllable Human Motion Generation",
         "url": "https://arxiv.org/abs/2603.15546v1"
-      },
-      {
-        "title": "onnx-internal-testing/tiny-random-GlmMoeDsaForCausalLM",
-        "url": "https://huggingface.co/onnx-internal-testing/tiny-random-GlmMoeDsaForCausalLM"
       }
     ],
     "language_models": [
@@ -675,8 +671,8 @@
         "url": "https://arxiv.org/abs/2603.15119v1"
       },
       {
-        "title": "onnx-internal-testing/tiny-random-GlmMoeDsaForCausalLM",
-        "url": "https://huggingface.co/onnx-internal-testing/tiny-random-GlmMoeDsaForCausalLM"
+        "title": "khoinguyenbk/llm-surgery-dark-arts-gpt-oss-40b-64a8",
+        "url": "https://huggingface.co/khoinguyenbk/llm-surgery-dark-arts-gpt-oss-40b-64a8"
       }
     ],
     "vision_systems": [
@@ -993,8 +989,8 @@
         "url": "https://arxiv.org/abs/2603.15118v1"
       },
       {
-        "title": "OceanCV/montereybaycoastalfauna",
-        "url": "https://huggingface.co/OceanCV/montereybaycoastalfauna"
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1693,7 +1689,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "58 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1764,6 +1760,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 416
+    "total_papers": 415
   }
 }
