@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-17T16:30:57.505644",
+  "date": "2026-03-17T20:17:30.872428",
   "patterns": {
     "multimodal_research": [
       {
@@ -673,6 +673,14 @@
       {
         "title": "OyellaA/W2V2_Bert_cdli_ugandan_english_nonstandard_speech_finetune_v1",
         "url": "https://huggingface.co/OyellaA/W2V2_Bert_cdli_ugandan_english_nonstandard_speech_finetune_v1"
+      },
+      {
+        "title": "andy3415/open_steuerllm-Q8_0-GGUF",
+        "url": "https://huggingface.co/andy3415/open_steuerllm-Q8_0-GGUF"
+      },
+      {
+        "title": "aariciah/gpt2-urdu-dutch-configC-6k",
+        "url": "https://huggingface.co/aariciah/gpt2-urdu-dutch-configC-6k"
       }
     ],
     "vision_systems": [
@@ -987,14 +995,6 @@
       {
         "title": "VAREX: A Benchmark for Multi-Modal Structured Extraction from Documents",
         "url": "https://arxiv.org/abs/2603.15118v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
-      },
-      {
-        "title": "cheongmyeong17/Qwen3-8B-CVAPO-EP8-G4",
-        "url": "https://huggingface.co/cheongmyeong17/Qwen3-8B-CVAPO-EP8-G4"
       }
     ],
     "reasoning": [
@@ -1293,6 +1293,10 @@
       {
         "title": "PAKAN: Pixel Adaptive Kolmogorov-Arnold Network Modules for Pansharpening",
         "url": "https://arxiv.org/abs/2603.15109v1"
+      },
+      {
+        "title": "jackalxyz/Qwen3.5-35B-A3B-Claude-Opus-Reasoning-Distilled-4.6-GGUF",
+        "url": "https://huggingface.co/jackalxyz/Qwen3.5-35B-A3B-Claude-Opus-Reasoning-Distilled-4.6-GGUF"
       }
     ],
     "benchmarks": [
@@ -1705,19 +1709,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "80 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1746,13 +1750,13 @@
       "significance": "high"
     },
     {
-      "topic": "architecture",
+      "topic": "reasoning",
       "frequency": 37,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 36,
+      "topic": "architecture",
+      "frequency": 37,
       "significance": "high"
     },
     {
@@ -1764,6 +1768,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 416
+    "total_papers": 417
   }
 }
