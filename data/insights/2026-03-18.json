@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-18T16:30:01.909719",
+  "date": "2026-03-18T20:17:11.581872",
   "patterns": {
     "multimodal_research": [
       {
@@ -725,10 +725,6 @@
       {
         "title": "LenghuSky-8: An 8-Year All-Sky Cloud Dataset with Star-Aware Masks and Alt-Az Calibration for Segmentation and Nowcasting",
         "url": "https://arxiv.org/abs/2603.16429v1"
-      },
-      {
-        "title": "Local-Novel-LLM-project/WabiSabi-V1.5-beta",
-        "url": "https://huggingface.co/Local-Novel-LLM-project/WabiSabi-V1.5-beta"
       },
       {
         "title": "Segmentation-Based Attention Entropy: Detecting and Mitigating Object Hallucinations in Large Vision-Language Models",
@@ -1825,7 +1821,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "92 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1884,6 +1880,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 446
+    "total_papers": 445
   }
 }
