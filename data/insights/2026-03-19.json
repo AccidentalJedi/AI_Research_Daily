@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-19T08:20:40.282008",
+  "date": "2026-03-19T12:20:07.727899",
   "patterns": {
     "multimodal_research": [
       {
@@ -1077,8 +1077,8 @@
         "url": "https://arxiv.org/abs/2603.17704v1"
       },
       {
-        "title": "meet4150/AIDE_image_detector",
-        "url": "https://huggingface.co/meet4150/AIDE_image_detector"
+        "title": "AIOmarRehan/Qwen2_5_VL_7B-Vision-LoRA-on-Astronomy-with-Unsloth",
+        "url": "https://huggingface.co/AIOmarRehan/Qwen2_5_VL_7B-Vision-LoRA-on-Astronomy-with-Unsloth"
       }
     ],
     "reasoning": [
@@ -1867,12 +1867,12 @@
     },
     {
       "topic": "generation",
-      "frequency": 46,
+      "frequency": 45,
       "significance": "high"
     },
     {
       "topic": "vision",
-      "frequency": 39,
+      "frequency": 40,
       "significance": "high"
     },
     {
