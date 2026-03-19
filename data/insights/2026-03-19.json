@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-19T04:44:49.607843",
+  "date": "2026-03-19T08:20:40.282008",
   "patterns": {
     "multimodal_research": [
       {
@@ -1075,6 +1075,10 @@
       {
         "title": "DancingBox: A Lightweight MoCap System for Character Animation from Physical Proxies",
         "url": "https://arxiv.org/abs/2603.17704v1"
+      },
+      {
+        "title": "meet4150/AIDE_image_detector",
+        "url": "https://huggingface.co/meet4150/AIDE_image_detector"
       }
     ],
     "reasoning": [
@@ -1827,7 +1831,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "85 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1863,7 +1867,7 @@
     },
     {
       "topic": "generation",
-      "frequency": 45,
+      "frequency": 46,
       "significance": "high"
     },
     {
@@ -1880,6 +1884,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 445
+    "total_papers": 446
   }
 }
