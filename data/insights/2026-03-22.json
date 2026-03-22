@@ -1,39 +1,11 @@
 {
-  "date": "2026-03-22T16:11:23.701412",
-  "patterns": {
-    "language_models": [
-      {
-        "title": "sandbreak80sd/llm-350m-instruct-v2",
-        "url": "https://huggingface.co/sandbreak80sd/llm-350m-instruct-v2"
-      },
-      {
-        "title": "Datchthana/wangchanberta-prachathai",
-        "url": "https://huggingface.co/Datchthana/wangchanberta-prachathai"
-      }
-    ],
-    "reasoning": [
-      {
-        "title": "shuff57/lfm2-24b-phase1-reasoning",
-        "url": "https://huggingface.co/shuff57/lfm2-24b-phase1-reasoning"
-      },
-      {
-        "title": "Chan-Y/Kara-Kumru-v1.0-2B-Reasoning",
-        "url": "https://huggingface.co/Chan-Y/Kara-Kumru-v1.0-2B-Reasoning"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "reasoning",
-      "observation": "Reasoning capabilities being explored",
-      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
-      "confidence": "medium"
-    }
-  ],
+  "date": "2026-03-22T20:10:01.372283",
+  "patterns": {},
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 2,
-    "total_inferences": 1,
-    "total_papers": 4
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
