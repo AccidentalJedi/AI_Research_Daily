@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-22T04:43:17.576846",
-  "patterns": {},
+  "date": "2026-03-22T08:13:39.328973",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "raydelossantos/OmniCoder-9B-GPTQ-Int4",
+        "url": "https://huggingface.co/raydelossantos/OmniCoder-9B-GPTQ-Int4"
+      },
+      {
+        "title": "raydelossantos/OmniCoder-9B-GPTQ-Int8",
+        "url": "https://huggingface.co/raydelossantos/OmniCoder-9B-GPTQ-Int8"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
