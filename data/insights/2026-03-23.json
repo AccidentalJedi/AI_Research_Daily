@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-23T16:25:53.963309",
-  "patterns": {},
+  "date": "2026-03-23T20:18:34.248846",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "didula-wso2/qwen3-8B_sft-balsft_16bit_vllm",
+        "url": "https://huggingface.co/didula-wso2/qwen3-8B_sft-balsft_16bit_vllm"
+      },
+      {
+        "title": "goosmanlei/SmolLM-135M-Instruct-GRPO-smoltldr",
+        "url": "https://huggingface.co/goosmanlei/SmolLM-135M-Instruct-GRPO-smoltldr"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
