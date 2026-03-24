@@ -47,7 +47,7 @@
       "Jesper B. Christensen",
       "Ciaran Bench",
       "Spencer A. Thomas",
-      "H\u00fcsn\u00fc Aslan",
+      "Hüsnü Aslan",
       "David Balslev-Harder",
       "Nadia A. S. Smith",
       "Alessandra Manzin"
@@ -73,7 +73,7 @@
       "Haroun Elleuch",
       "Ryan Whetten",
       "Salima Mdhaffar",
-      "Yannick Est\u00e8ve",
+      "Yannick Estève",
       "Fethi Bougares"
     ],
     "categories": [
@@ -93,7 +93,7 @@
     "authors": [
       "Haroun Elleuch",
       "Salima Mdhaffar",
-      "Yannick Est\u00e8ve",
+      "Yannick Estève",
       "Fethi Bougares"
     ],
     "categories": [
@@ -399,7 +399,7 @@
     "authors": [
       "Aurora Esteban",
       "Amelia Zafra",
-      "Sebasti\u00e1n Ventura"
+      "Sebastián Ventura"
     ],
     "categories": [
       "cs.LG"
@@ -476,11 +476,11 @@
     "title": "Adversarial Camouflage",
     "summary": "While the rapid development of facial recognition algorithms has enabled numerous beneficial applications, their widespread deployment has raised significant concerns about the risks of mass surveillance and threats to individual privacy. In this paper, we introduce \\textit{Adversarial Camouflage} as a novel solution for protecting users' privacy. This approach is designed to be efficient and simple to reproduce for users in the physical world. The algorithm starts by defining a low-dimensional pattern space parameterized by color, shape, and angle. Optimized patterns, once found, are projected onto semantically valid facial regions for evaluation. Our method maximizes recognition error across multiple architectures, ensuring high cross-model transferability even against black-box systems. It significantly degrades the performance of all tested state-of-the-art face recognition models during simulations and demonstrates promising results in real-world human experiments, while revealing differences in model robustness and evidence of attack transferability across architectures.",
     "authors": [
-      "Pawe\u0142 Borsukiewicz",
+      "Paweł Borsukiewicz",
       "Daniele Lunghi",
       "Melissa Tessa",
       "Jacques Klein",
-      "Tegawend\u00e9 F. Bissyand\u00e9"
+      "Tegawendé F. Bissyandé"
     ],
     "categories": [
       "cs.CV",
@@ -970,7 +970,7 @@
   {
     "arxiv_id": "2603.22154v1",
     "title": "dynActivation: A Trainable Activation Family for Adaptive Nonlinearity",
-    "summary": "This paper proposes $\\mathrm{dynActivation}$, a per-layer trainable activation defined as $f_i(x) = \\mathrm{BaseAct}(x)(\u03b1_i - \u03b2_i) + \u03b2_i x$, where $\u03b1_i$ and $\u03b2_i$ are lightweight learned scalars that interpolate between the base nonlinearity and a linear path and $\\mathrm{BaseAct}(x)$ resembles any ReLU-like function. The static and dynamic ReLU-like variants are then compared across multiple vision tasks, language modeling tasks, and ablation studies. The results suggest that dynActivation variants tend to linearize deep layers while maintaining high performance, which can improve training efficiency by up to $+54\\%$ over ReLU.   On CIFAR-10, dynActivation(Mish) improves over static Mish by up to $+14.02\\%$ on AttentionCNN with an average improvment by $+6.00\\%$, with a $24\\%$ convergence-AUC reduction relative to Mish (2120 vs. 2785). In a 1-to-75-layer MNIST depth-scaling study, dynActivation never drops below $95\\%$ test accuracy ($95.3$--$99.3\\%$), while ReLU collapses below $80\\%$ at 25 layers. Under FGSM at $\\varepsilon{=}0.08$, dynActivation(Mish) incurs a $55.39\\%$ accuracy drop versus $62.79\\%$ for ReLU ($7.40\\%$ advantage). Transferred to language modeling, a new proposed dynActGLU-variant achieves a $10.3\\%$ relative perplexity reduction over SwiGLU at 5620 steps (4.047 vs. 4.514), though the gap vanishes at 34300 steps.",
+    "summary": "This paper proposes $\\mathrm{dynActivation}$, a per-layer trainable activation defined as $f_i(x) = \\mathrm{BaseAct}(x)(α_i - β_i) + β_i x$, where $α_i$ and $β_i$ are lightweight learned scalars that interpolate between the base nonlinearity and a linear path and $\\mathrm{BaseAct}(x)$ resembles any ReLU-like function. The static and dynamic ReLU-like variants are then compared across multiple vision tasks, language modeling tasks, and ablation studies. The results suggest that dynActivation variants tend to linearize deep layers while maintaining high performance, which can improve training efficiency by up to $+54\\%$ over ReLU.   On CIFAR-10, dynActivation(Mish) improves over static Mish by up to $+14.02\\%$ on AttentionCNN with an average improvment by $+6.00\\%$, with a $24\\%$ convergence-AUC reduction relative to Mish (2120 vs. 2785). In a 1-to-75-layer MNIST depth-scaling study, dynActivation never drops below $95\\%$ test accuracy ($95.3$--$99.3\\%$), while ReLU collapses below $80\\%$ at 25 layers. Under FGSM at $\\varepsilon{=}0.08$, dynActivation(Mish) incurs a $55.39\\%$ accuracy drop versus $62.79\\%$ for ReLU ($7.40\\%$ advantage). Transferred to language modeling, a new proposed dynActGLU-variant achieves a $10.3\\%$ relative perplexity reduction over SwiGLU at 5620 steps (4.047 vs. 4.514), though the gap vanishes at 34300 steps.",
     "authors": [
       "Alois Bachmann"
     ],
@@ -1013,8 +1013,8 @@
       "Simon Lupart",
       "Maxime Louis",
       "Thibault Formal",
-      "Herv\u00e9 D\u00e9jean",
-      "St\u00e9phane Clinchant"
+      "Hervé Déjean",
+      "Stéphane Clinchant"
     ],
     "categories": [
       "cs.IR",
@@ -1311,7 +1311,7 @@
       "Wenxin Zhang",
       "Zhiyu Li",
       "Jennifer Williams",
-      "Ville Hautam\u00e4ki",
+      "Ville Hautamäki",
       "Tomi H. Kinnunen"
     ],
     "categories": [
@@ -1726,15 +1726,15 @@
     "title": "Chronological Contrastive Learning: Few-Shot Progression Assessment in Irreversible Diseases",
     "summary": "Quantitative disease severity scoring in medical imaging is costly, time-consuming, and subject to inter-reader variability. At the same time, clinical archives contain far more longitudinal imaging data than expert-annotated severity scores. Existing self-supervised methods typically ignore this chronological structure. We introduce ChronoCon, a contrastive learning approach that replaces label-based ranking losses with rankings derived solely from the visitation order of a patient's longitudinal scans. Under the clinically plausible assumption of monotonic progression in irreversible diseases, the method learns disease-relevant representations without using any expert labels. This generalizes the idea of Rank-N-Contrast from label distances to temporal ordering. Evaluated on rheumatoid arthritis radiographs for severity assessment, the learned representations substantially improve label efficiency. In low-label settings, ChronoCon significantly outperforms a fully supervised baseline initialized from ImageNet weights. In a few-shot learning experiment, fine-tuning ChronoCon on expert scores from only five patients yields an intraclass correlation coefficient of 86% for severity score prediction. These results demonstrate the potential of chronological contrastive learning to exploit routinely available imaging metadata to reduce annotation requirements in the irreversible disease domain. Code is available at https://github.com/cirmuw/ChronoCon.",
     "authors": [
-      "Clemens Watzenb\u00f6ck",
+      "Clemens Watzenböck",
       "Daniel Aletaha",
-      "Micha\u00ebl Deman",
+      "Michaël Deman",
       "Thomas Deimel",
       "Jana Eder",
       "Ivana Janickova",
       "Robert Janiczek",
       "Peter Mandl",
-      "Philipp Seeb\u00f6ck",
+      "Philipp Seeböck",
       "Gabriela Supp",
       "Paul Weiser",
       "Georg Langs"
@@ -1965,7 +1965,7 @@
     "authors": [
       "Armand Rousselot",
       "Joran Wendebourg",
-      "Ullrich K\u00f6the"
+      "Ullrich Köthe"
     ],
     "categories": [
       "cs.LG"
@@ -2142,7 +2142,7 @@
   {
     "arxiv_id": "2603.22117v1",
     "title": "On the Direction of RLVR Updates for LLM Reasoning: Identification and Exploitation",
-    "summary": "Reinforcement learning with verifiable rewards (RLVR) has substantially improved the reasoning capabilities of large language models. While existing analyses identify that RLVR-induced changes are sparse, they primarily focus on the \\textbf{magnitude} of these updates, largely overlooking their \\textbf{direction}. In this work, we argue that the direction of updates is a more critical lens for understanding RLVR's effects, which can be captured by the signed, token-level log probability difference $\u0394\\log p$ between the base and final RLVR models. Through statistical analysis and token-replacement interventions, we demonstrate that $\u0394\\log p$ more effectively identifies sparse, yet reasoning-critical updates than magnitude-based metrics (\\eg divergence or entropy). Building on this insight, we propose two practical applications: (1) a \\textit{test-time extrapolation} method that amplifies the policy along the learned $\u0394\\log p$ direction to improve reasoning accuracy without further training; (2) a \\textit{training-time reweighting} method that focuses learning on low-probability (corresponding to higher $\u0394\\log p$) tokens, which improves reasoning performance across models and benchmarks. Our work establishes the direction of change as a key principle for analyzing and improving RLVR.",
+    "summary": "Reinforcement learning with verifiable rewards (RLVR) has substantially improved the reasoning capabilities of large language models. While existing analyses identify that RLVR-induced changes are sparse, they primarily focus on the \\textbf{magnitude} of these updates, largely overlooking their \\textbf{direction}. In this work, we argue that the direction of updates is a more critical lens for understanding RLVR's effects, which can be captured by the signed, token-level log probability difference $Δ\\log p$ between the base and final RLVR models. Through statistical analysis and token-replacement interventions, we demonstrate that $Δ\\log p$ more effectively identifies sparse, yet reasoning-critical updates than magnitude-based metrics (\\eg divergence or entropy). Building on this insight, we propose two practical applications: (1) a \\textit{test-time extrapolation} method that amplifies the policy along the learned $Δ\\log p$ direction to improve reasoning accuracy without further training; (2) a \\textit{training-time reweighting} method that focuses learning on low-probability (corresponding to higher $Δ\\log p$) tokens, which improves reasoning performance across models and benchmarks. Our work establishes the direction of change as a key principle for analyzing and improving RLVR.",
     "authors": [
       "Kexin Huang",
       "Haoming Meng",
@@ -2316,7 +2316,7 @@
     "title": "Multimodal Survival Analysis with Locally Deployable Large Language Models",
     "summary": "We study multimodal survival analysis integrating clinical text, tabular covariates, and genomic profiles using locally deployable large language models (LLMs). As many institutions face tight computational and privacy constraints, this setting motivates the use of lightweight, on-premises models. Our approach jointly estimates calibrated survival probabilities and generates concise, evidence-grounded prognosis text via teacher-student distillation and principled multimodal fusion. On a TCGA cohort, it outperforms standard baselines, avoids reliance on cloud services and associated privacy concerns, and reduces the risk of hallucinated or miscalibrated estimates that can be observed in base LLMs.",
     "authors": [
-      "Moritz G\u00f6gl",
+      "Moritz Gögl",
       "Christopher Yau"
     ],
     "categories": [
@@ -2538,9 +2538,9 @@
       "Jan Rusz",
       "Mathew Magimai Doss",
       "Juan Rafael Orozco-Arroyave",
-      "Tom\u00e1s Arias-Vergara",
+      "Tomás Arias-Vergara",
       "Andreas Maier",
-      "Elmar N\u00f6th",
+      "Elmar Nöth",
       "David R. Mortensen",
       "David Harwath",
       "Paula Andrea Perez-Toro"
@@ -2870,9 +2870,9 @@
   {
     "arxiv_id": "2603.21844v1",
     "title": "On the Number of Conditional Independence Tests in Constraint-based Causal Discovery",
-    "summary": "Learning causal relations from observational data is a fundamental problem with wide-ranging applications across many fields. Constraint-based methods infer the underlying causal structure by performing conditional independence tests. However, existing algorithms such as the prominent PC algorithm need to perform a large number of independence tests, which in the worst case is exponential in the maximum degree of the causal graph. Despite extensive research, it remains unclear if there exist algorithms with better complexity without additional assumptions. Here, we establish an algorithm that achieves a better complexity of $p^{\\mathcal{O}(s)}$ tests, where $p$ is the number of nodes in the graph and $s$ denotes the maximum undirected clique size of the underlying essential graph. Complementing this result, we prove that any constraint-based algorithm must perform at least $2^{\u03a9(s)}$ conditional independence tests, establishing that our proposed algorithm achieves exponent-optimality up to a logarithmic factor in terms of the number of conditional independence tests needed. Finally, we validate our theoretical findings through simulations, on semi-synthetic gene-expression data, and real-world data, demonstrating the efficiency of our algorithm compared to existing methods in terms of number of conditional independence tests needed.",
+    "summary": "Learning causal relations from observational data is a fundamental problem with wide-ranging applications across many fields. Constraint-based methods infer the underlying causal structure by performing conditional independence tests. However, existing algorithms such as the prominent PC algorithm need to perform a large number of independence tests, which in the worst case is exponential in the maximum degree of the causal graph. Despite extensive research, it remains unclear if there exist algorithms with better complexity without additional assumptions. Here, we establish an algorithm that achieves a better complexity of $p^{\\mathcal{O}(s)}$ tests, where $p$ is the number of nodes in the graph and $s$ denotes the maximum undirected clique size of the underlying essential graph. Complementing this result, we prove that any constraint-based algorithm must perform at least $2^{Ω(s)}$ conditional independence tests, establishing that our proposed algorithm achieves exponent-optimality up to a logarithmic factor in terms of the number of conditional independence tests needed. Finally, we validate our theoretical findings through simulations, on semi-synthetic gene-expression data, and real-world data, demonstrating the efficiency of our algorithm compared to existing methods in terms of number of conditional independence tests needed.",
     "authors": [
-      "Marc Franquesa Mon\u00e9s",
+      "Marc Franquesa Monés",
       "Jiaqi Zhang",
       "Caroline Uhler"
     ],
@@ -3529,14 +3529,14 @@
   },
   {
     "arxiv_id": "2603.21991v1",
-    "title": "\u03bb-GELU: Learning Gating Hardness for Controlled ReLU-ization in Deep Networks",
-    "summary": "Gaussian Error Linear Unit (GELU) is a widely used smooth alternative to Rectifier Linear Unit (ReLU), yet many deployment, compression, and analysis toolchains are most naturally expressed for piecewise-linear (ReLU-type) networks. We study a hardness-parameterized formulation of GELU, f(x;\u03bb)=x\u03a6(\u03bb x), where \u03a6 is the Gaussian CDF and \u03bb \\in [1, infty) controls gate sharpness, with the goal of turning smooth gated training into a controlled path toward ReLU-compatible models. Learning \u03bb is non-trivial: naive updates yield unstable dynamics and effective gradient attenuation, so we introduce a constrained reparameterization and an optimizer-aware update scheme.   Empirically, across a diverse set of model--dataset pairs spanning MLPs, CNNs, and Transformers, we observe structured layerwise hardness profiles and assess their robustness under different initializations. We further study a deterministic ReLU-ization strategy in which the learned gates are progressively hardened toward a principled target, enabling a post-training substitution of \u03bb-GELU by ReLU with reduced disruption. Overall, \u03bb-GELU provides a minimal and interpretable knob to profile and control gating hardness, bridging smooth training with ReLU-centric downstream pipelines.",
+    "title": "λ-GELU: Learning Gating Hardness for Controlled ReLU-ization in Deep Networks",
+    "summary": "Gaussian Error Linear Unit (GELU) is a widely used smooth alternative to Rectifier Linear Unit (ReLU), yet many deployment, compression, and analysis toolchains are most naturally expressed for piecewise-linear (ReLU-type) networks. We study a hardness-parameterized formulation of GELU, f(x;λ)=xΦ(λ x), where Φ is the Gaussian CDF and λ \\in [1, infty) controls gate sharpness, with the goal of turning smooth gated training into a controlled path toward ReLU-compatible models. Learning λ is non-trivial: naive updates yield unstable dynamics and effective gradient attenuation, so we introduce a constrained reparameterization and an optimizer-aware update scheme.   Empirically, across a diverse set of model--dataset pairs spanning MLPs, CNNs, and Transformers, we observe structured layerwise hardness profiles and assess their robustness under different initializations. We further study a deterministic ReLU-ization strategy in which the learned gates are progressively hardened toward a principled target, enabling a post-training substitution of λ-GELU by ReLU with reduced disruption. Overall, λ-GELU provides a minimal and interpretable knob to profile and control gating hardness, bridging smooth training with ReLU-centric downstream pipelines.",
     "authors": [
-      "Cristian P\u00e9rez-Corral",
-      "Alberto Fern\u00e1ndez-Hern\u00e1ndez",
+      "Cristian Pérez-Corral",
+      "Alberto Fernández-Hernández",
       "Jose I. Mestre",
       "Manuel F. Dolz",
-      "Enrique S. Quintana-Ort\u00ed"
+      "Enrique S. Quintana-Ortí"
     ],
     "categories": [
       "cs.LG",
@@ -3575,7 +3575,7 @@
   {
     "arxiv_id": "2603.21735v1",
     "title": "Cognitive Agency Surrender: Defending Epistemic Sovereignty via Scaffolded AI Friction",
-    "summary": "The proliferation of Generative Artificial Intelligence has transformed benign cognitive offloading into a systemic risk of cognitive agency surrender. Driven by the commercial dogma of \"zero-friction\" design, highly fluent AI interfaces actively exploit human cognitive miserliness, prematurely satisfying the need for cognitive closure and inducing severe automation bias. To empirically quantify this epistemic erosion, we deployed a zero-shot semantic classification pipeline ($\u03c4=0.7$) on 1,223 high-confidence AI-HCI papers from 2023 to early 2026. Our analysis reveals an escalating \"agentic takeover\": a brief 2025 surge in research defending human epistemic sovereignty (19.1%) was abruptly suppressed in early 2026 (13.1%) by an explosive shift toward optimizing autonomous machine agents (19.6%), while frictionless usability maintained a structural hegemony (67.3%). To dismantle this trap, we theorize \"Scaffolded Cognitive Friction,\" repurposing Multi-Agent Systems (MAS) as explicit cognitive forcing functions (e.g., computational Devil's Advocates) to inject germane epistemic tension and disrupt heuristic execution. Furthermore, we outline a multimodal computational phenotyping agenda -- integrating gaze transition entropy, task-evoked pupillometry, fNIRS, and Hierarchical Drift Diffusion Modeling (HDDM) -- to mathematically decouple decision outcomes from cognitive effort. Ultimately, intentionally designed friction is not merely a psychological intervention, but a foundational technical prerequisite for enforcing global AI governance and preserving societal cognitive resilience.",
+    "summary": "The proliferation of Generative Artificial Intelligence has transformed benign cognitive offloading into a systemic risk of cognitive agency surrender. Driven by the commercial dogma of \"zero-friction\" design, highly fluent AI interfaces actively exploit human cognitive miserliness, prematurely satisfying the need for cognitive closure and inducing severe automation bias. To empirically quantify this epistemic erosion, we deployed a zero-shot semantic classification pipeline ($τ=0.7$) on 1,223 high-confidence AI-HCI papers from 2023 to early 2026. Our analysis reveals an escalating \"agentic takeover\": a brief 2025 surge in research defending human epistemic sovereignty (19.1%) was abruptly suppressed in early 2026 (13.1%) by an explosive shift toward optimizing autonomous machine agents (19.6%), while frictionless usability maintained a structural hegemony (67.3%). To dismantle this trap, we theorize \"Scaffolded Cognitive Friction,\" repurposing Multi-Agent Systems (MAS) as explicit cognitive forcing functions (e.g., computational Devil's Advocates) to inject germane epistemic tension and disrupt heuristic execution. Furthermore, we outline a multimodal computational phenotyping agenda -- integrating gaze transition entropy, task-evoked pupillometry, fNIRS, and Hierarchical Drift Diffusion Modeling (HDDM) -- to mathematically decouple decision outcomes from cognitive effort. Ultimately, intentionally designed friction is not merely a psychological intervention, but a foundational technical prerequisite for enforcing global AI governance and preserving societal cognitive resilience.",
     "authors": [
       "Kuangzhe Xu",
       "Yu Shen",
@@ -3641,9 +3641,9 @@
     "authors": [
       "Claudia Islas-Vargas",
       "L. Ricardo Montoya",
-      "Carlos A. Vital-Jos\u00e9",
+      "Carlos A. Vital-José",
       "Oliver T. Unke",
-      "Klaus-Robert M\u00fcller",
+      "Klaus-Robert Müller",
       "Huziel E. Sauceda"
     ],
     "categories": [
@@ -3725,9 +3725,9 @@
   {
     "arxiv_id": "2603.21852v1",
     "title": "All elementary functions from a single binary operator",
-    "summary": "A single two-input gate suffices for all of Boolean logic in digital hardware. No comparable primitive has been known for continuous mathematics: computing elementary functions such as sin, cos, sqrt, and log has always required multiple distinct operations. Here I show that a single binary operator, eml(x,y)=exp(x)-ln(y), together with the constant 1, generates the standard repertoire of a scientific calculator. This includes constants such as $e$, $\u03c0$, and $i$; arithmetic operations including $+$, $-$, $\\times$, $/$, and exponentiation as well as the usual transcendental and algebraic functions. For example, $e^x=\\operatorname{eml}(x,1)$, $\\ln x=\\operatorname{eml}(1,\\operatorname{eml}(\\operatorname{eml}(1,x),1))$, and likewise for all other operations. That such an operator exists was not anticipated; I found it by systematic exhaustive search and established constructively that it suffices for the concrete scientific-calculator basis. In EML (Exp-Minus-Log) form, every such expression becomes a binary tree of identical nodes, yielding a grammar as simple as $S \\to 1 \\mid \\operatorname{eml}(S,S)$. This uniform structure also enables gradient-based symbolic regression: using EML trees as trainable circuits with standard optimizers (Adam), I demonstrate the feasibility of exact recovery of closed-form elementary functions from numerical data at shallow tree depths up to 4. The same architecture can fit arbitrary data, but when the generating law is elementary, it may recover the exact formula.",
+    "summary": "A single two-input gate suffices for all of Boolean logic in digital hardware. No comparable primitive has been known for continuous mathematics: computing elementary functions such as sin, cos, sqrt, and log has always required multiple distinct operations. Here I show that a single binary operator, eml(x,y)=exp(x)-ln(y), together with the constant 1, generates the standard repertoire of a scientific calculator. This includes constants such as $e$, $π$, and $i$; arithmetic operations including $+$, $-$, $\\times$, $/$, and exponentiation as well as the usual transcendental and algebraic functions. For example, $e^x=\\operatorname{eml}(x,1)$, $\\ln x=\\operatorname{eml}(1,\\operatorname{eml}(\\operatorname{eml}(1,x),1))$, and likewise for all other operations. That such an operator exists was not anticipated; I found it by systematic exhaustive search and established constructively that it suffices for the concrete scientific-calculator basis. In EML (Exp-Minus-Log) form, every such expression becomes a binary tree of identical nodes, yielding a grammar as simple as $S \\to 1 \\mid \\operatorname{eml}(S,S)$. This uniform structure also enables gradient-based symbolic regression: using EML trees as trainable circuits with standard optimizers (Adam), I demonstrate the feasibility of exact recovery of closed-form elementary functions from numerical data at shallow tree depths up to 4. The same architecture can fit arbitrary data, but when the generating law is elementary, it may recover the exact formula.",
     "authors": [
-      "Andrzej Odrzywo\u0142ek"
+      "Andrzej Odrzywołek"
     ],
     "categories": [
       "cs.SC",
@@ -3801,10 +3801,10 @@
   {
     "arxiv_id": "2603.21683v1",
     "title": "Learning operators on labelled conditional distributions with applications to mean field control of non exchangeable systems",
-    "summary": "We study the approximation of operators acting on probability measures on a product space with prescribed marginal. Let $I$ be a label space endowed with a reference measure $\u03bb$, and define $\\cal M_\u03bb$ as the set of probability measures on $I\\times \\mathbb{R}^d$ with first marginal $\u03bb$. By disintegration, elements of $\\cal M_\u03bb$ correspond to families of labeled conditional distributions. Operators defined on this constrained measure space arise naturally in mean-field control problems with heterogeneous, non-exchangeable agents. Our main theoretical result establishes a universal approximation theorem for continuous operators on $\\cal M_\u03bb$. The proof combines cylindrical approximations of probability measures with DeepONet-type branch-trunk neural architecture, yielding finite-dimensional representations of such operators. We further introduce a sampling strategy for generating training measures in $\\cal M_\u03bb$, enabling practical learning of such conditional mean-field operators. We apply the method to the numerical resolution of mean-field control problems with heterogeneous interactions, thereby extending previous neural approaches developed for homogeneous (exchangeable) systems. Numerical experiments illustrate the accuracy and computational effectiveness of the proposed framework.",
+    "summary": "We study the approximation of operators acting on probability measures on a product space with prescribed marginal. Let $I$ be a label space endowed with a reference measure $λ$, and define $\\cal M_λ$ as the set of probability measures on $I\\times \\mathbb{R}^d$ with first marginal $λ$. By disintegration, elements of $\\cal M_λ$ correspond to families of labeled conditional distributions. Operators defined on this constrained measure space arise naturally in mean-field control problems with heterogeneous, non-exchangeable agents. Our main theoretical result establishes a universal approximation theorem for continuous operators on $\\cal M_λ$. The proof combines cylindrical approximations of probability measures with DeepONet-type branch-trunk neural architecture, yielding finite-dimensional representations of such operators. We further introduce a sampling strategy for generating training measures in $\\cal M_λ$, enabling practical learning of such conditional mean-field operators. We apply the method to the numerical resolution of mean-field control problems with heterogeneous interactions, thereby extending previous neural approaches developed for homogeneous (exchangeable) systems. Numerical experiments illustrate the accuracy and computational effectiveness of the proposed framework.",
     "authors": [
       "Samy Mekkaoui",
-      "Huy\u00ean Pham",
+      "Huyên Pham",
       "Xavier Warin"
     ],
     "categories": [
@@ -3885,9 +3885,9 @@
     "title": "Deep S2P: Integrating Learning Based Stereo Matching Into the Satellite Stereo Pipeline",
     "summary": "Digital Surface Model generation from satellite imagery is a core task in Earth observation and is commonly addressed using classical stereoscopic matching algorithms in satellite pipelines as in the Satellite Stereo Pipeline (S2P). While recent learning-based stereo matchers achieve state-of-the-art performance on standard benchmarks, their integration into operational satellite pipelines remains challenging due to differences in viewing geometry and disparity assumptions. In this work, we integrate several modern learning-based stereo matchers, including StereoAnywhere, MonSter, Foundation Stereo, and a satellite fine-tuned variant of MonSter, into the Satellite Stereo Pipeline, adapting the rectification stage to enforce compatible disparity polarity and range. We release the corresponding code to enable reproducible use of these methods in large-scale Earth observation workflows. Experiments on satellite imagery show consistent improvements over classical cost-volume-based approaches in terms of Digital Surface Model accuracy, although commonly used metrics such as mean absolute error exhibit saturation effects. Qualitative results reveal substantially improved geometric detail and sharper structures, highlighting the need for evaluation strategies that better reflect perceptual and structural fidelity. At the same time, performance over challenging surface types such as vegetation remains limited across all evaluated models, indicating open challenges for learning-based stereo in natural environments.",
     "authors": [
-      "El\u00edas Masquil",
+      "Elías Masquil",
       "Thibaud Ehret",
-      "Pablo Mus\u00e9",
+      "Pablo Musé",
       "Gabriele Facciolo"
     ],
     "categories": [
@@ -3927,10 +3927,10 @@
     "authors": [
       "Guillaume Bied",
       "Philippe Caillou",
-      "Bruno Cr\u00e9pon",
+      "Bruno Crépon",
       "Christophe Gaillac",
-      "Elia P\u00e9rennes",
-      "Mich\u00e8le Sebag"
+      "Elia Pérennes",
+      "Michèle Sebag"
     ],
     "categories": [
       "econ.EM",
@@ -3950,9 +3950,9 @@
     "authors": [
       "Sopitta Thurachen",
       "Josef Taher",
-      "Matti Lehtom\u00e4ki",
+      "Matti Lehtomäki",
       "Leena Matikainen",
-      "Linnea Bl\u00e5field",
+      "Linnea Blåfield",
       "Mikel Calle Navarro",
       "Antero Kukko",
       "Tomi Westerlund",
@@ -4062,7 +4062,7 @@
       "Chris Kolb",
       "Juntae Kwon",
       "Daniel Dold",
-      "David R\u00fcgamer"
+      "David Rügamer"
     ],
     "categories": [
       "cs.LG",
@@ -4205,8 +4205,8 @@
     "summary": "Recent advances in deep learning have significantly improved 3D semantic segmentation, but most models focus on indoor or terrestrial datasets. Their behavior under real aerial acquisition conditions remains insufficiently explored, and although a few studies have addressed similar scenarios, they differ in dataset design, acquisition conditions, and model selection. To address this gap, we conduct an experimental benchmark evaluating several state-of-the-art architectures on a large-scale aerial LiDAR dataset acquired under operational flight conditions in Navarre, Spain, covering heterogeneous urban, rural, and industrial landscapes. This study compares four representative deep learning models, including KPConv, RandLA-Net, Superpoint Transformer, and Point Transformer V3, across five semantic classes commonly found in airborne surveys, such as ground, vegetation, buildings, and vehicles, highlighting the inherent challenges of class imbalance and geometric variability in aerial data. Results show that all tested models achieve high overall accuracy exceeding 93%, with KPConv attaining the highest mean IoU (78.51%) through consistent performance across classes, particularly on challenging and underrepresented categories. Point Transformer V3 demonstrates superior performance on the underrepresented vehicle class (75.11% IoU), while Superpoint Transformer and RandLA-Net trade off segmentation robustness for computational efficiency.",
     "authors": [
       "Alex Salvatierra",
-      "Jos\u00e9 Antonio Sanz",
-      "Christian Guti\u00e9rrez",
+      "José Antonio Sanz",
+      "Christian Gutiérrez",
       "Mikel Galar"
     ],
     "categories": [
@@ -4323,8 +4323,8 @@
     "authors": [
       "Yaelle Zribi",
       "Florian Cafiero",
-      "Vincent L\u00e9pinay",
-      "Chahan Vidal-Gor\u00e8ne"
+      "Vincent Lépinay",
+      "Chahan Vidal-Gorène"
     ],
     "categories": [
       "cs.CV"
@@ -4444,235 +4444,5 @@
     "date": "2026-03-24",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "unxxf/shagal_style_LoRA",
-    "author": "unknown",
-    "title": "unxxf/shagal_style_LoRA",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "diffusers",
-      "tensorboard",
-      "text-to-image",
-      "diffusers-training",
-      "lora",
-      "template:sd-lora",
-      "stable-diffusion-xl",
-      "stable-diffusion-xl-diffusers",
-      "base_model:stabilityai/stable-diffusion-xl-base-1.0",
-      "base_model:adapter:stabilityai/stable-diffusion-xl-base-1.0",
-      "license:openrail++",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "diffusers",
-    "created_at": "2026-03-24T02:36:36.000Z",
-    "last_modified": "2026-03-24T04:39:09.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/unxxf/shagal_style_LoRA",
-    "date": "2026-03-24",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "deqing/llama-300M-v5-addition",
-    "author": "unknown",
-    "title": "deqing/llama-300M-v5-addition",
-    "downloads": 2467,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "llama",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-03-22T05:48:13.000Z",
-    "last_modified": "2026-03-24T04:38:41.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/deqing/llama-300M-v5-addition",
-    "date": "2026-03-24",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "TomerGamerTV/Peach-2.0-9B-8k-Roleplay-MLX-Q3",
-    "author": "unknown",
-    "title": "TomerGamerTV/Peach-2.0-9B-8k-Roleplay-MLX-Q3",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "mlx",
-      "safetensors",
-      "llama",
-      "roleplay",
-      "rp",
-      "character",
-      "text-generation",
-      "conversational",
-      "zh",
-      "en",
-      "base_model:ClosedCharacter/Peach-2.0-9B-8k-Roleplay",
-      "base_model:quantized:ClosedCharacter/Peach-2.0-9B-8k-Roleplay",
-      "license:mit",
-      "3-bit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "mlx",
-    "created_at": "2026-03-24T02:56:18.000Z",
-    "last_modified": "2026-03-24T04:38:23.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/TomerGamerTV/Peach-2.0-9B-8k-Roleplay-MLX-Q3",
-    "date": "2026-03-24",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "bhaskarsarkar2000/t5-small",
-    "author": "unknown",
-    "title": "bhaskarsarkar2000/t5-small",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "pytorch",
-      "tf",
-      "jax",
-      "rust",
-      "onnx",
-      "safetensors",
-      "t5",
-      "summarization",
-      "translation",
-      "en",
-      "fr",
-      "ro",
-      "de",
-      "multilingual",
-      "dataset:c4",
-      "arxiv:1805.12471",
-      "arxiv:1708.00055",
-      "arxiv:1704.05426",
-      "arxiv:1606.05250",
-      "arxiv:1808.09121",
-      "arxiv:1810.12885",
-      "arxiv:1905.10044",
-      "arxiv:1910.09700",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "translation",
-    "library": "",
-    "created_at": "2026-03-24T04:36:57.000Z",
-    "last_modified": "2026-03-24T04:36:57.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/bhaskarsarkar2000/t5-small",
-    "date": "2026-03-24",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Neelectric/Llama-3.1-8B-Instruct_SFT_sciencefisher_v00.12",
-    "author": "unknown",
-    "title": "Neelectric/Llama-3.1-8B-Instruct_SFT_sciencefisher_v00.12",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "sft",
-      "conversational",
-      "base_model:meta-llama/Llama-3.1-8B-Instruct",
-      "base_model:finetune:meta-llama/Llama-3.1-8B-Instruct",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-23T23:20:12.000Z",
-    "last_modified": "2026-03-24T04:33:21.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Neelectric/Llama-3.1-8B-Instruct_SFT_sciencefisher_v00.12",
-    "date": "2026-03-24",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "alvdansen/illustration-1.0-flux-dev",
-    "author": "unknown",
-    "title": "alvdansen/illustration-1.0-flux-dev",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "flux",
-      "lora",
-      "illustration",
-      "anime",
-      "style",
-      "text-to-image",
-      "bande-dessinee",
-      "graphic-novel",
-      "risograph",
-      "en",
-      "base_model:black-forest-labs/FLUX.1-dev",
-      "base_model:adapter:black-forest-labs/FLUX.1-dev",
-      "license:other",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "peft",
-    "created_at": "2026-03-24T04:27:27.000Z",
-    "last_modified": "2026-03-24T04:31:34.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/alvdansen/illustration-1.0-flux-dev",
-    "date": "2026-03-24",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "dataset_id": "open-index/hacker-news",
-    "author": "open-index",
-    "title": "open-index/hacker-news",
-    "downloads": 6899,
-    "likes": 160,
-    "tags": [
-      "task_categories:text-generation",
-      "task_categories:feature-extraction",
-      "task_categories:text-classification",
-      "task_categories:question-answering",
-      "language:en",
-      "license:odc-by",
-      "size_categories:10M<n<100M",
-      "modality:text",
-      "region:us",
-      "hacker-news",
-      "forum",
-      "text",
-      "parquet",
-      "community",
-      "tech",
-      "comments",
-      "live-updated"
-    ],
-    "created_at": "2026-03-14T09:58:41.000Z",
-    "last_modified": "2026-03-24T04:40:20.000Z",
-    "url": "https://huggingface.co/datasets/open-index/hacker-news",
-    "date": "2026-03-24",
-    "source": "huggingface_dataset",
-    "type": "dataset",
-    "research_score": 0.4
   }
 ]
