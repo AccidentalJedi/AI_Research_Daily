@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-25T16:33:01.172194",
+  "date": "2026-03-25T20:17:37.915540",
   "patterns": {
     "multimodal_research": [
       {
@@ -767,8 +767,8 @@
         "url": "https://arxiv.org/abs/2603.23034v1"
       },
       {
-        "title": "yhavinga/dmbert-1024h-22l-fineweb2-2000000",
-        "url": "https://huggingface.co/yhavinga/dmbert-1024h-22l-fineweb2-2000000"
+        "title": "prince4332/twi-multilingual-llm",
+        "url": "https://huggingface.co/prince4332/twi-multilingual-llm"
       }
     ],
     "vision_systems": [
@@ -1131,6 +1131,10 @@
       {
         "title": "WildWorld: A Large-Scale Dataset for Dynamic World Modeling with Actions and Explicit State toward Generative ARPG",
         "url": "https://arxiv.org/abs/2603.23497v1"
+      },
+      {
+        "title": "zacdan4801/wav2vec2-lv-60-espeak-cv-ft-custom_vocab-ds-f1",
+        "url": "https://huggingface.co/zacdan4801/wav2vec2-lv-60-espeak-cv-ft-custom_vocab-ds-f1"
       }
     ],
     "reasoning": [
@@ -1931,7 +1935,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "90 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1984,6 +1988,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 471
+    "total_papers": 472
   }
 }
