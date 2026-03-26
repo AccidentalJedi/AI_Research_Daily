@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-26T16:32:43.188904",
+  "date": "2026-03-26T20:15:00.810251",
   "patterns": {
     "multimodal_research": [
       {
@@ -723,20 +723,24 @@
         "url": "https://arxiv.org/abs/2603.24578v1"
       },
       {
-        "title": "virustechhacks/distil-bert-classifier",
-        "url": "https://huggingface.co/virustechhacks/distil-bert-classifier"
+        "title": "lipilipic/gpt2-uncensored_finetuned",
+        "url": "https://huggingface.co/lipilipic/gpt2-uncensored_finetuned"
       },
       {
-        "title": "merileijona/quantumgpt-124m-v2",
-        "url": "https://huggingface.co/merileijona/quantumgpt-124m-v2"
+        "title": "themaximkol/distilbert-rotten-tomatoes",
+        "url": "https://huggingface.co/themaximkol/distilbert-rotten-tomatoes"
       },
       {
-        "title": "Alelcv27/GPT-OSS-20B-Math-CoT",
-        "url": "https://huggingface.co/Alelcv27/GPT-OSS-20B-Math-CoT"
+        "title": "Cisco1963/llmplasticity-de_en_instant_0.25_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-de_en_instant_0.25_1-seed42"
       },
       {
-        "title": "merileijona/quantumgpt-354m",
-        "url": "https://huggingface.co/merileijona/quantumgpt-354m"
+        "title": "JohnOfGod33/distilbert-base-uncased-squad-qa",
+        "url": "https://huggingface.co/JohnOfGod33/distilbert-base-uncased-squad-qa"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-de_en_instant_0.125_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-de_en_instant_0.125_1-seed42"
       }
     ],
     "vision_systems": [
@@ -1055,10 +1059,6 @@
       {
         "title": "SemLayer: Semantic-aware Generative Segmentation and Layer Construction for Abstract Icons",
         "url": "https://arxiv.org/abs/2603.24039v1"
-      },
-      {
-        "title": "Alelcv27/GPT-OSS-20B-Math-CoT",
-        "url": "https://huggingface.co/Alelcv27/GPT-OSS-20B-Math-CoT"
       }
     ],
     "reasoning": [
@@ -1789,13 +1789,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "80 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1821,7 +1821,7 @@
   "research_trends": [
     {
       "topic": "language",
-      "frequency": 72,
+      "frequency": 71,
       "significance": "high"
     },
     {
