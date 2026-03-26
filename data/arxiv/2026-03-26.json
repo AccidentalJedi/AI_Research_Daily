@@ -121,7 +121,7 @@
     "title": "Exploring How Fair Model Representations Relate to Fair Recommendations",
     "summary": "One of the many fairness definitions pursued in recent recommender system research targets mitigating demographic information encoded in model representations. Models optimized for this definition are typically evaluated on how well demographic attributes can be classified given model representations, with the (implicit) assumption that this measure accurately reflects \\textit{recommendation parity}, i.e., how similar recommendations given to different users are. We challenge this assumption by comparing the amount of demographic information encoded in representations with various measures of how the recommendations differ. We propose two new approaches for measuring how well demographic information can be classified given ranked recommendations. Our results from extensive testing of multiple models on one real and multiple synthetically generated datasets indicate that optimizing for fair representations positively affects recommendation parity, but also that evaluation at the representation level is not a good proxy for measuring this effect when comparing models. We also provide extensive insight into how recommendation-level fairness metrics behave for various models by evaluating their performances on numerous generated datasets with different properties.",
     "authors": [
-      "Bj\u00f8rnar Vass\u00f8y",
+      "Bjørnar Vassøy",
       "Benjamin Kille",
       "Helge Langseth"
     ],
@@ -671,7 +671,7 @@
     "summary": "Multi-modal Satellite Image Time Series (SITS) analysis faces significant computational challenges for live land monitoring applications. While Transformer architectures excel at capturing temporal dependencies and fusing multi-modal data, their quadratic computational complexity and the need to reprocess entire sequences for each new acquisition limit their deployment for regular, large-area monitoring. This paper studies various dual-form attention mechanisms for efficient multi-modal SITS analysis, that enable parallel training while supporting recurrent inference for incremental processing. We compare linear attention and retention mechanisms within a multi-modal spectro-temporal encoder. To address SITS-specific challenges of temporal irregularity and unalignment, we develop temporal adaptations of dual-form mechanisms that compute token distances based on actual acquisition dates rather than sequence indices. Our approach is evaluated on two tasks using Sentinel-1 and Sentinel-2 data: multi-modal SITS forecasting as a proxy task, and real-world solar panel construction monitoring. Experimental results demonstrate that dual-form mechanisms achieve performance comparable to standard Transformers while enabling efficient recurrent inference. The multimodal framework consistently outperforms mono-modal approaches across both tasks, demonstrating the effectiveness of dual mechanisms for sensor fusion. The results presented in this work open new opportunities for operational land monitoring systems requiring regular updates over large geographic areas.",
     "authors": [
       "Iris Dumeur",
-      "J\u00e9r\u00e9my Anger",
+      "Jérémy Anger",
       "Gabriele Facciolo"
     ],
     "categories": [
@@ -1096,7 +1096,7 @@
       "Yupei Li",
       "Shuaijie Shao",
       "Manuel Milling",
-      "Bj\u00f6rn Schuller"
+      "Björn Schuller"
     ],
     "categories": [
       "cs.SD",
@@ -1484,7 +1484,7 @@
   {
     "arxiv_id": "2603.24323v1",
     "title": "Connecting Meteorite Spectra to Lunar Surface Composition Using Hyperspectral Imaging and Machine Learning",
-    "summary": "We present an innovative, cost-effective framework integrating laboratory Hyperspectral Imaging (HSI) of the Bechar010 Lunar meteorite with ground-based lunar HSI and supervised Machine Learning(ML) to generate high-fidelity mineralogical maps. A 3mm thin section of Bechar010 was imaged under a microscope with a 30mm focal length lens at 150mm working distance, using 6x binning to increase the signal-to-noise ratio, producing a data cube (X $\\times$ Y $\\times$ $\u03bb$ = $791 \\times 1024 \\times 224$, 0.24mm $\\times$ 0.2mm resolution) across 400-1000}nm (224 bands, 2.7nm spectral sampling, 5.5nm full width at half maximum spectral resolution) using a Specim FX10 camera. Ground-based lunar HSI was captured with a Celestron 8SE telescope (3km/pixel), yielded a data cube ($371 \\times 1024 \\times 224$). Solar calibration was performed using a Spectralon reference ({99}\\% reflectance {<2}\\% error) ensured accurate reflectance spectra. A Support Vector Machine (SVM) with a radial basis function kernel, trained on expert-labeled spectra, achieved {93.7}\\% classification accuracy(5-fold cross-validation) for olivine ({92}\\% precision, {90}\\% recall) and pyroxene ({88}\\% precision, {86}{\\%} recall) in Bechar 010. LIME analysis identified key wavelengths (e.g., 485nm, {22.4}\\% for M3; 715nm, {20.6}\\% for M6) across 10 pre-selected regions (M1 to M10), indicating olivine-rich (Highland-like) and pyroxene-rich (Mare-like) compositions. SAM analysis revealed angles from 0.26 radian to 0.66 radian, linking M3 and M9 to Highlands and M6 and M10 to Mares. K-means clustering of Lunar data identified 10 mineralogical clusters ({88}\\% accuracy), validated against Chandrayaan-1 Moon mineralogy Mapper ($\\rm M^3$) data (140m/pixel, 10nm spectral resolution).A novel push-broom HSI approach with a telescope achieves 0.8 arcsec resolution for lunar spectroscopy, inspiring full-sky multi-object spectral mapping.",
+    "summary": "We present an innovative, cost-effective framework integrating laboratory Hyperspectral Imaging (HSI) of the Bechar010 Lunar meteorite with ground-based lunar HSI and supervised Machine Learning(ML) to generate high-fidelity mineralogical maps. A 3mm thin section of Bechar010 was imaged under a microscope with a 30mm focal length lens at 150mm working distance, using 6x binning to increase the signal-to-noise ratio, producing a data cube (X $\\times$ Y $\\times$ $λ$ = $791 \\times 1024 \\times 224$, 0.24mm $\\times$ 0.2mm resolution) across 400-1000}nm (224 bands, 2.7nm spectral sampling, 5.5nm full width at half maximum spectral resolution) using a Specim FX10 camera. Ground-based lunar HSI was captured with a Celestron 8SE telescope (3km/pixel), yielded a data cube ($371 \\times 1024 \\times 224$). Solar calibration was performed using a Spectralon reference ({99}\\% reflectance {<2}\\% error) ensured accurate reflectance spectra. A Support Vector Machine (SVM) with a radial basis function kernel, trained on expert-labeled spectra, achieved {93.7}\\% classification accuracy(5-fold cross-validation) for olivine ({92}\\% precision, {90}\\% recall) and pyroxene ({88}\\% precision, {86}{\\%} recall) in Bechar 010. LIME analysis identified key wavelengths (e.g., 485nm, {22.4}\\% for M3; 715nm, {20.6}\\% for M6) across 10 pre-selected regions (M1 to M10), indicating olivine-rich (Highland-like) and pyroxene-rich (Mare-like) compositions. SAM analysis revealed angles from 0.26 radian to 0.66 radian, linking M3 and M9 to Highlands and M6 and M10 to Mares. K-means clustering of Lunar data identified 10 mineralogical clusters ({88}\\% accuracy), validated against Chandrayaan-1 Moon mineralogy Mapper ($\\rm M^3$) data (140m/pixel, 10nm spectral resolution).A novel push-broom HSI approach with a telescope achieves 0.8 arcsec resolution for lunar spectroscopy, inspiring full-sky multi-object spectral mapping.",
     "authors": [
       "Fatemeh Fazel Hesar",
       "Mojtaba Raouf",
@@ -1512,7 +1512,7 @@
     "title": "The Specification Gap: Coordination Failure Under Partial Knowledge in Code Agents",
     "summary": "When multiple LLM-based code agents independently implement parts of the same class, they must agree on shared internal representations, even when the specification leaves those choices implicit. We study this coordination problem across 51 class-generation tasks, progressively stripping specification detail from full docstrings (L0) to bare signatures (L3), and introducing opposing structural biases (lists vs. dictionaries) to stress-test integration. Three findings emerge. First, a persistent specification gap: two-agent integration accuracy drops from 58% to 25% as detail is removed, while a single-agent baseline degrades more gracefully (89% to 56%), leaving a 25--39 pp coordination gap that is consistent across two Claude models (Sonnet, Haiku) and three independent runs. Second, an AST-based conflict detector achieves 97% precision at the weakest specification level without additional LLM calls, yet a factorial recovery experiment shows that restoring the full specification alone recovers the single-agent ceiling (89%), while providing conflict reports adds no measurable benefit. Third, decomposing the gap into coordination cost (+16 pp) and information asymmetry (+11 pp) suggests that the two effects are independent and approximately additive. The gap is not merely a consequence of hidden information, but reflects the difficulty of producing compatible code without shared decisions. These results support a specification-first view of multi-agent code generation: richer specifications are both the primary coordination mechanism and the sufficient recovery instrument.",
     "authors": [
-      "Camilo Chac\u00f3n Sartori"
+      "Camilo Chacón Sartori"
     ],
     "categories": [
       "cs.SE",
@@ -1532,10 +1532,10 @@
     "summary": "The increasing complexity and interconnectivity of digital infrastructures make scalable and reliable security assessment methods essential. Robotic systems represent a particularly important class of operational technology, as modern robots are highly networked cyber-physical systems deployed in domains such as industrial automation, logistics, and autonomous services. This paper explores the use of large language models for automated penetration testing in robotic environments. We propose an environment-grounded multi-agent architecture tailored to Robotics-based systems. The approach dynamically constructs a shared graph-based memory during execution that captures the observable system state, including network topology, communication channels, vulnerabilities, and attempted exploits. This enables structured automation while maintaining traceability and effective context management throughout the testing process. Evaluated across multiple iterations within a specialized robotics Capture-the-Flag scenario (ROS/ROS2), the system demonstrated high reliability, successfully completing the challenge in 100\\% of test runs (n=5). This performance significantly exceeds literature benchmarks while maintaining the traceability and human oversight required by frameworks like the EU AI Act.",
     "authors": [
       "Michael Somma",
-      "Markus Gro\u00dfpointner",
+      "Markus Großpointner",
       "Paul Zabalegui",
       "Eppu Heilimo",
-      "Branka Stojanovi\u0107"
+      "Branka Stojanović"
     ],
     "categories": [
       "cs.RO",
@@ -1711,8 +1711,8 @@
   },
   {
     "arxiv_id": "2603.24307v1",
-    "title": "Samas\u0101mayik: A Parallel Dataset for Hindi-Sanskrit Machine Translation",
-    "summary": "We release Samas\u0101mayik, a novel, meticulously curated, large-scale Hindi-Sanskrit corpus, comprising 92,196 parallel sentences. Unlike most data available in Sanskrit, which focuses on classical era text and poetry, this corpus aggregates data from diverse sources covering contemporary materials, including spoken tutorials, children's magazines, radio conversations, and instruction materials. We benchmark this new dataset by fine-tuning three complementary models - ByT5, NLLB and IndicTrans-v2, to demonstrate its utility. Our experiments demonstrate that models trained on the Samasamayik corpus achieve significant performance gains on in-domain test data, while achieving comparable performance on other widely used test sets, establishing a strong new performance baseline for contemporary Hindi-Sanskrit translation. Furthermore, a comparative analysis against existing corpora reveals minimal semantic and lexical overlap, confirming the novelty and non-redundancy of our dataset as a robust new resource for low-resource Indic language MT.",
+    "title": "Samasāmayik: A Parallel Dataset for Hindi-Sanskrit Machine Translation",
+    "summary": "We release Samasāmayik, a novel, meticulously curated, large-scale Hindi-Sanskrit corpus, comprising 92,196 parallel sentences. Unlike most data available in Sanskrit, which focuses on classical era text and poetry, this corpus aggregates data from diverse sources covering contemporary materials, including spoken tutorials, children's magazines, radio conversations, and instruction materials. We benchmark this new dataset by fine-tuning three complementary models - ByT5, NLLB and IndicTrans-v2, to demonstrate its utility. Our experiments demonstrate that models trained on the Samasamayik corpus achieve significant performance gains on in-domain test data, while achieving comparable performance on other widely used test sets, establishing a strong new performance baseline for contemporary Hindi-Sanskrit translation. Furthermore, a comparative analysis against existing corpora reveals minimal semantic and lexical overlap, confirming the novelty and non-redundancy of our dataset as a robust new resource for low-resource Indic language MT.",
     "authors": [
       "N J Karthika",
       "Keerthana Suryanarayanan",
@@ -1758,7 +1758,7 @@
     "authors": [
       "Adhemar de Senneville",
       "Xavier Bou",
-      "J\u00e9r\u00e9my Anger",
+      "Jérémy Anger",
       "Rafael Grompone",
       "Gabriele Facciolo"
     ],
@@ -1820,7 +1820,7 @@
     "title": "Continuous-Time Learning of Probability Distributions: A Case Study in a Digital Trial of Young Children with Type 1 Diabetes",
     "summary": "Understanding how biomarker distributions evolve over time is a central challenge in digital health and chronic disease monitoring. In diabetes, changes in the distribution of glucose measurements can reveal patterns of disease progression and treatment response that conventional summary measures miss. Motivated by a 26-week clinical trial comparing the closed-loop insulin delivery system t:slim X2 with standard therapy in children with type 1 diabetes, we propose a probabilistic framework to model the continuous-time evolution of time-indexed distributions using continuous glucose monitoring data (CGM) collected every five minutes. We represent the glucose distribution as a Gaussian mixture, with time-varying mixture weights governed by a neural ODE. We estimate the model parameter using a distribution-matching criterion based on the maximum mean discrepancy. The resulting framework is interpretable, computationally efficient, and sensitive to subtle temporal distributional changes. Applied to CGM trial data, the method detects treatment-related improvements in glucose dynamics that are difficult to capture with traditional analytical approaches.",
     "authors": [
-      "Antonio \u00c1lvarez-L\u00f3pez",
+      "Antonio Álvarez-López",
       "Marcos Matabuena"
     ],
     "categories": [
@@ -2103,7 +2103,7 @@
     "summary": "This paper describes the system submitted to the SOMD 2026 Shared Task for Cross-Document Coreference Resolution (CDCR) of software mentions. Our approach addresses the challenge of identifying and clustering inconsistent software mentions across scientific corpora. We propose a hybrid framework that combines dense semantic embeddings from a pre-trained Sentence-BERT model, Knowledge Base (KB) lookup strategy built from training-set cluster centroids using FAISS for efficient retrieval, and HDBSCAN density-based clustering for mentions that cannot be confidently assigned to existing clusters. Surface-form normalization and abbreviation resolution are applied to improve canonical name matching. The same core pipeline is applied to Subtasks 1 and 2. To address the large scale settings of Subtask 3, the pipeline was adapted by utilising a blocking strategy based on entity types and canonicalized surface forms. Our system achieved CoNLL F1 scores of 0.98, 0.98, and 0.96 on Subtasks 1, 2, and 3 respectively.",
     "authors": [
       "Julia Matela",
-      "Frank Kr\u00fcger"
+      "Frank Krüger"
     ],
     "categories": [
       "cs.CL"
@@ -3338,7 +3338,7 @@
     "authors": [
       "Thibaut Modrzyk",
       "Ane Etxebeste",
-      "\u00c9lie Bretin",
+      "Élie Bretin",
       "Voichita Maxim"
     ],
     "categories": [
@@ -3406,7 +3406,7 @@
   {
     "arxiv_id": "2603.24594v1",
     "title": "Polynomial Speedup in Diffusion Models with the Multilevel Euler-Maruyama Method",
-    "summary": "We introduce the Multilevel Euler-Maruyama (ML-EM) method compute solutions of SDEs and ODEs using a range of approximators $f^1,\\dots,f^k$ to the drift $f$ with increasing accuracy and computational cost, only requiring a few evaluations of the most accurate $f^k$ and many evaluations of the less costly $f^1,\\dots,f^{k-1}$. If the drift lies in the so-called Harder than Monte Carlo (HTMC) regime, i.e. it requires $\u03b5^{-\u03b3}$ compute to be $\u03b5$-approximated for some $\u03b3>2$, then ML-EM $\u03b5$-approximates the solution of the SDE with $\u03b5^{-\u03b3}$ compute, improving over the traditional EM rate of $\u03b5^{-\u03b3-1}$. In other terms it allows us to solve the SDE at the same cost as a single evaluation of the drift. In the context of diffusion models, the different levels $f^{1},\\dots,f^{k}$ are obtained by training UNets of increasing sizes, and ML-EM allows us to perform sampling with the equivalent of a single evaluation of the largest UNet. Our numerical experiments confirm our theory: we obtain up to fourfold speedups for image generation on the CelebA dataset downscaled to 64x64, where we measure a $\u03b3\\approx2.5$. Given that this is a polynomial speedup, we expect even stronger speedups in practical applications which involve orders of magnitude larger networks.",
+    "summary": "We introduce the Multilevel Euler-Maruyama (ML-EM) method compute solutions of SDEs and ODEs using a range of approximators $f^1,\\dots,f^k$ to the drift $f$ with increasing accuracy and computational cost, only requiring a few evaluations of the most accurate $f^k$ and many evaluations of the less costly $f^1,\\dots,f^{k-1}$. If the drift lies in the so-called Harder than Monte Carlo (HTMC) regime, i.e. it requires $ε^{-γ}$ compute to be $ε$-approximated for some $γ>2$, then ML-EM $ε$-approximates the solution of the SDE with $ε^{-γ}$ compute, improving over the traditional EM rate of $ε^{-γ-1}$. In other terms it allows us to solve the SDE at the same cost as a single evaluation of the drift. In the context of diffusion models, the different levels $f^{1},\\dots,f^{k}$ are obtained by training UNets of increasing sizes, and ML-EM allows us to perform sampling with the equivalent of a single evaluation of the largest UNet. Our numerical experiments confirm our theory: we obtain up to fourfold speedups for image generation on the CelebA dataset downscaled to 64x64, where we measure a $γ\\approx2.5$. Given that this is a polynomial speedup, we expect even stronger speedups in practical applications which involve orders of magnitude larger networks.",
     "authors": [
       "Arthur Jacot"
     ],
@@ -3472,7 +3472,7 @@
       "Domenique Zipperling",
       "Lukas Schmidt",
       "Benedikt Hahn",
-      "Niklas K\u00fchl",
+      "Niklas Kühl",
       "Steven Kimbrough"
     ],
     "categories": [
@@ -3532,7 +3532,7 @@
     "summary": "WebAssembly's (Wasm) monolithic linear memory model facilitates memory corruption attacks that can escalate to cross-site scripting in browsers or go undetected when a malicious host tampers with a module's state. Existing defenses rely on invasive binary instrumentation or custom runtimes, and do not address runtime integrity verification under an adversarial host model. We present Walma, a framework for WebAssembly Linear Memory Attestation that leverages machine learning to detect memory corruption and external tampering by classifying memory snapshots. We evaluate Walma on six real-world CVE-affected applications across three verification backends (cpu-wasm, cpu-tch, gpu) and three instrumentation policies. Our results demonstrate that CNN-based classification can effectively detect memory corruption in applications with structured memory layouts, with coarse-grained boundary checks incurring as low as 1.07x overhead, while fine-grained monitoring introduces higher (1.5x--1.8x) but predictable costs. Our evaluation quantifies the accuracy and overhead trade-offs across deployment configurations, demonstrating the practical feasibility of ML-based memory attestation for WebAssembly.",
     "authors": [
       "Oussama Draissi",
-      "Mark G\u00fcnzel",
+      "Mark Günzel",
       "Ahmad-Reza Sadeghi",
       "Lucas Davi"
     ],
@@ -3553,8 +3553,8 @@
     "summary": "In the IoT era, information is more and more frequently picked up by connected smart sensors with increasing, though limited, storage, communication and computation abilities. Whether due to privacy constraints or to the structure of the distributed system, the development of statistical learning methods dedicated to data that are shared over a network is now a major issue. Gossip-based algorithms have been developed for the purpose of solving a wide variety of statistical learning tasks, ranging from data aggregation over sensor networks to decentralized multi-agent optimization. Whereas the vast majority of contributions consider situations where the function to be estimated or optimized is a basic average of individual observations, it is the goal of this article to investigate the case where the latter is of pairwise nature, taking the form of a U -statistic of degree two. Motivated by various problems such as similarity learning, ranking or clustering for instance, we revisit gossip algorithms specifically designed for pairwise objective functions and provide a comprehensive theoretical framework for their convergence. This analysis fills a gap in the literature by establishing conditions under which these methods succeed, and by identifying the graph properties that critically affect their efficiency. In particular, a refined analysis of the convergence upper and lower bounds is performed.",
     "authors": [
       "Igor Colin",
-      "Aur\u00e9lien Bellet",
-      "Stephan Cl\u00e9men\u00e7on",
+      "Aurélien Bellet",
+      "Stephan Clémençon",
       "Joseph Salmon"
     ],
     "categories": [
@@ -3659,10 +3659,10 @@
     "summary": "The practical deployment of nonlinear model predictive control (NMPC) is often limited by online computation: solving a nonlinear program at high control rates can be expensive on embedded hardware, especially when models are complex or horizons are long. Learning-based NMPC approximations shift this computation offline but typically demand large expert datasets and costly training. We propose Sequential-AMPC, a sequential neural policy that generates MPC candidate control sequences by sharing parameters across the prediction horizon. For deployment, we wrap the policy in a safety-augmented online evaluation and fallback mechanism, yielding Safe Sequential-AMPC. Compared to a naive feedforward policy baseline across several benchmarks, Sequential-AMPC requires substantially fewer expert MPC rollouts and yields candidate sequences with higher feasibility rates and improved closed-loop safety. On high-dimensional systems, it also exhibits better learning dynamics and performance in fewer epochs while maintaining stable validation improvement where the feedforward baseline can stagnate.",
     "authors": [
       "Mihaela-Larisa Clement",
-      "M\u00f3nika Farsang",
+      "Mónika Farsang",
       "Agnes Poks",
       "Johannes Edelmann",
-      "Manfred Pl\u00f6chl",
+      "Manfred Plöchl",
       "Radu Grosu",
       "Ezio Bartocci"
     ],
@@ -3726,7 +3726,7 @@
     "title": "On the Use of Bagging for Local Intrinsic Dimensionality Estimation",
     "summary": "The theory of Local Intrinsic Dimensionality (LID) has become a valuable tool for characterizing local complexity within and across data manifolds, supporting a range of data mining and machine learning tasks. Accurate LID estimation requires samples drawn from small neighborhoods around each query to avoid biases from nonlocal effects and potential manifold mixing, yet limited data within such neighborhoods tends to cause high estimation variance. As a variance reduction strategy, we propose an ensemble approach that uses subbagging to preserve the local distribution of nearest neighbor (NN) distances. The main challenge is that the uniform reduction in total sample size within each subsample increases the proximity threshold for finding a fixed number k of NNs around the query. As a result, in the specific context of LID estimation, the sampling rate has an additional, complex interplay with the neighborhood size, where both combined determine the sample size as well as the locality and resolution considered for estimation. We analyze both theoretically and experimentally how the choice of the sampling rate and the k-NN size used for LID estimation, alongside the ensemble size, affects performance, enabling informed prior selection of these hyper-parameters depending on application-based preferences. Our results indicate that within broad and well-characterized regions of the hyper-parameters space, using a bagged estimator will most often significantly reduce variance as well as the mean squared error when compared to the corresponding non-bagged baseline, with controllable impact on bias. We additionally propose and evaluate different ways of combining bagging with neighborhood smoothing for substantial further improvements on LID estimation performance.",
     "authors": [
-      "Krist\u00f3f P\u00e9ter",
+      "Kristóf Péter",
       "Ricardo J. G. B. Campello",
       "James Bailey",
       "Michael E. Houle"
@@ -4016,7 +4016,7 @@
     "summary": "Planet-scale photo geolocalization involves the intricate task of estimating the geographic location depicted in an image purely based on its visual features. While deep learning models, particularly convolutional neural networks (CNNs), have significantly advanced this field, understanding the reasoning behind their predictions remains challenging. In this paper, we present Combi-CAM, a novel method that enhances the explainability of CNN-based geolocalization models by combining gradient-weighted class activation maps obtained from several layers of the network architecture, rather than using only information from the deepest layer as is typically done. This approach provides a more detailed understanding of how different image features contribute to the model's decisions, offering deeper insights than the traditional approaches.",
     "authors": [
       "David Faget",
-      "Jos\u00e9 Luis Lisani",
+      "José Luis Lisani",
       "Miguel Colom"
     ],
     "categories": [
@@ -4145,7 +4145,7 @@
   {
     "arxiv_id": "2603.24231v1",
     "title": "Stance Labels Fail When They Matter Most: The Projection Problem in Stance Detection",
-    "summary": "Stance detection is nearly always formulated as classifying text into Favor, Against, or Neutral -- a convention inherited from debate analysis and applied without modification to social media since SemEval-2016. But attitudes toward complex targets are not unitary: a person can accept climate science while opposing carbon taxes, expressing support on one dimension and opposition on another. When annotators must compress such multi-dimensional attitudes into a single label, different annotators weight different dimensions -- producing disagreement that reflects not confusion but different compression choices. We call this the \\textbf{projection problem}, and show that its cost is conditional: when a text's dimensions align, any weighting yields the same label and three-way annotation works well; when dimensions conflict, label agreement collapses while agreement on individual dimensions remains intact. A pilot study on SemEval-2016 Task 6 confirms this crossover: on dimension-consistent texts, label agreement (Krippendorff's $\u03b1= 0.307$) exceeds dimensional agreement ($\u03b1= 0.082$); on dimension-conflicting texts, the pattern reverses -- label $\u03b1$ drops to $0.085$ while dimensional $\u03b1$ rises to $0.334$, with Policy reaching $0.572$. The projection problem is real -- but it activates precisely where it matters most.",
+    "summary": "Stance detection is nearly always formulated as classifying text into Favor, Against, or Neutral -- a convention inherited from debate analysis and applied without modification to social media since SemEval-2016. But attitudes toward complex targets are not unitary: a person can accept climate science while opposing carbon taxes, expressing support on one dimension and opposition on another. When annotators must compress such multi-dimensional attitudes into a single label, different annotators weight different dimensions -- producing disagreement that reflects not confusion but different compression choices. We call this the \\textbf{projection problem}, and show that its cost is conditional: when a text's dimensions align, any weighting yields the same label and three-way annotation works well; when dimensions conflict, label agreement collapses while agreement on individual dimensions remains intact. A pilot study on SemEval-2016 Task 6 confirms this crossover: on dimension-consistent texts, label agreement (Krippendorff's $α= 0.307$) exceeds dimensional agreement ($α= 0.082$); on dimension-conflicting texts, the pattern reverses -- label $α$ drops to $0.085$ while dimensional $α$ rises to $0.334$, with Policy reaching $0.572$. The projection problem is real -- but it activates precisely where it matters most.",
     "authors": [
       "Bowen Zhang"
     ],
@@ -4231,7 +4231,7 @@
   {
     "arxiv_id": "2603.24545v1",
     "title": "Detection of local geometry in random graphs: information-theoretic and computational limits",
-    "summary": "We study the problem of detecting local geometry in random graphs. We introduce a model $\\mathcal{G}(n, p, d, k)$, where a hidden community of average size $k$ has edges drawn as a random geometric graph on $\\mathbb{S}^{d-1}$, while all remaining edges follow the Erd\u0151s--R\u00e9nyi model $\\mathcal{G}(n, p)$. The random geometric graph is generated by thresholding inner products of latent vectors on $\\mathbb{S}^{d-1}$, with each edge having marginal probability equal to $p$. This implies that $\\mathcal{G}(n, p, d, k)$ and $\\mathcal{G}(n, p)$ are indistinguishable at the level of the marginals, and the signal lies entirely in the edge dependencies induced by the local geometry.   We investigate both the information-theoretic and computational limits of detection. On the information-theoretic side, our upper bounds follow from three tests based on signed triangle counts: a global test, a scan test, and a constrained scan test; our lower bounds follow from two complementary methods: truncated second moment via Wishart--GOE comparison, and tensorization of KL divergence. These results together settle the detection threshold at $d = \\widetilde\u0398(k^2 \\vee k^6/n^3)$ for fixed $p$, and extend the state-of-the-art bounds from the full model (i.e., $k = n$) for vanishing $p$. On the computational side, we identify a computational--statistical gap and provide evidence via the low-degree polynomial framework, as well as the suboptimality of signed cycle counts of length $\\ell \\geq 4$.",
+    "summary": "We study the problem of detecting local geometry in random graphs. We introduce a model $\\mathcal{G}(n, p, d, k)$, where a hidden community of average size $k$ has edges drawn as a random geometric graph on $\\mathbb{S}^{d-1}$, while all remaining edges follow the Erdős--Rényi model $\\mathcal{G}(n, p)$. The random geometric graph is generated by thresholding inner products of latent vectors on $\\mathbb{S}^{d-1}$, with each edge having marginal probability equal to $p$. This implies that $\\mathcal{G}(n, p, d, k)$ and $\\mathcal{G}(n, p)$ are indistinguishable at the level of the marginals, and the signal lies entirely in the edge dependencies induced by the local geometry.   We investigate both the information-theoretic and computational limits of detection. On the information-theoretic side, our upper bounds follow from three tests based on signed triangle counts: a global test, a scan test, and a constrained scan test; our lower bounds follow from two complementary methods: truncated second moment via Wishart--GOE comparison, and tensorization of KL divergence. These results together settle the detection threshold at $d = \\widetildeΘ(k^2 \\vee k^6/n^3)$ for fixed $p$, and extend the state-of-the-art bounds from the full model (i.e., $k = n$) for vanishing $p$. On the computational side, we identify a computational--statistical gap and provide evidence via the low-degree polynomial framework, as well as the suboptimality of signed cycle counts of length $\\ell \\geq 4$.",
     "authors": [
       "Jinho Bok",
       "Shuangping Li",
@@ -4259,7 +4259,7 @@
       "Dipam Goswami",
       "Simone Magistri",
       "Gido M. van de Ven",
-      "Bart\u0142omiej Twardowski",
+      "Bartłomiej Twardowski",
       "Andrew D. Bagdanov",
       "Tinne Tuytelaars",
       "Joost van de Weijer"
@@ -4381,7 +4381,7 @@
   {
     "arxiv_id": "2603.24578v1",
     "title": "Vision-Language Models vs Human: Perceptual Image Quality Assessment",
-    "summary": "Psychophysical experiments remain the most reliable approach for perceptual image quality assessment (IQA), yet their cost and limited scalability encourage automated approaches. We investigate whether Vision Language Models (VLMs) can approximate human perceptual judgments across three image quality scales: contrast, colorfulness and overall preference. Six VLMs four proprietary and two openweight models are benchmarked against psychophysical data. This work presents a systematic benchmark of VLMs for perceptual IQA through comparison with human psychophysical data. The results reveal strong attribute dependent variability models with high human alignment for colorfulness (\u03c1up to 0.93) underperform on contrast and vice-versa. Attribute weighting analysis further shows that most VLMs assign higher weights to colorfulness compared to contrast when evaluating overall preference similar to the psychophysical data. Intramodel consistency analysis reveals a counterintuitive tradeoff: the most self consistent models are not necessarily the most human aligned suggesting response variability reflects sensitivity to scene dependent perceptual cues. Furthermore, human-VLM agreement is increased with perceptual separability, indicating VLMs are more reliable when stimulus differences are clearly expressed.",
+    "summary": "Psychophysical experiments remain the most reliable approach for perceptual image quality assessment (IQA), yet their cost and limited scalability encourage automated approaches. We investigate whether Vision Language Models (VLMs) can approximate human perceptual judgments across three image quality scales: contrast, colorfulness and overall preference. Six VLMs four proprietary and two openweight models are benchmarked against psychophysical data. This work presents a systematic benchmark of VLMs for perceptual IQA through comparison with human psychophysical data. The results reveal strong attribute dependent variability models with high human alignment for colorfulness (ρup to 0.93) underperform on contrast and vice-versa. Attribute weighting analysis further shows that most VLMs assign higher weights to colorfulness compared to contrast when evaluating overall preference similar to the psychophysical data. Intramodel consistency analysis reveals a counterintuitive tradeoff: the most self consistent models are not necessarily the most human aligned suggesting response variability reflects sensitivity to scene dependent perceptual cues. Furthermore, human-VLM agreement is increased with perceptual separability, indicating VLMs are more reliable when stimulus differences are clearly expressed.",
     "authors": [
       "Imran Mehmood",
       "Imad Ali Shah",
@@ -4430,8 +4430,8 @@
     "title": "A Longitudinal Analysis of the CEC Single-Objective Competitions (2010-2024) and Implications for Variational Quantum Optimization",
     "summary": "This paper provides a historical analysis of the IEEE CEC Single Objective Optimization competition results (2010-2024). We analyze how benchmark functions shaped winning algorithms, identifying the 2014 introduction of dense rotation matrices as a key performance filter. This design choice introduced parameter non-separability, reduced effectiveness of coordinate-dependent methods (PSO, GA), and established the dominance of Differential Evolution variants capable of preserving the rotational invariance of their difference vectors, specifically L-SHADE. Post-2020 analysis reveals a shift towards high complexity hybrid optimizers that combine different mechanisms (e.g., Eigenvector Crossover, Societal Sharing, Reinforcement Learning) to maximize ranking stability. We conclude by identifying structural similarities between these modern benchmarks and Variational Quantum Algorithm landscapes, suggesting that evolved CEC solvers possess the specific adaptive capabilities required for quantum control.",
     "authors": [
-      "Vojt\u011bch Nov\u00e1k",
-      "Tom\u00e1\u0161 Bezd\u011bk",
+      "Vojtěch Novák",
+      "Tomáš Bezděk",
       "Ivan Zelinka",
       "Swagatam Das",
       "Martin Beseda"
@@ -4450,9 +4450,9 @@
   {
     "arxiv_id": "2603.24495v1",
     "title": "Reflected diffusion models adapt to low-dimensional data",
-    "summary": "While the mathematical foundations of score-based generative models are increasingly well understood for unconstrained Euclidean spaces, many practical applications involve data restricted to bounded domains. This paper provides a statistical analysis of reflected diffusion models on the hypercube $[0,1]^D$ for target distributions supported on $d$-dimensional linear subspaces. A primary challenge in this setting is the absence of Gaussian transition kernels, which play a central role in standard theory in $\\mathbb{R}^D$. By employing an easily implementable infinite series expansion of the transition densities, we develop analytic tools to bound the score function and its approximation by sparse ReLU networks. For target densities with Sobolev smoothness $\u03b1$, we establish a convergence rate in the $1$-Wasserstein distance of order $n^{-\\frac{\u03b1+1-\u03b4}{2\u03b1+d}}$ for arbitrarily small $\u03b4> 0$, demonstrating that the generative algorithm fully adapts to the intrinsic dimension $d$. These results confirm that the presence of reflecting boundaries does not degrade the fundamental statistical efficiency of the diffusion paradigm, matching the almost optimal rates known for unconstrained settings.",
+    "summary": "While the mathematical foundations of score-based generative models are increasingly well understood for unconstrained Euclidean spaces, many practical applications involve data restricted to bounded domains. This paper provides a statistical analysis of reflected diffusion models on the hypercube $[0,1]^D$ for target distributions supported on $d$-dimensional linear subspaces. A primary challenge in this setting is the absence of Gaussian transition kernels, which play a central role in standard theory in $\\mathbb{R}^D$. By employing an easily implementable infinite series expansion of the transition densities, we develop analytic tools to bound the score function and its approximation by sparse ReLU networks. For target densities with Sobolev smoothness $α$, we establish a convergence rate in the $1$-Wasserstein distance of order $n^{-\\frac{α+1-δ}{2α+d}}$ for arbitrarily small $δ> 0$, demonstrating that the generative algorithm fully adapts to the intrinsic dimension $d$. These results confirm that the presence of reflecting boundaries does not degrade the fundamental statistical efficiency of the diffusion paradigm, matching the almost optimal rates known for unconstrained settings.",
     "authors": [
-      "Asbj\u00f8rn Holk",
+      "Asbjørn Holk",
       "Claudia Strauch",
       "Lukas Trottner"
     ],
@@ -4469,8 +4469,8 @@
   },
   {
     "arxiv_id": "2603.24333v1",
-    "title": "Notes on Forr\u00e9's Notion of Conditional Independence and Causal Calculus for Continuous Variables",
-    "summary": "Recently, Forr\u00e9 (arXiv:2104.11547, 2021) introduced transitional conditional independence, a notion of conditional independence that provides a unified framework for both random and non-stochastic variables. The original paper establishes a strong global Markov property connecting transitional conditional independencies with suitable graphical separation criteria for directed mixed graphs with input nodes (iDMGs), together with a version of causal calculus for iDMGs in a general measure-theoretic setting. These notes aim to further illustrate the motivations behind this framework and its connections to the literature, highlight certain subtlies in the general measure-theoretic causal calculus, and extend the \"one-line\" formulation of the ID algorithm of Richardson et al. (Ann. Statist. 51(1):334--361, 2023) to the general measure-theoretic setting.",
+    "title": "Notes on Forré's Notion of Conditional Independence and Causal Calculus for Continuous Variables",
+    "summary": "Recently, Forré (arXiv:2104.11547, 2021) introduced transitional conditional independence, a notion of conditional independence that provides a unified framework for both random and non-stochastic variables. The original paper establishes a strong global Markov property connecting transitional conditional independencies with suitable graphical separation criteria for directed mixed graphs with input nodes (iDMGs), together with a version of causal calculus for iDMGs in a general measure-theoretic setting. These notes aim to further illustrate the motivations behind this framework and its connections to the literature, highlight certain subtlies in the general measure-theoretic causal calculus, and extend the \"one-line\" formulation of the ID algorithm of Richardson et al. (Ann. Statist. 51(1):334--361, 2023) to the general measure-theoretic setting.",
     "authors": [
       "Leihao Chen"
     ],
@@ -4486,417 +4486,5 @@
     "date": "2026-03-26",
     "source": "arxiv",
     "research_score": 0.43
-  },
-  {
-    "model_id": "Kazzze/sd-webui-style-organizer",
-    "author": "unknown",
-    "title": "Kazzze/sd-webui-style-organizer",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "stable-diffusion",
-      "extension",
-      "tool",
-      "webui-forge",
-      "styles",
-      "text-to-image",
-      "license:agpl-3.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "",
-    "created_at": "2026-03-24T20:20:15.000Z",
-    "last_modified": "2026-03-26T04:52:08.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/Kazzze/sd-webui-style-organizer",
-    "date": "2026-03-26",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "shareit/chatbot-supervisor-0326h100normV1test",
-    "author": "unknown",
-    "title": "shareit/chatbot-supervisor-0326h100normV1test",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "phi3",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "base_model:unsloth/phi-4-reasoning-unsloth-bnb-4bit",
-      "base_model:finetune:unsloth/phi-4-reasoning-unsloth-bnb-4bit",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-26T03:56:04.000Z",
-    "last_modified": "2026-03-26T04:50:44.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/shareit/chatbot-supervisor-0326h100normV1test",
-    "date": "2026-03-26",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "DCAgent/a1-nemotron_pytest",
-    "author": "unknown",
-    "title": "DCAgent/a1-nemotron_pytest",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "llama-factory",
-      "full",
-      "generated_from_trainer",
-      "conversational",
-      "base_model:Qwen/Qwen3-8B",
-      "base_model:finetune:Qwen/Qwen3-8B",
-      "license:other",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-26T04:49:13.000Z",
-    "last_modified": "2026-03-26T04:50:19.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/DCAgent/a1-nemotron_pytest",
-    "date": "2026-03-26",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "HYUNJINI/jssp_policy_llama8b_step_r64_ep2",
-    "author": "unknown",
-    "title": "HYUNJINI/jssp_policy_llama8b_step_r64_ep2",
-    "downloads": 410,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:unsloth/meta-llama-3.1-8b-instruct-bnb-4bit",
-      "lora",
-      "transformers",
-      "unsloth",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-03-24T12:16:11.000Z",
-    "last_modified": "2026-03-26T04:49:19.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/HYUNJINI/jssp_policy_llama8b_step_r64_ep2",
-    "date": "2026-03-26",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "DCAgent/a1-glaive_code_assistant",
-    "author": "unknown",
-    "title": "DCAgent/a1-glaive_code_assistant",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "llama-factory",
-      "full",
-      "generated_from_trainer",
-      "conversational",
-      "base_model:Qwen/Qwen3-8B",
-      "base_model:finetune:Qwen/Qwen3-8B",
-      "license:other",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-26T04:47:36.000Z",
-    "last_modified": "2026-03-26T04:48:51.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/DCAgent/a1-glaive_code_assistant",
-    "date": "2026-03-26",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "jasong03/whisper-large-v3-turbo-vietnamese-telephony",
-    "author": "unknown",
-    "title": "jasong03/whisper-large-v3-turbo-vietnamese-telephony",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "whisper",
-      "speech-recognition",
-      "vietnamese",
-      "telephony",
-      "fine-tuned",
-      "automatic-speech-recognition",
-      "vi",
-      "dataset:custom-vietnamese-telephony",
-      "base_model:openai/whisper-large-v3-turbo",
-      "base_model:finetune:openai/whisper-large-v3-turbo",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "",
-    "created_at": "2026-03-26T04:46:44.000Z",
-    "last_modified": "2026-03-26T04:47:49.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/jasong03/whisper-large-v3-turbo-vietnamese-telephony",
-    "date": "2026-03-26",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "DCAgent/a1-wizardlm_orca",
-    "author": "unknown",
-    "title": "DCAgent/a1-wizardlm_orca",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "llama-factory",
-      "full",
-      "generated_from_trainer",
-      "conversational",
-      "base_model:Qwen/Qwen3-8B",
-      "base_model:finetune:Qwen/Qwen3-8B",
-      "license:other",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-26T04:45:45.000Z",
-    "last_modified": "2026-03-26T04:47:05.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/DCAgent/a1-wizardlm_orca",
-    "date": "2026-03-26",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "cutemonster/grpo-lora-adapter",
-    "author": "unknown",
-    "title": "cutemonster/grpo-lora-adapter",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:AnastasiaFantasy/affine-ana20-1-5F9pyrPr9DfYvaR7Vy4Tjg6EgQ75GEPwxN4yrSAaDqBMe9up",
-      "grpo",
-      "lora",
-      "transformers",
-      "trl",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "base_model:AnastasiaFantasy/affine-ana20-1-5F9pyrPr9DfYvaR7Vy4Tjg6EgQ75GEPwxN4yrSAaDqBMe9up",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-03-26T04:03:05.000Z",
-    "last_modified": "2026-03-26T04:41:34.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/cutemonster/grpo-lora-adapter",
-    "date": "2026-03-26",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "kairawal/Qwen3-8B-TL-SynthDolly-1A",
-    "author": "unknown",
-    "title": "kairawal/Qwen3-8B-TL-SynthDolly-1A",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "base_model:unsloth/Qwen3-8B",
-      "base_model:finetune:unsloth/Qwen3-8B",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-26T04:27:57.000Z",
-    "last_modified": "2026-03-26T04:41:29.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/kairawal/Qwen3-8B-TL-SynthDolly-1A",
-    "date": "2026-03-26",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "zacdan4801/wav2vec2-lv-60-espeak-cv-ft-custom_vocab-ds-f7",
-    "author": "unknown",
-    "title": "zacdan4801/wav2vec2-lv-60-espeak-cv-ft-custom_vocab-ds-f7",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "wav2vec2",
-      "automatic-speech-recognition",
-      "generated_from_trainer",
-      "base_model:facebook/wav2vec2-lv-60-espeak-cv-ft",
-      "base_model:finetune:facebook/wav2vec2-lv-60-espeak-cv-ft",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-03-26T04:38:13.000Z",
-    "last_modified": "2026-03-26T04:39:54.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/zacdan4801/wav2vec2-lv-60-espeak-cv-ft-custom_vocab-ds-f7",
-    "date": "2026-03-26",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "mourningdove/zk-auditor",
-    "author": "unknown",
-    "title": "mourningdove/zk-auditor",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "mlx",
-      "safetensors",
-      "qwen2",
-      "code",
-      "codeqwen",
-      "chat",
-      "qwen",
-      "qwen-coder",
-      "text-generation",
-      "conversational",
-      "en",
-      "base_model:Qwen/Qwen2.5-Coder-1.5B-Instruct",
-      "base_model:finetune:Qwen/Qwen2.5-Coder-1.5B-Instruct",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "mlx",
-    "created_at": "2026-03-26T04:25:07.000Z",
-    "last_modified": "2026-03-26T04:39:35.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/mourningdove/zk-auditor",
-    "date": "2026-03-26",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "deveg/toolcalling-merged-demo",
-    "author": "unknown",
-    "title": "deveg/toolcalling-merged-demo",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "base_model:unsloth/Qwen3-1.7B-unsloth-bnb-4bit",
-      "base_model:finetune:unsloth/Qwen3-1.7B-unsloth-bnb-4bit",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-26T02:02:02.000Z",
-    "last_modified": "2026-03-26T04:39:29.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/deveg/toolcalling-merged-demo",
-    "date": "2026-03-26",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "dataset_id": "open-index/hacker-news",
-    "author": "open-index",
-    "title": "open-index/hacker-news",
-    "downloads": 9333,
-    "likes": 191,
-    "tags": [
-      "task_categories:text-generation",
-      "task_categories:feature-extraction",
-      "task_categories:text-classification",
-      "task_categories:question-answering",
-      "language:en",
-      "license:odc-by",
-      "size_categories:10M<n<100M",
-      "modality:tabular",
-      "modality:text",
-      "region:us",
-      "hacker-news",
-      "forum",
-      "text",
-      "parquet",
-      "community",
-      "tech",
-      "comments",
-      "live-updated"
-    ],
-    "created_at": "2026-03-14T09:58:41.000Z",
-    "last_modified": "2026-03-26T04:50:23.000Z",
-    "url": "https://huggingface.co/datasets/open-index/hacker-news",
-    "date": "2026-03-26",
-    "source": "huggingface_dataset",
-    "type": "dataset",
-    "research_score": 0.4
   }
 ]
