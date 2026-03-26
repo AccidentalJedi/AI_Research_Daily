@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-26T12:27:17.363492",
+  "date": "2026-03-26T16:32:43.188904",
   "patterns": {
     "multimodal_research": [
       {
@@ -721,6 +721,22 @@
       {
         "title": "Vision-Language Models vs Human: Perceptual Image Quality Assessment",
         "url": "https://arxiv.org/abs/2603.24578v1"
+      },
+      {
+        "title": "virustechhacks/distil-bert-classifier",
+        "url": "https://huggingface.co/virustechhacks/distil-bert-classifier"
+      },
+      {
+        "title": "merileijona/quantumgpt-124m-v2",
+        "url": "https://huggingface.co/merileijona/quantumgpt-124m-v2"
+      },
+      {
+        "title": "Alelcv27/GPT-OSS-20B-Math-CoT",
+        "url": "https://huggingface.co/Alelcv27/GPT-OSS-20B-Math-CoT"
+      },
+      {
+        "title": "merileijona/quantumgpt-354m",
+        "url": "https://huggingface.co/merileijona/quantumgpt-354m"
       }
     ],
     "vision_systems": [
@@ -1039,6 +1055,10 @@
       {
         "title": "SemLayer: Semantic-aware Generative Segmentation and Layer Construction for Abstract Icons",
         "url": "https://arxiv.org/abs/2603.24039v1"
+      },
+      {
+        "title": "Alelcv27/GPT-OSS-20B-Math-CoT",
+        "url": "https://huggingface.co/Alelcv27/GPT-OSS-20B-Math-CoT"
       }
     ],
     "reasoning": [
@@ -1769,13 +1789,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "79 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1801,7 +1821,7 @@
   "research_trends": [
     {
       "topic": "language",
-      "frequency": 71,
+      "frequency": 72,
       "significance": "high"
     },
     {
@@ -1828,6 +1848,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 432
+    "total_papers": 437
   }
 }
