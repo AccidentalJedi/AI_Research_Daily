@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-26T04:52:25.313586",
+  "date": "2026-03-26T08:24:54.826953",
   "patterns": {
     "multimodal_research": [
       {
@@ -1039,10 +1039,6 @@
       {
         "title": "SemLayer: Semantic-aware Generative Segmentation and Layer Construction for Abstract Icons",
         "url": "https://arxiv.org/abs/2603.24039v1"
-      },
-      {
-        "title": "zacdan4801/wav2vec2-lv-60-espeak-cv-ft-custom_vocab-ds-f7",
-        "url": "https://huggingface.co/zacdan4801/wav2vec2-lv-60-espeak-cv-ft-custom_vocab-ds-f7"
       }
     ],
     "reasoning": [
@@ -1779,7 +1775,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "80 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1832,6 +1828,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 433
+    "total_papers": 432
   }
 }
