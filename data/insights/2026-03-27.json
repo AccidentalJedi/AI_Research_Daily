@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-27T12:22:09.087764",
+  "date": "2026-03-27T16:24:10.536235",
   "patterns": {
     "multimodal_research": [
       {
@@ -307,6 +307,10 @@
       {
         "title": "Towards Practical Lossless Neural Compression for LiDAR Point Clouds",
         "url": "https://arxiv.org/abs/2603.25260v1"
+      },
+      {
+        "title": "shadow-cann/hispark-modelzoo-efficientnetv2",
+        "url": "https://huggingface.co/shadow-cann/hispark-modelzoo-efficientnetv2"
       }
     ],
     "language_models": [
@@ -645,10 +649,6 @@
       {
         "title": "Adaptive Subspace Modeling With Functional Tucker Decomposition",
         "url": "https://arxiv.org/abs/2603.25530v1"
-      },
-      {
-        "title": "Cisco1963/llmplasticity-fi_en_instant_0.25_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-fi_en_instant_0.25_1-seed42"
       }
     ],
     "vision_systems": [
@@ -1311,8 +1311,16 @@
         "url": "https://arxiv.org/abs/2603.25744v1"
       },
       {
-        "title": "daksh-neo/llama-3-2-3b-reasoning-sft",
-        "url": "https://huggingface.co/daksh-neo/llama-3-2-3b-reasoning-sft"
+        "title": "inferencerlabs/sarvamai-105b-MLX-10bit",
+        "url": "https://huggingface.co/inferencerlabs/sarvamai-105b-MLX-10bit"
+      },
+      {
+        "title": "inferencerlabs/sarvamai-30b-MLX-10bit",
+        "url": "https://huggingface.co/inferencerlabs/sarvamai-30b-MLX-10bit"
+      },
+      {
+        "title": "sukai-123/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+        "url": "https://huggingface.co/sukai-123/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
       }
     ],
     "benchmarks": [
@@ -1737,7 +1745,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "42 independent papers",
+      "observation": "43 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1749,7 +1757,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1761,7 +1769,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "84 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1816,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 429
   }
 }
