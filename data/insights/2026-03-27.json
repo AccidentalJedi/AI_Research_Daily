@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-27T16:24:10.536235",
+  "date": "2026-03-27T20:15:28.552335",
   "patterns": {
     "multimodal_research": [
       {
@@ -307,10 +307,6 @@
       {
         "title": "Towards Practical Lossless Neural Compression for LiDAR Point Clouds",
         "url": "https://arxiv.org/abs/2603.25260v1"
-      },
-      {
-        "title": "shadow-cann/hispark-modelzoo-efficientnetv2",
-        "url": "https://huggingface.co/shadow-cann/hispark-modelzoo-efficientnetv2"
       }
     ],
     "language_models": [
@@ -1309,18 +1305,6 @@
       {
         "title": "MuRF: Unlocking the Multi-Scale Potential of Vision Foundation Models",
         "url": "https://arxiv.org/abs/2603.25744v1"
-      },
-      {
-        "title": "inferencerlabs/sarvamai-105b-MLX-10bit",
-        "url": "https://huggingface.co/inferencerlabs/sarvamai-105b-MLX-10bit"
-      },
-      {
-        "title": "inferencerlabs/sarvamai-30b-MLX-10bit",
-        "url": "https://huggingface.co/inferencerlabs/sarvamai-30b-MLX-10bit"
-      },
-      {
-        "title": "sukai-123/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
-        "url": "https://huggingface.co/sukai-123/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
       }
     ],
     "benchmarks": [
@@ -1745,7 +1729,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "43 independent papers",
+      "observation": "42 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1769,7 +1753,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "86 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1798,13 +1782,13 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
+      "topic": "generation",
       "frequency": 39,
       "significance": "high"
     },
     {
-      "topic": "generation",
-      "frequency": 39,
+      "topic": "reasoning",
+      "frequency": 38,
       "significance": "high"
     },
     {
@@ -1816,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 429
+    "total_papers": 425
   }
 }
