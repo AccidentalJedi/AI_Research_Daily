@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-27T08:22:09.245554",
+  "date": "2026-03-27T12:22:09.087764",
   "patterns": {
     "multimodal_research": [
       {
@@ -307,10 +307,6 @@
       {
         "title": "Towards Practical Lossless Neural Compression for LiDAR Point Clouds",
         "url": "https://arxiv.org/abs/2603.25260v1"
-      },
-      {
-        "title": "23f1000470/efficientnet_b0_v4",
-        "url": "https://huggingface.co/23f1000470/efficientnet_b0_v4"
       }
     ],
     "language_models": [
@@ -649,6 +645,10 @@
       {
         "title": "Adaptive Subspace Modeling With Functional Tucker Decomposition",
         "url": "https://arxiv.org/abs/2603.25530v1"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-fi_en_instant_0.25_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-fi_en_instant_0.25_1-seed42"
       }
     ],
     "vision_systems": [
@@ -1309,6 +1309,10 @@
       {
         "title": "MuRF: Unlocking the Multi-Scale Potential of Vision Foundation Models",
         "url": "https://arxiv.org/abs/2603.25744v1"
+      },
+      {
+        "title": "daksh-neo/llama-3-2-3b-reasoning-sft",
+        "url": "https://huggingface.co/daksh-neo/llama-3-2-3b-reasoning-sft"
       }
     ],
     "benchmarks": [
@@ -1733,7 +1737,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "43 independent papers",
+      "observation": "42 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1745,7 +1749,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1757,7 +1761,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1786,13 +1790,13 @@
       "significance": "high"
     },
     {
-      "topic": "generation",
+      "topic": "reasoning",
       "frequency": 39,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 38,
+      "topic": "generation",
+      "frequency": 39,
       "significance": "high"
     },
     {
@@ -1804,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 427
   }
 }
