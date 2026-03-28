@@ -1,0 +1,53 @@
+{
+  "date": "2026-03-28T00:38:05.507533",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Cisco1963/llmplasticity-fi_zh_instant_0.125_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-fi_zh_instant_0.125_1-seed42"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-en_de_linear_0.25_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-en_de_linear_0.25_1-seed42"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-zh_en_linear_0.125_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-zh_en_linear_0.125_1-seed42"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-de_fi_instant_0.5_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-de_fi_instant_0.5_1-seed42"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-zh_fi_linear_0.125_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-zh_fi_linear_0.125_1-seed42"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-fi_en_linear_0.125_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-fi_en_linear_0.125_1-seed42"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-fi_zh_instant_0.25_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-fi_zh_instant_0.25_1-seed42"
+      },
+      {
+        "title": "carlosf21/projeto-ap-modernbert3",
+        "url": "https://huggingface.co/carlosf21/projeto-ap-modernbert3"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "8 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 8
+  }
+}
