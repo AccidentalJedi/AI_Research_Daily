@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-28T04:43:24.262180",
+  "date": "2026-03-28T08:17:34.605230",
   "patterns": {
     "multimodal_research": [
       {
@@ -645,22 +645,6 @@
       {
         "title": "Adaptive Subspace Modeling With Functional Tucker Decomposition",
         "url": "https://arxiv.org/abs/2603.25530v1"
-      },
-      {
-        "title": "Cisco1963/llmplasticity-fi_de_linear_0.25_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-fi_de_linear_0.25_1-seed42"
-      },
-      {
-        "title": "Cisco1963/llmplasticity-fi_zh_instant_0.25_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-fi_zh_instant_0.25_1-seed42"
-      },
-      {
-        "title": "Cisco1963/llmplasticity-fi_zh_instant_0.125_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-fi_zh_instant_0.125_1-seed42"
-      },
-      {
-        "title": "Cisco1963/llmplasticity-zh_fi_linear_0.125_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-zh_fi_linear_0.125_1-seed42"
       }
     ],
     "vision_systems": [
@@ -1757,7 +1741,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1816,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 429
+    "total_papers": 425
   }
 }
