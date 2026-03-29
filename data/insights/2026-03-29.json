@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-29T16:14:16.641215",
-  "patterns": {},
+  "date": "2026-03-29T20:12:50.680343",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "deburky/gpt-oss-claude-mlx",
+        "url": "https://huggingface.co/deburky/gpt-oss-claude-mlx"
+      },
+      {
+        "title": "C-L-V/PsyDefDetect_ModernBERT-base_unmerged_lr-5",
+        "url": "https://huggingface.co/C-L-V/PsyDefDetect_ModernBERT-base_unmerged_lr-5"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
