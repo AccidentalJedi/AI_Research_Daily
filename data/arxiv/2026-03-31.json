@@ -199,12 +199,12 @@
   {
     "arxiv_id": "2603.28201v1",
     "title": "A Perturbation Approach to Unconstrained Linear Bandits",
-    "summary": "We revisit the standard perturbation-based approach of Abernethy et al. (2008) in the context of unconstrained Bandit Linear Optimization (uBLO). We show the surprising result that in the unconstrained setting, this approach effectively reduces Bandit Linear Optimization (BLO) to a standard Online Linear Optimization (OLO) problem. Our framework improves on prior work in several ways. First, we derive expected-regret guarantees when our perturbation scheme is combined with comparator-adaptive OLO algorithms, leading to new insights about the impact of different adversarial models on the resulting comparator-adaptive rates. We also extend our analysis to dynamic regret, obtaining the optimal $\\sqrt{P_T}$ path-length dependencies without prior knowledge of $P_T$. We then develop the first high-probability guarantees for both static and dynamic regret in uBLO. Finally, we discuss lower bounds on the static regret, and prove the folklore $\u03a9(\\sqrt{dT})$ rate for adversarial linear bandits on the unit Euclidean ball, which is of independent interest.",
+    "summary": "We revisit the standard perturbation-based approach of Abernethy et al. (2008) in the context of unconstrained Bandit Linear Optimization (uBLO). We show the surprising result that in the unconstrained setting, this approach effectively reduces Bandit Linear Optimization (BLO) to a standard Online Linear Optimization (OLO) problem. Our framework improves on prior work in several ways. First, we derive expected-regret guarantees when our perturbation scheme is combined with comparator-adaptive OLO algorithms, leading to new insights about the impact of different adversarial models on the resulting comparator-adaptive rates. We also extend our analysis to dynamic regret, obtaining the optimal $\\sqrt{P_T}$ path-length dependencies without prior knowledge of $P_T$. We then develop the first high-probability guarantees for both static and dynamic regret in uBLO. Finally, we discuss lower bounds on the static regret, and prove the folklore $Ω(\\sqrt{dT})$ rate for adversarial linear bandits on the unit Euclidean ball, which is of independent interest.",
     "authors": [
       "Andrew Jacobsen",
       "Dorian Baudry",
       "Shinji Ito",
-      "Nicol\u00f2 Cesa-Bianchi"
+      "Nicolò Cesa-Bianchi"
     ],
     "categories": [
       "cs.LG",
@@ -556,12 +556,12 @@
     "title": "Differentiable Power-Flow Optimization",
     "summary": "With the rise of renewable energy sources and their high variability in generation, the management of power grids becomes increasingly complex and computationally demanding. Conventional AC-power-flow simulations, which use the Newton-Raphson (NR) method, suffer from poor scalability, making them impractical for emerging use cases such as joint transmission-distribution modeling and global grid analysis. At the same time, purely data-driven surrogate models lack physical guarantees and may violate fundamental constraints. In this work, we propose Differentiable Power-Flow (DPF), a reformulation of the AC power-flow problem as a differentiable simulation. DPF enables end-to-end gradient propagation from the physical power mismatches to the underlying simulation parameters, thereby allowing these parameters to be identified efficiently using gradient-based optimization. We demonstrate that DPF provides a scalable alternative to NR by leveraging GPU acceleration, sparse tensor representations, and batching capabilities available in modern machine-learning frameworks such as PyTorch. DPF is especially suited as a tool for time-series analyses due to its efficient reuse of previous solutions, for N-1 contingency-analyses due to its ability to process cases in batches, and as a screening tool by leveraging its speed and early stopping capability. The code is available in the authors' code repository.",
     "authors": [
-      "Muhammed \u00d6z",
-      "Jasmin H\u00f6rter",
+      "Muhammed Öz",
+      "Jasmin Hörter",
       "Kaleb Phipps",
       "Charlotte Debus",
       "Achim Streit",
-      "Markus G\u00f6tz"
+      "Markus Götz"
     ],
     "categories": [
       "cs.AI",
@@ -619,7 +619,7 @@
   {
     "arxiv_id": "2603.28595v1",
     "title": "Optimistic Actor-Critic with Parametric Policies for Linear Markov Decision Processes",
-    "summary": "Although actor-critic methods have been successful in practice, their theoretical analyses have several limitations. Specifically, existing theoretical work either sidesteps the exploration problem by making strong assumptions or analyzes impractical methods with complicated algorithmic modifications. Moreover, the actor-critic methods analyzed for linear MDPs often employ natural policy gradient (NPG) and construct \"implicit\" policies without explicit parameterization. Such policies are computationally expensive to sample from, making the environment interactions inefficient. To that end, we focus on the finite-horizon linear MDPs and propose an optimistic actor-critic framework that uses parametric log-linear policies. In particular, we introduce a tractable \\textit{logit-matching} regression objective for the actor. For the critic, we use approximate Thompson sampling via Langevin Monte Carlo to obtain optimistic value estimates. We prove that the resulting algorithm achieves $\\widetilde{\\mathcal{O}}(\u03b5^{-4})$ and $\\widetilde{\\mathcal{O}}(\u03b5^{-2})$ sample complexity in the on-policy and off-policy setting, respectively. Our results match prior theoretical works in achieving the state-of-the-art sample complexity, while our algorithm is more aligned with practice.",
+    "summary": "Although actor-critic methods have been successful in practice, their theoretical analyses have several limitations. Specifically, existing theoretical work either sidesteps the exploration problem by making strong assumptions or analyzes impractical methods with complicated algorithmic modifications. Moreover, the actor-critic methods analyzed for linear MDPs often employ natural policy gradient (NPG) and construct \"implicit\" policies without explicit parameterization. Such policies are computationally expensive to sample from, making the environment interactions inefficient. To that end, we focus on the finite-horizon linear MDPs and propose an optimistic actor-critic framework that uses parametric log-linear policies. In particular, we introduce a tractable \\textit{logit-matching} regression objective for the actor. For the critic, we use approximate Thompson sampling via Langevin Monte Carlo to obtain optimistic value estimates. We prove that the resulting algorithm achieves $\\widetilde{\\mathcal{O}}(ε^{-4})$ and $\\widetilde{\\mathcal{O}}(ε^{-2})$ sample complexity in the on-policy and off-policy setting, respectively. Our results match prior theoretical works in achieving the state-of-the-art sample complexity, while our algorithm is more aligned with practice.",
     "authors": [
       "Max Qiushi Lin",
       "Reza Asad",
@@ -644,7 +644,7 @@
     "title": "Physics-Informed Framework for Impact Identification in Aerospace Composites",
     "summary": "This paper introduces a novel physics-informed impact identification (Phy-ID) framework. The proposed method integrates observational, inductive, and learning biases to combine physical knowledge with data-driven inference in a unified modelling strategy, achieving physically consistent and numerically stable impact identification. The physics-informed approach structures the input space using physics-based energy indicators, constrains admissible solutions via architectural design, and enforces governing relations via hybrid loss formulations. Together, these mechanisms limit non-physical solutions and stabilise inference under degraded measurement conditions. A disjoint inference formulation is used as a representative use case to demonstrate the framework capabilities, in which impact velocity and impactor mass are inferred through decoupled surrogate models, and impact energy is computed by enforcing kinetic energy consistency. Experimental evaluations show mean absolute percentage errors below 8% for inferred impact velocity and impactor mass and below 10% for impact energy. Additional analyses confirm stable performance under reduced data availability and increased measurement noise, as well as generalisation for out-of-distribution cases across pristine and damaged regimes when damaged responses are included in training. These results indicate that the systematic integration of physics-informed biases enables reliable, physically consistent, and data-efficient impact identification, highlighting the potential of the approach for practical monitoring systems.",
     "authors": [
-      "Nat\u00e1lia Ribeiro Marinho",
+      "Natália Ribeiro Marinho",
       "Richard Loendersloot",
       "Jan Willem Wiegman",
       "Frank Grooteman",
@@ -959,7 +959,7 @@
     "title": "Subspace Optimization for Backpropagation-Free Continual Test-Time Adaptation",
     "summary": "We introduce PACE, a backpropagation-free continual test-time adaptation system that directly optimizes the affine parameters of normalization layers. Existing derivative-free approaches struggle to balance runtime efficiency with learning capacity, as they either restrict updates to input prompts or require continuous, resource-intensive adaptation regardless of domain stability. To address these limitations, PACE leverages the Covariance Matrix Adaptation Evolution Strategy with the Fastfood projection to optimize high-dimensional affine parameters within a low-dimensional subspace, leading to superior adaptive performance. Furthermore, we enhance the runtime efficiency by incorporating an adaptation stopping criterion and a domain-specialized vector bank to eliminate redundant computation. Our framework achieves state-of-the-art accuracy across multiple benchmarks under continual distribution shifts, reducing runtime by over 50% compared to existing backpropagation-free methods.",
     "authors": [
-      "Damian S\u00f3jka",
+      "Damian Sójka",
       "Sebastian Cygert",
       "Marc Masana"
     ],
@@ -1053,7 +1053,7 @@
     "title": "Critic-Free Deep Reinforcement Learning for Maritime Coverage Path Planning on Irregular Hexagonal Grids",
     "summary": "Maritime surveillance missions, such as search and rescue and environmental monitoring, rely on the efficient allocation of sensing assets over vast and geometrically complex areas. Traditional Coverage Path Planning (CPP) approaches depend on decomposition techniques that struggle with irregular coastlines, islands, and exclusion zones, or require computationally expensive re-planning for every instance. We propose a Deep Reinforcement Learning (DRL) framework to solve CPP on hexagonal grid representations of irregular maritime areas. Unlike conventional methods, we formulate the problem as a neural combinatorial optimization task where a Transformer-based pointer policy autoregressively constructs coverage tours. To overcome the instability of value estimation in long-horizon routing problems, we implement a critic-free Group-Relative Policy Optimization (GRPO) scheme. This method estimates advantages through within-instance comparisons of sampled trajectories rather than relying on a value function. Experiments on 1,000 unseen synthetic maritime environments demonstrate that a trained policy achieves a 99.0% Hamiltonian success rate, more than double the best heuristic (46.0%), while producing paths 7% shorter and with 24% fewer heading changes than the closest baseline. All three inference modes (greedy, stochastic sampling, and sampling with 2-opt refinement) operate under 50~ms per instance on a laptop GPU, confirming feasibility for real-time on-board deployment.",
     "authors": [
-      "Carlos S. Sep\u00falveda",
+      "Carlos S. Sepúlveda",
       "Gonzalo A. Ruz"
     ],
     "categories": [
@@ -1093,7 +1093,7 @@
   {
     "arxiv_id": "2603.28288v1",
     "title": "FI-KAN: Fractal Interpolation Kolmogorov-Arnold Networks",
-    "summary": "Kolmogorov-Arnold Networks (KAN) employ B-spline bases on a fixed grid, providing no intrinsic multi-scale decomposition for non-smooth function approximation. We introduce Fractal Interpolation KAN (FI-KAN), which incorporates learnable fractal interpolation function (FIF) bases from iterated function system (IFS) theory into KAN. Two variants are presented: Pure FI-KAN (Barnsley, 1986) replaces B-splines entirely with FIF bases; Hybrid FI-KAN (Navascues, 2005) retains the B-spline path and adds a learnable fractal correction. The IFS contraction parameters give each edge a differentiable fractal dimension that adapts to target regularity during training. On a Holder regularity benchmark ($\u03b1\\in [0.2, 2.0]$), Hybrid FI-KAN outperforms KAN at every regularity level (1.3x to 33x). On fractal targets, FI-KAN achieves up to 6.3x MSE reduction over KAN, maintaining 4.7x advantage at 5 dB SNR. On non-smooth PDE solutions (scikit-fem), Hybrid FI-KAN achieves up to 79x improvement on rough-coefficient diffusion and 3.5x on L-shaped domain corner singularities. Pure FI-KAN's complementary behavior, dominating on rough targets while underperforming on smooth ones, provides controlled evidence that basis geometry must match target regularity. A fractal dimension regularizer provides interpretable complexity control whose learned values recover the true fractal dimension of each target. These results establish regularity-matched basis design as a principled strategy for neural function approximation.",
+    "summary": "Kolmogorov-Arnold Networks (KAN) employ B-spline bases on a fixed grid, providing no intrinsic multi-scale decomposition for non-smooth function approximation. We introduce Fractal Interpolation KAN (FI-KAN), which incorporates learnable fractal interpolation function (FIF) bases from iterated function system (IFS) theory into KAN. Two variants are presented: Pure FI-KAN (Barnsley, 1986) replaces B-splines entirely with FIF bases; Hybrid FI-KAN (Navascues, 2005) retains the B-spline path and adds a learnable fractal correction. The IFS contraction parameters give each edge a differentiable fractal dimension that adapts to target regularity during training. On a Holder regularity benchmark ($α\\in [0.2, 2.0]$), Hybrid FI-KAN outperforms KAN at every regularity level (1.3x to 33x). On fractal targets, FI-KAN achieves up to 6.3x MSE reduction over KAN, maintaining 4.7x advantage at 5 dB SNR. On non-smooth PDE solutions (scikit-fem), Hybrid FI-KAN achieves up to 79x improvement on rough-coefficient diffusion and 3.5x on L-shaped domain corner singularities. Pure FI-KAN's complementary behavior, dominating on rough targets while underperforming on smooth ones, provides controlled evidence that basis geometry must match target regularity. A fractal dimension regularizer provides interpretable complexity control whose learned values recover the true fractal dimension of each target. These results establish regularity-matched basis design as a principled strategy for neural function approximation.",
     "authors": [
       "Gnankan Landry Regis N'guessan"
     ],
@@ -1246,7 +1246,7 @@
   {
     "arxiv_id": "2603.28499v1",
     "title": "Next-Token Prediction and Regret Minimization",
-    "summary": "We consider the question of how to employ next-token prediction algorithms in adversarial online decision-making environments. Specifically, if we train a next-token prediction model on a distribution $\\mathcal{D}$ over sequences of opponent actions, when is it the case that the induced online decision-making algorithm (by approximately best responding to the model's predictions) has low adversarial regret (i.e., when is $\\mathcal{D}$ a \\emph{low-regret distribution})?   For unbounded context windows (where the prediction made by the model can depend on all the actions taken by the adversary thus far), we show that although not every distribution $\\mathcal{D}$ is a low-regret distribution, every distribution $\\mathcal{D}$ is exponentially close (in TV distance) to one low-regret distribution, and hence sublinear regret can always be achieved at negligible cost to the accuracy of the original next-token prediction model. In contrast to this, for bounded context windows (where the prediction made by the model can depend only on the past $w$ actions taken by the adversary, as may be the case in modern transformer architectures), we show that there are some distributions $\\mathcal{D}$ of opponent play that are $\u0398(1)$-far from any low-regret distribution $\\mathcal{D'}$ (even when $w = \u03a9(T)$ and such distributions exist). Finally, we complement these results by showing that the unbounded context robustification procedure can be implemented by layers of a standard transformer architecture, and provide empirical evidence that transformer models can be efficiently trained to represent these new low-regret distributions.",
+    "summary": "We consider the question of how to employ next-token prediction algorithms in adversarial online decision-making environments. Specifically, if we train a next-token prediction model on a distribution $\\mathcal{D}$ over sequences of opponent actions, when is it the case that the induced online decision-making algorithm (by approximately best responding to the model's predictions) has low adversarial regret (i.e., when is $\\mathcal{D}$ a \\emph{low-regret distribution})?   For unbounded context windows (where the prediction made by the model can depend on all the actions taken by the adversary thus far), we show that although not every distribution $\\mathcal{D}$ is a low-regret distribution, every distribution $\\mathcal{D}$ is exponentially close (in TV distance) to one low-regret distribution, and hence sublinear regret can always be achieved at negligible cost to the accuracy of the original next-token prediction model. In contrast to this, for bounded context windows (where the prediction made by the model can depend only on the past $w$ actions taken by the adversary, as may be the case in modern transformer architectures), we show that there are some distributions $\\mathcal{D}$ of opponent play that are $Θ(1)$-far from any low-regret distribution $\\mathcal{D'}$ (even when $w = Ω(T)$ and such distributions exist). Finally, we complement these results by showing that the unbounded context robustification procedure can be implemented by layers of a standard transformer architecture, and provide empirical evidence that transformer models can be efficiently trained to represent these new low-regret distributions.",
     "authors": [
       "Mehryar Mohri",
       "Clayton Sanford",
@@ -1316,8 +1316,8 @@
     "title": "From Simulation to Deep Learning: Survey on Network Performance Modeling Approaches",
     "summary": "Network performance modeling is a field that predates early computer networks and the beginning of the Internet. It aims to predict the traffic performance of packet flows in a given network. Its applications range from network planning and troubleshooting to feeding information to network controllers for configuration optimization. Traditional network performance modeling has relied heavily on Discrete Event Simulation (DES) and analytical methods grounded in mathematical theories such as Queuing Theory and Network Calculus. However, as of late, we have observed a paradigm shift, with attempts to obtain efficient Parallel DES, the surge of Machine Learning models, and their integration with other methodologies in hybrid approaches. This has resulted in a great variety of modeling approaches, each with its strengths and often tailored to specific scenarios or requirements. In this paper, we comprehensively survey the relevant network performance modeling approaches for wired networks over the last decades. With this understanding, we also define a taxonomy of approaches, summarizing our understanding of the state-of-the-art and how both technology and the concerns of the research community evolve over time. Finally, we also consider how these models are evaluated, how their different nature results in different evaluation requirements and goals, and how this may complicate their comparison.",
     "authors": [
-      "Carlos G\u00fcemes-Palau",
-      "Miquel Ferriol-Galm\u00e9s",
+      "Carlos Güemes-Palau",
+      "Miquel Ferriol-Galmés",
       "Jordi Paillisse-Vilanova",
       "Pere Barlet-Ros",
       "Albert Cabellos-Aparicio"
@@ -1359,13 +1359,13 @@
   {
     "arxiv_id": "2603.28281v1",
     "title": "Corruption-robust Offline Multi-agent Reinforcement Learning From Human Feedback",
-    "summary": "We consider robustness against data corruption in offline multi-agent reinforcement learning from human feedback (MARLHF) under a strong-contamination model: given a dataset $D$ of trajectory-preference tuples (each preference being an $n$-dimensional binary label vector representing each of the $n$ agents' preferences), an $\u03b5$-fraction of the samples may be arbitrarily corrupted. We model the problem using the framework of linear Markov games. First, under a uniform coverage assumption - where every policy of interest is sufficiently represented in the clean (prior to corruption) data - we introduce a robust estimator that guarantees an $O(\u03b5^{1 - o(1)})$ bound on the Nash equilibrium gap. Next, we move to the more challenging unilateral coverage setting, in which only a Nash equilibrium and its single-player deviations are covered. In this case, our proposed algorithm achieves an $O(\\sqrt\u03b5)$ bound on the Nash gap. Both of these procedures, however, suffer from intractable computation. To address this, we relax our solution concept to coarse correlated equilibria (CCE). Under the same unilateral coverage regime, we derive a quasi-polynomial-time algorithm whose CCE gap scales as $O(\\sqrt\u03b5)$. To the best of our knowledge, this is the first systematic treatment of adversarial data corruption in offline MARLHF.",
+    "summary": "We consider robustness against data corruption in offline multi-agent reinforcement learning from human feedback (MARLHF) under a strong-contamination model: given a dataset $D$ of trajectory-preference tuples (each preference being an $n$-dimensional binary label vector representing each of the $n$ agents' preferences), an $ε$-fraction of the samples may be arbitrarily corrupted. We model the problem using the framework of linear Markov games. First, under a uniform coverage assumption - where every policy of interest is sufficiently represented in the clean (prior to corruption) data - we introduce a robust estimator that guarantees an $O(ε^{1 - o(1)})$ bound on the Nash equilibrium gap. Next, we move to the more challenging unilateral coverage setting, in which only a Nash equilibrium and its single-player deviations are covered. In this case, our proposed algorithm achieves an $O(\\sqrtε)$ bound on the Nash gap. Both of these procedures, however, suffer from intractable computation. To address this, we relax our solution concept to coarse correlated equilibria (CCE). Under the same unilateral coverage regime, we derive a quasi-polynomial-time algorithm whose CCE gap scales as $O(\\sqrtε)$. To the best of our knowledge, this is the first systematic treatment of adversarial data corruption in offline MARLHF.",
     "authors": [
       "Andi Nika",
       "Debmalya Mandal",
       "Parameswaran Kamalaruban",
       "Adish Singla",
-      "Goran Radanovi\u0107"
+      "Goran Radanović"
     ],
     "categories": [
       "cs.LG"
@@ -1584,7 +1584,7 @@
       "Sadra Safadoust",
       "Fabio Tosi",
       "Matteo Poggi",
-      "Fatma G\u00fcney"
+      "Fatma Güney"
     ],
     "categories": [
       "cs.CV"
@@ -1643,8 +1643,8 @@
   },
   {
     "arxiv_id": "2603.28558v1",
-    "title": "T-Norm Operators for EU AI Act Compliance Classification: An Empirical Comparison of Lukasiewicz, Product, and G\u00f6del Semantics in a Neuro-Symbolic Reasoning System",
-    "summary": "We present a first comparative pilot study of three t-norm operators -- Lukasiewicz (T_L), Product (T_P), and G\u00f6del (T_G) - as logical conjunction mechanisms in a neuro-symbolic reasoning system for EU AI Act compliance classification. Using the LGGT+ (Logic-Guided Graph Transformers Plus) engine and a benchmark of 1035 annotated AI system descriptions spanning four risk categories (prohibited, high_risk, limited_risk, minimal_risk), we evaluate classification accuracy, false positive and false negative rates, and operator behaviour on ambiguous cases. At n=1035, all three operators differ significantly (McNemar p<0.001). T_G achieves highest accuracy (84.5%) and best borderline recall (85%), but introduces 8 false positives (0.8%) via min-semantics over-classification. T_L and T_P maintain zero false positives, with T_P outperforming T_L (81.2% vs. 78.5%). Our principal findings are: (1) operator choice is secondary to rule base completeness; (2) T_L and T_P maintain zero false positives but miss borderline cases; (3) T_G's min-semantics achieves higher recall at cost of 0.8% false positive rate; (4) a mixed-semantics classifier is the productive next step. We release the LGGT+ core engine (201/201 tests passing) and benchmark dataset (n=1035) under Apache 2.0.",
+    "title": "T-Norm Operators for EU AI Act Compliance Classification: An Empirical Comparison of Lukasiewicz, Product, and Gödel Semantics in a Neuro-Symbolic Reasoning System",
+    "summary": "We present a first comparative pilot study of three t-norm operators -- Lukasiewicz (T_L), Product (T_P), and Gödel (T_G) - as logical conjunction mechanisms in a neuro-symbolic reasoning system for EU AI Act compliance classification. Using the LGGT+ (Logic-Guided Graph Transformers Plus) engine and a benchmark of 1035 annotated AI system descriptions spanning four risk categories (prohibited, high_risk, limited_risk, minimal_risk), we evaluate classification accuracy, false positive and false negative rates, and operator behaviour on ambiguous cases. At n=1035, all three operators differ significantly (McNemar p<0.001). T_G achieves highest accuracy (84.5%) and best borderline recall (85%), but introduces 8 false positives (0.8%) via min-semantics over-classification. T_L and T_P maintain zero false positives, with T_P outperforming T_L (81.2% vs. 78.5%). Our principal findings are: (1) operator choice is secondary to rule base completeness; (2) T_L and T_P maintain zero false positives but miss borderline cases; (3) T_G's min-semantics achieves higher recall at cost of 0.8% false positive rate; (4) a mixed-semantics classifier is the productive next step. We release the LGGT+ core engine (201/201 tests passing) and benchmark dataset (n=1035) under Apache 2.0.",
     "authors": [
       "Adam Laabs"
     ],
@@ -1864,7 +1864,7 @@
     "authors": [
       "Ane G Domingo-Aldama",
       "Marcos Merino Prado",
-      "Alain Garc\u00eda Olea",
+      "Alain García Olea",
       "Josu Goikoetxea",
       "Koldo Gojenola",
       "Aitziber Atutxa"
@@ -1882,7 +1882,7 @@
   {
     "arxiv_id": "2603.28743v1",
     "title": "Rethinking Language Model Scaling under Transferable Hypersphere Optimization",
-    "summary": "Scaling laws for large language models depend critically on the optimizer and parameterization. Existing hyperparameter transfer laws are mainly developed for first-order optimizers, and they do not structurally prevent training instability at scale. Recent hypersphere optimization methods constrain weight matrices to a fixed-norm hypersphere, offering a promising alternative for more stable scaling. We introduce HyperP (Hypersphere Parameterization), the first framework for transferring optimal learning rates across model width, depth, training tokens, and Mixture-of-Experts (MoE) granularity under the Frobenius-sphere constraint with the Muon optimizer. We prove that weight decay is a first-order no-op on the Frobenius sphere, show that Depth-$\u03bc$P remains necessary, and find that the optimal learning rate follows the same data-scaling power law with the \"magic exponent\" 0.32 previously observed for AdamW. A single base learning rate tuned at the smallest scale transfers across all compute budgets under HyperP, yielding $1.58\\times$ compute efficiency over a strong Muon baseline at $6\\times10^{21}$ FLOPs. Moreover, HyperP delivers transferable stability: all monitored instability indicators, including $Z$-values, output RMS, and activation outliers, remain bounded and non-increasing under training FLOPs scaling. We also propose SqrtGate, an MoE gating mechanism derived from the hypersphere constraint that preserves output RMS across MoE granularities for improved granularity scaling, and show that hypersphere optimization enables substantially larger auxiliary load-balancing weights, yielding both strong performance and good expert balance. We release our training codebase at https://github.com/microsoft/ArchScale.",
+    "summary": "Scaling laws for large language models depend critically on the optimizer and parameterization. Existing hyperparameter transfer laws are mainly developed for first-order optimizers, and they do not structurally prevent training instability at scale. Recent hypersphere optimization methods constrain weight matrices to a fixed-norm hypersphere, offering a promising alternative for more stable scaling. We introduce HyperP (Hypersphere Parameterization), the first framework for transferring optimal learning rates across model width, depth, training tokens, and Mixture-of-Experts (MoE) granularity under the Frobenius-sphere constraint with the Muon optimizer. We prove that weight decay is a first-order no-op on the Frobenius sphere, show that Depth-$μ$P remains necessary, and find that the optimal learning rate follows the same data-scaling power law with the \"magic exponent\" 0.32 previously observed for AdamW. A single base learning rate tuned at the smallest scale transfers across all compute budgets under HyperP, yielding $1.58\\times$ compute efficiency over a strong Muon baseline at $6\\times10^{21}$ FLOPs. Moreover, HyperP delivers transferable stability: all monitored instability indicators, including $Z$-values, output RMS, and activation outliers, remain bounded and non-increasing under training FLOPs scaling. We also propose SqrtGate, an MoE gating mechanism derived from the hypersphere constraint that preserves output RMS across MoE granularities for improved granularity scaling, and show that hypersphere optimization enables substantially larger auxiliary load-balancing weights, yielding both strong performance and good expert balance. We release our training codebase at https://github.com/microsoft/ArchScale.",
     "authors": [
       "Liliang Ren",
       "Yang Liu",
@@ -1977,7 +1977,7 @@
       "Tim Strohmeyer",
       "Lucas Morin",
       "Gerhard Ingmar Meijer",
-      "Val\u00e9ry Weber",
+      "Valéry Weber",
       "Ahmed Nassar",
       "Peter Staar"
     ],
@@ -2020,7 +2020,7 @@
   {
     "arxiv_id": "2603.28345v1",
     "title": "Crossing the NL/PL Divide: Information Flow Analysis Across the NL/PL Boundary in LLM-Integrated Code",
-    "summary": "LLM API calls are becoming a ubiquitous program construct, yet they create a boundary that no existing program analysis can cross: runtime values enter a natural-language prompt, undergo opaque processing inside the LLM, and re-emerge as code, SQL, JSON, or text that the program consumes. Every analysis that tracks data across function boundaries, including taint analysis, program slicing, dependency analysis, and change-impact analysis, relies on dataflow summaries of callee behavior. LLM calls have no such summaries, breaking all of these analyses at what we call the NL/PL boundary.   We present the first information flow method to bridge this boundary. Grounded in quantitative information flow theory, our taxonomy defines 24 labels along two orthogonal dimensions: information preservation level (from lexically preserved to fully blocked) and output modality (natural language, structured format, executable artifact). We label 9,083 placeholder-output pairs from 4,154 real-world Python files and validate reliability with Cohen's $\u03ba= 0.82$ and near-complete coverage (0.01\\% unclassifiable). We demonstrate the taxonomy's utility on two downstream applications: (1)~a two-stage taint propagation pipeline combining taxonomy-based filtering with LLM verification achieves $F_1 = 0.923$ on 353 expert-annotated pairs, with cross-language validation on six real-world OpenClaw prompt injection cases further confirming effectiveness; (2)~taxonomy-informed backward slicing reduces slice size by a mean of 15\\% in files containing non-propagating placeholders. Per-label analysis reveals that four blocked labels account for nearly all non-propagating cases, providing actionable filtering criteria for tool builders.",
+    "summary": "LLM API calls are becoming a ubiquitous program construct, yet they create a boundary that no existing program analysis can cross: runtime values enter a natural-language prompt, undergo opaque processing inside the LLM, and re-emerge as code, SQL, JSON, or text that the program consumes. Every analysis that tracks data across function boundaries, including taint analysis, program slicing, dependency analysis, and change-impact analysis, relies on dataflow summaries of callee behavior. LLM calls have no such summaries, breaking all of these analyses at what we call the NL/PL boundary.   We present the first information flow method to bridge this boundary. Grounded in quantitative information flow theory, our taxonomy defines 24 labels along two orthogonal dimensions: information preservation level (from lexically preserved to fully blocked) and output modality (natural language, structured format, executable artifact). We label 9,083 placeholder-output pairs from 4,154 real-world Python files and validate reliability with Cohen's $κ= 0.82$ and near-complete coverage (0.01\\% unclassifiable). We demonstrate the taxonomy's utility on two downstream applications: (1)~a two-stage taint propagation pipeline combining taxonomy-based filtering with LLM verification achieves $F_1 = 0.923$ on 353 expert-annotated pairs, with cross-language validation on six real-world OpenClaw prompt injection cases further confirming effectiveness; (2)~taxonomy-informed backward slicing reduces slice size by a mean of 15\\% in files containing non-propagating placeholders. Per-label analysis reveals that four blocked labels account for nearly all non-propagating cases, providing actionable filtering criteria for tool builders.",
     "authors": [
       "Zihao Xu",
       "Xiao Cheng",
@@ -2587,11 +2587,11 @@
   {
     "arxiv_id": "2603.28596v1",
     "title": "Moving Beyond Review: Applying Language Models to Planning and Translation in Reflection",
-    "summary": "Reflective writing is known to support the development of students' metacognitive skills, yet learners often struggle to engage in deep reflection, limiting learning gains. Although large language models (LLMs) have been shown to improve writing skills, their use as conversational agents for reflective writing has produced mixed results and has largely focused on providing feedback on reflective texts, rather than support during planning and organizing. In this paper, inspired by the Cognitive Process Theory of writing (CPT), we propose the first application of LLMs to the planning and translation steps of reflective writing. We introduce Pens\u00e9e, a tool to explore the effects of explicit AI support during these stages by scaffolding structured reflection planning using a conversational agent, and supporting translation by automatically extracting key concepts. We evaluate Pens\u00e9e in a controlled between-subjects experiment (N=93), manipulating AI support across writing phases. Results show significantly greater reflection depth and structural quality when learners receive support during planning and translation stages of CPT, though these effects reduce in a delayed post-test. Analyses of learner behavior and perceptions further illustrate how CPT-aligned conversational support shapes reflection processes and learner experience, contributing empirical evidence for theory-driven uses of LLMs in AI-supported reflective writing.",
+    "summary": "Reflective writing is known to support the development of students' metacognitive skills, yet learners often struggle to engage in deep reflection, limiting learning gains. Although large language models (LLMs) have been shown to improve writing skills, their use as conversational agents for reflective writing has produced mixed results and has largely focused on providing feedback on reflective texts, rather than support during planning and organizing. In this paper, inspired by the Cognitive Process Theory of writing (CPT), we propose the first application of LLMs to the planning and translation steps of reflective writing. We introduce Pensée, a tool to explore the effects of explicit AI support during these stages by scaffolding structured reflection planning using a conversational agent, and supporting translation by automatically extracting key concepts. We evaluate Pensée in a controlled between-subjects experiment (N=93), manipulating AI support across writing phases. Results show significantly greater reflection depth and structural quality when learners receive support during planning and translation stages of CPT, though these effects reduce in a delayed post-test. Analyses of learner behavior and perceptions further illustrate how CPT-aligned conversational support shapes reflection processes and learner experience, contributing empirical evidence for theory-driven uses of LLMs in AI-supported reflective writing.",
     "authors": [
       "Seyed Parsa Neshaei",
       "Richard Lee Davis",
-      "Tanja K\u00e4ser"
+      "Tanja Käser"
     ],
     "categories": [
       "cs.HC",
@@ -2673,7 +2673,7 @@
     "summary": "Lombard, an underresourced language variety spoken by approximately 3.8 million people in Northern Italy and Southern Switzerland, lacks a unified orthographic standard. Multiple orthographic systems exist, creating challenges for NLP resource development and model training. This paper presents the first study of automatic Lombard orthography classification and LombardoGraphia, a curated corpus of 11,186 Lombard Wikipedia samples tagged across 9 orthographic variants, and models for automatic orthography classification. We curate the dataset, processing and filtering raw Wikipedia content to ensure text suitable for orthographic analysis. We train 24 traditional and neural classification models with various features and encoding levels. Our best models achieve 96.06% and 85.78% overall and average class accuracy, though performance on minority classes remains challenging due to data imbalance. Our work provides crucial infrastructure for building variety-aware NLP resources for Lombard.",
     "authors": [
       "Edoardo Signoroni",
-      "Pavel Rychl\u00fd"
+      "Pavel Rychlý"
     ],
     "categories": [
       "cs.CL"
@@ -2964,7 +2964,7 @@
     "title": "Stop Probing, Start Coding: Why Linear Probes and Sparse Autoencoders Fail at Compositional Generalisation",
     "summary": "The linear representation hypothesis states that neural network activations encode high-level concepts as linear mixtures. However, under superposition, this encoding is a projection from a higher-dimensional concept space into a lower-dimensional activation space, and a linear decision boundary in the concept space need not remain linear after projection. In this setting, classical sparse coding methods with per-sample iterative inference leverage compressed sensing guarantees to recover latent factors. Sparse autoencoders (SAEs), on the other hand, amortise sparse inference into a fixed encoder, introducing a systematic gap. We show this amortisation gap persists across training set sizes, latent dimensions, and sparsity levels, causing SAEs to fail under out-of-distribution (OOD) compositional shifts. Through controlled experiments that decompose the failure, we identify dictionary learning -- not the inference procedure -- as the binding constraint: SAE-learned dictionaries point in substantially wrong directions, and replacing the encoder with per-sample FISTA on the same dictionary does not close the gap. An oracle baseline proves the problem is solvable with a good dictionary at all scales tested. Our results reframe the SAE failure as a dictionary learning challenge, not an amortisation problem, and point to scalable dictionary learning as the key open problem for sparse inference under superposition.",
     "authors": [
-      "Vit\u00f3ria Barin Pacela",
+      "Vitória Barin Pacela",
       "Shruti Joshi",
       "Isabela Camacho",
       "Simon Lacoste-Julien",
@@ -2985,11 +2985,11 @@
     "title": "Training data generation for context-dependent rubric-based short answer grading",
     "summary": "Every 4 years, the PISA test is administered by the OECD to test the knowledge of teenage students worldwide and allow for comparisons of educational systems. However, having to avoid language differences and annotator bias makes the grading of student answers challenging. For these reasons, it would be interesting to compare methods of automatic student answer grading. To train some of these methods, which require machine learning, or to compute parameters or select hyperparameters for those that do not, a large amount of domain-specific data is needed. In this work, we explore a small number of methods for creating a large-scale training dataset using only a relatively small confidential dataset as a reference, leveraging a set of very simple derived text formats to preserve confidentiality. Using these methods, we successfully created three surrogate datasets that are, at the very least, superficially more similar to the reference dataset than purely the result of prompt-based generation. Early experiments suggest one of these approaches might also lead to improved model training.",
     "authors": [
-      "Pavel \u0160indel\u00e1\u0159",
-      "D\u00e1vid Slivka",
+      "Pavel Šindelář",
+      "Dávid Slivka",
       "Christopher Bouma",
-      "Filip Pr\u00e1\u0161il",
-      "Ond\u0159ej Bojar"
+      "Filip Prášil",
+      "Ondřej Bojar"
     ],
     "categories": [
       "cs.CL"
@@ -3064,7 +3064,7 @@
     "title": "Coherent Without Grounding, Grounded Without Success: Observability and Epistemic Failure",
     "summary": "When an agent can articulate why something works, we typically take this as evidence of genuine understanding. This presupposes that effective action and correct explanation covary, and that coherent explanation reliably signals both. I argue that this assumption fails for contemporary Large Language Models (LLMs). I introduce what I call the Bidirectional Coherence Paradox: competence and grounding not only dissociate but invert across epistemic conditions. In low-observability domains, LLMs often act successfully while misidentifying the mechanisms that produce their success. In high-observability domains, they frequently generate explanations that accurately track observable causal structure yet fail to translate those diagnoses into effective intervention. In both cases, explanatory coherence remains intact, obscuring the underlying dissociation. Drawing on experiments in compiler optimization and hyperparameter tuning, I develop the Epistemic Triangle, a model of how priors, signals, and domain knowledge interact under varying observability. The results suggest that neither behavioral success nor explanatory accuracy alone suffices for attributing understanding. I argue that evaluating artificial epistemic agents requires a tripartite framework -- coherence, grounding, and a proper basing relation linking explanation to action. The systematic separation of knowing-that and knowing-how in LLMs thus challenges assumptions inherited from both epistemology and current AI evaluation practice.",
     "authors": [
-      "Camilo Chac\u00f3n Sartori"
+      "Camilo Chacón Sartori"
     ],
     "categories": [
       "cs.CY",
@@ -3274,7 +3274,7 @@
   {
     "arxiv_id": "2603.28757v1",
     "title": "SonoWorld: From One Image to a 3D Audio-Visual Scene",
-    "summary": "Tremendous progress in visual scene generation now turns a single image into an explorable 3D world, yet immersion remains incomplete without sound. We introduce Image2AVScene, the task of generating a 3D audio-visual scene from a single image, and present SonoWorld, the first framework to tackle this challenge. From one image, our pipeline outpaints a 360\u00b0 panorama, lifts it into a navigable 3D scene, places language-guided sound anchors, and renders ambisonics for point, areal, and ambient sources, yielding spatial audio aligned with scene geometry and semantics. Quantitative evaluations on a newly curated real-world dataset and a controlled user study confirm the effectiveness of our approach. Beyond free-viewpoint audio-visual rendering, we also demonstrate applications to one-shot acoustic learning and audio-visual spatial source separation. Project website: https://humathe.github.io/sonoworld/",
+    "summary": "Tremendous progress in visual scene generation now turns a single image into an explorable 3D world, yet immersion remains incomplete without sound. We introduce Image2AVScene, the task of generating a 3D audio-visual scene from a single image, and present SonoWorld, the first framework to tackle this challenge. From one image, our pipeline outpaints a 360° panorama, lifts it into a navigable 3D scene, places language-guided sound anchors, and renders ambisonics for point, areal, and ambient sources, yielding spatial audio aligned with scene geometry and semantics. Quantitative evaluations on a newly curated real-world dataset and a controlled user study confirm the effectiveness of our approach. Beyond free-viewpoint audio-visual rendering, we also demonstrate applications to one-shot acoustic learning and audio-visual spatial source separation. Project website: https://humathe.github.io/sonoworld/",
     "authors": [
       "Derong Jin",
       "Xiyi Chen",
@@ -3361,7 +3361,7 @@
       "Quan Meng",
       "Yujin Chen",
       "Lei Li",
-      "Matthias Nie\u00dfner",
+      "Matthias Nießner",
       "Angela Dai"
     ],
     "categories": [
@@ -3379,8 +3379,8 @@
     "title": "EarlySciRev: A Dataset of Early-Stage Scientific Revisions Extracted from LaTeX Writing Traces",
     "summary": "Scientific writing is an iterative process that generates rich revision traces, yet publicly available resources typically expose only final or near-final versions of papers. This limits empirical study of revision behaviour and evaluation of large language models (LLMs) for scientific writing. We introduce EarlySciRev, a dataset of early-stage scientific text revisions automatically extracted from arXiv LaTeX source files. Our key observation is that commented-out text in LaTeX often preserves discarded or alternative formulations written by the authors themselves. By aligning commented segments with nearby final text, we extract paragraph-level candidate revision pairs and apply LLM-based filtering to retain genuine revisions. Starting from 1.28M candidate pairs, our pipeline yields 578k validated revision pairs, grounded in authentic early drafting traces. We additionally provide a human-annotated benchmark for revision detection. EarlySciRev complements existing resources focused on late-stage revisions or synthetic rewrites and supports research on scientific writing dynamics, revision modelling, and LLM-assisted editing.",
     "authors": [
-      "L\u00e9ane Jourdan",
-      "Julien Aubert-B\u00e9duchaud",
+      "Léane Jourdan",
+      "Julien Aubert-Béduchaud",
       "Yannis Chupin",
       "Marah Baccari",
       "Florian Boudin"
@@ -3504,7 +3504,7 @@
       "Lorenza Prospero",
       "Orest Kupyn",
       "Ostap Viniavskyi",
-      "Jo\u00e3o F. Henriques",
+      "João F. Henriques",
       "Christian Rupprecht"
     ],
     "categories": [
@@ -3738,7 +3738,7 @@
     "summary": "The domain of metaheuristic optimization has become vibrant due to a flood of new algorithms using a new nature-inspired metaphor but lacking clear methodological novelty. The Criticism behind the development of these algorithms has reached such an extent that the critics started to assert that all novel algorithms are only copies of already developed ones. In this study, we try to show that the situation is not so black and white. Therefore, we define a strong equivalence theorem for estimating the similarity between two nature-inspired metaheuristics, according to which two algorithms are equivalent if, and only if, the cosine similarity of their phenotypic and genotypic feature vectors, characterizing their behavior by searching for the optimal solutions, is above some threshold. On the theorem basis, a framework is developed for identifying the equivalence between nature-inspired metaheuristics. Extensive experimental work using the framework has shown that searching for conditions to achieve the high similarity of the more well-known nature-inspired metaheuristics is hard, or even not possible to achieve, in the limited computational environments.",
     "authors": [
       "Iztok Fister",
-      "\u017dan Hozjan",
+      "Žan Hozjan",
       "Iztok Fister,",
       "Damjan Strnad"
     ],
@@ -3834,7 +3834,7 @@
     "authors": [
       "Christian Kuehn",
       "Sara-Viola Kuntz",
-      "Tobias W\u00f6hrer"
+      "Tobias Wöhrer"
     ],
     "categories": [
       "math.DS",
@@ -3853,7 +3853,7 @@
     "summary": "Instructional alignment, the match between intended cognition and enacted activity, is central to effective instruction but hard to operationalize at scale. We examine alignment in cybersecurity simulations using multimodal traces from 23 teams (76 students) across five exercise sessions. Study 1 codes objectives and team emails with Bloom's taxonomy and models the completion of key exercise tasks with generalized linear mixed models. Alignment, defined as the discrepancy between required and enacted Bloom levels, predicts success, whereas the Bloom category alone does not predict success once discrepancy is considered. Study 2 compares predictive feature families using grouped cross-validation and l1-regularized logistic regression. Text embeddings and log features outperform Bloom-only models (AUC~0.74 and 0.71 vs. 0.55), and their combination performs best (Test AUC~0.80), with Bloom frequencies adding little. Overall, the work offers a measure of alignment for simulations and shows that multimodal traces best forecast performance, while alignment provides interpretable diagnostic insight.",
     "authors": [
       "Conrad Borchers",
-      "Valdemar \u0160v\u00e1bensk\u00fd",
+      "Valdemar Švábenský",
       "Sandesh K. Kafle",
       "Kevin K. Tang",
       "Jan Vykopal"
@@ -4163,40 +4163,6 @@
     "research_score": 0.5
   },
   {
-    "dataset_id": "open-index/hacker-news",
-    "author": "open-index",
-    "title": "open-index/hacker-news",
-    "downloads": 14475,
-    "likes": 227,
-    "tags": [
-      "task_categories:text-generation",
-      "task_categories:feature-extraction",
-      "task_categories:text-classification",
-      "task_categories:question-answering",
-      "language:en",
-      "license:odc-by",
-      "size_categories:10M<n<100M",
-      "modality:tabular",
-      "modality:text",
-      "region:us",
-      "hacker-news",
-      "forum",
-      "text",
-      "parquet",
-      "community",
-      "tech",
-      "comments",
-      "live-updated"
-    ],
-    "created_at": "2026-03-14T09:58:41.000Z",
-    "last_modified": "2026-03-31T04:51:40.000Z",
-    "url": "https://huggingface.co/datasets/open-index/hacker-news",
-    "date": "2026-03-31",
-    "source": "huggingface_dataset",
-    "type": "dataset",
-    "research_score": 0.5
-  },
-  {
     "arxiv_id": "2603.28359v1",
     "title": "The Conjugate Domain Dichotomy: Exact Risk of M-Estimators under Infinite-Variance Noise in High Dimensions",
     "summary": "This paper studies high-dimensional M-estimation in the proportional asymptotic regime (p/n -> gamma > 0) when the noise distribution has infinite variance. For noise with regularly-varying tails of index alpha in (1,2), we establish that the asymptotic behavior of a regularized M-estimator is governed by a single geometric property of the loss function: the boundedness of the domain of its Fenchel conjugate.   When this conjugate domain is bounded -- as is the case for the Huber, absolute-value, and quantile loss functions -- the dual variable in the min-max formulation of the estimator is confined, the effective noise reduces to the finite first absolute moment of the noise distribution, and the estimator achieves bounded risk without recourse to external information. When the conjugate domain is unbounded -- as for the squared loss -- the dual variable scales with the noise, the effective noise involves the diverging second moment, and bounded risk can be achieved only through transfer regularization toward an external prior.   For the squared-loss class specifically, we derive the exact asymptotic risk via the Convex Gaussian Minimax Theorem under a noise-adapted regularization scaling. The resulting risk converges to a universal floor that is independent of the regularizer, yielding a loss-risk trichotomy: squared-loss estimators without transfer diverge; Huber-loss estimators achieve bounded but non-vanishing risk; transfer-regularized estimators attain the floor.",
@@ -4420,7 +4386,7 @@
     "title": "Post-hoc Self-explanation of CNNs",
     "summary": "Although standard Convolutional Neural Networks (CNNs) can be mathematically reinterpreted as Self-Explainable Models (SEMs), their built-in prototypes do not on their own accurately represent the data. Replacing the final linear layer with a $k$-means-based classifier addresses this limitation without compromising performance. This work introduces a common formalization of $k$-means-based post-hoc explanations for the classifier, the encoder's final output (B4), and combinations of intermediate feature activations. The latter approach leverages the spatial consistency of convolutional receptive fields to generate concept-based explanation maps, which are supported by gradient-free feature attribution maps. Empirical evaluation with a ResNet34 shows that using shallower, less compressed feature activations, such as those from the last three blocks (B234), results in a trade-off between semantic fidelity and a slight reduction in predictive performance.",
     "authors": [
-      "Ahc\u00e8ne Boubekki",
+      "Ahcène Boubekki",
       "Line H. Clemmensen"
     ],
     "categories": [
@@ -4453,305 +4419,6 @@
     "pdf_url": "https://arxiv.org/pdf/2603.28287v1.pdf",
     "date": "2026-03-31",
     "source": "arxiv",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "deqing/llama-300M-v5-window_2",
-    "author": "unknown",
-    "title": "deqing/llama-300M-v5-window_2",
-    "downloads": 4494,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "generated_from_trainer",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-27T18:17:05.000Z",
-    "last_modified": "2026-03-31T04:53:32.000Z",
-    "days_since_creation": 3,
-    "url": "https://huggingface.co/deqing/llama-300M-v5-window_2",
-    "date": "2026-03-31",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Ganaa0614/whisper-tiny-mongolian-ver_0.2",
-    "author": "unknown",
-    "title": "Ganaa0614/whisper-tiny-mongolian-ver_0.2",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "whisper",
-      "automatic-speech-recognition",
-      "generated_from_trainer",
-      "base_model:openai/whisper-tiny",
-      "base_model:finetune:openai/whisper-tiny",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-03-31T00:40:22.000Z",
-    "last_modified": "2026-03-31T04:51:59.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Ganaa0614/whisper-tiny-mongolian-ver_0.2",
-    "date": "2026-03-31",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "bobber/lex-interviewer-nemotron-4b-grpo-v12",
-    "author": "unknown",
-    "title": "bobber/lex-interviewer-nemotron-4b-grpo-v12",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "onnx",
-      "safetensors",
-      "nemotron_h",
-      "text-generation",
-      "grpo",
-      "interview",
-      "lex-fridman",
-      "nemotron",
-      "mamba",
-      "conversational",
-      "custom_code",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-30T22:25:57.000Z",
-    "last_modified": "2026-03-31T04:48:02.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/bobber/lex-interviewer-nemotron-4b-grpo-v12",
-    "date": "2026-03-31",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "MMR115/swegym-qwen2.5-coder-32b-instruct-sft-64k",
-    "author": "unknown",
-    "title": "MMR115/swegym-qwen2.5-coder-32b-instruct-sft-64k",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "swe-bench",
-      "swegym",
-      "code-generation",
-      "software-engineering",
-      "full-finetune",
-      "distillation",
-      "qwen2.5",
-      "llama-factory",
-      "conversational",
-      "dataset:SWE-Gym/SWE-Gym",
-      "base_model:Qwen/Qwen2.5-Coder-32B-Instruct",
-      "base_model:finetune:Qwen/Qwen2.5-Coder-32B-Instruct",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-31T04:38:25.000Z",
-    "last_modified": "2026-03-31T04:45:22.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/MMR115/swegym-qwen2.5-coder-32b-instruct-sft-64k",
-    "date": "2026-03-31",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Hyeongwon/P2-split2_prob_strlen_cutoff_1p0_filtered_Qwen3-4B-Base_0330",
-    "author": "unknown",
-    "title": "Hyeongwon/P2-split2_prob_strlen_cutoff_1p0_filtered_Qwen3-4B-Base_0330",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "sft",
-      "conversational",
-      "base_model:Hyeongwon/Qwen3-4B-Base",
-      "base_model:finetune:Hyeongwon/Qwen3-4B-Base",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-31T01:59:53.000Z",
-    "last_modified": "2026-03-31T04:44:10.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Hyeongwon/P2-split2_prob_strlen_cutoff_1p0_filtered_Qwen3-4B-Base_0330",
-    "date": "2026-03-31",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "fleshapron/odigos-tiny-reasoner",
-    "author": "unknown",
-    "title": "fleshapron/odigos-tiny-reasoner",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "reasoning",
-      "logic",
-      "socratic",
-      "anti-sycophantic",
-      "from-scratch",
-      "text-generation",
-      "en",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-03-31T04:43:28.000Z",
-    "last_modified": "2026-03-31T04:44:05.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/fleshapron/odigos-tiny-reasoner",
-    "date": "2026-03-31",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Hyeongwon/P2-split2_prob_strlen_cutoff_0p3_filtered_Qwen3-4B-Base_0330",
-    "author": "unknown",
-    "title": "Hyeongwon/P2-split2_prob_strlen_cutoff_0p3_filtered_Qwen3-4B-Base_0330",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "sft",
-      "conversational",
-      "base_model:Hyeongwon/Qwen3-4B-Base",
-      "base_model:finetune:Hyeongwon/Qwen3-4B-Base",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-30T22:58:48.000Z",
-    "last_modified": "2026-03-31T04:43:09.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Hyeongwon/P2-split2_prob_strlen_cutoff_0p3_filtered_Qwen3-4B-Base_0330",
-    "date": "2026-03-31",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ceilingfan456/pick_and_place_new_132_three_views_30k_steps",
-    "author": "unknown",
-    "title": "ceilingfan456/pick_and_place_new_132_three_views_30k_steps",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-03-30T13:02:51.000Z",
-    "last_modified": "2026-03-31T04:42:36.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ceilingfan456/pick_and_place_new_132_three_views_30k_steps",
-    "date": "2026-03-31",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "GakoMammang/nurse-ai-model",
-    "author": "unknown",
-    "title": "GakoMammang/nurse-ai-model",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "mobile-ai",
-      "on-device",
-      "inference",
-      "text-generation",
-      "license:gemma",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-31T03:40:41.000Z",
-    "last_modified": "2026-03-31T04:41:51.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/GakoMammang/nurse-ai-model",
-    "date": "2026-03-31",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "xushuwen23/GraphWalker-7B",
-    "author": "unknown",
-    "title": "xushuwen23/GraphWalker-7B",
-    "downloads": 0,
-    "likes": 1,
-    "tags": [
-      "qwen2",
-      "LLM Agent",
-      "Knowledge Graph",
-      "Question Answering",
-      "Reasoning",
-      "question-answering",
-      "arxiv:2603.28533",
-      "base_model:Qwen/Qwen2.5-7B-Instruct",
-      "base_model:finetune:Qwen/Qwen2.5-7B-Instruct",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "question-answering",
-    "library": "",
-    "created_at": "2026-03-30T13:29:42.000Z",
-    "last_modified": "2026-03-31T04:34:16.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/xushuwen23/GraphWalker-7B",
-    "date": "2026-03-31",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.4
   }
 ]
