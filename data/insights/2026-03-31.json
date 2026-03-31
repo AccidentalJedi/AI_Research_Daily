@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-31T12:27:37.411170",
+  "date": "2026-03-31T16:29:02.668858",
   "patterns": {
     "multimodal_research": [
       {
@@ -629,10 +629,6 @@
       {
         "title": "XSPA: Crafting Imperceptible X-Shaped Sparse Adversarial Perturbations for Transferable Attacks on VLMs",
         "url": "https://arxiv.org/abs/2603.28568v1"
-      },
-      {
-        "title": "FAO0-k4mrthrohrnoai34u50u/hexagon-llm-1.1b",
-        "url": "https://huggingface.co/FAO0-k4mrthrohrnoai34u50u/hexagon-llm-1.1b"
       }
     ],
     "vision_systems": [
@@ -935,6 +931,10 @@
       {
         "title": "TerraSky3D: Multi-View Reconstructions of European Landmarks in 4K",
         "url": "https://arxiv.org/abs/2603.28287v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1669,13 +1669,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "75 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
