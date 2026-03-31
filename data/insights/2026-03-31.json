@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-31T04:54:18.932528",
+  "date": "2026-03-31T08:30:40.577843",
   "patterns": {
     "multimodal_research": [
       {
@@ -931,6 +931,14 @@
       {
         "title": "TerraSky3D: Multi-View Reconstructions of European Landmarks in 4K",
         "url": "https://arxiv.org/abs/2603.28287v1"
+      },
+      {
+        "title": "gjgjgjbik/Realistic_Vision_V5.1_noVAE",
+        "url": "https://huggingface.co/gjgjgjbik/Realistic_Vision_V5.1_noVAE"
+      },
+      {
+        "title": "piyazon/ASR-cv-corpus-ug-24",
+        "url": "https://huggingface.co/piyazon/ASR-cv-corpus-ug-24"
       }
     ],
     "reasoning": [
@@ -1671,7 +1679,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "75 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1711,19 +1719,19 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
+      "topic": "vision",
       "frequency": 34,
       "significance": "high"
     },
     {
-      "topic": "vision",
-      "frequency": 33,
+      "topic": "reasoning",
+      "frequency": 34,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 406
+    "total_papers": 408
   }
 }
