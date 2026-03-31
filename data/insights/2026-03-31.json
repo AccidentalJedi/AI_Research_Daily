@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-31T16:29:02.668858",
+  "date": "2026-03-31T20:18:52.649683",
   "patterns": {
     "multimodal_research": [
       {
@@ -629,6 +629,18 @@
       {
         "title": "XSPA: Crafting Imperceptible X-Shaped Sparse Adversarial Perturbations for Transferable Attacks on VLMs",
         "url": "https://arxiv.org/abs/2603.28568v1"
+      },
+      {
+        "title": "Akhil-reddy/Meta-Llma-legal-lens-500",
+        "url": "https://huggingface.co/Akhil-reddy/Meta-Llma-legal-lens-500"
+      },
+      {
+        "title": "sytnaxerror/robbert-large-with-dbrd",
+        "url": "https://huggingface.co/sytnaxerror/robbert-large-with-dbrd"
+      },
+      {
+        "title": "Arch11yad/graphcodebert_xss",
+        "url": "https://huggingface.co/Arch11yad/graphcodebert_xss"
       }
     ],
     "vision_systems": [
@@ -931,10 +943,6 @@
       {
         "title": "TerraSky3D: Multi-View Reconstructions of European Landmarks in 4K",
         "url": "https://arxiv.org/abs/2603.28287v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1669,13 +1677,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "74 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "76 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1728,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 409
   }
 }
