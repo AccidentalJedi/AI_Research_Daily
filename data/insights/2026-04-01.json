@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-01T08:35:30.854567",
+  "date": "2026-04-01T12:27:46.164870",
   "patterns": {
     "multimodal_research": [
       {
@@ -655,24 +655,8 @@
         "url": "https://arxiv.org/abs/2603.29368v1"
       },
       {
-        "title": "Rajdeep2k/sevsecisroberta-77",
-        "url": "https://huggingface.co/Rajdeep2k/sevsecisroberta-77"
-      },
-      {
-        "title": "RileyCodes/learn_hf_food_not_food_ztm_text_classifier-distilbert-base-uncased",
-        "url": "https://huggingface.co/RileyCodes/learn_hf_food_not_food_ztm_text_classifier-distilbert-base-uncased"
-      },
-      {
-        "title": "FarmerlineML/w2v-bert-2.0_2026_dagbani_ASR",
-        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_dagbani_ASR"
-      },
-      {
-        "title": "DPhO05/my-roberta-RQ3",
-        "url": "https://huggingface.co/DPhO05/my-roberta-RQ3"
-      },
-      {
-        "title": "rghosh8/gsm8k-deepseek-llm-7b-chat-rajat-seed-42-G-16_merged",
-        "url": "https://huggingface.co/rghosh8/gsm8k-deepseek-llm-7b-chat-rajat-seed-42-G-16_merged"
+        "title": "dilarayavuz/generated-twitter-synbkd-bert-p10",
+        "url": "https://huggingface.co/dilarayavuz/generated-twitter-synbkd-bert-p10"
       }
     ],
     "vision_systems": [
@@ -1693,7 +1677,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1752,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 413
+    "total_papers": 409
   }
 }
