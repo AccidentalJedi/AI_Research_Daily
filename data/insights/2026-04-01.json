@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-01T16:26:38.334055",
+  "date": "2026-04-01T20:20:02.231724",
   "patterns": {
     "multimodal_research": [
       {
@@ -655,16 +655,16 @@
         "url": "https://arxiv.org/abs/2603.29368v1"
       },
       {
-        "title": "Sathman/Meditation-Agent-TNH-SmolLM3-3B-v2-GGUF",
-        "url": "https://huggingface.co/Sathman/Meditation-Agent-TNH-SmolLM3-3B-v2-GGUF"
+        "title": "rcorvohan/gpt-oss-120b-heretic-v2",
+        "url": "https://huggingface.co/rcorvohan/gpt-oss-120b-heretic-v2"
       },
       {
-        "title": "Sathman/Meditation-Agent-Osho-SmolLM3-3B-v2-GGUF",
-        "url": "https://huggingface.co/Sathman/Meditation-Agent-Osho-SmolLM3-3B-v2-GGUF"
+        "title": "JedBabs/deberta-ai-detector",
+        "url": "https://huggingface.co/JedBabs/deberta-ai-detector"
       },
       {
-        "title": "Rustamshry/Qwen3-8B-gpt-5.4-Reasoning-Distilled",
-        "url": "https://huggingface.co/Rustamshry/Qwen3-8B-gpt-5.4-Reasoning-Distilled"
+        "title": "atharvadhumal/bert-amazon-polarity",
+        "url": "https://huggingface.co/atharvadhumal/bert-amazon-polarity"
       }
     ],
     "vision_systems": [
@@ -1019,10 +1019,6 @@
       {
         "title": "All-in-One Augmented Reality Guided Head and Neck Tumor Resection",
         "url": "https://arxiv.org/abs/2603.29495v1"
-      },
-      {
-        "title": "Jackie2235/Llama-3.2-11B-Vision-Instruct_attn_ft",
-        "url": "https://huggingface.co/Jackie2235/Llama-3.2-11B-Vision-Instruct_attn_ft"
       }
     ],
     "reasoning": [
@@ -1249,10 +1245,6 @@
       {
         "title": "Penalized GMM Framework for Inference on Functionals of Nonparametric Instrumental Variable Estimators",
         "url": "https://arxiv.org/abs/2603.29889v1"
-      },
-      {
-        "title": "Rustamshry/Qwen3-8B-gpt-5.4-Reasoning-Distilled",
-        "url": "https://huggingface.co/Rustamshry/Qwen3-8B-gpt-5.4-Reasoning-Distilled"
       }
     ],
     "benchmarks": [
@@ -1699,13 +1691,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "89 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "57 independent papers",
+      "observation": "56 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1740,7 +1732,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 36,
+      "frequency": 35,
       "significance": "high"
     },
     {
@@ -1752,6 +1744,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 413
+    "total_papers": 411
   }
 }
