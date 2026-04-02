@@ -43,10 +43,10 @@
     "title": "MoonAnything: A Vision Benchmark with Large-Scale Lunar Supervised Data",
     "summary": "Accurate perception of lunar surfaces is critical for modern lunar exploration missions. However, developing robust learning-based perception systems is hindered by the lack of datasets that provide both geometric and photometric supervision. Existing lunar datasets typically lack either geometric ground truth, photometric realism, illumination diversity, or large-scale coverage. In this paper, we introduce MoonAnything, a unified benchmark built on real lunar topography with physically-based rendering, providing the first comprehensive geometric and photometric supervision under diverse illumination with large scale. The benchmark comprises two complementary sub-datasets : i) LunarGeo provides stereo images with corresponding dense depth maps and camera calibration enabling 3D reconstruction and pose estimation; ii) LunarPhoto provides photorealistic images using a spatially-varying BRDF model, along with multi-illumination renderings under real solar configurations, enabling reflectance estimation and illumination-robust perception. Together, these datasets offer over 130K samples with comprehensive supervision. Beyond lunar applications, MoonAnything offers a unique setting and challenging testbed for algorithms under low-textured, high-contrast conditions and applies to other airless celestial bodies and could generalize beyond. We establish baselines using state-of-the-art methods and release the complete dataset along with generation tools to support community extension: https://github.com/clementinegrethen/MoonAnything.",
     "authors": [
-      "Cl\u00e9mentine Grethen",
+      "Clémentine Grethen",
       "Yuang Shi",
       "Simone Gasparini",
-      "G\u00e9raldine Morin"
+      "Géraldine Morin"
     ],
     "categories": [
       "cs.CV"
@@ -235,13 +235,13 @@
   {
     "arxiv_id": "2604.00725v1",
     "title": "A Benchmark of State-Space Models vs. Transformers and BiLSTM-based Models for Historical Newspaper OCR",
-    "summary": "End-to-end OCR for historical newspapers remains challenging, as models must handle long text sequences, degraded print quality, and complex layouts. While Transformer-based recognizers dominate current research, their quadratic complexity limits efficient paragraph-level transcription and large-scale deployment. We investigate linear-time State-Space Models (SSMs), specifically Mamba, as a scalable alternative to Transformer-based sequence modeling for OCR.   We present to our knowledge, the first OCR architecture based on SSMs, combining a CNN visual encoder with bi-directional and autoregressive Mamba sequence modeling, and conduct a large-scale benchmark comparing SSMs with Transformer- and BiLSTM-based recognizers. Multiple decoding strategies (CTC, autoregressive, and non-autoregressive) are evaluated under identical training conditions alongside strong neural baselines (VAN, DAN, DANIEL) and widely used off-the-shelf OCR engines (PERO-OCR, Tesseract OCR, TrOCR, Gemini).   Experiments on historical newspapers from the Biblioth\u00e8que nationale du Luxembourg, with newly released >99% verified gold-standard annotations, and cross-dataset tests on Fraktur and Antiqua lines, show that all neural models achieve low error rates (~2% CER), making computational efficiency the main differentiator. Mamba-based models maintain competitive accuracy while halving inference time and exhibiting superior memory scaling (1.26x vs 2.30x growth at 1000 chars), reaching 6.07% CER at the severely degraded paragraph level compared to 5.24% for DAN, while remaining 2.05x faster.   We release code, trained models, and standardized evaluation protocols to enable reproducible research and guide practitioners in large-scale cultural heritage OCR.",
+    "summary": "End-to-end OCR for historical newspapers remains challenging, as models must handle long text sequences, degraded print quality, and complex layouts. While Transformer-based recognizers dominate current research, their quadratic complexity limits efficient paragraph-level transcription and large-scale deployment. We investigate linear-time State-Space Models (SSMs), specifically Mamba, as a scalable alternative to Transformer-based sequence modeling for OCR.   We present to our knowledge, the first OCR architecture based on SSMs, combining a CNN visual encoder with bi-directional and autoregressive Mamba sequence modeling, and conduct a large-scale benchmark comparing SSMs with Transformer- and BiLSTM-based recognizers. Multiple decoding strategies (CTC, autoregressive, and non-autoregressive) are evaluated under identical training conditions alongside strong neural baselines (VAN, DAN, DANIEL) and widely used off-the-shelf OCR engines (PERO-OCR, Tesseract OCR, TrOCR, Gemini).   Experiments on historical newspapers from the Bibliothèque nationale du Luxembourg, with newly released >99% verified gold-standard annotations, and cross-dataset tests on Fraktur and Antiqua lines, show that all neural models achieve low error rates (~2% CER), making computational efficiency the main differentiator. Mamba-based models maintain competitive accuracy while halving inference time and exhibiting superior memory scaling (1.26x vs 2.30x growth at 1000 chars), reaching 6.07% CER at the severely degraded paragraph level compared to 5.24% for DAN, while remaining 2.05x faster.   We release code, trained models, and standardized evaluation protocols to enable reproducible research and guide practitioners in large-scale cultural heritage OCR.",
     "authors": [
       "Merveilles Agbeti-messan",
       "Thierry Paquet",
-      "Cl\u00e9ment Chatelain",
+      "Clément Chatelain",
       "Pierrick Tranouez",
-      "St\u00e9phane Nicolas"
+      "Stéphane Nicolas"
     ],
     "categories": [
       "cs.CV",
@@ -257,7 +257,7 @@
   {
     "arxiv_id": "2604.00586v1",
     "title": "More Human, More Efficient: Aligning Annotations with Quantized SLMs",
-    "summary": "As Large Language Model (LLM) capabilities advance, the demand for high-quality annotation of exponentially increasing text corpora has outpaced human capacity, leading to the widespread adoption of LLMs in automatic evaluation and annotation. However, proprietary LLMs often exhibit systematic biases that diverge from human expert consensus, lacks reproducibility, and raises data privacy concerns. Our work examines the viability of finetuning a quantized Small Language Model of 1.7B parameter size on limited human-annotated data to serve as a highly aligned, deterministic evaluator and annotator. By implementing a custom, multi-dimensional rubric framework and simple augmentation and regularization techniques, the proposed approach achieves higher inter-annotator agreement (0.23 points increase in Krippendorff's $\u03b1$) than the best performing state-of-the-art proprietary LLM. We also demonstrate the generalizability of the proposed training pipeline on a separate emotion classification task. The results show that task-specific alignment and efficient 4-bit quantized fine-tuning provide superior open-source alternative to using proprietary models for evaluation and annotation. Our finetuning approach is publicly available at https://github.com/jylee-k/slm-judge.",
+    "summary": "As Large Language Model (LLM) capabilities advance, the demand for high-quality annotation of exponentially increasing text corpora has outpaced human capacity, leading to the widespread adoption of LLMs in automatic evaluation and annotation. However, proprietary LLMs often exhibit systematic biases that diverge from human expert consensus, lacks reproducibility, and raises data privacy concerns. Our work examines the viability of finetuning a quantized Small Language Model of 1.7B parameter size on limited human-annotated data to serve as a highly aligned, deterministic evaluator and annotator. By implementing a custom, multi-dimensional rubric framework and simple augmentation and regularization techniques, the proposed approach achieves higher inter-annotator agreement (0.23 points increase in Krippendorff's $α$) than the best performing state-of-the-art proprietary LLM. We also demonstrate the generalizability of the proposed training pipeline on a separate emotion classification task. The results show that task-specific alignment and efficient 4-bit quantized fine-tuning provide superior open-source alternative to using proprietary models for evaluation and annotation. Our finetuning approach is publicly available at https://github.com/jylee-k/slm-judge.",
     "authors": [
       "Jiayu Wang",
       "Junyoung Lee"
@@ -321,7 +321,7 @@
   {
     "arxiv_id": "2604.01118v1",
     "title": "Lightweight Prompt-Guided CLIP Adaptation for Monocular Depth Estimation",
-    "summary": "Leveraging the rich semantic features of vision-language models (VLMs) like CLIP for monocular depth estimation tasks is a promising direction, yet often requires extensive fine-tuning or lacks geometric precision. We present a parameter-efficient framework, named MoA-DepthCLIP, that adapts pretrained CLIP representations for monocular depth estimation with minimal supervision. Our method integrates a lightweight Mixture-of-Adapters (MoA) module into the pretrained Vision Transformer (ViT-B/32) backbone combined with selective fine-tuning of the final layers. This design enables spatially-aware adaptation, guided by a global semantic context vector and a hybrid prediction architecture that synergizes depth bin classification with direct regression. To enhance structural accuracy, we employ a composite loss function that enforces geometric constraints. On the NYU Depth V2 benchmark, MoA-DepthCLIP achieves competitive results, significantly outperforming the DepthCLIP baseline by improving the $\u03b4_1$ accuracy from 0.390 to 0.745 and reducing the RMSE from 1.176 to 0.520. These results are achieved while requiring substantially few trainable parameters, demonstrating that lightweight, prompt-guided MoA is a highly effective strategy for transferring VLM knowledge to fine-grained monocular depth estimation tasks.",
+    "summary": "Leveraging the rich semantic features of vision-language models (VLMs) like CLIP for monocular depth estimation tasks is a promising direction, yet often requires extensive fine-tuning or lacks geometric precision. We present a parameter-efficient framework, named MoA-DepthCLIP, that adapts pretrained CLIP representations for monocular depth estimation with minimal supervision. Our method integrates a lightweight Mixture-of-Adapters (MoA) module into the pretrained Vision Transformer (ViT-B/32) backbone combined with selective fine-tuning of the final layers. This design enables spatially-aware adaptation, guided by a global semantic context vector and a hybrid prediction architecture that synergizes depth bin classification with direct regression. To enhance structural accuracy, we employ a composite loss function that enforces geometric constraints. On the NYU Depth V2 benchmark, MoA-DepthCLIP achieves competitive results, significantly outperforming the DepthCLIP baseline by improving the $δ_1$ accuracy from 0.390 to 0.745 and reducing the RMSE from 1.176 to 0.520. These results are achieved while requiring substantially few trainable parameters, demonstrating that lightweight, prompt-guided MoA is a highly effective strategy for transferring VLM knowledge to fine-grained monocular depth estimation tasks.",
     "authors": [
       "Reyhaneh Ahani Manghotay",
       "Jie Liang"
@@ -527,7 +527,7 @@
   {
     "arxiv_id": "2604.01129v1",
     "title": "ReinDriveGen: Reinforcement Post-Training for Out-of-Distribution Driving Scene Generation",
-    "summary": "We present ReinDriveGen, a framework that enables full controllability over dynamic driving scenes, allowing users to freely edit actor trajectories to simulate safety-critical corner cases such as front-vehicle collisions, drifting cars, vehicles spinning out of control, pedestrians jaywalking, and cyclists cutting across lanes. Our approach constructs a dynamic 3D point cloud scene from multi-frame LiDAR data, introduces a vehicle completion module to reconstruct full 360\u00b0 geometry from partial observations, and renders the edited scene into 2D condition images that guide a video diffusion model to synthesize realistic driving videos. Since such edited scenarios inevitably fall outside the training distribution, we further propose an RL-based post-training strategy with a pairwise preference model and a pairwise reward mechanism, enabling robust quality improvement under out-of-distribution conditions without ground-truth supervision. Extensive experiments demonstrate that ReinDriveGen outperforms existing approaches on edited driving scenarios and achieves state-of-the-art results on novel ego viewpoint synthesis.",
+    "summary": "We present ReinDriveGen, a framework that enables full controllability over dynamic driving scenes, allowing users to freely edit actor trajectories to simulate safety-critical corner cases such as front-vehicle collisions, drifting cars, vehicles spinning out of control, pedestrians jaywalking, and cyclists cutting across lanes. Our approach constructs a dynamic 3D point cloud scene from multi-frame LiDAR data, introduces a vehicle completion module to reconstruct full 360° geometry from partial observations, and renders the edited scene into 2D condition images that guide a video diffusion model to synthesize realistic driving videos. Since such edited scenarios inevitably fall outside the training distribution, we further propose an RL-based post-training strategy with a pairwise preference model and a pairwise reward mechanism, enabling robust quality improvement under out-of-distribution conditions without ground-truth supervision. Extensive experiments demonstrate that ReinDriveGen outperforms existing approaches on edited driving scenarios and achieves state-of-the-art results on novel ego viewpoint synthesis.",
     "authors": [
       "Hao Zhang",
       "Lue Fan",
@@ -815,7 +815,7 @@
   {
     "arxiv_id": "2604.01175v1",
     "title": "NeuroDDAF: Neural Dynamic Diffusion-Advection Fields with Evidential Fusion for Air Quality Forecasting",
-    "summary": "Accurate air quality forecasting is crucial for protecting public health and guiding environmental policy, yet it remains challenging due to nonlinear spatiotemporal dynamics, wind-driven transport, and distribution shifts across regions. Physics-based models are interpretable but computationally expensive and often rely on restrictive assumptions, whereas purely data-driven models can be accurate but may lack robustness and calibrated uncertainty. To address these limitations, we propose Neural Dynamic Diffusion-Advection Fields (NeuroDDAF), a physics-informed forecasting framework that unifies neural representation learning with open-system transport modeling. NeuroDDAF integrates (i) a GRU-Graph Attention encoder to capture temporal dynamics and wind-aware spatial interactions, (ii) a Fourier-domain diffusion-advection module with learnable residuals, (iii) a wind-modulated latent Neural ODE to model continuous-time evolution under time-varying connectivity, and (iv) an evidential fusion mechanism that adaptively combines physics-guided and neural forecasts while quantifying uncertainty. Experiments on four urban datasets (Beijing, Shenzhen, Tianjin, and Ancona) across 1-3 day horizons show that NeuroDDAF consistently outperforms strong baselines, including AirPhyNet, achieving up to 9.7% reduction in RMSE and 9.4% reduction in MAE on long-term forecasts. On the Beijing dataset, NeuroDDAF attains an RMSE of 41.63 $\u03bc$g/m$^3$ for 1-day prediction and 48.88 $\u03bc$g/m$^3$ for 3-day prediction, representing the best performance among all compared methods. In addition, NeuroDDAF improves cross-city generalization and yields well-calibrated uncertainty estimates, as confirmed by ensemble variance analysis and case studies under varying wind conditions.",
+    "summary": "Accurate air quality forecasting is crucial for protecting public health and guiding environmental policy, yet it remains challenging due to nonlinear spatiotemporal dynamics, wind-driven transport, and distribution shifts across regions. Physics-based models are interpretable but computationally expensive and often rely on restrictive assumptions, whereas purely data-driven models can be accurate but may lack robustness and calibrated uncertainty. To address these limitations, we propose Neural Dynamic Diffusion-Advection Fields (NeuroDDAF), a physics-informed forecasting framework that unifies neural representation learning with open-system transport modeling. NeuroDDAF integrates (i) a GRU-Graph Attention encoder to capture temporal dynamics and wind-aware spatial interactions, (ii) a Fourier-domain diffusion-advection module with learnable residuals, (iii) a wind-modulated latent Neural ODE to model continuous-time evolution under time-varying connectivity, and (iv) an evidential fusion mechanism that adaptively combines physics-guided and neural forecasts while quantifying uncertainty. Experiments on four urban datasets (Beijing, Shenzhen, Tianjin, and Ancona) across 1-3 day horizons show that NeuroDDAF consistently outperforms strong baselines, including AirPhyNet, achieving up to 9.7% reduction in RMSE and 9.4% reduction in MAE on long-term forecasts. On the Beijing dataset, NeuroDDAF attains an RMSE of 41.63 $μ$g/m$^3$ for 1-day prediction and 48.88 $μ$g/m$^3$ for 3-day prediction, representing the best performance among all compared methods. In addition, NeuroDDAF improves cross-city generalization and yields well-calibrated uncertainty estimates, as confirmed by ensemble variance analysis and case studies under varying wind conditions.",
     "authors": [
       "Prasanjit Dey",
       "Soumyabrata Dev",
@@ -835,7 +835,7 @@
   {
     "arxiv_id": "2604.01170v1",
     "title": "Online Reasoning Calibration: Test-Time Training Enables Generalizable Conformal LLM Reasoning",
-    "summary": "While test-time scaling has enabled large language models to solve highly difficult tasks, state-of-the-art results come at exorbitant compute costs. These inefficiencies can be attributed to the miscalibration of post-trained language models, and the lack of calibration in popular sampling techniques. Here, we present Online Reasoning Calibration (ORCA), a framework for calibrating the sampling process that draws upon conformal prediction and test-time training. Specifically, we introduce a meta-learning procedure that updates the calibration module for each input. This allows us to provide valid confidence estimates under distributional shift, e.g. in thought patterns that occur across different stages of reasoning, or in prompt distributions between model development and deployment. ORCA not only provides theoretical guarantees on conformal risks, but also empirically shows higher efficiency and generalization across different reasoning tasks. At risk level $\u03b4=0.1$, ORCA improves Qwen2.5-32B efficiency on in-distribution tasks with savings up to 47.5% with supervised labels and 40.7% with self-consistency labels. Under zero-shot out-of-domain settings, it improves MATH-500 savings from 24.8% of the static calibration baseline to 67.0% while maintaining a low empirical error rate, and the same trend holds across model families and downstream benchmarks. Our code is publicly available at https://github.com/wzekai99/ORCA.",
+    "summary": "While test-time scaling has enabled large language models to solve highly difficult tasks, state-of-the-art results come at exorbitant compute costs. These inefficiencies can be attributed to the miscalibration of post-trained language models, and the lack of calibration in popular sampling techniques. Here, we present Online Reasoning Calibration (ORCA), a framework for calibrating the sampling process that draws upon conformal prediction and test-time training. Specifically, we introduce a meta-learning procedure that updates the calibration module for each input. This allows us to provide valid confidence estimates under distributional shift, e.g. in thought patterns that occur across different stages of reasoning, or in prompt distributions between model development and deployment. ORCA not only provides theoretical guarantees on conformal risks, but also empirically shows higher efficiency and generalization across different reasoning tasks. At risk level $δ=0.1$, ORCA improves Qwen2.5-32B efficiency on in-distribution tasks with savings up to 47.5% with supervised labels and 40.7% with self-consistency labels. Under zero-shot out-of-domain settings, it improves MATH-500 savings from 24.8% of the static calibration baseline to 67.0% while maintaining a low empirical error rate, and the same trend holds across model families and downstream benchmarks. Our code is publicly available at https://github.com/wzekai99/ORCA.",
     "authors": [
       "Cai Zhou",
       "Zekai Wang",
@@ -1084,14 +1084,14 @@
       "Alexis Coyette",
       "Charles Modera",
       "Candy Sonveaux",
-      "Judica\u00ebl Mohet",
-      "Franc\u00e7ois-Gr\u00e9goire Bierwart",
+      "Judicaël Mohet",
+      "Francçois-Grégoire Bierwart",
       "Sylverio Pool Marquez",
       "Jarod Ketcha Kouakep",
-      "C\u00e9dric Simal",
+      "Cédric Simal",
       "Komlan Fiagbe",
       "Violaine Piengeon",
-      "Martin Moriam\u00e9",
+      "Martin Moriamé",
       "Justine Bodart",
       "Marie Dorchain",
       "Maxime Lucas",
@@ -1158,7 +1158,7 @@
   {
     "arxiv_id": "2604.01007v1",
     "title": "OmniMem: Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory",
-    "summary": "AI agents increasingly operate over extended time horizons, yet their ability to retain, organize, and recall multimodal experiences remains a critical bottleneck. Building effective lifelong memory requires navigating a vast design space spanning architecture, retrieval strategies, prompt engineering, and data pipelines; this space is too large and interconnected for manual exploration or traditional AutoML to explore effectively. We deploy an autonomous research pipeline to discover OmniMem, a unified multimodal memory framework for lifelong AI agents. Starting from a na\u00efve baseline (F1=0.117 on LoCoMo), the pipeline autonomously executes ${\\sim}50$ experiments across two benchmarks, diagnosing failure modes, proposing architectural modifications, and repairing data pipeline bugs, all without human intervention in the inner loop. The resulting system achieves state-of-the-art on both benchmarks, improving F1 by +411% on LoCoMo (0.117$\\to$0.598) and +214% on Mem-Gallery (0.254$\\to$0.797) relative to the initial configurations. Critically, the most impactful discoveries are not hyperparameter adjustments: bug fixes (+175%), architectural changes (+44%), and prompt engineering (+188\\% on specific categories) each individually exceed the cumulative contribution of all hyperparameter tuning, demonstrating capabilities fundamentally beyond the reach of traditional AutoML. We provide a taxonomy of six discovery types and identify four properties that make multimodal memory particularly suited for autoresearch, offering guidance for applying autonomous research pipelines to other AI system domains. Code is available at this https://github.com/aiming-lab/OmniMem.",
+    "summary": "AI agents increasingly operate over extended time horizons, yet their ability to retain, organize, and recall multimodal experiences remains a critical bottleneck. Building effective lifelong memory requires navigating a vast design space spanning architecture, retrieval strategies, prompt engineering, and data pipelines; this space is too large and interconnected for manual exploration or traditional AutoML to explore effectively. We deploy an autonomous research pipeline to discover OmniMem, a unified multimodal memory framework for lifelong AI agents. Starting from a naïve baseline (F1=0.117 on LoCoMo), the pipeline autonomously executes ${\\sim}50$ experiments across two benchmarks, diagnosing failure modes, proposing architectural modifications, and repairing data pipeline bugs, all without human intervention in the inner loop. The resulting system achieves state-of-the-art on both benchmarks, improving F1 by +411% on LoCoMo (0.117$\\to$0.598) and +214% on Mem-Gallery (0.254$\\to$0.797) relative to the initial configurations. Critically, the most impactful discoveries are not hyperparameter adjustments: bug fixes (+175%), architectural changes (+44%), and prompt engineering (+188\\% on specific categories) each individually exceed the cumulative contribution of all hyperparameter tuning, demonstrating capabilities fundamentally beyond the reach of traditional AutoML. We provide a taxonomy of six discovery types and identify four properties that make multimodal memory particularly suited for autoresearch, offering guidance for applying autonomous research pipelines to other AI system domains. Code is available at this https://github.com/aiming-lab/OmniMem.",
     "authors": [
       "Jiaqi Liu",
       "Zipeng Ling",
@@ -1276,7 +1276,7 @@
   {
     "arxiv_id": "2604.00689v1",
     "title": "Performance of Neural and Polynomial Operator Surrogates",
-    "summary": "We consider the problem of constructing surrogate operators for parameter-to-solution maps arising from parametric partial differential equations, where repeated forward model evaluations are computationally expensive. We present a systematic empirical comparison of neural operator surrogates, including a reduced-basis neural operator trained with $L^2_\u03bc$ and $H^1_\u03bc$ objectives and the Fourier neural operator, against polynomial surrogate methods, specifically a reduced-basis sparse-grid surrogate and a reduced-basis tensor-train surrogate. All methods are evaluated on a linear parametric diffusion problem and a nonlinear parametric hyperelasticity problem, using input fields with algebraically decaying spectral coefficients at varying rates of decay $s$. To enable fair comparisons, we analyze ensembles of surrogate models generated by varying hyperparameters and compare the resulting Pareto frontiers of cost versus approximation accuracy, decomposing cost into contributions from data generation, setup, and evaluation. Our results show that no single method is universally superior. Polynomial surrogates achieve substantially better data efficiency for smooth input fields ($s \\geq 2$), with convergence rates for the sparse-grid surrogate in agreement with theoretical predictions. For rough inputs ($s \\leq 1$), the Fourier neural operator displays the fastest convergence rates. Derivative-informed training consistently improves data efficiency over standard $L^2_\u03bc$ training, providing a competitive alternative for rough inputs in the low-data regime when Jacobian information is available at reasonable cost. These findings highlight the importance of matching the surrogate methodology to the regularity of the problem as well as accuracy demands and computational constraints of the application.",
+    "summary": "We consider the problem of constructing surrogate operators for parameter-to-solution maps arising from parametric partial differential equations, where repeated forward model evaluations are computationally expensive. We present a systematic empirical comparison of neural operator surrogates, including a reduced-basis neural operator trained with $L^2_μ$ and $H^1_μ$ objectives and the Fourier neural operator, against polynomial surrogate methods, specifically a reduced-basis sparse-grid surrogate and a reduced-basis tensor-train surrogate. All methods are evaluated on a linear parametric diffusion problem and a nonlinear parametric hyperelasticity problem, using input fields with algebraically decaying spectral coefficients at varying rates of decay $s$. To enable fair comparisons, we analyze ensembles of surrogate models generated by varying hyperparameters and compare the resulting Pareto frontiers of cost versus approximation accuracy, decomposing cost into contributions from data generation, setup, and evaluation. Our results show that no single method is universally superior. Polynomial surrogates achieve substantially better data efficiency for smooth input fields ($s \\geq 2$), with convergence rates for the sparse-grid surrogate in agreement with theoretical predictions. For rough inputs ($s \\leq 1$), the Fourier neural operator displays the fastest convergence rates. Derivative-informed training consistently improves data efficiency over standard $L^2_μ$ training, providing a competitive alternative for rough inputs in the low-data regime when Jacobian information is available at reasonable cost. These findings highlight the importance of matching the surrogate methodology to the regularity of the problem as well as accuracy demands and computational constraints of the application.",
     "authors": [
       "Josephine Westermann",
       "Benno Huber",
@@ -1364,7 +1364,7 @@
   {
     "arxiv_id": "2604.01098v1",
     "title": "Approximating Pareto Frontiers in Stochastic Multi-Objective Optimization via Hashing and Randomization",
-    "summary": "Stochastic Multi-Objective Optimization (SMOO) is critical for decision-making trading off multiple potentially conflicting objectives in uncertain environments. SMOO aims at identifying the Pareto frontier, which contains all mutually non-dominating decisions. The problem is highly intractable due to the embedded probabilistic inference, such as computing the marginal, posterior probabilities, or expectations. Existing methods, such as scalarization, sample average approximation, and evolutionary algorithms, either offer arbitrarily loose approximations or may incur prohibitive computational costs. We propose XOR-SMOO, a novel algorithm that with probability $1-\u03b4$, obtains $\u03b3$-approximate Pareto frontiers ($\u03b3>1$) for SMOO by querying an SAT oracle poly-log times in $\u03b3$ and $\u03b4$. A $\u03b3$-approximate Pareto frontier is only below the true frontier by a fixed, multiplicative factor $\u03b3$. Thus, XOR-SMOO solves highly intractable SMOO problems (\\#P-hard) with only queries to SAT oracles while obtaining tight, constant factor approximation guarantees. Experiments on real-world road network strengthening and supply chain design problems demonstrate that XOR-SMOO outperforms several baselines in identifying Pareto frontiers that have higher objective values, better coverage of the optimal solutions, and the solutions found are more evenly distributed. Overall, XOR-SMOO significantly enhanced the practicality and reliability of SMOO solvers.",
+    "summary": "Stochastic Multi-Objective Optimization (SMOO) is critical for decision-making trading off multiple potentially conflicting objectives in uncertain environments. SMOO aims at identifying the Pareto frontier, which contains all mutually non-dominating decisions. The problem is highly intractable due to the embedded probabilistic inference, such as computing the marginal, posterior probabilities, or expectations. Existing methods, such as scalarization, sample average approximation, and evolutionary algorithms, either offer arbitrarily loose approximations or may incur prohibitive computational costs. We propose XOR-SMOO, a novel algorithm that with probability $1-δ$, obtains $γ$-approximate Pareto frontiers ($γ>1$) for SMOO by querying an SAT oracle poly-log times in $γ$ and $δ$. A $γ$-approximate Pareto frontier is only below the true frontier by a fixed, multiplicative factor $γ$. Thus, XOR-SMOO solves highly intractable SMOO problems (\\#P-hard) with only queries to SAT oracles while obtaining tight, constant factor approximation guarantees. Experiments on real-world road network strengthening and supply chain design problems demonstrate that XOR-SMOO outperforms several baselines in identifying Pareto frontiers that have higher objective values, better coverage of the optimal solutions, and the solutions found are more evenly distributed. Overall, XOR-SMOO significantly enhanced the practicality and reliability of SMOO solvers.",
     "authors": [
       "Jinzhao Li",
       "Nan Jiang",
@@ -1448,11 +1448,11 @@
   {
     "arxiv_id": "2604.00897v1",
     "title": "Super-Resolving Coarse-Resolution Weather Forecasts With Flow Matching",
-    "summary": "Machine learning-based weather forecasting models now surpass state-of-the-art numerical weather prediction systems, but training and operating these models at high spatial resolution remains computationally expensive. We present a modular framework that decouples forecasting from spatial resolution by applying learned generative super-resolution as a post-processing step to coarse-resolution forecast trajectories. We formulate super-resolution as a stochastic inverse problem, using a residual formulation to preserve large-scale structure while reconstructing unresolved variability. The model is trained with flow matching exclusively on reanalysis data and is applied to global medium-range forecasts. We evaluate (i) design consistency by re-coarsening super-resolved forecasts and comparing them to the original coarse trajectories, and (ii) high-resolution forecast quality using standard ensemble verification metrics and spectral diagnostics. Results show that super-resolution preserves large-scale structure and variance after re-coarsening, introduces physically consistent small-scale variability, and achieves competitive probabilistic forecast skill at 0.25\u00b0 resolution relative to an operational ensemble baseline, while requiring only a modest additional training cost compared with end-to-end high-resolution forecasting.",
+    "summary": "Machine learning-based weather forecasting models now surpass state-of-the-art numerical weather prediction systems, but training and operating these models at high spatial resolution remains computationally expensive. We present a modular framework that decouples forecasting from spatial resolution by applying learned generative super-resolution as a post-processing step to coarse-resolution forecast trajectories. We formulate super-resolution as a stochastic inverse problem, using a residual formulation to preserve large-scale structure while reconstructing unresolved variability. The model is trained with flow matching exclusively on reanalysis data and is applied to global medium-range forecasts. We evaluate (i) design consistency by re-coarsening super-resolved forecasts and comparing them to the original coarse trajectories, and (ii) high-resolution forecast quality using standard ensemble verification metrics and spectral diagnostics. Results show that super-resolution preserves large-scale structure and variance after re-coarsening, introduces physically consistent small-scale variability, and achieves competitive probabilistic forecast skill at 0.25° resolution relative to an operational ensemble baseline, while requiring only a modest additional training cost compared with end-to-end high-resolution forecasting.",
     "authors": [
       "Aymeric Delefosse",
       "Anastase Charantonis",
-      "Dominique B\u00e9r\u00e9ziat"
+      "Dominique Béréziat"
     ],
     "categories": [
       "cs.LG",
@@ -1733,7 +1733,7 @@
   {
     "arxiv_id": "2604.00703v1",
     "title": "G-ICSO-NAS: Shifting Gears between Gradient and Swarm for Robust Neural Architecture Search",
-    "summary": "Neural Architecture Search (NAS) has become a pivotal technique in automated machine learning. Evolutionary Algorithm (EA)-based methods demonstrate superior search quality but suffer from prohibitive computational costs, while gradient-based approaches like DARTS offer high efficiency but are prone to premature convergence and performance collapse. To bridge this gap, we propose G-ICSO-NAS, a hybrid framework implementing a three-stage optimization strategy. The Warm-up Phase pre-trains supernet weights ($w$) via differentiable methods while architecture parameters ($\u03b1$) remain frozen. The Exploration Phase adopts a hybrid co-optimization mechanism: an Improved Competitive Swarm Optimizer (ICSO) with diversity-aware fitness navigates the architecture space to update $\u03b1$, while gradient descent concurrently updates $w$. The Stability Phase employs fine-grained gradient-based search with early stopping to converge to the optimal architecture. By synergizing ICSO's global navigation capability with differentiable methods' efficiency, G-ICSO-NAS achieves remarkable performance with minimal cost. In the context of the DARTS search space, an accuracy of 97.46\\% is achieved on CIFAR-10 with a computational budget of just 0.15 GPU-Days. The method also exhibits strong transfer potential, recording accuracies of 83.1\\% (CIFAR-100) and 75.02\\% (ImageNet). Furthermore, regarding the NAS-Bench-201 benchmark, G-ICSO-NAS is shown to deliver state-of-the-art results across all evaluated datasets.",
+    "summary": "Neural Architecture Search (NAS) has become a pivotal technique in automated machine learning. Evolutionary Algorithm (EA)-based methods demonstrate superior search quality but suffer from prohibitive computational costs, while gradient-based approaches like DARTS offer high efficiency but are prone to premature convergence and performance collapse. To bridge this gap, we propose G-ICSO-NAS, a hybrid framework implementing a three-stage optimization strategy. The Warm-up Phase pre-trains supernet weights ($w$) via differentiable methods while architecture parameters ($α$) remain frozen. The Exploration Phase adopts a hybrid co-optimization mechanism: an Improved Competitive Swarm Optimizer (ICSO) with diversity-aware fitness navigates the architecture space to update $α$, while gradient descent concurrently updates $w$. The Stability Phase employs fine-grained gradient-based search with early stopping to converge to the optimal architecture. By synergizing ICSO's global navigation capability with differentiable methods' efficiency, G-ICSO-NAS achieves remarkable performance with minimal cost. In the context of the DARTS search space, an accuracy of 97.46\\% is achieved on CIFAR-10 with a computational budget of just 0.15 GPU-Days. The method also exhibits strong transfer potential, recording accuracies of 83.1\\% (CIFAR-100) and 75.02\\% (ImageNet). Furthermore, regarding the NAS-Bench-201 benchmark, G-ICSO-NAS is shown to deliver state-of-the-art results across all evaluated datasets.",
     "authors": [
       "Xingbang Du",
       "Enzhi Zhang",
@@ -1758,7 +1758,7 @@
     "authors": [
       "Fangjun Hu",
       "Christian Kokail",
-      "Milan Kornja\u010da",
+      "Milan Kornjača",
       "Pedro L. S. Lopes",
       "Weiyuan Gong",
       "Sheng-Tao Wang",
@@ -1824,7 +1824,7 @@
     "authors": [
       "Mona Schirmer",
       "Anton Thielmann",
-      "Pola Schw\u00f6bel",
+      "Pola Schwöbel",
       "Thomas Martynec",
       "Giuseppe Di Benedetto",
       "Ben London",
@@ -1963,7 +1963,7 @@
     "title": "Spectral Compact Training: Pre-Training Large Language Models via Permanent Truncated SVD and Stiefel QR Retraction",
     "summary": "The memory wall remains the primary bottleneck for training large language models on consumer hardware. We introduce Spectral Compact Training (SCT), a method that replaces dense weight matrices with permanent truncated SVD factors W = U diag(s) V^T, where the full dense matrix is never materialized during training or inference. Gradients flow through the compact spectral factors via standard backpropagation, and U, V are retracted to the Stiefel manifold via QR decomposition after each optimizer step. SCT achieves up to 199x memory reduction per MLP layer at rank 32, enabling full training steps of 70B-parameter architectures on a Steam Deck handheld (7.2 GB peak memory vs. 1,245 GB for dense FP32 training with Adam). Rank-sweep experiments on SmolLM2-1.7B (ranks 32-256, 2000 steps, NVIDIA A100) show that all tested ranks converge to the same loss floor (~4.2-4.5), identifying the learning rate schedule -- not MLP rank -- as the primary bottleneck. Rank 128 emerges as the efficiency sweet spot at 11.7x MLP compression with the lowest perplexity. GPU memory drops 46% at rank 32 while training throughput doubles.",
     "authors": [
-      "Bj\u00f6rn Roman Kohlberger"
+      "Björn Roman Kohlberger"
     ],
     "categories": [
       "cs.LG",
@@ -2022,7 +2022,7 @@
     "title": "Streaming Model Cascades for Semantic SQL",
     "summary": "Modern data warehouses extend SQL with semantic operators that invoke large language models on each qualifying row, but the per-row inference cost is prohibitive at scale. Model cascades reduce this cost by routing most rows through a fast proxy model and delegating uncertain cases to an expensive oracle. Existing frameworks, however, require global dataset access and optimize a single quality metric, limiting their applicability in distributed systems where data is partitioned across independent workers. We present two adaptive cascade algorithms designed for streaming, per-partition execution in which each worker processes its partition independently without inter-worker communication. SUPG-IT extends the SUPG statistical framework to streaming execution with iterative threshold refinement and joint precision-recall guarantees. GAMCAL replaces user-specified quality targets with a learned calibration model: a Generalized Additive Model maps proxy scores to calibrated probabilities with uncertainty quantification, enabling direct optimization of a cost-quality tradeoff through a single parameter. Experiments on six datasets in a production semantic SQL engine show that both algorithms achieve F1 > 0.95 on every dataset. GAMCAL achieves higher F1 per oracle call at cost-sensitive operating points, while SUPG-IT reaches a higher quality ceiling with formal guarantees on precision and recall.",
     "authors": [
-      "Pawe\u0142 Liskowski",
+      "Paweł Liskowski",
       "Kyle Schmaus"
     ],
     "categories": [
@@ -2108,13 +2108,13 @@
     "summary": "Inverse design of optical multilayer stacks seeks to infer layer materials, thicknesses, and ordering from a desired target spectrum. It is a long-standing challenge due to the large design space and non-unique solutions. We introduce \\texttt{OptoLlama}, a masked diffusion language model for inverse thin-film design from optical spectra. Representing multilayer stacks as sequences of material-thickness tokens, \\texttt{OptoLlama} conditions generation on reflectance, absorptance, and transmittance spectra and learns a probabilistic mapping from optical response to structure. Evaluated on a representative test set of 3,000 targets, \\texttt{OptoLlama} reduces the mean absolute spectral error by 2.9-fold relative to a nearest-neighbor template baseline and by 3.45-fold relative to the state-of-the-art data-driven baseline, called \\texttt{OptoGPT}. Case studies on designed and expert-defined targets show that the model reproduces characteristic spectral features and recovers physically meaningful stack motifs, including distributed Bragg reflectors. These results establish diffusion-based sequence modeling as a powerful framework for inverse photonic design.",
     "authors": [
       "Jonas Schaible",
-      "Asena Karolin \u00d6zdemir",
+      "Asena Karolin Özdemir",
       "Charlotte Debus",
       "Sven Burger",
       "Achim Streit",
       "Christiane Becker",
-      "Klaus J\u00e4ger",
-      "Markus G\u00f6tz"
+      "Klaus Jäger",
+      "Markus Götz"
     ],
     "categories": [
       "physics.optics",
@@ -2490,7 +2490,7 @@
     "authors": [
       "Calvin Galagain",
       "Martyna Poreba",
-      "Fran\u00e7ois Goulette",
+      "François Goulette",
       "Cyrill Stachniss"
     ],
     "categories": [
@@ -2588,7 +2588,7 @@
   {
     "arxiv_id": "2604.00942v1",
     "title": "Differentially Private Manifold Denoising",
-    "summary": "We introduce a differentially private manifold denoising framework that allows users to exploit sensitive reference datasets to correct noisy, non-private query points without compromising privacy. The method follows an iterative procedure that (i) privately estimates local means and tangent geometry using the reference data under calibrated sensitivity, (ii) projects query points along the privately estimated subspace toward the local mean via corrective steps at each iteration, and (iii) performs rigorous privacy accounting across iterations and queries using $(\\varepsilon,\u03b4)$-differential privacy (DP). Conceptually, this framework brings differential privacy to manifold methods, retaining sufficient geometric signal for downstream tasks such as embedding, clustering, and visualization, while providing formal DP guarantees for the reference data. Practically, the procedure is modular and scalable, separating DP-protected local geometry (means and tangents) from budgeted query-point updates, with a simple scheduler allocating privacy budget across iterations and queries. Under standard assumptions on manifold regularity, sampling density, and measurement noise, we establish high-probability utility guarantees showing that corrected queries converge toward the manifold at a non-asymptotic rate governed by sample size, noise level, bandwidth, and the privacy budget. Simulations and case studies demonstrate accurate signal recovery under moderate privacy budgets, illustrating clear utility-privacy trade-offs and providing a deployable DP component for manifold-based workflows in regulated environments without reengineering privacy systems.",
+    "summary": "We introduce a differentially private manifold denoising framework that allows users to exploit sensitive reference datasets to correct noisy, non-private query points without compromising privacy. The method follows an iterative procedure that (i) privately estimates local means and tangent geometry using the reference data under calibrated sensitivity, (ii) projects query points along the privately estimated subspace toward the local mean via corrective steps at each iteration, and (iii) performs rigorous privacy accounting across iterations and queries using $(\\varepsilon,δ)$-differential privacy (DP). Conceptually, this framework brings differential privacy to manifold methods, retaining sufficient geometric signal for downstream tasks such as embedding, clustering, and visualization, while providing formal DP guarantees for the reference data. Practically, the procedure is modular and scalable, separating DP-protected local geometry (means and tangents) from budgeted query-point updates, with a simple scheduler allocating privacy budget across iterations and queries. Under standard assumptions on manifold regularity, sampling density, and measurement noise, we establish high-probability utility guarantees showing that corrected queries converge toward the manifold at a non-asymptotic rate governed by sample size, noise level, bandwidth, and the privacy budget. Simulations and case studies demonstrate accurate signal recovery under moderate privacy budgets, illustrating clear utility-privacy trade-offs and providing a deployable DP component for manifold-based workflows in regulated environments without reengineering privacy systems.",
     "authors": [
       "Jiaqi Wu",
       "Yiqing Sun",
@@ -2800,7 +2800,7 @@
     "authors": [
       "Abdullah Tokmak",
       "Toni Karvonen",
-      "Thomas B. Sch\u00f6n",
+      "Thomas B. Schön",
       "Dominik Baumann"
     ],
     "categories": [
@@ -2887,8 +2887,8 @@
     "summary": "Recent advances in 3D Gaussian Splatting (3DGS) present two main directions: feed-forward models offer fast inference in sparse-view settings, while per-scene optimization yields high-quality renderings but is computationally expensive. To combine the benefits of both, we introduce Diff3R, a novel framework that explicitly bridges feed-forward prediction and test-time optimization. By incorporating a differentiable 3DGS optimization layer directly into the training loop, our network learns to predict an optimal initialization for test-time optimization rather than a conventional zero-shot result. To overcome the computational cost of backpropagating through the optimization steps, we propose computing gradients via the Implicit Function Theorem and a scalable, matrix-free PCG solver tailored for 3DGS optimization. Additionally, we incorporate a data-driven uncertainty model into the optimization process by adaptively controlling how much the parameters are allowed to change during optimization. This approach effectively mitigates overfitting in under-constrained regions and increases robustness against input outliers. Since our proposed optimization layer is model-agnostic, we show that it can be seamlessly integrated into existing feed-forward 3DGS architectures for both pose-given and pose-free methods, providing improvements for test-time optimization.",
     "authors": [
       "Yueh-Cheng Liu",
-      "Jozef Hladk\u00fd",
-      "Matthias Nie\u00dfner",
+      "Jozef Hladký",
+      "Matthias Nießner",
       "Angela Dai"
     ],
     "categories": [
@@ -2907,7 +2907,7 @@
     "summary": "This paper introduces two transfer learning methodologies for estimating nonparametric Bayesian networks under scarce data. We propose two algorithms, a constraint-based structure learning method, called PC-stable-transfer learning (PCS-TL), and a score-based method, called hill climbing transfer learning (HC-TL). We also define particular metrics to tackle the negative transfer problem in each of them, a situation in which transfer learning has a negative impact on the model's performance. Then, for the parameters, we propose a log-linear pooling approach. For the evaluation, we learn kernel density estimation Bayesian networks, a type of nonparametric Bayesian network, and compare their transfer learning performance with the models alone. To do so, we sample data from small, medium and large-sized synthetic networks and datasets from the UCI Machine Learning repository. Then, we add noise and modifications to these datasets to test their ability to avoid negative transfer. To conclude, we perform a Friedman test with a Bergmann-Hommel post-hoc analysis to show statistical proof of the enhanced experimental behavior of our methods. Thus, PCS-TL and HC-TL demonstrate to be reliable algorithms for improving the learning performance of a nonparametric Bayesian network with scarce data, which in real industrial environments implies a reduction in the required time to deploy the network.",
     "authors": [
       "Rafael Sojo",
-      "Pedro Larra\u00f1aga",
+      "Pedro Larrañaga",
       "Concha Bielza"
     ],
     "categories": [
@@ -2995,7 +2995,7 @@
   {
     "arxiv_id": "2604.00886v1",
     "title": "PixelPrune: Pixel-Level Adaptive Visual Token Reduction via Predictive Coding",
-    "summary": "Document understanding and GUI interaction are among the highest-value applications of Vision-Language Models (VLMs), yet they impose exceptionally heavy computational burden: fine-grained text and small UI elements demand high-resolution inputs that produce tens of thousands of visual tokens. We observe that this cost is largely wasteful -- across document and GUI benchmarks, only 22--71\\% of image patches are pixel-unique, the rest being exact duplicates of another patch in the same image. We propose \\textbf{PixelPrune}, which exploits this pixel-level redundancy through predictive-coding-based compression, pruning redundant patches \\emph{before} the Vision Transformer (ViT) encoder. Because it operates in pixel space prior to any neural computation, PixelPrune accelerates both the ViT encoder and the downstream LLM, covering the full inference pipeline. The method is training-free, requires no learnable parameters, and supports pixel-lossless compression ($\u03c4{=}0$) as well as controlled lossy compression ($\u03c4{>}0$). Experiments across three model scales and document and GUI benchmarks show that PixelPrune maintains competitive task accuracy while delivering up to 4.2$\\times$ inference speedup and 1.9$\\times$ training acceleration. Code is available at https://github.com/OPPO-Mente-Lab/PixelPrune.",
+    "summary": "Document understanding and GUI interaction are among the highest-value applications of Vision-Language Models (VLMs), yet they impose exceptionally heavy computational burden: fine-grained text and small UI elements demand high-resolution inputs that produce tens of thousands of visual tokens. We observe that this cost is largely wasteful -- across document and GUI benchmarks, only 22--71\\% of image patches are pixel-unique, the rest being exact duplicates of another patch in the same image. We propose \\textbf{PixelPrune}, which exploits this pixel-level redundancy through predictive-coding-based compression, pruning redundant patches \\emph{before} the Vision Transformer (ViT) encoder. Because it operates in pixel space prior to any neural computation, PixelPrune accelerates both the ViT encoder and the downstream LLM, covering the full inference pipeline. The method is training-free, requires no learnable parameters, and supports pixel-lossless compression ($τ{=}0$) as well as controlled lossy compression ($τ{>}0$). Experiments across three model scales and document and GUI benchmarks show that PixelPrune maintains competitive task accuracy while delivering up to 4.2$\\times$ inference speedup and 1.9$\\times$ training acceleration. Code is available at https://github.com/OPPO-Mente-Lab/PixelPrune.",
     "authors": [
       "Nan Wang",
       "Zhiwei Jin",
@@ -3297,7 +3297,7 @@
     "title": "A ROS 2 Wrapper for Florence-2: Multi-Mode Local Vision-Language Inference for Robotic Systems",
     "summary": "Foundation vision-language models are becoming increasingly relevant to robotics because they can provide richer semantic perception than narrow task-specific pipelines. However, their practical adoption in robot software stacks still depends on reproducible middleware integrations rather than on model quality alone. Florence-2 is especially attractive in this regard because it unifies captioning, optical character recognition, open-vocabulary detection, grounding and related vision-language tasks within a comparatively manageable model size. This article presents a ROS 2 wrapper for Florence-2 that exposes the model through three complementary interaction modes: continuous topic-driven processing, synchronous service calls and asynchronous actions. The wrapper is designed for local execution and supports both native installation and Docker container deployment. It also combines generic JSON outputs with standard ROS 2 message bindings for detection-oriented tasks. A functional validation is reported together with a throughput study on several GPUs, showing that local deployment is feasible with consumer grade hardware. The repository is publicly available here: https://github.com/JEDominguezVidal/florence2_ros2_wrapper",
     "authors": [
-      "J. E. Dom\u00ednguez-Vidal"
+      "J. E. Domínguez-Vidal"
     ],
     "categories": [
       "cs.RO",
@@ -3512,8 +3512,8 @@
     "title": "A CEFR-Inspired Classification Framework with Fuzzy C-Means To Automate Assessment of Programming Skills in Scratch",
     "summary": "Context: Schools, training platforms, and technology firms increasingly need to assess programming proficiency at scale with transparent, reproducible methods that support personalized learning pathways. Objective: This study introduces a pedagogical framework for Scratch project assessment, aligned with the Common European Framework of Reference (CEFR), providing universal competency levels for students and teachers alongside actionable insights for curriculum design. Method: We apply Fuzzy C-Means clustering to 2008246 Scratch projects evaluated via Dr.Scratch, implementing an ordinal criterion to map clusters to CEFR levels (A1-C2), and introducing enhanced classification metrics that identify transitional learners, enable continuous progress tracking, and quantify classification certainty to balance automated feedback with instructor review. Impact: The framework enables diagnosis of systemic curriculum gaps-notably a \"B2 bottleneck\" where only 13.3% of learners reside due to the cognitive load of integrating Logic Synchronization, and Data Representation--while providing certainty--based triggers for human intervention.",
     "authors": [
-      "Ricardo Hidalgo-Arag\u00f3n",
-      "Jes\u00fas M. Gonz\u00e1lez-Barahona",
+      "Ricardo Hidalgo-Aragón",
+      "Jesús M. González-Barahona",
       "Gregorio Robles"
     ],
     "categories": [
@@ -3766,7 +3766,7 @@
     "title": "Valency Classification of Mapudungun Verbal Roots. Established by the language's own morphotactics",
     "summary": "In the previous work, a lexical (re)categorisation -- or confirmation of the given category -- of roots identified as verbal was undertaken to determine their original category accurately. Building on this, the present paper offers an account of the valency classification of those Mapudungun roots confirmed to be verbal, using the language's own morphotactics; specifically, by examining the permissible and restricted combinations of various suffixes with roots or verbal stems in the Mapuche verb form. As with all work conducted thus far, the results presented here aim to improve the morphological analyser (Dungupeyum) with all verified findings incorporated into the system. From a theoretical perspective, we also hope to contribute to the recognition and understanding of issues related to the valency of Mapuche verb forms.",
     "authors": [
-      "Andr\u00e9s Chand\u00eda"
+      "Andrés Chandía"
     ],
     "categories": [
       "cs.CL"
@@ -3783,7 +3783,7 @@
     "title": "Finding Low Star Discrepancy 3D Kronecker Point Sets Using Algorithm Configuration Techniques",
     "summary": "The L infinity star discrepancy is a measure for how uniformly a point set is distributed in a given space. Point sets of low star discrepancy are used as designs of experiments, as initial designs for Bayesian optimization algorithms, for quasi-Monte Carlo integration methods, and many other applications. Recent work has shown that classical constructions such as Sobol', Halton, or Hammersley sequences can be outperformed by large margins when considering point sets of fixed sizes rather than their convergence behavior. These results, highly relevant to the aforementioned applications, raise the question of how much existing constructions can be improved through size-specific optimization. In this work, we study this question for the so-called Kronecker construction. Focusing on the 3-dimensional setting, we show that optimizing the two configurable parameters of its construction yields point sets outperforming the state-of-the-art value for sets of at least 500 points. Using the algorithm configuration technique irace, we then derive parameters that yield new state-of-the-art discrepancy values for whole ranges of set sizes.",
     "authors": [
-      "Im\u00e8ne Ait Abderrahim",
+      "Imène Ait Abderrahim",
       "Carola Doerr",
       "Martin Durand"
     ],
@@ -3932,7 +3932,7 @@
       "Alexander Richard",
       "Vasu Agrawal",
       "Markus Steinberger",
-      "Michael Zollh\u00f6fer"
+      "Michael Zollhöfer"
     ],
     "categories": [
       "cs.CV",
@@ -3974,8 +3974,8 @@
       "Paolo Speziali",
       "Arno De Greef",
       "Mehrdad Asadi",
-      "Willem R\u00f6pke",
-      "Ann Now\u00e9",
+      "Willem Röpke",
+      "Ann Nowé",
       "Diederik M. Roijers"
     ],
     "categories": [
@@ -4012,7 +4012,7 @@
   {
     "arxiv_id": "2604.00683v1",
     "title": "Convergence of projected stochastic natural gradient variational inference for various step size and sample or batch size schedules",
-    "summary": "Stochastic natural gradient variational inference (NGVI) is a popular and efficient algorithm for Bayesian inference. Despite empirical success, the convergence of this method is still not fully understood. In this work, we define and study a projected stochastic NGVI when variational distributions form an exponential family. Stochasticity arises when either gradients are intractable expectations or large sums. We prove new non-asymptotic convergence results for combinations of constant or decreasing step sizes and constant or increasing sample/batch sizes. When all hyperparameters are fixed, NGVI is shown to converge geometrically to a neighborhood of the optimum, while we establish convergence to the optimum with rates of the form $\\mathcal{O}\\left(\\frac{1}{T^\u03c1} \\right)$, possibly with $\u03c1\\geq 1$, for all other combinations of step size and sample/batch size schedules. These rates apply when the target posterior distribution is close in some sense to the considered exponential family. Our theoretical results extend existing NGVI and stochastic optimization results and provide more flexibility to adjust, in a principled way, step sizes and sample/batch sizes in order to meet speed, resources, or accuracy constraints.",
+    "summary": "Stochastic natural gradient variational inference (NGVI) is a popular and efficient algorithm for Bayesian inference. Despite empirical success, the convergence of this method is still not fully understood. In this work, we define and study a projected stochastic NGVI when variational distributions form an exponential family. Stochasticity arises when either gradients are intractable expectations or large sums. We prove new non-asymptotic convergence results for combinations of constant or decreasing step sizes and constant or increasing sample/batch sizes. When all hyperparameters are fixed, NGVI is shown to converge geometrically to a neighborhood of the optimum, while we establish convergence to the optimum with rates of the form $\\mathcal{O}\\left(\\frac{1}{T^ρ} \\right)$, possibly with $ρ\\geq 1$, for all other combinations of step size and sample/batch size schedules. These rates apply when the target posterior distribution is close in some sense to the considered exponential family. Our theoretical results extend existing NGVI and stochastic optimization results and provide more flexibility to adjust, in a principled way, step sizes and sample/batch sizes in order to meet speed, resources, or accuracy constraints.",
     "authors": [
       "Thomas Guilmeau",
       "Hadrien Hendrikx",
@@ -4147,39 +4147,6 @@
     "pdf_url": "https://arxiv.org/pdf/2604.00597v1.pdf",
     "date": "2026-04-02",
     "source": "arxiv",
-    "research_score": 0.5
-  },
-  {
-    "dataset_id": "open-index/hacker-news",
-    "author": "open-index",
-    "title": "open-index/hacker-news",
-    "downloads": 15268,
-    "likes": 239,
-    "tags": [
-      "task_categories:text-generation",
-      "task_categories:feature-extraction",
-      "task_categories:text-classification",
-      "task_categories:question-answering",
-      "language:en",
-      "license:odc-by",
-      "size_categories:10M<n<100M",
-      "modality:text",
-      "region:us",
-      "hacker-news",
-      "forum",
-      "text",
-      "parquet",
-      "community",
-      "tech",
-      "comments",
-      "live-updated"
-    ],
-    "created_at": "2026-03-14T09:58:41.000Z",
-    "last_modified": "2026-04-02T04:50:12.000Z",
-    "url": "https://huggingface.co/datasets/open-index/hacker-news",
-    "date": "2026-04-02",
-    "source": "huggingface_dataset",
-    "type": "dataset",
     "research_score": 0.5
   },
   {
@@ -4429,343 +4396,5 @@
     "date": "2026-04-02",
     "source": "arxiv",
     "research_score": 0.41
-  },
-  {
-    "model_id": "Bhuvanesh0195/phi35-sap-ax-v6-merged",
-    "author": "unknown",
-    "title": "Bhuvanesh0195/phi35-sap-ax-v6-merged",
-    "downloads": 1,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "phi3",
-      "text-generation",
-      "trl",
-      "sft",
-      "conversational",
-      "custom_code",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-03-31T13:16:17.000Z",
-    "last_modified": "2026-04-02T04:46:44.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/Bhuvanesh0195/phi35-sap-ax-v6-merged",
-    "date": "2026-04-02",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "xummer/llama3-1-8b-base-squad_translate-lora-hi",
-    "author": "unknown",
-    "title": "xummer/llama3-1-8b-base-squad_translate-lora-hi",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:meta-llama/Meta-Llama-3.1-8B",
-      "llama-factory",
-      "lora",
-      "transformers",
-      "text-generation",
-      "conversational",
-      "base_model:meta-llama/Llama-3.1-8B",
-      "base_model:adapter:meta-llama/Llama-3.1-8B",
-      "license:other",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-04-02T04:46:04.000Z",
-    "last_modified": "2026-04-02T04:46:22.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/xummer/llama3-1-8b-base-squad_translate-lora-hi",
-    "date": "2026-04-02",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "crumbs-playground/clmr3-qwen3.5-2b-warm-start-merged",
-    "author": "unknown",
-    "title": "crumbs-playground/clmr3-qwen3.5-2b-warm-start-merged",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3_5_text",
-      "text-generation",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-02T04:28:25.000Z",
-    "last_modified": "2026-04-02T04:44:33.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/crumbs-playground/clmr3-qwen3.5-2b-warm-start-merged",
-    "date": "2026-04-02",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "beaupi/Qwen3-Coder-30B-A3B-Instruct-oQ6",
-    "author": "unknown",
-    "title": "beaupi/Qwen3-Coder-30B-A3B-Instruct-oQ6",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3_moe",
-      "text-generation",
-      "conversational",
-      "arxiv:2505.09388",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "6-bit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-02T04:43:39.000Z",
-    "last_modified": "2026-04-02T04:44:19.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/beaupi/Qwen3-Coder-30B-A3B-Instruct-oQ6",
-    "date": "2026-04-02",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "anasamri12/fingpt-malaysia-lora-adapted-2023-2025",
-    "author": "unknown",
-    "title": "anasamri12/fingpt-malaysia-lora-adapted-2023-2025",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:TinyLlama/TinyLlama-1.1B-Chat-v1.0",
-      "lora",
-      "transformers",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "base_model:TinyLlama/TinyLlama-1.1B-Chat-v1.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-04-02T04:42:13.000Z",
-    "last_modified": "2026-04-02T04:42:24.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/anasamri12/fingpt-malaysia-lora-adapted-2023-2025",
-    "date": "2026-04-02",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "mingxilei/functiongemma-270m-it-unsloth-bnb-4bit-ft-QAT",
-    "author": "unknown",
-    "title": "mingxilei/functiongemma-270m-it-unsloth-bnb-4bit-ft-QAT",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma3_text",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "base_model:unsloth/functiongemma-270m-it",
-      "base_model:finetune:unsloth/functiongemma-270m-it",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-01T09:01:42.000Z",
-    "last_modified": "2026-04-02T04:41:16.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/mingxilei/functiongemma-270m-it-unsloth-bnb-4bit-ft-QAT",
-    "date": "2026-04-02",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Sangsang/feedback_allowed_ema_Qwen3-4B_reverse_kl_ema0p999_ep30",
-    "author": "unknown",
-    "title": "Sangsang/feedback_allowed_ema_Qwen3-4B_reverse_kl_ema0p999_ep30",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:Qwen/Qwen3-4B",
-      "lora",
-      "transformers",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "base_model:Qwen/Qwen3-4B",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-04-02T04:35:56.000Z",
-    "last_modified": "2026-04-02T04:36:13.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Sangsang/feedback_allowed_ema_Qwen3-4B_reverse_kl_ema0p999_ep30",
-    "date": "2026-04-02",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "wgcyeo/ci-sft_Llama-3.1-8B-Instruct_lr1e-6_ep30",
-    "author": "unknown",
-    "title": "wgcyeo/ci-sft_Llama-3.1-8B-Instruct_lr1e-6_ep30",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
-      "lora",
-      "sft",
-      "transformers",
-      "trl",
-      "text-generation",
-      "conversational",
-      "base_model:meta-llama/Llama-3.1-8B-Instruct",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-04-02T04:35:16.000Z",
-    "last_modified": "2026-04-02T04:35:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/wgcyeo/ci-sft_Llama-3.1-8B-Instruct_lr1e-6_ep30",
-    "date": "2026-04-02",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Sangsang/feedback_disallowed_ema_Qwen3-4B_reverse_kl_ema0p999_ep30",
-    "author": "unknown",
-    "title": "Sangsang/feedback_disallowed_ema_Qwen3-4B_reverse_kl_ema0p999_ep30",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:Qwen/Qwen3-4B",
-      "lora",
-      "transformers",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "base_model:Qwen/Qwen3-4B",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-04-02T04:34:41.000Z",
-    "last_modified": "2026-04-02T04:35:00.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Sangsang/feedback_disallowed_ema_Qwen3-4B_reverse_kl_ema0p999_ep30",
-    "date": "2026-04-02",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "wgcyeo/ci-grpo_Llama-3.1-8B-Instruct_bs16_g16_mb128_lr1e-6_b1e-3_clip0p2_temp0p7_ep30",
-    "author": "unknown",
-    "title": "wgcyeo/ci-grpo_Llama-3.1-8B-Instruct_bs16_g16_mb128_lr1e-6_b1e-3_clip0p2_temp0p7_ep30",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:meta-llama/Llama-3.1-8B-Instruct",
-      "grpo",
-      "lora",
-      "transformers",
-      "trl",
-      "text-generation",
-      "conversational",
-      "arxiv:2402.03300",
-      "base_model:meta-llama/Llama-3.1-8B-Instruct",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-04-02T04:34:30.000Z",
-    "last_modified": "2026-04-02T04:34:52.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/wgcyeo/ci-grpo_Llama-3.1-8B-Instruct_bs16_g16_mb128_lr1e-6_b1e-3_clip0p2_temp0p7_ep30",
-    "date": "2026-04-02",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "LuffyTheFox/Qwen3.5-27B-Claude-4.6-Opus-Uncensored-V2-Kullback-Leibler-GGUF",
-    "author": "unknown",
-    "title": "LuffyTheFox/Qwen3.5-27B-Claude-4.6-Opus-Uncensored-V2-Kullback-Leibler-GGUF",
-    "downloads": 15422,
-    "likes": 29,
-    "tags": [
-      "gguf",
-      "qwen3_5",
-      "unsloth",
-      "qwen",
-      "qwen3.5",
-      "reasoning",
-      "chain-of-thought",
-      "lora",
-      "uncensored",
-      "image-text-to-text",
-      "en",
-      "zh",
-      "ko",
-      "dataset:nohurry/Opus-4.6-Reasoning-3000x-filtered",
-      "dataset:Jackrong/Qwen3.5-reasoning-700x",
-      "dataset:Roman1111111/claude-opus-4.6-10000x",
-      "base_model:Qwen/Qwen3.5-27B",
-      "base_model:adapter:Qwen/Qwen3.5-27B",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "image-text-to-text",
-    "library": "",
-    "created_at": "2026-03-26T06:00:58.000Z",
-    "last_modified": "2026-04-02T04:33:58.000Z",
-    "days_since_creation": 6,
-    "url": "https://huggingface.co/LuffyTheFox/Qwen3.5-27B-Claude-4.6-Opus-Uncensored-V2-Kullback-Leibler-GGUF",
-    "date": "2026-04-02",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
