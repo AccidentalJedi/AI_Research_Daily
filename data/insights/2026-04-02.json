@@ -1,0 +1,49 @@
+{
+  "date": "2026-04-02T00:39:20.992725",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "wangihong/klue-bert-base",
+        "url": "https://huggingface.co/wangihong/klue-bert-base"
+      },
+      {
+        "title": "yunchanho/klue-bert-base",
+        "url": "https://huggingface.co/yunchanho/klue-bert-base"
+      },
+      {
+        "title": "dlfp22/klue-bert-base",
+        "url": "https://huggingface.co/dlfp22/klue-bert-base"
+      },
+      {
+        "title": "rungalileo/mistral-7b-instruct-v0.3-trtllm-ckpt-wq_w8a8sq-kv_int8",
+        "url": "https://huggingface.co/rungalileo/mistral-7b-instruct-v0.3-trtllm-ckpt-wq_w8a8sq-kv_int8"
+      },
+      {
+        "title": "rungalileo/llama-3.1-8b-instruct-trtllm-ckpt-wq_w8a8sq-kv_int8",
+        "url": "https://huggingface.co/rungalileo/llama-3.1-8b-instruct-trtllm-ckpt-wq_w8a8sq-kv_int8"
+      },
+      {
+        "title": "mim010/klue-bert-base",
+        "url": "https://huggingface.co/mim010/klue-bert-base"
+      },
+      {
+        "title": "dasol07/klue-bert-base",
+        "url": "https://huggingface.co/dasol07/klue-bert-base"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "7 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 7
+  }
+}
