@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-03T12:21:10.659597",
+  "date": "2026-04-03T16:17:00.755415",
   "patterns": {
     "multimodal_research": [
       {
@@ -747,16 +747,12 @@
         "url": "https://arxiv.org/abs/2604.02185v1"
       },
       {
-        "title": "Cisco1963/llmplasticity-zh_en_linear_0.125_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-zh_en_linear_0.125_1-seed42"
-      },
-      {
         "title": "ViT-Explainer: An Interactive Walkthrough of the Vision Transformer Pipeline",
         "url": "https://arxiv.org/abs/2604.02182v1"
       },
       {
-        "title": "Cisco1963/llmplasticity-zh_fi_linear_0.5_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-zh_fi_linear_0.5_1-seed42"
+        "title": "Kokasospoperor/distil-roberta-spam",
+        "url": "https://huggingface.co/Kokasospoperor/distil-roberta-spam"
       }
     ],
     "vision_systems": [
@@ -1821,7 +1817,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1880,6 +1876,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 445
+    "total_papers": 444
   }
 }
