@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-03T04:51:37.056910",
+  "date": "2026-04-03T08:24:29.138619",
   "patterns": {
     "multimodal_research": [
       {
@@ -751,12 +751,52 @@
         "url": "https://arxiv.org/abs/2604.02182v1"
       },
       {
-        "title": "Cisco1963/llmplasticity-de_zh_linear_0.5_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-de_zh_linear_0.5_1-seed42"
+        "title": "Cisco1963/llmplasticity-zh_fi_instant_0.5_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-zh_fi_instant_0.5_1-seed42"
       },
       {
-        "title": "onnx-community/NeuroBERT-Pro-ONNX",
-        "url": "https://huggingface.co/onnx-community/NeuroBERT-Pro-ONNX"
+        "title": "Cisco1963/llmplasticity-fi_zh_instant_0.25_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-fi_zh_instant_0.25_1-seed42"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-fi_de_linear_0.5_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-fi_de_linear_0.5_1-seed42"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-fi_zh_linear_0.25_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-fi_zh_linear_0.25_1-seed42"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-en_de_instant_0.5_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-en_de_instant_0.5_1-seed42"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-de_fi_instant_0.125_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-de_fi_instant_0.125_1-seed42"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-de_zh_instant_0.5_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-de_zh_instant_0.5_1-seed42"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-de_en_linear_0.25_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-de_en_linear_0.25_1-seed42"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-de_never_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-de_never_1-seed42"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-en_zh_linear_0.125_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-en_zh_linear_0.125_1-seed42"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-en_fi_linear_0.25_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-en_fi_linear_0.25_1-seed42"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-en_de_linear_0.5_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-en_de_linear_0.5_1-seed42"
       }
     ],
     "vision_systems": [
@@ -1821,7 +1861,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1880,6 +1920,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 445
+    "total_papers": 455
   }
 }
