@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-04T04:40:45.512771",
+  "date": "2026-04-04T08:18:49.786626",
   "patterns": {
     "multimodal_research": [
       {
@@ -751,8 +751,8 @@
         "url": "https://arxiv.org/abs/2604.02182v1"
       },
       {
-        "title": "shomin/gpt2-small-c4",
-        "url": "https://huggingface.co/shomin/gpt2-small-c4"
+        "title": "Youseff43/my-finetuned-bert2_next",
+        "url": "https://huggingface.co/Youseff43/my-finetuned-bert2_next"
       }
     ],
     "vision_systems": [
@@ -1059,6 +1059,10 @@
       {
         "title": "GeoAI Agency Primitives",
         "url": "https://arxiv.org/abs/2604.01869v1"
+      },
+      {
+        "title": "Eimhin03/MCV_Fleurs_Combined_Irish_ASR",
+        "url": "https://huggingface.co/Eimhin03/MCV_Fleurs_Combined_Irish_ASR"
       }
     ],
     "reasoning": [
@@ -1823,7 +1827,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "76 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1876,6 +1880,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 444
+    "total_papers": 445
   }
 }
