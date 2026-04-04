@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-04T00:38:15.211610",
+  "date": "2026-04-04T04:40:45.512771",
   "patterns": {
     "multimodal_research": [
       {
@@ -751,8 +751,8 @@
         "url": "https://arxiv.org/abs/2604.02182v1"
       },
       {
-        "title": "Wothmag07/counseLLM",
-        "url": "https://huggingface.co/Wothmag07/counseLLM"
+        "title": "shomin/gpt2-small-c4",
+        "url": "https://huggingface.co/shomin/gpt2-small-c4"
       }
     ],
     "vision_systems": [
@@ -1373,10 +1373,6 @@
       {
         "title": "Country-wide, high-resolution monitoring of forest browning with Sentinel-2",
         "url": "https://arxiv.org/abs/2604.02074v1"
-      },
-      {
-        "title": "SuperBudVar/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
-        "url": "https://huggingface.co/SuperBudVar/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
       }
     ],
     "benchmarks": [
@@ -1833,7 +1829,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "79 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1863,7 +1859,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 41,
+      "frequency": 40,
       "significance": "high"
     },
     {
@@ -1880,6 +1876,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 445
+    "total_papers": 444
   }
 }
