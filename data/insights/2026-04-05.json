@@ -1,11 +1,22 @@
 {
-  "date": "2026-04-05T16:15:39.925399",
-  "patterns": {},
+  "date": "2026-04-05T20:12:22.037578",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "pratsing23/fakenews-detector-smollm2",
+        "url": "https://huggingface.co/pratsing23/fakenews-detector-smollm2"
+      },
+      {
+        "title": "Berke01/VocaPeak-RoBERTa-v5",
+        "url": "https://huggingface.co/Berke01/VocaPeak-RoBERTa-v5"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
