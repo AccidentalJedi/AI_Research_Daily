@@ -1,11 +1,33 @@
 {
-  "date": "2026-04-06T00:42:59.133243",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-04-06T05:03:20.156028",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "KemuntoJudith/finbert-sentiment",
+        "url": "https://huggingface.co/KemuntoJudith/finbert-sentiment"
+      },
+      {
+        "title": "Ronels/llmtwinggpt2",
+        "url": "https://huggingface.co/Ronels/llmtwinggpt2"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-en_fi_instant_0.25_8-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-en_fi_instant_0.25_8-seed42"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
