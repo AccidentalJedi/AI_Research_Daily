@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-07T12:27:53.989787",
+  "date": "2026-04-07T16:29:04.906112",
   "patterns": {
     "multimodal_research": [
       {
@@ -1815,10 +1815,6 @@
       {
         "title": "Unsharp Measurement with Adaptive Gaussian POVMs for Quantum-Inspired Image Processing",
         "url": "https://arxiv.org/abs/2604.04685v1"
-      },
-      {
-        "title": "waxal-benchmarking/whisper-tiny-ewe-gbotemi",
-        "url": "https://huggingface.co/waxal-benchmarking/whisper-tiny-ewe-gbotemi"
       }
     ]
   },
@@ -1873,7 +1869,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "107 independent papers",
+      "observation": "106 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1886,7 +1882,7 @@
     },
     {
       "topic": "benchmark",
-      "frequency": 62,
+      "frequency": 61,
       "significance": "high"
     },
     {
@@ -1908,6 +1904,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 452
+    "total_papers": 451
   }
 }
