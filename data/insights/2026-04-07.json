@@ -1,0 +1,22 @@
+{
+  "date": "2026-04-07T00:42:13.601295",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "stukenov/sozkz-mgpt-1.3b-translate-kkru-v1",
+        "url": "https://huggingface.co/stukenov/sozkz-mgpt-1.3b-translate-kkru-v1"
+      },
+      {
+        "title": "meshllm/olmo2-7b-instruct-parity-q8_0-gguf",
+        "url": "https://huggingface.co/meshllm/olmo2-7b-instruct-parity-q8_0-gguf"
+      }
+    ]
+  },
+  "inferences": [],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 0,
+    "total_papers": 2
+  }
+}
