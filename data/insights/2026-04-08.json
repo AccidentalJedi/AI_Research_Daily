@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-08T08:32:52.961539",
+  "date": "2026-04-08T12:27:33.889732",
   "patterns": {
     "multimodal_research": [
       {
@@ -761,10 +761,6 @@
       {
         "title": "BodhiPromptShield: Pre-Inference Prompt Mediation for Suppressing Privacy Propagation in LLM/VLM Agents",
         "url": "https://arxiv.org/abs/2604.05793v1"
-      },
-      {
-        "title": "Subidubi/gpt2-wikitext2",
-        "url": "https://huggingface.co/Subidubi/gpt2-wikitext2"
       }
     ],
     "vision_systems": [
@@ -1861,7 +1857,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "104 independent papers",
+      "observation": "103 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1908,7 +1904,7 @@
     },
     {
       "topic": "generation",
-      "frequency": 39,
+      "frequency": 40,
       "significance": "high"
     },
     {
@@ -1920,6 +1916,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 455
+    "total_papers": 454
   }
 }
