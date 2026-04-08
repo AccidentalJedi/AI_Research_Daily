@@ -1,0 +1,41 @@
+{
+  "date": "2026-04-08T00:42:47.638180",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "NewenAI/QuettaLLMs-27B-Koreasoner-V3",
+        "url": "https://huggingface.co/NewenAI/QuettaLLMs-27B-Koreasoner-V3"
+      },
+      {
+        "title": "geumbyeol/my-bert-classifier",
+        "url": "https://huggingface.co/geumbyeol/my-bert-classifier"
+      },
+      {
+        "title": "Skullking1123/my-bert-classifier",
+        "url": "https://huggingface.co/Skullking1123/my-bert-classifier"
+      },
+      {
+        "title": "jmllem/my-bert-classifier",
+        "url": "https://huggingface.co/jmllem/my-bert-classifier"
+      },
+      {
+        "title": "LeeHoYoungg/my-bert-classifier",
+        "url": "https://huggingface.co/LeeHoYoungg/my-bert-classifier"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "5 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 5
+  }
+}
