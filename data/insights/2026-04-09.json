@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-09T04:53:30.444829",
+  "date": "2026-04-09T08:39:14.058251",
   "patterns": {
     "multimodal_research": [
       {
@@ -609,18 +609,6 @@
       {
         "title": "A Utility-preserving De-identification Pipeline for Cross-hospital Radiology Data Sharing",
         "url": "https://arxiv.org/abs/2604.07128v1"
-      },
-      {
-        "title": "scrybz/gemma-4-31B-it-heretic-W4A16-GPTQ",
-        "url": "https://huggingface.co/scrybz/gemma-4-31B-it-heretic-W4A16-GPTQ"
-      },
-      {
-        "title": "Mrigank005/xlm-roberta-sentiment-crosslingual-seed-123",
-        "url": "https://huggingface.co/Mrigank005/xlm-roberta-sentiment-crosslingual-seed-123"
-      },
-      {
-        "title": "raalr/Qwen2.5-1.5B-Instruct-MiniLLM",
-        "url": "https://huggingface.co/raalr/Qwen2.5-1.5B-Instruct-MiniLLM"
       }
     ],
     "vision_systems": [
@@ -1609,7 +1597,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1668,6 +1656,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 392
+    "total_papers": 389
   }
 }
