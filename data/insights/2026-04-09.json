@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-09T12:30:53.814137",
+  "date": "2026-04-09T16:37:28.073594",
   "patterns": {
     "multimodal_research": [
       {
@@ -611,8 +611,12 @@
         "url": "https://arxiv.org/abs/2604.07128v1"
       },
       {
-        "title": "Naho07/ssahubert_yemba",
-        "url": "https://huggingface.co/Naho07/ssahubert_yemba"
+        "title": "Bryndis345/BERTweet-Summarization-Base-latest",
+        "url": "https://huggingface.co/Bryndis345/BERTweet-Summarization-Base-latest"
+      },
+      {
+        "title": "onnx-community/toxic-prompt-roberta-ONNX",
+        "url": "https://huggingface.co/onnx-community/toxic-prompt-roberta-ONNX"
       }
     ],
     "vision_systems": [
@@ -1147,6 +1151,10 @@
         "url": "https://arxiv.org/abs/2604.07201v1"
       },
       {
+        "title": "mradermacher/Qwen3.5-122B-Turkish-Reasoning-6shard-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/Qwen3.5-122B-Turkish-Reasoning-6shard-i1-GGUF"
+      },
+      {
         "title": "Generate, Analyze, and Refine: Training-Free Sound Source Localization via MLLM Meta-Reasoning",
         "url": "https://arxiv.org/abs/2604.06824v1"
       },
@@ -1573,8 +1581,8 @@
         "url": "https://arxiv.org/abs/2604.06945v1"
       },
       {
-        "title": "waxal-benchmarking/mms-300m-nyn-victor",
-        "url": "https://huggingface.co/waxal-benchmarking/mms-300m-nyn-victor"
+        "title": "waxal-benchmarking/whisper-small-dag-victor",
+        "url": "https://huggingface.co/waxal-benchmarking/whisper-small-dag-victor"
       }
     ]
   },
@@ -1605,7 +1613,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1617,7 +1625,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1657,13 +1665,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 26,
+      "frequency": 27,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 391
+    "total_papers": 393
   }
 }
