@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-10T05:04:10.340010",
+  "date": "2026-04-10T08:38:24.802636",
   "patterns": {
     "multimodal_research": [
       {
@@ -805,42 +805,6 @@
       {
         "title": "Tensor-Augmented Convolutional Neural Networks: Enhancing Expressivity with Generic Tensor Kernels",
         "url": "https://arxiv.org/abs/2604.08072v1"
-      },
-      {
-        "title": "KingTechnician/roberta-base_Climate_LRTC",
-        "url": "https://huggingface.co/KingTechnician/roberta-base_Climate_LRTC"
-      },
-      {
-        "title": "KingTechnician/roberta-base_LOGIC_LRTC",
-        "url": "https://huggingface.co/KingTechnician/roberta-base_LOGIC_LRTC"
-      },
-      {
-        "title": "KingTechnician/roberta-base_Climate_Native",
-        "url": "https://huggingface.co/KingTechnician/roberta-base_Climate_Native"
-      },
-      {
-        "title": "KingTechnician/roberta-base_LOGIC_Native",
-        "url": "https://huggingface.co/KingTechnician/roberta-base_LOGIC_Native"
-      },
-      {
-        "title": "KingTechnician/bert-base-uncased_Climate_LRTC",
-        "url": "https://huggingface.co/KingTechnician/bert-base-uncased_Climate_LRTC"
-      },
-      {
-        "title": "cloudyu/GPT-OSS-120B-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled",
-        "url": "https://huggingface.co/cloudyu/GPT-OSS-120B-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled"
-      },
-      {
-        "title": "KingTechnician/bert-base-uncased_LOGIC_LRTC",
-        "url": "https://huggingface.co/KingTechnician/bert-base-uncased_LOGIC_LRTC"
-      },
-      {
-        "title": "KingTechnician/bert-base-uncased_Climate_Native",
-        "url": "https://huggingface.co/KingTechnician/bert-base-uncased_Climate_Native"
-      },
-      {
-        "title": "KingTechnician/bert-base-uncased_LOGIC_Native",
-        "url": "https://huggingface.co/KingTechnician/bert-base-uncased_LOGIC_Native"
       }
     ],
     "vision_systems": [
@@ -1557,26 +1521,6 @@
       {
         "title": "When Fine-Tuning Changes the Evidence: Architecture-Dependent Semantic Drift in Chest X-Ray Explanations",
         "url": "https://arxiv.org/abs/2604.08513v1"
-      },
-      {
-        "title": "KingTechnician/roberta-base_LOGIC_LRTC",
-        "url": "https://huggingface.co/KingTechnician/roberta-base_LOGIC_LRTC"
-      },
-      {
-        "title": "KingTechnician/roberta-base_LOGIC_Native",
-        "url": "https://huggingface.co/KingTechnician/roberta-base_LOGIC_Native"
-      },
-      {
-        "title": "cloudyu/GPT-OSS-120B-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled",
-        "url": "https://huggingface.co/cloudyu/GPT-OSS-120B-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled"
-      },
-      {
-        "title": "KingTechnician/bert-base-uncased_LOGIC_LRTC",
-        "url": "https://huggingface.co/KingTechnician/bert-base-uncased_LOGIC_LRTC"
-      },
-      {
-        "title": "KingTechnician/bert-base-uncased_LOGIC_Native",
-        "url": "https://huggingface.co/KingTechnician/bert-base-uncased_LOGIC_Native"
       }
     ],
     "benchmarks": [
@@ -2113,7 +2057,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "108 independent papers",
+      "observation": "99 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2125,7 +2069,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "86 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2155,7 +2099,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 56,
+      "frequency": 55,
       "significance": "high"
     },
     {
@@ -2172,6 +2116,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 518
+    "total_papers": 504
   }
 }
