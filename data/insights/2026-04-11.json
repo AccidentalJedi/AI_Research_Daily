@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-11T00:39:50.639517",
+  "date": "2026-04-11T04:44:45.676873",
   "patterns": {
     "multimodal_research": [
       {
@@ -805,14 +805,6 @@
       {
         "title": "Tensor-Augmented Convolutional Neural Networks: Enhancing Expressivity with Generic Tensor Kernels",
         "url": "https://arxiv.org/abs/2604.08072v1"
-      },
-      {
-        "title": "JstnMcBrd/distilbert-base-uncased-tweet-sentiment-ensemble-member-4",
-        "url": "https://huggingface.co/JstnMcBrd/distilbert-base-uncased-tweet-sentiment-ensemble-member-4"
-      },
-      {
-        "title": "llmfan46/gemma-4-26B-A4B-it-ultra-uncensored-heretic-GGUF",
-        "url": "https://huggingface.co/llmfan46/gemma-4-26B-A4B-it-ultra-uncensored-heretic-GGUF"
       }
     ],
     "vision_systems": [
@@ -2065,7 +2057,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "101 independent papers",
+      "observation": "99 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2124,6 +2116,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 506
+    "total_papers": 504
   }
 }
