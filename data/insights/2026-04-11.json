@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-11T16:14:02.101830",
+  "date": "2026-04-11T20:12:39.753407",
   "patterns": {
     "multimodal_research": [
       {
@@ -805,6 +805,30 @@
       {
         "title": "Tensor-Augmented Convolutional Neural Networks: Enhancing Expressivity with Generic Tensor Kernels",
         "url": "https://arxiv.org/abs/2604.08072v1"
+      },
+      {
+        "title": "mr3haque/slm-rl-smollm2-360m-ppo-wikitext",
+        "url": "https://huggingface.co/mr3haque/slm-rl-smollm2-360m-ppo-wikitext"
+      },
+      {
+        "title": "mr3haque/slm-rl-smollm2-360m-ppo-cnn_dailymail",
+        "url": "https://huggingface.co/mr3haque/slm-rl-smollm2-360m-ppo-cnn_dailymail"
+      },
+      {
+        "title": "mr3haque/slm-rl-smollm2-360m-ppo-tinystories",
+        "url": "https://huggingface.co/mr3haque/slm-rl-smollm2-360m-ppo-tinystories"
+      },
+      {
+        "title": "mr3haque/slm-rl-smollm2-135m-ppo-wikitext",
+        "url": "https://huggingface.co/mr3haque/slm-rl-smollm2-135m-ppo-wikitext"
+      },
+      {
+        "title": "mr3haque/slm-rl-smollm2-135m-ppo-cnn_dailymail",
+        "url": "https://huggingface.co/mr3haque/slm-rl-smollm2-135m-ppo-cnn_dailymail"
+      },
+      {
+        "title": "mr3haque/slm-rl-smollm2-135m-ppo-tinystories",
+        "url": "https://huggingface.co/mr3haque/slm-rl-smollm2-135m-ppo-tinystories"
       }
     ],
     "vision_systems": [
@@ -2057,7 +2081,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "99 independent papers",
+      "observation": "105 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2116,6 +2140,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 504
+    "total_papers": 510
   }
 }
