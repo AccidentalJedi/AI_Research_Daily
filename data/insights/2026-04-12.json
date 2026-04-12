@@ -1,11 +1,22 @@
 {
-  "date": "2026-04-12T08:23:07.016949",
-  "patterns": {},
+  "date": "2026-04-12T12:19:06.513988",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "crymadxAI/CrymadX-LLM-32B",
+        "url": "https://huggingface.co/crymadxAI/CrymadX-LLM-32B"
+      },
+      {
+        "title": "Raghav-Singhal/normal-smollm-1p7b-500B-30n-2048sl-960gbsz",
+        "url": "https://huggingface.co/Raghav-Singhal/normal-smollm-1p7b-500B-30n-2048sl-960gbsz"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
