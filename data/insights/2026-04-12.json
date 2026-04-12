@@ -1,11 +1,22 @@
 {
-  "date": "2026-04-12T00:45:20.043348",
-  "patterns": {},
+  "date": "2026-04-12T05:02:55.742087",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "hoangkkk/phobert-v2-vietnamese-sentiment",
+        "url": "https://huggingface.co/hoangkkk/phobert-v2-vietnamese-sentiment"
+      },
+      {
+        "title": "mlx-community/llm-jp-4-8b-thinking-8bit",
+        "url": "https://huggingface.co/mlx-community/llm-jp-4-8b-thinking-8bit"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
