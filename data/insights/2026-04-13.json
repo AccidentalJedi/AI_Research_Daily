@@ -1,53 +1,11 @@
 {
-  "date": "2026-04-13T08:49:44.502941",
-  "patterns": {
-    "language_models": [
-      {
-        "title": "justmeomeo1/distilbert-base-uncased-finetuned-clinc",
-        "url": "https://huggingface.co/justmeomeo1/distilbert-base-uncased-finetuned-clinc"
-      },
-      {
-        "title": "AksaraLLM/Kiel-200M-Alpaca",
-        "url": "https://huggingface.co/AksaraLLM/Kiel-200M-Alpaca"
-      },
-      {
-        "title": "AksaraLLM/Kiel-200M-Matured",
-        "url": "https://huggingface.co/AksaraLLM/Kiel-200M-Matured"
-      }
-    ],
-    "vision_systems": [
-      {
-        "title": "huggingface/documentation-images",
-        "url": "https://huggingface.co/datasets/huggingface/documentation-images"
-      },
-      {
-        "title": "Mushaa/Z-Image-Turbo.lora",
-        "url": "https://huggingface.co/Mushaa/Z-Image-Turbo.lora"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    },
-    {
-      "pattern": "vision_systems",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Vision Systems - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "date": "2026-04-13T12:31:47.789807",
+  "patterns": {},
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 2,
-    "total_inferences": 2,
-    "total_papers": 6
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
