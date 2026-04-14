@@ -140,7 +140,7 @@
     "title": "On the Complexity of the Discussion-based Semantics in Abstraction Argumentation",
     "summary": "We show that deciding whether an argument a is stronger than an argument b with respect to the discussion-based semantics of Amgoud and Ben-Naim is decidable in polynomial time. At its core, this problem is about deciding whether, for two vertices in a graph, the number of walks of each length ending in those vertices is the same. We employ results from automata theory and reduce this problem to the equivalence problem for semiring automata. This offers a new perspective on the computational complexity of ranking semantics, an area in which the complexity of many semantics remains open.",
     "authors": [
-      "Lydia Bl\u00fcmel",
+      "Lydia Blümel",
       "Kai Sauerwald",
       "Kenneth Skiba",
       "Matthias Thimm"
@@ -370,7 +370,7 @@
       "Lukas Gosch",
       "Mahalakshmi Sabanayagam",
       "Debarghya Ghoshdastidar",
-      "Stephan G\u00fcnnemann"
+      "Stephan Günnemann"
     ],
     "categories": [
       "cs.LG"
@@ -433,7 +433,7 @@
     "summary": "We study computational aspects of a key problem in robust statistics -- the penalized least trimmed squares (LTS) regression problem, a robust estimator that mitigates the influence of outliers in data by capping residuals with large magnitudes. Although statistically attractive, penalized LTS is NP-hard, and existing mixed-integer optimization (MIO) formulations scale poorly due to weak relaxations and exponential worst-case complexity in the number of observations. We propose a new MIO formulation that embeds hyperplane arrangement logic into a perspective reformulation, explicitly enforcing structural properties of optimal solutions. We show that, if the number of features is fixed, the resulting branch-and-bound tree is of polynomial size in the sample size. Moreover, we develop a tailored branch-and-bound algorithm that uses first-order methods with dual bounds to solve node relaxations efficiently. Computational experiments on synthetic and real datasets demonstrate substantial improvements over existing MIO approaches: on synthetic instances with 5000 samples and 20 features, our tailored solver reaches a 1% gap in 1 minute while competing approaches fail to do so within one hour. These gains enable exact robust regression at significantly larger sample sizes in low-dimensional settings.",
     "authors": [
       "Xiang Meng",
-      "Andr\u00e9s G\u00f3mez",
+      "Andrés Gómez",
       "Rahul Mazumder"
     ],
     "categories": [
@@ -594,7 +594,7 @@
     "summary": "Foundation models have transformed natural language processing and computer vision, and a rapidly growing literature on time-series foundation models (TSFMs) seeks to replicate this success in forecasting. While recent open-source models demonstrate the promise of TSFMs, the field lacks a comprehensive and community-accepted model evaluation framework. We see at least four major issues impeding progress on the development of such a framework. First, current evaluation frameworks consist of benchmark forecasting tasks derived from often outdated datasets (e.g., M3), many of which lack clear metadata and overlap with the corpora used to pre-train TSFMs. Second, existing frameworks evaluate models along a narrowly defined set of benchmark forecasting tasks such as forecast horizon length or domain, but overlook core statistical properties such as non-stationarity and seasonality. Third, domain-specific models (e.g., XGBoost) are often compared unfairly, as existing frameworks neglect a systematic and consistent hyperparameter tuning convention for all models. Fourth, visualization tools for interpreting comparative performance are lacking. To address these issues, we introduce TempusBench, an open-source evaluation framework for TSFMs. TempusBench consists of 1) new datasets which are not included in existing TSFM pretraining corpora, 2) a set of novel benchmark tasks that go beyond existing ones, 3) a model evaluation pipeline with a standardized hyperparameter tuning protocol, and 4) a tensorboard-based visualization interface. We provide access to our code on GitHub: https://github.com/Smlcrm/TempusBench.",
     "authors": [
       "Denizalp Goktas",
-      "Gerardo Ria\u00f1o-Brice\u00f1o",
+      "Gerardo Riaño-Briceño",
       "Alif Abdullah",
       "Aryan Nair",
       "Chenkai Shen",
@@ -1010,15 +1010,15 @@
     "summary": "Fully homomorphic encryption (FHE) has recently attracted significant attention as both a cryptographic primitive and a systems challenge. Given the latest advances in accelerated computing, FHE presents a promising opportunity for progress, with applications ranging from machine learning to information security. We target the most computationally intensive operation in deep neural networks from a hardware perspective, matrix multiplication (matmul), and adapt it for execution on AMD GPUs. We propose a new optimized method that improves the runtime and complexity of ciphertext matmul by using FIDESlib, a recent open-source FHE library designed specifically for GPUs. By exploiting sparsity in both operands, our sparse matmul implementation outperforms its CPU counterpart by up to $3.0\\times$ and reduces the time complexity from cubic to semi-linear, demonstrating an improvement over existing FHE matmul implementations.",
     "authors": [
       "Lara D'Agata",
-      "Carlos Agull\u00f3-Domingo",
-      "\u00d3scar Vera-L\u00f3pez",
+      "Carlos Agulló-Domingo",
+      "Óscar Vera-López",
       "Kaustubh Shivdikar",
       "Ardhi W. B. Yudha",
       "Ferhat Yaman",
       "David Kaeli",
-      "Jos\u00e9 L. Abell\u00e1n",
+      "José L. Abellán",
       "Ian Colbert",
-      "Jos\u00e9 Cano"
+      "José Cano"
     ],
     "categories": [
       "cs.CR",
@@ -1172,7 +1172,7 @@
     "title": "Learning to Forget -- Hierarchical Episodic Memory for Lifelong Robot Deployment",
     "summary": "Robots must verbalize their past experiences when users ask \"Where did you put my keys?\" or \"Why did the task fail?\" Yet maintaining life-long episodic memory (EM) from continuous multimodal perception quickly exceeds storage limits and makes real-time query impractical, calling for selective forgetting that adapts to users' notions of relevance. We present H$^2$-EMV, a framework enabling humanoids to learn what to remember through user interaction. Our approach incrementally constructs hierarchical EM, selectively forgets using language-model-based relevance estimation conditioned on learned natural-language rules, and updates these rules given user feedback about forgotten details. Evaluations on simulated household tasks and 20.5-hour-long real-world recordings from ARMAR-7 demonstrate that H$^2$-EMV maintains question-answering accuracy while reducing memory size by 45% and query-time compute by 35%. Critically, performance improves over time - accuracy increases 70% in second-round queries by adapting to user-specific priorities - demonstrating that learned forgetting enables scalable, personalized EM for long-term human-robot collaboration.",
     "authors": [
-      "Leonard B\u00e4rmann",
+      "Leonard Bärmann",
       "Joana Plewnia",
       "Alex Waibel",
       "Tamim Asfour"
@@ -1965,8 +1965,8 @@
   },
   {
     "arxiv_id": "2604.11757v1",
-    "title": "StarVLA-$\u03b1$: Reducing Complexity in Vision-Language-Action Systems",
-    "summary": "Vision-Language-Action (VLA) models have recently emerged as a promising paradigm for building general-purpose robotic agents. However, the VLA landscape remains highly fragmented and complex: as existing approaches vary substantially in architectures, training data, embodiment configurations, and benchmark-specific engineering. In this work, we introduce StarVLA-$\u03b1$, a simple yet strong baseline designed to study VLA design choices under controlled conditions. StarVLA-$\u03b1$ deliberately minimizes architectural and pipeline complexity to reduce experimental confounders and enable systematic analysis. Specifically, we re-evaluate several key design axes, including action modeling strategies, robot-specific pretraining, and interface engineering. Across unified multi-benchmark training on LIBERO, SimplerEnv, RoboTwin, and RoboCasa, the same simple baseline remains highly competitive, indicating that a strong VLM backbone combined with minimal design is already sufficient to achieve strong performance without relying on additional architectural complexity or engineering tricks. Notably, our single generalist model outperforms $\u03c0_{0.5}$ by 20\\% on the public real-world RoboChallenge benchmark. We expect StarVLA-$\u03b1$ to serve as a solid starting point for future research in the VLA regime. Code will be released at https://github.com/starVLA/starVLA.",
+    "title": "StarVLA-$α$: Reducing Complexity in Vision-Language-Action Systems",
+    "summary": "Vision-Language-Action (VLA) models have recently emerged as a promising paradigm for building general-purpose robotic agents. However, the VLA landscape remains highly fragmented and complex: as existing approaches vary substantially in architectures, training data, embodiment configurations, and benchmark-specific engineering. In this work, we introduce StarVLA-$α$, a simple yet strong baseline designed to study VLA design choices under controlled conditions. StarVLA-$α$ deliberately minimizes architectural and pipeline complexity to reduce experimental confounders and enable systematic analysis. Specifically, we re-evaluate several key design axes, including action modeling strategies, robot-specific pretraining, and interface engineering. Across unified multi-benchmark training on LIBERO, SimplerEnv, RoboTwin, and RoboCasa, the same simple baseline remains highly competitive, indicating that a strong VLM backbone combined with minimal design is already sufficient to achieve strong performance without relying on additional architectural complexity or engineering tricks. Notably, our single generalist model outperforms $π_{0.5}$ by 20\\% on the public real-world RoboChallenge benchmark. We expect StarVLA-$α$ to serve as a solid starting point for future research in the VLA regime. Code will be released at https://github.com/starVLA/starVLA.",
     "authors": [
       "Jinhui Ye",
       "Ning Gao",
@@ -2066,7 +2066,7 @@
     "summary": "We present a framework for bridging the gap between sensor attack detection and recovery in cyber-physical systems. The proposed framework models modern-day, complex perception pipelines as bipartite graphs, which combined with anomaly detector alerts defines a Bayesian network for inferring compromised sensors. An active probing strategy exploits system nonlinearities to maximize distinguishability between attack hypotheses, while compromised sensors are selectively disabled to maintain reliable state estimation. We propose a threshold-based probing strategy and show its effectiveness via a simplified partially observable Markov decision process (POMDP) formulation. Experiments on an inverted pendulum under single and multi-sensor attacks show that our method significantly outperforms outlier-robust and prediction-based baselines, especially under prolonged attacks.",
     "authors": [
       "Axel Andersson",
-      "Gy\u00f6rgy D\u00e1n"
+      "György Dán"
     ],
     "categories": [
       "cs.LG",
@@ -2129,8 +2129,8 @@
     "authors": [
       "J. Oppliger",
       "M. Stifter",
-      "A. R\u00fcegg",
-      "I. Bia\u0142o",
+      "A. Rüegg",
+      "I. Biało",
       "L. Martinelli",
       "P. G. Freeman",
       "D. Prabhakaran",
@@ -2497,7 +2497,7 @@
     "title": "On the Robustness of Watermarking for Autoregressive Image Generation",
     "summary": "The proliferation of autoregressive (AR) image generators demands reliable detection and attribution of their outputs to mitigate misinformation, and to filter synthetic images from training data to prevent model collapse. To address this need, watermarking techniques, specifically designed for AR models, embed a subtle signal at generation time, enabling downstream verification through a corresponding watermark detector. In this work, we study these schemes and demonstrate their vulnerability to both watermark removal and forgery attacks. We assess existing attacks and further introduce three new attacks: (i) a vector-quantized regeneration removal attack, (ii) adversarial optimization-based attack, and (iii) a frequency injection attack. Our evaluation reveals that removal and forgery attacks can be effective with access to a single watermarked reference image and without access to original model parameters or watermarking secrets. Our findings indicate that existing watermarking schemes for AR image generation do not reliably support synthetic content detection for dataset filtering. Moreover, they enable Watermark Mimicry, whereby authentic images can be manipulated to imitate a generator's watermark and trigger false detection to prevent their inclusion in future model training.",
     "authors": [
-      "Andreas M\u00fcller",
+      "Andreas Müller",
       "Denis Lukovnikov",
       "Shingo Kodama",
       "Minh Pham",
@@ -2655,13 +2655,13 @@
   },
   {
     "arxiv_id": "2604.11803v1",
-    "title": "Saar-Voice: A Multi-Speaker Saarbr\u00fccken Dialect Speech Corpus",
-    "summary": "Natural language processing (NLP) and speech technologies have made significant progress in recent years; however, they remain largely focused on standardized language varieties. Dialects, despite their cultural significance and widespread use, are underrepresented in linguistic resources and computational models, resulting in performance disparities. To address this gap, we introduce Saar-Voice, a six-hour speech corpus for the Saarbr\u00fccken dialect of German. The dataset was created by first collecting text through digitized books and locally sourced materials. A subset of this text was recorded by nine speakers, and we conducted analyses on both the textual and speech components to assess the dataset's characteristics and quality. We discuss methodological challenges related to orthographic and speaker variation, and explore grapheme-to-phoneme (G2P) conversion. The resulting corpus provides aligned textual and audio representations. This serves as a foundation for future research on dialect-aware text-to-speech (TTS), particularly in low-resource scenarios, including zero-shot and few-shot model adaptation.",
+    "title": "Saar-Voice: A Multi-Speaker Saarbrücken Dialect Speech Corpus",
+    "summary": "Natural language processing (NLP) and speech technologies have made significant progress in recent years; however, they remain largely focused on standardized language varieties. Dialects, despite their cultural significance and widespread use, are underrepresented in linguistic resources and computational models, resulting in performance disparities. To address this gap, we introduce Saar-Voice, a six-hour speech corpus for the Saarbrücken dialect of German. The dataset was created by first collecting text through digitized books and locally sourced materials. A subset of this text was recorded by nine speakers, and we conducted analyses on both the textual and speech components to assess the dataset's characteristics and quality. We discuss methodological challenges related to orthographic and speaker variation, and explore grapheme-to-phoneme (G2P) conversion. The resulting corpus provides aligned textual and audio representations. This serves as a foundation for future research on dialect-aware text-to-speech (TTS), particularly in low-resource scenarios, including zero-shot and few-shot model adaptation.",
     "authors": [
       "Lena S. Oberkircher",
       "Jesujoba O. Alabi",
       "Dietrich Klakow",
-      "J\u00fcrgen Trouvain"
+      "Jürgen Trouvain"
     ],
     "categories": [
       "cs.CL"
@@ -2701,7 +2701,7 @@
       "Stefan Andreas Baumann",
       "Miguel Angel Bautista",
       "Josh Susskind",
-      "Bj\u00f6rn Ommer"
+      "Björn Ommer"
     ],
     "categories": [
       "cs.CV"
@@ -2718,7 +2718,7 @@
     "title": "Ambivalence/Hesitancy Recognition in Videos for Personalized Digital Health Interventions",
     "summary": "Using behavioural science, health interventions focus on behaviour change by providing a framework to help patients acquire and maintain healthy habits that improve medical outcomes. In-person interventions are costly and difficult to scale, especially in resource-limited regions. Digital health interventions offer a cost-effective approach, potentially supporting independent living and self-management. Automating such interventions, especially through machine learning, has gained considerable attention recently. Ambivalence and hesitancy (A/H) play a primary role for individuals to delay, avoid, or abandon health interventions. A/H are subtle and conflicting emotions that place a person in a state between positive and negative evaluations of a behaviour, or between acceptance and refusal to engage in it. They manifest as affective inconsistency across modalities or within a modality, such as language, facial, vocal expressions, and body language. While experts can be trained to recognize A/H, integrating them into digital health interventions is costly and less effective. Automatic A/H recognition is therefore critical for the personalization and cost-effectiveness of digital health interventions. Here, we explore the application of deep learning models for A/H recognition in videos, a multi-modal task by nature. In particular, this paper covers three learning setups: supervised learning, unsupervised domain adaptation for personalization, and zero-shot inference via large language models (LLMs). Our experiments are conducted on the unique and recently published BAH video dataset for A/H recognition. Our results show limited performance, suggesting that more adapted multi-modal models are required for accurate A/H recognition. Better methods for modeling spatio-temporal and multimodal fusion are necessary to leverage conflicts within/across modalities.",
     "authors": [
-      "Manuela Gonz\u00e1lez-Gonz\u00e1lez",
+      "Manuela González-González",
       "Soufiane Belharbi",
       "Muhammad Osama Zeeshan",
       "Masoumeh Sharafi",
@@ -2857,7 +2857,7 @@
   {
     "arxiv_id": "2604.11508v1",
     "title": "Not All Forgetting Is Equal: Architecture-Dependent Retention Dynamics in Fine-Tuned Image Classifiers",
-    "summary": "Fine-tuning pretrained image classifiers is standard practice, yet which individual samples are forgotten during this process, and whether forgetting patterns are stable or architecture dependent, remains unclear. Understanding these dynamics has direct implications for curriculum design, data pruning, and ensemble construction. We track per-sample correctness at every epoch during fine-tuning of ResNet-18 and DeiT-Small on a retinal OCT dataset (7 classes, 56:1 imbalance) and CUB-200-2011 (200 bird species), fitting Ebbinghaus-style exponential decay curves to each sample's retention trace. Five findings emerge. First, the two architectures forget fundamentally different samples: Jaccard overlap of the top 10 percent most-forgotten is 0.34 on OCTDL and 0.15 on CUB-200. Second, ViT forgetting is more structured (mean $R^2 = 0.74$) than CNN forgetting ($R^2 = 0.52$). Third, per-sample forgetting is stochastic across random seeds (Spearman $\u03c1\\approx 0.01$), challenging the assumption that sample difficulty is an intrinsic property. Fourth, class-level forgetting is consistent and semantically interpretable: visually similar species are forgotten most, distinctive ones least. Fifth, a sample's loss after head warmup predicts its long-term decay constant ($\u03c1= 0.30$ to $0.50$, $p < 10^{-45}$). These findings suggest that architectural diversity in ensembles provides complementary retention coverage, and that curriculum or pruning methods based on per-sample difficulty may not generalize across runs. A spaced repetition sampler built on these decay constants does not outperform random sampling, indicating that static scheduling cannot exploit unstable per-sample signals.",
+    "summary": "Fine-tuning pretrained image classifiers is standard practice, yet which individual samples are forgotten during this process, and whether forgetting patterns are stable or architecture dependent, remains unclear. Understanding these dynamics has direct implications for curriculum design, data pruning, and ensemble construction. We track per-sample correctness at every epoch during fine-tuning of ResNet-18 and DeiT-Small on a retinal OCT dataset (7 classes, 56:1 imbalance) and CUB-200-2011 (200 bird species), fitting Ebbinghaus-style exponential decay curves to each sample's retention trace. Five findings emerge. First, the two architectures forget fundamentally different samples: Jaccard overlap of the top 10 percent most-forgotten is 0.34 on OCTDL and 0.15 on CUB-200. Second, ViT forgetting is more structured (mean $R^2 = 0.74$) than CNN forgetting ($R^2 = 0.52$). Third, per-sample forgetting is stochastic across random seeds (Spearman $ρ\\approx 0.01$), challenging the assumption that sample difficulty is an intrinsic property. Fourth, class-level forgetting is consistent and semantically interpretable: visually similar species are forgotten most, distinctive ones least. Fifth, a sample's loss after head warmup predicts its long-term decay constant ($ρ= 0.30$ to $0.50$, $p < 10^{-45}$). These findings suggest that architectural diversity in ensembles provides complementary retention coverage, and that curriculum or pruning methods based on per-sample difficulty may not generalize across runs. A spaced repetition sampler built on these decay constants does not outperform random sampling, indicating that static scheduling cannot exploit unstable per-sample signals.",
     "authors": [
       "Miit Daga",
       "Swarna Priya Ramu"
@@ -2895,7 +2895,7 @@
   {
     "arxiv_id": "2604.11373v1",
     "title": "Minimal Embodiment Enables Efficient Learning of Number Concepts in Robot",
-    "summary": "Robots are increasingly entering human-interactive scenarios that require understanding of quantity. How intelligent systems acquire abstract numerical concepts from sensorimotor experience remains a fundamental challenge in cognitive science and artificial intelligence. Here we investigate embodied numerical learning using a neural network model trained to perform sequential counting through naturalistic robotic interaction with a Franka Panda manipulator. We demonstrate that embodied models achieve 96.8\\% counting accuracy with only 10\\% of training data, compared to 60.6\\% for vision-only baselines. This advantage persists when visual-motor correspondences are randomized, indicating that embodiment functions as a structural prior that regularizes learning rather than as an information source. The model spontaneously develops biologically plausible representations: number-selective units with logarithmic tuning, mental number line organization, Weber-law scaling, and rotational dynamics encoding numerical magnitude ($r = 0.97$, slope $= 30.6\u00b0$/count). The learning trajectory parallels children's developmental progression from subset-knowers to cardinal-principle knowers. These findings demonstrate that minimal embodiment can ground abstract concepts, improve data efficiency, and yield interpretable representations aligned with biological cognition, which may contribute to embodied mathematics tutoring and safety-critical industrial applications.",
+    "summary": "Robots are increasingly entering human-interactive scenarios that require understanding of quantity. How intelligent systems acquire abstract numerical concepts from sensorimotor experience remains a fundamental challenge in cognitive science and artificial intelligence. Here we investigate embodied numerical learning using a neural network model trained to perform sequential counting through naturalistic robotic interaction with a Franka Panda manipulator. We demonstrate that embodied models achieve 96.8\\% counting accuracy with only 10\\% of training data, compared to 60.6\\% for vision-only baselines. This advantage persists when visual-motor correspondences are randomized, indicating that embodiment functions as a structural prior that regularizes learning rather than as an information source. The model spontaneously develops biologically plausible representations: number-selective units with logarithmic tuning, mental number line organization, Weber-law scaling, and rotational dynamics encoding numerical magnitude ($r = 0.97$, slope $= 30.6°$/count). The learning trajectory parallels children's developmental progression from subset-knowers to cardinal-principle knowers. These findings demonstrate that minimal embodiment can ground abstract concepts, improve data efficiency, and yield interpretable representations aligned with biological cognition, which may contribute to embodied mathematics tutoring and safety-critical industrial applications.",
     "authors": [
       "Zhegong Shangguan",
       "Alessandro Di Nuovo",
@@ -3022,7 +3022,7 @@
   {
     "arxiv_id": "2604.11639v1",
     "title": "Inter-Layer Hessian Analysis of Neural Networks with DAG Architectures",
-    "summary": "Modern automatic differentiation frameworks (JAX, PyTorch) return the Hessian of the loss function as a monolithic tensor, without exposing the internal structure of inter-layer interactions. This paper presents an analytical formalism that explicitly decomposes the full Hessian into blocks indexed by the DAG of an arbitrary architecture. The canonical decomposition $H = H^{GN} + H^T$ separates the Gauss--Newton component (convex part) from the tensor component (residual curvature responsible for saddle points). For piecewise-linear activations (ReLU), the tensor component of the input Hessian vanishes ($H^{T}_{v,w}\\!\\equiv\\!0$ a.e., $H^f_{v,w}\\!=\\!H^{GN}_{v,w}\\!\\succeq\\!0$); the full parametric Hessian contains residual terms that do not reduce to the GGN. Building on this decomposition, we introduce diagnostic metrics (inter-layer resonance~$\\mathcal{R}$, geometric coupling~$\\mathcal{C}$, stable rank~$\\mathcal{D}$, GN-Gap) that are estimated stochastically in $O(P)$ time and reveal structural curvature interactions between layers. The theoretical analysis explains exponential decay of resonance in vanilla networks and its preservation under skip connections; empirical validation spans fully connected MLPs (Exp.\\,1--5) and convolutional architectures (ResNet-18, ${\\sim}11$M~parameters, Exp.\\,6). When the architecture reduces to a single node, all definitions collapse to the standard Hessian $\\nabla^2_\u03b8\\mathcal{L}(\u03b8)\\in\\mathbb{R}^{p\\times p}$.",
+    "summary": "Modern automatic differentiation frameworks (JAX, PyTorch) return the Hessian of the loss function as a monolithic tensor, without exposing the internal structure of inter-layer interactions. This paper presents an analytical formalism that explicitly decomposes the full Hessian into blocks indexed by the DAG of an arbitrary architecture. The canonical decomposition $H = H^{GN} + H^T$ separates the Gauss--Newton component (convex part) from the tensor component (residual curvature responsible for saddle points). For piecewise-linear activations (ReLU), the tensor component of the input Hessian vanishes ($H^{T}_{v,w}\\!\\equiv\\!0$ a.e., $H^f_{v,w}\\!=\\!H^{GN}_{v,w}\\!\\succeq\\!0$); the full parametric Hessian contains residual terms that do not reduce to the GGN. Building on this decomposition, we introduce diagnostic metrics (inter-layer resonance~$\\mathcal{R}$, geometric coupling~$\\mathcal{C}$, stable rank~$\\mathcal{D}$, GN-Gap) that are estimated stochastically in $O(P)$ time and reveal structural curvature interactions between layers. The theoretical analysis explains exponential decay of resonance in vanilla networks and its preservation under skip connections; empirical validation spans fully connected MLPs (Exp.\\,1--5) and convolutional architectures (ResNet-18, ${\\sim}11$M~parameters, Exp.\\,6). When the architecture reduces to a single node, all definitions collapse to the standard Hessian $\\nabla^2_θ\\mathcal{L}(θ)\\in\\mathbb{R}^{p\\times p}$.",
     "authors": [
       "Maxim Bolshim",
       "Alexander Kugaevskikh"
@@ -3094,8 +3094,8 @@
   },
   {
     "arxiv_id": "2604.11404v1",
-    "title": "GlobalCY I: A JAX Framework for Globally Defined and Symmetry-Aware Neural K\u00e4hler Potentials",
-    "summary": "We present \\emph{GlobalCY}, a JAX-based framework for globally defined and symmetry-aware neural K\u00e4hler-potential models on projective hypersurface Calabi--Yau geometries. The central problem is that local-input neural K\u00e4hler-potential models can train successfully while still failing the geometry-sensitive diagnostics that matter in hard quartic regimes, especially near singular and near-singular members of the Cefal\u00fa family. To study this, we compare three model families -- a local-input baseline, a globally defined invariant model, and a symmetry-aware global model -- on the hard Cefal\u00fa cases $\u03bb=0.75$ and $\u03bb=1.0$ using a fixed multi-seed protocol and a geometry-aware diagnostic suite. In this benchmark, the globally defined invariant model is the strongest overall family, outperforming the local baseline on the two clearest geometric comparison metrics, negative-eigenvalue frequency and projective-invariance drift, in both cases. The gains are strongest at $\u03bb=0.75$, while $\u03bb=1.0$ remains more difficult. The current symmetry-aware model improves projective-invariance drift relative to the local baseline, but does not yet surpass the plain global invariant model. These results show that global invariant structure is a meaningful architectural constraint for learned K\u00e4hler-potential modeling in hard quartic Calabi--Yau settings.",
+    "title": "GlobalCY I: A JAX Framework for Globally Defined and Symmetry-Aware Neural Kähler Potentials",
+    "summary": "We present \\emph{GlobalCY}, a JAX-based framework for globally defined and symmetry-aware neural Kähler-potential models on projective hypersurface Calabi--Yau geometries. The central problem is that local-input neural Kähler-potential models can train successfully while still failing the geometry-sensitive diagnostics that matter in hard quartic regimes, especially near singular and near-singular members of the Cefalú family. To study this, we compare three model families -- a local-input baseline, a globally defined invariant model, and a symmetry-aware global model -- on the hard Cefalú cases $λ=0.75$ and $λ=1.0$ using a fixed multi-seed protocol and a geometry-aware diagnostic suite. In this benchmark, the globally defined invariant model is the strongest overall family, outperforming the local baseline on the two clearest geometric comparison metrics, negative-eigenvalue frequency and projective-invariance drift, in both cases. The gains are strongest at $λ=0.75$, while $λ=1.0$ remains more difficult. The current symmetry-aware model improves projective-invariance drift relative to the local baseline, but does not yet surpass the plain global invariant model. These results show that global invariant structure is a meaningful architectural constraint for learned Kähler-potential modeling in hard quartic Calabi--Yau settings.",
     "authors": [
       "Abdul Rahman"
     ],
@@ -3136,7 +3136,7 @@
   {
     "arxiv_id": "2604.11302v1",
     "title": "3D-Anchored Lookahead Planning for Persistent Robotic Scene Memory via World-Model-Based MCTS",
-    "summary": "We present 3D-Anchored Lookahead Planning (3D-ALP), a System 2 reasoning engine for robotic manipulation that combines Monte Carlo Tree Search (MCTS) with a 3D-consistent world model as the rollout oracle. Unlike reactive policies that evaluate actions from the current camera frame only, 3D-ALP maintains a persistent camera-to-world (c2w) anchor that survives occlusion, enabling accurate replanning to object positions that are no longer directly observable. On a 5-step sequential reach task requiring spatial memory (Experiment E3), 3D-ALP achieves 0.650 0.109 success rate on memory-required steps versus 0.006 0.008 for a greedy reactive baseline (\u0394=+0.645), while step 5 success reaches 0.822 against 0.000 for greedy. An ablation study (30 episodes, 3 seeds) isolates tree search spatial memory as the primary driver (+0.533, 82% of gain) with additional benefit from deeper lookahead (+0.111, 17%). We also identify and resolve four structural failure modes in applying UCT-MCTS (Upper Confidence Bounds applied to Trees [10]) to continuous robotic manipulation.",
+    "summary": "We present 3D-Anchored Lookahead Planning (3D-ALP), a System 2 reasoning engine for robotic manipulation that combines Monte Carlo Tree Search (MCTS) with a 3D-consistent world model as the rollout oracle. Unlike reactive policies that evaluate actions from the current camera frame only, 3D-ALP maintains a persistent camera-to-world (c2w) anchor that survives occlusion, enabling accurate replanning to object positions that are no longer directly observable. On a 5-step sequential reach task requiring spatial memory (Experiment E3), 3D-ALP achieves 0.650 0.109 success rate on memory-required steps versus 0.006 0.008 for a greedy reactive baseline (Δ=+0.645), while step 5 success reaches 0.822 against 0.000 for greedy. An ablation study (30 episodes, 3 seeds) isolates tree search spatial memory as the primary driver (+0.533, 82% of gain) with additional benefit from deeper lookahead (+0.111, 17%). We also identify and resolve four structural failure modes in applying UCT-MCTS (Upper Confidence Bounds applied to Trees [10]) to continuous robotic manipulation.",
     "authors": [
       "Bronislav Sidik",
       "Dror Mizrahi"
@@ -3579,10 +3579,10 @@
     "title": "Who Handles Orientation? Investigating Invariance in Feature Matching",
     "summary": "Finding matching keypoints between images is a core problem in 3D computer vision. However, modern matchers struggle with large in-plane rotations. A straightforward mitigation is to learn rotation invariance via data augmentation. However, it remains unclear at which stage rotation invariance should be incorporated. In this paper, we study this in the context of a modern sparse matching pipeline. We perform extensive experiments by training on a large collection of 3D vision datasets and evaluating on popular image matching benchmarks. Surprisingly, we find that incorporating rotation invariance already in the descriptor yields similar performance to handling it in the matcher. However, rotation invariance is achieved earlier in the matcher when it is learned in the descriptor, allowing for a faster rotation-invariant matcher. Further, we find that enforcing rotation invariance does not hurt upright performance when trained at scale. Finally, we study the emergence of rotation invariance through scale and find that increasing the training data size substantially improves generalization to rotated images. We release two matchers robust to in-plane rotations that achieve state-of-the-art performance on e.g. multi-modal (WxBS), extreme (HardMatch), and satellite image matching (SatAst). Code is available at https://github.com/davnords/loma.",
     "authors": [
-      "David Nordstr\u00f6m",
+      "David Nordström",
       "Johan Edstedt",
       "Fredrik Kahl",
-      "Georg B\u00f6kman"
+      "Georg Bökman"
     ],
     "categories": [
       "cs.CV"
@@ -3849,7 +3849,7 @@
     "title": "The Missing Knowledge Layer in Cognitive Architectures for AI Agents",
     "summary": "The two most influential cognitive architecture frameworks for AI agents, CoALA [21] and JEPA [12], both lack an explicit Knowledge layer with its own persistence semantics. This gap produces a category error: systems apply cognitive decay to factual claims, or treat facts and experiences with identical update mechanics. We survey persistence semantics across existing memory systems and identify eight convergence points, from Karpathy's LLM Knowledge Base [10] to the BEAM benchmark's near-zero contradiction-resolution scores [22], all pointing to related architectural gaps. We propose a four-layer decom position (Knowledge, Memory, Wisdom, Intelligence) where each layer has fundamentally different persistence semantics: indefinite supersession, Ebbinghaus decay, evidence-gated revision, and ephemeral inference respectively. Companion implementations in Python and Rust demonstrate the architectural separation is feasible. We borrow terminology from cognitive science as a useful analogy (the Knowledge/Memory distinction echoes Tulving's trichotomy), but our layers are engineering constructs justified by persistence-semantics requirements, not by neural architecture. We argue that these distinctions demand distinct persistence semantics in engineering implementations, and that no current framework or system provides this.",
     "authors": [
-      "Micha\u00ebl Roynard"
+      "Michaël Roynard"
     ],
     "categories": [
       "cs.AI"
@@ -3893,7 +3893,7 @@
     "summary": "Reasoning has become a central capability in large language models. Recent research has shown that reasoning performance can be improved by looping an LLM's layers in the latent dimension, resulting in looped reasoning language models. Despite promising results, few works have investigated how their internal dynamics differ from those of standard feedforward models. In this paper, we conduct a mechanistic analysis of the latent states in looped language models, focusing in particular on how the stages of inference observed in feedforward models compare to those observed in looped ones. To this end, we analyze cyclic recurrence and show that for many of the studied models each layer in the cycle converges to a distinct fixed point; consequently, the recurrent block follows a consistent cyclic trajectory in the latent space. We provide evidence that as these fixed points are reached, attention-head behavior stabilizes, leading to constant behavior across recurrences. Empirically, we discover that recurrent blocks learn stages of inference that closely mirror those of feedforward models, repeating these stages in depth with each iteration. We study how recurrent block size, input injection, and normalization influence the emergence and stability of these cyclic fixed points. We believe these findings help translate mechanistic insights into practical guidance for architectural design.",
     "authors": [
       "Hugh Blayney",
-      "\u00c1lvaro Arroyo",
+      "Álvaro Arroyo",
       "Johan Obando-Ceron",
       "Pablo Samuel Castro",
       "Aaron Courville",
@@ -4065,7 +4065,7 @@
     "summary": "Synthesizing supervised finetuning (SFT) data from language models (LMs) to teach smaller models multilingual tasks has become increasingly common. However, teacher model selection is often ad hoc, typically defaulting to the largest available option, even though such models may have significant capability gaps in non-English languages. This practice can result in poor-quality synthetic data and suboptimal student downstream performance. In this work, we systematically characterize what makes an effective multilingual teacher. We measure intrinsic measures of data quality with extrinsic student model performance in a metric we call Polyglot Score; evaluating 10 LMs across 6 typologically diverse languages, generating over 1.4M SFT examples and training 240 student models. Among the models tested, Gemma 3 27B and Aya Expanse 32B emerge as consistently effective teachers across different student base model families. Further analyses reveal that model scale alone does not significantly predict teacher effectiveness; instead, data qualities such as prompt diversity, length, and response fluency capture over 93.3% of variance in intrinsic data quality and predict student performance. Finally, we provide practical recommendations, including matching the model families of teacher-student pairs and translating from or responding to existing prompts, which can yield improvements for less-resourced languages. We hope that our work advances data-centric research in multilingual synthetic data and LM development.",
     "authors": [
       "Lester James V. Miranda",
-      "Ivan Vuli\u0107",
+      "Ivan Vulić",
       "Anna Korhonen"
     ],
     "categories": [
@@ -4083,7 +4083,7 @@
     "title": "KL Divergence Between Gaussians: A Step-by-Step Derivation for the Variational Autoencoder Objective",
     "summary": "Kullback-Leibler (KL) divergence is a fundamental concept in information theory that quantifies the discrepancy between two probability distributions. In the context of Variational Autoencoders (VAEs), it serves as a central regularization term, imposing structure on the latent space and thereby enabling the model to exhibit generative capabilities. In this work, we present a detailed derivation of the closed-form expression for the KL divergence between Gaussian distributions, a case of particular importance in practical VAE implementations. Starting from the general definition for continuous random variables, we derive the expression for the univariate case and extend it to the multivariate setting under the assumption of diagonal covariance. Finally, we discuss the interpretation of each term in the resulting expression and its impact on the training dynamics of the model.",
     "authors": [
-      "Andr\u00e9s Mu\u00f1oz",
+      "Andrés Muñoz",
       "Rodrigo Ramele"
     ],
     "categories": [
@@ -4123,7 +4123,7 @@
     "authors": [
       "M. W. Przewozniczek",
       "F. Chicano",
-      "R. Tin\u00f3s",
+      "R. Tinós",
       "M. M. Komarnicki"
     ],
     "categories": [
@@ -4140,7 +4140,7 @@
   {
     "arxiv_id": "2604.11468v1",
     "title": "Beyond Model Design: Data-Centric Training and Self-Ensemble for Gaussian Color Image Denoising",
-    "summary": "This paper presents our solution to the NTIRE 2026 Image Denoising Challenge (Gaussian color image denoising at fixed noise level $\u03c3= 50$). Rather than proposing a new restoration backbone, we revisit the performance boundary of the mature Restormer architecture from two complementary directions: stronger data-centric training and more complete Test-Time capability release. Starting from the public Restormer $\u03c3\\!=\\!50$ baseline, we expand the standard multi-dataset training recipe with larger and more diverse public image corpora and organize optimization into two stages. At inference, we apply $\\times 8$ geometric self-ensemble to further release model capacity. A TLC-style local inference wrapper is retained for implementation consistency; however, systematic ablation reveals its quantitative contribution to be negligible in this setting. On the challenge validation set of 100 images, our final submission achieves 30.762 dB PSNR and 0.861 SSIM, improving over the public Restormer $\u03c3\\!=\\!50$ pretrained baseline by up to 3.366 dB PSNR. Ablation studies show that the dominant gain originates from the expanded training corpus and the two-stage optimization schedule, and self-ensemble provides marginal but consistent improvement.",
+    "summary": "This paper presents our solution to the NTIRE 2026 Image Denoising Challenge (Gaussian color image denoising at fixed noise level $σ= 50$). Rather than proposing a new restoration backbone, we revisit the performance boundary of the mature Restormer architecture from two complementary directions: stronger data-centric training and more complete Test-Time capability release. Starting from the public Restormer $σ\\!=\\!50$ baseline, we expand the standard multi-dataset training recipe with larger and more diverse public image corpora and organize optimization into two stages. At inference, we apply $\\times 8$ geometric self-ensemble to further release model capacity. A TLC-style local inference wrapper is retained for implementation consistency; however, systematic ablation reveals its quantitative contribution to be negligible in this setting. On the challenge validation set of 100 images, our final submission achieves 30.762 dB PSNR and 0.861 SSIM, improving over the public Restormer $σ\\!=\\!50$ pretrained baseline by up to 3.366 dB PSNR. Ablation studies show that the dominant gain originates from the expanded training corpus and the two-stage optimization schedule, and self-ensemble provides marginal but consistent improvement.",
     "authors": [
       "Gengjia Chang",
       "Xining Ge",
@@ -4166,7 +4166,7 @@
     "summary": "Existing AI benchmarks lack the fidelity to assess economically meaningful progress on professional workflows. To evaluate frontier AI agents in a high-value, labor-intensive profession, we introduce BankerToolBench (BTB): an open-source benchmark of end-to-end analytical workflows routinely performed by junior investment bankers. To develop an ecologically valid benchmark grounded in representative work environments, we collaborated with 502 investment bankers from leading firms. BTB requires agents to execute senior banker requests by navigating data rooms, using industry tools (market data platform, SEC filings database), and generating multi-file deliverables--including Excel financial models, PowerPoint pitch decks, and PDF/Word reports. Completing a BTB task takes bankers up to 21 hours, underscoring the economic stakes of successfully delegating this work to AI. BTB enables automated evaluation of any LLM or agent, scoring deliverables against 100+ rubric criteria defined by veteran investment bankers to capture stakeholder utility. Testing 9 frontier models, we find that even the best-performing model (GPT-5.4) fails nearly half of the rubric criteria and bankers rate 0% of its outputs as client-ready. Our failure analysis reveals key obstacles (such as breakdowns in cross-artifact consistency) and improvement directions for agentic AI in high-stakes professional workflows.",
     "authors": [
       "Elaine Lau",
-      "Markus D\u00fccker",
+      "Markus Dücker",
       "Ronak Chaudhary",
       "Hui Wen Goh",
       "Rosemary Wei",
@@ -4191,7 +4191,7 @@
       "Skyler Wang",
       "Anish Athalye",
       "Jonas Mueller",
-      "Francisco Guzm\u00e1n"
+      "Francisco Guzmán"
     ],
     "categories": [
       "cs.AI"
@@ -4336,12 +4336,12 @@
     "title": "Towards Brain MRI Foundation Models for the Clinic: Findings from the FOMO25 Challenge",
     "summary": "Clinical deployment of automated brain MRI analysis faces a fundamental challenge: clinical data is heterogeneous and noisy, and high-quality labels are prohibitively costly to obtain. Self-supervised learning (SSL) can address this by leveraging the vast amounts of unlabeled data produced in clinical workflows to train robust \\textit{foundation models} that adapt out-of-domain with minimal supervision. However, the development of foundation models for brain MRI has been limited by small pretraining datasets and in-domain benchmarking focused on high-quality, research-grade data. To address this gap, we organized the FOMO25 challenge as a satellite event at MICCAI 2025. FOMO25 provided participants with a large pretraining dataset, FOMO60K, and evaluated models on data sourced directly from clinical workflows in few-shot and out-of-domain settings. Tasks covered infarct classification, meningioma segmentation, and brain age regression, and considered both models trained on FOMO60K (method track) and any data (open track). Nineteen foundation models from sixteen teams were evaluated using a standardized containerized pipeline. Results show that (a) self-supervised pretraining improves generalization on clinical data under domain shift, with the strongest models trained \\textit{out-of-domain} surpassing supervised baselines trained \\textit{in-domain}. (b) No single pretraining objective benefits all tasks: MAE favors segmentation, hybrid reconstruction-contrastive objectives favor classification, and (c) strong performance was achieved by small pretrained models, and improvements from scaling model size and training duration did not yield reliable benefits.",
     "authors": [
-      "Asbj\u00f8rn Munk",
+      "Asbjørn Munk",
       "Stefano Cerri",
       "Vardan Nersesjan",
       "Christian Hedeager Krag",
       "Jakob Ambsdorf",
-      "Pablo Rocamora Garc\u00eda",
+      "Pablo Rocamora García",
       "Julia Machnio",
       "Peirong Liu",
       "Suhyun Ahn",
@@ -4367,7 +4367,7 @@
       "Saurabh Garg",
       "Jakub Gazda",
       "Matej Gazda",
-      "Beno\u00eet G\u00e9rin",
+      "Benoît Gérin",
       "Partha Ghosh",
       "Weikang Gong",
       "Pedro M. Gordaliza",
@@ -4388,12 +4388,12 @@
       "Anant Madabhushi",
       "Klaus H. Maier-Hein",
       "Pierre Manceron",
-      "Andr\u00e9s Mart\u00ednez Mora",
+      "Andrés Martínez Mora",
       "Moona Mazher",
       "Felix Meister",
       "Nataliia Molchanova",
       "Steven A. Niederer",
-      "Leonard N\u00fcrnberg",
+      "Leonard Nürnberg",
       "Jinah Park",
       "Abdul Qayyum",
       "Jonas Richiardi",
@@ -4415,7 +4415,7 @@
       "Mostafa Mehdipour Ghazi",
       "Akshay Pai",
       "Espen Jimenez Solem",
-      "Sebastian N\u00f8rgaard Llambias",
+      "Sebastian Nørgaard Llambias",
       "Mikael Boesen",
       "Michael Eriksen Benros",
       "Juan Eugenio Iglesias",
@@ -4682,337 +4682,5 @@
     "date": "2026-04-14",
     "source": "arxiv",
     "research_score": 0.41
-  },
-  {
-    "model_id": "arunos728/moss_conv_new_vel13_ck40_tv_s8_left_len8_lite_mst",
-    "author": "unknown",
-    "title": "arunos728/moss_conv_new_vel13_ck40_tv_s8_left_len8_lite_mst",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-04-14T05:02:32.000Z",
-    "last_modified": "2026-04-14T05:02:32.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/arunos728/moss_conv_new_vel13_ck40_tv_s8_left_len8_lite_mst",
-    "date": "2026-04-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "arunos728/moss_conv_new_vel13_ck16_tv_s8_left_len8_lite_mst_va",
-    "author": "unknown",
-    "title": "arunos728/moss_conv_new_vel13_ck16_tv_s8_left_len8_lite_mst_va",
-    "downloads": 15,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "AlinVLAv0",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-04-12T09:44:46.000Z",
-    "last_modified": "2026-04-14T05:02:29.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/arunos728/moss_conv_new_vel13_ck16_tv_s8_left_len8_lite_mst_va",
-    "date": "2026-04-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "BIGAI-models/MagicText-1.2_fine-tuning",
-    "author": "unknown",
-    "title": "BIGAI-models/MagicText-1.2_fine-tuning",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "pytorch",
-      "lstm",
-      "character-level",
-      "text-generation",
-      "ru",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "pytorch",
-    "created_at": "2026-04-14T04:44:43.000Z",
-    "last_modified": "2026-04-14T05:01:21.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/BIGAI-models/MagicText-1.2_fine-tuning",
-    "date": "2026-04-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "arunos728/moss_conv_new_vel13_ck16_s8_left_len8_lite_mst",
-    "author": "unknown",
-    "title": "arunos728/moss_conv_new_vel13_ck16_s8_left_len8_lite_mst",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "AlinVLAv0",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-04-14T04:59:21.000Z",
-    "last_modified": "2026-04-14T05:01:19.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/arunos728/moss_conv_new_vel13_ck16_s8_left_len8_lite_mst",
-    "date": "2026-04-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "admijgjtjtjtjjg/tiny-gpt-production",
-    "author": "unknown",
-    "title": "admijgjtjtjtjjg/tiny-gpt-production",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-14T04:02:02.000Z",
-    "last_modified": "2026-04-14T05:00:52.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/admijgjtjtjtjjg/tiny-gpt-production",
-    "date": "2026-04-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "mlnomad/yatnmn-softplus-d12-fineweb-edu-261M",
-    "author": "unknown",
-    "title": "mlnomad/yatnmn-softplus-d12-fineweb-edu-261M",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "flax",
-      "jax",
-      "gpt",
-      "yatnmn",
-      "softplus",
-      "chinchilla",
-      "fineweb-edu",
-      "continued-pretraining",
-      "en",
-      "dataset:allenai/c4",
-      "dataset:HuggingFaceFW/fineweb-edu",
-      "base_model:mlnomad/yatnmn-softplus-d12-chinchilla-261M",
-      "base_model:finetune:mlnomad/yatnmn-softplus-d12-chinchilla-261M",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "flax",
-    "created_at": "2026-04-14T04:57:59.000Z",
-    "last_modified": "2026-04-14T05:00:36.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/mlnomad/yatnmn-softplus-d12-fineweb-edu-261M",
-    "date": "2026-04-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Youssofal/MiniMax-M2.7-Abliterated-Heretic-MLX",
-    "author": "unknown",
-    "title": "Youssofal/MiniMax-M2.7-Abliterated-Heretic-MLX",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "mlx",
-      "mlx-lm",
-      "minimax",
-      "minimax_m2",
-      "moe",
-      "mixture-of-experts",
-      "abliterated",
-      "uncensored",
-      "heretic",
-      "ara",
-      "text-generation",
-      "base_model:MiniMaxAI/MiniMax-M2.7",
-      "base_model:finetune:MiniMaxAI/MiniMax-M2.7",
-      "license:other",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "mlx",
-    "created_at": "2026-04-14T04:58:31.000Z",
-    "last_modified": "2026-04-14T04:58:31.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Youssofal/MiniMax-M2.7-Abliterated-Heretic-MLX",
-    "date": "2026-04-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "odats/rl_nmt_2026_04_13_15_39",
-    "author": "unknown",
-    "title": "odats/rl_nmt_2026_04_13_15_39",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma3_text",
-      "text-generation",
-      "generated_from_trainer",
-      "grpo",
-      "trl",
-      "conversational",
-      "arxiv:2402.03300",
-      "base_model:google/gemma-3-1b-it",
-      "base_model:finetune:google/gemma-3-1b-it",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-13T15:39:10.000Z",
-    "last_modified": "2026-04-14T04:56:52.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/odats/rl_nmt_2026_04_13_15_39",
-    "date": "2026-04-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "rachel-luxangel-ai/zit-korean-influencer",
-    "author": "unknown",
-    "title": "rachel-luxangel-ai/zit-korean-influencer",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "diffusers",
-      "text-to-image",
-      "lora",
-      "template:diffusion-lora",
-      "base_model:Tongyi-MAI/Z-Image-Turbo",
-      "base_model:adapter:Tongyi-MAI/Z-Image-Turbo",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "diffusers",
-    "created_at": "2026-04-14T04:56:08.000Z",
-    "last_modified": "2026-04-14T04:56:13.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/rachel-luxangel-ai/zit-korean-influencer",
-    "date": "2026-04-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "VladShash/olmo-3-7b-lean-prover-dpo-olmo",
-    "author": "unknown",
-    "title": "VladShash/olmo-3-7b-lean-prover-dpo-olmo",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "olmo3",
-      "text-generation",
-      "generated_from_trainer",
-      "dpo",
-      "trl",
-      "conversational",
-      "arxiv:2305.18290",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-13T15:13:16.000Z",
-    "last_modified": "2026-04-14T04:55:09.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/VladShash/olmo-3-7b-lean-prover-dpo-olmo",
-    "date": "2026-04-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "rachel-luxangel-ai/z-real",
-    "author": "unknown",
-    "title": "rachel-luxangel-ai/z-real",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "diffusers",
-      "text-to-image",
-      "lora",
-      "template:diffusion-lora",
-      "base_model:Tongyi-MAI/Z-Image-Turbo",
-      "base_model:adapter:Tongyi-MAI/Z-Image-Turbo",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "diffusers",
-    "created_at": "2026-04-14T04:53:48.000Z",
-    "last_modified": "2026-04-14T04:54:00.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/rachel-luxangel-ai/z-real",
-    "date": "2026-04-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "DCAgent/e1_gpt_short_d1_original_glm47",
-    "author": "unknown",
-    "title": "DCAgent/e1_gpt_short_d1_original_glm47",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "llama-factory",
-      "full",
-      "generated_from_trainer",
-      "conversational",
-      "base_model:Qwen/Qwen3-8B",
-      "base_model:finetune:Qwen/Qwen3-8B",
-      "license:other",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-14T04:51:29.000Z",
-    "last_modified": "2026-04-14T04:53:45.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/DCAgent/e1_gpt_short_d1_original_glm47",
-    "date": "2026-04-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
