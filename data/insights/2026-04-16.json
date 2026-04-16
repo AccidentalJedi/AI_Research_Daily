@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-16T08:42:12.335770",
+  "date": "2026-04-16T12:32:07.771162",
   "patterns": {
     "multimodal_research": [
       {
@@ -677,6 +677,14 @@
       {
         "title": "Seek-and-Solve: Benchmarking MLLMs for Visual Clue-Driven Reasoning in Daily Scenarios",
         "url": "https://arxiv.org/abs/2604.14041v1"
+      },
+      {
+        "title": "OliverHeine/albert-base-v2_fold_6",
+        "url": "https://huggingface.co/OliverHeine/albert-base-v2_fold_6"
+      },
+      {
+        "title": "parisunanda/email-spam-detector-distilbert",
+        "url": "https://huggingface.co/parisunanda/email-spam-detector-distilbert"
       }
     ],
     "vision_systems": [
@@ -1665,7 +1673,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1724,6 +1732,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 406
+    "total_papers": 408
   }
 }
