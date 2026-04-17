@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-17T12:29:02.303564",
+  "date": "2026-04-17T16:25:54.123846",
   "patterns": {
     "multimodal_research": [
       {
@@ -673,6 +673,18 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
+      },
+      {
+        "title": "haythembs/marbertv2-polarity-tunisianv2",
+        "url": "https://huggingface.co/haythembs/marbertv2-polarity-tunisianv2"
+      },
+      {
+        "title": "Gasolinaaa/dialogpt-empathetic-new",
+        "url": "https://huggingface.co/Gasolinaaa/dialogpt-empathetic-new"
+      },
+      {
+        "title": "finiarisab/TamGPT-1.0",
+        "url": "https://huggingface.co/finiarisab/TamGPT-1.0"
       }
     ],
     "vision_systems": [
@@ -1721,7 +1733,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1780,6 +1792,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 420
+    "total_papers": 423
   }
 }
