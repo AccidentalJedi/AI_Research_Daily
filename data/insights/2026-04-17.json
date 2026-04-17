@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-17T08:41:25.346137",
+  "date": "2026-04-17T12:29:02.303564",
   "patterns": {
     "multimodal_research": [
       {
@@ -673,10 +673,6 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
-      },
-      {
-        "title": "OliverHeine/huawei-noah_TinyBERT_General_6L_768D_fold_5",
-        "url": "https://huggingface.co/OliverHeine/huawei-noah_TinyBERT_General_6L_768D_fold_5"
       }
     ],
     "vision_systems": [
@@ -1725,7 +1721,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1784,6 +1780,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 421
+    "total_papers": 420
   }
 }
