@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-18T08:20:30.841681",
+  "date": "2026-04-18T12:19:37.527983",
   "patterns": {
     "multimodal_research": [
       {
@@ -673,14 +673,6 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
-      },
-      {
-        "title": "lihaoxin2020/qwen3-4b-refiner-gpt54-ep3",
-        "url": "https://huggingface.co/lihaoxin2020/qwen3-4b-refiner-gpt54-ep3"
-      },
-      {
-        "title": "lihaoxin2020/qwen3-4b-refiner-gpt54-ep2",
-        "url": "https://huggingface.co/lihaoxin2020/qwen3-4b-refiner-gpt54-ep2"
       }
     ],
     "vision_systems": [
@@ -967,10 +959,6 @@
       {
         "title": "Implicit Neural Representations: A Signal Processing Perspective",
         "url": "https://arxiv.org/abs/2604.15047v1"
-      },
-      {
-        "title": "zacdan4801/wav2vec2-lv-60-espeak-cv-ft-WCTC-phocab-ds-f2",
-        "url": "https://huggingface.co/zacdan4801/wav2vec2-lv-60-espeak-cv-ft-WCTC-phocab-ds-f2"
       }
     ],
     "reasoning": [
@@ -1253,6 +1241,10 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
+      },
+      {
+        "title": "Zhantas/DeepGemma-E4B-Reasoning",
+        "url": "https://huggingface.co/Zhantas/DeepGemma-E4B-Reasoning"
       }
     ],
     "benchmarks": [
@@ -1703,10 +1695,6 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
-      },
-      {
-        "title": "mwhyd2262/Alita-V4-Balanced-Final-SOTA",
-        "url": "https://huggingface.co/mwhyd2262/Alita-V4-Balanced-Final-SOTA"
       }
     ]
   },
@@ -1737,19 +1725,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "89 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1761,7 +1749,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "113 independent papers",
+      "observation": "112 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1778,13 +1766,13 @@
       "significance": "high"
     },
     {
-      "topic": "generation",
+      "topic": "reasoning",
       "frequency": 39,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 38,
+      "topic": "generation",
+      "frequency": 39,
       "significance": "high"
     },
     {
@@ -1796,6 +1784,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 424
+    "total_papers": 421
   }
 }
