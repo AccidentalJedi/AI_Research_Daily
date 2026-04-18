@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-18T12:19:37.527983",
+  "date": "2026-04-18T16:18:01.661648",
   "patterns": {
     "multimodal_research": [
       {
@@ -673,6 +673,14 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
+      },
+      {
+        "title": "timpal0l/gpt-sw3-126m-instruct",
+        "url": "https://huggingface.co/timpal0l/gpt-sw3-126m-instruct"
+      },
+      {
+        "title": "open-machine/SmolLM2-135M-FlashNorm",
+        "url": "https://huggingface.co/open-machine/SmolLM2-135M-FlashNorm"
       }
     ],
     "vision_systems": [
@@ -1241,10 +1249,6 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
-      },
-      {
-        "title": "Zhantas/DeepGemma-E4B-Reasoning",
-        "url": "https://huggingface.co/Zhantas/DeepGemma-E4B-Reasoning"
       }
     ],
     "benchmarks": [
@@ -1725,7 +1729,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1737,7 +1741,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1766,13 +1770,13 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
+      "topic": "generation",
       "frequency": 39,
       "significance": "high"
     },
     {
-      "topic": "generation",
-      "frequency": 39,
+      "topic": "reasoning",
+      "frequency": 38,
       "significance": "high"
     },
     {
@@ -1784,6 +1788,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 421
+    "total_papers": 422
   }
 }
