@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-18T00:42:11.450516",
+  "date": "2026-04-18T04:52:22.901744",
   "patterns": {
     "multimodal_research": [
       {
@@ -673,10 +673,6 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
-      },
-      {
-        "title": "mustaphakassimi/camelbert-darija-sentiment",
-        "url": "https://huggingface.co/mustaphakassimi/camelbert-darija-sentiment"
       }
     ],
     "vision_systems": [
@@ -963,10 +959,6 @@
       {
         "title": "Implicit Neural Representations: A Signal Processing Perspective",
         "url": "https://arxiv.org/abs/2604.15047v1"
-      },
-      {
-        "title": "bleckhert/Qwen-Image-Edit-Rapid-AIO",
-        "url": "https://huggingface.co/bleckhert/Qwen-Image-Edit-Rapid-AIO"
       }
     ],
     "reasoning": [
@@ -1729,13 +1721,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1788,6 +1780,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 422
+    "total_papers": 420
   }
 }
