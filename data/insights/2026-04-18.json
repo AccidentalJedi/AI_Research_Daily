@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-18T04:52:22.901744",
+  "date": "2026-04-18T08:20:30.841681",
   "patterns": {
     "multimodal_research": [
       {
@@ -673,6 +673,14 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
+      },
+      {
+        "title": "lihaoxin2020/qwen3-4b-refiner-gpt54-ep3",
+        "url": "https://huggingface.co/lihaoxin2020/qwen3-4b-refiner-gpt54-ep3"
+      },
+      {
+        "title": "lihaoxin2020/qwen3-4b-refiner-gpt54-ep2",
+        "url": "https://huggingface.co/lihaoxin2020/qwen3-4b-refiner-gpt54-ep2"
       }
     ],
     "vision_systems": [
@@ -959,6 +967,10 @@
       {
         "title": "Implicit Neural Representations: A Signal Processing Perspective",
         "url": "https://arxiv.org/abs/2604.15047v1"
+      },
+      {
+        "title": "zacdan4801/wav2vec2-lv-60-espeak-cv-ft-WCTC-phocab-ds-f2",
+        "url": "https://huggingface.co/zacdan4801/wav2vec2-lv-60-espeak-cv-ft-WCTC-phocab-ds-f2"
       }
     ],
     "reasoning": [
@@ -1691,6 +1703,10 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
+      },
+      {
+        "title": "mwhyd2262/Alita-V4-Balanced-Final-SOTA",
+        "url": "https://huggingface.co/mwhyd2262/Alita-V4-Balanced-Final-SOTA"
       }
     ]
   },
@@ -1721,13 +1737,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1745,7 +1761,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "112 independent papers",
+      "observation": "113 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1780,6 +1796,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 420
+    "total_papers": 424
   }
 }
