@@ -1,33 +1,22 @@
 {
-  "date": "2026-04-20T05:09:04.412501",
+  "date": "2026-04-20T08:53:07.086481",
   "patterns": {
     "language_models": [
       {
-        "title": "tahp0604/finbert-sentfin-lora",
-        "url": "https://huggingface.co/tahp0604/finbert-sentfin-lora"
+        "title": "m9701258/llm-course-ch4-c1-car",
+        "url": "https://huggingface.co/m9701258/llm-course-ch4-c1-car"
       },
       {
-        "title": "wangzhang/gpt-oss-20b-abliterated-GGUF",
-        "url": "https://huggingface.co/wangzhang/gpt-oss-20b-abliterated-GGUF"
-      },
-      {
-        "title": "LT109/SmolLM2-FT-MyDataset",
-        "url": "https://huggingface.co/LT109/SmolLM2-FT-MyDataset"
+        "title": "Lin821/llm-course-ch4-linyanting",
+        "url": "https://huggingface.co/Lin821/llm-course-ch4-linyanting"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
