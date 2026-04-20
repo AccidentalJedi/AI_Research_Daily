@@ -1,33 +1,11 @@
 {
-  "date": "2026-04-20T16:33:49.896235",
-  "patterns": {
-    "language_models": [
-      {
-        "title": "weng1234/llm-course-ch4-weng-v2",
-        "url": "https://huggingface.co/weng1234/llm-course-ch4-weng-v2"
-      },
-      {
-        "title": "weng1234/llm-course-ch4-weng-v1",
-        "url": "https://huggingface.co/weng1234/llm-course-ch4-weng-v1"
-      },
-      {
-        "title": "JedBabs/roberta-ai-detector-v2-4-c1",
-        "url": "https://huggingface.co/JedBabs/roberta-ai-detector-v2-4-c1"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "date": "2026-04-20T20:20:11.126992",
+  "patterns": {},
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
