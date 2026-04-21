@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-21T12:31:37.445095",
+  "date": "2026-04-21T16:31:23.178707",
   "patterns": {
     "multimodal_research": [
       {
@@ -715,16 +715,24 @@
         "url": "https://arxiv.org/abs/2604.18512v1"
       },
       {
-        "title": "pekosmaggle/bert-fakenews",
-        "url": "https://huggingface.co/pekosmaggle/bert-fakenews"
-      },
-      {
         "title": "MedProbeBench: Systematic Benchmarking at Deep Evidence Integration for Expert-level Medical Guideline",
         "url": "https://arxiv.org/abs/2604.18418v1"
       },
       {
-        "title": "BlessedDovis/distilbert-sentiment-analysis",
-        "url": "https://huggingface.co/BlessedDovis/distilbert-sentiment-analysis"
+        "title": "Athallie/skripsi-bertopic-tm",
+        "url": "https://huggingface.co/Athallie/skripsi-bertopic-tm"
+      },
+      {
+        "title": "Muscaria/gpt2_viet_story",
+        "url": "https://huggingface.co/Muscaria/gpt2_viet_story"
+      },
+      {
+        "title": "ayushchhajer/roberta_disorder_analysis",
+        "url": "https://huggingface.co/ayushchhajer/roberta_disorder_analysis"
+      },
+      {
+        "title": "SabahatF/distilbert-imdb-sentiment",
+        "url": "https://huggingface.co/SabahatF/distilbert-imdb-sentiment"
       }
     ],
     "vision_systems": [
@@ -959,6 +967,10 @@
       {
         "title": "A Comparative Evaluation of Geometric Accuracy in NeRF and Gaussian Splatting",
         "url": "https://arxiv.org/abs/2604.18205v1"
+      },
+      {
+        "title": "ixim/ERNIE-Image-INT8",
+        "url": "https://huggingface.co/ixim/ERNIE-Image-INT8"
       }
     ],
     "reasoning": [
@@ -1751,6 +1763,10 @@
       {
         "title": "OmniHuman: A Large-scale Dataset and Benchmark for Human-Centric Video Generation",
         "url": "https://arxiv.org/abs/2604.18326v1"
+      },
+      {
+        "title": "SOTAagi2030/MyAwesomeModel-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo"
       }
     ]
   },
@@ -1781,13 +1797,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "100 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "58 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1805,7 +1821,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "113 independent papers",
+      "observation": "114 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1840,6 +1856,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 435
+    "total_papers": 439
   }
 }
