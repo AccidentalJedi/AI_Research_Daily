@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-21T05:05:11.303045",
+  "date": "2026-04-21T08:45:06.531576",
   "patterns": {
     "multimodal_research": [
       {
@@ -719,8 +719,8 @@
         "url": "https://arxiv.org/abs/2604.18418v1"
       },
       {
-        "title": "adityawakharkar/AstraGPT-7B",
-        "url": "https://huggingface.co/adityawakharkar/AstraGPT-7B"
+        "title": "DrinkIcedT/roberta-large_mbti",
+        "url": "https://huggingface.co/DrinkIcedT/roberta-large_mbti"
       }
     ],
     "vision_systems": [
@@ -1293,10 +1293,6 @@
       {
         "title": "Towards Symmetry-sensitive Pose Estimation: A Rotation Representation for Symmetric Object Classes",
         "url": "https://arxiv.org/abs/2604.18208v1"
-      },
-      {
-        "title": "gopi87/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-Q4_K_M-GGUF",
-        "url": "https://huggingface.co/gopi87/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-Q4_K_M-GGUF"
       }
     ],
     "benchmarks": [
@@ -1793,7 +1789,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1813,7 +1809,7 @@
   "research_trends": [
     {
       "topic": "language",
-      "frequency": 89,
+      "frequency": 88,
       "significance": "high"
     },
     {
@@ -1828,7 +1824,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 46,
+      "frequency": 45,
       "significance": "high"
     },
     {
@@ -1840,6 +1836,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 435
+    "total_papers": 434
   }
 }
