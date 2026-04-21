@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-21T08:45:06.531576",
+  "date": "2026-04-21T12:31:37.445095",
   "patterns": {
     "multimodal_research": [
       {
@@ -715,12 +715,16 @@
         "url": "https://arxiv.org/abs/2604.18512v1"
       },
       {
+        "title": "pekosmaggle/bert-fakenews",
+        "url": "https://huggingface.co/pekosmaggle/bert-fakenews"
+      },
+      {
         "title": "MedProbeBench: Systematic Benchmarking at Deep Evidence Integration for Expert-level Medical Guideline",
         "url": "https://arxiv.org/abs/2604.18418v1"
       },
       {
-        "title": "DrinkIcedT/roberta-large_mbti",
-        "url": "https://huggingface.co/DrinkIcedT/roberta-large_mbti"
+        "title": "BlessedDovis/distilbert-sentiment-analysis",
+        "url": "https://huggingface.co/BlessedDovis/distilbert-sentiment-analysis"
       }
     ],
     "vision_systems": [
@@ -1777,7 +1781,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "99 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1836,6 +1840,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 434
+    "total_papers": 435
   }
 }
