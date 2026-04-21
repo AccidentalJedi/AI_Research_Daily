@@ -132,7 +132,7 @@
   {
     "arxiv_id": "2604.18459v1",
     "title": "Progressive Online Video Understanding with Evidence-Aligned Timing and Transparent Decisions",
-    "summary": "Visual agents operating in the wild must respond to queries precisely when sufficient evidence first appears in a video stream, a critical capability that is overlooked by conventional video LLMs evaluated in offline settings. The shift to an online, streaming paradigm introduces significant challenges: a lack of decision transparency, the difficulty of aligning response timing with visual evidence, and the need to maintain a global, causally consistent understanding under tight computational budgets. To address these issues, we propose a novel framework that decouples reasoning control from memory integration. We introduce \\textbf{\\model{}}, an instantiation of this framework with two core components. First, the \\emph{Active Thinking Decision Maker (ATDM)} is a transparent reasoning controller that externalizes its decision process using observable progress ($\\boldsymbol\u03c1$) and confidence ($\\boldsymbol{c}$) metrics. This allows it to precisely time its response $t_r$ to match the first-sufficient-evidence timestamp $t^\\star$ while streaming its reasoning to the user. Second, the \\emph{Hierarchical Progressive Semantic Integration (HPSI)} module acts as an efficient memory system. It employs a set of learnable, multi-level aggregation tokens that are propagated across clips to build a rich, global cognitive state without exceeding token budgets. %Our approach sets a new standard on key online video understanding benchmarks, achieving strong performance of \\textbf{71.6\\%} on StreamingBench and \\textbf{46.9\\%} on OVOBench, demonstrating a robust solution for evidence-aligned and transparent online video analysis. Extensive experiments demonstrate the effectiveness of ATDM and HPSI, e.g., Thinking-QwenVL improves the accuracy of the previous state-of-the-art from 67.63\\% to 71.60\\% on the StreamingBench benchmark.",
+    "summary": "Visual agents operating in the wild must respond to queries precisely when sufficient evidence first appears in a video stream, a critical capability that is overlooked by conventional video LLMs evaluated in offline settings. The shift to an online, streaming paradigm introduces significant challenges: a lack of decision transparency, the difficulty of aligning response timing with visual evidence, and the need to maintain a global, causally consistent understanding under tight computational budgets. To address these issues, we propose a novel framework that decouples reasoning control from memory integration. We introduce \\textbf{\\model{}}, an instantiation of this framework with two core components. First, the \\emph{Active Thinking Decision Maker (ATDM)} is a transparent reasoning controller that externalizes its decision process using observable progress ($\\boldsymbolρ$) and confidence ($\\boldsymbol{c}$) metrics. This allows it to precisely time its response $t_r$ to match the first-sufficient-evidence timestamp $t^\\star$ while streaming its reasoning to the user. Second, the \\emph{Hierarchical Progressive Semantic Integration (HPSI)} module acts as an efficient memory system. It employs a set of learnable, multi-level aggregation tokens that are propagated across clips to build a rich, global cognitive state without exceeding token budgets. %Our approach sets a new standard on key online video understanding benchmarks, achieving strong performance of \\textbf{71.6\\%} on StreamingBench and \\textbf{46.9\\%} on OVOBench, demonstrating a robust solution for evidence-aligned and transparent online video analysis. Extensive experiments demonstrate the effectiveness of ATDM and HPSI, e.g., Thinking-QwenVL improves the accuracy of the previous state-of-the-art from 67.63\\% to 71.60\\% on the StreamingBench benchmark.",
     "authors": [
       "Kecheng Zhang",
       "Zongxin Yang",
@@ -375,7 +375,7 @@
   {
     "arxiv_id": "2604.18567v1",
     "title": "Latent Phase-Shift Rollback: Inference-Time Error Correction via Residual Stream Monitoring and KV-Cache Steering",
-    "summary": "Large language models frequently commit unrecoverable reasoning errors mid-generation: once a wrong step is taken, subsequent tokens compound the mistake rather than correct it. We introduce $\\textbf{Latent Phase-Shift Rollback}$ (LPSR): at each generation step, we monitor the residual stream at a critical layer lcrit, detect abrupt directional reversals (phase shifts) via a cosine-similarity $+$ entropy dual gate, and respond by rolling back the KV-cache and injecting a pre-computed steering vector. No fine-tuning, gradient computation, or additional forward passes are required. LPSR achieves $\\mathbf{44.0\\%}$ on MATH-500 with an 8B model versus $28.8\\%$ for standard AR ($+15.2$ pp; McNemar $\u03c7^2 = 66.96$, $p < 10^{-15}$). Critically, prompted self-correction, the most natural inference-time baseline, scores only $19.8\\%$, below standard AR; LPSR exceeds it by $+24.2$ pp ($\u03c7^2 = 89.4$, $p \\approx 0$). LPSR also outperforms Best-of-16 ($+7.8$ pp) at $5.4\\times$ lower token cost, and surpasses a standard 70B model ($35.2\\%$) with $8.75\\times$ fewer parameters at ${\\sim}3\\times$ the token budget. A 32-layer sweep reveals a novel \\textbf{detection-correction dissociation}: error-detection AUC peaks at layer~14 ($0.718$) but task accuracy peaks at layer~16 ($44.0\\%$ vs.\\ $29.2\\%$), demonstrating that optimal monitoring depth differs for detection and correction.",
+    "summary": "Large language models frequently commit unrecoverable reasoning errors mid-generation: once a wrong step is taken, subsequent tokens compound the mistake rather than correct it. We introduce $\\textbf{Latent Phase-Shift Rollback}$ (LPSR): at each generation step, we monitor the residual stream at a critical layer lcrit, detect abrupt directional reversals (phase shifts) via a cosine-similarity $+$ entropy dual gate, and respond by rolling back the KV-cache and injecting a pre-computed steering vector. No fine-tuning, gradient computation, or additional forward passes are required. LPSR achieves $\\mathbf{44.0\\%}$ on MATH-500 with an 8B model versus $28.8\\%$ for standard AR ($+15.2$ pp; McNemar $χ^2 = 66.96$, $p < 10^{-15}$). Critically, prompted self-correction, the most natural inference-time baseline, scores only $19.8\\%$, below standard AR; LPSR exceeds it by $+24.2$ pp ($χ^2 = 89.4$, $p \\approx 0$). LPSR also outperforms Best-of-16 ($+7.8$ pp) at $5.4\\times$ lower token cost, and surpasses a standard 70B model ($35.2\\%$) with $8.75\\times$ fewer parameters at ${\\sim}3\\times$ the token budget. A 32-layer sweep reveals a novel \\textbf{detection-correction dissociation}: error-detection AUC peaks at layer~14 ($0.718$) but task accuracy peaks at layer~16 ($44.0\\%$ vs.\\ $29.2\\%$), demonstrating that optimal monitoring depth differs for detection and correction.",
     "authors": [
       "Manan Gupta",
       "Dhruv Kumar"
@@ -800,7 +800,7 @@
       "Tarak Kharrat",
       "Yudong Luo",
       "Mohamed Aloulou",
-      "Javier L\u00f3pez Pe\u00f1a",
+      "Javier López Peña",
       "Konstantin Sofeikov",
       "Adam Reid",
       "Paul Roberts",
@@ -826,11 +826,11 @@
   {
     "arxiv_id": "2604.18117v1",
     "title": "LoRaQ: Optimized Low Rank Approximation for 4-bit Quantization",
-    "summary": "Post-training quantization (PTQ) is essential for deploying large diffusion transformers on resource-constrained hardware, but aggressive 4-bit quantization significantly degrades generative performance. Low-rank approximation methods have emerged as a promising solution by appending auxiliary linear branches to restore performance. However, current state-of-the-art approaches assume these branches must retain high precision (W16A16) and rely on heavy, data-dependent calibration for initialization. We challenge both limitations with LoRaQ (Low-Rank Approximated Quantization), a simple, data-free calibration approach that optimizes quantization error compensation. By overcoming the need for high-precision branches, LoRaQ enables the first fully sub-16 bit pipeline, allowing the low-rank branch itself to be quantized. We demonstrate that, at equal memory overhead, LoRaQ outperforms the state-of-the-art methods in their native implementations on Pixart-$\u03a3$ and SANA. We also analyze mixed-precision configurations, showing that setups such as W8A8, W6A6, and W4A8 for the low-rank branch, alongside a W4 main layer, yield superior results while maintaining a fully quantized architecture compatible with modern mixed-precision hardware.",
+    "summary": "Post-training quantization (PTQ) is essential for deploying large diffusion transformers on resource-constrained hardware, but aggressive 4-bit quantization significantly degrades generative performance. Low-rank approximation methods have emerged as a promising solution by appending auxiliary linear branches to restore performance. However, current state-of-the-art approaches assume these branches must retain high precision (W16A16) and rely on heavy, data-dependent calibration for initialization. We challenge both limitations with LoRaQ (Low-Rank Approximated Quantization), a simple, data-free calibration approach that optimizes quantization error compensation. By overcoming the need for high-precision branches, LoRaQ enables the first fully sub-16 bit pipeline, allowing the low-rank branch itself to be quantized. We demonstrate that, at equal memory overhead, LoRaQ outperforms the state-of-the-art methods in their native implementations on Pixart-$Σ$ and SANA. We also analyze mixed-precision configurations, showing that setups such as W8A8, W6A6, and W4A8 for the low-rank branch, alongside a W4 main layer, yield superior results while maintaining a fully quantized architecture compatible with modern mixed-precision hardware.",
     "authors": [
       "Yann Bouquet",
       "Alireza Khodamoradi",
-      "Sophie Y\u00e1ng Shen",
+      "Sophie Yáng Shen",
       "Kristof Denolf",
       "Mathieu Salzmann"
     ],
@@ -1100,7 +1100,7 @@
   {
     "arxiv_id": "2604.18274v1",
     "title": "LiquidTAD: An Efficient Method for Temporal Action Detection via Liquid Neural Dynamics",
-    "summary": "Temporal Action Detection (TAD) in untrimmed videos is currently dominated by Transformer-based architectures. While high-performing, their quadratic computational complexity and substantial parameter redundancy limit deployment in resource-constrained environments. In this paper, we propose LiquidTAD, a novel parameter-efficient framework that replaces cumbersome self-attention layers with parallelized ActionLiquid blocks. Unlike traditional Liquid Neural Networks (LNNs) that suffer from sequential execution bottlenecks, LiquidTAD leverages a closed-form continuous-time (CfC) formulation, allowing the model to be reformulated as a parallelizable operator while preserving the intrinsic physical prior of continuous-time dynamics. This architecture captures complex temporal dependencies with $O(N)$ linear complexity and adaptively modulates temporal sensitivity through learned time-constants ($\u03c4$), providing a robust mechanism for handling varying action durations. To the best of our knowledge, this work is the first to introduce a parallelized LNN-based architecture to the TAD domain. Experimental results on the THUMOS-14 dataset demonstrate that LiquidTAD achieves a highly competitive Average mAP of 69.46\\% with only 10.82M parameters -- a 63\\% reduction compared to the ActionFormer baseline. Further evaluations on ActivityNet-1.3 and Ego4D benchmarks confirm that LiquidTAD achieves an optimal accuracy-efficiency trade-off and exhibits superior robustness to temporal sampling variations, advancing the Pareto frontier of modern TAD frameworks.",
+    "summary": "Temporal Action Detection (TAD) in untrimmed videos is currently dominated by Transformer-based architectures. While high-performing, their quadratic computational complexity and substantial parameter redundancy limit deployment in resource-constrained environments. In this paper, we propose LiquidTAD, a novel parameter-efficient framework that replaces cumbersome self-attention layers with parallelized ActionLiquid blocks. Unlike traditional Liquid Neural Networks (LNNs) that suffer from sequential execution bottlenecks, LiquidTAD leverages a closed-form continuous-time (CfC) formulation, allowing the model to be reformulated as a parallelizable operator while preserving the intrinsic physical prior of continuous-time dynamics. This architecture captures complex temporal dependencies with $O(N)$ linear complexity and adaptively modulates temporal sensitivity through learned time-constants ($τ$), providing a robust mechanism for handling varying action durations. To the best of our knowledge, this work is the first to introduce a parallelized LNN-based architecture to the TAD domain. Experimental results on the THUMOS-14 dataset demonstrate that LiquidTAD achieves a highly competitive Average mAP of 69.46\\% with only 10.82M parameters -- a 63\\% reduction compared to the ActionFormer baseline. Further evaluations on ActivityNet-1.3 and Ego4D benchmarks confirm that LiquidTAD achieves an optimal accuracy-efficiency trade-off and exhibits superior robustness to temporal sampling variations, advancing the Pareto frontier of modern TAD frameworks.",
     "authors": [
       "Zepeng Sun",
       "Naichuan Zheng",
@@ -1238,8 +1238,8 @@
       "Bruce D. Lee",
       "Assefa S. Wahd",
       "Aline Czarnobai",
-      "Philipp F\u00fcrnstahl",
-      "Bernhard Sch\u00f6lkopf",
+      "Philipp Fürnstahl",
+      "Bernhard Schölkopf",
       "Andreas Krause"
     ],
     "categories": [
@@ -1725,7 +1725,7 @@
   {
     "arxiv_id": "2604.18352v1",
     "title": "Tight Auditing of Differential Privacy in MST and AIM",
-    "summary": "State-of-the-art Differentially Private (DP) synthetic data generators such as MST and AIM are widely used, yet tightly auditing their privacy guarantees remains challenging. We introduce a Gaussian Differential Privacy (GDP)-based auditing framework that measures privacy via the full false-positive/false-negative tradeoff. Applied to MST and AIM under worst-case settings, our method provides the first tight audits in the strong-privacy regime. For $(\u03b5,\u03b4)=(1,10^{-2})$, we obtain $\u03bc_{emp}\\approx0.43$ vs. implied $\u03bc=0.45$, showing a small theory-practice gap.   Our code is publicly available: https://github.com/sassoftware/dpmm.",
+    "summary": "State-of-the-art Differentially Private (DP) synthetic data generators such as MST and AIM are widely used, yet tightly auditing their privacy guarantees remains challenging. We introduce a Gaussian Differential Privacy (GDP)-based auditing framework that measures privacy via the full false-positive/false-negative tradeoff. Applied to MST and AIM under worst-case settings, our method provides the first tight audits in the strong-privacy regime. For $(ε,δ)=(1,10^{-2})$, we obtain $μ_{emp}\\approx0.43$ vs. implied $μ=0.45$, showing a small theory-practice gap.   Our code is publicly available: https://github.com/sassoftware/dpmm.",
     "authors": [
       "Georgi Ganev",
       "Meenatchi Sundaram Muthu Selva Annamalai",
@@ -1769,9 +1769,9 @@
     "summary": "Mixture-of-Experts (MoE) models provide a structured approach to combining specialized neural networks and offer greater interpretability than conventional ensembles. While MoEs have been successfully applied to image classification and semantic segmentation, their use in object detection remains limited due to challenges in merging dense and structured predictions. In this work, we investigate model-level mixtures of object detectors and analyze their suitability for improving performance and interpretability in object detection. We propose an MoE architecture that combines YOLO-based detectors trained on semantically disjoint data subsets, with a learned gating network that dynamically weights expert contributions. We study different strategies for fusing detection outputs and for training the gating mechanism, including balancing losses to prevent expert collapse. Experiments on the BDD100K dataset demonstrate that the proposed MoE consistently outperforms standard ensemble approaches and provides insights into expert specialization across domains, highlighting model-level MoEs as a viable alternative to traditional ensembling for object detection. Our code is available at https://github.com/KASTEL-MobilityLab/mixtures-of-experts/.",
     "authors": [
       "Svetlana Pavlitska",
-      "Malte St\u00fcven",
+      "Malte Stüven",
       "Beyza Keskin",
-      "J. Marius Z\u00f6llner"
+      "J. Marius Zöllner"
     ],
     "categories": [
       "cs.CV",
@@ -1792,7 +1792,7 @@
       "Hamed Ouattara",
       "Pascal Houssam Salmane",
       "Pierre Duthon",
-      "Fr\u00e9d\u00e9ric Bernardin",
+      "Frédéric Bernardin",
       "Omar Ait Aider"
     ],
     "categories": [
@@ -1815,7 +1815,7 @@
     "authors": [
       "V. S. D. S. Mahesh Akavarapu",
       "Michael Daniel",
-      "Gerhard J\u00e4ger"
+      "Gerhard Jäger"
     ],
     "categories": [
       "cs.CL"
@@ -2085,7 +2085,7 @@
       "Yash Nair",
       "Asher Spector",
       "Regev Cohen",
-      "Emmanuel J. Cand\u00e8s"
+      "Emmanuel J. Candès"
     ],
     "categories": [
       "stat.ML",
@@ -2262,8 +2262,8 @@
     "authors": [
       "Chih-Kang Huang",
       "Ludovick Gagnon",
-      "Miha Zalo\u017enik",
-      "Beno\u00eet Appolaire"
+      "Miha Založnik",
+      "Benoît Appolaire"
     ],
     "categories": [
       "math.AP",
@@ -2283,7 +2283,7 @@
     "summary": "Retrieval-augmented generation (RAG) enhances large language models (LLMs) with external knowledge to answer questions more accurately.   However, research on evaluating RAG systems-particularly the retriever component-remains limited, as most existing work focuses on single-context retrieval rather than multi-hop queries, where individual contexts may appear irrelevant in isolation but are essential when combined. In this research, we use the HotPotQA, MuSiQue, and SQuAD datasets to simulate a RAG system and compare three LLM-as-judge evaluation strategies, including our proposed Context-Aware Retriever Evaluation (CARE). Our goal is to better understand how multi-hop reasoning can be most effectively evaluated in RAG systems.   Experiments with LLMs from OpenAI, Meta, and Google demonstrate that CARE consistently outperforms existing methods for evaluating multi-hop reasoning in RAG systems. The performance gains are most pronounced in models with larger parameter counts and longer context windows, while single-hop queries show minimal sensitivity to context-aware evaluation. Overall, the results highlight the critical role of context-aware evaluation in improving the reliability and accuracy of retrieval-augmented generation systems, particularly in complex query scenarios. To ensure reproducibility, we provide the complete data of our experiments at https://github.com/lorenzbrehme/CARE.",
     "authors": [
       "Lorenz Brehme",
-      "Thomas Str\u00f6hle",
+      "Thomas Ströhle",
       "Ruth Breu"
     ],
     "categories": [
@@ -2516,7 +2516,7 @@
     "title": "Randomly Initialized Networks Can Learn from Peer-to-Peer Consensus",
     "summary": "In self-supervised learning, self-distilled methods have shown impressive performance, learning representations useful for downstream tasks and even displaying emergent properties. However, state-of-the-art methods usually rely on ensembles of complex mechanisms, with many design choices that are empirically motivated and not well understood.   In this work, we explore the role of self-distillation within learning dynamics. Specifically, we isolate the effect of self-distillation by training a group of randomly initialized networks, removing all other common components such as projectors, predictors, and even pretext tasks. Our findings show that even this minimal setup can lead to learned representations with non-trivial improvements over a random baseline on downstream tasks. We also demonstrate how this effect varies with different hyperparameters and present a short analysis of what is being learned by the models under this setup.",
     "authors": [
-      "Esteban Rodr\u00edguez-Betancourt",
+      "Esteban Rodríguez-Betancourt",
       "Edgar Casasola-Murillo"
     ],
     "categories": [
@@ -2687,7 +2687,7 @@
   {
     "arxiv_id": "2604.18580v1",
     "title": "Sessa: Selective State Space Attention",
-    "summary": "Modern sequence models are dominated by Transformers, where self-attention mixes information from the visible context in an input-dependent way. However, when retrieval is not sharp and attention remains diffuse over an effective support $S_{\\mathrm{eff}}(t)$, the influence of any individual token is diluted, typically scaling as $O(1/S_{\\mathrm{eff}}(t))$ and reaching $O(1/\\ell)$ for old tokens in full-prefix settings. Structured state-space models process sequences recurrently through an explicit feedback path; selective variants such as Mamba make this feedback input-dependent, yet when freeze time cannot be sustained over long intervals, their long-range sensitivity decays exponentially with lag. Existing architectures therefore either retrieve from the past in a single read or propagate information through a single feedback chain. We introduce Sessa, a decoder that places attention inside a feedback path, enabling recurrent many-path aggregation within a layer. Under stated assumptions, Sessa admits regimes with a power-law memory tail in lag $\\ell$ of order $O(\\ell^{-\u03b2})$ for $0<\u03b2<1$, which is asymptotically slower than $1/\\ell$; moreover, this rate is tight in an explicit diffuse uniform-routing setting where the influence is $\u0398(\\ell^{-\u03b2})$. Under the same conditions, only Sessa among the compared model classes realizes flexible selective retrieval, including non-decaying profiles. Empirically, under matched architectures and training budgets, Sessa achieves the strongest performance on our long-context benchmarks while remaining competitive with Transformer and Mamba style baselines on short-context language modeling.",
+    "summary": "Modern sequence models are dominated by Transformers, where self-attention mixes information from the visible context in an input-dependent way. However, when retrieval is not sharp and attention remains diffuse over an effective support $S_{\\mathrm{eff}}(t)$, the influence of any individual token is diluted, typically scaling as $O(1/S_{\\mathrm{eff}}(t))$ and reaching $O(1/\\ell)$ for old tokens in full-prefix settings. Structured state-space models process sequences recurrently through an explicit feedback path; selective variants such as Mamba make this feedback input-dependent, yet when freeze time cannot be sustained over long intervals, their long-range sensitivity decays exponentially with lag. Existing architectures therefore either retrieve from the past in a single read or propagate information through a single feedback chain. We introduce Sessa, a decoder that places attention inside a feedback path, enabling recurrent many-path aggregation within a layer. Under stated assumptions, Sessa admits regimes with a power-law memory tail in lag $\\ell$ of order $O(\\ell^{-β})$ for $0<β<1$, which is asymptotically slower than $1/\\ell$; moreover, this rate is tight in an explicit diffuse uniform-routing setting where the influence is $Θ(\\ell^{-β})$. Under the same conditions, only Sessa among the compared model classes realizes flexible selective retrieval, including non-decaying profiles. Empirically, under matched architectures and training budgets, Sessa achieves the strongest performance on our long-context benchmarks while remaining competitive with Transformer and Mamba style baselines on short-context language modeling.",
     "authors": [
       "Liubomyr Horbatko"
     ],
@@ -2882,8 +2882,8 @@
     "title": "Block-encodings as programming abstractions: The Eclipse Qrisp BlockEncoding Interface",
     "summary": "Block-encoding is a foundational technique in modern quantum algorithms, enabling the implementation of non-unitary operations by embedding them into larger unitary matrices. While theoretically powerful and essential for advanced protocols like Quantum Singular Value Transformation (QSVT) and Quantum Signal Processing (QSP), the generation of compilable implementations of block-encodings poses a formidable challenge. This work presents the BlockEncoding interface within the Eclipse Qrisp framework, establishing block-encodings as a high-level programming abstraction accessible to a broad scientific audience. Serving as both a technical framework introduction and a hands-on tutorial, this paper explicitly details key underlying concepts abstracted away by the interface, such as block-encoding construction and qubitization, and their practical integration into methods like the Childs-Kothari-Somma (CKS) algorithm. We outline the interface's software architecture, encompassing constructors, core utilities, arithmetic composition, and algorithmic applications such as matrix inversion, polynomial filtering, and Hamiltonian simulation. Through code examples, we demonstrate how this interface simplifies both the practical realization of advanced quantum algorithms and their associated resource estimation.",
     "authors": [
-      "Matic Petri\u010d",
-      "Ren\u00e9 Zander"
+      "Matic Petrič",
+      "René Zander"
     ],
     "categories": [
       "quant-ph",
@@ -2929,13 +2929,13 @@
       "Jorge Lazo",
       "Andreas Hallqvist",
       "Mikael Johansson",
-      "\u00c5se Johnsson",
+      "Åse Johnsson",
       "Jonas S Andersson",
-      "Ella \u00c4ng Eklund",
+      "Ella Äng Eklund",
       "Patrik Sund",
       "Nasser Hosseini",
-      "Jennifer Alv\u00e9n",
-      "Ida H\u00e4ggstr\u00f6m"
+      "Jennifer Alvén",
+      "Ida Häggström"
     ],
     "categories": [
       "cs.CV"
@@ -3404,7 +3404,7 @@
       "Maja Hjuler",
       "Solange Rossato",
       "Alexandre Allauzen",
-      "Fran\u00e7ois Portet"
+      "François Portet"
     ],
     "categories": [
       "cs.CL"
@@ -3668,10 +3668,10 @@
   {
     "arxiv_id": "2604.18450v1",
     "title": "Random Matrix Theory of Early-Stopped Gradient Flow: A Transient BBP Scenario",
-    "summary": "Empirical studies of trained models often report a transient regime in which signal is detectable in a finite gradient descent time window before overfitting dominates. We provide an analytically tractable random-matrix model that reproduces this phenomenon for gradient flow in a linear teacher--student setting. In this framework, learning occurs when an isolated eigenvalue separates from a noisy bulk, before eventually disappearing in the overfitting regime. The key ingredient is anisotropy in the input covariance, which induces fast and slow directions in the learning dynamics. In a two-block covariance model, we derive the full time-dependent bulk spectrum of the symmetrized weight matrix through a $2\\times 2$ Dyson equation, and we obtain an explicit outlier condition for a rank-one teacher via a rank-two determinant formula. This yields a transient Baik-Ben Arous-P\u00e9ch\u00e9 (BBP) transition: depending on signal strength and covariance anisotropy, the teacher spike may never emerge, emerge and persist, or emerge only during an intermediate time interval before being reabsorbed into the bulk. We map the corresponding phase diagrams and validate the theory against finite-size simulations. Our results provide a minimal solvable mechanism for early stopping as a transient spectral effect driven by anisotropy and noise.",
+    "summary": "Empirical studies of trained models often report a transient regime in which signal is detectable in a finite gradient descent time window before overfitting dominates. We provide an analytically tractable random-matrix model that reproduces this phenomenon for gradient flow in a linear teacher--student setting. In this framework, learning occurs when an isolated eigenvalue separates from a noisy bulk, before eventually disappearing in the overfitting regime. The key ingredient is anisotropy in the input covariance, which induces fast and slow directions in the learning dynamics. In a two-block covariance model, we derive the full time-dependent bulk spectrum of the symmetrized weight matrix through a $2\\times 2$ Dyson equation, and we obtain an explicit outlier condition for a rank-one teacher via a rank-two determinant formula. This yields a transient Baik-Ben Arous-Péché (BBP) transition: depending on signal strength and covariance anisotropy, the teacher spike may never emerge, emerge and persist, or emerge only during an intermediate time interval before being reabsorbed into the bulk. We map the corresponding phase diagrams and validate the theory against finite-size simulations. Our results provide a minimal solvable mechanism for early stopping as a transient spectral effect driven by anisotropy and noise.",
     "authors": [
       "Florentin Coeurdoux",
-      "Gr\u00e9goire Ferr\u00e9",
+      "Grégoire Ferré",
       "Jean-Philippe Bouchaud"
     ],
     "categories": [
@@ -3689,7 +3689,7 @@
   {
     "arxiv_id": "2604.18245v1",
     "title": "Correction and Corruption: A Two-Rate View of Error Flow in LLM Protocols",
-    "summary": "Large language models are increasingly deployed as protocols: structured multi-call procedures that spend additional computation to transform a baseline answer into a final one. These protocols are evaluated only by end-to-end accuracy, giving limited insight into when they help, when they hurt, and whether their behavior transfers under distribution shift or composition. We propose a paired-outcome measurement interface for auditing a single protocol step on exact-match tasks. For each instance, the interface records a baseline correctness bit $E_0\\in\\{0,1\\}$ and a post-step correctness bit $E_1\\in\\{0,1\\}$, separating correction ($E_0=0\\to E_1=1$) from corruption ($E_0=1\\to E_1=0$) through two rates: $c=\\Pr(E_1=1\\mid E_0=0)$ and $\u03b3=\\Pr(E_1=0\\mid E_0=1)$. These rates predict accuracy changes and define a reusable empirical interface testable across seeds, mixtures, and pipelines. We identify three failure mechanisms. Under mixture shift, pooled estimates of $(c,\u03b3)$ become biased when calibration and deployment mixtures differ; conditioning on a difficulty proxy restores stability without additional model calls. Under presentation contamination, selection protocols alter the interface through stable presentation artifacts when candidate content is fixed. Under state insufficiency, the correctness bit may not carry enough history for multi-step pipelines to compose predictably; a Markov factorization test identifies when composition is valid and where additional state is needed. When a protocol step passes these diagnostics, it becomes an auditable module: gated by estimated gain, conditioned on a difficulty proxy to correct mixture bias, and composed into multi-step pipelines with predictable accuracy. We demonstrate these ideas on synthetic mathematical tasks and on GSM8K, where the calibrated interface correctly predicts when protocol steps should be activated or suppressed.",
+    "summary": "Large language models are increasingly deployed as protocols: structured multi-call procedures that spend additional computation to transform a baseline answer into a final one. These protocols are evaluated only by end-to-end accuracy, giving limited insight into when they help, when they hurt, and whether their behavior transfers under distribution shift or composition. We propose a paired-outcome measurement interface for auditing a single protocol step on exact-match tasks. For each instance, the interface records a baseline correctness bit $E_0\\in\\{0,1\\}$ and a post-step correctness bit $E_1\\in\\{0,1\\}$, separating correction ($E_0=0\\to E_1=1$) from corruption ($E_0=1\\to E_1=0$) through two rates: $c=\\Pr(E_1=1\\mid E_0=0)$ and $γ=\\Pr(E_1=0\\mid E_0=1)$. These rates predict accuracy changes and define a reusable empirical interface testable across seeds, mixtures, and pipelines. We identify three failure mechanisms. Under mixture shift, pooled estimates of $(c,γ)$ become biased when calibration and deployment mixtures differ; conditioning on a difficulty proxy restores stability without additional model calls. Under presentation contamination, selection protocols alter the interface through stable presentation artifacts when candidate content is fixed. Under state insufficiency, the correctness bit may not carry enough history for multi-step pipelines to compose predictably; a Markov factorization test identifies when composition is valid and where additional state is needed. When a protocol step passes these diagnostics, it becomes an auditable module: gated by estimated gain, conditioned on a difficulty proxy to correct mixture bias, and composed into multi-step pipelines with predictable accuracy. We demonstrate these ideas on synthetic mathematical tasks and on GSM8K, where the calibrated interface correctly predicts when protocol steps should be activated or suppressed.",
     "authors": [
       "Fernando Reitich"
     ],
@@ -3759,8 +3759,8 @@
     "authors": [
       "Santosh Kesiraju",
       "Bolaji Yusuf",
-      "\u0160imon Sedl\u00e1\u010dek",
-      "Old\u0159ich Plchot",
+      "Šimon Sedláček",
+      "Oldřich Plchot",
       "Petr Schwarz"
     ],
     "categories": [
@@ -3862,9 +3862,9 @@
     "summary": "Smooth functions on graphs have wide applications in manifold and semi-supervised learning. In this paper, we study a bandit problem where the payoffs of arms are smooth on a graph. This framework is suitable for solving online learning problems that involve graphs, such as content-based recommendation. In this problem, each item we can recommend is a node and its expected rating is similar to its neighbors. The goal is to recommend items that have high expected ratings. We aim for the algorithms where the cumulative regret with respect to the optimal policy would not scale poorly with the number of nodes. In particular, we introduce the notion of an effective dimension, which is small in real-world graphs, and propose two algorithms for solving our problem that scale linearly and sublinearly in this dimension. Our experiments on real-world content recommendation problem show that a good estimator of user preferences for thousands of items can be learned from just tens of nodes evaluations.",
     "authors": [
       "Michal Valko",
-      "R\u00e9mi Munos",
+      "Rémi Munos",
       "Branislav Kveton",
-      "Tom\u00e1\u0161 Koc\u00e1k"
+      "Tomáš Kocák"
     ],
     "categories": [
       "stat.ML",
@@ -3921,9 +3921,9 @@
     "title": "EAST: Early Action Prediction Sampling Strategy with Token Masking",
     "summary": "Early action prediction seeks to anticipate an action before it fully unfolds, but limited visual evidence makes this task especially challenging. We introduce EAST, a simple and efficient framework that enables a model to reason about incomplete observations. In our empirical study, we identify key components when training early action prediction models. Our key contribution is a randomized training strategy that samples a time step separating observed and unobserved video frames, enabling a single model to generalize seamlessly across all test-time observation ratios. We further show that joint learning on both observed and future (oracle) representations significantly boosts performance, even allowing an encoder-only model to excel. To improve scalability, we propose a token masking procedure that cuts memory usage in half and accelerates training by 2x with negligible accuracy loss. Combined with a forecasting decoder, EAST sets a new state of the art on NTU60, SSv2, and UCF101, surpassing previous best work by 10.1, 7.7, and 3.9 percentage points, respectively.",
     "authors": [
-      "Iva Sovi\u0107",
-      "Ivan Martinovi\u0107",
-      "Marin Or\u0161i\u0107"
+      "Iva Sović",
+      "Ivan Martinović",
+      "Marin Oršić"
     ],
     "categories": [
       "cs.CV"
@@ -4063,7 +4063,7 @@
     "summary": "Modern text-to-image (T2I) models amplify harmful societal biases, challenging their ethical deployment. We introduce an inference-time method that reliably mitigates social bias while keeping prompt semantics and visual context (background, layout, and style) intact. This ensures context persistency and provides a controllable parameter to adjust mitigation strength, giving practitioners fine-grained control over fairness-coherence trade-offs. Using Embedding Arithmetic, we analyze how bias is structured in the embedding space and correct it without altering model weights, prompts, or datasets. Experiments on FLUX 1.0-Dev and Stable Diffusion 3.5-Large show that the conditional embedding space forms a complex, entangled manifold rather than a grid of disentangled concepts. To rigorously assess semantic preservation beyond the circularity and bias limitations of of CLIP scores, we propose the Concept Coherence Score (CCS). Evaluated against this robust metric, our lightweight, tuning-free method significantly outperforms existing baselines in improving diversity while maintaining high concept coherence, effectively resolving the critical fairness-coherence trade-off. By characterizing how models represent social concepts, we establish geometric understanding of latent space as a principled path toward more transparent, controllable, and fair image generation.",
     "authors": [
       "Venkatesh Thirugnana Sambandham",
-      "Torsten Sch\u00f6n"
+      "Torsten Schön"
     ],
     "categories": [
       "cs.CV"
@@ -4078,7 +4078,7 @@
   {
     "arxiv_id": "2604.18147v1",
     "title": "The Magnitude of Dominated Sets: A Pareto Compliant Indicator Grounded in Metric Geometry",
-    "summary": "We investigate \\emph{magnitude} as a new unary and strictly Pareto-compliant quality indicator for finite approximation sets to the Pareto front in multiobjective optimization. Magnitude originates in enriched category theory and metric geometry, where it is a notion of size or point content for compact metric spaces and a generalization of cardinality. For dominated regions in the \\(\\ell_1\\) box setting, magnitude is close to hypervolume but not identical: it contains the top-dimensional hypervolume term together with positive lower-dimensional projection and boundary contributions.   This paper gives a first theoretical study of magnitude as an indicator. We consider multiobjective maximization with a common anchor point. For dominated sets generated by finite approximation sets, we derive an all-dimensional projection formula, prove weak and strict set monotonicity on finite unions of anchored boxes, and thereby obtain weak and strict Pareto compliance. Unlike hypervolume, magnitude assigns positive value to boundary points sharing one or more coordinates with the anchor point, even when their top-dimensional hypervolume contribution vanishes. We then formulate projected set-gradient methods and compare hypervolume and magnitude on biobjective and three-dimensional simplex examples. Numerically, magnitude favors boundary-including populations and, for suitable cardinalities, complete Das--Dennis grids, whereas hypervolume prefers more interior-filling configurations. Computationally, magnitude reduces to hypervolume on coordinate projections; for fixed dimension this yields the same asymptotic complexity up to a factor \\(2^d-1\\), and in dimensions two and three \\(\u0398(n\\log n)\\) time. These results identify magnitude as a mathematically natural and computationally viable alternative to hypervolume for finite Pareto front approximations.",
+    "summary": "We investigate \\emph{magnitude} as a new unary and strictly Pareto-compliant quality indicator for finite approximation sets to the Pareto front in multiobjective optimization. Magnitude originates in enriched category theory and metric geometry, where it is a notion of size or point content for compact metric spaces and a generalization of cardinality. For dominated regions in the \\(\\ell_1\\) box setting, magnitude is close to hypervolume but not identical: it contains the top-dimensional hypervolume term together with positive lower-dimensional projection and boundary contributions.   This paper gives a first theoretical study of magnitude as an indicator. We consider multiobjective maximization with a common anchor point. For dominated sets generated by finite approximation sets, we derive an all-dimensional projection formula, prove weak and strict set monotonicity on finite unions of anchored boxes, and thereby obtain weak and strict Pareto compliance. Unlike hypervolume, magnitude assigns positive value to boundary points sharing one or more coordinates with the anchor point, even when their top-dimensional hypervolume contribution vanishes. We then formulate projected set-gradient methods and compare hypervolume and magnitude on biobjective and three-dimensional simplex examples. Numerically, magnitude favors boundary-including populations and, for suitable cardinalities, complete Das--Dennis grids, whereas hypervolume prefers more interior-filling configurations. Computationally, magnitude reduces to hypervolume on coordinate projections; for fixed dimension this yields the same asymptotic complexity up to a factor \\(2^d-1\\), and in dimensions two and three \\(Θ(n\\log n)\\) time. These results identify magnitude as a mathematically natural and computationally viable alternative to hypervolume for finite Pareto front approximations.",
     "authors": [
       "Michael T. M. Emmerich"
     ],
@@ -4135,7 +4135,7 @@
   {
     "arxiv_id": "2604.18242v1",
     "title": "Horospherical Depth and Busemann Median on Hadamard Manifolds",
-    "summary": "\\We introduce the horospherical depth, an intrinsic notion of statistical depth on Hadamard manifolds, and define the Busemann median as the set of its maximizers. The construction exploits the fact that the linear functionals appearing in Tukey's half-space depth are themselves limits of renormalized distance functions; on a Hadamard manifold the same limiting procedure produces Busemann functions, whose sublevel sets are horoballs, the intrinsic replacements for halfspaces. The resulting depth is parametrized by the visual boundary, is isometry-equivariant, and requires neither tangent-space linearization nor a chosen base point.For arbitrary Hadamard manifolds, we prove that the depth regions are nested and geodesically convex, that a centerpoint of depth at least $1/(d+1)$ exists, and hence that the Busemann median exists for every Borel probability measure. Under strictly negative sectional curvature and mild regularity assumptions, the depth is strictly quasi-concave and the median is unique. We also establish robustness: the depth is stable under total-variation perturbations, and under contamination escaping to infinity the limiting median depends on the escape direction but not on how far the contaminating mass has moved along the geodesic ray, in contrast with the Fr\u00e9chet mean. Finally, we establish uniform consistency of the sample depth and convergence of sample depth regions and sample Busemann medians; on symmetric spaces of noncompact type, the argument proceeds through a VC analysis of upper horospherical halfspaces, while on general Hadamard manifolds it follows from a compactness argument under a mild non-atomicity assumption.",
+    "summary": "\\We introduce the horospherical depth, an intrinsic notion of statistical depth on Hadamard manifolds, and define the Busemann median as the set of its maximizers. The construction exploits the fact that the linear functionals appearing in Tukey's half-space depth are themselves limits of renormalized distance functions; on a Hadamard manifold the same limiting procedure produces Busemann functions, whose sublevel sets are horoballs, the intrinsic replacements for halfspaces. The resulting depth is parametrized by the visual boundary, is isometry-equivariant, and requires neither tangent-space linearization nor a chosen base point.For arbitrary Hadamard manifolds, we prove that the depth regions are nested and geodesically convex, that a centerpoint of depth at least $1/(d+1)$ exists, and hence that the Busemann median exists for every Borel probability measure. Under strictly negative sectional curvature and mild regularity assumptions, the depth is strictly quasi-concave and the median is unique. We also establish robustness: the depth is stable under total-variation perturbations, and under contamination escaping to infinity the limiting median depends on the escape direction but not on how far the contaminating mass has moved along the geodesic ray, in contrast with the Fréchet mean. Finally, we establish uniform consistency of the sample depth and convergence of sample depth regions and sample Busemann medians; on symmetric spaces of noncompact type, the argument proceeds through a VC analysis of upper horospherical halfspaces, while on general Hadamard manifolds it follows from a compactness argument under a mild non-atomicity assumption.",
     "authors": [
       "Yangdi Jiang",
       "Xiaotian Chang",
@@ -4339,9 +4339,9 @@
       "Ravi Kumar Thakur",
       "Luis Granados Segura",
       "Jan Klivan",
-      "Radim \u0160petl\u00edk",
-      "Tobi\u00e1\u0161 Vinkl\u00e1rek",
-      "Matou\u0161 Vrba",
+      "Radim Špetlík",
+      "Tobiáš Vinklárek",
+      "Matouš Vrba",
       "Martin Saska"
     ],
     "categories": [
@@ -4443,320 +4443,5 @@
     "date": "2026-04-21",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "BIGJUTT/Flux-NSFW-uncensored",
-    "author": "unknown",
-    "title": "BIGJUTT/Flux-NSFW-uncensored",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "text-to-image",
-      "en",
-      "base_model:black-forest-labs/FLUX.1-dev",
-      "base_model:finetune:black-forest-labs/FLUX.1-dev",
-      "license:creativeml-openrail-m",
-      "region:us",
-      "not-for-all-audiences"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "",
-    "created_at": "2026-04-21T05:04:51.000Z",
-    "last_modified": "2026-04-21T05:04:51.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/BIGJUTT/Flux-NSFW-uncensored",
-    "date": "2026-04-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "adityawakharkar/AstraGPT-7B",
-    "author": "unknown",
-    "title": "adityawakharkar/AstraGPT-7B",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-21T04:59:48.000Z",
-    "last_modified": "2026-04-21T05:03:18.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/adityawakharkar/AstraGPT-7B",
-    "date": "2026-04-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "cstr/ecapa-lid-commonlanguage-GGUF",
-    "author": "unknown",
-    "title": "cstr/ecapa-lid-commonlanguage-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "speechbrain",
-      "gguf",
-      "audio-classification",
-      "language-identification",
-      "ecapa-tdnn",
-      "crispasr",
-      "multilingual",
-      "base_model:speechbrain/lang-id-commonlanguage_ecapa",
-      "base_model:quantized:speechbrain/lang-id-commonlanguage_ecapa",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "audio-classification",
-    "library": "speechbrain",
-    "created_at": "2026-04-21T04:58:15.000Z",
-    "last_modified": "2026-04-21T04:59:02.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/cstr/ecapa-lid-commonlanguage-GGUF",
-    "date": "2026-04-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "cstr/ecapa-lid-107-GGUF",
-    "author": "unknown",
-    "title": "cstr/ecapa-lid-107-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "speechbrain",
-      "gguf",
-      "audio-classification",
-      "language-identification",
-      "ecapa-tdnn",
-      "crispasr",
-      "multilingual",
-      "base_model:speechbrain/lang-id-voxlingua107-ecapa",
-      "base_model:quantized:speechbrain/lang-id-voxlingua107-ecapa",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "audio-classification",
-    "library": "speechbrain",
-    "created_at": "2026-04-20T17:46:51.000Z",
-    "last_modified": "2026-04-21T04:58:08.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/cstr/ecapa-lid-107-GGUF",
-    "date": "2026-04-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "InfoBayAI/resnet18-mri-anatomy-classifier",
-    "author": "unknown",
-    "title": "InfoBayAI/resnet18-mri-anatomy-classifier",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "pytorch",
-      "resnet18",
-      "mri_anatomy",
-      "image-classification",
-      "en",
-      "dataset:InfoBayAI/mri_clinical_reports_without_findings_medical_nlp",
-      "region:us"
-    ],
-    "pipeline_tag": "image-classification",
-    "library": "",
-    "created_at": "2026-04-21T04:19:19.000Z",
-    "last_modified": "2026-04-21T04:56:30.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/InfoBayAI/resnet18-mri-anatomy-classifier",
-    "date": "2026-04-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "valleriee/Qwen3-1.7B-student-refusal-integer-seqkd",
-    "author": "unknown",
-    "title": "valleriee/Qwen3-1.7B-student-refusal-integer-seqkd",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "trl",
-      "sft",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-21T04:55:20.000Z",
-    "last_modified": "2026-04-21T04:55:48.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/valleriee/Qwen3-1.7B-student-refusal-integer-seqkd",
-    "date": "2026-04-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "gopi87/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-Q4_K_M-GGUF",
-    "author": "unknown",
-    "title": "gopi87/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-Q4_K_M-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "gguf",
-      "text-generation",
-      "reasoning",
-      "distillation",
-      "chain-of-thought",
-      "qwen",
-      "qwen3.6",
-      "mixture-of-experts",
-      "moe",
-      "lora",
-      "unsloth",
-      "llama-cpp",
-      "gguf-my-repo",
-      "en",
-      "dataset:lordx64/reasoning-distill-opus-4-7-max-sft",
-      "base_model:lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
-      "base_model:adapter:lordx64/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-21T04:51:38.000Z",
-    "last_modified": "2026-04-21T04:52:22.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/gopi87/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-Q4_K_M-GGUF",
-    "date": "2026-04-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "RJTPP/scot0500s-qwen3-14b-full",
-    "author": "unknown",
-    "title": "RJTPP/scot0500s-qwen3-14b-full",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "base_model:unsloth/Qwen3-14B-unsloth-bnb-4bit",
-      "base_model:finetune:unsloth/Qwen3-14B-unsloth-bnb-4bit",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-21T04:42:57.000Z",
-    "last_modified": "2026-04-21T04:51:42.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/RJTPP/scot0500s-qwen3-14b-full",
-    "date": "2026-04-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "dataset_id": "genrobot2025/10Kh-RealOmin-OpenData",
-    "author": "genrobot2025",
-    "title": "genrobot2025/10Kh-RealOmin-OpenData",
-    "downloads": 68347,
-    "likes": 198,
-    "tags": [
-      "task_categories:robotics",
-      "task_categories:reinforcement-learning",
-      "language:en",
-      "language:zh",
-      "license:cc-by-sa-4.0",
-      "size_categories:n>1T",
-      "modality:video",
-      "region:us",
-      "agent",
-      "robotic",
-      "real-world",
-      "dual-arm",
-      "video",
-      "vla",
-      "embodied intelligence"
-    ],
-    "created_at": "2025-12-31T07:17:19.000Z",
-    "last_modified": "2026-04-21T05:04:39.000Z",
-    "url": "https://huggingface.co/datasets/genrobot2025/10Kh-RealOmin-OpenData",
-    "date": "2026-04-21",
-    "source": "huggingface_dataset",
-    "type": "dataset",
-    "research_score": 0.4
-  },
-  {
-    "dataset_id": "ropedia-ai/xperience-10m",
-    "author": "ropedia-ai",
-    "title": "ropedia-ai/xperience-10m",
-    "downloads": 2328035,
-    "likes": 175,
-    "tags": [
-      "task_categories:video-classification",
-      "task_categories:image-to-text",
-      "task_categories:depth-estimation",
-      "task_categories:robotics",
-      "language:en",
-      "license:other",
-      "size_categories:1M<n<10M",
-      "modality:3d",
-      "modality:audio",
-      "modality:video",
-      "region:us",
-      "egocentric",
-      "first-person",
-      "multimodal",
-      "3d",
-      "4d",
-      "embodied-ai",
-      "robotics",
-      "human-motion",
-      "mocap",
-      "imu",
-      "audio",
-      "depth",
-      "captions",
-      "video"
-    ],
-    "created_at": "2026-03-11T07:22:24.000Z",
-    "last_modified": "2026-04-21T05:03:45.000Z",
-    "url": "https://huggingface.co/datasets/ropedia-ai/xperience-10m",
-    "date": "2026-04-21",
-    "source": "huggingface_dataset",
-    "type": "dataset",
-    "research_score": 0.4
   }
 ]
