@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-22T16:30:10.704836",
+  "date": "2026-04-22T20:26:56.820058",
   "patterns": {
     "multimodal_research": [
       {
@@ -621,14 +621,6 @@
       {
         "title": "Seeing Candidates at Scale: Multimodal LLMs for Visual Political Communication on Instagram",
         "url": "https://arxiv.org/abs/2604.19489v1"
-      },
-      {
-        "title": "gugukaka/SmolLM2-FT-MyDataset",
-        "url": "https://huggingface.co/gugukaka/SmolLM2-FT-MyDataset"
-      },
-      {
-        "title": "BrainChipInc/tenns-llm-1b",
-        "url": "https://huggingface.co/BrainChipInc/tenns-llm-1b"
       }
     ],
     "vision_systems": [
@@ -1657,7 +1649,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1716,6 +1708,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 404
+    "total_papers": 402
   }
 }
