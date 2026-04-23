@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-23T08:44:20.721036",
+  "date": "2026-04-23T12:30:31.181583",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,8 +671,8 @@
         "url": "https://arxiv.org/abs/2604.20395v1"
       },
       {
-        "title": "aritrabanai/Noise2ToolLLM",
-        "url": "https://huggingface.co/aritrabanai/Noise2ToolLLM"
+        "title": "OliverHeine/bert-large-uncased_fold_3",
+        "url": "https://huggingface.co/OliverHeine/bert-large-uncased_fold_3"
       }
     ],
     "vision_systems": [
@@ -1257,10 +1257,6 @@
       {
         "title": "Learning Hippo: Multi-attractor Dynamics and Stability Effects in a Biologically Detailed CA3 Extension of Hopfield Networks",
         "url": "https://arxiv.org/abs/2604.20679v1"
-      },
-      {
-        "title": "mradermacher/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-GGUF",
-        "url": "https://huggingface.co/mradermacher/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-GGUF"
       }
     ],
     "benchmarks": [
@@ -1761,7 +1757,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "82 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1791,7 +1787,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 40,
+      "frequency": 39,
       "significance": "high"
     },
     {
@@ -1808,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 426
   }
 }
