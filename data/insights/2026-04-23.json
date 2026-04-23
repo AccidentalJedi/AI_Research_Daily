@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-23T16:39:56.956337",
+  "date": "2026-04-23T20:26:15.748309",
   "patterns": {
     "multimodal_research": [
       {
@@ -669,14 +669,6 @@
       {
         "title": "SpaCeFormer: Fast Proposal-Free Open-Vocabulary 3D Instance Segmentation",
         "url": "https://arxiv.org/abs/2604.20395v1"
-      },
-      {
-        "title": "richardshkim/distilbert-agnews-topic-classifier",
-        "url": "https://huggingface.co/richardshkim/distilbert-agnews-topic-classifier"
-      },
-      {
-        "title": "ilbert/reflex-coder7b-jepa-riscv",
-        "url": "https://huggingface.co/ilbert/reflex-coder7b-jepa-riscv"
       }
     ],
     "vision_systems": [
@@ -935,10 +927,6 @@
       {
         "title": "Exploring High-Order Self-Similarity for Video Understanding",
         "url": "https://arxiv.org/abs/2604.20760v1"
-      },
-      {
-        "title": "ilbert/reflex-coder7b-jepa-riscv",
-        "url": "https://huggingface.co/ilbert/reflex-coder7b-jepa-riscv"
       }
     ],
     "reasoning": [
@@ -1265,14 +1253,6 @@
       {
         "title": "Learning Hippo: Multi-attractor Dynamics and Stability Effects in a Biologically Detailed CA3 Extension of Hopfield Networks",
         "url": "https://arxiv.org/abs/2604.20679v1"
-      },
-      {
-        "title": "AntimatterAI/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-MLX-5bit",
-        "url": "https://huggingface.co/AntimatterAI/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-MLX-5bit"
-      },
-      {
-        "title": "yufeng1/OpenThinker-7B-reasoning-full-lora-max-type3-e5-b64-2",
-        "url": "https://huggingface.co/yufeng1/OpenThinker-7B-reasoning-full-lora-max-type3-e5-b64-2"
       }
     ],
     "benchmarks": [
@@ -1731,6 +1711,10 @@
       {
         "title": "SurgCoT: Advancing Spatiotemporal Reasoning in Surgical Videos through a Chain-of-Thought Benchmark",
         "url": "https://arxiv.org/abs/2604.20319v1"
+      },
+      {
+        "title": "SOTAagi2030/MyModel-NoFigures-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MyModel-NoFigures-TestRepo"
       }
     ]
   },
@@ -1761,19 +1745,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "65 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "83 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1785,7 +1769,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "114 independent papers",
+      "observation": "115 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1803,7 +1787,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 41,
+      "frequency": 39,
       "significance": "high"
     },
     {
@@ -1820,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 430
+    "total_papers": 426
   }
 }
