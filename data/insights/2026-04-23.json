@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-23T12:30:31.181583",
+  "date": "2026-04-23T16:39:56.956337",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,8 +671,12 @@
         "url": "https://arxiv.org/abs/2604.20395v1"
       },
       {
-        "title": "OliverHeine/bert-large-uncased_fold_3",
-        "url": "https://huggingface.co/OliverHeine/bert-large-uncased_fold_3"
+        "title": "richardshkim/distilbert-agnews-topic-classifier",
+        "url": "https://huggingface.co/richardshkim/distilbert-agnews-topic-classifier"
+      },
+      {
+        "title": "ilbert/reflex-coder7b-jepa-riscv",
+        "url": "https://huggingface.co/ilbert/reflex-coder7b-jepa-riscv"
       }
     ],
     "vision_systems": [
@@ -931,6 +935,10 @@
       {
         "title": "Exploring High-Order Self-Similarity for Video Understanding",
         "url": "https://arxiv.org/abs/2604.20760v1"
+      },
+      {
+        "title": "ilbert/reflex-coder7b-jepa-riscv",
+        "url": "https://huggingface.co/ilbert/reflex-coder7b-jepa-riscv"
       }
     ],
     "reasoning": [
@@ -1257,6 +1265,14 @@
       {
         "title": "Learning Hippo: Multi-attractor Dynamics and Stability Effects in a Biologically Detailed CA3 Extension of Hopfield Networks",
         "url": "https://arxiv.org/abs/2604.20679v1"
+      },
+      {
+        "title": "AntimatterAI/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-MLX-5bit",
+        "url": "https://huggingface.co/AntimatterAI/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-MLX-5bit"
+      },
+      {
+        "title": "yufeng1/OpenThinker-7B-reasoning-full-lora-max-type3-e5-b64-2",
+        "url": "https://huggingface.co/yufeng1/OpenThinker-7B-reasoning-full-lora-max-type3-e5-b64-2"
       }
     ],
     "benchmarks": [
@@ -1745,19 +1761,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "64 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "81 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1787,7 +1803,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 39,
+      "frequency": 41,
       "significance": "high"
     },
     {
@@ -1804,6 +1820,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 430
   }
 }
