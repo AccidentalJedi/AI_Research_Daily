@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-24T08:48:30.251258",
+  "date": "2026-04-24T12:29:56.644866",
   "patterns": {
     "multimodal_research": [
       {
@@ -619,12 +619,12 @@
         "url": "https://arxiv.org/abs/2604.21479v1"
       },
       {
-        "title": "violetar/gpt2-samsum-lora",
-        "url": "https://huggingface.co/violetar/gpt2-samsum-lora"
+        "title": "hanaearg/albert-base-arabic-emotion-1epoch",
+        "url": "https://huggingface.co/hanaearg/albert-base-arabic-emotion-1epoch"
       },
       {
-        "title": "vadimbelsky/biomedbert-triage-esi-v34",
-        "url": "https://huggingface.co/vadimbelsky/biomedbert-triage-esi-v34"
+        "title": "megaketu555/kashmiri-nastaliq-llm",
+        "url": "https://huggingface.co/megaketu555/kashmiri-nastaliq-llm"
       }
     ],
     "vision_systems": [
@@ -919,10 +919,6 @@
       {
         "title": "ID-Eraser: Proactive Defense Against Face Swapping via Identity Perturbation",
         "url": "https://arxiv.org/abs/2604.21465v1"
-      },
-      {
-        "title": "prodigyhuh/atomicvision-format-submit-merged-lora",
-        "url": "https://huggingface.co/prodigyhuh/atomicvision-format-submit-merged-lora"
       }
     ],
     "reasoning": [
@@ -1703,7 +1699,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1756,6 +1752,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 414
+    "total_papers": 413
   }
 }
