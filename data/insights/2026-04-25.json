@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-25T00:43:52.757334",
+  "date": "2026-04-25T04:55:22.072995",
   "patterns": {
     "multimodal_research": [
       {
@@ -267,10 +267,6 @@
       {
         "title": "Directional Confusions Reveal Divergent Inductive Biases Through Rate-Distortion Geometry in Human and Machine Vision",
         "url": "https://arxiv.org/abs/2604.21909v1"
-      },
-      {
-        "title": "exdysa/MiniMax-M2.5-REAP-139B-A10B-GGUF-MXFP4_MOE",
-        "url": "https://huggingface.co/exdysa/MiniMax-M2.5-REAP-139B-A10B-GGUF-MXFP4_MOE"
       }
     ],
     "language_models": [
@@ -621,6 +617,10 @@
       {
         "title": "Frozen LLMs as Map-Aware Spatio-Temporal Reasoners for Vehicle Trajectory Prediction",
         "url": "https://arxiv.org/abs/2604.21479v1"
+      },
+      {
+        "title": "sameer547face/gita-text-generation-gpt2",
+        "url": "https://huggingface.co/sameer547face/gita-text-generation-gpt2"
       }
     ],
     "vision_systems": [
@@ -883,10 +883,6 @@
       {
         "title": "EdgeFormer: local patch-based edge detection transformer on point clouds",
         "url": "https://arxiv.org/abs/2604.21387v1"
-      },
-      {
-        "title": "huggingface/DEH-image-scan-data",
-        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "Local Neighborhood Instability in Parametric Projections: Quantitative and Visual Analysis",
@@ -1681,7 +1677,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "44 independent papers",
+      "observation": "43 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1693,13 +1689,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1740,7 +1736,7 @@
     },
     {
       "topic": "generation",
-      "frequency": 35,
+      "frequency": 36,
       "significance": "high"
     },
     {
@@ -1752,6 +1748,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 413
+    "total_papers": 412
   }
 }
