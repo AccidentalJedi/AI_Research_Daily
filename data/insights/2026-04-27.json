@@ -1,29 +1,11 @@
 {
-  "date": "2026-04-27T12:41:44.526238",
-  "patterns": {
-    "reasoning": [
-      {
-        "title": "inferencerlabs/DeepSeek-V4-Flash-MLX-9bit-EXP",
-        "url": "https://huggingface.co/inferencerlabs/DeepSeek-V4-Flash-MLX-9bit-EXP"
-      },
-      {
-        "title": "f13rnd/constantin-sdf-primitive-reasoning-checkpoints",
-        "url": "https://huggingface.co/f13rnd/constantin-sdf-primitive-reasoning-checkpoints"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "reasoning",
-      "observation": "Reasoning capabilities being explored",
-      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
-      "confidence": "medium"
-    }
-  ],
+  "date": "2026-04-27T16:38:56.129075",
+  "patterns": {},
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 2
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
