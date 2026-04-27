@@ -1,33 +1,11 @@
 {
-  "date": "2026-04-27T05:12:00.294721",
-  "patterns": {
-    "language_models": [
-      {
-        "title": "yuv008/clinc-oos-distilbert-classifier",
-        "url": "https://huggingface.co/yuv008/clinc-oos-distilbert-classifier"
-      },
-      {
-        "title": "Inori612/27NEW_phobert-base",
-        "url": "https://huggingface.co/Inori612/27NEW_phobert-base"
-      },
-      {
-        "title": "mradermacher/IBM-GPT5.4-Coder-1B-i1-GGUF",
-        "url": "https://huggingface.co/mradermacher/IBM-GPT5.4-Coder-1B-i1-GGUF"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "date": "2026-04-27T08:58:35.634531",
+  "patterns": {},
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
