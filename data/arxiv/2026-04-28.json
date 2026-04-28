@@ -75,7 +75,7 @@
   {
     "arxiv_id": "2604.24622v1",
     "title": "CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies",
-    "summary": "Flow-based vision-language-action (VLA) policies offer strong expressivity for action generation, but suffer from a fundamental inefficiency: multi-step inference is required to recover action structure from uninformative Gaussian noise, leading to a poor efficiency-quality trade-off under real-time constraints. We address this issue by rethinking the role of the starting point in generative action modeling. Instead of shortening the sampling trajectory, we propose CF-VLA, a coarse-to-fine two-stage formulation that restructures action generation into a coarse initialization step that constructs an action-aware starting point, followed by a single-step local refinement that corrects residual errors. Concretely, the coarse stage learns a conditional posterior over endpoint velocity to transform Gaussian noise into a structured initialization, while the fine stage performs a fixed-time refinement from this initialization. To stabilize training, we introduce a stepwise strategy that first learns a controlled coarse predictor and then performs joint optimization. Experiments on CALVIN and LIBERO show that our method establishes a strong efficiency-performance frontier under low-NFE (Number of Function Evaluations) regimes: it consistently outperforms existing NFE=2 methods, matches or surpasses the NFE=10 $\u03c0_{0.5}$ baseline on several metrics, reduces action sampling latency by 75.4\\%, and achieves the best average real-robot success rate of 83.0\\%, outperforming MIP by 19.5 points and $\u03c0_{0.5}$ by 4.0 points. These results suggest that structured, coarse-to-fine generation enables both strong performance and efficient inference. Our code is available at https://github.com/EmbodiedAI-RoboTron/CF-VLA.",
+    "summary": "Flow-based vision-language-action (VLA) policies offer strong expressivity for action generation, but suffer from a fundamental inefficiency: multi-step inference is required to recover action structure from uninformative Gaussian noise, leading to a poor efficiency-quality trade-off under real-time constraints. We address this issue by rethinking the role of the starting point in generative action modeling. Instead of shortening the sampling trajectory, we propose CF-VLA, a coarse-to-fine two-stage formulation that restructures action generation into a coarse initialization step that constructs an action-aware starting point, followed by a single-step local refinement that corrects residual errors. Concretely, the coarse stage learns a conditional posterior over endpoint velocity to transform Gaussian noise into a structured initialization, while the fine stage performs a fixed-time refinement from this initialization. To stabilize training, we introduce a stepwise strategy that first learns a controlled coarse predictor and then performs joint optimization. Experiments on CALVIN and LIBERO show that our method establishes a strong efficiency-performance frontier under low-NFE (Number of Function Evaluations) regimes: it consistently outperforms existing NFE=2 methods, matches or surpasses the NFE=10 $π_{0.5}$ baseline on several metrics, reduces action sampling latency by 75.4\\%, and achieves the best average real-robot success rate of 83.0\\%, outperforming MIP by 19.5 points and $π_{0.5}$ by 4.0 points. These results suggest that structured, coarse-to-fine generation enables both strong performance and efficient inference. Our code is available at https://github.com/EmbodiedAI-RoboTron/CF-VLA.",
     "authors": [
       "Fan Du",
       "Feng Yan",
@@ -106,8 +106,8 @@
       "Seyyid Osman Sevgili",
       "Atahan Cilan",
       "Mahir Demir",
-      "\u00d6zg\u00fcn Can Y\u00fcr\u00fctken",
-      "\u00dcmit Can Bekar"
+      "Özgün Can Yürütken",
+      "Ümit Can Bekar"
     ],
     "categories": [
       "cs.LG",
@@ -175,8 +175,8 @@
       "Mahir Demir",
       "Atahan Cilan",
       "Seyyid Osman Sevgili",
-      "\u00d6zg\u00fcn Can Y\u00fcr\u00fctken",
-      "\u00dcmit Can Bekar"
+      "Özgün Can Yürütken",
+      "Ümit Can Bekar"
     ],
     "categories": [
       "cs.LG"
@@ -338,9 +338,9 @@
     "authors": [
       "Atahan Cilan",
       "Mahir Demir",
-      "\u00d6zg\u00fcn Can Y\u00fcr\u00fctken",
+      "Özgün Can Yürütken",
       "Seyyid Osman Sevgili",
-      "\u00dcmit Can Bekar"
+      "Ümit Can Bekar"
     ],
     "categories": [
       "cs.LG"
@@ -455,7 +455,7 @@
     "summary": "Training machine learning models for robotic tactile sensing requires vast amounts of data, yet obtaining realistic interaction data remains a challenge due to physical complexity and variability. Simulating tactile sensors is thus a crucial step in accelerating progress. This paper presents SPLIT, a novel method for simulating image-based tactile sensors, with a primary focus on the DIGIT sensor. Central to our approach is a latent space arithmetic strategy that explicitly disentangles contact geometry from sensor-specific optical properties. Unlike methods that require recalibration for every new unit, this disentanglement allows SPLIT to adapt to diverse DIGIT backgrounds and even transfer data to distinct sensors like the GelSight R1.5 without full model retraining. Beyond this adaptability, our approach achieves faster inference speeds than existing alternatives. Furthermore, we provide a calibrated finite element method (FEM) soft-body mesh simulation with variable resolution, offering a tunable trade-off between speed and fidelity. Additionally, our algorithm supports bidirectional simulation, allowing for both the generation of realistic images from deformation meshes and the reconstruction of meshes from tactile images. This versatility makes SPLIT a valuable tool for accelerating progress in robotic tactile sensing research.",
     "authors": [
       "Wadhah Zai El Amri",
-      "Nicol\u00e1s Navarro-Guerrero"
+      "Nicolás Navarro-Guerrero"
     ],
     "categories": [
       "cs.RO",
@@ -692,7 +692,7 @@
   {
     "arxiv_id": "2604.24415v1",
     "title": "Phase-Separated Complex Hilbert PCA on Markerless 3D Pose Estimation Data: A Global Phase Network and Its Extension to a Continuous Field on the Body Surface",
-    "summary": "Quantitative analysis of the kinematic chain in sports motion is essential for performance evaluation and injury prevention. Conventional methods such as the kinematic-sequence (KS) and continuous relative phase (CRP) are confined to adjacent joint pairs and lack a unified framework for whole-body coordination, while segmental power-flow analysis requires force plates and inertial parameters that restrict it to laboratory environments. We apply Complex Hilbert Principal Component Analysis (CHPCA) separately to each motion phase (backswing and downswing) on markerless 3D pose estimation data, extracting the dominant whole-body phase pattern as a single complex eigenvector. The pipeline further includes a fully automatic signal-based phase segmentation (no priors on strike count or rest location) and an extension to 1,079 body-surface mesh vertices, so that the kinematic chain is represented as a continuous phase field across the body. On 14 hammer-striking trials of a single subject, the framework reveals (i) a trunk-anchored global phase architecture, (ii) a functional asymmetry between preparation and execution phases quantified by Mode-1 contribution (45.5% vs. 70.5%) and inter-trial Spearman consistency (0.38 vs. 0.58), and (iii) a consistent reorganisation across both skeletal joints and mesh vertices ($p < 10^{-10}$ on 1,079 vertices). As a methodological consistency check, pairwise phase differences from the Mode-1 eigenvector are compared against CRP on all 190 joint pairs by a permutation test ($\u03c1= 0.473$, $p = 0.0005$). A correspondence analysis between Mode-1 amplitude and kinetic-energy mobilisation variance further shows a strong positive correlation in the downswing ($\u03c1\\approx 0.71$ on both skeleton and mesh) and no correlation in the backswing, indicating that the proposed framework bridges kinematic and kinetic descriptions of coordination through phase structure.",
+    "summary": "Quantitative analysis of the kinematic chain in sports motion is essential for performance evaluation and injury prevention. Conventional methods such as the kinematic-sequence (KS) and continuous relative phase (CRP) are confined to adjacent joint pairs and lack a unified framework for whole-body coordination, while segmental power-flow analysis requires force plates and inertial parameters that restrict it to laboratory environments. We apply Complex Hilbert Principal Component Analysis (CHPCA) separately to each motion phase (backswing and downswing) on markerless 3D pose estimation data, extracting the dominant whole-body phase pattern as a single complex eigenvector. The pipeline further includes a fully automatic signal-based phase segmentation (no priors on strike count or rest location) and an extension to 1,079 body-surface mesh vertices, so that the kinematic chain is represented as a continuous phase field across the body. On 14 hammer-striking trials of a single subject, the framework reveals (i) a trunk-anchored global phase architecture, (ii) a functional asymmetry between preparation and execution phases quantified by Mode-1 contribution (45.5% vs. 70.5%) and inter-trial Spearman consistency (0.38 vs. 0.58), and (iii) a consistent reorganisation across both skeletal joints and mesh vertices ($p < 10^{-10}$ on 1,079 vertices). As a methodological consistency check, pairwise phase differences from the Mode-1 eigenvector are compared against CRP on all 190 joint pairs by a permutation test ($ρ= 0.473$, $p = 0.0005$). A correspondence analysis between Mode-1 amplitude and kinetic-energy mobilisation variance further shows a strong positive correlation in the downswing ($ρ\\approx 0.71$ on both skeleton and mesh) and no correlation in the backswing, indicating that the proposed framework bridges kinematic and kinetic descriptions of coordination through phase structure.",
     "authors": [
       "Hiromitsu Goto",
       "Tao Tao",
@@ -764,8 +764,8 @@
     "title": "Certified geometric robustness -- Super-DeepG",
     "summary": "Safety-critical applications are required to perform as expected in normal operations. Image processing functions are often required to be insensitive to small geometric perturbations such as rotation, scaling, shearing or translation. This paper addresses the formal verification of neural networks against geometric perturbations on their image dataset. Our method Super-DeepG improves the reasoning used in linear relaxation techniques and Lipschitz optimization, and provides an implementation that leverages GPU hardware. By doing so, Super-DeepG achieves both precision and computational efficiency of robustness certification, to an extent that outperforms prior work. Super-DeepG is shared as an open-source tool on GitHub.",
     "authors": [
-      "No\u00e9mie Cohen",
-      "M\u00e9lanie Ducoffe",
+      "Noémie Cohen",
+      "Mélanie Ducoffe",
       "Christophe Gabreau",
       "Claire Pagetti",
       "Xavier Pucel"
@@ -785,7 +785,7 @@
   {
     "arxiv_id": "2604.24312v1",
     "title": "Unconstrained Multi-view Human Pose Estimation with Algebraic Priors",
-    "summary": "Recovering 3D human pose from multi-view imagery typically relies on precise camera calibration, which is often unavailable in real-world scenarios, thereby severely limiting the applicability of existing methods. To overcome this challenge, we propose an unconstrained framework that synergizes deep neural networks, algebraic priors, and temporal dynamics for uncalibrated multi-view human pose estimation. First, we introduce the Triangulation with Transformer Regressor (TTR), which reformulates classical triangulation into a data-driven token fusion process to bypass the dependency on explicit camera parameters. Second, to explicitly embed the inherent algebraic relations of the multi-view variety into the learning process, we propose the Gr\u00f6bner basis Corrector (GC). This pioneering loss formulation enforces constraints derived from the multi-view variety to ensure the neural predictions strictly adhere to the laws of projective geometry. Finally, we devise the Temporal Equivariant Rectifier (TER), which exploits the equivariance property of human motion to impose temporal coherence and structural consistency, effectively mitigating scale ambiguity in uncalibrated settings. Extensive evaluations on standard benchmarks demonstrate that our framework establishes a new state-of-the-art for uncalibrated multi-view human pose estimation. Notably, our approach significantly closes the performance gap between calibration-free methods and fully calibrated oracles.",
+    "summary": "Recovering 3D human pose from multi-view imagery typically relies on precise camera calibration, which is often unavailable in real-world scenarios, thereby severely limiting the applicability of existing methods. To overcome this challenge, we propose an unconstrained framework that synergizes deep neural networks, algebraic priors, and temporal dynamics for uncalibrated multi-view human pose estimation. First, we introduce the Triangulation with Transformer Regressor (TTR), which reformulates classical triangulation into a data-driven token fusion process to bypass the dependency on explicit camera parameters. Second, to explicitly embed the inherent algebraic relations of the multi-view variety into the learning process, we propose the Gröbner basis Corrector (GC). This pioneering loss formulation enforces constraints derived from the multi-view variety to ensure the neural predictions strictly adhere to the laws of projective geometry. Finally, we devise the Temporal Equivariant Rectifier (TER), which exploits the equivariance property of human motion to impose temporal coherence and structural consistency, effectively mitigating scale ambiguity in uncalibrated settings. Extensive evaluations on standard benchmarks demonstrate that our framework establishes a new state-of-the-art for uncalibrated multi-view human pose estimation. Notably, our approach significantly closes the performance gap between calibration-free methods and fully calibrated oracles.",
     "authors": [
       "Xiaolin Qin",
       "Qianlei Wang",
@@ -815,7 +815,7 @@
       "Houssam Zenati",
       "Arthur Gretton",
       "Nathan Kallus",
-      "Aur\u00e9lien Bibaut"
+      "Aurélien Bibaut"
     ],
     "categories": [
       "stat.ML",
@@ -855,7 +855,7 @@
     "authors": [
       "Hugo Sousa",
       "Ricardo Campos",
-      "Al\u00edpio Jorge"
+      "Alípio Jorge"
     ],
     "categories": [
       "cs.CL"
@@ -1076,7 +1076,7 @@
   {
     "arxiv_id": "2604.24328v1",
     "title": "Monocular Depth Estimation via Neural Network with Learnable Algebraic Group and Ring Structures",
-    "summary": "Monocular depth estimation (MDE) has witnessed remarkable progress driven by Convolutional Neural Networks and transformer-based architectures. However, these approaches typically treat the problem as a generic image-to-image regression on Euclidean grids, thereby overlooking the intrinsic algebraic and geometric structures induced by perspective projection. To address this limitation, we propose LAGRNet, a novel framework that fundamentally grounds MDE in algebraic geometry by explicitly embedding learnable group, ring, and sheaf structures into the deep learning pipeline. Modeling feature maps as sections of a sheaf over an approximated image manifold, our method first establishes a Group-defined Feature Manifold (GFM) parameterized by a learned algebraic group action to enforce projective equivariance and robustness against view changes. To facilitate algebraically consistent cross-scale interactions, we subsequently introduce a Ring Convolution Layer (RCL) that formulates feature fusion as a graded ring homomorphism. Furthermore, to ensure global topological consistency, a Sheaf-based Module (SM) aggregates local depth cues via \u010cech nerve on the image topology. Extensive zero-shot evaluations across the KITTI, NYU-Depth V2, and ETH3D benchmarks demonstrate that LAGRNet significantly outperforms state-of-the-art methods in both accuracy and generalization capabilities.",
+    "summary": "Monocular depth estimation (MDE) has witnessed remarkable progress driven by Convolutional Neural Networks and transformer-based architectures. However, these approaches typically treat the problem as a generic image-to-image regression on Euclidean grids, thereby overlooking the intrinsic algebraic and geometric structures induced by perspective projection. To address this limitation, we propose LAGRNet, a novel framework that fundamentally grounds MDE in algebraic geometry by explicitly embedding learnable group, ring, and sheaf structures into the deep learning pipeline. Modeling feature maps as sections of a sheaf over an approximated image manifold, our method first establishes a Group-defined Feature Manifold (GFM) parameterized by a learned algebraic group action to enforce projective equivariance and robustness against view changes. To facilitate algebraically consistent cross-scale interactions, we subsequently introduce a Ring Convolution Layer (RCL) that formulates feature fusion as a graded ring homomorphism. Furthermore, to ensure global topological consistency, a Sheaf-based Module (SM) aggregates local depth cues via Čech nerve on the image topology. Extensive zero-shot evaluations across the KITTI, NYU-Depth V2, and ETH3D benchmarks demonstrate that LAGRNet significantly outperforms state-of-the-art methods in both accuracy and generalization capabilities.",
     "authors": [
       "Qianlei Wang",
       "Kexun Chen",
@@ -1147,8 +1147,8 @@
     "title": "GAMMAF: A Common Framework for Graph-Based Anomaly Monitoring Benchmarking in LLM Multi-Agent Systems",
     "summary": "The rapid integration of Large Language Models (LLMs) into Multi-Agent Systems (MAS) has significantly enhanced their collaborative problem-solving capabilities, but it has also expanded their attack surfaces, exposing them to vulnerabilities such as prompt infection and compromised inter-agent communication. While emerging graph-based anomaly detection methods show promise in protecting these networks, the field currently lacks a standardized, reproducible environment to train these models and evaluate their efficacy. To address this gap, we introduce Gammaf (Graph-based Anomaly Monitoring for LLM Multi-Agent systems Framework), an open-source benchmarking platform. Gammaf is not a novel defense mechanism itself, but rather a comprehensive evaluation architecture designed to generate synthetic multi-agent interaction datasets and benchmark the performance of existing and future defense models. The proposed framework operates through two interdependent pipelines: a Training Data Generation stage, which simulates debates across varied network topologies to capture interactions as robust attributed graphs, and a Defense System Benchmarking stage, which actively evaluates defense models by dynamically isolating flagged adversarial nodes during live inference rounds. Through rigorous evaluation using established defense baselines (XG-Guard and BlindGuard) across multiple knowledge tasks (such as MMLU-Pro and GSM8K), we demonstrate Gammaf's high utility, topological scalability, and execution efficiency. Furthermore, our experimental results reveal that equipping an LLM-MAS with effective attack remediation not only recovers system integrity but also substantially reduces overall operational costs by facilitating early consensus and cutting off the extensive token generation typical of adversarial agents.",
     "authors": [
-      "Pablo Mateo-Torrej\u00f3n",
-      "Alfonso S\u00e1nchez-Maci\u00e1n"
+      "Pablo Mateo-Torrejón",
+      "Alfonso Sánchez-Macián"
     ],
     "categories": [
       "cs.CR",
@@ -1204,7 +1204,7 @@
     "authors": [
       "Yangping Li",
       "Thomas Pinetz",
-      "Michael H\u00f6lzel",
+      "Michael Hölzel",
       "Marieta Toma",
       "Alexander Effland"
     ],
@@ -1228,7 +1228,7 @@
       "Kaisheng Fan",
       "Weizhe Zhang",
       "Yishu Gao",
-      "Tegawend\u00e9 F. Bissyand\u00e9",
+      "Tegawendé F. Bissyandé",
       "Xunzhu Tang"
     ],
     "categories": [
@@ -1306,12 +1306,12 @@
   {
     "arxiv_id": "2604.24563v1",
     "title": "Enhancing molecular dynamics with equivariant machine-learned densities",
-    "summary": "Machine-learning interatomic potentials (MLIPs) have enabled molecular dynamics at near ab initio accuracy, yet remain limited to energies and forces by construction, leaving electronic observables such as dipole moments and polarizabilities inaccessible. We introduce DenSNet, a density-first approach to machine-learned electronic structure that learns the Hohenberg--Kohn map from nuclear configurations to the ground-state electron density. Our approach employs an SE(3)-equivariant neural network to predict density coefficients of a flexible atom-centered Gaussian basis, combined with a $\u0394$-learning strategy that uses superposed atomic densities as a prior to accelerate training. A second equivariant network then maps the predicted density to the total energy, providing a unified framework for molecular dynamics and electronic structure. We validate DenSNet on ethanol, ethanethiol, and resorcinol, where infrared spectra from machine-learned trajectories show excellent agreement with experimental gas-phase measurements. To test scalability, we train on polythiophene oligomers with 1--6 monomers and extrapolate to chains of up to 12 monomers, generating stable long-time trajectories whose infrared spectra agree with reference density functional theory calculations. Here, we show that reinstating the electron density as the central learned quantity opens a practical route to transferable prediction of spectroscopic and electronic observables in large-scale molecular simulations.",
+    "summary": "Machine-learning interatomic potentials (MLIPs) have enabled molecular dynamics at near ab initio accuracy, yet remain limited to energies and forces by construction, leaving electronic observables such as dipole moments and polarizabilities inaccessible. We introduce DenSNet, a density-first approach to machine-learned electronic structure that learns the Hohenberg--Kohn map from nuclear configurations to the ground-state electron density. Our approach employs an SE(3)-equivariant neural network to predict density coefficients of a flexible atom-centered Gaussian basis, combined with a $Δ$-learning strategy that uses superposed atomic densities as a prior to accelerate training. A second equivariant network then maps the predicted density to the total energy, providing a unified framework for molecular dynamics and electronic structure. We validate DenSNet on ethanol, ethanethiol, and resorcinol, where infrared spectra from machine-learned trajectories show excellent agreement with experimental gas-phase measurements. To test scalability, we train on polythiophene oligomers with 1--6 monomers and extrapolate to chains of up to 12 monomers, generating stable long-time trajectories whose infrared spectra agree with reference density functional theory calculations. Here, we show that reinstating the electron density as the central learned quantity opens a practical route to transferable prediction of spectroscopic and electronic observables in large-scale molecular simulations.",
     "authors": [
       "Mihail Bogojeski",
       "Muhammad R. Hasyim",
       "Leslie Vogt-Maranto",
-      "Klaus-Robert M\u00fcller",
+      "Klaus-Robert Müller",
       "Kieron Burke",
       "Mark E. Tuckerman"
     ],
@@ -1970,7 +1970,7 @@
     "title": "Quantum Kernel Advantage over Classical Collapse in Medical Foundation Model Embeddings",
     "summary": "We provide evidence of quantum kernel advantage under noiseless simulation in binary insurance classification on MIMIC-CXR chest radiographs using quantum support vector machines (QSVM) with frozen embeddings from three medical foundation models (MedSigLIP-448, RAD-DINO, ViT-patch32). We propose a two-tier fair comparison framework in which both classifiers receive identical PCA-q features. At Tier 1 (untuned QSVM vs. untuned linear SVM, C = 1 both sides), QSVM wins minority-class F1 in all 18 tested configurations (17 at p < 0.001, 1 at p < 0.01). The classical linear kernel collapses to majority-class prediction on 90-100% of seeds at every qubit count, while QSVM maintains non-trivial recall. At q = 11 (MedSigLIP-448 plateau center), QSVM achieves mean F1 = 0.343 vs. classical F1 = 0.050 (F1 gain = +0.293, p < 0.001) without hyperparameter tuning. Under Tier 2 (untuned QSVM vs. C-tuned RBF SVM), QSVM wins all seven tested configurations (mean gain +0.068, max +0.112). Eigenspectrum analysis reveals quantum kernel effective rank reaches 69.80 at q = 11, far exceeding linear kernel rank, while classical collapse remains C-invariant. A full qubit sweep reveals architecture-dependent concentration onset across models. Code: https://github.com/sebasmos/qml-medimage",
     "authors": [
-      "Sebastian Cajas Ord\u00f3\u00f1ez",
+      "Sebastian Cajas Ordóñez",
       "Felipe Ocampo Osorio",
       "Dax Enshan Koh",
       "Rafi Al Attrach",
@@ -2155,17 +2155,17 @@
     "title": "Multispectral airborne laser scanning dataset for tree species classification: MS-ALS-SPECIES",
     "summary": "The shift from stand-level to individual-tree-level forest assessments supports improved biodiversity mapping, particularly in boreal ecosystems where tree species like aspen (Populus tremula L.) play a keystone role. While airborne laser scanning (ALS) is the standard for such inventories, a major limitation is the small number of publicly available ALS datasets containing high-quality, field-validated reference data. Furthermore, open multispectral ALS datasets with high-quality field reference data are completely lacking despite the potential of multispectral ALS data for tree species classification. This paper presents and details an open multispectral ALS dataset used in a recent international benchmarking study of machine learning and deep learning methods for tree species classification by Taher et al. (2026). The dataset comprises 6326 segment-level point clouds of individual trees representing nine species in Southern Finland. The point cloud data has been acquired using two multispectral laser scanning systems each operating at three laser wavelengths: a helicopter-borne system (HeliALS) with a point density exceeding 1000 points/m$^2$ and an Optech Titan system with approximately 35 points/m$^2$. We provide a detailed description of field data collection techniques developed in the study to facilitate the collection of high-quality ground truth data in an efficient and scalable manner. Additionally, our article presents new analyses on species classification using multispectral data building upon the initial findings of Taher et al. (2026). Furthermore, we study the relation between classification accuracy and tree height to highlight the versatility of the open dataset and to demonstrate the advantage of the point transformer model for small trees and minority species.",
     "authors": [
-      "Matti Hyypp\u00e4",
+      "Matti Hyyppä",
       "Klaara Salolahti",
-      "Eric Hyypp\u00e4",
+      "Eric Hyyppä",
       "Xiaowei Yu",
       "Josef Taher",
       "Leena Matikainen",
-      "Matti Lehtom\u00e4ki",
+      "Matti Lehtomäki",
       "Paula Litkey",
       "Teemu Hakala",
       "Harri Kaartinen",
-      "Juha Hyypp\u00e4",
+      "Juha Hyyppä",
       "Antero Kukko"
     ],
     "categories": [
@@ -2289,8 +2289,8 @@
     "title": "Benchmarking Source-Sensitive Reasoning in Turkish: Humans and LLMs under Evidential Trust Manipulation",
     "summary": "This paper investigates whether source trustworthiness shapes Turkish evidential morphology and whether large language models (LLMs) track this sensitivity. We study the past-domain contrast between -DI and -mIs in controlled cloze contexts where the information source is overtly external, while only its perceived reliability is manipulated (High-Trust vs. Low-Trust). In a human production experiment, native speakers of Turkish show a robust trust effect: High-Trust contexts yield relatively more -DI, whereas Low-Trust contexts yield relatively more -mIs, with the pattern remaining stable across sensitivity analyses. We then evaluate 10 LLMs in three prompting paradigms (open gap-fill, explicit past-tense gap-fill, and forced-choice A/B selection). LLM behavior is highly model- and prompt-dependent: some models show weak or local trust-consistent shifts, but effects are generally unstable, often reversed, and frequently overshadowed by output-compliance problems and strong base-rate suffix preferences. The results provide new evidence for a trust-/commitment-based account of Turkish evidentiality and reveal a clear human-LLM gap in source-sensitive evidential reasoning.",
     "authors": [
-      "Sercan Karaka\u015f",
-      "Yusuf \u015eim\u015fek"
+      "Sercan Karakaş",
+      "Yusuf Şimşek"
     ],
     "categories": [
       "cs.CL",
@@ -2331,7 +2331,7 @@
     "authors": [
       "Catherine O'Brien",
       "Gerard Sant",
-      "Mathias M\u00fcller",
+      "Mathias Müller",
       "Sarah Ebling"
     ],
     "categories": [
@@ -2391,7 +2391,7 @@
   {
     "arxiv_id": "2604.24692v1",
     "title": "Diffusion-Guided Feature Selection via Nishimori Temperature: Noise-Based Spectral Embedding",
-    "summary": "We propose Noise-Based Spectral Embedding (NBSE), a physics-informed framework for selecting informative features from high-dimensional data without greedy search. NBSE constructs a sparse similarity graph on the samples and identifies the Nishimori temperature $\u03b2_N$ the critical inverse temperature at which the Bethe Hessian becomes singular. The corresponding smallest eigenvector captures the dominant mode of an intrinsically degree-corrected diffusion process, naturally reweighting nodes to prevent hub dominance. By transposing the data matrix and applying NBSE in feature space, we obtain a one-dimensional spectral embedding that reveals groups of redundant or semantically related dimensions; balanced binning then selects one representative per group. We prove that coloured Gaussian perturbations shift $\u03b2_N$ by at most $O(\\bar\u03c3^2)$, guaranteeing robustness to measurement noise. Experiments on ImageNet embeddings from MobileNetV2 and EfficientNet-B4 show that NBSE preserves classification accuracy even under aggressive compression: on EfficientNet-B4 the accuracy drop is below $1\\%$ when retaining only $30\\%$ of features, outperforming ANOVA $F$-test and random selection by up to $6.8\\%$.",
+    "summary": "We propose Noise-Based Spectral Embedding (NBSE), a physics-informed framework for selecting informative features from high-dimensional data without greedy search. NBSE constructs a sparse similarity graph on the samples and identifies the Nishimori temperature $β_N$ the critical inverse temperature at which the Bethe Hessian becomes singular. The corresponding smallest eigenvector captures the dominant mode of an intrinsically degree-corrected diffusion process, naturally reweighting nodes to prevent hub dominance. By transposing the data matrix and applying NBSE in feature space, we obtain a one-dimensional spectral embedding that reveals groups of redundant or semantically related dimensions; balanced binning then selects one representative per group. We prove that coloured Gaussian perturbations shift $β_N$ by at most $O(\\barσ^2)$, guaranteeing robustness to measurement noise. Experiments on ImageNet embeddings from MobileNetV2 and EfficientNet-B4 show that NBSE preserves classification accuracy even under aggressive compression: on EfficientNet-B4 the accuracy drop is below $1\\%$ when retaining only $30\\%$ of features, outperforming ANOVA $F$-test and random selection by up to $6.8\\%$.",
     "authors": [
       "Vasiliy S. Usatyuk",
       "Denis A. Sapozhnikov",
@@ -2537,7 +2537,7 @@
     "title": "Generative Design of a Gas Turbine Combustor Using Invertible Neural Networks",
     "summary": "The need to burn 100% H2 in high efficient gas turbines featuring low NOx combustion in premix mode require the complete redesign of the combustion system to ensure stable operation without any flashback. Since all engine frames featuring a power range from 4 MW up to 600 MW are affected, a huge design effort is expected. To reduce this effort, especially to transfer knowledge between the different engine classes, generative design methods using latest AI technology will provide promising potential. In this work, this challenge is approached utilizing the current advances in generative artificial intelligence. We train an Invertible Neural Network (INN) on an expandable database of geometrically parameterized combustor designs with simulated performance labels. Utilizing the INN in its inverse direction, multiple design proposals are generated which fulfill specified performance labels.",
     "authors": [
-      "Patrick Kr\u00fcger",
+      "Patrick Krüger",
       "Hanno Gottschalk",
       "Werner Krebs",
       "Bastian Werdelmann"
@@ -2574,7 +2574,7 @@
   {
     "arxiv_id": "2604.24224v1",
     "title": "IMPA-Net: Meteorology-Aware Multi-Scale Attention and Dynamic Loss for Extreme Convective Radar Nowcasting",
-    "summary": "Short-range prediction of convective precipitation from weather radar observations is essential for severe weather warnings. However, deep learning models trained with pixel-wise error metrics tend to produce overly smooth forecasts that suppress intense echoes critical for hazard detection. This issue is exacerbated by insufficient multi-scale feature interaction and suboptimal fusion of heterogeneous geophysical inputs. We propose IMPA-Net (Integrated Multi-scale Predictive Attention Network), a deterministic 0-2 hour nowcasting framework that addresses these limitations through meteorologically-informed designs at the input, architecture, and loss function levels. A parameter-free Spatial Mixer reorganizes heterogeneous input channels at the mesoscale-$\u03b3$ neighborhood (~2 km) via deterministic channel permutation, providing a structured cross-field prior. An integrated multi-scale predictive attention module serves as the spatiotemporal translator, capturing dynamics from mesoscale-$\u03b2$ to mesoscale-$\u03b3$ scales. A Meteorologically-Aware Dynamic Loss employs three-level asymmetric weighting -- adapting across training epochs, storm intensity, and forecast lead time -- to counteract regression-to-the-mean. Evaluated against seven baselines on a multi-source radar dataset over eastern China, IMPA-Net raises the Heidke Skill Score at $\\geq$45 dBZ from 0.049 (SimVP baseline) to 0.143 under matched settings. Relative to pySTEPS, it provides a better trade-off between severe-event detection and false-alarm control. Spectral analysis confirms preserved energy across mesoscale bands where competing methods show progressive smoothing. These improvements are shown within a single domain and convective regime; generalizability to other orographic and climatic regions remains to be tested.",
+    "summary": "Short-range prediction of convective precipitation from weather radar observations is essential for severe weather warnings. However, deep learning models trained with pixel-wise error metrics tend to produce overly smooth forecasts that suppress intense echoes critical for hazard detection. This issue is exacerbated by insufficient multi-scale feature interaction and suboptimal fusion of heterogeneous geophysical inputs. We propose IMPA-Net (Integrated Multi-scale Predictive Attention Network), a deterministic 0-2 hour nowcasting framework that addresses these limitations through meteorologically-informed designs at the input, architecture, and loss function levels. A parameter-free Spatial Mixer reorganizes heterogeneous input channels at the mesoscale-$γ$ neighborhood (~2 km) via deterministic channel permutation, providing a structured cross-field prior. An integrated multi-scale predictive attention module serves as the spatiotemporal translator, capturing dynamics from mesoscale-$β$ to mesoscale-$γ$ scales. A Meteorologically-Aware Dynamic Loss employs three-level asymmetric weighting -- adapting across training epochs, storm intensity, and forecast lead time -- to counteract regression-to-the-mean. Evaluated against seven baselines on a multi-source radar dataset over eastern China, IMPA-Net raises the Heidke Skill Score at $\\geq$45 dBZ from 0.049 (SimVP baseline) to 0.143 under matched settings. Relative to pySTEPS, it provides a better trade-off between severe-event detection and false-alarm control. Spectral analysis confirms preserved energy across mesoscale bands where competing methods show progressive smoothing. These improvements are shown within a single domain and convective regime; generalizability to other orographic and climatic regions remains to be tested.",
     "authors": [
       "Haofei Cui",
       "Guangxin He",
@@ -2820,19 +2820,19 @@
   {
     "arxiv_id": "2604.24634v1",
     "title": "Computational Design and Experimental Validation of Photoactive PARP1 Inhibitors",
-    "summary": "Light-activated drugs are a promising way to treat localized diseases for which existing treatments have severe side effects. However, their development is complicated by the set of photophysical and biological properties that must be simultaneously optimized. Here we used computational techniques to find a set of promising candidates for the photoactive inhibition of the poly(ADP-ribose) polymerase 1 (PARP1) cancer target. Using our recently developed methods based on atomistic simulation and machine learning (ML), we screened a set of 5 million hypothetical photoactive ligands. Our workflow used protein-ligand docking to identify candidates with differential PARP1 binding under light and dark conditions; ML force fields and quantum chemistry calculations to predict p$K_\\mathrm{a}$, absorption spectra, and thermal half-lives; graph-based surrogate models to screen additional compounds; excited-state nonadiabatic dynamics with ML force fields to estimate quantum yields; and free energy perturbation (FEP) to refine binding predictions. From these predictions, we prioritized a small set of synthetically feasible candidates expected to have red-shifted absorption spectra, thermal half-lives on the order of seconds to minutes, and isomer-dependent PARP1 binding under visible-light control. We synthesized 10 candidates and experimentally characterized their photobehavior and PARP1 inhibition constants. Among the validated compounds, \\textbf{1} showed a 15-fold increase in inhibition of PARP1 upon green-light irradiation at 519 nm (208.8 $\\pm$ 28.3 $\u03bc$M vs 14.4 $\\pm$ 1.9 $\u03bc$M). These results validate the computation-guided screening strategy for identifying red-shifted PARP1 photoinhibitors, while also underscoring current limitations such as rapid thermal relaxation in aqueous media.",
+    "summary": "Light-activated drugs are a promising way to treat localized diseases for which existing treatments have severe side effects. However, their development is complicated by the set of photophysical and biological properties that must be simultaneously optimized. Here we used computational techniques to find a set of promising candidates for the photoactive inhibition of the poly(ADP-ribose) polymerase 1 (PARP1) cancer target. Using our recently developed methods based on atomistic simulation and machine learning (ML), we screened a set of 5 million hypothetical photoactive ligands. Our workflow used protein-ligand docking to identify candidates with differential PARP1 binding under light and dark conditions; ML force fields and quantum chemistry calculations to predict p$K_\\mathrm{a}$, absorption spectra, and thermal half-lives; graph-based surrogate models to screen additional compounds; excited-state nonadiabatic dynamics with ML force fields to estimate quantum yields; and free energy perturbation (FEP) to refine binding predictions. From these predictions, we prioritized a small set of synthetically feasible candidates expected to have red-shifted absorption spectra, thermal half-lives on the order of seconds to minutes, and isomer-dependent PARP1 binding under visible-light control. We synthesized 10 candidates and experimentally characterized their photobehavior and PARP1 inhibition constants. Among the validated compounds, \\textbf{1} showed a 15-fold increase in inhibition of PARP1 upon green-light irradiation at 519 nm (208.8 $\\pm$ 28.3 $μ$M vs 14.4 $\\pm$ 1.9 $μ$M). These results validate the computation-guided screening strategy for identifying red-shifted PARP1 photoinhibitors, while also underscoring current limitations such as rapid thermal relaxation in aqueous media.",
     "authors": [
       "Simon Axelrod",
-      "Miroslav Ka\u0161par",
-      "Krist\u00fdna Jel\u00ednkov\u00e1",
-      "Mark\u00e9ta \u0160m\u00eddkov\u00e1",
-      "Erika Bart\u016f\u0148kov\u00e1",
-      "Sille \u0160t\u011bp\u00e1nov\u00e1",
+      "Miroslav Kašpar",
+      "Kristýna Jelínková",
+      "Markéta Šmídková",
+      "Erika Bartůňková",
+      "Sille Štěpánová",
       "Eugene Shakhnovich",
-      "V\u00e1clav Ka\u0161i\u010dka",
-      "Martin Dra\u010d\u00ednsk\u00fd",
+      "Václav Kašička",
+      "Martin Dračínský",
       "Zlatko Janeba",
-      "Rafael G\u00f3mez-Bombarelli"
+      "Rafael Gómez-Bombarelli"
     ],
     "categories": [
       "physics.chem-ph",
@@ -2950,7 +2950,7 @@
   {
     "arxiv_id": "2604.24337v1",
     "title": "New non-Euclidean neural quantum states from additional types of hyperbolic recurrent neural networks",
-    "summary": "In this work, we extend the class of previously introduced non-Euclidean neural quantum states (NQS) which consists only of Poincar\u00e9 hyperbolic GRU, to new variants including Poincar\u00e9 RNN as well as Lorentz RNN and Lorentz GRU. In addition to constructing and introducing the new non-Euclidean hyperbolic NQS ansatzes, we generalized the results of our earlier work regarding the definitive outperformances delivered by hyperbolic Poincar\u00e9 GRU NQS ansatzes when benchmarked against their Euclidean counterparts in the Variational Monte Carlo (VMC) experiments involving the quantum many-body settings of the Heisenberg $J_1J_2$ and $J_1J_2J_3$ models, which exhibit hierarchical structures in the forms of the different degrees of nearest-neighbor interactions. Here, in particular, using larger systems consisting of 100 spins, we found that all four hyperbolic RNN/GRU NQS variants always outperformed their respective Euclidean counterparts. Specifically, for all $J_2$ and $(J_2,J_3)$ couplings considered, including $J_2=0.0$, Lorentz RNN NQS and Poincar\u00e9 RNN NQS always outperformd Euclidean RNN NQS, while Lorentz/Poincar\u00e9 GRU NQS always outperformed Euclidean GRU NQS, with a single exception when $J_2=0.0$ for Poincar\u00e9 GRU NQS. Furthermore, among the four hyperbolic NQS ansatzes, depending on the specific $J_2$ or $(J_2, J_3)$ couplings, on four out of eight experiment settings, Lorentz GRU and Poincar\u00e9 GRU took turns to be the top performing variant among all Euclidean and hyperbolic NQS ansatzes considered, while Lorentz RNN, with up to three times fewer parameters, was capable of not only surpassing the Euclidean GRU eight out of eight times but also outperforming both Lorentz GRU and Poincar\u00e9 GRU four out of eight times, to emerge as the best overall hyperbolic NQS ansatz.",
+    "summary": "In this work, we extend the class of previously introduced non-Euclidean neural quantum states (NQS) which consists only of Poincaré hyperbolic GRU, to new variants including Poincaré RNN as well as Lorentz RNN and Lorentz GRU. In addition to constructing and introducing the new non-Euclidean hyperbolic NQS ansatzes, we generalized the results of our earlier work regarding the definitive outperformances delivered by hyperbolic Poincaré GRU NQS ansatzes when benchmarked against their Euclidean counterparts in the Variational Monte Carlo (VMC) experiments involving the quantum many-body settings of the Heisenberg $J_1J_2$ and $J_1J_2J_3$ models, which exhibit hierarchical structures in the forms of the different degrees of nearest-neighbor interactions. Here, in particular, using larger systems consisting of 100 spins, we found that all four hyperbolic RNN/GRU NQS variants always outperformed their respective Euclidean counterparts. Specifically, for all $J_2$ and $(J_2,J_3)$ couplings considered, including $J_2=0.0$, Lorentz RNN NQS and Poincaré RNN NQS always outperformd Euclidean RNN NQS, while Lorentz/Poincaré GRU NQS always outperformed Euclidean GRU NQS, with a single exception when $J_2=0.0$ for Poincaré GRU NQS. Furthermore, among the four hyperbolic NQS ansatzes, depending on the specific $J_2$ or $(J_2, J_3)$ couplings, on four out of eight experiment settings, Lorentz GRU and Poincaré GRU took turns to be the top performing variant among all Euclidean and hyperbolic NQS ansatzes considered, while Lorentz RNN, with up to three times fewer parameters, was capable of not only surpassing the Euclidean GRU eight out of eight times but also outperforming both Lorentz GRU and Poincaré GRU four out of eight times, to emerge as the best overall hyperbolic NQS ansatz.",
     "authors": [
       "H. L. Dao"
     ],
@@ -2986,7 +2986,7 @@
   {
     "arxiv_id": "2604.24196v1",
     "title": "Identifiability and Stability of Generative Drifting with Companion-Elliptic Kernel Families",
-    "summary": "This paper analyzes identifiability and stability for the drifting field underlying distributional matching in the Generative Drifting framework of Deng et al. First, we introduce the class of companion-elliptic kernels, which includes the Laplace kernel and is characterized by a second-order elliptic coupling between each kernel $\u03ba$ in this class and its companion function $\u03b7$. For each kernel in this class and each pair of Borel probability measures, we prove that the drifting field vanishes if and only if the two probability measures are equal. We further show that this class consists precisely of Gaussian kernels and Mat\u00e9rn kernels with $\u03bd\\ge 1/2$. Second, by constructing counterexamples, we exhibit sequences for which mass escapes to infinity while the field tends to zero; in particular, control of the field norm alone does not guarantee weak convergence. Nevertheless, we prove that the only possible mode of failure is confined to the one-dimensional ray $\\{c\\,p:0\\le c\\le 1\\}$. Consequently, weak convergence can be restored by imposing an asymptotic lower bound on the intrinsic overlap scalar, a linear observable defined by the kernel and the target measure.",
+    "summary": "This paper analyzes identifiability and stability for the drifting field underlying distributional matching in the Generative Drifting framework of Deng et al. First, we introduce the class of companion-elliptic kernels, which includes the Laplace kernel and is characterized by a second-order elliptic coupling between each kernel $κ$ in this class and its companion function $η$. For each kernel in this class and each pair of Borel probability measures, we prove that the drifting field vanishes if and only if the two probability measures are equal. We further show that this class consists precisely of Gaussian kernels and Matérn kernels with $ν\\ge 1/2$. Second, by constructing counterexamples, we exhibit sequences for which mass escapes to infinity while the field tends to zero; in particular, control of the field norm alone does not guarantee weak convergence. Nevertheless, we prove that the only possible mode of failure is confined to the one-dimensional ray $\\{c\\,p:0\\le c\\le 1\\}$. Consequently, weak convergence can be restored by imposing an asymptotic lower bound on the intrinsic overlap scalar, a linear observable defined by the kernel and the target measure.",
     "authors": [
       "Hak Geun Lee"
     ],
@@ -3159,7 +3159,7 @@
       "Huy Nghiem",
       "Xinchen Yang",
       "Marine Carpuat",
-      "Hal Daum\u00e9"
+      "Hal Daumé"
     ],
     "categories": [
       "cs.CL"
@@ -3290,7 +3290,7 @@
     "summary": "Specification-guided reinforcement learning (RL) provides a principled framework for encoding complex, temporally extended tasks using formal specifications such as linear temporal logic (LTL). While recent methods have shown promising results, their ability to generalize across unseen specifications and diverse environments remains insufficiently understood. In this work, we introduce SpecRLBench, a benchmark designed to evaluate the generalization capabilities of LTL-based specification-guided RL methods. The benchmark spans multiple difficulty levels across navigation and manipulation domains, incorporating both static and dynamic environments, diverse robot dynamics, and varied observation modalities. Through extensive empirical evaluation, we characterize the strengths and limitations of existing approaches and reveal the challenges that emerge as specification and environment complexity increase. SpecRLBench provides a structured platform for systematic comparison and supports the development of more generalizable specification-guided RL methods. Code is available at https://github.com/BU-DEPEND-Lab/SpecRLBench.",
     "authors": [
       "Zijian Guo",
-      "\u0130lker I\u015f\u0131k",
+      "İlker Işık",
       "H. M. Sabbir Ahmad",
       "Wenchao Li"
     ],
@@ -3375,8 +3375,8 @@
     "authors": [
       "Veli Karakaya",
       "Utku Boran Torun",
-      "Baykal Mehmet U\u00e7ar",
-      "Eray T\u00fcz\u00fcn"
+      "Baykal Mehmet Uçar",
+      "Eray Tüzün"
     ],
     "categories": [
       "cs.SE",
@@ -3436,7 +3436,7 @@
     "summary": "Standard Retrieval-Augmented Generation (RAG) chunking methods often create excessive redundancy, increasing storage costs and slowing retrieval. This study explores chunk filtering strategies, such as semantic, topic-based, and named-entity-based methods in order to reduce the indexed corpus while preserving retrieval quality. Experiments are conducted on multiple corpora. Retrieval performance is evaluated using a token-based framework based on precision, recall, and intersection-over-union metrics. Results indicate that entity-based filtering can reduce vector index size by approximately 25% to 36% while maintaining high retrieval quality close to the baseline. These findings suggest that redundancy introduced during chunking can be effectively reduced through lightweight filtering, improving the efficiency of retrieval-oriented components in RAG pipelines.",
     "authors": [
       "Daria Berdyugina",
-      "Ana\u00eblle Cohen",
+      "Anaëlle Cohen",
       "Yohann Rioual"
     ],
     "categories": [
@@ -3501,7 +3501,7 @@
     "authors": [
       "Ashmi Banerjee",
       "Adithi Satish",
-      "Wolfgang W\u00f6rndl",
+      "Wolfgang Wörndl",
       "Yashar Deldjoo"
     ],
     "categories": [
@@ -3587,7 +3587,7 @@
     "authors": [
       "Michal Valko",
       "Alexandra Carpentier",
-      "R\u00e9mi Munos"
+      "Rémi Munos"
     ],
     "categories": [
       "cs.LG",
@@ -3606,7 +3606,7 @@
     "summary": "Multiple myeloma is managed through sequential lines of therapy over years to decades, with each decision depending on cumulative disease history distributed across dozens to hundreds of heterogeneous clinical documents. Whether LLM-based systems can synthesise this evidence at a level approaching expert agreement has not been established. A retrospective evaluation was conducted on longitudinal clinical records of 811 myeloma patients treated at a tertiary centre (2001-2026), covering 44,962 documents and 1,334,677 laboratory values, with external validation on MIMIC-IV. An agentic reasoning system was compared against single-pass retrieval-augmented generation (RAG), iterative RAG, and full-context input on 469 patient-question pairs from 48 templates at three complexity levels. Reference labels came from double annotation by four oncologists with senior haematologist adjudication. Iterative RAG and full-context input converged on a shared ceiling (75.4% vs 75.8%, p = 1.00). The agentic system reached 79.6% concordance (95% CI 76.4-82.8), exceeding both baselines (+3.8 and +4.2 pp; p = 0.006 and 0.007). Gains rose with question complexity, reaching +9.4 pp on criteria-based synthesis (p = 0.032), and with record length, reaching +13.5 pp in the top decile (n = 10). The system error rate (12.2%) was comparable to expert disagreement (13.6%), but severity was inverted: 57.8% of system errors were clinically significant versus 18.8% of expert disagreements. Agentic reasoning was the only approach to exceed the shared ceiling, with gains concentrated on the most complex questions and longest records. The greater clinical consequence of residual system errors indicates that prospective evaluation in routine care is required before these findings translate into patient benefit.",
     "authors": [
       "Johannes Moll",
-      "Jannik L\u00fcbberstedt",
+      "Jannik Lübberstedt",
       "Christoph Nuernbergk",
       "Jacob Stroh",
       "Luisa Mertens",
@@ -3614,14 +3614,14 @@
       "Christopher Zirn",
       "Zeineb Benchaaben",
       "Fabian Drexel",
-      "Hartmut H\u00e4ntze",
+      "Hartmut Häntze",
       "Anirudh Narayanan",
       "Friedrich Puttkammer",
       "Andrei Zhukov",
       "Jacqueline Lammert",
       "Sebastian Ziegelmayer",
       "Markus Graf",
-      "Marion H\u00f6gner",
+      "Marion Högner",
       "Marcus Makowski",
       "Florian Bassermann",
       "Lisa C. Adams",
@@ -3900,7 +3900,7 @@
     "summary": "AI risk assessment is the primary tool for identifying harms caused by AI systems. These include intersectional harms, which arise from the interaction between identity categories (e.g., class and skin tone) and which do not occur, or occur differently, when those categories are considered separately. Yet existing AI risk assessments are still built around isolated identity categories, and when intersections are considered, they focus almost exclusively on race and gender. Drawing on a large-scale analysis of documented AI incidents, we show that AI harms do not occur one identity category at a time. Using a structured rubric applied with a Large Language Model (LLM), we analyze 5,300 reports from 1,200 documented incidents in the AI Incident Database, the most curated source of incident data. From these reports, we identify 1,513 harmed subjects and their associated identity categories, achieving 98% accuracy. At the level of individual categories, we find that age and political identity appear in documented AI harms at rates comparable to race and gender. At the level of intersecting categories, harm is amplified up to three times at specific intersections: adolescent girls, lower-class people of color, and upper-class political elites. We argue that intersectionality should be a core component of AI risk assessment to more accurately capture how harms are produced and distributed across social groups.",
     "authors": [
       "Edyta Bogucka",
-      "Sanja \u0160\u0107epanovi\u0107",
+      "Sanja Šćepanović",
       "Daniele Quercia"
     ],
     "categories": [
@@ -4055,7 +4055,7 @@
     "authors": [
       "Laurenz Reichardt",
       "Nikolas Ebert",
-      "Oliver Wasenm\u00fcller"
+      "Oliver Wasenmüller"
     ],
     "categories": [
       "cs.CV"
@@ -4231,7 +4231,7 @@
       "Felix Duelmer",
       "Mohammad Farid Azampour",
       "Sebastian Herz",
-      "Stefan W\u00f6rz",
+      "Stefan Wörz",
       "Nassir Navab"
     ],
     "categories": [
@@ -4423,7 +4423,7 @@
   {
     "arxiv_id": "2604.24586v1",
     "title": "Point-MF: One-step Point Cloud Generation from a Single Image via Mean Flows",
-    "summary": "Single-image point cloud reconstruction must infer complete 3D geometry, including occluded parts, from a single RGB image. While diffusion-based reconstructors achieve high accuracy, they typically require many denoising iterations, resulting in slow and expensive inference. We propose Point-MF, a Mean-Flow-based framework for low-NFE single-image point cloud reconstruction that couples a Mean-Flow-compatible architecture with an auxiliary loss. Specifically, Point-MF operates directly in point-cloud space to learn the mean velocity field and enables one-step reconstruction with a single network function evaluation (1-NFE), without relying on VAE-based latent representations. To make Mean Flow effective under large interval jumps, Point-MF employs a Diffusion Transformer tailored to the Mean-Flow setting, conditioned on frozen DINOv3 image features via a lightweight token adapter and equipped with explicit interval/time conditioning. Moreover, we introduce Denoised Space Anchor, a set-distance auxiliary loss on the denoised-space estimate $x_\u03b8$ induced by the predicted velocity field, to stabilize large-step generation and reduce outliers and density artifacts. On ShapeNet-R2N2 and Pix3D, Point-MF strikes a strong balance between reconstruction quality and inference speed compared to multi-step diffusion baselines and competitive feedforward models, while generating high-quality point clouds with millisecond-level latency.",
+    "summary": "Single-image point cloud reconstruction must infer complete 3D geometry, including occluded parts, from a single RGB image. While diffusion-based reconstructors achieve high accuracy, they typically require many denoising iterations, resulting in slow and expensive inference. We propose Point-MF, a Mean-Flow-based framework for low-NFE single-image point cloud reconstruction that couples a Mean-Flow-compatible architecture with an auxiliary loss. Specifically, Point-MF operates directly in point-cloud space to learn the mean velocity field and enables one-step reconstruction with a single network function evaluation (1-NFE), without relying on VAE-based latent representations. To make Mean Flow effective under large interval jumps, Point-MF employs a Diffusion Transformer tailored to the Mean-Flow setting, conditioned on frozen DINOv3 image features via a lightweight token adapter and equipped with explicit interval/time conditioning. Moreover, we introduce Denoised Space Anchor, a set-distance auxiliary loss on the denoised-space estimate $x_θ$ induced by the predicted velocity field, to stabilize large-step generation and reduce outliers and density artifacts. On ShapeNet-R2N2 and Pix3D, Point-MF strikes a strong balance between reconstruction quality and inference speed compared to multi-step diffusion baselines and competitive feedforward models, while generating high-quality point clouds with millisecond-level latency.",
     "authors": [
       "Yuta Baba",
       "Keiji Yanai"
@@ -4489,7 +4489,7 @@
     "title": "Self-Supervised Representation Learning via Hyperspherical Density Shaping",
     "summary": "Modern self-supervised representation learning methods often relies on empirical heuristics that are not theoretically grounded. In this study we propose HyDeS, a theoretically grounded method based on multi-view mutual information maximization within an hyperspherical space using Shannon differential entropy with a non-parametric von Mises-Fisher density estimator.   We show that HyDeS bias the trained model towards focusing on foreground features of the images and perform well on segmentation tasks such as VOC PASCAL, while it lags in fine-grained classification. We provide a detailed analysis of the induced latent space geometry and learning dynamics, that can be used for designing other theoretically grounded self-supervised learning methods.",
     "authors": [
-      "Esteban Rodr\u00edguez-Betancourt",
+      "Esteban Rodríguez-Betancourt",
       "Edgar Casasola-Murillo"
     ],
     "categories": [
@@ -4507,7 +4507,7 @@
     "title": "Geometric Analysis of Self-Supervised Vision Representations for Semantic Image Retrieval",
     "summary": "Content-based image retrieval (CBIR) systems enable users to search images based on visual content instead of relying on metadata. The text domain has benefited from vector search of representations created with unsupervised methods such as BERT. However, modern self-supervised learning methods for vision are mostly not reported in CBIR-related literature, instead relying on supervised models or multi-modal methods that align text and vision.   We evaluate how the representations learned by modern self-supervised learning methods for vision perform under typical retrieval stacks that leverage vector databases and nearest neighbor search. Our evaluation reveals that the latent space geometry impacts approximate nearest neighbor (ANN) indexing. Specifically, highly anisotropic representations with high skewness produced by several modern SSL methods degrade the performance of partition-based and hashing-based search, even if their own linear probe or K-NN accuracy is not affected. In contrast, representations with higher isotropy and local purity better satisfy the distance-based assumptions of ANN indexes, leading to improved semantic retrieval performance.",
     "authors": [
-      "Esteban Rodr\u00edguez-Betancourt",
+      "Esteban Rodríguez-Betancourt",
       "Edgar Casasola-Murillo"
     ],
     "categories": [
@@ -4562,97 +4562,5 @@
     "date": "2026-04-28",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "cjiao/goldengoose-method-v2-api-100",
-    "author": "unknown",
-    "title": "cjiao/goldengoose-method-v2-api-100",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "generated_from_trainer",
-      "grpo",
-      "trl",
-      "conversational",
-      "arxiv:2402.03300",
-      "base_model:Qwen/Qwen2.5-1.5B-Instruct",
-      "base_model:finetune:Qwen/Qwen2.5-1.5B-Instruct",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-28T02:32:24.000Z",
-    "last_modified": "2026-04-28T05:23:40.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/cjiao/goldengoose-method-v2-api-100",
-    "date": "2026-04-28",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "huihui-ai/Huihui-MiniMax-M2.7-BF16-abliterated-GGUF",
-    "author": "unknown",
-    "title": "huihui-ai/Huihui-MiniMax-M2.7-BF16-abliterated-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "gguf",
-      "abliterated",
-      "uncensored",
-      "GGUF",
-      "text-generation",
-      "base_model:MiniMaxAI/MiniMax-M2.7",
-      "base_model:quantized:MiniMaxAI/MiniMax-M2.7",
-      "license:other",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-27T07:55:27.000Z",
-    "last_modified": "2026-04-28T05:21:25.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/huihui-ai/Huihui-MiniMax-M2.7-BF16-abliterated-GGUF",
-    "date": "2026-04-28",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "BhanuJasti/gemma-3-1b-it-sst5-merged",
-    "author": "unknown",
-    "title": "BhanuJasti/gemma-3-1b-it-sst5-merged",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma3_text",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-28T00:30:26.000Z",
-    "last_modified": "2026-04-28T05:21:21.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/BhanuJasti/gemma-3-1b-it-sst5-merged",
-    "date": "2026-04-28",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
