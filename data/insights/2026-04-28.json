@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-28T12:44:46.348206",
+  "date": "2026-04-28T16:42:40.134436",
   "patterns": {
     "multimodal_research": [
       {
@@ -971,10 +971,6 @@
       {
         "title": "WildLIFT: Lifting monocular drone video to 3D for species-agnostic wildlife monitoring",
         "url": "https://arxiv.org/abs/2604.24718v1"
-      },
-      {
-        "title": "nureddin123/whisper_turbo_10K_CV25_Z472",
-        "url": "https://huggingface.co/nureddin123/whisper_turbo_10K_CV25_Z472"
       }
     ],
     "reasoning": [
@@ -1315,8 +1311,12 @@
         "url": "https://arxiv.org/abs/2604.24718v1"
       },
       {
-        "title": "inferencerlabs/DeepSeek-V4-Pro-MLX-2.8bit-EXP",
-        "url": "https://huggingface.co/inferencerlabs/DeepSeek-V4-Pro-MLX-2.8bit-EXP"
+        "title": "TourniquetRules/flip7-reasoning-sft-Qwen3-4B",
+        "url": "https://huggingface.co/TourniquetRules/flip7-reasoning-sft-Qwen3-4B"
+      },
+      {
+        "title": "feanors/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-FP8-Dynamic",
+        "url": "https://huggingface.co/feanors/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-FP8-Dynamic"
       }
     ],
     "benchmarks": [
@@ -1787,13 +1787,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "85 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1833,7 +1833,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 39,
+      "frequency": 41,
       "significance": "high"
     }
   ],
