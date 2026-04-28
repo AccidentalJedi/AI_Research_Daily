@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-28T05:23:57.305580",
+  "date": "2026-04-28T08:57:10.192698",
   "patterns": {
     "multimodal_research": [
       {
@@ -971,6 +971,10 @@
       {
         "title": "WildLIFT: Lifting monocular drone video to 3D for species-agnostic wildlife monitoring",
         "url": "https://arxiv.org/abs/2604.24718v1"
+      },
+      {
+        "title": "Rekib23r/nsfw_image_detection-ONNX",
+        "url": "https://huggingface.co/Rekib23r/nsfw_image_detection-ONNX"
       }
     ],
     "reasoning": [
@@ -1779,7 +1783,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "74 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1832,6 +1836,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 433
+    "total_papers": 434
   }
 }
