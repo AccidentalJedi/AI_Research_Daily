@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-28T08:57:10.192698",
+  "date": "2026-04-28T12:44:46.348206",
   "patterns": {
     "multimodal_research": [
       {
@@ -973,8 +973,8 @@
         "url": "https://arxiv.org/abs/2604.24718v1"
       },
       {
-        "title": "Rekib23r/nsfw_image_detection-ONNX",
-        "url": "https://huggingface.co/Rekib23r/nsfw_image_detection-ONNX"
+        "title": "nureddin123/whisper_turbo_10K_CV25_Z472",
+        "url": "https://huggingface.co/nureddin123/whisper_turbo_10K_CV25_Z472"
       }
     ],
     "reasoning": [
@@ -1313,6 +1313,10 @@
       {
         "title": "WildLIFT: Lifting monocular drone video to 3D for species-agnostic wildlife monitoring",
         "url": "https://arxiv.org/abs/2604.24718v1"
+      },
+      {
+        "title": "inferencerlabs/DeepSeek-V4-Pro-MLX-2.8bit-EXP",
+        "url": "https://huggingface.co/inferencerlabs/DeepSeek-V4-Pro-MLX-2.8bit-EXP"
       }
     ],
     "benchmarks": [
@@ -1789,7 +1793,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "84 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1836,6 +1840,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 434
+    "total_papers": 435
   }
 }
