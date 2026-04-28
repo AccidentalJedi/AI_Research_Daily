@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-28T16:42:40.134436",
+  "date": "2026-04-28T20:35:04.165930",
   "patterns": {
     "multimodal_research": [
       {
@@ -673,6 +673,10 @@
       {
         "title": "Geometric Analysis of Self-Supervised Vision Representations for Semantic Image Retrieval",
         "url": "https://arxiv.org/abs/2604.24469v1"
+      },
+      {
+        "title": "jainsatyam26/bertclassfier",
+        "url": "https://huggingface.co/jainsatyam26/bertclassfier"
       }
     ],
     "vision_systems": [
@@ -1309,14 +1313,6 @@
       {
         "title": "WildLIFT: Lifting monocular drone video to 3D for species-agnostic wildlife monitoring",
         "url": "https://arxiv.org/abs/2604.24718v1"
-      },
-      {
-        "title": "TourniquetRules/flip7-reasoning-sft-Qwen3-4B",
-        "url": "https://huggingface.co/TourniquetRules/flip7-reasoning-sft-Qwen3-4B"
-      },
-      {
-        "title": "feanors/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-FP8-Dynamic",
-        "url": "https://huggingface.co/feanors/Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-FP8-Dynamic"
       }
     ],
     "benchmarks": [
@@ -1781,7 +1777,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1793,7 +1789,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "86 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1833,13 +1829,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 41,
+      "frequency": 39,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 435
+    "total_papers": 434
   }
 }
