@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-29T16:39:19.272114",
+  "date": "2026-04-29T20:31:46.332497",
   "patterns": {
     "multimodal_research": [
       {
@@ -633,14 +633,6 @@
       {
         "title": "When the Forger Is the Judge: GPT-Image-2 Cannot Recognize Its Own Faked Documents",
         "url": "https://arxiv.org/abs/2604.25213v1"
-      },
-      {
-        "title": "robertobissanti/EngGPT2-16B-A3B-GGUF",
-        "url": "https://huggingface.co/robertobissanti/EngGPT2-16B-A3B-GGUF"
-      },
-      {
-        "title": "AbdoMatrix/distilbert-medical-classifier",
-        "url": "https://huggingface.co/AbdoMatrix/distilbert-medical-classifier"
       }
     ],
     "vision_systems": [
@@ -1673,7 +1665,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1724,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 406
   }
 }
