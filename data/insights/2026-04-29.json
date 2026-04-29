@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-29T12:42:11.917771",
+  "date": "2026-04-29T16:39:19.272114",
   "patterns": {
     "multimodal_research": [
       {
@@ -635,8 +635,12 @@
         "url": "https://arxiv.org/abs/2604.25213v1"
       },
       {
-        "title": "arzaan789/smollm-360m-uncensored",
-        "url": "https://huggingface.co/arzaan789/smollm-360m-uncensored"
+        "title": "robertobissanti/EngGPT2-16B-A3B-GGUF",
+        "url": "https://huggingface.co/robertobissanti/EngGPT2-16B-A3B-GGUF"
+      },
+      {
+        "title": "AbdoMatrix/distilbert-medical-classifier",
+        "url": "https://huggingface.co/AbdoMatrix/distilbert-medical-classifier"
       }
     ],
     "vision_systems": [
@@ -1177,10 +1181,6 @@
       {
         "title": "SAMe: A Semantic Anatomy Mapping Engine for Robotic Ultrasound",
         "url": "https://arxiv.org/abs/2604.25646v1"
-      },
-      {
-        "title": "jaygala24/Qwen3-4B-DAPO-math-reasoning",
-        "url": "https://huggingface.co/jaygala24/Qwen3-4B-DAPO-math-reasoning"
       }
     ],
     "benchmarks": [
@@ -1673,7 +1673,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1685,7 +1685,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1720,7 +1720,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 32,
+      "frequency": 31,
       "significance": "high"
     },
     {
