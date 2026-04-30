@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-30T16:37:59.981249",
+  "date": "2026-04-30T20:31:07.839452",
   "patterns": {
     "multimodal_research": [
       {
@@ -903,10 +903,6 @@
       {
         "title": "Circular Phase Representation and Geometry-Aware Optimization for Ptychographic Image Reconstruction",
         "url": "https://arxiv.org/abs/2604.26664v1"
-      },
-      {
-        "title": "pyzaTheCutest/Z-Image-Turbo",
-        "url": "https://huggingface.co/pyzaTheCutest/Z-Image-Turbo"
       }
     ],
     "reasoning": [
@@ -1663,10 +1659,6 @@
       {
         "title": "A Multimodal Pre-trained Network for Integrated EEG-Video Seizure Detection",
         "url": "https://arxiv.org/abs/2604.26379v1"
-      },
-      {
-        "title": "SOTAagi2030/MyCodeModel-TestRepo",
-        "url": "https://huggingface.co/SOTAagi2030/MyCodeModel-TestRepo"
       }
     ]
   },
@@ -1703,7 +1695,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1721,7 +1713,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "113 independent papers",
+      "observation": "112 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1756,6 +1748,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 414
+    "total_papers": 412
   }
 }
