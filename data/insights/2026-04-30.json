@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-30T12:41:20.105700",
+  "date": "2026-04-30T16:37:59.981249",
   "patterns": {
     "multimodal_research": [
       {
@@ -613,18 +613,6 @@
       {
         "title": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
         "url": "https://arxiv.org/abs/2604.26752v1"
-      },
-      {
-        "title": "nidaaasif/emotion-bert",
-        "url": "https://huggingface.co/nidaaasif/emotion-bert"
-      },
-      {
-        "title": "Begai/ai-risk-classifier-roberta",
-        "url": "https://huggingface.co/Begai/ai-risk-classifier-roberta"
-      },
-      {
-        "title": "rdtand/Mistral-Medium-3.5-128B-PrismaQuant-4.75-vllm",
-        "url": "https://huggingface.co/rdtand/Mistral-Medium-3.5-128B-PrismaQuant-4.75-vllm"
       }
     ],
     "vision_systems": [
@@ -915,6 +903,10 @@
       {
         "title": "Circular Phase Representation and Geometry-Aware Optimization for Ptychographic Image Reconstruction",
         "url": "https://arxiv.org/abs/2604.26664v1"
+      },
+      {
+        "title": "pyzaTheCutest/Z-Image-Turbo",
+        "url": "https://huggingface.co/pyzaTheCutest/Z-Image-Turbo"
       }
     ],
     "reasoning": [
@@ -1671,6 +1663,10 @@
       {
         "title": "A Multimodal Pre-trained Network for Integrated EEG-Video Seizure Detection",
         "url": "https://arxiv.org/abs/2604.26379v1"
+      },
+      {
+        "title": "SOTAagi2030/MyCodeModel-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MyCodeModel-TestRepo"
       }
     ]
   },
@@ -1701,13 +1697,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1725,7 +1721,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "112 independent papers",
+      "observation": "113 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1760,6 +1756,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 415
+    "total_papers": 414
   }
 }
