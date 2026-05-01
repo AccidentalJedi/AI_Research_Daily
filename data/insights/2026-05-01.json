@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-01T05:22:48.714323",
+  "date": "2026-05-01T08:47:34.805330",
   "patterns": {
     "multimodal_research": [
       {
@@ -677,14 +677,6 @@
       {
         "title": "ClimateVID -- Social Media Videos Analysis and Challenges Involved",
         "url": "https://arxiv.org/abs/2604.27968v1"
-      },
-      {
-        "title": "whrivt/camelbert-saudi-gmaps-sentiment",
-        "url": "https://huggingface.co/whrivt/camelbert-saudi-gmaps-sentiment"
-      },
-      {
-        "title": "Sarjinkhan2003/moodshift-roberta-balanced-4500",
-        "url": "https://huggingface.co/Sarjinkhan2003/moodshift-roberta-balanced-4500"
       }
     ],
     "vision_systems": [
@@ -967,6 +959,10 @@
       {
         "title": "ClimateVID -- Social Media Videos Analysis and Challenges Involved",
         "url": "https://arxiv.org/abs/2604.27968v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1289,10 +1285,6 @@
       {
         "title": "AEGIS: A Holistic Benchmark for Evaluating Forensic Analysis of AI-Generated Academic Images",
         "url": "https://arxiv.org/abs/2604.28177v1"
-      },
-      {
-        "title": "inferencerlabs/MiMo-V2.5-Pro-MLX-4.3bit-INF",
-        "url": "https://huggingface.co/inferencerlabs/MiMo-V2.5-Pro-MLX-4.3bit-INF"
       }
     ],
     "benchmarks": [
@@ -1715,6 +1707,10 @@
       {
         "title": "ClimateVID -- Social Media Videos Analysis and Challenges Involved",
         "url": "https://arxiv.org/abs/2604.27968v1"
+      },
+      {
+        "title": "SOTAagi2030/MySafeModel-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MySafeModel-TestRepo"
       }
     ]
   },
@@ -1745,19 +1741,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "81 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1769,7 +1765,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "105 independent papers",
+      "observation": "106 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1804,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 425
   }
 }
