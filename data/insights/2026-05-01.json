@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-01T08:47:34.805330",
+  "date": "2026-05-01T12:28:50.014150",
   "patterns": {
     "multimodal_research": [
       {
@@ -677,6 +677,14 @@
       {
         "title": "ClimateVID -- Social Media Videos Analysis and Challenges Involved",
         "url": "https://arxiv.org/abs/2604.27968v1"
+      },
+      {
+        "title": "stanpony/llmtuna_sonnet46_fineweb_50M_4gpu_20260501_081401",
+        "url": "https://huggingface.co/stanpony/llmtuna_sonnet46_fineweb_50M_4gpu_20260501_081401"
+      },
+      {
+        "title": "YuuTeng/finbert-financial-phrasebank",
+        "url": "https://huggingface.co/YuuTeng/finbert-financial-phrasebank"
       }
     ],
     "vision_systems": [
@@ -959,10 +967,6 @@
       {
         "title": "ClimateVID -- Social Media Videos Analysis and Challenges Involved",
         "url": "https://arxiv.org/abs/2604.27968v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1707,10 +1711,6 @@
       {
         "title": "ClimateVID -- Social Media Videos Analysis and Challenges Involved",
         "url": "https://arxiv.org/abs/2604.27968v1"
-      },
-      {
-        "title": "SOTAagi2030/MySafeModel-TestRepo",
-        "url": "https://huggingface.co/SOTAagi2030/MySafeModel-TestRepo"
       }
     ]
   },
@@ -1741,13 +1741,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1765,7 +1765,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "106 independent papers",
+      "observation": "105 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
