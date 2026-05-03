@@ -1,29 +1,11 @@
 {
-  "date": "2026-05-03T08:41:08.351267",
-  "patterns": {
-    "reasoning": [
-      {
-        "title": "ermiaazarkhalili/Granite-4.1-8B-SFT-Claude-Opus-Reasoning-Unsloth",
-        "url": "https://huggingface.co/ermiaazarkhalili/Granite-4.1-8B-SFT-Claude-Opus-Reasoning-Unsloth"
-      },
-      {
-        "title": "ermiaazarkhalili/Granite-4.1-3B-SFT-Claude-Opus-Reasoning-Unsloth",
-        "url": "https://huggingface.co/ermiaazarkhalili/Granite-4.1-3B-SFT-Claude-Opus-Reasoning-Unsloth"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "reasoning",
-      "observation": "Reasoning capabilities being explored",
-      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
-      "confidence": "medium"
-    }
-  ],
+  "date": "2026-05-03T12:25:24.160857",
+  "patterns": {},
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 2
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
