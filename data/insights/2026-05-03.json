@@ -1,11 +1,22 @@
 {
-  "date": "2026-05-03T16:21:52.154711",
-  "patterns": {},
+  "date": "2026-05-03T20:18:32.438071",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "JedBabs/roberta-ai-detector-v2-4-midway",
+        "url": "https://huggingface.co/JedBabs/roberta-ai-detector-v2-4-midway"
+      },
+      {
+        "title": "ishikaa/acquisition_student_gpt_llama8bins_numina_gradient",
+        "url": "https://huggingface.co/ishikaa/acquisition_student_gpt_llama8bins_numina_gradient"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
