@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-05T16:40:09.543453",
+  "date": "2026-05-05T20:32:25.449177",
   "patterns": {
     "multimodal_research": [
       {
@@ -595,8 +595,20 @@
         "url": "https://arxiv.org/abs/2605.02660v1"
       },
       {
-        "title": "GODsStrongestSoldier/GPT-Grok4.4-Fast.Coder.NSFW-0.1B",
-        "url": "https://huggingface.co/GODsStrongestSoldier/GPT-Grok4.4-Fast.Coder.NSFW-0.1B"
+        "title": "viperDEE/distilbert-url-phishing-zim",
+        "url": "https://huggingface.co/viperDEE/distilbert-url-phishing-zim"
+      },
+      {
+        "title": "DCAgent2/g1_top8_gptlong_dist_31600_10000_8b",
+        "url": "https://huggingface.co/DCAgent2/g1_top8_gptlong_dist_31600_10000_8b"
+      },
+      {
+        "title": "DCAgent2/g1_top8_85k_plus_gptlong_swegym_10000_8b",
+        "url": "https://huggingface.co/DCAgent2/g1_top8_85k_plus_gptlong_swegym_10000_8b"
+      },
+      {
+        "title": "DCAgent2/g1_top8_85k_plus_gptlong_swegym_3160_8b",
+        "url": "https://huggingface.co/DCAgent2/g1_top8_85k_plus_gptlong_swegym_3160_8b"
       }
     ],
     "vision_systems": [
@@ -1605,7 +1617,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1664,6 +1676,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 391
+    "total_papers": 394
   }
 }
