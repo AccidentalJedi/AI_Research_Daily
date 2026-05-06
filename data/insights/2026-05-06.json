@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-06T08:56:54.386294",
+  "date": "2026-05-06T12:47:12.685884",
   "patterns": {
     "multimodal_research": [
       {
@@ -625,14 +625,6 @@
       {
         "title": "A Robust Unsupervised Domain Adaptation Framework for Medical Image Classification Using RKHS-MMD",
         "url": "https://arxiv.org/abs/2605.03787v1"
-      },
-      {
-        "title": "RozaA/Menon-nb-bert-base-v2",
-        "url": "https://huggingface.co/RozaA/Menon-nb-bert-base-v2"
-      },
-      {
-        "title": "w3en2g/EM_QTA_gpt-oss-20b_bad_medical_advice_CoT_hallucination_1003_6k_harmony",
-        "url": "https://huggingface.co/w3en2g/EM_QTA_gpt-oss-20b_bad_medical_advice_CoT_hallucination_1003_6k_harmony"
       }
     ],
     "vision_systems": [
@@ -1681,7 +1673,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1740,6 +1732,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 410
+    "total_papers": 408
   }
 }
