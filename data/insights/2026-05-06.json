@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-06T05:12:13.783729",
+  "date": "2026-05-06T08:56:54.386294",
   "patterns": {
     "multimodal_research": [
       {
@@ -625,6 +625,14 @@
       {
         "title": "A Robust Unsupervised Domain Adaptation Framework for Medical Image Classification Using RKHS-MMD",
         "url": "https://arxiv.org/abs/2605.03787v1"
+      },
+      {
+        "title": "RozaA/Menon-nb-bert-base-v2",
+        "url": "https://huggingface.co/RozaA/Menon-nb-bert-base-v2"
+      },
+      {
+        "title": "w3en2g/EM_QTA_gpt-oss-20b_bad_medical_advice_CoT_hallucination_1003_6k_harmony",
+        "url": "https://huggingface.co/w3en2g/EM_QTA_gpt-oss-20b_bad_medical_advice_CoT_hallucination_1003_6k_harmony"
       }
     ],
     "vision_systems": [
@@ -1189,106 +1197,6 @@
       {
         "title": "Exact and Evolutionary Algorithms for Sequential Multi-Objective Transmission Topology Planning",
         "url": "https://arxiv.org/abs/2605.03753v1"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-MXFP4",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-MXFP4"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-8bit-TQ-KV",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-8bit-TQ-KV"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-6bit-TQ-KV",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-6bit-TQ-KV"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-5bit-TQ-KV",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-5bit-TQ-KV"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-4bit-TQ-KV",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-4bit-TQ-KV"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-3bit-TQ-KV",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-3bit-TQ-KV"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-2bit-TQ-KV",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-2bit-TQ-KV"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-8bit-RQ-KV",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-8bit-RQ-KV"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-6bit-RQ-KV",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-6bit-RQ-KV"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-5bit-RQ-KV",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-5bit-RQ-KV"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-4bit-RQ-KV",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-4bit-RQ-KV"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-3bit-RQ-KV",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-3bit-RQ-KV"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-2bit-RQ-KV",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-2bit-RQ-KV"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-2bit",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-2bit"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-2bit",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-2bit"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-3bit",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-3bit"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-3bit",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-3bit"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-6bit",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-6bit"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-6bit",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-6bit"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-8bit",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-8bit"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-8bit",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-8bit"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-4bit",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-4bit"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-5bit",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-TurboQuant-MLX-5bit"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-5bit",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-5bit"
-      },
-      {
-        "title": "majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-4bit",
-        "url": "https://huggingface.co/majentik/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-RotorQuant-MLX-4bit"
       }
     ],
     "benchmarks": [
@@ -1773,7 +1681,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1785,7 +1693,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "100 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1814,11 +1722,6 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 57,
-      "significance": "high"
-    },
-    {
       "topic": "vision",
       "frequency": 38,
       "significance": "high"
@@ -1827,11 +1730,16 @@
       "topic": "architecture",
       "frequency": 37,
       "significance": "high"
+    },
+    {
+      "topic": "generation",
+      "frequency": 36,
+      "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 433
+    "total_papers": 410
   }
 }
