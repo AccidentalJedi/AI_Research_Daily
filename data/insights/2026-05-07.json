@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-07T09:01:37.002464",
+  "date": "2026-05-07T12:46:53.401464",
   "patterns": {
     "multimodal_research": [
       {
@@ -585,6 +585,10 @@
       {
         "title": "Not Every Subject Should Stay: Machine Unlearning for Noisy Engagement Recognition",
         "url": "https://arxiv.org/abs/2605.04713v1"
+      },
+      {
+        "title": "AXERA-TECH/Qwen3-4B-GPTQ-Int4",
+        "url": "https://huggingface.co/AXERA-TECH/Qwen3-4B-GPTQ-Int4"
       }
     ],
     "vision_systems": [
@@ -1465,7 +1469,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1524,6 +1528,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 356
+    "total_papers": 357
   }
 }
