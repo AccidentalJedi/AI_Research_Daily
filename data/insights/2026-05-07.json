@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-07T05:14:37.030134",
+  "date": "2026-05-07T09:01:37.002464",
   "patterns": {
     "multimodal_research": [
       {
@@ -585,10 +585,6 @@
       {
         "title": "Not Every Subject Should Stay: Machine Unlearning for Noisy Engagement Recognition",
         "url": "https://arxiv.org/abs/2605.04713v1"
-      },
-      {
-        "title": "shravanSCU/bert-finetuned-squad",
-        "url": "https://huggingface.co/shravanSCU/bert-finetuned-squad"
       }
     ],
     "vision_systems": [
@@ -1439,10 +1435,6 @@
       {
         "title": "ICPR 2026 Competition on Privacy-Preserving Person Re-Identification from Top-View RGB-Depth Camera (TVRID)",
         "url": "https://arxiv.org/abs/2605.04977v1"
-      },
-      {
-        "title": "SOTAagi2030/MyWeakModel-TestRepo",
-        "url": "https://huggingface.co/SOTAagi2030/MyWeakModel-TestRepo"
       }
     ]
   },
@@ -1473,7 +1465,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1497,7 +1489,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "98 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1532,6 +1524,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 358
+    "total_papers": 356
   }
 }
