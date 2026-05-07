@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-07T12:46:53.401464",
+  "date": "2026-05-07T16:40:55.132727",
   "patterns": {
     "multimodal_research": [
       {
@@ -585,10 +585,6 @@
       {
         "title": "Not Every Subject Should Stay: Machine Unlearning for Noisy Engagement Recognition",
         "url": "https://arxiv.org/abs/2605.04713v1"
-      },
-      {
-        "title": "AXERA-TECH/Qwen3-4B-GPTQ-Int4",
-        "url": "https://huggingface.co/AXERA-TECH/Qwen3-4B-GPTQ-Int4"
       }
     ],
     "vision_systems": [
@@ -819,6 +815,10 @@
       {
         "title": "External Validation of Deep Learning Models for BI-RADS Breast Density Prediction from Ultrasound Images",
         "url": "https://arxiv.org/abs/2605.05082v1"
+      },
+      {
+        "title": "xtianjamoner/Z-Image-Turbo-BF16",
+        "url": "https://huggingface.co/xtianjamoner/Z-Image-Turbo-BF16"
       }
     ],
     "reasoning": [
@@ -1469,13 +1469,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "57 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
