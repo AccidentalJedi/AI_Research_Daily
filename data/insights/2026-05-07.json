@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-07T16:40:55.132727",
+  "date": "2026-05-07T20:33:10.065772",
   "patterns": {
     "multimodal_research": [
       {
@@ -815,10 +815,6 @@
       {
         "title": "External Validation of Deep Learning Models for BI-RADS Breast Density Prediction from Ultrasound Images",
         "url": "https://arxiv.org/abs/2605.05082v1"
-      },
-      {
-        "title": "xtianjamoner/Z-Image-Turbo-BF16",
-        "url": "https://huggingface.co/xtianjamoner/Z-Image-Turbo-BF16"
       }
     ],
     "reasoning": [
@@ -1475,7 +1471,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "58 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1528,6 +1524,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 357
+    "total_papers": 356
   }
 }
