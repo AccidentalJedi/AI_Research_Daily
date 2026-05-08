@@ -256,7 +256,7 @@
   {
     "arxiv_id": "2605.06638v1",
     "title": "Can RL Teach Long-Horizon Reasoning to LLMs? Expressiveness Is Key",
-    "summary": "Reinforcement learning (RL) has been applied to improve large language model (LLM) reasoning, yet the systematic study of how training scales with task difficulty has been hampered by the lack of controlled, scalable environments. We introduce ScaleLogic, a synthetic logical reasoning framework that offers independent control over two axes of difficulty: the depth of the required proof planning (i.e., the horizon) and the expressiveness of the underlying logic. Our proposed framework supports a wide range of logics: from simple implication-only logic (\"if-then\") towards more expressive first-order reasoning with conjunction (\"and\"), disjunction (\"or\"), negation (\"not\"), and universal quantification (\"for all\"). Using this framework, we show that the RL training compute $T$ follows a power law with respect to reasoning depth $D$ ($T \\propto D^\u03b3$, $R^{2} > 0.99$), and that the scaling exponent $\u03b3$ increases monotonically with logical expressiveness, from $1.04$ to $2.60$. On downstream mathematics and general reasoning benchmarks, more expressive training settings yield both larger performance gains (up to $+10.66$ points) and more compute-efficient transfer compared to less expressive settings, demonstrating that what a model is trained on, not just how much it is trained, shapes downstream transfer. We further show that the power-law relationship holds across multiple RL methods, and curriculum-based training substantially improves scaling efficiency.",
+    "summary": "Reinforcement learning (RL) has been applied to improve large language model (LLM) reasoning, yet the systematic study of how training scales with task difficulty has been hampered by the lack of controlled, scalable environments. We introduce ScaleLogic, a synthetic logical reasoning framework that offers independent control over two axes of difficulty: the depth of the required proof planning (i.e., the horizon) and the expressiveness of the underlying logic. Our proposed framework supports a wide range of logics: from simple implication-only logic (\"if-then\") towards more expressive first-order reasoning with conjunction (\"and\"), disjunction (\"or\"), negation (\"not\"), and universal quantification (\"for all\"). Using this framework, we show that the RL training compute $T$ follows a power law with respect to reasoning depth $D$ ($T \\propto D^γ$, $R^{2} > 0.99$), and that the scaling exponent $γ$ increases monotonically with logical expressiveness, from $1.04$ to $2.60$. On downstream mathematics and general reasoning benchmarks, more expressive training settings yield both larger performance gains (up to $+10.66$ points) and more compute-efficient transfer compared to less expressive settings, demonstrating that what a model is trained on, not just how much it is trained, shapes downstream transfer. We further show that the power-law relationship holds across multiple RL methods, and curriculum-based training substantially improves scaling efficiency.",
     "authors": [
       "Tianle Wang",
       "Zhaoyang Wang",
@@ -429,7 +429,7 @@
   {
     "arxiv_id": "2605.06599v1",
     "title": "Weight-Decay Turns Transformer Loss Landscapes Villani: Functional-Analytic Foundations for Optimization and Generalization",
-    "summary": "Weight decay is widely used as a regularizer in large language models, yet its precise role in shaping Transformer loss landscapes remains theoretically underexplored. This paper provides the first rigorous functional-analytic characterization of the standard Transformer objective--cross-entropy loss with $L^2$ regularization--by proving it satisfies Villani's criteria for coercive energy functions. Specifically, we show that the regularized loss $\\mathcal{F}$ is infinitely differentiable, grows at least quadratically, has Gaussian-integrable tails, and satisfies the differential growth condition $-\u0394\\mathcal{F} + \\tfrac{1}{s}\\|\\nabla\\mathcal{F}\\|^{2} \\to \\infty$ as $\\|\u03b8\\| \\to \\infty$ for all $s>0$. From this structure, we derive explicit log-Sobolev and Poincar\u00e9 constants $C_{\\mathrm{LS}} \\leq \u03bb^{-1} + d/\u03bb^{2}$, linking the regularization strength $\u03bb$ and model dimension $d$ to finite-time convergence guarantees for noisy stochastic gradient descent and PAC-Bayesian generalization bounds that tighten with increasing $\u03bb$. To validate our theory, we introduce a scalable Villani diagnostic $\u03a8_s(\u03b8) = -\u0394\\mathcal{F} + s^{-1}\\|\\nabla \\mathcal{F}\\|^2$ and estimate it efficiently using Hutchinson trace probes in models with over 100M parameters. Experiments on GPT-Neo-125M across Penn Treebank and WikiText-103 confirm the predicted quadratic growth of $\u03a8_s$, spectral inflation of the Hessian, and exponential convergence behavior consistent with our log-Sobolev analysis. These results demonstrate that weight decay not only improves generalization empirically but also establishes the mathematical conditions required for fast Langevin mixing and theoretically grounded curvature-aware optimization in deep learning.",
+    "summary": "Weight decay is widely used as a regularizer in large language models, yet its precise role in shaping Transformer loss landscapes remains theoretically underexplored. This paper provides the first rigorous functional-analytic characterization of the standard Transformer objective--cross-entropy loss with $L^2$ regularization--by proving it satisfies Villani's criteria for coercive energy functions. Specifically, we show that the regularized loss $\\mathcal{F}$ is infinitely differentiable, grows at least quadratically, has Gaussian-integrable tails, and satisfies the differential growth condition $-Δ\\mathcal{F} + \\tfrac{1}{s}\\|\\nabla\\mathcal{F}\\|^{2} \\to \\infty$ as $\\|θ\\| \\to \\infty$ for all $s>0$. From this structure, we derive explicit log-Sobolev and Poincaré constants $C_{\\mathrm{LS}} \\leq λ^{-1} + d/λ^{2}$, linking the regularization strength $λ$ and model dimension $d$ to finite-time convergence guarantees for noisy stochastic gradient descent and PAC-Bayesian generalization bounds that tighten with increasing $λ$. To validate our theory, we introduce a scalable Villani diagnostic $Ψ_s(θ) = -Δ\\mathcal{F} + s^{-1}\\|\\nabla \\mathcal{F}\\|^2$ and estimate it efficiently using Hutchinson trace probes in models with over 100M parameters. Experiments on GPT-Neo-125M across Penn Treebank and WikiText-103 confirm the predicted quadratic growth of $Ψ_s$, spectral inflation of the Hessian, and exponential convergence behavior consistent with our log-Sobolev analysis. These results demonstrate that weight decay not only improves generalization empirically but also establishes the mathematical conditions required for fast Langevin mixing and theoretically grounded curvature-aware optimization in deep learning.",
     "authors": [
       "Abhijit Das",
       "Sayantan Dutta"
@@ -451,7 +451,7 @@
     "summary": "Graph-level representations are crucial tools for characterising structural differences between graphs. However, comparing graphs with different cardinalities, even when sampled from the same underlying distribution, remains challenging. Unsupervised tasks in particular require interpretable, scalable, and reliable size-aware graph representations. Our work addresses these issues by tracking the structural diversity of a graph across coarsening levels. The resulting graph embeddings, which we denote diversity curves, are interpretable by construction, efficient, and directly comparable across coarsening hierarchies. Specifically, we track the spread of graphs, a novel isometry invariant that is inherently well-suited for encoding the metric diversity and geometry of graphs. We utilise edge contraction coarsening and prove that this improves expressivity, thus leading to more powerful graph-level representations than structural descriptors alone. Demonstrating their utility over a range of baseline methods in practice, we use diversity curves to (i) cluster and visualise simulated graphs across varying sizes, (ii) distinguish the geometry of single-cell graphs, (iii) compare the structure of molecular graph datasets, and (iv) characterise geometric shapes.",
     "authors": [
       "Katharina Limbeck",
-      "Nadja H\u00e4usermann",
+      "Nadja Häusermann",
       "Martin Carrasco",
       "Guy Wolf",
       "Bastian Rieck"
@@ -491,7 +491,7 @@
     "summary": "Pre-training of Large Language Models is often prohibitively expensive and inefficient at scale, requiring complex and invasive modifications in order to achieve high data throughput. In this work, we present Token-Superposition Training (TST), a simple drop-in method that significantly improves the data throughput per FLOPs during pre-training without modifying the parallelism, optimizer, tokenizer, data, or model architecture. TST is done in two phases: (i) A highly efficient superposition phase where we combine many contiguous tokens into one bag and train using a multi-hot cross-entropy (MCE) objective, and (ii) a recovery phase where we revert back to standard training. We extensively evaluate TST on the scale of 270M and 600M parameters and validate on 3B and a 10B A1B mixture of experts model, demonstrating that it is highly robust in different settings. Ultimately, TST consistently outperforms baseline loss and downstream evaluations, and under equal-loss settings, TST yields up to a 2.5x reduction in total pre-training time at the 10B A1B scale.",
     "authors": [
       "Bowen Peng",
-      "Th\u00e9o Gigant",
+      "Théo Gigant",
       "Jeffrey Quesnelle"
     ],
     "categories": [
@@ -661,7 +661,7 @@
   {
     "arxiv_id": "2605.06474v1",
     "title": "Q-MMR: Off-Policy Evaluation via Recursive Reweighting and Moment Matching",
-    "summary": "We present a novel theoretical framework, Q-MMR, for off-policy evaluation in finite-horizon MDPs. Q-MMR learns a set of scalar weights, one for each data point, such that the reweighted rewards approximate the expected return under the target policy. The weights are learned inductively in a top-down manner via a moment matching objective against a value-function discriminator class. Notably, and perhaps surprisingly, a data-dependent finite-sample guarantee for general function approximation can be established under only the realizability of $Q^\u03c0$, with a dimension-free bound -- that is, the error does not depend on the statistical complexity of the function class. We also establish connections to several existing methods, such as importance sampling and linear FQE. Further theoretical analyses shed new light on the nature of coverage, a concept of fundamental importance to offline RL.",
+    "summary": "We present a novel theoretical framework, Q-MMR, for off-policy evaluation in finite-horizon MDPs. Q-MMR learns a set of scalar weights, one for each data point, such that the reweighted rewards approximate the expected return under the target policy. The weights are learned inductively in a top-down manner via a moment matching objective against a value-function discriminator class. Notably, and perhaps surprisingly, a data-dependent finite-sample guarantee for general function approximation can be established under only the realizability of $Q^π$, with a dimension-free bound -- that is, the error does not depend on the statistical complexity of the function class. We also establish connections to several existing methods, such as importance sampling and linear FQE. Further theoretical analyses shed new light on the nature of coverage, a concept of fundamental importance to offline RL.",
     "authors": [
       "Xiang Li",
       "Nan Jiang"
@@ -722,8 +722,8 @@
     "summary": "Despite extensive research into mitigating distribution shifts, many existing algorithms yield inconsistent performance, often failing to outperform baseline Empirical Risk Minimization (ERM) across diverse scenarios. Furthermore, high algorithmic complexity frequently limits interpretability and offers only an indirect means of addressing spurious correlations. We propose eXplaining to Learn (eX2L): an interpretable, explanation-based framework that decorrelates confounding features from a classifier's latent representations during training. eX2L achieves this by penalizing the similarity between Grad-CAM activation maps generated by a primary label classifier and those from a concurrently trained confounder classifier. On the rigorous Spawrious Many-to-Many Hard Challenge benchmark, eX2L achieves an average accuracy (AA) of 82.24% +/- 3.87% and a worst-group accuracy (WGA) of 66.31% +/- 8.73%, outperforming the current state-of-the-art (SOTA) by 5.49% and 10.90%, respectively. Beyond its competitive performance, eX2L demonstrates that functional domain invariance can be achieved by explicitly decoupling label and nuisance attributes at the group level.",
     "authors": [
       "Paulo Mario P. Medina",
-      "Jose Marie Antonio Mi\u00f1oza",
-      "Sebastian C. Iba\u00f1ez"
+      "Jose Marie Antonio Miñoza",
+      "Sebastian C. Ibañez"
     ],
     "categories": [
       "cs.CV",
@@ -823,7 +823,7 @@
   {
     "arxiv_id": "2605.06475v1",
     "title": "Probabilistic Dating of Historical Manuscripts via Evidential Deep Regression on Visual Script Features",
-    "summary": "We introduce a probabilistic approach for dating historical manuscript pages from visual features alone. Instead of aggregating centuries into classes as is standard in the previous literature, we pose dating as an evidential deep regression problem over a continuous year axis, allowing our neural network to output a full predictive distribution with decomposed aleatoric and epistemic uncertainty in a single forward pass. Our architecture combines an EfficientNet-B2 backbone with a Normal-Inverse-Gamma (NIG) output head trained with a joint negative-log-likelihood and evidence-regularization objective. On the DIVA-HisDB benchmark (150 pages, 3 medieval codices, 151,936 patches), our model scores a test MAE of 5.4 years, well below the 50-year century-label supervision granularity, with 93\\% of patches within 5 years and 97\\% within 10 years. Our approach achieves \\textbf{PICP=92.6\\%}, the best calibration among all compared methods, in a single forward pass, outperforming MC Dropout (PICP=88.2\\%, 50 passes) and Deep Ensembles (PICP=79.7\\%, 5 models) at $5\\times$ lower inference cost. Uncertainty decomposition shows aleatoric uncertainty is a strong predictor of dating error (Spearman $\u03c1=0.729$), and a selective prediction about the most certain 20\\% of patches can provide \\textbf{0.5 years MAE}. We show that predicted uncertainty increases as image degradation worsens, spatial decomposition maps explain which script regions cause aleatoric uncertainty, and page-level aggregation reduces MAE to 4.5 years with $\u03c1=0.905$ between uncertainty and page-level error.",
+    "summary": "We introduce a probabilistic approach for dating historical manuscript pages from visual features alone. Instead of aggregating centuries into classes as is standard in the previous literature, we pose dating as an evidential deep regression problem over a continuous year axis, allowing our neural network to output a full predictive distribution with decomposed aleatoric and epistemic uncertainty in a single forward pass. Our architecture combines an EfficientNet-B2 backbone with a Normal-Inverse-Gamma (NIG) output head trained with a joint negative-log-likelihood and evidence-regularization objective. On the DIVA-HisDB benchmark (150 pages, 3 medieval codices, 151,936 patches), our model scores a test MAE of 5.4 years, well below the 50-year century-label supervision granularity, with 93\\% of patches within 5 years and 97\\% within 10 years. Our approach achieves \\textbf{PICP=92.6\\%}, the best calibration among all compared methods, in a single forward pass, outperforming MC Dropout (PICP=88.2\\%, 50 passes) and Deep Ensembles (PICP=79.7\\%, 5 models) at $5\\times$ lower inference cost. Uncertainty decomposition shows aleatoric uncertainty is a strong predictor of dating error (Spearman $ρ=0.729$), and a selective prediction about the most certain 20\\% of patches can provide \\textbf{0.5 years MAE}. We show that predicted uncertainty increases as image degradation worsens, spatial decomposition maps explain which script regions cause aleatoric uncertainty, and page-level aggregation reduces MAE to 4.5 years with $ρ=0.905$ between uncertainty and page-level error.",
     "authors": [
       "Ranjith Chodavarapu"
     ],
@@ -886,7 +886,7 @@
   {
     "arxiv_id": "2605.06289v1",
     "title": "Multimodal Deep Generative Model for Semi-Supervised Learning under Class Imbalance",
-    "summary": "When modeling class-imbalanced data, it is crucial to address the imbalance, as models trained on such data tend to be biased towards the majority classes. This problem is amplified under partial supervision, where pseudo-labels for unlabeled data are predicted based on imbalanced labeled data, propagating the bias. While recent semi-supervised models address class imbalance, they typically assume single-modal input data. However, with the growing availability of multimodal data, it is essential to leverage complementary modalities. In this article, we propose a multimodal deep generative model for semi-supervised learning under class imbalance. Our approach uses separate encoders for each modality, sharing latent variables across modalities, and simplifies joint posterior computation with a product-of-experts method. To further address class imbalance, we replace typical Gaussian distributions with Student's t-distributions for the prior, encoder, and decoder, better capturing the heavy-tailed latent distributions in imbalanced data. We derive a new objective function for training the proposed model on both labeled and unlabeled data using $\u03b3$-power divergence. Empirical results on benchmark and real-world datasets demonstrate that our model outperforms baseline methods in generalization, achieving superior classification performance for partially labeled multimodal data with imbalanced class distributions.",
+    "summary": "When modeling class-imbalanced data, it is crucial to address the imbalance, as models trained on such data tend to be biased towards the majority classes. This problem is amplified under partial supervision, where pseudo-labels for unlabeled data are predicted based on imbalanced labeled data, propagating the bias. While recent semi-supervised models address class imbalance, they typically assume single-modal input data. However, with the growing availability of multimodal data, it is essential to leverage complementary modalities. In this article, we propose a multimodal deep generative model for semi-supervised learning under class imbalance. Our approach uses separate encoders for each modality, sharing latent variables across modalities, and simplifies joint posterior computation with a product-of-experts method. To further address class imbalance, we replace typical Gaussian distributions with Student's t-distributions for the prior, encoder, and decoder, better capturing the heavy-tailed latent distributions in imbalanced data. We derive a new objective function for training the proposed model on both labeled and unlabeled data using $γ$-power divergence. Empirical results on benchmark and real-world datasets demonstrate that our model outperforms baseline methods in generalization, achieving superior classification performance for partially labeled multimodal data with imbalanced class distributions.",
     "authors": [
       "Heegeon Yoon",
       "Heeyoung Kim"
@@ -933,7 +933,7 @@
     "authors": [
       "Bengusu Nar",
       "Jiguang Li",
-      "Veronika Ro\u010dkov\u00e1",
+      "Veronika Ročková",
       "Panos Toulis"
     ],
     "categories": [
@@ -1480,7 +1480,7 @@
       "Richard Hildebrandt",
       "Evangelos Kourlitis",
       "Baran Hashemi",
-      "Manuel B\u00fcnstorf",
+      "Manuel Bünstorf",
       "Thierry Meyer",
       "Nikola Boskov",
       "Michael Kagan",
@@ -1572,7 +1572,7 @@
     "summary": "The design of biological systems is hindered by uncertainty arising from both intrinsic stochasticity of biomolecular reactions and variability across laboratory or experimental conditions. In this work, we present a sequential framework to optimize genetic circuits under both forms of uncertainty. By employing simulator models based on differential equations or Markov jump processes alongside a reinforcement learning (RL) policy-based approach, our method suggests experiments that adapt to unknown laboratory conditions while accounting for inherent stochasticity. While previous Bayesian methods address uncertainty through iterative experiment-inference-optimization cycles, they typically require computationally expensive inference and optimization steps after each experimental round, leading to delays. To overcome this bottleneck, we propose an amortized approach trained up-front across a distribution of possible uncertain parameters. This strategy sidesteps the need for explicit parameter inference during the design cycle, enabling immediate, observation-based adaptation. We demonstrate our framework on models for heterologous gene expression and a repressilator circuit, showing that it efficiently handles both molecular noise and cross-laboratory variability.",
     "authors": [
       "Michal Kobiela",
-      "Diego A. Oyarz\u00fan",
+      "Diego A. Oyarzún",
       "Michael U. Gutmann"
     ],
     "categories": [
@@ -1642,8 +1642,8 @@
     "summary": "We present a new operator-theoretic representation learning framework for offline reinforcement learning that recovers the directed temporal geometry of a controlled Markov process from hitting time observations. While prior art often produces symmetric distances or fails to satisfy the triangle inequality, our framework learns a Hilbert-space displacement geometry where expected hitting times are realized as linear functionals of latent displacements. We prove that this representation exists under latent linear closure and is uniquely identifiable up to a bounded linear isomorphism. For finite-dimensional implementations, we show that global hitting-time error is bounded by one-step transition error amplified by the environment's transient spectral radius. Furthermore, we provide finite-sample guarantees accounting for approximation, statistical complexity, and trajectory-label mismatch. Derived from this theory, we curate Isomorphic Embedding Learning (IEL) as a new goal-agnostic foundation policy learning algorithm that anchors a HILP-style consistency objective with explicit hitting-time regression to ensure that the learned geometry reflects actual decision-time progress. This asymmetric and compositional structure enables robust graph-based multi-stage planning for long-horizon navigation. Our experiments demonstrate that IEL improves the state of the art of learning foundation policy policies from offline maze locomotion data. Our code can be found on https://github.com/MagnusBoock/IEL",
     "authors": [
       "Magnus Victor Boock",
-      "Abdullah Akg\u00fcl",
-      "Mustafa Mert \u00c7elikok",
+      "Abdullah Akgül",
+      "Mustafa Mert Çelikok",
       "Melih Kandemir"
     ],
     "categories": [
@@ -1663,7 +1663,7 @@
     "authors": [
       "Johannes S. Schmidt",
       "Martin Carrasco",
-      "Ernst R\u00f6ell",
+      "Ernst Röell",
       "Guy Wolf",
       "Nello Blaser",
       "Bastian Rieck"
@@ -1684,7 +1684,7 @@
     "title": "ORTHOBO: Orthogonal Bayesian Hyperparameter Optimization",
     "summary": "Bayesian optimization is widely used for hyperparameter optimization when model evaluations are expensive; however, noisy acquisition estimates can lead to unstable decisions. We identify acquisition estimation noise as a failure mode that was previously overlooked: even when the surrogate model and acquisition target are correctly specified, finite-sample Monte Carlo error can perturb acquisition values. This can, in turn, flip candidate rankings and lead to suboptimal BO decisions. As a remedy, we aim at variance reduction and propose an orthogonal acquisition estimator that subtracts an optimally weighted score-function control variate, which yields an acquisition residual orthogonal to posterior score directions and which thus reduces Monte Carlo variance. We further introduce OrthoBO: a Bayesian optimization framework that combines our orthogonal acquisition estimator with ensemble surrogates and an outer log transformation. We show theoretically that our estimator preserves the target, leads to variance reduction, and improves pairwise ranking stability. We further verify the theoretical properties of OrthoBO through numerical experiments where our framework reduces acquisition estimation variance, stabilizes candidate rankings, and achieves strong performance. We also demonstrate the downstream utility of OrthoBO in hyperparameter optimization for neural network training and fine-tuning.",
     "authors": [
-      "Maresa Schr\u00f6der",
+      "Maresa Schröder",
       "Pascal Janetzky",
       "Michael Klar",
       "Stefan Feuerriegel"
@@ -1773,7 +1773,7 @@
   {
     "arxiv_id": "2605.06315v1",
     "title": "End-to-End Identifiable and Consistent Recurrent Switching Dynamical Systems",
-    "summary": "Learning identifiable representations in deep generative models remains a fundamental challenge, particularly for sequential data with regime-switching dynamics. Existing approaches establish identifiability under restrictive assumptions, such as stationarity or limited emission models, and typically rely on variational autoencoder (VAE) estimators, which introduce approximation gaps that limit the recovery of the latent structure. In this work, we address both the theoretical and practical limitations of this setting. First, we establish identifiability of a broad class of recurrent nonlinear switching dynamical systems under flexible assumptions, significantly extending prior results. Second, we introduce $\u03a9$SDS, a flow-based estimator that enables exact likelihood optimization using expectation-maximisation. Through empirical validation on both synthetic and real-world data, our results demonstrate that $\u03a9$SDS achieves improved disentanglement compared to VAE-based estimators and more accurate forecasting of underlying dynamics.",
+    "summary": "Learning identifiable representations in deep generative models remains a fundamental challenge, particularly for sequential data with regime-switching dynamics. Existing approaches establish identifiability under restrictive assumptions, such as stationarity or limited emission models, and typically rely on variational autoencoder (VAE) estimators, which introduce approximation gaps that limit the recovery of the latent structure. In this work, we address both the theoretical and practical limitations of this setting. First, we establish identifiability of a broad class of recurrent nonlinear switching dynamical systems under flexible assumptions, significantly extending prior results. Second, we introduce $Ω$SDS, a flow-based estimator that enables exact likelihood optimization using expectation-maximisation. Through empirical validation on both synthetic and real-world data, our results demonstrate that $Ω$SDS achieves improved disentanglement compared to VAE-based estimators and more accurate forecasting of underlying dynamics.",
     "authors": [
       "Carles Balsells-Rodas",
       "Zhengrui Xiang",
@@ -1794,7 +1794,7 @@
   {
     "arxiv_id": "2605.06295v1",
     "title": "Attributions All the Way Down? The Metagame of Interpretability",
-    "summary": "We introduce the metagame, a conceptual framework for quantifying second-order interaction effects of model explanations. For any first-order attribution $\u03c6(f)$ explaining a model $f$, we measure the directional influence of feature $j$ on the attribution of feature $i$, denoted as meta-attribution $\\varphi_{j \\to i}(f)$, by treating the attribution method itself as a cooperative game and computing its Shapley value. Theoretically, we prove that attributions hierarchically decompose into meta-attributions, and establish these as directional extensions of existing interaction indices. Empirically, we demonstrate that the metagame delivers insights across diverse interpretability applications: (i) quantifying token interactions in instruction-tuned language models, (ii) explaining cross-modal similarity in vision-language encoders, and (iii) interpreting text-to-image concepts in multimodal diffusion transformers.",
+    "summary": "We introduce the metagame, a conceptual framework for quantifying second-order interaction effects of model explanations. For any first-order attribution $φ(f)$ explaining a model $f$, we measure the directional influence of feature $j$ on the attribution of feature $i$, denoted as meta-attribution $\\varphi_{j \\to i}(f)$, by treating the attribution method itself as a cooperative game and computing its Shapley value. Theoretically, we prove that attributions hierarchically decompose into meta-attributions, and establish these as directional extensions of existing interaction indices. Empirically, we demonstrate that the metagame delivers insights across diverse interpretability applications: (i) quantifying token interactions in instruction-tuned language models, (ii) explaining cross-modal similarity in vision-language encoders, and (iii) interpreting text-to-image concepts in multimodal diffusion transformers.",
     "authors": [
       "Hubert Baniecki",
       "Przemyslaw Biecek",
@@ -2084,7 +2084,7 @@
   {
     "arxiv_id": "2605.06364v1",
     "title": "Flow Matching with Arbitrary Auxiliary Paths",
-    "summary": "We introduce a new generative modeling framework, \\textbf{Flow Matching with Arbitrary Auxiliary Paths (AuxPath-FM)}, which generalizes conditional flow matching by incorporating an auxiliary variable drawn from an arbitrary distribution into the probability path. Unlike prior methods that restrict auxiliary components to Gaussian noise, AuxPath-FM allows the variable $\u03b7$ to follow any distribution, producing trajectories of the form $X_t = a(t)X_1 + b(t)X_0 + c(t)\u03b7$. We theoretically demonstrate that this construction preserves the continuity equation and maintains a training objective consistent with the marginal formulation. This flexibility enables the design of diverse probability paths using various priors, including Gaussian, Uniform, Laplace, and discrete Rademacher distributions, each offering unique geometric properties for generative flows. Furthermore, our framework allows for specialized tasks such as label-guided generation by encoding structured semantic information into the auxiliary distribution. Overall, AuxPath-FM provides a principled and general foundation for probability path design, offering both theoretical generality and practical flexibility for diverse generative modeling tasks.",
+    "summary": "We introduce a new generative modeling framework, \\textbf{Flow Matching with Arbitrary Auxiliary Paths (AuxPath-FM)}, which generalizes conditional flow matching by incorporating an auxiliary variable drawn from an arbitrary distribution into the probability path. Unlike prior methods that restrict auxiliary components to Gaussian noise, AuxPath-FM allows the variable $η$ to follow any distribution, producing trajectories of the form $X_t = a(t)X_1 + b(t)X_0 + c(t)η$. We theoretically demonstrate that this construction preserves the continuity equation and maintains a training objective consistent with the marginal formulation. This flexibility enables the design of diverse probability paths using various priors, including Gaussian, Uniform, Laplace, and discrete Rademacher distributions, each offering unique geometric properties for generative flows. Furthermore, our framework allows for specialized tasks such as label-guided generation by encoding structured semantic information into the auxiliary distribution. Overall, AuxPath-FM provides a principled and general foundation for probability path design, offering both theoretical generality and practical flexibility for diverse generative modeling tasks.",
     "authors": [
       "Xin Peng",
       "Ang Gao"
@@ -2408,10 +2408,10 @@
     "title": "SoftSAE: Dynamic Top-K Selection for Adaptive Sparse Autoencoders",
     "summary": "Sparse Autoencoders (SAEs) have become an important tool in mechanistic interpretability, helping to analyze internal representations in both Large Language Models (LLMs) and Vision Transformers (ViTs). By decomposing polysemantic activations into sparse sets of monosemantic features, SAEs aim to translate neural network computations into human-understandable concepts. However, common architectures such as TopK SAEs rely on a fixed sparsity level. They enforce the same number of active features (K) across all inputs, ignoring the varying complexity of real-world data. Natural data often lies on manifolds with varying local intrinsic dimensionality, meaning the number of relevant factors can change significantly across samples. This suggests that a fixed sparsity level is not optimal. Simple inputs may require only a few features, while more complex ones need more expressive representations. Using a constant K can therefore introduce noise in simple cases or miss important structure in more complex ones. To address this issue, we propose SoftSAE, a sparse autoencoder with a Dynamic Top-K selection mechanism. Our method uses a differentiable Soft Top-K operator to learn an input-dependent sparsity level k. This allows the model to adjust the number of active features based on the complexity of each input. As a result, the representation better matches the structure of the data, and the explanation length reflects the amount of information in the input. Experimental results confirm that SoftSAE not only finds meaningful features, but also selects the right number of features for each concept. The source code is available at: https://anonymous.4open.science/r/SoftSAE-8F71/.",
     "authors": [
-      "Jakub St\u0119pie\u0144",
+      "Jakub Stępień",
       "Marcin Mazur",
       "Jacek Tabor",
-      "Przemys\u0142aw Spurek"
+      "Przemysław Spurek"
     ],
     "categories": [
       "cs.LG",
@@ -2450,7 +2450,7 @@
     "authors": [
       "Yongxin Zhou",
       "Fabien Ringeval",
-      "Fran\u00e7ois Portet"
+      "François Portet"
     ],
     "categories": [
       "cs.CL"
@@ -2465,7 +2465,7 @@
   {
     "arxiv_id": "2605.06540v1",
     "title": "Ex Ante Evaluation of AI-Induced Idea Diversity Collapse",
-    "summary": "Creative AI systems are typically evaluated at the level of individual utility, yet creative outputs are consumed in populations: an idea loses value when many others produce similar ones. This creates an evaluation blind spot, as AI can improve individual outputs while increasing population-level crowding. We introduce a human-relative framework for benchmarking AI-induced human diversity collapse without requiring human-AI interaction data, providing an ex ante protocol to estimate crowding risk from model-only generations and matched unaided human baselines. By modeling ideas as congestible resources, we show that source-level crowding is identifiable from within-distribution comparisons, yielding an excess-crowding coefficient $\u0394$ and a human-relative diversity ratio $\u03c1$. We show that $\u03c1\\ge1$ is the no-excess-crowding parity condition and connect $\u0394$ to an adoption game with exposure-dependent redundancy costs. Across short stories, marketing slogans, and alternative-uses tasks, three frontier LLMs fall below parity across crowding kernels. Estimates stabilize with feasible model-only sample sizes. Importantly, generation-protocol variants show that crowding can be reduced through targeted design, making diversity collapse an actionable, development-time evaluation target for population-aware creative AI.",
+    "summary": "Creative AI systems are typically evaluated at the level of individual utility, yet creative outputs are consumed in populations: an idea loses value when many others produce similar ones. This creates an evaluation blind spot, as AI can improve individual outputs while increasing population-level crowding. We introduce a human-relative framework for benchmarking AI-induced human diversity collapse without requiring human-AI interaction data, providing an ex ante protocol to estimate crowding risk from model-only generations and matched unaided human baselines. By modeling ideas as congestible resources, we show that source-level crowding is identifiable from within-distribution comparisons, yielding an excess-crowding coefficient $Δ$ and a human-relative diversity ratio $ρ$. We show that $ρ\\ge1$ is the no-excess-crowding parity condition and connect $Δ$ to an adoption game with exposure-dependent redundancy costs. Across short stories, marketing slogans, and alternative-uses tasks, three frontier LLMs fall below parity across crowding kernels. Estimates stabilize with feasible model-only sample sizes. Importantly, generation-protocol variants show that crowding can be reduced through targeted design, making diversity collapse an actionable, development-time evaluation target for population-aware creative AI.",
     "authors": [
       "Nafis Saami Azad",
       "Raiyan Abdul Baten"
@@ -2505,7 +2505,7 @@
   {
     "arxiv_id": "2605.06455v1",
     "title": "PrefixGuard: From LLM-Agent Traces to Online Failure-Warning Monitors",
-    "summary": "Large language model (LLM) agents now execute long, tool-using tasks where final outcome checks can arrive too late for intervention. Online warning requires lightweight prefix monitors over heterogeneous traces, but hand-authored event schemas are brittle and deployment-time LLM judging is costly. We introduce PrefixGuard, a trace-to-monitor framework with an offline StepView induction step followed by supervised monitor training. StepView induces deterministic typed-step adapters from raw trace samples, and the monitor learns an event abstraction and prefix-risk scorer from terminal outcomes. Across WebArena, $\u03c4^2$-Bench, SkillsBench, and TerminalBench, the strongest PrefixGuard monitors reach 0.900/0.710/0.533/0.557 AUPRC. Using the strongest backend within each representation, they improve over raw-text controls by an average of +0.137 AUPRC. LLM judges remain substantially weaker under the same prefix-warning protocol. We also derive an observability ceiling on score-based area under the precision-recall curve (AUPRC) that separates monitor error from failures lacking evidence in the observed prefix. For finite-state audit, post-hoc deterministic finite automaton (DFA) extraction remains compact on WebArena and $\u03c4^2$-Bench (29 and 20 states) but expands to 151 and 187 states on SkillsBench and TerminalBench. Finally, first-alert diagnostics show that strong ranking does not imply deployment utility: WebArena ranks well yet fails to support low-false-alarm alerts, whereas $\u03c4^2$-Bench and TerminalBench retain more actionable early alerts. Together, these results position PrefixGuard as a practical monitor-synthesis recipe with explicit diagnostics for when prefix warnings translate into actionable interventions.",
+    "summary": "Large language model (LLM) agents now execute long, tool-using tasks where final outcome checks can arrive too late for intervention. Online warning requires lightweight prefix monitors over heterogeneous traces, but hand-authored event schemas are brittle and deployment-time LLM judging is costly. We introduce PrefixGuard, a trace-to-monitor framework with an offline StepView induction step followed by supervised monitor training. StepView induces deterministic typed-step adapters from raw trace samples, and the monitor learns an event abstraction and prefix-risk scorer from terminal outcomes. Across WebArena, $τ^2$-Bench, SkillsBench, and TerminalBench, the strongest PrefixGuard monitors reach 0.900/0.710/0.533/0.557 AUPRC. Using the strongest backend within each representation, they improve over raw-text controls by an average of +0.137 AUPRC. LLM judges remain substantially weaker under the same prefix-warning protocol. We also derive an observability ceiling on score-based area under the precision-recall curve (AUPRC) that separates monitor error from failures lacking evidence in the observed prefix. For finite-state audit, post-hoc deterministic finite automaton (DFA) extraction remains compact on WebArena and $τ^2$-Bench (29 and 20 states) but expands to 151 and 187 states on SkillsBench and TerminalBench. Finally, first-alert diagnostics show that strong ranking does not imply deployment utility: WebArena ranks well yet fails to support low-false-alarm alerts, whereas $τ^2$-Bench and TerminalBench retain more actionable early alerts. Together, these results position PrefixGuard as a practical monitor-synthesis recipe with explicit diagnostics for when prefix warnings translate into actionable interventions.",
     "authors": [
       "Xinmiao Huang",
       "Jinwei Hu",
@@ -2584,14 +2584,14 @@
   {
     "arxiv_id": "2605.06652v1",
     "title": "When No Benchmark Exists: Validating Comparative LLM Safety Scoring Without Ground-Truth Labels",
-    "summary": "Many deployments must compare candidate language models for safety before a labeled benchmark exists for the relevant language, sector, or regulatory regime. We formalize this setting as benchmarkless comparative safety scoring and specify the contract under which a scenario-based audit can be interpreted as deployment evidence. Scores are valid only under a fixed scenario pack, rubric, auditor, judge, sampling configuration, and rerun budget. Because no labels are available, we replace ground-truth agreement with an instrumental-validity chain: responsiveness to a controlled safe-versus-abliterated contrast, dominance of target-driven variance over auditor and judge artifacts, and stability across reruns.   We instantiate the chain in SimpleAudit, a local-first scoring instrument, and validate it on a Norwegian safety pack. Safe and abliterated targets separate with AUROC values between 0.89 and 1.00, target identity is the dominant variance component ($\u03b7^2 \\approx 0.52$), and severity profiles stabilize by ten reruns. Applying the same chain to Petri shows that it admits both tools. The substantial differences arise upstream of the chain, in claim-contract enforcement and deployment fit. A Norwegian public-sector procurement case comparing Borealis and Gemma 3 demonstrates the resulting evidence in practice: the safer model depends on scenario category and risk measure. Consequently, scores, matched deltas, critical rates, uncertainty, and the auditor and judge used must be reported together rather than collapsed into a single ranking.",
+    "summary": "Many deployments must compare candidate language models for safety before a labeled benchmark exists for the relevant language, sector, or regulatory regime. We formalize this setting as benchmarkless comparative safety scoring and specify the contract under which a scenario-based audit can be interpreted as deployment evidence. Scores are valid only under a fixed scenario pack, rubric, auditor, judge, sampling configuration, and rerun budget. Because no labels are available, we replace ground-truth agreement with an instrumental-validity chain: responsiveness to a controlled safe-versus-abliterated contrast, dominance of target-driven variance over auditor and judge artifacts, and stability across reruns.   We instantiate the chain in SimpleAudit, a local-first scoring instrument, and validate it on a Norwegian safety pack. Safe and abliterated targets separate with AUROC values between 0.89 and 1.00, target identity is the dominant variance component ($η^2 \\approx 0.52$), and severity profiles stabilize by ten reruns. Applying the same chain to Petri shows that it admits both tools. The substantial differences arise upstream of the chain, in claim-contract enforcement and deployment fit. A Norwegian public-sector procurement case comparing Borealis and Gemma 3 demonstrates the resulting evidence in practice: the safer model depends on scenario category and risk measure. Consequently, scores, matched deltas, critical rates, uncertainty, and the auditor and judge used must be reported together rather than collapsed into a single ranking.",
     "authors": [
       "Sushant Gautam",
       "Finn Schwall",
       "Annika Willoch Olstad",
       "Fernando Vallecillos Ruiz",
       "Birk Torpmann-Hagen",
-      "Sunniva Maria Stordal Bj\u00f8rklund",
+      "Sunniva Maria Stordal Bjørklund",
       "Leon Moonen",
       "Klas Pettersen",
       "Michael A. Riegler"
@@ -2615,7 +2615,7 @@
     "authors": [
       "Ronaldo Canizales",
       "Divya Gopinath",
-      "Corina P\u0103s\u0103reanu",
+      "Corina Păsăreanu",
       "Ravi Mangal"
     ],
     "categories": [
@@ -2728,7 +2728,7 @@
     "summary": "Language-model (LM) surprisal is widely used as a proxy for contextual predictability and has been reported to correlate with metaphor novelty judgments. However, surprisal is tightly intertwined with lexical frequency. We explore this interaction on metaphor novelty ratings using two different word frequency measures. We analyse surprisal estimates from eight Pythia model sizes and 154 training checkpoints. Across settings, word frequency is a stronger predictor of metaphor novelty than surprisal. Across training stages, the surprisal--novelty association peaks at an early stage and then falls again, mirroring a similarly timed increase in the surprisal--frequency association. These results suggest that the often-reported optimal LM surprisal settings may incorrectly associate contextual predictability with metaphor novelty and processing difficulty, whereas lexical frequency may be the major underlying factor.",
     "authors": [
       "Omar Momen",
-      "Sina Zarrie\u00df"
+      "Sina Zarrieß"
     ],
     "categories": [
       "cs.CL"
@@ -2769,7 +2769,7 @@
     "summary": "Sparse autoencoders (SAEs) have become central to mechanistic interpretability, decomposing transformer activations into monosemantic features. Yet existing analyses characterise features almost exclusively through top-activating token lists or decoder weight vectors, leaving the higher-order co-occurrence structure shared across features largely unexamined. We introduce a graph-structured representation in which each SAE feature is modelled as a token co-occurrence graph: nodes are the tokens most frequent near strong activations, and edges connect pairs that co-occur within local context windows. A custom WL-style, frequency-binned graph kernel then provides a similarity measure over this structural space. Applied as a proof of concept to features from a large SAE trained on GPT-2 Small and probed with a synthetic mixed-domain corpus, our clustering recovers heuristic motif families (punctuation-heavy patterns, language and script clusters, and code-like templates) that are not recovered by clustering on decoder cosine similarity. A token-histogram baseline achieves higher overall purity, so the contribution of the graph view is complementary rather than dominant: it surfaces structural relationships that token-frequency and decoder-weight views alone do not capture. Cluster assignments are stable across graph-construction hyperparameters and random seeds.",
     "authors": [
       "Ruben Fernandez-Boullon",
-      "Pablo Magari\u00f1os-Docampo",
+      "Pablo Magariños-Docampo",
       "Javier Perez-Robles"
     ],
     "categories": [
@@ -2824,8 +2824,8 @@
   },
   {
     "arxiv_id": "2605.06373v1",
-    "title": "Beyond the Independence Assumption: Finite-Sample Guarantees for Deep Q-Learning under $\u03c4$-Mixing",
-    "summary": "Finite-sample analyses of deep Q-learning typically treat replayed data as independent, even though it is sampled from temporally dependent state-action trajectories. We study the Deep Q-networks (DQN) algorithm under explicit dependence by modelling the minibatches used for updating the network as $\u03c4$-mixing. We show that this assumption holds under certain dependence conditions on the underlying trajectories and the mechanism used to sample minibatches. Building on this observation, we extend statistical analyses of DQN with fully connected ReLU architectures to dependent data. We formulate each update as a nonparametric regression problem with $\u03c4$-mixing observations and derive finite-sample risk bounds under this dependence structure. Our results show that temporal dependence leads to a degradation in the statistical rate by inducing an additional dimensionality penalty in the rate exponent, reflecting the reduced effective sample size of $\u03c4$-mixing data. Moreover, we derive the sample complexity of DQN under $tau$-mixing from these risk bounds. Finally, we empirically demonstrate on standard Gymnasium environments that the independence assumption is systematically violated and that replay sampling yields approximately exponentially decaying correlations, supporting our theoretical framework.",
+    "title": "Beyond the Independence Assumption: Finite-Sample Guarantees for Deep Q-Learning under $τ$-Mixing",
+    "summary": "Finite-sample analyses of deep Q-learning typically treat replayed data as independent, even though it is sampled from temporally dependent state-action trajectories. We study the Deep Q-networks (DQN) algorithm under explicit dependence by modelling the minibatches used for updating the network as $τ$-mixing. We show that this assumption holds under certain dependence conditions on the underlying trajectories and the mechanism used to sample minibatches. Building on this observation, we extend statistical analyses of DQN with fully connected ReLU architectures to dependent data. We formulate each update as a nonparametric regression problem with $τ$-mixing observations and derive finite-sample risk bounds under this dependence structure. Our results show that temporal dependence leads to a degradation in the statistical rate by inducing an additional dimensionality penalty in the rate exponent, reflecting the reduced effective sample size of $τ$-mixing data. Moreover, we derive the sample complexity of DQN under $tau$-mixing from these risk bounds. Finally, we empirically demonstrate on standard Gymnasium environments that the independence assumption is systematically violated and that replay sampling yields approximately exponentially decaying correlations, supporting our theoretical framework.",
     "authors": [
       "Leon Halgryn",
       "Sophie Langer",
@@ -2850,7 +2850,7 @@
     "authors": [
       "Yifan Tang",
       "Qiquan Wang",
-      "In\u00e9s Garc\u00eda-Redondo",
+      "Inés García-Redondo",
       "Anthea Monod"
     ],
     "categories": [
@@ -2937,7 +2937,7 @@
   {
     "arxiv_id": "2605.06324v1",
     "title": "Gaming the Metric, Not the Harm: Certifying Safety Audits against Strategic Platform Manipulation",
-    "summary": "Online-safety regulation under the UK Online Safety Act and the EU Digital Services Act increasingly treats scalar metrics as compliance evidence. Once announced, such a metric also becomes an optimization target: a strategic platform can improve its score by routing recommendations through semantically equivalent content variants, without reducing true harm. We ask when such an audit metric can still certify a genuine reduction in harm. The protocol is modeled as a published transformation graph whose connected components form semantic classes, and the metric itself is treated as a security object. Three results follow. First, any metric that scores variants directly is manipulable as soon as two equivalent variants in a harmful class disagree in score. Second, the semantic-envelope lift, which assigns each variant the maximum score in its class, is the unique pointwise minimum among conservative classwise-constant repairs. Third, a class-stratified certificate, $H^\\star(x) \\le (1/\\hat\u03b1) M_{\\mathrm{Env}(m)}(x) + \\bar\u03b7$, holds for every platform strategy, with $\\bar\u03b7$ absorbing annotation and protocol error. We check the claims at three levels: exhaustive enumeration on a finite-state grid of mixed strategies, an SMT encoding in Z3 cross-replayed in cvc5, and a bounded single-player MDP encoded in PRISM-games. The fragile metric fails manipulation invariance and cannot support the same useful predeclared class-coverage certificate; under the envelope-level certificate, it produces large violations at every tested instance, with a large mean gaming gap across random catalogs at a fixed audit budget. The semantic-envelope metric exhibits no such violation in the tested instances.",
+    "summary": "Online-safety regulation under the UK Online Safety Act and the EU Digital Services Act increasingly treats scalar metrics as compliance evidence. Once announced, such a metric also becomes an optimization target: a strategic platform can improve its score by routing recommendations through semantically equivalent content variants, without reducing true harm. We ask when such an audit metric can still certify a genuine reduction in harm. The protocol is modeled as a published transformation graph whose connected components form semantic classes, and the metric itself is treated as a security object. Three results follow. First, any metric that scores variants directly is manipulable as soon as two equivalent variants in a harmful class disagree in score. Second, the semantic-envelope lift, which assigns each variant the maximum score in its class, is the unique pointwise minimum among conservative classwise-constant repairs. Third, a class-stratified certificate, $H^\\star(x) \\le (1/\\hatα) M_{\\mathrm{Env}(m)}(x) + \\barη$, holds for every platform strategy, with $\\barη$ absorbing annotation and protocol error. We check the claims at three levels: exhaustive enumeration on a finite-state grid of mixed strategies, an SMT encoding in Z3 cross-replayed in cvc5, and a bounded single-player MDP encoded in PRISM-games. The fragile metric fails manipulation invariance and cannot support the same useful predeclared class-coverage certificate; under the envelope-level certificate, it produces large violations at every tested instance, with a large mean gaming gap across random catalogs at a fixed audit budget. The semantic-envelope metric exhibits no such violation in the tested instances.",
     "authors": [
       "Florian A. D. Burnat",
       "Brittany I. Davidson"
@@ -2976,7 +2976,7 @@
   {
     "arxiv_id": "2605.06656v1",
     "title": "Why Global LLM Leaderboards Are Misleading: Small Portfolios for Heterogeneous Supervised ML",
-    "summary": "Ranking LLMs via pairwise human feedback underpins current leaderboards for open-ended tasks, such as creative writing and problem-solving. We analyze ~89K comparisons in 116 languages from 52 LLMs from Arena, and show that the best-fit global Bradley-Terry (BT) ranking is misleading. Nearly 2/3 of the decisive votes cancel out, and even the top 50 models according to the global BT ranking are statistically indistinguishable (pairwise win probabilities are at most 0.53 within the top 50 models). We trace this failure to strong, structured heterogeneity of opinions across language, task, and time. Moreover, we find an important characteristic - *language* plays a key role. Grouping by language (and families) increases the agreement of votes massively, resulting in two orders of magnitude higher spread in the ELO scores (i.e., very consistent rankings). What appears as global noise is in fact a mixture of coherent but conflicting subpopulations.   To address such heterogeneity in supervised machine learning, we introduce the framework of $(\u03bb, \u03bd)$-portfolios, which are small sets of models that achieve a prediction error at most $\u03bb$, \"covering\" at least a $\u03bd$ fraction of users. We formulate this as a variant of the set cover problem and provide guarantees using the VC dimension of the underlying set system. On the Arena data, our algorithms recover just 5 distinct BT rankings that cover over 96% of votes at a modest $\u03bb$, compared to the 21% coverage by the global ranking. We also provide a portfolio of 6 LLMs that cover twice as many votes as the top-6 LLMs from a global ranking. We further construct portfolios for a classification problem on the COMPAS dataset using an ensemble of fairness-regularized classification models and show that these portfolios can be used to detect blind spots in the data, which might be of independent interest to policymakers.",
+    "summary": "Ranking LLMs via pairwise human feedback underpins current leaderboards for open-ended tasks, such as creative writing and problem-solving. We analyze ~89K comparisons in 116 languages from 52 LLMs from Arena, and show that the best-fit global Bradley-Terry (BT) ranking is misleading. Nearly 2/3 of the decisive votes cancel out, and even the top 50 models according to the global BT ranking are statistically indistinguishable (pairwise win probabilities are at most 0.53 within the top 50 models). We trace this failure to strong, structured heterogeneity of opinions across language, task, and time. Moreover, we find an important characteristic - *language* plays a key role. Grouping by language (and families) increases the agreement of votes massively, resulting in two orders of magnitude higher spread in the ELO scores (i.e., very consistent rankings). What appears as global noise is in fact a mixture of coherent but conflicting subpopulations.   To address such heterogeneity in supervised machine learning, we introduce the framework of $(λ, ν)$-portfolios, which are small sets of models that achieve a prediction error at most $λ$, \"covering\" at least a $ν$ fraction of users. We formulate this as a variant of the set cover problem and provide guarantees using the VC dimension of the underlying set system. On the Arena data, our algorithms recover just 5 distinct BT rankings that cover over 96% of votes at a modest $λ$, compared to the 21% coverage by the global ranking. We also provide a portfolio of 6 LLMs that cover twice as many votes as the top-6 LLMs from a global ranking. We further construct portfolios for a classification problem on the COMPAS dataset using an ensemble of fairness-regularized classification models and show that these portfolios can be used to detect blind spots in the data, which might be of independent interest to policymakers.",
     "authors": [
       "Jai Moondra",
       "Ayela Chughtai",
@@ -3100,7 +3100,7 @@
     "title": "CoupleEvo: Evolving Heuristics for Coupled Optimization Problems Using Large Language Models",
     "summary": "Many real-world optimization problems consist of multiple tightly coupled subproblems whose solutions must be coordinated to achieve high overall performance. However, existing large language model driven automated heuristic design approaches are limited to single-problem settings. In this paper, we propose CoupleEvo. CoupleEvo proposes three evolutionary coordination strategies to evolve heuristics for coupled optimization problems: the sequential strategy evolves heuristics for one subproblem after the other; the iterative strategy alternates the evolution of heuristics for different subproblems over successive generations; and the integrated strategy evolves heuristics for all problems simultaneously. The approach is evaluated on two representative coupled optimization problems. Experimental results show that decomposition-based strategies (sequential and iterative) provide more stable convergence and higher solution quality, while the integrated evolution strategy suffers from increased search complexity and variability. These findings highlight the importance of coordinating evolutionary search across interdependent subproblems and demonstrate the potential of LLM-driven heuristic design for complex coupled optimization problems. The code is available: https://github.com/tb-git-kit-research/CoupleEvo.",
     "authors": [
-      "Thomas B\u00f6mer",
+      "Thomas Bömer",
       "Bastian Amberg",
       "Max Disselnmeyer",
       "Anne Meyer"
@@ -3158,7 +3158,7 @@
   {
     "arxiv_id": "2605.06316v1",
     "title": "Pro-KLShampoo: Projected KL-Shampoo with Whitening Recovered by Orthogonalization",
-    "summary": "Optimizers that exploit the matrix structure of gradients are central to modern LLM pre-training, with two distinct frontiers: explicit Kronecker-factored preconditioning -- most recently KL-Shampoo, which estimates the preconditioner via KL divergence minimization -- and orthogonalization of the gradient momentum, exemplified by Muon and analyzed as steepest descent under the spectral norm. The two routes are typically developed in isolation. We make a structural observation about KL-Shampoo's Kronecker preconditioners: their eigenvalue spectra exhibit a \\emph{spike-and-flat} shape -- a few dominant eigenvalues followed by an approximately uniform tail -- across layers and training stages, holding exactly under a rank-$\u03c1$ signal-plus-noise gradient model. We exploit this structure by restricting one of KL-Shampoo's Kronecker factors to a parametric family aligned with the spike-and-flat shape: full spectral structure on a tracked $r$-dimensional subspace, single shared eigenvalue across the remaining $n-r$ directions. On these directions, we apply orthogonalization. An identity shows that this orthogonalization recovers the algebraic form of full KL-Shampoo's preconditioner. On four pre-training scales (GPT-2 124M / 350M, LLaMA 134M / 450M), Pro-KLShampoo consistently outperforms KL-Shampoo at every subspace rank we test in validation loss, peak per-GPU memory, and wallclock time to reach each loss level.",
+    "summary": "Optimizers that exploit the matrix structure of gradients are central to modern LLM pre-training, with two distinct frontiers: explicit Kronecker-factored preconditioning -- most recently KL-Shampoo, which estimates the preconditioner via KL divergence minimization -- and orthogonalization of the gradient momentum, exemplified by Muon and analyzed as steepest descent under the spectral norm. The two routes are typically developed in isolation. We make a structural observation about KL-Shampoo's Kronecker preconditioners: their eigenvalue spectra exhibit a \\emph{spike-and-flat} shape -- a few dominant eigenvalues followed by an approximately uniform tail -- across layers and training stages, holding exactly under a rank-$ρ$ signal-plus-noise gradient model. We exploit this structure by restricting one of KL-Shampoo's Kronecker factors to a parametric family aligned with the spike-and-flat shape: full spectral structure on a tracked $r$-dimensional subspace, single shared eigenvalue across the remaining $n-r$ directions. On these directions, we apply orthogonalization. An identity shows that this orthogonalization recovers the algebraic form of full KL-Shampoo's preconditioner. On four pre-training scales (GPT-2 124M / 350M, LLaMA 134M / 450M), Pro-KLShampoo consistently outperforms KL-Shampoo at every subspace rank we test in validation loss, peak per-GPU memory, and wallclock time to reach each loss level.",
     "authors": [
       "Ruotong Sun",
       "Ermin Wei"
@@ -3181,7 +3181,7 @@
     "authors": [
       "Adil Reghai",
       "Lama Tarsissi",
-      "G\u00e9rard Biau",
+      "Gérard Biau",
       "Alex Lipton"
     ],
     "categories": [
@@ -3311,7 +3311,7 @@
     "summary": "Understanding the topology of decision regions is central to explaining the inner workings of deep neural networks. Prior empirical work has provided evidence that these regions are path connected. We study a stronger topological question: whether closed loops inside a decision region can be contracted without leaving that region. To this end, we propose an iterative quad-mesh filling procedure that constructs a finite-resolution label-preserving surface bounded by a given loop and lying entirely within the same decision region. We further connect this construction to natural Coons patches in order to quantify its deviation from a canonical geometric interpolation of the loop. By evaluating our method across several modern image-classification models, we provide empirical evidence supporting the hypothesis that decision regions in deep neural networks are not only path connected, but also simply connected.",
     "authors": [
       "Arjhun Swaminathan",
-      "Mete Akg\u00fcn"
+      "Mete Akgün"
     ],
     "categories": [
       "cs.CV",
@@ -3330,7 +3330,7 @@
     "summary": "Automated privacy audits of web and mobile applications often analyse outbound HTTP traffic to detect Personally Identifiable Information (PII) leakage. However, existing learning-based detectors typically depend on scarce, manually labelled traffic and are tightly coupled to fixed label taxonomies, limiting transferability across domains and evolving definitions of PII. This paper investigates whether Large Language Models (LLMs) can support taxonomy-agnostic annotation of explicitly transmitted PII values in HTTP message bodies when the taxonomy is provided at runtime. We introduce a multi-stage LLM-based pipeline that combines deterministic pre-processing with label-level classification, targeted instance-level value annotation, and output validation. To enable controlled evaluation and exemplar-based prompting without relying on sensitive real-user captures, we further propose an LLM-based generator for synthetic HTTP traffic with manually validated, taxonomy-derived PII annotations. We evaluate the approach across three taxonomies spanning different PII domains and granularity levels. Results show that the pipeline accurately detects PII types and extracts corresponding values for concrete PII taxonomies. Overall, our findings position LLMs as a promising foundation for flexible, taxonomy-agnostic traffic annotation and for creating labelled data under evolving privacy taxonomies.",
     "authors": [
       "Thomas Cory",
-      "Axel K\u00fcpper"
+      "Axel Küpper"
     ],
     "categories": [
       "cs.AI",
@@ -3468,7 +3468,7 @@
   {
     "arxiv_id": "2605.06385v1",
     "title": "Data-Driven Covariate Selection for Nonparametric and Cycle-Agnostic Causal Effect Estimation",
-    "summary": "Estimating causal effects from observational data requires identifying valid adjustment sets. This task is especially challenging in realistic settings where latent confounding and feedback loops are present. Existing approaches typically assume acyclicity or rely on global causal structure learning, limiting applicability and computational efficiency. In this work, we study a local, data-driven method for covariate selection based on conditional independence information. While this method is known to be sound and complete in acyclic causal models, its validity in the presence of cycles has remained unclear. Our main contribution is to show that these guarantees extend to cyclic causal models. In particular, our result relies on the invariance of conditional independence assertions under $\u03c3$-acyclification. These findings establish a unified, cycle-agnostic perspective on covariate selection and causal effect estimation, showing that the method applies across cyclic and acyclic settings without modification. Empirically, we validate this on extensive synthetic data, showing reliable performance in cyclic causal models.",
+    "summary": "Estimating causal effects from observational data requires identifying valid adjustment sets. This task is especially challenging in realistic settings where latent confounding and feedback loops are present. Existing approaches typically assume acyclicity or rely on global causal structure learning, limiting applicability and computational efficiency. In this work, we study a local, data-driven method for covariate selection based on conditional independence information. While this method is known to be sound and complete in acyclic causal models, its validity in the presence of cycles has remained unclear. Our main contribution is to show that these guarantees extend to cyclic causal models. In particular, our result relies on the invariance of conditional independence assertions under $σ$-acyclification. These findings establish a unified, cycle-agnostic perspective on covariate selection and causal effect estimation, showing that the method applies across cyclic and acyclic settings without modification. Empirically, we validate this on extensive synthetic data, showing reliable performance in cyclic causal models.",
     "authors": [
       "Ana Leticia Garcez Vicente",
       "Gijs van Seeventer",
@@ -3542,7 +3542,7 @@
   {
     "arxiv_id": "2605.06314v1",
     "title": "When Does $\\ell_2$-Boosting Overfit Benignly? High-Dimensional Risk Asymptotics and the $\\ell_1$ Implicit Bias",
-    "summary": "Benign overfitting is well-characterized in $\\ell_2$ geometries, but its behavior under the $\\ell_1$ implicit bias of greedy ensembles remains challenging. The analytical barrier stems from the non-linear coupling of coordinate selection thresholds, which invalidates standard spectral resolvent tools. To isolate this algorithmic bias, we characterize the high-dimensional risk of continuous-time $\\ell_2$-Boosting over $p$ features and $n$ samples. By coupling the Convex Gaussian Minimax Theorem with delicate asymptotic expansions of double-sided truncated Gaussian moments, we analytically resolve the non-smooth $\\ell_1$ interpolant. Under an isotropic pure-noise model, we prove that benign overfitting fails at the linear rate: greedy selection localizes noise into sparse active sets, and the excess variance decays at a logarithmic rate $\u0398(\u03c3^2/\\log(p/n))$ for noise variance $\u03c3^2$. We remark that while this localization mechanism should persist in the presence of signals, the exact signal-noise decomposition remains an open problem. For spiked-isotropic designs with $k^*$ head eigenvalues and $r_2 = p - k^*$ tail dimensions, the risk converges to zero when $r_{2} \\gg n$, but only at a logarithmic rate $\u0398(\u03c3^2/\\log(r_2/n))$, which is slower than the linear decay observed in $\\ell_2$ geometries. To avoid this slow convergence, we analyze the non-smooth subdifferential dynamics of the boosting flow. This yields a tuning-free early stopping rule that, under a bounded $\\ell_1$-path condition, recovers the Lasso basic inequality and attains the minimax-optimal empirical prediction rate for $\\ell_1$-bounded signals.",
+    "summary": "Benign overfitting is well-characterized in $\\ell_2$ geometries, but its behavior under the $\\ell_1$ implicit bias of greedy ensembles remains challenging. The analytical barrier stems from the non-linear coupling of coordinate selection thresholds, which invalidates standard spectral resolvent tools. To isolate this algorithmic bias, we characterize the high-dimensional risk of continuous-time $\\ell_2$-Boosting over $p$ features and $n$ samples. By coupling the Convex Gaussian Minimax Theorem with delicate asymptotic expansions of double-sided truncated Gaussian moments, we analytically resolve the non-smooth $\\ell_1$ interpolant. Under an isotropic pure-noise model, we prove that benign overfitting fails at the linear rate: greedy selection localizes noise into sparse active sets, and the excess variance decays at a logarithmic rate $Θ(σ^2/\\log(p/n))$ for noise variance $σ^2$. We remark that while this localization mechanism should persist in the presence of signals, the exact signal-noise decomposition remains an open problem. For spiked-isotropic designs with $k^*$ head eigenvalues and $r_2 = p - k^*$ tail dimensions, the risk converges to zero when $r_{2} \\gg n$, but only at a logarithmic rate $Θ(σ^2/\\log(r_2/n))$, which is slower than the linear decay observed in $\\ell_2$ geometries. To avoid this slow convergence, we analyze the non-smooth subdifferential dynamics of the boosting flow. This yields a tuning-free early stopping rule that, under a bounded $\\ell_1$-path condition, recovers the Lasso basic inequality and attains the minimax-optimal empirical prediction rate for $\\ell_1$-bounded signals.",
     "authors": [
       "Ye Su",
       "Jian Li",
@@ -3585,12 +3585,12 @@
     "title": "ReActor: Reinforcement Learning for Physics-Aware Motion Retargeting",
     "summary": "Retargeting human kinematic reference motion onto a robot's morphology remains a formidable challenge. Existing methods often produce physical inconsistencies, such as foot sliding, self-collisions, or dynamically infeasible motions, which hinder downstream imitation learning. We propose a bilevel optimization framework that jointly adapts reference motions to a robot's morphology while training a tracking policy using reinforcement learning. To make the optimization tractable, we derive an approximate gradient for the upper-level loss. Our framework requires only a sparse set of semantic rigid-body correspondences and eliminates the need for manual tuning by identifying optimal values for a parameterization expressive enough to preserve characteristic motion across different embodiments. Moreover, by integrating retargeting directly with physics simulation, we produce physically plausible motions that facilitate robust imitation learning. We validate our method in simulation and on hardware, demonstrating challenging motions for morphologies that differ significantly from a human, including retargeting onto a quadruped.",
     "authors": [
-      "David M\u00fcller",
+      "David Müller",
       "Agon Serifi",
       "Sammy Christen",
       "Ruben Grandia",
       "Espen Knoop",
-      "Moritz B\u00e4cher"
+      "Moritz Bächer"
     ],
     "categories": [
       "cs.RO",
@@ -3667,7 +3667,7 @@
     "title": "Instrumental Choices: Measuring the Propensity of LLM Agents to Pursue Instrumental Behaviors",
     "summary": "AI systems have become increasingly capable of dangerous behaviours in many domains. This raises the question: Do models sometimes choose to violate human instructions in order to perform behaviour that is more useful for certain goals? We introduce a benchmark for measuring model propensity for instrumental convergence (IC) behaviour in terminal-based agents. This is behaviour such as self-preservation that has been hypothesised to play a key role in risks from highly capable AI agents. Our benchmark is realistic and low-stakes which serves to reduce evaluation-awareness and roleplay confounds. The suite contains seven operational tasks, each with an official workflow and a policy-violating shortcut. An eight-variant shared framework varies monitoring, instruction clarity, stakes, permission, instrumental usefulness and blocked honest paths to support inferences regarding the factors driving IC behaviour. We evaluated ten models using deterministic environment-state scorers over 1,680 samples, with trace review employed for audit and adjudication purposes. The final IC rate is 86 out of 1,680 samples (5.1%). IC behaviour is concentrated rather than uniform: two Gemini models account for 66.3% of IC cases and three tasks account for 84.9%. Conditions in which IC behaviour is indispensable for task success result in the greatest increase in the adjusted IC rate (+15.7 percentage points), whereas emphasising that task success is critical or certain framing choices do not produce comparable effects. Our findings indicate that realistic, low-nudge environments elicit IC behaviour rarely but systematically in most tested models. We conclude that it is feasible to robustly measure tendencies for dangerous behaviour in current frontier AI agents.",
     "authors": [
-      "Jonas Wiedermann-M\u00f6ller",
+      "Jonas Wiedermann-Möller",
       "Leonard Dung",
       "Maksym Andriushchenko"
     ],
@@ -3956,7 +3956,7 @@
     "authors": [
       "Richard Bergna",
       "Stefan Depeweg",
-      "Jos\u00e9 Miguel Hern\u00e1ndez-Lobato"
+      "José Miguel Hernández-Lobato"
     ],
     "categories": [
       "stat.ML",
@@ -3998,9 +3998,9 @@
     "authors": [
       "Beatriz Canaverde",
       "Duarte M. Alves",
-      "Jos\u00e9 Pombal",
+      "José Pombal",
       "Giuseppe Attanasio",
-      "Andr\u00e9 F. T. Martins"
+      "André F. T. Martins"
     ],
     "categories": [
       "cs.CL"
@@ -4039,7 +4039,7 @@
     "authors": [
       "Marc Boubnovski Martell",
       "Josefa Lia Stoisser",
-      "Kaspar M\u00e4rtens",
+      "Kaspar Märtens",
       "Jialin Yu",
       "Robert Kitchen",
       "Philip Torr",
@@ -4078,7 +4078,7 @@
   {
     "arxiv_id": "2605.06288v1",
     "title": "A Topological Sorting Criterion for Random Causal Directed Acyclic Graphs",
-    "summary": "Random directed acyclic graphs (DAGs) based on imposing an order on Erd\u0151s-R\u00e9nyi and scale free random graphs are widely used for evaluating causal discovery algorithms. We show that in such DAGs, the set of nodes reachable via open paths, termed relatives, increases monotonically along the causal order. We assess the prevalence of this pattern numerically, and demonstrate that it can be exploited for causal order recovery via sorting by the estimated number of relatives. We note that many simulations in the literature feature settings where this yields an excellent proxy for the causal order, and show that a strict increase of relatives along the causal order leads to a singular Markov equivalence class. We propose sampling time-series DAGs as a possible alternative and discuss implications for causal discovery algorithms and their evaluation on synthetic data.",
+    "summary": "Random directed acyclic graphs (DAGs) based on imposing an order on Erdős-Rényi and scale free random graphs are widely used for evaluating causal discovery algorithms. We show that in such DAGs, the set of nodes reachable via open paths, termed relatives, increases monotonically along the causal order. We assess the prevalence of this pattern numerically, and demonstrate that it can be exploited for causal order recovery via sorting by the estimated number of relatives. We note that many simulations in the literature feature settings where this yields an excellent proxy for the causal order, and show that a strict increase of relatives along the causal order leads to a singular Markov equivalence class. We propose sampling time-series DAGs as a possible alternative and discuss implications for causal discovery algorithms and their evaluation on synthetic data.",
     "authors": [
       "Alexander G. Reisach",
       "Antoine Chambaz",
@@ -4117,11 +4117,11 @@
   {
     "arxiv_id": "2605.06572v1",
     "title": "Solving Minimal Problems Without Matrix Inversion Using FFT-Based Interpolation",
-    "summary": "Estimating camera geometry typically involves solving minimal problems formulated as systems of multivariate polynomial equations, which often pose computational challenges when using existing Gr\u00f6bner-basis or resultant-based methods due to matrix inversion needed in the online solver. Here we propose a sampling-based, matrix inversion-free method that constructs the solvers using sparse hidden-variable resultants. The determinant polynomial in the hidden variable is efficiently reconstructed via inverse fast Fourier transform interpolation from sampled evaluations, avoiding symbolic expansion. Solving this polynomial yields the hidden variable, and the remaining unknowns are recovered by identifying rank-1 deficient submatrices and applying Cramer's rule. A greatest common divisor-based criterion ensures robust submatrix identification under noise. Experiments on diverse minimal problems demonstrate that the proposed solver achieves strong numerical stability and competitive runtime, particularly for small-scale problems, providing a practical alternative to traditional Gr\u00f6bner-basis and resultant-based solvers.",
+    "summary": "Estimating camera geometry typically involves solving minimal problems formulated as systems of multivariate polynomial equations, which often pose computational challenges when using existing Gröbner-basis or resultant-based methods due to matrix inversion needed in the online solver. Here we propose a sampling-based, matrix inversion-free method that constructs the solvers using sparse hidden-variable resultants. The determinant polynomial in the hidden variable is efficiently reconstructed via inverse fast Fourier transform interpolation from sampled evaluations, avoiding symbolic expansion. Solving this polynomial yields the hidden variable, and the remaining unknowns are recovered by identifying rank-1 deficient submatrices and applying Cramer's rule. A greatest common divisor-based criterion ensures robust submatrix identification under noise. Experiments on diverse minimal problems demonstrate that the proposed solver achieves strong numerical stability and competitive runtime, particularly for small-scale problems, providing a practical alternative to traditional Gröbner-basis and resultant-based solvers.",
     "authors": [
       "Haidong Wu",
       "Snehal Bhayani",
-      "Janne Heikkil\u00e4"
+      "Janne Heikkilä"
     ],
     "categories": [
       "cs.CV",
@@ -4214,39 +4214,6 @@
     "research_score": 0.5
   },
   {
-    "dataset_id": "open-index/hacker-news",
-    "author": "open-index",
-    "title": "open-index/hacker-news",
-    "downloads": 25947,
-    "likes": 316,
-    "tags": [
-      "task_categories:text-generation",
-      "task_categories:feature-extraction",
-      "task_categories:text-classification",
-      "task_categories:question-answering",
-      "language:en",
-      "license:odc-by",
-      "size_categories:10M<n<100M",
-      "modality:text",
-      "region:us",
-      "hacker-news",
-      "forum",
-      "text",
-      "parquet",
-      "community",
-      "tech",
-      "comments",
-      "live-updated"
-    ],
-    "created_at": "2026-03-14T09:58:41.000Z",
-    "last_modified": "2026-05-08T08:37:46.000Z",
-    "url": "https://huggingface.co/datasets/open-index/hacker-news",
-    "date": "2026-05-08",
-    "source": "huggingface_dataset",
-    "type": "dataset",
-    "research_score": 0.5
-  },
-  {
     "arxiv_id": "2605.06439v1",
     "title": "From Review to Design: Ethical Multimodal Driver Monitoring Systems for Risk Mitigation, Incident Response, and Accountability in Automated Vehicles",
     "summary": "As vehicles transition toward higher levels of automation, Driver Monitoring Systems (DMS) have become essential for ensuring human oversight, safety, and regulatory compliance in a vehicle. These systems rely on multimodal sensing and AI-driven inference to assess driver attention, cognitive state, and readiness to take control. While technologically promising, their deployment introduces a complex set of ethical and legal challenges - ranging from privacy and consent to data ownership and algorithmic fairness. While overarching frameworks such as the GDPR, EU AI Act, and IEEE standards offer important guidance, they lack the specificity required for addressing the unique risks posed by in-cabin sensing technologies.   This paper adopts a review-to-design perspective, critically examining existing regulatory instruments and ethical frameworks -- such as the GDPR, the EU AI Act, and IEEE guidelines -- and identifying gaps in their applicability to the distinctive risks posed by multimodal, AI-enabled in-cabin monitoring. Building on this review, we propose a modular ethical design framework tailored specifically to Driver Monitoring Systems. The framework translates high-level principles into actionable design and deployment guidance, including user-configurable consent mechanisms, fairness-aware model development, transparency and explainability tools, and safeguards for driver emotional well-being.   Finally, the paper outlines a risk analysis and failure mitigation strategy, emphasizing proactive incident response and accountability mechanisms tailored to the DMS context. Together, these contributions aim to inform the development of transparent, trustworthy, and human-centered driver monitoring systems for next-generation autonomous vehicles.",
@@ -4317,455 +4284,5 @@
     "date": "2026-05-08",
     "source": "arxiv",
     "research_score": 0.47
-  },
-  {
-    "model_id": "nphearum/Gemma-4-e2bxOpus-4.7-turbo-GGUF",
-    "author": "unknown",
-    "title": "nphearum/Gemma-4-e2bxOpus-4.7-turbo-GGUF",
-    "downloads": 116,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "gemma4",
-      "llama.cpp",
-      "vision-language-model",
-      "text-generation",
-      "dataset:lordx64-claude-opus-4.7-max-cleaned",
-      "dataset:nphearum/gsm678-thinking",
-      "base_model:google/gemma-4-E2B-it",
-      "base_model:quantized:google/gemma-4-E2B-it",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-05-07T16:29:59.000Z",
-    "last_modified": "2026-05-08T08:38:42.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/nphearum/Gemma-4-e2bxOpus-4.7-turbo-GGUF",
-    "date": "2026-05-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "hello9972/birdclef-2026-improved",
-    "author": "unknown",
-    "title": "hello9972/birdclef-2026-improved",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "ml-intern",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-05-08T08:37:35.000Z",
-    "last_modified": "2026-05-08T08:38:07.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/hello9972/birdclef-2026-improved",
-    "date": "2026-05-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "billalxcode/NALA-ID-110m-base",
-    "author": "unknown",
-    "title": "billalxcode/NALA-ID-110m-base",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "NALA",
-      "Wikipedia",
-      "Indonesian",
-      "GPT",
-      "GPT2",
-      "text-generation",
-      "id",
-      "dataset:wikimedia/wikipedia",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-05-08T08:35:04.000Z",
-    "last_modified": "2026-05-08T08:36:34.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/billalxcode/NALA-ID-110m-base",
-    "date": "2026-05-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "xurong123/char_detector_electra.tar",
-    "author": "unknown",
-    "title": "xurong123/char_detector_electra.tar",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "text-classification",
-      "zh",
-      "base_model:google/electra-base-discriminator",
-      "base_model:finetune:google/electra-base-discriminator",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "",
-    "created_at": "2026-05-08T08:26:15.000Z",
-    "last_modified": "2026-05-08T08:36:12.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/xurong123/char_detector_electra.tar",
-    "date": "2026-05-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "nayohyun/kobert",
-    "author": "unknown",
-    "title": "nayohyun/kobert",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "bert",
-      "text-classification",
-      "generated_from_trainer",
-      "base_model:monologg/kobert",
-      "base_model:finetune:monologg/kobert",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-05-08T08:35:16.000Z",
-    "last_modified": "2026-05-08T08:35:57.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/nayohyun/kobert",
-    "date": "2026-05-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "parkchangwoo/kobert",
-    "author": "unknown",
-    "title": "parkchangwoo/kobert",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "bert",
-      "text-classification",
-      "generated_from_trainer",
-      "base_model:monologg/kobert",
-      "base_model:finetune:monologg/kobert",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-05-08T08:35:11.000Z",
-    "last_modified": "2026-05-08T08:35:40.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/parkchangwoo/kobert",
-    "date": "2026-05-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "yehoony/kobert",
-    "author": "unknown",
-    "title": "yehoony/kobert",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "bert",
-      "text-classification",
-      "generated_from_trainer",
-      "base_model:monologg/kobert",
-      "base_model:finetune:monologg/kobert",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-05-08T08:35:17.000Z",
-    "last_modified": "2026-05-08T08:35:40.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/yehoony/kobert",
-    "date": "2026-05-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "SOTAagi2030/MyModel-Complete-TestRepo",
-    "author": "unknown",
-    "title": "SOTAagi2030/MyModel-Complete-TestRepo",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "pytorch",
-      "bert",
-      "feature-extraction",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "feature-extraction",
-    "library": "transformers",
-    "created_at": "2026-05-08T08:33:31.000Z",
-    "last_modified": "2026-05-08T08:35:18.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/SOTAagi2030/MyModel-Complete-TestRepo",
-    "date": "2026-05-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Han00l/kobert",
-    "author": "unknown",
-    "title": "Han00l/kobert",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "bert",
-      "text-classification",
-      "generated_from_trainer",
-      "base_model:monologg/kobert",
-      "base_model:finetune:monologg/kobert",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-05-08T08:34:33.000Z",
-    "last_modified": "2026-05-08T08:35:15.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Han00l/kobert",
-    "date": "2026-05-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "kimbogyeong/kobert",
-    "author": "unknown",
-    "title": "kimbogyeong/kobert",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "bert",
-      "text-classification",
-      "generated_from_trainer",
-      "base_model:monologg/kobert",
-      "base_model:finetune:monologg/kobert",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-05-08T08:34:40.000Z",
-    "last_modified": "2026-05-08T08:35:10.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/kimbogyeong/kobert",
-    "date": "2026-05-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Gahyoung/kobert",
-    "author": "unknown",
-    "title": "Gahyoung/kobert",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "bert",
-      "text-classification",
-      "generated_from_trainer",
-      "base_model:monologg/kobert",
-      "base_model:finetune:monologg/kobert",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-05-08T08:34:48.000Z",
-    "last_modified": "2026-05-08T08:35:10.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Gahyoung/kobert",
-    "date": "2026-05-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "1215skdus/kobert",
-    "author": "unknown",
-    "title": "1215skdus/kobert",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "bert",
-      "text-classification",
-      "generated_from_trainer",
-      "base_model:monologg/kobert",
-      "base_model:finetune:monologg/kobert",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-05-08T08:34:33.000Z",
-    "last_modified": "2026-05-08T08:35:09.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/1215skdus/kobert",
-    "date": "2026-05-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "jaeryang/kobert",
-    "author": "unknown",
-    "title": "jaeryang/kobert",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "bert",
-      "text-classification",
-      "generated_from_trainer",
-      "base_model:monologg/kobert",
-      "base_model:finetune:monologg/kobert",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-05-08T08:34:35.000Z",
-    "last_modified": "2026-05-08T08:34:55.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/jaeryang/kobert",
-    "date": "2026-05-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "VoiceScribe/parakeet-tdt-0.6b-v3-gguf",
-    "author": "unknown",
-    "title": "VoiceScribe/parakeet-tdt-0.6b-v3-gguf",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "ggml",
-      "gguf",
-      "audio",
-      "speech-recognition",
-      "transcription",
-      "parakeet",
-      "tdt",
-      "fastconformer",
-      "multilingual",
-      "automatic-speech-recognition",
-      "bg",
-      "cs",
-      "da",
-      "de",
-      "el",
-      "en",
-      "es",
-      "et",
-      "fi",
-      "fr",
-      "hr",
-      "hu",
-      "it",
-      "lt",
-      "lv",
-      "mt",
-      "nl",
-      "pl",
-      "pt",
-      "ro",
-      "ru",
-      "sk",
-      "sl",
-      "sv",
-      "uk",
-      "base_model:nvidia/parakeet-tdt-0.6b-v3",
-      "base_model:quantized:nvidia/parakeet-tdt-0.6b-v3",
-      "license:cc-by-4.0",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "ggml",
-    "created_at": "2026-05-08T08:30:34.000Z",
-    "last_modified": "2026-05-08T08:31:46.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/VoiceScribe/parakeet-tdt-0.6b-v3-gguf",
-    "date": "2026-05-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "golfoscar/mistral-7b-arc-4phase-phase2-merged",
-    "author": "unknown",
-    "title": "golfoscar/mistral-7b-arc-4phase-phase2-merged",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "mistral",
-      "text-generation",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-08T06:43:04.000Z",
-    "last_modified": "2026-05-08T08:30:59.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/golfoscar/mistral-7b-arc-4phase-phase2-merged",
-    "date": "2026-05-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
