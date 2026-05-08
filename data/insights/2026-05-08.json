@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-08T08:39:23.687286",
+  "date": "2026-05-08T12:38:49.657101",
   "patterns": {
     "multimodal_research": [
       {
@@ -677,38 +677,6 @@
       {
         "title": "MedHorizon: Towards Long-context Medical Video Understanding in the Wild",
         "url": "https://arxiv.org/abs/2605.06537v1"
-      },
-      {
-        "title": "nayohyun/kobert",
-        "url": "https://huggingface.co/nayohyun/kobert"
-      },
-      {
-        "title": "parkchangwoo/kobert",
-        "url": "https://huggingface.co/parkchangwoo/kobert"
-      },
-      {
-        "title": "yehoony/kobert",
-        "url": "https://huggingface.co/yehoony/kobert"
-      },
-      {
-        "title": "Han00l/kobert",
-        "url": "https://huggingface.co/Han00l/kobert"
-      },
-      {
-        "title": "kimbogyeong/kobert",
-        "url": "https://huggingface.co/kimbogyeong/kobert"
-      },
-      {
-        "title": "Gahyoung/kobert",
-        "url": "https://huggingface.co/Gahyoung/kobert"
-      },
-      {
-        "title": "1215skdus/kobert",
-        "url": "https://huggingface.co/1215skdus/kobert"
-      },
-      {
-        "title": "jaeryang/kobert",
-        "url": "https://huggingface.co/jaeryang/kobert"
       }
     ],
     "vision_systems": [
@@ -1523,10 +1491,6 @@
       {
         "title": "MedHorizon: Towards Long-context Medical Video Understanding in the Wild",
         "url": "https://arxiv.org/abs/2605.06537v1"
-      },
-      {
-        "title": "SOTAagi2030/MyModel-Complete-TestRepo",
-        "url": "https://huggingface.co/SOTAagi2030/MyModel-Complete-TestRepo"
       }
     ]
   },
@@ -1557,7 +1521,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "97 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1581,7 +1545,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "102 independent papers",
+      "observation": "101 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1616,6 +1580,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 379
+    "total_papers": 370
   }
 }
