@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-09T05:11:00.659372",
+  "date": "2026-05-09T08:40:01.843947",
   "patterns": {
     "multimodal_research": [
       {
@@ -319,6 +319,10 @@
       {
         "title": "MedHorizon: Towards Long-context Medical Video Understanding in the Wild",
         "url": "https://arxiv.org/abs/2605.06537v1"
+      },
+      {
+        "title": "AbteeXAILab/lumynax-moe-moonlight-16b-a3b-gguf",
+        "url": "https://huggingface.co/AbteeXAILab/lumynax-moe-moonlight-16b-a3b-gguf"
       }
     ],
     "language_models": [
@@ -1509,7 +1513,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "62 independent papers",
+      "observation": "63 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1580,6 +1584,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 370
+    "total_papers": 371
   }
 }
