@@ -1,19 +1,7 @@
 {
-  "date": "2026-05-10T16:24:17.620204",
+  "date": "2026-05-10T20:21:20.776085",
   "patterns": {
     "language_models": [
-      {
-        "title": "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch",
-        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch"
-      },
-      {
-        "title": "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-1Epoch",
-        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-1Epoch"
-      },
-      {
-        "title": "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch",
-        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch"
-      },
       {
         "title": "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-1Epoch",
         "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-1Epoch"
@@ -27,33 +15,31 @@
         "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch"
       },
       {
-        "title": "sdanda99/distilbert-base-uncased-finetuned-squad-d5716d28",
-        "url": "https://huggingface.co/sdanda99/distilbert-base-uncased-finetuned-squad-d5716d28"
-      }
-    ],
-    "vision_systems": [
-      {
-        "title": "adzca11/Realistic_Vision_V5.1",
-        "url": "https://huggingface.co/adzca11/Realistic_Vision_V5.1"
+        "title": "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch",
+        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch"
       },
       {
-        "title": "ambassadia/HiDream-O1-Image-Dev-mlx-q4-selective",
-        "url": "https://huggingface.co/ambassadia/HiDream-O1-Image-Dev-mlx-q4-selective"
+        "title": "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-1Epoch",
+        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-1Epoch"
+      },
+      {
+        "title": "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch",
+        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "7 independent papers",
+      "observation": "6 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     }
   ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 2,
+    "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 9
+    "total_papers": 6
   }
 }
