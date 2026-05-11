@@ -1,10 +1,22 @@
 {
-  "date": "2026-05-11T17:00:03.832430",
+  "date": "2026-05-11T20:40:56.764080",
   "patterns": {
     "language_models": [
       {
+        "title": "LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch",
+        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch"
+      },
+      {
+        "title": "LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-1Epoch",
+        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-1Epoch"
+      },
+      {
         "title": "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch",
         "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch"
+      },
+      {
+        "title": "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-1Epoch",
+        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-1Epoch"
       },
       {
         "title": "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch",
@@ -21,18 +33,6 @@
       {
         "title": "LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-1Epoch",
         "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-1Epoch"
-      },
-      {
-        "title": "LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch",
-        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch"
-      },
-      {
-        "title": "LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-1Epoch",
-        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-1Epoch"
-      },
-      {
-        "title": "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-1Epoch",
-        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-1Epoch"
       }
     ]
   },
