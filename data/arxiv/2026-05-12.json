@@ -52,7 +52,7 @@
       "H. Ibrahim Erdogan",
       "Punith Raviswamy",
       "Nikita Agrawal",
-      "Yannik K\u00f6ster",
+      "Yannik Köster",
       "Stefan Zechel",
       "Ulrich S. Schubert",
       "Ruben Mayer",
@@ -796,7 +796,7 @@
     "summary": "Muon has emerged as a strong competitor to AdamW for language model pre-training, yet its behavior at scale is sensitive to weight decay. Recent work has observed that, for Muon without decoupled weight decay, the spectral norm of weight matrices drifts upward over training. Through a decomposition of the spectral norm into a row-magnitude factor and a row-coherence factor, we identify the former as the empirical driver of this drift under Muon, while the latter remains well-behaved along the trajectory. Motivated by this diagnosis, we introduce Muown, a drop-in replacement for Muon that treats the row-magnitude vector as an explicit optimizer variable, updating it under the $\\ell_\\infty$ geometry induced by the decomposition, while applying Muon unchanged to the remaining direction component. We prove that Muown attains the optimal non-convex rates in both deterministic and stochastic regimes under a dual norm aligned with the underlying geometries and with a stochastic noise coefficient that empirically remains below that of Muon throughout training. Across GPT-style pre-training on FineWeb-Edu with model sizes from 124M up to 2.7B parameters, Muown improves perplexity over Muon, SOAP, AdamW, and Lion. It also widens the plateau of near-optimal learning rates across model scales, reduces sensitivity to weight decay, and avoids the spectral norm drift at negligible step-time overhead when appropriately sharded.",
     "authors": [
       "Kai Lion",
-      "Florian H\u00fcbler",
+      "Florian Hübler",
       "Bingcong Li",
       "Antonio Orvieto",
       "Niao He"
@@ -814,7 +814,7 @@
   {
     "arxiv_id": "2605.10795v1",
     "title": "Factual recall in linear associative memories: sharp asymptotics and mechanistic insights",
-    "summary": "Large language models demonstrate remarkable ability in factual recall, yet the fundamental limits of storing and retrieving input--output associations with neural networks remain unclear. We study these limits in a minimal setting: a linear associative memory that maps $p$ input embeddings in $\\mathbb{R}^d$ to their corresponding~$d$-dimensional targets via a single layer, requiring each mapped input to be well separated from all other targets. Unlike in supervised classification, this strict separation induces~$p$ constraints per association and produces strong correlations between constraints that make a direct characterisation of the storage capacity difficult. Here, we provide a precise characterisation of this capacity in the following way. We first introduce a decoupled model in which each input has its own independent set of competing outputs, and provide numerical and analytical evidence that this decoupled model is equivalent to the original model in terms of storage capacity, spectra of the learnt weights, and storage mechanism. Using tools from statistical physics, we show that the decoupled model can store up to $p_c \\log p_c / d^2 = 1 / 2$ associations, and generalise the computation of $p_c$ to linear two-layer architectures. Our analysis also gives mechanistic insight into how the optimal solution improves over a na\u00efve Hebbian learning rule: rather than boosting input-output alignments with broad fluctuations, the optimal solution raises the correct scores just above the extreme-value threshold set by the competing outputs. These findings give a sharp statistical-physics characterisation of factual storage in linear networks and provide a baseline for understanding the memory capacity of more realistic neural architectures.",
+    "summary": "Large language models demonstrate remarkable ability in factual recall, yet the fundamental limits of storing and retrieving input--output associations with neural networks remain unclear. We study these limits in a minimal setting: a linear associative memory that maps $p$ input embeddings in $\\mathbb{R}^d$ to their corresponding~$d$-dimensional targets via a single layer, requiring each mapped input to be well separated from all other targets. Unlike in supervised classification, this strict separation induces~$p$ constraints per association and produces strong correlations between constraints that make a direct characterisation of the storage capacity difficult. Here, we provide a precise characterisation of this capacity in the following way. We first introduce a decoupled model in which each input has its own independent set of competing outputs, and provide numerical and analytical evidence that this decoupled model is equivalent to the original model in terms of storage capacity, spectra of the learnt weights, and storage mechanism. Using tools from statistical physics, we show that the decoupled model can store up to $p_c \\log p_c / d^2 = 1 / 2$ associations, and generalise the computation of $p_c$ to linear two-layer architectures. Our analysis also gives mechanistic insight into how the optimal solution improves over a naïve Hebbian learning rule: rather than boosting input-output alignments with broad fluctuations, the optimal solution raises the correct scores just above the extreme-value threshold set by the competing outputs. These findings give a sharp statistical-physics characterisation of factual storage in linear networks and provide a baseline for understanding the memory capacity of more realistic neural architectures.",
     "authors": [
       "Alessio Giorlandino",
       "Sebastian Goldt",
@@ -854,8 +854,8 @@
   },
   {
     "arxiv_id": "2605.10934v1",
-    "title": "Variational Inference for L\u00e9vy Process-Driven SDEs via Neural Tilting",
-    "summary": "Modelling extreme events and heavy-tailed phenomena is central to building reliable predictive systems in domains such as finance, climate science, and safety-critical AI. While L\u00e9vy processes provide a natural mathematical framework for capturing jumps and heavy tails, Bayesian inference for L\u00e9vy-driven stochastic differential equations (SDEs) remains intractable with existing methods: Monte Carlo approaches are rigorous but lack scalability, whereas neural variational inference methods are efficient but rely on Gaussian assumptions that fail to capture discontinuities. We address this tension by introducing a neural exponential tilting framework for variational inference in L\u00e9vy-driven SDEs. Our approach constructs a flexible variational family by exponentially reweighting the L\u00e9vy measure using neural networks. This parametrization preserves the jump structure of the underlying process while remaining computationally tractable. To enable efficient inference, we develop a quadratic neural parametrization that yields closed-form normalization of the tilted measure, a conditional Gaussian representation for stable processes that facilitates simulation, and symmetry-aware Monte Carlo estimators for scalable optimization. Empirically, we demonstrate that the method accurately captures jump dynamics and yields reliable posterior inference in regimes where Gaussian-based variational approaches fail, on both synthetic and real-world datasets.",
+    "title": "Variational Inference for Lévy Process-Driven SDEs via Neural Tilting",
+    "summary": "Modelling extreme events and heavy-tailed phenomena is central to building reliable predictive systems in domains such as finance, climate science, and safety-critical AI. While Lévy processes provide a natural mathematical framework for capturing jumps and heavy tails, Bayesian inference for Lévy-driven stochastic differential equations (SDEs) remains intractable with existing methods: Monte Carlo approaches are rigorous but lack scalability, whereas neural variational inference methods are efficient but rely on Gaussian assumptions that fail to capture discontinuities. We address this tension by introducing a neural exponential tilting framework for variational inference in Lévy-driven SDEs. Our approach constructs a flexible variational family by exponentially reweighting the Lévy measure using neural networks. This parametrization preserves the jump structure of the underlying process while remaining computationally tractable. To enable efficient inference, we develop a quadratic neural parametrization that yields closed-form normalization of the tilted measure, a conditional Gaussian representation for stable processes that facilitates simulation, and symmetry-aware Monte Carlo estimators for scalable optimization. Empirically, we demonstrate that the method accurately captures jump dynamics and yields reliable posterior inference in regimes where Gaussian-based variational approaches fail, on both synthetic and real-world datasets.",
     "authors": [
       "Yaman Kindap",
       "Manfred Opper",
@@ -1301,12 +1301,12 @@
     "title": "DANCE: Detect and Classify Events in EEG",
     "summary": "Event identification in continuous neural recordings is a critical task in neuroscience. Decoding in EEG is dominated by classifying windows aligned to known event onsets. However, while available in controlled experiments, such onsets are absent in continuous real-world monitoring. Here, we introduce DANCE, a deep learning pipeline that frames neural decoding as a set-prediction problem and jointly detects and classifies events directly from raw, unaligned signals. Evaluated separately on ten datasets curated from the literature with a wide variety of event types (ranging from milliseconds to minutes in duration), our model outperforms existing methods on a broad range of cognitive, clinical and BCI tasks. This single architecture establishes a new state of the art in the competitive task of seizure monitoring and matches the accuracy of onset-informed models for BCI tasks. Overall, our method marks a step towards end-to-end asynchronous neural decoding models",
     "authors": [
-      "Jarod L\u00e9vy",
+      "Jarod Lévy",
       "Hubert Banville",
-      "J\u00e9r\u00e9my Rapin",
+      "Jérémy Rapin",
       "Jean-Remi King",
       "Thomas Moreau",
-      "St\u00e9phane d'Ascoli"
+      "Stéphane d'Ascoli"
     ],
     "categories": [
       "cs.LG",
@@ -1382,7 +1382,7 @@
   {
     "arxiv_id": "2605.10840v1",
     "title": "Clin-JEPA: A Multi-Phase Co-Training Framework for Joint-Embedding Predictive Pretraining on EHR Patient Trajectories",
-    "summary": "We present Clin-JEPA, a multi-phase co-training framework for joint-embedding predictive (JEPA) pretraining on EHR patient trajectories. JEPA architectures have enabled latent-space planning in robotics and high-quality representation learning in vision, but extending the paradigm to EHR data -- to obtain a single backbone that simultaneously forecasts patient trajectories and serves diverse downstream risk-prediction tasks without per-task fine-tuning -- remains an open challenge. Existing JEPA frameworks either discard the predictor after pretraining (I-JEPA, V-JEPA) or train it on a frozen pretrained encoder (V-JEPA 2-AC), leaving the encoder unaware of the rollout signal that the retained predictor must use at inference; co-training the encoder and predictor under a shared JEPA prediction objective would supply this grounding, but na\u00efve co-training is unstable, with representation collapse and online/target drift causing autoregressive rollout to diverge. Clin-JEPA's five-phase pretraining curriculum -- predictor warmup, joint refinement, EMA target alignment, hard sync, and predictor finalization -- addresses each failure mode by phase, stably co-training a Qwen3-8B-based encoder and a 92M-parameter latent trajectory predictor. On MIMIC-IV ICU data, three independent evaluations support the framework: (1) latent $\\ell_1$ rollout drift uniquely converges ($-$15.7%) over 48-hour horizons while baselines and ablations diverge (+3% to +4951%); (2) the encoder learns a clinically discriminative latent geometry (deteriorating-patient cohorts displace 4.83$\\times$ further than stable patients in latent space, vs $\\leq$2.62$\\times$ for baseline encoders); (3) a single backbone outperforms strong tabular and sequence baselines on multi-task downstream evaluation. Clin-JEPA achieves mean AUROC 0.851 on ICareFM EEP and 0.883 on 8 binary risk tasks (+0.038 and +0.041 vs baseline average).",
+    "summary": "We present Clin-JEPA, a multi-phase co-training framework for joint-embedding predictive (JEPA) pretraining on EHR patient trajectories. JEPA architectures have enabled latent-space planning in robotics and high-quality representation learning in vision, but extending the paradigm to EHR data -- to obtain a single backbone that simultaneously forecasts patient trajectories and serves diverse downstream risk-prediction tasks without per-task fine-tuning -- remains an open challenge. Existing JEPA frameworks either discard the predictor after pretraining (I-JEPA, V-JEPA) or train it on a frozen pretrained encoder (V-JEPA 2-AC), leaving the encoder unaware of the rollout signal that the retained predictor must use at inference; co-training the encoder and predictor under a shared JEPA prediction objective would supply this grounding, but naïve co-training is unstable, with representation collapse and online/target drift causing autoregressive rollout to diverge. Clin-JEPA's five-phase pretraining curriculum -- predictor warmup, joint refinement, EMA target alignment, hard sync, and predictor finalization -- addresses each failure mode by phase, stably co-training a Qwen3-8B-based encoder and a 92M-parameter latent trajectory predictor. On MIMIC-IV ICU data, three independent evaluations support the framework: (1) latent $\\ell_1$ rollout drift uniquely converges ($-$15.7%) over 48-hour horizons while baselines and ablations diverge (+3% to +4951%); (2) the encoder learns a clinically discriminative latent geometry (deteriorating-patient cohorts displace 4.83$\\times$ further than stable patients in latent space, vs $\\leq$2.62$\\times$ for baseline encoders); (3) a single backbone outperforms strong tabular and sequence baselines on multi-task downstream evaluation. Clin-JEPA achieves mean AUROC 0.851 on ICareFM EEP and 0.883 on 8 binary risk tasks (+0.038 and +0.041 vs baseline average).",
     "authors": [
       "Yixuan Yang",
       "Mehak Arora",
@@ -1507,9 +1507,9 @@
       "Mor Ventura",
       "Elad Hoffer",
       "Gioia Blayer",
-      "David Holzm\u00fcller",
+      "David Holzmüller",
       "Lennart Purucker",
-      "Ga\u00ebl Varoquaux",
+      "Gaël Varoquaux",
       "Frank Hutter",
       "Roi Reichart"
     ],
@@ -1819,7 +1819,7 @@
     "summary": "Model Predictive Control (MPC) is widely used to operate safety-critical infrastructure by predicting future trajectories and optimizing control actions. However, nonlinear dynamics, hard safety constraints, and numerical optimization often render individual control moves opaque to human operators, undermining trust and hindering deployment. This paper presents Hierarchical Causal Abduction (HCA), which combines (i) physics-informed reasoning via domain knowledge graphs, (ii) optimization evidence from Karush--Kuhn--Tucker (KKT) multipliers, and (iii) temporal causal discovery via the PCMCI algorithm to generate faithful, human-interpretable explanations for control actions computed by nonlinear MPC. Across three diverse control applications (greenhouse climate, building HVAC, chemical process engineering) with expert validation, HCA improves explanation accuracy by 53\\% over LIME (0.478 vs. 0.311) using a single set of cross-domain parameters without per-domain tuning; domain-specific KKT-threshold calibration over 2--3 days further increases accuracy to 0.88. Ablation studies confirm that each evidence source is essential, with 32--37\\% accuracy degradation when any component is removed, and HCA's ranking-and-validation methodology generalizes beyond MPC to other prediction-based decision systems, including learning-based control and trajectory planning.",
     "authors": [
       "Ramesh Arvind Naagarajan",
-      "Z\u00fchal Wagner",
+      "Zühal Wagner",
       "Stefan Streif"
     ],
     "categories": [
@@ -1857,7 +1857,7 @@
   {
     "arxiv_id": "2605.10909v1",
     "title": "Revisiting Policy Gradients for Restricted Policy Classes: Escaping Myopic Local Optima with $k$-step Policy Gradients",
-    "summary": "This work revisits standard policy gradient methods used on restricted policy classes, which are known to get stuck in suboptimal critical points. We identify an important cause for this phenomenon to be that the policy gradient is itself fundamentally myopic, i.e. it only improves the policy based on the one-step $Q$-function. In this work, we propose a generalized $k$-step policy gradient method that couples the randomness within a $k$-step time window and can escape the myopic local optima in MDPs with restricted policy classes. We show this new method is theoretically guaranteed to converge to a solution that is exponentially close in performance to the optimal deterministic policy with respect to $k$. Further, we show projected gradient descent and mirror descent with this $k$-step policy gradient can achieve this exponential guarantee in $O(\\frac{1}{T})$ iterations, despite only assuming smoothness and differentiability of the value function. This will provide near optimal solutions to previously elusive applications like state aggregation and partially observable cooperative multi-agent settings. Moreover, our bounds avoid the ubiquitous distribution mismatch factors $||d_\u03bc^{\u03c0^*} / d_\u03bc^\u03c0||_\\infty$ and $||d_\u03bc^{\u03c0^*} / \u03bc||_\\infty$ enabling the $k$-step policy gradient method to escape suboptimal critical points that emerge from poor exploration in fully observable settings.",
+    "summary": "This work revisits standard policy gradient methods used on restricted policy classes, which are known to get stuck in suboptimal critical points. We identify an important cause for this phenomenon to be that the policy gradient is itself fundamentally myopic, i.e. it only improves the policy based on the one-step $Q$-function. In this work, we propose a generalized $k$-step policy gradient method that couples the randomness within a $k$-step time window and can escape the myopic local optima in MDPs with restricted policy classes. We show this new method is theoretically guaranteed to converge to a solution that is exponentially close in performance to the optimal deterministic policy with respect to $k$. Further, we show projected gradient descent and mirror descent with this $k$-step policy gradient can achieve this exponential guarantee in $O(\\frac{1}{T})$ iterations, despite only assuming smoothness and differentiability of the value function. This will provide near optimal solutions to previously elusive applications like state aggregation and partially observable cooperative multi-agent settings. Moreover, our bounds avoid the ubiquitous distribution mismatch factors $||d_μ^{π^*} / d_μ^π||_\\infty$ and $||d_μ^{π^*} / μ||_\\infty$ enabling the $k$-step policy gradient method to escape suboptimal critical points that emerge from poor exploration in fully observable settings.",
     "authors": [
       "Alex DeWeese",
       "Guannan Qu"
@@ -1940,7 +1940,7 @@
     "authors": [
       "Romain Petit",
       "Clarice Poon",
-      "Gabriel Peyr\u00e9"
+      "Gabriel Peyré"
     ],
     "categories": [
       "math.OC",
@@ -1979,7 +1979,7 @@
   {
     "arxiv_id": "2605.10673v1",
     "title": "Compander-Aligned Query Geometry for Quantized Zeroth-Order Optimization",
-    "summary": "Low-bit forward evaluation is an attractive route to memory-efficient zeroth-order (ZO) adaptation: the optimizer needs only scalar losses, and the model can be queried near deployment precision. The obstacle is that a quantized ZO query is not a continuous finite difference followed by harmless storage rounding. The query chooses endpoints, the low-precision engine rounds them, and the loss difference is measured along the rounded chord. For nonuniform companding quantizers, this makes the codebook insufficient to predict ZO behavior: a fixed weight-space radius can collapse in dense cells, over-span sparse cells, or assign a rounded chord to an unrounded update direction. We identify the missing object as query geometry and model scalar nonuniform quantization as $Q = \u03c6^{-1} \\circ U \\circ \u03c6$. CAQ-ZO (Compander-Aligned Queries for Zeroth-Order Optimization) forms one-grid-step Rademacher stencils $z \\pm \u0394r$ in $z = \u03c6(x)$, maps endpoints back through $\u03c6^{-1}$, and updates in $z$. Our theory proves the grid-span mismatch, decomposes endpoint-rounding estimator residuals, and gives stationarity bounds in which generic off-grid queries retain a $\u0394^2/\u03bc^2$ residual channel while CAQ-ZO makes the query-time residual exactly zero. Synthetic experiments isolate this channel, and matched NF4 Qwen/Llama fine-tuning shows that CAQ-ZO improves the trained NF4 baseline under the same quantizer and evaluation budget.",
+    "summary": "Low-bit forward evaluation is an attractive route to memory-efficient zeroth-order (ZO) adaptation: the optimizer needs only scalar losses, and the model can be queried near deployment precision. The obstacle is that a quantized ZO query is not a continuous finite difference followed by harmless storage rounding. The query chooses endpoints, the low-precision engine rounds them, and the loss difference is measured along the rounded chord. For nonuniform companding quantizers, this makes the codebook insufficient to predict ZO behavior: a fixed weight-space radius can collapse in dense cells, over-span sparse cells, or assign a rounded chord to an unrounded update direction. We identify the missing object as query geometry and model scalar nonuniform quantization as $Q = φ^{-1} \\circ U \\circ φ$. CAQ-ZO (Compander-Aligned Queries for Zeroth-Order Optimization) forms one-grid-step Rademacher stencils $z \\pm Δr$ in $z = φ(x)$, maps endpoints back through $φ^{-1}$, and updates in $z$. Our theory proves the grid-span mismatch, decomposes endpoint-rounding estimator residuals, and gives stationarity bounds in which generic off-grid queries retain a $Δ^2/μ^2$ residual channel while CAQ-ZO makes the query-time residual exactly zero. Synthetic experiments isolate this channel, and matched NF4 Qwen/Llama fine-tuning shows that CAQ-ZO improves the trained NF4 baseline under the same quantizer and evaluation budget.",
     "authors": [
       "Yao Shu",
       "Zilin Zhu"
@@ -2020,9 +2020,9 @@
     "summary": "Shielding is a prominent model-based technique to ensure safety of autonomous agents. Classical shielding aims to ensure that nothing bad ever happens and comes with strong guarantees about safety and maximal permissiveness. However, shielding systems for probabilistic safety, where something bad is allowed to happen with an acceptable probability, has proven to be more intricate. This paper presents a formal framework that conservatively extends classical shields to probabilistic safety. In this framework, we (i) demonstrate the impossibility of preserving the strong guarantees on safety and permissiveness, (ii) provide natural shields with weaker guarantees, and (iii) introduce offline and online shield constructions ensuring strong safety guarantees. The empirical evaluation highlights the practical advantages of the new shields, as well as their computational feasibility.",
     "authors": [
       "Linus Heck",
-      "Filip Mac\u00e1k",
+      "Filip Macák",
       "Roman Andriushchenko",
-      "Milan \u010ce\u0161ka",
+      "Milan Češka",
       "Sebastian Junges"
     ],
     "categories": [
@@ -2070,7 +2070,7 @@
       "Yuri Chervonyi",
       "Bogdan Georgiev",
       "Simon Osindero",
-      "Nenad Toma\u0161ev"
+      "Nenad Tomašev"
     ],
     "categories": [
       "cs.AI",
@@ -2118,7 +2118,7 @@
   {
     "arxiv_id": "2605.10811v1",
     "title": "Switching-Geometry Analysis of Deflated Q-Value Iteration",
-    "summary": "This paper develops a joint spectral radius (JSR) framework for analyzing rank-one deflated Q-value iteration (Q-VI) in discounted Markov decision process control. Focusing on an all-ones residual correction, we interpret the resulting algorithm through the geometry of switching systems and, to the best of our knowledge, give the first JSR-based convergence analysis of deflated Q-VI for policy optimization problems. Our analysis reveals that the standard Q-VI switching system model has JSR exactly the discount factor $\u03b3\\in (0,1)$, since all admissible subsystems share the all-ones vector as an invariant direction. By passing to the quotient space that removes this direction, we obtain a projected switching system model whose JSR governs the relevant error dynamics and may be strictly smaller than $\u03b3$. Therefore, the deflated Q-VI admits a potentially sharper convergence-rate characterization than the ambient-space $\u03b3$-bound. Finally, we prove that the correction is equivalent to a scalar recentering of standard Q-VI. Hence, the projected trajectory, and therefore the greedy-policy sequence, is unchanged relative to standard Q-VI initialized from the same point. The benefit of deflation is not a change in the induced decision-making problem, but a more precise JSR-based description of the convergence geometry after the redundant all-ones component is removed.",
+    "summary": "This paper develops a joint spectral radius (JSR) framework for analyzing rank-one deflated Q-value iteration (Q-VI) in discounted Markov decision process control. Focusing on an all-ones residual correction, we interpret the resulting algorithm through the geometry of switching systems and, to the best of our knowledge, give the first JSR-based convergence analysis of deflated Q-VI for policy optimization problems. Our analysis reveals that the standard Q-VI switching system model has JSR exactly the discount factor $γ\\in (0,1)$, since all admissible subsystems share the all-ones vector as an invariant direction. By passing to the quotient space that removes this direction, we obtain a projected switching system model whose JSR governs the relevant error dynamics and may be strictly smaller than $γ$. Therefore, the deflated Q-VI admits a potentially sharper convergence-rate characterization than the ambient-space $γ$-bound. Finally, we prove that the correction is equivalent to a scalar recentering of standard Q-VI. Hence, the projected trajectory, and therefore the greedy-policy sequence, is unchanged relative to standard Q-VI initialized from the same point. The benefit of deflation is not a change in the induced decision-making problem, but a more precise JSR-based description of the convergence geometry after the redundant all-ones component is removed.",
     "authors": [
       "Donghwan Lee"
     ],
@@ -2272,8 +2272,8 @@
       "Yi Zhang",
       "Yidong Zhao",
       "Tijmen Toxopeus",
-      "Ma\u0161a Bo\u017ei\u0107-Iven",
-      "Sebastian Weing\u00e4rtner",
+      "Maša Božić-Iven",
+      "Sebastian Weingärtner",
       "Qian Tao"
     ],
     "categories": [
@@ -2293,7 +2293,7 @@
     "summary": "Probabilistic linear solvers (PLSs) return probability distributions that quantify uncertainty due to limited computation in the solution of linear systems. The literature has traditionally distinguished between Bayesian PLSs, which condition a prior on information obtained from projections of the linear system, and probabilistic iterative methods (PIMs), which lift classical iterative solvers to probability space. In this work we show this dichotomy to be false: Bayesian PLSs are a special case of non-stationary affine PIMs. In addition, we prove that any realistic affine PIM is calibrated. These results motivate a focus on (non-stationary) affine PIMs, but their practical adoption has been limited by the significant manual effort required to implement them. To address this, we introduce affine tracing, an algorithmic framework that automatically constructs a PIM from a standard implementation of an affine iterative method by passing symbolic tracers through the computation to build an affine computational graph. We show how this graph can be transformed to compute posterior covariances, and how equality saturation can be used to perform algebraic simplifications required for computation under specific prior choices. We demonstrate the framework by automatically generating a probabilistic multigrid solver and evaluate its performance in the context of Gaussian process approximation.",
     "authors": [
       "Disha Hegde",
-      "Marvin Pf\u00f6rtner",
+      "Marvin Pförtner",
       "Jon Cockayne"
     ],
     "categories": [
@@ -2442,7 +2442,7 @@
     "authors": [
       "Andreas Bergmeister",
       "Stefanie Jegelka",
-      "Nikolas N\u00fcsken",
+      "Nikolas Nüsken",
       "Carles Domingo-Enrich",
       "Jakiw Pidstrigach"
     ],
@@ -2609,8 +2609,8 @@
   },
   {
     "arxiv_id": "2605.10917v1",
-    "title": "Optimal and Scalable MAPF via Multi-Marginal Optimal Transport and Schr\u00f6dinger Bridges",
-    "summary": "We consider anonymous multi-agent path finding (MAPF) where a set of robots is tasked to travel to a set of targets on a finite, connected graph. We show that MAPF can be cast as a special class of multi-marginal optimal transport (MMOT) problems with an underlying Markovian structure, under which the exponentially large MMOT collapses to a linear program (LP) polynomial in size. Focusing on the anonymous setting, we establish conditions under which the corresponding LP is feasible, totally unimodular, and consequently, yields min-cost, integral $(\\{0,1\\})$ transports that do not overlap in both space and time. To adapt the approach to large-scale problems, we cast the MAPF-MMOT in a probabilistic framework via Schr\u00f6dinger bridges. Under standard assumptions, we show that the Schr\u00f6dinger bridge formulation reduces to an entropic regularization of the corresponding MMOT that admits an iterative Sinkhorn-type solution. The Schr\u00f6dinger bridge, being a probabilistic framework, provides a shadow (fractional) transport that we use as a template to solve a reduced LP and demonstrate that it results in near-optimal, integral transports at a significant reduction in complexity. Extensive experiments highlight the optimality and scalability of the proposed approaches.",
+    "title": "Optimal and Scalable MAPF via Multi-Marginal Optimal Transport and Schrödinger Bridges",
+    "summary": "We consider anonymous multi-agent path finding (MAPF) where a set of robots is tasked to travel to a set of targets on a finite, connected graph. We show that MAPF can be cast as a special class of multi-marginal optimal transport (MMOT) problems with an underlying Markovian structure, under which the exponentially large MMOT collapses to a linear program (LP) polynomial in size. Focusing on the anonymous setting, we establish conditions under which the corresponding LP is feasible, totally unimodular, and consequently, yields min-cost, integral $(\\{0,1\\})$ transports that do not overlap in both space and time. To adapt the approach to large-scale problems, we cast the MAPF-MMOT in a probabilistic framework via Schrödinger bridges. Under standard assumptions, we show that the Schrödinger bridge formulation reduces to an entropic regularization of the corresponding MMOT that admits an iterative Sinkhorn-type solution. The Schrödinger bridge, being a probabilistic framework, provides a shadow (fractional) transport that we use as a template to solve a reduced LP and demonstrate that it results in near-optimal, integral transports at a significant reduction in complexity. Extensive experiments highlight the optimality and scalability of the proposed approaches.",
     "authors": [
       "Usman A. Khan",
       "Joseph W. Durham"
@@ -2630,15 +2630,15 @@
   {
     "arxiv_id": "2605.10896v1",
     "title": "V4FinBench: Benchmarking Tabular Foundation Models, LLMs, and Standard Methods on Corporate Bankruptcy Prediction",
-    "summary": "Corporate bankruptcy prediction is a high-stakes financial task characterized by severe class imbalance and multi-horizon forecasting demands. Public datasets supporting it remain scarce and small: widely used free benchmarks contain between 6,000 and 80,000 company-year observations, while larger resources are behind subscription paywalls. To address this gap, we introduce V4FinBench, a benchmark of over one million company-year records from the Visegr\u00e0d Group (V4) economies (2006-2021), with 131 financial and non-financial features, six prediction horizons, and a composite distress criterion jointly capturing solvency, profitability, and liquidity deterioration. V4FinBench is designed to support the evaluation of tabular and foundation-model methods under realistic class imbalance, with positive rates between 0.19% and 0.36%. We provide reference evaluations of standard tabular baselines, finetuned TabPFN, and QLoRA-finetuned Llama-3-8B. With imbalance-aware finetuning, TabPFN matches or exceeds gradient boosting at longer time horizons on both $F_1$-score and ROC-AUC. In contrast, Llama-3-8B trails gradient boosting on ROC-AUC at every horizon and is generally weaker on $F_1$-score, with the gap widening sharply beyond the immediate horizon. In an external evaluation on the American Bankruptcy Dataset, the V4FinBench-finetuned TabPFN checkpoint improves over vanilla TabPFN, suggesting that adaptation captures transferable financial-distress structure rather than only V4-specific patterns. V4FinBench is publicly released to support further evaluation and development of prediction methods on realistic financial data.",
+    "summary": "Corporate bankruptcy prediction is a high-stakes financial task characterized by severe class imbalance and multi-horizon forecasting demands. Public datasets supporting it remain scarce and small: widely used free benchmarks contain between 6,000 and 80,000 company-year observations, while larger resources are behind subscription paywalls. To address this gap, we introduce V4FinBench, a benchmark of over one million company-year records from the Visegràd Group (V4) economies (2006-2021), with 131 financial and non-financial features, six prediction horizons, and a composite distress criterion jointly capturing solvency, profitability, and liquidity deterioration. V4FinBench is designed to support the evaluation of tabular and foundation-model methods under realistic class imbalance, with positive rates between 0.19% and 0.36%. We provide reference evaluations of standard tabular baselines, finetuned TabPFN, and QLoRA-finetuned Llama-3-8B. With imbalance-aware finetuning, TabPFN matches or exceeds gradient boosting at longer time horizons on both $F_1$-score and ROC-AUC. In contrast, Llama-3-8B trails gradient boosting on ROC-AUC at every horizon and is generally weaker on $F_1$-score, with the gap widening sharply beyond the immediate horizon. In an external evaluation on the American Bankruptcy Dataset, the V4FinBench-finetuned TabPFN checkpoint improves over vanilla TabPFN, suggesting that adaptation captures transferable financial-distress structure rather than only V4-specific patterns. V4FinBench is publicly released to support further evaluation and development of prediction methods on realistic financial data.",
     "authors": [
       "Marcin Kostrzewa",
       "Sebastian Tomczak",
       "Roman Furman",
       "Anna Poberezhna",
-      "Micha\u0142 Furga\u0142a",
+      "Michał Furgała",
       "Oleksii Furman",
-      "Maciej Zi\u0119ba"
+      "Maciej Zięba"
     ],
     "categories": [
       "cs.LG"
@@ -2814,10 +2814,10 @@
     "title": "diffGHOST: Diffusion based Generative Hedged Oblivious Synthetic Trajectories",
     "summary": "Trajectories are nowadays valuable information for a wide range of applications. However they are also inherently sensitive, as they contain highly personal information about individuals. Facing this challenge, synthesizing mobility trajectories has emerged as a promising solution to leverage mobility information while preserving privacy. State-of-the-art models, often rely on the false assumptions of generative models implicit privacy and fails to provide privacy guarantees while preserving trajectories utility. Here, we introduce diffGHOST, a conditional diffusion model based on latent space segmentation, designed to answer this challenge. Thus, this paper propose a methodology that identify and mitigate memorization of critical samples using condition segments of a learn latent space.",
     "authors": [
-      "Florent Gu\u00e9pin",
+      "Florent Guépin",
       "Cheick Tidiani Cisse",
       "Denis Renaud",
-      "Fran\u00e7ois Bidet",
+      "François Bidet",
       "Arnaud Legendre"
     ],
     "categories": [
@@ -3128,7 +3128,7 @@
       "Meena Subramaniam",
       "Ehsan Hajiramezanali",
       "David Richmond",
-      "Jan-Christian H\u00fctter",
+      "Jan-Christian Hütter",
       "Sara Mostafavi",
       "Gabriele Scalia"
     ],
@@ -3262,7 +3262,7 @@
       "Fred Philippy",
       "Siwen Guo",
       "Jacques Klein",
-      "Tegawend\u00e9 F. Bissyand\u00e9"
+      "Tegawendé F. Bissyandé"
     ],
     "categories": [
       "cs.CL",
@@ -3319,7 +3319,7 @@
   {
     "arxiv_id": "2605.10931v1",
     "title": "Quantifying Concentration Phenomena of Mean-Field Transformers in the Low-Temperature Regime",
-    "summary": "Transformers with self-attention modules as their core components have become an integral architecture in modern large language and foundation models. In this paper, we study the evolution of tokens in deep encoder-only transformers at inference time which is described in the large-token limit by a mean-field continuity equation. Leveraging ideas from the convergence analysis of interacting multi-particle systems, with particles corresponding to tokens, we prove that the token distribution rapidly concentrates onto the push-forward of the initial distribution under a projection map induced by the key, query, and value matrices, and remains metastable for moderate times. Specifically, we show that the Wasserstein distance of the two distributions scales like $\\sqrt{{\\log(\u03b2+1)}/\u03b2}\\exp(Ct)+\\exp(-ct)$ in terms of the temperature parameter $\u03b2^{-1}\\to 0$ and inference time $t\\geq 0$. For the proof, we establish Lyapunov-type estimates for the zero-temperature equation, identify its limit as $t\\to\\infty$, and employ a stability estimate in Wasserstein space together with a quantitative Laplace principle to couple the two equations. Our result implies that for time scales of order $\\log\u03b2$ the token distribution concentrates at the identified limiting distribution. Numerical experiments confirm this and, beyond that, complement our theory by showing that for finite $\u03b2$ and large $t$ the dynamics enter a different terminal phase, dominated by the spectrum of the value matrix.",
+    "summary": "Transformers with self-attention modules as their core components have become an integral architecture in modern large language and foundation models. In this paper, we study the evolution of tokens in deep encoder-only transformers at inference time which is described in the large-token limit by a mean-field continuity equation. Leveraging ideas from the convergence analysis of interacting multi-particle systems, with particles corresponding to tokens, we prove that the token distribution rapidly concentrates onto the push-forward of the initial distribution under a projection map induced by the key, query, and value matrices, and remains metastable for moderate times. Specifically, we show that the Wasserstein distance of the two distributions scales like $\\sqrt{{\\log(β+1)}/β}\\exp(Ct)+\\exp(-ct)$ in terms of the temperature parameter $β^{-1}\\to 0$ and inference time $t\\geq 0$. For the proof, we establish Lyapunov-type estimates for the zero-temperature equation, identify its limit as $t\\to\\infty$, and employ a stability estimate in Wasserstein space together with a quantitative Laplace principle to couple the two equations. Our result implies that for time scales of order $\\logβ$ the token distribution concentrates at the identified limiting distribution. Numerical experiments confirm this and, beyond that, complement our theory by showing that for finite $β$ and large $t$ the dynamics enter a different terminal phase, dominated by the spectrum of the value matrix.",
     "authors": [
       "Albert Alcalde",
       "Leon Bungert",
@@ -3426,7 +3426,7 @@
       "Amy Seybert",
       "Shyam Visweswaran",
       "Melissa Saul",
-      "Milo\u0161 Hauskrecht"
+      "Miloš Hauskrecht"
     ],
     "categories": [
       "cs.LG"
@@ -3548,7 +3548,7 @@
   {
     "arxiv_id": "2605.10671v1",
     "title": "Natural Policy Gradient as Doubly Smoothed Policy Iteration: A Bellman-Operator Framework",
-    "summary": "In this work, we show that natural policy gradient, a core algorithm in reinforcement learning, admits an exact formulation as a smoothed and averaged form of policy iteration. Specifically, we introduce doubly smoothed policy iteration (DSPI), a Bellman-operator framework in which each policy is obtained by applying a regularized greedy step to a weighted average of past $Q$-functions. DSPI includes policy iteration, dual-averaged policy iteration, natural policy gradient, and more general policy dual averaging methods as special cases. Using only monotonicity and contraction of smoothed Bellman operators, we prove distribution-free global geometric convergence of DSPI. Consequently, standard natural policy gradient and policy dual averaging achieve an iteration complexity of $\\mathcal{O}((1-\u03b3)^{-1}\\log((1-\u03b3)^{-1}\u03b5^{-1}))$ for computing an $\u03b5$-optimal policy, without modifying the MDP, adding regularization beyond the mirror map inherent in the update, or using adaptive, trajectory-dependent stepsizes. For the unregularized greedy case, corresponding to dual-averaged policy iteration, we also prove finite termination. The same Bellman-operator framework further extends to discounted MDPs with linear function approximation and stochastic shortest path problems.",
+    "summary": "In this work, we show that natural policy gradient, a core algorithm in reinforcement learning, admits an exact formulation as a smoothed and averaged form of policy iteration. Specifically, we introduce doubly smoothed policy iteration (DSPI), a Bellman-operator framework in which each policy is obtained by applying a regularized greedy step to a weighted average of past $Q$-functions. DSPI includes policy iteration, dual-averaged policy iteration, natural policy gradient, and more general policy dual averaging methods as special cases. Using only monotonicity and contraction of smoothed Bellman operators, we prove distribution-free global geometric convergence of DSPI. Consequently, standard natural policy gradient and policy dual averaging achieve an iteration complexity of $\\mathcal{O}((1-γ)^{-1}\\log((1-γ)^{-1}ε^{-1}))$ for computing an $ε$-optimal policy, without modifying the MDP, adding regularization beyond the mirror map inherent in the update, or using adaptive, trajectory-dependent stepsizes. For the unregularized greedy case, corresponding to dual-averaged policy iteration, we also prove finite termination. The same Bellman-operator framework further extends to discounted MDPs with linear function approximation and stochastic shortest path problems.",
     "authors": [
       "Phalguni Nanda",
       "Zaiwei Chen"
@@ -3591,7 +3591,7 @@
   {
     "arxiv_id": "2605.10642v1",
     "title": "Composing diffusion priors with explicit physical context via generative Gibbs sampling",
-    "summary": "Pretrained diffusion models provide powerful learned priors, but in scientific sampling the target distribution often depends on physical context that is not fully represented by one generative model. We introduce Generative Gibbs for Physics-Aware Sampling (GG-PA), a training-free framework that formulates the composition of learned partial priors and explicit physical context as inference over a joint target distribution in an augmented state space. We derive a Gibbs sampler for this joint target, show that it is asymptotically exact as the diffusion time approaches zero, and prove that in settings with quadratic interactions it remains exact at finite diffusion times. We further introduce replica exchange over diffusion time to accelerate mixing. Experiments on a double-well system, a $\u03c6^4$ lattice model, and atomistic peptide systems show that GG-PA recovers context-induced distribution shifts and emergent collective behavior in interacting systems using partial priors without retraining. These results demonstrate GG-PA as a practical approach for combining pretrained generative priors with explicit physical context.",
+    "summary": "Pretrained diffusion models provide powerful learned priors, but in scientific sampling the target distribution often depends on physical context that is not fully represented by one generative model. We introduce Generative Gibbs for Physics-Aware Sampling (GG-PA), a training-free framework that formulates the composition of learned partial priors and explicit physical context as inference over a joint target distribution in an augmented state space. We derive a Gibbs sampler for this joint target, show that it is asymptotically exact as the diffusion time approaches zero, and prove that in settings with quadratic interactions it remains exact at finite diffusion times. We further introduce replica exchange over diffusion time to accelerate mixing. Experiments on a double-well system, a $φ^4$ lattice model, and atomistic peptide systems show that GG-PA recovers context-induced distribution shifts and emergent collective behavior in interacting systems using partial priors without retraining. These results demonstrate GG-PA as a practical approach for combining pretrained generative priors with explicit physical context.",
     "authors": [
       "Weizhou Wang",
       "Jonathan Weare",
@@ -3635,7 +3635,7 @@
     "authors": [
       "Felix Herron",
       "Ange Richard",
-      "Fran\u00e7ois Portet",
+      "François Portet",
       "Alexandre Allauzen",
       "Solange Rossato"
     ],
@@ -3682,7 +3682,7 @@
       "Thomas Lobmaier",
       "Fabio Papagno",
       "Torben Ferber",
-      "J\u00fcrgen Becker"
+      "Jürgen Becker"
     ],
     "categories": [
       "cs.AR",
@@ -3834,8 +3834,8 @@
     "summary": "The rapid adoption of LLMs in both research and industry highlights the challenges of deploying them safely and reveals a gap in the systematic evaluation of toxicity benchmarks. As organizations increasingly rely on these benchmarks to certify models for customer-facing applications and automated moderation, unrecognized evaluation biases could lead to the deployment of vulnerable or unsafe systems. This work investigates the robustness of established benchmarking setups and examines how to measure currently neglected intrinsic biases, such as those related to model choice, metrics, and task types. Our experiments uncover significant discrepancies in benchmark behaviors when evaluation setups are altered. Specifically, shifting the task from text completion to summarization increases the tendency of benchmarks to flag content as harmful. Additionally, certain benchmarks fail to maintain consistent behavior when the input data domain is changed. Furthermore, we observe model-specific instabilities, demonstrating a clear need for more robust and comprehensive safety evaluation frameworks.",
     "authors": [
       "Regina Gugg",
-      "Selina Niederl\u00e4nder",
-      "Andreas St\u00f6ckl",
+      "Selina Niederländer",
+      "Andreas Stöckl",
       "Martin Flechl"
     ],
     "categories": [
@@ -4092,7 +4092,7 @@
       "Moritz Stammel",
       "Fabio De Sousa Ribeiro",
       "Raghav Mehta",
-      "M\u00e9lanie Roschewitz",
+      "Mélanie Roschewitz",
       "Ben Glocker"
     ],
     "categories": [
@@ -4148,7 +4148,7 @@
   {
     "arxiv_id": "2605.10823v1",
     "title": "NoRIN: Backbone-Adaptive Reversible Normalization for Time-Series Forecasting",
-    "summary": "Reversible instance normalization (RevIN) and its successors (Dish-TS, SAN, FAN) have become the de facto plug-in for time-series forecasting, yet the map they apply to each data point is strictly affine, $x \\mapsto ax+b$, so they cannot reshape the underlying distribution -- heavy tails remain heavy and skewness remains uncorrected. We propose NoRIN, a non-linear reversible normalization based on the arcsinh-form Johnson $S_U$ transform with two shape parameters $(\u03b4,\\varepsilon)$ that control tailedness and skewness; the linear $Z$-score used by RevIN is recovered only in the limit $\u03b4\\to \\infty$. Training $(\u03b4,\\varepsilon)$ jointly with the backbone via gradient descent reliably pushes them toward this linear limit within a few epochs -- a phenomenon we name the degeneration problem: the forecasting loss is locally indifferent to shape, and the high-capacity backbone compensates for any monotone reparameterization of its input. NoRIN escapes the degeneration by decoupling shape selection from gradient training: $(\u03b4,\\varepsilon)$ are initialized by a closed-form Slifker-Shapiro quantile fit and refined by Bayesian optimization on the validation objective, while the inner training loop is identical to standard RevIN-style training. Across six representative backbones x five real-world datasets x three prediction horizons (90 configurations), decoupled shape optimization recovers $(\u03b4^\\star,\\varepsilon^\\star)$ that sit systematically far from the linear limit, with values that vary in a backbone-dependent way. This empirically supports the central thesis: different backbones genuinely require different normalization parameters to reach their best performance.",
+    "summary": "Reversible instance normalization (RevIN) and its successors (Dish-TS, SAN, FAN) have become the de facto plug-in for time-series forecasting, yet the map they apply to each data point is strictly affine, $x \\mapsto ax+b$, so they cannot reshape the underlying distribution -- heavy tails remain heavy and skewness remains uncorrected. We propose NoRIN, a non-linear reversible normalization based on the arcsinh-form Johnson $S_U$ transform with two shape parameters $(δ,\\varepsilon)$ that control tailedness and skewness; the linear $Z$-score used by RevIN is recovered only in the limit $δ\\to \\infty$. Training $(δ,\\varepsilon)$ jointly with the backbone via gradient descent reliably pushes them toward this linear limit within a few epochs -- a phenomenon we name the degeneration problem: the forecasting loss is locally indifferent to shape, and the high-capacity backbone compensates for any monotone reparameterization of its input. NoRIN escapes the degeneration by decoupling shape selection from gradient training: $(δ,\\varepsilon)$ are initialized by a closed-form Slifker-Shapiro quantile fit and refined by Bayesian optimization on the validation objective, while the inner training loop is identical to standard RevIN-style training. Across six representative backbones x five real-world datasets x three prediction horizons (90 configurations), decoupled shape optimization recovers $(δ^\\star,\\varepsilon^\\star)$ that sit systematically far from the linear limit, with values that vary in a backbone-dependent way. This empirically supports the central thesis: different backbones genuinely require different normalization parameters to reach their best performance.",
     "authors": [
       "Shun Zhang",
       "Yuyang Xiao"
@@ -4229,7 +4229,7 @@
       "Henrique Branquinho",
       "Valerio Mazzone",
       "Bruno Mendes",
-      "Andr\u00e9 Baptista",
+      "André Baptista",
       "Nuno Moniz"
     ],
     "categories": [
@@ -4299,39 +4299,6 @@
     "pdf_url": "https://arxiv.org/pdf/2605.10585v1.pdf",
     "date": "2026-05-12",
     "source": "arxiv",
-    "research_score": 0.5
-  },
-  {
-    "dataset_id": "open-index/hacker-news",
-    "author": "open-index",
-    "title": "open-index/hacker-news",
-    "downloads": 25856,
-    "likes": 317,
-    "tags": [
-      "task_categories:text-generation",
-      "task_categories:feature-extraction",
-      "task_categories:text-classification",
-      "task_categories:question-answering",
-      "language:en",
-      "license:odc-by",
-      "size_categories:10M<n<100M",
-      "modality:text",
-      "region:us",
-      "hacker-news",
-      "forum",
-      "text",
-      "parquet",
-      "community",
-      "tech",
-      "comments",
-      "live-updated"
-    ],
-    "created_at": "2026-03-14T09:58:41.000Z",
-    "last_modified": "2026-05-12T12:50:30.000Z",
-    "url": "https://huggingface.co/datasets/open-index/hacker-news",
-    "date": "2026-05-12",
-    "source": "huggingface_dataset",
-    "type": "dataset",
     "research_score": 0.5
   },
   {
@@ -4512,7 +4479,7 @@
     "authors": [
       "Viktor Bergkvist",
       "Felix Rydell",
-      "Per-Erik Forss\u00e9n",
+      "Per-Erik Forssén",
       "David Gustafsson",
       "Johan Rideg"
     ],
@@ -4549,651 +4516,5 @@
     "date": "2026-05-12",
     "source": "arxiv",
     "research_score": 0.43
-  },
-  {
-    "model_id": "j14i/cl-macro-27b-grpo",
-    "author": "unknown",
-    "title": "j14i/cl-macro-27b-grpo",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:Qwen/Qwen3.6-27B",
-      "grpo",
-      "lora",
-      "transformers",
-      "trl",
-      "unsloth",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "base_model:Qwen/Qwen3.6-27B",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-05-11T22:00:06.000Z",
-    "last_modified": "2026-05-12T12:50:41.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/j14i/cl-macro-27b-grpo",
-    "date": "2026-05-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch",
-    "author": "unknown",
-    "title": "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch",
-    "downloads": 1075,
-    "likes": 1,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma4_text",
-      "text-generation",
-      "terminal",
-      "sft",
-      "vllm",
-      "tb2-lite",
-      "conversational",
-      "en",
-      "ko",
-      "base_model:google/gemma-4-E4B",
-      "base_model:finetune:google/gemma-4-E4B",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-09T19:31:30.000Z",
-    "last_modified": "2026-05-12T12:50:23.000Z",
-    "days_since_creation": 2,
-    "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch",
-    "date": "2026-05-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-1Epoch",
-    "author": "unknown",
-    "title": "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-1Epoch",
-    "downloads": 1069,
-    "likes": 1,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma4_text",
-      "text-generation",
-      "terminal",
-      "sft",
-      "vllm",
-      "tb2-lite",
-      "conversational",
-      "en",
-      "ko",
-      "base_model:google/gemma-4-E4B",
-      "base_model:finetune:google/gemma-4-E4B",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-09T00:33:33.000Z",
-    "last_modified": "2026-05-12T12:50:21.000Z",
-    "days_since_creation": 3,
-    "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-1Epoch",
-    "date": "2026-05-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch",
-    "author": "unknown",
-    "title": "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch",
-    "downloads": 1108,
-    "likes": 1,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma4_text",
-      "text-generation",
-      "terminal",
-      "sft",
-      "vllm",
-      "tb2-lite",
-      "conversational",
-      "en",
-      "ko",
-      "base_model:google/gemma-4-E4B-it",
-      "base_model:finetune:google/gemma-4-E4B-it",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-09T19:22:29.000Z",
-    "last_modified": "2026-05-12T12:50:18.000Z",
-    "days_since_creation": 2,
-    "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch",
-    "date": "2026-05-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-1Epoch",
-    "author": "unknown",
-    "title": "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-1Epoch",
-    "downloads": 1101,
-    "likes": 2,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma4_text",
-      "text-generation",
-      "terminal",
-      "sft",
-      "vllm",
-      "tb2-lite",
-      "conversational",
-      "en",
-      "ko",
-      "base_model:google/gemma-4-E4B-it",
-      "base_model:finetune:google/gemma-4-E4B-it",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-09T00:27:02.000Z",
-    "last_modified": "2026-05-12T12:50:16.000Z",
-    "days_since_creation": 3,
-    "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-1Epoch",
-    "date": "2026-05-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-2Epoch",
-    "author": "unknown",
-    "title": "LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-2Epoch",
-    "downloads": 1064,
-    "likes": 1,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma4_text",
-      "text-generation",
-      "terminal",
-      "sft",
-      "vllm",
-      "tb2-lite",
-      "conversational",
-      "en",
-      "ko",
-      "base_model:google/gemma-4-E2B",
-      "base_model:finetune:google/gemma-4-E2B",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-09T00:54:19.000Z",
-    "last_modified": "2026-05-12T12:50:14.000Z",
-    "days_since_creation": 3,
-    "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-2Epoch",
-    "date": "2026-05-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-1Epoch",
-    "author": "unknown",
-    "title": "LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-1Epoch",
-    "downloads": 1102,
-    "likes": 1,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma4_text",
-      "text-generation",
-      "terminal",
-      "sft",
-      "vllm",
-      "tb2-lite",
-      "conversational",
-      "en",
-      "ko",
-      "base_model:google/gemma-4-E2B",
-      "base_model:finetune:google/gemma-4-E2B",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-08T15:38:46.000Z",
-    "last_modified": "2026-05-12T12:50:12.000Z",
-    "days_since_creation": 3,
-    "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-1Epoch",
-    "date": "2026-05-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch",
-    "author": "unknown",
-    "title": "LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch",
-    "downloads": 1095,
-    "likes": 2,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma4_text",
-      "text-generation",
-      "terminal",
-      "sft",
-      "vllm",
-      "tb2-lite",
-      "conversational",
-      "en",
-      "ko",
-      "base_model:google/gemma-4-E2B-it",
-      "base_model:finetune:google/gemma-4-E2B-it",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-08T22:42:45.000Z",
-    "last_modified": "2026-05-12T12:50:10.000Z",
-    "days_since_creation": 3,
-    "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch",
-    "date": "2026-05-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-1Epoch",
-    "author": "unknown",
-    "title": "LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-1Epoch",
-    "downloads": 1103,
-    "likes": 1,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma4_text",
-      "text-generation",
-      "terminal",
-      "sft",
-      "vllm",
-      "tb2-lite",
-      "conversational",
-      "en",
-      "ko",
-      "base_model:google/gemma-4-E2B-it",
-      "base_model:finetune:google/gemma-4-E2B-it",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-08T15:34:59.000Z",
-    "last_modified": "2026-05-12T12:50:07.000Z",
-    "days_since_creation": 3,
-    "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-1Epoch",
-    "date": "2026-05-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "SensitiveContent/DeepSeek-V4-Pro",
-    "author": "unknown",
-    "title": "SensitiveContent/DeepSeek-V4-Pro",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "deepseek_v4",
-      "text-generation",
-      "license:mit",
-      "endpoints_compatible",
-      "8-bit",
-      "fp8",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-12T12:49:09.000Z",
-    "last_modified": "2026-05-12T12:49:09.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/SensitiveContent/DeepSeek-V4-Pro",
-    "date": "2026-05-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "nu11secur1ty/DeepSeek-V4-Pro-Base",
-    "author": "unknown",
-    "title": "nu11secur1ty/DeepSeek-V4-Pro-Base",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "deepseek_v4",
-      "nu11secur1ty",
-      "security-research",
-      "offensive-ai",
-      "logic-refinement",
-      "deepseek-v4-pro",
-      "text-generation",
-      "en",
-      "bg",
-      "license:other",
-      "fp8",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-05-12T12:24:36.000Z",
-    "last_modified": "2026-05-12T12:47:49.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/nu11secur1ty/DeepSeek-V4-Pro-Base",
-    "date": "2026-05-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "nu11secur1ty/DeepSeek-V4-Pro",
-    "author": "unknown",
-    "title": "nu11secur1ty/DeepSeek-V4-Pro",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "deepseek_v4",
-      "nu11secur1ty",
-      "security-research",
-      "offensive-ai",
-      "logic-refinement",
-      "deepseek-v4-pro",
-      "text-generation",
-      "en",
-      "bg",
-      "license:other",
-      "8-bit",
-      "fp8",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-05-12T12:23:50.000Z",
-    "last_modified": "2026-05-12T12:47:27.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/nu11secur1ty/DeepSeek-V4-Pro",
-    "date": "2026-05-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "SparseLLM/DECO-1.2B",
-    "author": "unknown",
-    "title": "SparseLLM/DECO-1.2B",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "pytorch",
-      "blockffn",
-      "text-generation",
-      "conversational",
-      "custom_code",
-      "en",
-      "zh",
-      "arxiv:2507.08771",
-      "arxiv:2605.10933",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-05-12T09:43:21.000Z",
-    "last_modified": "2026-05-12T12:47:05.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/SparseLLM/DECO-1.2B",
-    "date": "2026-05-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "SparseLLM/DECO-0.5B",
-    "author": "unknown",
-    "title": "SparseLLM/DECO-0.5B",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "pytorch",
-      "blockffn",
-      "text-generation",
-      "conversational",
-      "custom_code",
-      "en",
-      "zh",
-      "arxiv:2507.08771",
-      "arxiv:2605.10933",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-05-12T09:41:55.000Z",
-    "last_modified": "2026-05-12T12:46:27.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/SparseLLM/DECO-0.5B",
-    "date": "2026-05-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Retreatcost/Evertide-RX-12B",
-    "author": "unknown",
-    "title": "Retreatcost/Evertide-RX-12B",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "mistral",
-      "text-generation",
-      "mergekit",
-      "merge",
-      "trl",
-      "conversational",
-      "finetune",
-      "general-purpose",
-      "en",
-      "fr",
-      "de",
-      "es",
-      "it",
-      "pt",
-      "ru",
-      "zh",
-      "ja",
-      "base_model:Retreatcost/KansenSakura-Erosion-CW-12b",
-      "base_model:finetune:Retreatcost/KansenSakura-Erosion-CW-12b",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-11T14:35:35.000Z",
-    "last_modified": "2026-05-12T12:46:06.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Retreatcost/Evertide-RX-12B",
-    "date": "2026-05-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "SparseLLM/DECO-0.2B",
-    "author": "unknown",
-    "title": "SparseLLM/DECO-0.2B",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "pytorch",
-      "blockffn",
-      "text-generation",
-      "conversational",
-      "custom_code",
-      "en",
-      "zh",
-      "arxiv:2507.08771",
-      "arxiv:2605.10933",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-05-12T09:40:21.000Z",
-    "last_modified": "2026-05-12T12:45:50.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/SparseLLM/DECO-0.2B",
-    "date": "2026-05-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "SparseLLM/DECO-0.1B",
-    "author": "unknown",
-    "title": "SparseLLM/DECO-0.1B",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "pytorch",
-      "blockffn",
-      "text-generation",
-      "conversational",
-      "custom_code",
-      "en",
-      "zh",
-      "arxiv:2507.08771",
-      "arxiv:2605.10933",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-05-12T09:35:49.000Z",
-    "last_modified": "2026-05-12T12:44:53.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/SparseLLM/DECO-0.1B",
-    "date": "2026-05-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "emajoch1/qwen2.5-7b-dora-abstention",
-    "author": "unknown",
-    "title": "emajoch1/qwen2.5-7b-dora-abstention",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-12T12:42:13.000Z",
-    "last_modified": "2026-05-12T12:44:42.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/emajoch1/qwen2.5-7b-dora-abstention",
-    "date": "2026-05-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "cs-552-2026-Flash-McQueenS-and-TheKing/general_knowledge_model_model",
-    "author": "unknown",
-    "title": "cs-552-2026-Flash-McQueenS-and-TheKing/general_knowledge_model_model",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-12T12:44:11.000Z",
-    "last_modified": "2026-05-12T12:44:24.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/cs-552-2026-Flash-McQueenS-and-TheKing/general_knowledge_model_model",
-    "date": "2026-05-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "roshan999999/DeepSeek-V4-Pro",
-    "author": "unknown",
-    "title": "roshan999999/DeepSeek-V4-Pro",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "deepseek_v4",
-      "text-generation",
-      "license:mit",
-      "endpoints_compatible",
-      "8-bit",
-      "fp8",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-12T12:43:55.000Z",
-    "last_modified": "2026-05-12T12:43:56.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/roshan999999/DeepSeek-V4-Pro",
-    "date": "2026-05-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
