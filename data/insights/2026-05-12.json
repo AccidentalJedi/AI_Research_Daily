@@ -1,11 +1,7 @@
 {
-  "date": "2026-05-12T01:02:12.845767",
+  "date": "2026-05-12T05:20:42.084452",
   "patterns": {
     "language_models": [
-      {
-        "title": "martian786/agnews-salient-salient-transformer-ner-k16-seed-1",
-        "url": "https://huggingface.co/martian786/agnews-salient-salient-transformer-ner-k16-seed-1"
-      },
       {
         "title": "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch",
         "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch"
@@ -37,13 +33,21 @@
       {
         "title": "LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-1Epoch",
         "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-1Epoch"
+      },
+      {
+        "title": "LLMWildling/gemma4-52b-a6b-canopy",
+        "url": "https://huggingface.co/LLMWildling/gemma4-52b-a6b-canopy"
+      },
+      {
+        "title": "Thinzar2003/sentiment-distilbert",
+        "url": "https://huggingface.co/Thinzar2003/sentiment-distilbert"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "9 independent papers",
+      "observation": "10 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -52,6 +56,6 @@
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 9
+    "total_papers": 10
   }
 }
