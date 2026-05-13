@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-13T09:10:36.069007",
+  "date": "2026-05-13T12:53:41.792992",
   "patterns": {
     "multimodal_research": [
       {
@@ -283,10 +283,6 @@
       {
         "title": "Graph-Grounded Optimization: Rao-Family Metaheuristics, Classical OR, and SLM-Driven Formulation over Knowledge Graphs",
         "url": "https://arxiv.org/abs/2605.12204v1"
-      },
-      {
-        "title": "storagejuju/glm-5.1-mxfp4-moe-juju",
-        "url": "https://huggingface.co/storagejuju/glm-5.1-mxfp4-moe-juju"
       }
     ],
     "language_models": [
@@ -709,6 +705,14 @@
       {
         "title": "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch",
         "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch"
+      },
+      {
+        "title": "Kaaeun/RoBERTa-based-PERMA-classifier",
+        "url": "https://huggingface.co/Kaaeun/RoBERTa-based-PERMA-classifier"
+      },
+      {
+        "title": "sameerabuddhika/smollm3-finetuned-assignment",
+        "url": "https://huggingface.co/sameerabuddhika/smollm3-finetuned-assignment"
       }
     ],
     "vision_systems": [
@@ -1661,7 +1665,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "49 independent papers",
+      "observation": "48 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1673,7 +1677,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "105 independent papers",
+      "observation": "107 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 409
   }
 }
