@@ -434,7 +434,7 @@
     "title": "AOI-SSL: Self-Supervised Framework for Efficient Segmentation of Wire-bonded Semiconductors In Optical Inspection",
     "summary": "Segmentation models in automated optical inspection of wire-bonded semiconductors are typically device-specific and must be re-trained when new devices or distribution shifts appear. We introduce AOI-SSL, a training-efficient framework for semantic segmentation of wire-bonded semiconductors by combining small-domain self-supervised pre-training of vision transformers with in-context inference that minimizes the need of labeled examples. We pre-train SOTA self-supervised algorithms in a small industrial inspection dataset and find that Masked Autoencoders are the most effective in this small-data setting, improving downstream segmentation while reducing the labeled fine-tuning effort. We further introduce in-context, patch-level retrieval methods that predict masks directly from dense encoder embeddings with negligible additional training. We show that, in this setting, simple similarity-based retrieval performs on par with more complex attention-based aggregation used currently in the literature. Furthermore, our experiments demonstrate that self-supervised pre-training significantly improves segmentation quality compared to training from scratch and to ImageNet pre-trained backbones under a fixed fine-tuning computational budget. Finally, the results reveal that retrieval based segmentation outperforms fine-tuning when targeting single device images, allowing for near-instant adaptation to difficult samples.",
     "authors": [
-      "Joaqu\u00edn Figueira",
+      "Joaquín Figueira",
       "Rob Van Gastel",
       "Giacomo D'Amicantonio",
       "Zhuoran Liu",
@@ -496,8 +496,8 @@
   },
   {
     "arxiv_id": "2605.12357v1",
-    "title": "$\u03b4$-mem: Efficient Online Memory for Large Language Models",
-    "summary": "Large language models increasingly need to accumulate and reuse historical information in long-term assistants and agent systems. Simply expanding the context window is costly and often fails to ensure effective context utilization. We propose $\u03b4$-mem, a lightweight memory mechanism that augments a frozen full-attention backbone with a compact online state of associative memory. $\u03b4$-mem compresses past information into a fixed-size state matrix updated by delta-rule learning, and uses its readout to generate low-rank corrections to the backbone's attention computation during generation. With only an $8\\times8$ online memory state, $\u03b4$-mem improves the average score to $1.10\\times$ that of the frozen backbone and $1.15\\times$ that of the strongest non-$\u03b4$-mem memory baseline. It achieves larger gains on memory-heavy benchmarks, reaching $1.31\\times$ on MemoryAgentBench and $1.20\\times$ on LoCoMo, while largely preserving general capabilities. These results show that effective memory can be realized through a compact online state directly coupled with attention computation, without full fine-tuning, backbone replacement, or explicit context extension.",
+    "title": "$δ$-mem: Efficient Online Memory for Large Language Models",
+    "summary": "Large language models increasingly need to accumulate and reuse historical information in long-term assistants and agent systems. Simply expanding the context window is costly and often fails to ensure effective context utilization. We propose $δ$-mem, a lightweight memory mechanism that augments a frozen full-attention backbone with a compact online state of associative memory. $δ$-mem compresses past information into a fixed-size state matrix updated by delta-rule learning, and uses its readout to generate low-rank corrections to the backbone's attention computation during generation. With only an $8\\times8$ online memory state, $δ$-mem improves the average score to $1.10\\times$ that of the frozen backbone and $1.15\\times$ that of the strongest non-$δ$-mem memory baseline. It achieves larger gains on memory-heavy benchmarks, reaching $1.31\\times$ on MemoryAgentBench and $1.20\\times$ on LoCoMo, while largely preserving general capabilities. These results show that effective memory can be realized through a compact online state directly coupled with attention computation, without full fine-tuning, backbone replacement, or explicit context extension.",
     "authors": [
       "Jingdi Lei",
       "Di Zhang",
@@ -941,7 +941,7 @@
   {
     "arxiv_id": "2605.12316v1",
     "title": "Autoregressive Learning in Joint KL: Sharp Oracle Bounds and Lower Bounds",
-    "summary": "We study the fundamental and timely problem of learning long sequences in autoregressive modeling and next-token prediction under model misspecification, measured by the joint Kullback--Leibler (KL) divergence. Our goal is to characterize how the sequence horizon \\(H\\) affects both approximation and estimation errors in this joint-distribution, sequence-level regime. By establishing matching upper and lower bounds, we provide, to our knowledge, the first complete characterization of long-horizon error behavior under the natural joint KL objective, with improved rates and optimality justification relative to existing work. On the approximation side, we show that joint KL admits a horizon-free approximation factor, in sharp contrast to Hellinger-based analyses that exhibit an \\(\u03a9(H)\\) dependence for computationally efficient methods; this isolates the choice of divergence as the source of approximation amplification. On the estimation side, we prove a fundamental information-theoretic lower bound of order \\(\u03a9(H)\\) that holds for both decomposable policy classes and fully shared policies, matching the \\(\\widetilde O(H)\\) upper bounds achieved by computationally efficient algorithms. Our analysis clarifies the landscape of recent autoregressive learning results by aligning the log-loss training objective, the sequence-level evaluation metric, and the approximation metric {\\color{black}through a sharp joint-KL oracle theory}. We further show that these joint-KL guarantees imply policy learning regret bounds at rates matching prior imitation learning literature.",
+    "summary": "We study the fundamental and timely problem of learning long sequences in autoregressive modeling and next-token prediction under model misspecification, measured by the joint Kullback--Leibler (KL) divergence. Our goal is to characterize how the sequence horizon \\(H\\) affects both approximation and estimation errors in this joint-distribution, sequence-level regime. By establishing matching upper and lower bounds, we provide, to our knowledge, the first complete characterization of long-horizon error behavior under the natural joint KL objective, with improved rates and optimality justification relative to existing work. On the approximation side, we show that joint KL admits a horizon-free approximation factor, in sharp contrast to Hellinger-based analyses that exhibit an \\(Ω(H)\\) dependence for computationally efficient methods; this isolates the choice of divergence as the source of approximation amplification. On the estimation side, we prove a fundamental information-theoretic lower bound of order \\(Ω(H)\\) that holds for both decomposable policy classes and fully shared policies, matching the \\(\\widetilde O(H)\\) upper bounds achieved by computationally efficient algorithms. Our analysis clarifies the landscape of recent autoregressive learning results by aligning the log-loss training objective, the sequence-level evaluation metric, and the approximation metric {\\color{black}through a sharp joint-KL oracle theory}. We further show that these joint-KL guarantees imply policy learning regret bounds at rates matching prior imitation learning literature.",
     "authors": [
       "Yunbei Xu",
       "Yuzhe Yuan",
@@ -1027,7 +1027,7 @@
   {
     "arxiv_id": "2605.12118v1",
     "title": "Keeping Score: Efficiency Improvements in Neural Likelihood Surrogate Training via Score-Augmented Loss Functions",
-    "summary": "For stochastic process models, parameter inference is often severely bottlenecked by computationally expensive likelihood functions. Simulation-based inference (SBI) bypasses this restriction by constructing amortized surrogate likelihoods, but most SBI methods assume a black-box data generating process. While these surrogates are exact in the limit of infinite training data, practical scenarios force a strict tradeoff between model quality and simulation cost. In this work, we loosen the black-box assumption of SBI to improve this tradeoff for structured stochastic process models. Specifically, for neural network likelihood surrogates trained via probabilistic classification, we propose to augment the standard binary cross-entropy loss with exact score information $\\nabla_\u03b8\\log p(x \\mid \u03b8)$ and adaptive weighting based on loss gradients. We evaluate our approach on case studies involving network dynamics and spatial processes, demonstrating that our method improves surrogate quality at a drastically lower computational cost than generating more training data. Notably, in some cases, our approach achieves downstream inference performance equivalent to a 10x increase in training data with less than a 1.1x increase in training time.",
+    "summary": "For stochastic process models, parameter inference is often severely bottlenecked by computationally expensive likelihood functions. Simulation-based inference (SBI) bypasses this restriction by constructing amortized surrogate likelihoods, but most SBI methods assume a black-box data generating process. While these surrogates are exact in the limit of infinite training data, practical scenarios force a strict tradeoff between model quality and simulation cost. In this work, we loosen the black-box assumption of SBI to improve this tradeoff for structured stochastic process models. Specifically, for neural network likelihood surrogates trained via probabilistic classification, we propose to augment the standard binary cross-entropy loss with exact score information $\\nabla_θ\\log p(x \\mid θ)$ and adaptive weighting based on loss gradients. We evaluate our approach on case studies involving network dynamics and spatial processes, demonstrating that our method improves surrogate quality at a drastically lower computational cost than generating more training data. Notably, in some cases, our approach achieves downstream inference performance equivalent to a 10x increase in training data with less than a 1.1x increase in training time.",
     "authors": [
       "Alexander Shen",
       "Mikael Kuusela"
@@ -1049,9 +1049,9 @@
     "summary": "For minimally rigid graphs, the same edge-length data can admit multiple realizations (up to translations and rotations). Finding graphs with exceptionally many realizations is an extremal problem in rigidity theory, but exhaustive search quickly becomes infeasible due to the super-exponential growth of the number of candidate graphs and the high cost of realization-count evaluation. We propose a reinforcement-learning approach that constructs minimally rigid graphs via 0- and 1-extensions, also known as Henneberg moves. We optimize realization-count invariants using the Deep Cross-Entropy Method with a policy parameterized by a Graph Isomorphism Network encoder and a permutation-equivariant extension-level action head. Empirically, our method matches the known optima for planar realization counts and improves the best known bounds for spherical realization counts, yielding new record graphs.",
     "authors": [
       "Oleksandr Slyvka",
-      "Jan Rube\u0161",
+      "Jan Rubeš",
       "Rodrigo Alves",
-      "Jan Legersk\u00fd"
+      "Jan Legerský"
     ],
     "categories": [
       "cs.LG",
@@ -1089,7 +1089,7 @@
   {
     "arxiv_id": "2605.12240v1",
     "title": "No Action Without a NOD: A Heterogeneous Multi-Agent Architecture for Reliable Service Agents",
-    "summary": "Large language model (LLM) agents have increasingly advanced service applications, such as booking flight tickets. However, these service agents suffer from unreliability in long-horizon tasks, as they often produce policy violations, tool hallucinations, and misaligned actions, which greatly impedes their real-world deployment. To address these challenges, we propose NOD (Navigator-Operator-Director), a heterogeneous multi-agent architecture for service agents. Instead of maintaining task state implicitly in dialogue context as in prior work, we externalize a structured Global State to enable explicit task state tracking and consistent decision-making by the Navigator. Besides, we introduce selective external oversight before critical actions, allowing an independent Director agent to verify execution and intervene when necessary. As such, NOD effectively mitigates error propagation and unsafe behavior in long-horizon tasks. Experiments on $\u03c4^2$-Bench demonstrate that NOD achieves higher task success rates and critical action precision over baselines. More importantly, NOD improves the reliability of service agents by reducing policy violations, tool hallucinations, and user-intent misalignment.",
+    "summary": "Large language model (LLM) agents have increasingly advanced service applications, such as booking flight tickets. However, these service agents suffer from unreliability in long-horizon tasks, as they often produce policy violations, tool hallucinations, and misaligned actions, which greatly impedes their real-world deployment. To address these challenges, we propose NOD (Navigator-Operator-Director), a heterogeneous multi-agent architecture for service agents. Instead of maintaining task state implicitly in dialogue context as in prior work, we externalize a structured Global State to enable explicit task state tracking and consistent decision-making by the Navigator. Besides, we introduce selective external oversight before critical actions, allowing an independent Director agent to verify execution and intervene when necessary. As such, NOD effectively mitigates error propagation and unsafe behavior in long-horizon tasks. Experiments on $τ^2$-Bench demonstrate that NOD achieves higher task success rates and critical action precision over baselines. More importantly, NOD improves the reliability of service agents by reducing policy violations, tool hallucinations, and user-intent misalignment.",
     "authors": [
       "Zixu Yang",
       "Hang Zheng",
@@ -1277,9 +1277,9 @@
     "title": "Events as Triggers for Behavioral Diversity in Multi-Agent Reinforcement Learning",
     "summary": "Effective multi-agent cooperation requires agents to adopt diverse behaviors as task conditions evolve-and to do so at the right moment. Yet, current Multi-Agent Reinforcement Learning (MARL) frameworks that facilitate this diversity are still limited by the fact that they bind fixed behaviors to fixed agent identities. Consequently, they are ill-equipped for tasks where agents need to take on different roles at very specific moments in time. We argue that, to define these behavioral transitions, the missing ingredient is events. Events are changes in the state of the system that induce qualitative changes in the task. Based on this view, we introduce a framework that decouples agent identity from behavior, capturing a continuous manifold from which agents instantiate their behaviors in response to events. This framework is based on two elements. First, to build an expressive behavior manifold, we introduce Neural Manifold Diversity (NMD), a formal distance metric that remains well-defined when behaviors are transient and agent-agnostic. Second, we use an event-based hypernetwork that generates Low-Rank Adaptation (LoRA) modules over a shared team policy, enabling on-the-fly agent-policy reconfiguration in response to events. We prove that this construction ensures that diversity does not interfere with reward maximization by design. Empirical results demonstrate that our framework outperforms established baselines across benchmarks while exhibiting zero-shot generalization, and being the only method that solves tasks requiring sequential behavior reassignment.",
     "authors": [
-      "Hannes B\u00fcchi",
+      "Hannes Büchi",
       "Manon Flageat",
-      "Eduardo Sebasti\u00e1n",
+      "Eduardo Sebastián",
       "Amanda Prorok"
     ],
     "categories": [
@@ -1404,15 +1404,15 @@
     "authors": [
       "Gioia Blayer",
       "Myung Jun Kim",
-      "F\u00e9lix Lefebvre",
+      "Félix Lefebvre",
       "Lennart Purucker",
       "Alan Arazi",
       "Eilam Shapira",
       "Roi Reichart",
       "Frank Hutter",
       "Marine Le Morvan",
-      "David Holzm\u00fcller",
-      "Ga\u00ebl Varoquaux"
+      "David Holzmüller",
+      "Gaël Varoquaux"
     ],
     "categories": [
       "cs.LG"
@@ -1453,7 +1453,7 @@
     "authors": [
       "Miguel Moura Ramos",
       "Duarte M. Alves",
-      "Andr\u00e9 F. T. Martins"
+      "André F. T. Martins"
     ],
     "categories": [
       "cs.CL"
@@ -1586,7 +1586,7 @@
     "title": "A categorical error sensitivity index (ISEC): A preventive ordinal decision-support measure for irrecoverable errors in manual data entry systems",
     "summary": "Data entry systems remain structurally vulnerable to categorical misclassifications, particularly in small and medium sized enterprises (SMEs). When nominal categories exhibit semantic or morphological proximity, human machine interaction may produce errors that are irrecoverable ex post. In the absence of automated input controls, manual data entry frequently generates irrecoverable categorical distortions that propagate into Key Performance Indicators (KPIs), thereby misleading managerial decision making. State of the art normalization tools typically evaluate semantic and morphological dimensions in isolation and rely heavily on standard dictionaries, rendering them ineffective for SME master data rich in custom SKUs, abbreviations, and domain-specific technical jargon. This paper introduces the Categorical Error Sensitivity Index (ISEC), an ordinal composite score designed to rank category pairs according to their structural susceptibility to confusion. ISEC integrates semantic distance (via word embeddings), custom weighted morphological transformation costs (through an adapted Damerau Levenshtein algorithm), and empirical frequency into a unified, mathematically robust preventive framework. By leveraging vector database architectures, ISEC reduces computational complexity, achieving approximately a 195x performance improvement over brute-force methods. Validated across three heterogeneous datasets: governmental judicial records, retail inventory, and a synthetic ISO coded metalworking catalog, ISEC provides a scalable and proactive data governance instrument that enables SMEs to detect latent structural risk embedded within their categorical data assets.",
     "authors": [
-      "Ricardo Ra\u00fal Palma",
+      "Ricardo Raúl Palma",
       "Mauro Anibal Benetti",
       "Fabricio Orlando Sanchez Varretti"
     ],
@@ -1607,7 +1607,7 @@
     "authors": [
       "Yunus Sevinchan",
       "Juan Nathaniel",
-      "Kai Ueltzh\u00f6ffer",
+      "Kai Ueltzhöffer",
       "Carla Roesch",
       "Tobias Weber",
       "Vaios Laschos",
@@ -1713,7 +1713,7 @@
   {
     "arxiv_id": "2605.12461v1",
     "title": "A proximal gradient algorithm for composite log-concave sampling",
-    "summary": "We propose an algorithm to sample from composite log-concave distributions over $\\mathbb{R}^d$, i.e., densities of the form $\u03c0\\propto e^{-f-g}$, assuming access to gradient evaluations of $f$ and a restricted Gaussian oracle (RGO) for $g$. The latter requirement means that we can easily sample from the density $\\text{RGO}_{g,h,y}(x) \\propto \\exp(-g(x) -\\frac{1}{2h}||y-x||^2)$, which is the sampling analogue of the proximal operator for $g$. If $f + g$ is $\u03b1$-strongly convex and $f$ is $\u03b2$-smooth, our sampler achieves $\\varepsilon$ error in total variation distance in $\\widetilde{\\mathcal O}(\u03ba\\sqrt d \\log^4(1/\\varepsilon))$ iterations where $\u03ba:= \u03b2/\u03b1$, which matches prior state-of-the-art results for the case $g=0$. We further extend our results to cases where (1) $\u03c0$ is non-log-concave but satisfies a Poincar\u00e9 or log-Sobolev inequality, and (2) $f$ is non-smooth but Lipschitz.",
+    "summary": "We propose an algorithm to sample from composite log-concave distributions over $\\mathbb{R}^d$, i.e., densities of the form $π\\propto e^{-f-g}$, assuming access to gradient evaluations of $f$ and a restricted Gaussian oracle (RGO) for $g$. The latter requirement means that we can easily sample from the density $\\text{RGO}_{g,h,y}(x) \\propto \\exp(-g(x) -\\frac{1}{2h}||y-x||^2)$, which is the sampling analogue of the proximal operator for $g$. If $f + g$ is $α$-strongly convex and $f$ is $β$-smooth, our sampler achieves $\\varepsilon$ error in total variation distance in $\\widetilde{\\mathcal O}(κ\\sqrt d \\log^4(1/\\varepsilon))$ iterations where $κ:= β/α$, which matches prior state-of-the-art results for the case $g=0$. We further extend our results to cases where (1) $π$ is non-log-concave but satisfies a Poincaré or log-Sobolev inequality, and (2) $f$ is non-smooth but Lipschitz.",
     "authors": [
       "Linghai Liu",
       "Sinho Chewi"
@@ -1738,7 +1738,7 @@
     "authors": [
       "Tom Sander",
       "Hongyan Chang",
-      "Tom\u00e1\u0161 Sou\u010dek",
+      "Tomáš Souček",
       "Tuan Tran",
       "Valeriu Lacatusu",
       "Sylvestre-Alvise Rebuffi",
@@ -2154,7 +2154,7 @@
       "Ganesh Chandrasekar",
       "Rustam R. Taktashov",
       "Nadezhda Yu. Bizyukova",
-      "Sofia I. R. Concei\u00e7\u00e3o",
+      "Sofia I. R. Conceição",
       "Paulo R. C. Lopes",
       "Reem Abdel Salam",
       "Mary Adewunmi",
@@ -2223,7 +2223,7 @@
     "authors": [
       "Anh-Kiet Duong",
       "Marie-Claire Iatrides",
-      "Petra Gomez-Kr\u00e4mer",
+      "Petra Gomez-Krämer",
       "Jean-Michel Carozza"
     ],
     "categories": [
@@ -2244,7 +2244,7 @@
       "Asad Bakija",
       "Florent De Geeter",
       "Julien Brandoit",
-      "Pierre Sacr\u00e9",
+      "Pierre Sacré",
       "Guillaume Drion"
     ],
     "categories": [
@@ -2263,12 +2263,12 @@
     "summary": "Myocardial point tracking (MPT) has recently emerged as a promising direction for motion estimation in echocardiography, driven by advances in general-purpose point tracking methods. However, myocardial motion fundamentally differs from motion encountered in natural videos, as it arises from physiologically constrained deformation that is spatially and temporally continuous throughout the cardiac cycle. Consequently, motion trajectories typically remain locally confined despite substantial tissue deformation. Motivated by these properties, we revisit the architectural design for MPT and find that coarse initialization in commonly used two-stage coarse-to-fine architectures may be unnecessary in this domain. In this work, we propose a fine-stage-only architecture, \\textbf{EchoTracker2}, which enriches pixel-precise features with local spatiotemporal context and integrates them with long-range joint temporal reasoning for robust tracking. Experimental results across in-distribution, out-of-distribution (OOD), and public synthetic datasets show that our model improves position accuracy by $6.5\\%$ and reduces median trajectory error by $12.2\\%$ relative to a domain-specific state-of-the-art (SOTA) model. Compared to the best general-purpose point tracking method, the improvements are $2.0\\%$ and $5.3\\%$, respectively. Moreover, EchoTracker2 shows better agreement with expert-derived global longitudinal strain (GLS) and enhances test-rest reproducibility. Source code will be available at: https://github.com/riponazad/ptecho.",
     "authors": [
       "Md Abulkalam Azad",
-      "Vegard Holmstr\u00f8m",
+      "Vegard Holmstrøm",
       "John Nyberg",
       "Lasse Lovstakken",
-      "H\u00e5vard Dalen",
-      "Bj\u00f8rnar Grenne",
-      "Andreas \u00d8stvik"
+      "Håvard Dalen",
+      "Bjørnar Grenne",
+      "Andreas Østvik"
     ],
     "categories": [
       "cs.CV"
@@ -2559,8 +2559,8 @@
     "summary": "The numerical optimization of continuous functions is a fundamental task in many scientific and engineering domains, ranging from mechanical design to training of artificial intelligence models. Among the most effective and widely used algorithms for this purpose is Differential Evolution (DE), known for its simplicity and strong performance. Recent research has shown that adapting AI models to operate over alternative number systems-such as complex numbers, quaternions, and geometric algebras-can improve model compactness and accuracy. However, such extensions remain underexplored in bio-inspired optimization algorithms. In particular, the use of quaternion algebra represents an emerging area in computational intelligence. This paper introduces a family of novel Quaternion-Valued Differential Evolution (QDE) algorithms that operate directly in the quaternion space. We propose several mutation strategies specifically designed to exploit the algebraic and geometric properties of quaternions. Results show that our QDE variants achieve faster convergence and superior performance on several function classes in the BBOB benchmark compared to the traditional real-valued DE algorithm.",
     "authors": [
       "Gerardo Altamirano-Gomez",
-      "\u00c1lvaro Gallardo",
-      "Carlos Ignacio Hern\u00e1ndez Castellanos"
+      "Álvaro Gallardo",
+      "Carlos Ignacio Hernández Castellanos"
     ],
     "categories": [
       "cs.NE",
@@ -2578,7 +2578,7 @@
     "title": "From Message-Passing to Linearized Graph Sequence Models",
     "summary": "Message-passing based approaches form the default backbone of most learning architectures on graph-structured data. However, the rapid progress of modern deep learning architectures in other domains, particularly sequence modeling, raises the question of how graph learning can benefit from these advances. We introduce Linearized Graph Sequence Models, a framework that recasts message-passing graph computation from the perspective of sequence modeling to simplify architectural choices. Our approach systematically separates the computational processing depth from the information propagation depth, allowing core graph architectural decisions to be treated as sequence modeling choices. Specifically, we analyze, both empirically and theoretically, what sequence properties make methods effective for learning and preserving the graph inductive bias. In particular, we validate our findings, demonstrating improved performance on long-range information tasks in graphs. Our findings provide a principled way to integrate modern sequence modeling advances into message-passing based graph learning. Beyond this, our work demonstrates how the separation of processing and information depth can recast central architectural questions as input modeling choices.",
     "authors": [
-      "Jo\u00ebl Mathys",
+      "Joël Mathys",
       "Basil Rohner",
       "Saku Peltonen",
       "Roger Wattenhofer"
@@ -2767,7 +2767,7 @@
       "Theresa Dahl Frehr",
       "Niels Henrik Pontoppidan",
       "Hiba Nassar",
-      "Tommy Sonne Alstr\u00f8m"
+      "Tommy Sonne Alstrøm"
     ],
     "categories": [
       "cs.LG"
@@ -2823,7 +2823,7 @@
     "summary": "Human-in-the-loop Bayesian optimization (HITL BO) methods utilize human expertise to improve the sample-efficiency of BO. Most HITL BO methods assume that a domain expert can quantify their knowledge, for instance by pinpointing query locations or specifying their prior beliefs about the location of the maximum as a probability distribution. However, since human expertise is often tacit and cannot be explicitly quantified, we consider a setting where domain knowledge of an expert is elicited via pairwise comparisons of designs. We interpret the expert's pairwise judgements as noisy evidence about the values of the observable objective function and develop a principled method for combining the information obtained via direct observations and pairwise queries. Specifically, we derive a cost-aware value-of-information acquisition function that balances direct observations against pairwise queries. The proposed method approaches the convex hull of the trajectories of the individual information sources: when pairwise queries are cheap it substantially improves sample-efficiency over observation-only BO, and when pairwise queries are costly or noisy, it recovers the performance of standard BO by relying on direct observations alone.",
     "authors": [
       "Alvar Haltia",
-      "Ville Hyv\u00f6nen",
+      "Ville Hyvönen",
       "Samuel Kaski"
     ],
     "categories": [
@@ -2934,7 +2934,7 @@
     "title": "Multi-Variable Conformal Prediction: Optimizing Prediction Sets without Data Splitting",
     "summary": "Conformal prediction constructs prediction sets with finite-sample coverage guarantees, but its calibration stage is structurally constrained to a scalar score function and a single threshold variable - forcing shapes of prediction sets to be fixed before calibration, typically through data splitting. We introduce multi-variable conformal prediction (MCP), a framework that extends conformal prediction to vector-valued score functions with multiple simultaneous calibration variables. Building on scenario theory as a principled framework for certifying data-driven decisions, MCP unifies prediction set design and calibration into a single optimization problem, eliminating data splitting without sacrificing coverage guarantees. We propose two computationally efficient variants: RemMCP, grounded in constrained optimization with constraint removal, which admits a clean generalization of split conformal prediction; and RelMCP, based on iterative optimization with constraint relaxation, which supports non-convex score functions at the cost of possibly greater conservatism. Through numerical experiments on ellipsoidal and multi-modal prediction sets, we demonstrate that RemMCP and RelMCP consistently meet the target coverage with prediction set sizes smaller than or comparable to those of baselines with data split, while considerably reducing variance across calibration runs - a direct consequence of using all available data for shape optimization and calibration simultaneously.",
     "authors": [
-      "Laura L\u00fctzow",
+      "Laura Lützow",
       "Simone Garatti",
       "Marco C. Campi",
       "Lars Lindemann",
@@ -3363,7 +3363,7 @@
       "Yuxuan Zhu",
       "Mohammad Mohammadi Amiri",
       "Niki van Stein",
-      "Thomas B\u00e4ck",
+      "Thomas Bäck",
       "Matthijs van Leeuwen",
       "Zaiwen Wen",
       "Lincen Yang"
@@ -3541,7 +3541,7 @@
     "summary": "Recent works have analyzed the impact of individual components of neural networks on gendered predictions, often with a focus on mitigating gender bias. However, mechanistic interpretations of gender tend to (i) focus on a very specific gender-related task, such as gendered pronoun prediction, or (ii) fail to distinguish between the production of factually gendered outputs (the correct assumption of gender given a word that carries gender as a semantic property) and gender biased outputs (based on a stereotype). To address these issues, we curate \\gknow, a benchmark to assess gender knowledge and gender bias in language models across different types of gender-related predictions. \\gknow allows us to identify and analyze circuits and individual neurons responsible for gendered predictions. We test the impact of neuron ablation on benchmarks for disentangling stereotypical and factual gender (DiFair and the test set of GKnow), as well as StereoSet. Results show that gender bias and factual gender are severely entangled on the level of both circuits and neurons, entailing that ablation is an unreliable debiasing method. Furthermore, we show that benchmarks for evaluating gender bias can hide the decrease in factual gender knowledge that accompanies neuron ablation. We curate GKnow as a contribution to the continuous development of robust gender bias benchmarks.",
     "authors": [
       "Leonor Veloso",
-      "Hinrich Sch\u00fctze"
+      "Hinrich Schütze"
     ],
     "categories": [
       "cs.CL"
@@ -3565,7 +3565,7 @@
       "Devansh Srivastav",
       "Thorsten Eisenhofer",
       "Sahar Abdelnabi",
-      "Lea Sch\u00f6nherr"
+      "Lea Schönherr"
     ],
     "categories": [
       "cs.LG",
@@ -3655,7 +3655,7 @@
   {
     "arxiv_id": "2605.12177v1",
     "title": "Correcting Selection Bias in Sparse User Feedback for Large Language Model Quality Estimation: A Multi-Agent Hierarchical Bayesian Approach",
-    "summary": "[Abridged] Production LLM deployments receive feedback from a non-random fraction of users: thumbs sit mostly in the tails of the satisfaction distribution, and a naive average over them can land 40-50 percentage points away from true system quality. We treat this as a topic- and sentiment- stratified selection-bias problem and propose a three-agent hierarchical Bayesian pipeline that does not require ground-truth labels on individual interactions. A Topic Clustering Agent partitions the stream via UMAP + HDBSCAN over text embeddings; a Bias Modeling Agent fits a two-stage hierarchical Beta-Binomial under NUTS, inferring per-topic selection rates $s_c$ and quality $q_c$ with partial pooling; a Synthesis Agent reweights $q_c$ by true topic prevalence $\\hat\u03c0_c = n_c/N$ to report a bias-corrected aggregate posterior $\\bar Q = \\sum_c \\hat\u03c0_c q_c$ with credible interval, plus drift signals for online recalibration. Validation uses UltraFeedback (N=10,232 retained interactions, $C=18$ clusters, $Q^\\star=0.6249$) with simulated topic- and sentiment-dependent selection biases. We compare five Bayesian variants against Naive and IPW baselines. A mild prior on the feedback channel (typical positive-feedback rate and negative-to-positive ratio, both readable from any production dashboard without labels) keeps Hierarchical-Informed within 4-13 pp of $Q^\\star$ as the bias ratio sweeps from 1:1 to 30:1, with 95% credible intervals covering $Q^\\star$ in 50/50 random-seed replicates at $\u03ba_{\\max}=10$. Without channel-side priors, every weak-prior variant misses $Q^\\star$ by 22-33 pp: the per-cluster sufficient statistics admit a one-parameter family of equally good fits, and the prior on the bias channel (not on latent quality) is what breaks the degeneracy.",
+    "summary": "[Abridged] Production LLM deployments receive feedback from a non-random fraction of users: thumbs sit mostly in the tails of the satisfaction distribution, and a naive average over them can land 40-50 percentage points away from true system quality. We treat this as a topic- and sentiment- stratified selection-bias problem and propose a three-agent hierarchical Bayesian pipeline that does not require ground-truth labels on individual interactions. A Topic Clustering Agent partitions the stream via UMAP + HDBSCAN over text embeddings; a Bias Modeling Agent fits a two-stage hierarchical Beta-Binomial under NUTS, inferring per-topic selection rates $s_c$ and quality $q_c$ with partial pooling; a Synthesis Agent reweights $q_c$ by true topic prevalence $\\hatπ_c = n_c/N$ to report a bias-corrected aggregate posterior $\\bar Q = \\sum_c \\hatπ_c q_c$ with credible interval, plus drift signals for online recalibration. Validation uses UltraFeedback (N=10,232 retained interactions, $C=18$ clusters, $Q^\\star=0.6249$) with simulated topic- and sentiment-dependent selection biases. We compare five Bayesian variants against Naive and IPW baselines. A mild prior on the feedback channel (typical positive-feedback rate and negative-to-positive ratio, both readable from any production dashboard without labels) keeps Hierarchical-Informed within 4-13 pp of $Q^\\star$ as the bias ratio sweeps from 1:1 to 30:1, with 95% credible intervals covering $Q^\\star$ in 50/50 random-seed replicates at $κ_{\\max}=10$. Without channel-side priors, every weak-prior variant misses $Q^\\star$ by 22-33 pp: the per-cluster sufficient statistics admit a one-parameter family of equally good fits, and the prior on the bias channel (not on latent quality) is what breaks the degeneracy.",
     "authors": [
       "Andrea Morandi",
       "Mahesh Viswanathan"
@@ -3795,7 +3795,7 @@
     "summary": "Large Language Models (LLMs) update their behavior in context, which can be viewed as a form of Bayesian inference. However, the structure of the latent hypothesis space over which this inference operates remains unclear. In this work, we propose that LLMs assign beliefs over a low-dimensional geometric space - a conceptual belief space - and that in-context learning corresponds to a trajectory through this space as beliefs are updated over time. Using story understanding as a natural setting for dynamic belief updating, we combine behavioral and representational analyses to study these trajectories. We find that (1) belief updates are well-described as trajectories on low-dimensional, structured manifolds; (2) this structure is reflected consistently in both model behavior and internal representations and can be decoded with simple linear probes to predict behavior; and (3) interventions on these representations causally steer belief trajectories, with effects that can be predicted from the geometry of the conceptual space. Together, our results provide a geometric account of belief dynamics in LLMs, grounding Bayesian interpretations of in-context learning in structured conceptual representations.",
     "authors": [
       "Eric Bigelow",
-      "Rapha\u00ebl Sarfati",
+      "Raphaël Sarfati",
       "Daniel Wurgaft",
       "Owen Lewis",
       "Thomas McGrath",
@@ -3818,7 +3818,7 @@
   {
     "arxiv_id": "2605.12301v1",
     "title": "Approximation of Maximally Monotone Operators : A Graph Convergence Perspective",
-    "summary": "Operator learning has been highly successful for continuous mappings between infinite-dimensional spaces, such as PDE solution operators. However, many operators of interest-including differential operators-are discontinuous or set-valued, and lie outside classical approximation frameworks. We propose a paradigm shift by formulating approximation via graph convergence (Painlev\u00e9-Kuratowski convergence), which is well-suited for closed operators. We show that uniform and $L^p$ approximation are fundamentally inadequate in this setting. Focusing on maximally monotone operators, we prove that any such operator can be approximated in the sense of local graph convergence by continuous encoder-decoder architectures, and further construct structure-preserving approximations that retain maximal monotonicity via resolvent-based parameterizations.",
+    "summary": "Operator learning has been highly successful for continuous mappings between infinite-dimensional spaces, such as PDE solution operators. However, many operators of interest-including differential operators-are discontinuous or set-valued, and lie outside classical approximation frameworks. We propose a paradigm shift by formulating approximation via graph convergence (Painlevé-Kuratowski convergence), which is well-suited for closed operators. We show that uniform and $L^p$ approximation are fundamentally inadequate in this setting. Focusing on maximally monotone operators, we prove that any such operator can be approximated in the sense of local graph convergence by continuous encoder-decoder architectures, and further construct structure-preserving approximations that retain maximal monotonicity via resolvent-based parameterizations.",
     "authors": [
       "Takashi Furuya",
       "Yury Korolev",
@@ -3838,7 +3838,7 @@
   {
     "arxiv_id": "2605.12255v1",
     "title": "Why Conclusions Diverge from the Same Observations: Formalizing World-Model Non-Identifiability via an Inference",
-    "summary": "When people share the same documents and observations yet reach different conclusions, the disagreement often shifts into a judgment that the other party is cognitively defective, irrational, or acting in bad faith. This paper argues that such divergence is better described as a form of non-identifiability inherent in inference and learning, rather than as a defect of the other party. We organize the phenomenon into two levels: (i) $\u03b8$-level non-identifiability, where conclusions diverge under the same world model $W$ because inference settings differ; and (ii) $W$-level non-identifiability, where repeated use of an inference setting $\u03b8$ biases data exposure and update rules, causing the learned world model $W$ itself to diverge. We introduce an inference profile $\u03b8= (R, E, S, D)$, consisting of Reference, Exploration, Stabilization, and Horizon, and show how outputs can split even for the same observation $o$ and the same $W$. We further explain why disagreements tend to project onto a small number of bases -- abstract versus concrete, externalizability, and order versus freedom -- as a consequence of general constraints on learning systems: computational, observational, and coordination constraints. Finally, we relate the framework to deep representation learning, including representation hierarchy, latent-state estimation, and regularization-exploration trade-offs, and illustrate the framework through a case study on AI regulation debates.",
+    "summary": "When people share the same documents and observations yet reach different conclusions, the disagreement often shifts into a judgment that the other party is cognitively defective, irrational, or acting in bad faith. This paper argues that such divergence is better described as a form of non-identifiability inherent in inference and learning, rather than as a defect of the other party. We organize the phenomenon into two levels: (i) $θ$-level non-identifiability, where conclusions diverge under the same world model $W$ because inference settings differ; and (ii) $W$-level non-identifiability, where repeated use of an inference setting $θ$ biases data exposure and update rules, causing the learned world model $W$ itself to diverge. We introduce an inference profile $θ= (R, E, S, D)$, consisting of Reference, Exploration, Stabilization, and Horizon, and show how outputs can split even for the same observation $o$ and the same $W$. We further explain why disagreements tend to project onto a small number of bases -- abstract versus concrete, externalizability, and order versus freedom -- as a consequence of general constraints on learning systems: computational, observational, and coordination constraints. Finally, we relate the framework to deep representation learning, including representation hierarchy, latent-state estimation, and regularization-exploration trade-offs, and illustrate the framework through a case study on AI regulation debates.",
     "authors": [
       "Toru Takahashi"
     ],
@@ -3989,9 +3989,9 @@
   {
     "arxiv_id": "2605.12174v1",
     "title": "Expected Batch Optimal Transport Plans and Consequences for Flow Matching",
-    "summary": "Solving optimal transport (OT) on random minibatches is a common surrogate for exact OT in large-scale learning. In flow matching (FM), this surrogate is used to obtain OT-like couplings that can straighten probability paths and reduce numerical integration cost. Yet, the population-level coupling induced by repeated minibatch OT remains only partially understood. We formalize this coupling as the expected batch OT plan $\\overline\u03c0_{k}$, obtained by averaging empirical OT plans over independent minibatches of size $k$. We then establish its large-batch consistency and, in the semidiscrete case relevant to generative modeling, derive rates for both the transport-cost bias and the convergence of $\\overline\u03c0_{k}$ to the OT plan. For FM, this yields a population coupling whose induced velocity field is regular enough to define a unique flow from the source to the discrete target. We finally quantify how OT batch size interacts with numerical integration in a tractable two-atom model and in synthetic and image experiments.",
+    "summary": "Solving optimal transport (OT) on random minibatches is a common surrogate for exact OT in large-scale learning. In flow matching (FM), this surrogate is used to obtain OT-like couplings that can straighten probability paths and reduce numerical integration cost. Yet, the population-level coupling induced by repeated minibatch OT remains only partially understood. We formalize this coupling as the expected batch OT plan $\\overlineπ_{k}$, obtained by averaging empirical OT plans over independent minibatches of size $k$. We then establish its large-batch consistency and, in the semidiscrete case relevant to generative modeling, derive rates for both the transport-cost bias and the convergence of $\\overlineπ_{k}$ to the OT plan. For FM, this yields a population coupling whose induced velocity field is regular enough to define a unique flow from the source to the discrete target. We finally quantify how OT batch size interacts with numerical integration in a tractable two-atom model and in synthetic and image experiments.",
     "authors": [
-      "Samuel Bo\u00eft\u00e9",
+      "Samuel Boïté",
       "Julie Delon",
       "Kimia Nadjahi"
     ],
@@ -4222,39 +4222,6 @@
     "pdf_url": "https://arxiv.org/pdf/2605.12171v1.pdf",
     "date": "2026-05-13",
     "source": "arxiv",
-    "research_score": 0.5
-  },
-  {
-    "dataset_id": "open-index/hacker-news",
-    "author": "open-index",
-    "title": "open-index/hacker-news",
-    "downloads": 25856,
-    "likes": 317,
-    "tags": [
-      "task_categories:text-generation",
-      "task_categories:feature-extraction",
-      "task_categories:text-classification",
-      "task_categories:question-answering",
-      "language:en",
-      "license:odc-by",
-      "size_categories:10M<n<100M",
-      "modality:text",
-      "region:us",
-      "hacker-news",
-      "forum",
-      "text",
-      "parquet",
-      "community",
-      "tech",
-      "comments",
-      "live-updated"
-    ],
-    "created_at": "2026-03-14T09:58:41.000Z",
-    "last_modified": "2026-05-13T05:23:20.000Z",
-    "url": "https://huggingface.co/datasets/open-index/hacker-news",
-    "date": "2026-05-13",
-    "source": "huggingface_dataset",
-    "type": "dataset",
     "research_score": 0.5
   },
   {
@@ -4501,133 +4468,5 @@
     "date": "2026-05-13",
     "source": "arxiv",
     "research_score": 0.45
-  },
-  {
-    "model_id": "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch",
-    "author": "unknown",
-    "title": "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch",
-    "downloads": 1075,
-    "likes": 1,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma4_text",
-      "text-generation",
-      "terminal",
-      "sft",
-      "vllm",
-      "tb2-lite",
-      "conversational",
-      "en",
-      "ko",
-      "base_model:google/gemma-4-E4B",
-      "base_model:finetune:google/gemma-4-E4B",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-09T19:31:30.000Z",
-    "last_modified": "2026-05-13T05:23:17.000Z",
-    "days_since_creation": 3,
-    "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch",
-    "date": "2026-05-13",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch",
-    "author": "unknown",
-    "title": "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch",
-    "downloads": 1108,
-    "likes": 1,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma4_text",
-      "text-generation",
-      "terminal",
-      "sft",
-      "vllm",
-      "tb2-lite",
-      "conversational",
-      "en",
-      "ko",
-      "base_model:google/gemma-4-E4B-it",
-      "base_model:finetune:google/gemma-4-E4B-it",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-09T19:22:29.000Z",
-    "last_modified": "2026-05-13T05:23:13.000Z",
-    "days_since_creation": 3,
-    "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch",
-    "date": "2026-05-13",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "summerMC/summer-dance",
-    "author": "unknown",
-    "title": "summerMC/summer-dance",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "dancemodel",
-      "text2text-generation",
-      "reservoir-computing",
-      "translation",
-      "nllb",
-      "custom_code",
-      "region:us"
-    ],
-    "pipeline_tag": "translation",
-    "library": "transformers",
-    "created_at": "2026-05-13T05:21:17.000Z",
-    "last_modified": "2026-05-13T05:21:48.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/summerMC/summer-dance",
-    "date": "2026-05-13",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "sjin4861/asap-7shot-sim-option3-grpo-qwen3.5.9b-fold1-20260512-135107",
-    "author": "unknown",
-    "title": "sjin4861/asap-7shot-sim-option3-grpo-qwen3.5.9b-fold1-20260512-135107",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3_5_text",
-      "text-generation",
-      "generated_from_trainer",
-      "grpo",
-      "trl",
-      "conversational",
-      "arxiv:2402.03300",
-      "base_model:sjin4861/asap-7shot-sim-option2-sft-qwen3.5.9b-fold1-20260509-144751",
-      "base_model:finetune:sjin4861/asap-7shot-sim-option2-sft-qwen3.5.9b-fold1-20260509-144751",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-12T04:53:10.000Z",
-    "last_modified": "2026-05-13T05:21:16.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/sjin4861/asap-7shot-sim-option3-grpo-qwen3.5.9b-fold1-20260512-135107",
-    "date": "2026-05-13",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
