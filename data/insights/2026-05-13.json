@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-13T00:54:58.646834",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch",
+        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch"
+      },
+      {
+        "title": "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch",
+        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch"
+      },
+      {
+        "title": "Morteza89/gpt-oss-120b-int8-ov",
+        "url": "https://huggingface.co/Morteza89/gpt-oss-120b-int8-ov"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
+  }
+}
