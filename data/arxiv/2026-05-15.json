@@ -111,7 +111,7 @@
   {
     "arxiv_id": "2605.15082v1",
     "title": "Average Gradient Outer Product in kernel regression provably recovers the central subspace for multi-index models",
-    "summary": "We study a prototypical situation when a learned predictor can discover useful low-dimensional structure in data, while using fewer samples than are needed for accurate prediction. Specifically, we consider the problem of recovering a multi-index polynomial $f^*(x)=h(Ux)$, with $U\\in\\mathbb{R}^{r\\times d}$ and $r\\ll d$, from finitely many data/label pairs. Importantly, the target function depends on input $x$ only through the projection onto an unknown $r$-dimensional central subspace. The algorithm we analyze is appealingly simple: fit kernel ridge regression (KRR) to the data and compute the Average Gradient Outer Product (AGOP) from the fitted predictor. Our main results show that under reasonable assumptions the top $r$-dimensional eigenspace of AGOP provably recovers the central subspace, even in regimes when the prediction error remains large. Specifically, if the target function $f^*$ has degree $p^*$, it is known that $n\\asymp d^{p^*}$ samples are necessary for KRR to achieve accurate prediction. In contrast, we show that if a low degree $p$ component of $f^*$ already carries all relevant directions for prediction, subspace recovery occurs in the much lower sample regime $n\\asymp d^{p+\u03b4}$ for any $\u03b4\\in(0,1)$. Our results thus demonstrate a separation between prediction and representation, and provide an explanation for why iterative kernel methods such as Recursive Feature Machines (RFM) can be sample-efficient in practice.",
+    "summary": "We study a prototypical situation when a learned predictor can discover useful low-dimensional structure in data, while using fewer samples than are needed for accurate prediction. Specifically, we consider the problem of recovering a multi-index polynomial $f^*(x)=h(Ux)$, with $U\\in\\mathbb{R}^{r\\times d}$ and $r\\ll d$, from finitely many data/label pairs. Importantly, the target function depends on input $x$ only through the projection onto an unknown $r$-dimensional central subspace. The algorithm we analyze is appealingly simple: fit kernel ridge regression (KRR) to the data and compute the Average Gradient Outer Product (AGOP) from the fitted predictor. Our main results show that under reasonable assumptions the top $r$-dimensional eigenspace of AGOP provably recovers the central subspace, even in regimes when the prediction error remains large. Specifically, if the target function $f^*$ has degree $p^*$, it is known that $n\\asymp d^{p^*}$ samples are necessary for KRR to achieve accurate prediction. In contrast, we show that if a low degree $p$ component of $f^*$ already carries all relevant directions for prediction, subspace recovery occurs in the much lower sample regime $n\\asymp d^{p+δ}$ for any $δ\\in(0,1)$. Our results thus demonstrate a separation between prediction and representation, and provide an explanation for why iterative kernel methods such as Recursive Feature Machines (RFM) can be sample-efficient in practice.",
     "authors": [
       "Libin Zhu",
       "Damek Davis",
@@ -236,7 +236,7 @@
   {
     "arxiv_id": "2605.14984v1",
     "title": "Sat3DGen: Comprehensive Street-Level 3D Scene Generation from Single Satellite Image",
-    "summary": "Generating a street-level 3D scene from a single satellite image is a crucial yet challenging task. Current methods present a stark trade-off: geometry-colorization models achieve high geometric fidelity but are typically building-focused and lack semantic diversity. In contrast, proxy-based models use feed-forward image-to-3D frameworks to generate holistic scenes by jointly learning geometry and texture, a process that yields rich content but coarse and unstable geometry. We attribute these geometric failures to the extreme viewpoint gap and sparse, inconsistent supervision inherent in satellite-to-street data. We introduce Sat3DGen to address these fundamental challenges, which embodies a geometry-first methodology. This methodology enhances the feed-forward paradigm by integrating novel geometric constraints with a perspective-view training strategy, explicitly countering the primary sources of geometric error. This geometry-centric strategy yields a dramatic leap in both 3D accuracy and photorealism. For validation, we first constructed a new benchmark by pairing the VIGOR-OOD test set with high-resolution DSM data. On this benchmark, our method improves geometric RMSE from 6.76m to 5.20m. Crucially, this geometric leap also boosts photorealism, reducing the Fr\u00e9chet Inception Distance (FID) from $\\sim$40 to 19 against the leading method, Sat2Density++, despite using no extra tailored image-quality modules. We demonstrate the versatility of our high-quality 3D assets through diverse downstream applications, including semantic-map-to-3D synthesis, multi-camera video generation, large-scale meshing, and unsupervised single-image Digital Surface Model (DSM) estimation. The code has been released on https://github.com/qianmingduowan/Sat3DGen.",
+    "summary": "Generating a street-level 3D scene from a single satellite image is a crucial yet challenging task. Current methods present a stark trade-off: geometry-colorization models achieve high geometric fidelity but are typically building-focused and lack semantic diversity. In contrast, proxy-based models use feed-forward image-to-3D frameworks to generate holistic scenes by jointly learning geometry and texture, a process that yields rich content but coarse and unstable geometry. We attribute these geometric failures to the extreme viewpoint gap and sparse, inconsistent supervision inherent in satellite-to-street data. We introduce Sat3DGen to address these fundamental challenges, which embodies a geometry-first methodology. This methodology enhances the feed-forward paradigm by integrating novel geometric constraints with a perspective-view training strategy, explicitly countering the primary sources of geometric error. This geometry-centric strategy yields a dramatic leap in both 3D accuracy and photorealism. For validation, we first constructed a new benchmark by pairing the VIGOR-OOD test set with high-resolution DSM data. On this benchmark, our method improves geometric RMSE from 6.76m to 5.20m. Crucially, this geometric leap also boosts photorealism, reducing the Fréchet Inception Distance (FID) from $\\sim$40 to 19 against the leading method, Sat2Density++, despite using no extra tailored image-quality modules. We demonstrate the versatility of our high-quality 3D assets through diverse downstream applications, including semantic-map-to-3D synthesis, multi-camera video generation, large-scale meshing, and unsupervised single-image Digital Surface Model (DSM) estimation. The code has been released on https://github.com/qianmingduowan/Sat3DGen.",
     "authors": [
       "Ming Qian",
       "Zimin Xia",
@@ -400,8 +400,8 @@
   },
   {
     "arxiv_id": "2605.15093v1",
-    "title": "CoralLite: \u03bcCT Reconstruction of Coral Colonies from Individual Corallites",
-    "summary": "The life history of an individual coral is archived within the accreting skeleton of the colony. While reef-forming coral colonies (e.g. massive \\emph{Porites} sp.) may live for hundreds of years and deposit calcareous structures many metres in height and width, their living tissue is a thin outer surface layer comprised of asexually-dividing polyps that only survive a few years. To understand the rate and timing of polyp division and the consequences for colony skeletal growth, scientists need to track the skeletal corallite deposited around each polyp. Here we propose CoralLite, an annotated \u03bcCT scan dataset of entire calcareous skeletons and an associated, first corallite deep learning reconstruction baseline. CoralLite combines fully quantified volumetric segmentations with cross-slice linking for visualisations of 3D models for each corallite up to colony scale. For segmentation, we propose and evaluate in detail a hybrid V-Trans-UNet architecture applicable to segmenting tiled \u03bcCT virtual slabs of \\emph{Porites} sp. colonies. The model is pre-trained on weakly annotated data and topology-aware fine-tuned using fully annotated slice sections with 8k+ manual corallite region annotations. On unseen slices of the same colony, the resulting model reaches 0.94 topological accuracy at mean Dice scores of 0.77 on the same colony and projection axis, and 0.63 mean Dice scores on a different, biologically unrelated specimen. Whilst our experiments are limited in scale and context, our results show for the first time that visual machine learning can effectively support full 3D individual corallite modelling from \u03bcCT scans of coral skeletons alone. For reproducibility and as a baseline for future research we publish our full dataset of 697 \u03bcCT slices, 37 partial or full slice annotations, and all network weights and source code with this paper.",
+    "title": "CoralLite: μCT Reconstruction of Coral Colonies from Individual Corallites",
+    "summary": "The life history of an individual coral is archived within the accreting skeleton of the colony. While reef-forming coral colonies (e.g. massive \\emph{Porites} sp.) may live for hundreds of years and deposit calcareous structures many metres in height and width, their living tissue is a thin outer surface layer comprised of asexually-dividing polyps that only survive a few years. To understand the rate and timing of polyp division and the consequences for colony skeletal growth, scientists need to track the skeletal corallite deposited around each polyp. Here we propose CoralLite, an annotated μCT scan dataset of entire calcareous skeletons and an associated, first corallite deep learning reconstruction baseline. CoralLite combines fully quantified volumetric segmentations with cross-slice linking for visualisations of 3D models for each corallite up to colony scale. For segmentation, we propose and evaluate in detail a hybrid V-Trans-UNet architecture applicable to segmenting tiled μCT virtual slabs of \\emph{Porites} sp. colonies. The model is pre-trained on weakly annotated data and topology-aware fine-tuned using fully annotated slice sections with 8k+ manual corallite region annotations. On unseen slices of the same colony, the resulting model reaches 0.94 topological accuracy at mean Dice scores of 0.77 on the same colony and projection axis, and 0.63 mean Dice scores on a different, biologically unrelated specimen. Whilst our experiments are limited in scale and context, our results show for the first time that visual machine learning can effectively support full 3D individual corallite modelling from μCT scans of coral skeletons alone. For reproducibility and as a baseline for future research we publish our full dataset of 697 μCT slices, 37 partial or full slice annotations, and all network weights and source code with this paper.",
     "authors": [
       "Jess Jones",
       "Leonardo Bertini",
@@ -453,7 +453,7 @@
       "Tobias Feigl",
       "Felix Ott",
       "Christopher Mutschler",
-      "Alexander R\u00fcgamer"
+      "Alexander Rügamer"
     ],
     "categories": [
       "cs.LG",
@@ -468,8 +468,8 @@
   },
   {
     "arxiv_id": "2605.14779v1",
-    "title": "Peng's Q($\u03bb$) for Conservative Value Estimation in Offline Reinforcement Learning",
-    "summary": "We propose a model-free offline multi-step reinforcement learning (RL) algorithm, Conservative Peng's Q($\u03bb$) (CPQL). Our algorithm adapts the Peng's Q($\u03bb$) (PQL) operator for conservative value estimation as an alternative to the Bellman operator. To the best of our knowledge, this is the first work in offline RL to theoretically and empirically demonstrate the effectiveness of conservative value estimation with a \\textit{multi-step} operator by fully leveraging offline trajectories. The fixed point of the PQL operator in offline RL lies closer to the value function of the behavior policy, thereby naturally inducing implicit behavior regularization. CPQL simultaneously mitigates over-pessimistic value estimation, achieves performance greater than (or equal to) that of the behavior policy, and provides near-optimal performance guarantees -- a milestone that previous conservative approaches could not achieve. Extensive numerical experiments on the D4RL benchmark demonstrate that CPQL consistently and significantly outperforms existing offline single-step baselines. In addition to the contributions of CPQL in offline RL, our proposed method also contributes to the offline-to-online learning framework. Using the Q-function pre-trained by CPQL in offline settings enables the online PQL agent to avoid the performance drop typically observed at the start of fine-tuning and to attain robust performance improvements. Our code is available at https://github.com/oh-lab/CPQL.",
+    "title": "Peng's Q($λ$) for Conservative Value Estimation in Offline Reinforcement Learning",
+    "summary": "We propose a model-free offline multi-step reinforcement learning (RL) algorithm, Conservative Peng's Q($λ$) (CPQL). Our algorithm adapts the Peng's Q($λ$) (PQL) operator for conservative value estimation as an alternative to the Bellman operator. To the best of our knowledge, this is the first work in offline RL to theoretically and empirically demonstrate the effectiveness of conservative value estimation with a \\textit{multi-step} operator by fully leveraging offline trajectories. The fixed point of the PQL operator in offline RL lies closer to the value function of the behavior policy, thereby naturally inducing implicit behavior regularization. CPQL simultaneously mitigates over-pessimistic value estimation, achieves performance greater than (or equal to) that of the behavior policy, and provides near-optimal performance guarantees -- a milestone that previous conservative approaches could not achieve. Extensive numerical experiments on the D4RL benchmark demonstrate that CPQL consistently and significantly outperforms existing offline single-step baselines. In addition to the contributions of CPQL in offline RL, our proposed method also contributes to the offline-to-online learning framework. Using the Q-function pre-trained by CPQL in offline settings enables the online PQL agent to avoid the performance drop typically observed at the start of fine-tuning and to attain robust performance improvements. Our code is available at https://github.com/oh-lab/CPQL.",
     "authors": [
       "Byeongchan Kim",
       "Min-hwan Oh"
@@ -673,7 +673,7 @@
     "summary": "Low-rank adaptation (LoRA) has become the dominant paradigm for parameter-efficient fine-tuning (PEFT) of large language models (LLMs). However, its bilinear structure introduces a critical limitation: the mapping from trainable parameters to weight updates is not distance-preserving, distorting the optimization landscape. Methods that project a low-dimensional vector into LoRA's parameter space, such as Uni-LoRA, improve parameter efficiency, but the subsequent bilinear LoRA map breaks end-to-end isometry, leaving the core distance-preservation problem unresolved. We propose GPart (Global Partition fine-tuning), a highly parameter-efficient fine-tuning method which removes the low-rank bottleneck entirely. Our method uses a single isometric partition matrix to map a $d$-dimensional trainable vector directly into the full weight space of the model. The result is an extremely minimal fine-tuning pipeline: one random projection, end-to-end isometric, with a single clean hyperparameter ($d$) and storage cost of $d+1$ values (the trainable vector plus a random seed). GPart builds on the theoretical premise that effective fine-tuning can emerge from random low-dimensional subspaces of the full weight space, without imposing low-rank matrix structure. We empirically demonstrate the superior or comparable performance of GPart to existing PEFT methods on natural language understanding, computer vision tasks, and mathematical reasoning. Overall, GPart achieves state-of-the-art efficiency and performance by removing structural constraints, offering a straightforward and elegant path to PEFT.",
     "authors": [
       "Paolo Mandica",
-      "Micha\u0142 Brzozowski",
+      "Michał Brzozowski",
       "Zuzanna Dubanowska",
       "Neo Christopher Chung"
     ],
@@ -957,7 +957,7 @@
   {
     "arxiv_id": "2605.14953v1",
     "title": "Efficient Online Conformal Selection with Limited Feedback",
-    "summary": "We address the problem of conformal selection, where an agent must select a minimal subset of options to ensure that at least one ``success'' is identified with a pre-specified target probability $\u03c6$. While traditional online conformal prediction focuses on maintaining validity for the observed sequence, minimizing the resource cost (efficiency) of such selections, especially under limited feedback, remains a significant challenge. In this work, we consider settings with the most limited ``bandit'' feedback, and demonstrate that the simple Adaptive Conformal Inference (ACI) update rule, when applied to the appropriate control parameter or dual variable, is both adversarially valid, ensuring the success target is met on average for any input sequence (and hence under distribution shifts), and stochastically efficient, achieving sublinear efficiency regret for $i.i.d.$ inputs against an appropriate stochastic benchmark. We show such guarantees under canonical models capturing bandit and semi-bandit feedback to the agent via a unifying algorithmic technique, and analytic framework involving Lyapunov functions. Our approach handles more complex settings than prior work, while requiring significantly less feedback, and our results provide a new theoretical bridge between efficient online learning with limited feedback and distribution-free uncertainty quantification.",
+    "summary": "We address the problem of conformal selection, where an agent must select a minimal subset of options to ensure that at least one ``success'' is identified with a pre-specified target probability $φ$. While traditional online conformal prediction focuses on maintaining validity for the observed sequence, minimizing the resource cost (efficiency) of such selections, especially under limited feedback, remains a significant challenge. In this work, we consider settings with the most limited ``bandit'' feedback, and demonstrate that the simple Adaptive Conformal Inference (ACI) update rule, when applied to the appropriate control parameter or dual variable, is both adversarially valid, ensuring the success target is met on average for any input sequence (and hence under distribution shifts), and stochastically efficient, achieving sublinear efficiency regret for $i.i.d.$ inputs against an appropriate stochastic benchmark. We show such guarantees under canonical models capturing bandit and semi-bandit feedback to the agent via a unifying algorithmic technique, and analytic framework involving Lyapunov functions. Our approach handles more complex settings than prior work, while requiring significantly less feedback, and our results provide a new theoretical bridge between efficient online learning with limited feedback and distribution-free uncertainty quantification.",
     "authors": [
       "Sreenivas Gollapudi",
       "Kostas Kollias",
@@ -1025,7 +1025,7 @@
     "title": "K-Models: a Flexible and Interpretable Method for Ordinal Clustering with Application to Antigen-Antibody Interaction Profiles",
     "summary": "Existing clustering methods for functional data often prioritize partitioning accuracy over interpretability, making it challenging to extract meaningful insights when the data-generating process follows a specific underlying structure and an ordinal relationship among clusters is suspected. This work introduces K-Models, a novel framework that integrates ordinal constraints and estimates key underlying elements of the random process generating the observed functional profiles, improving both interpretability and structure identification. The proposed method is evaluated through simulations and real-world applications. In particular, it is tested on Region of Interest (ROI) curves, which represent reaction profiles from a reflectometric sensor monitoring biomolecular interactions, such as antigen-antibody binding. These curves represent changes in reflected light intensity over time at multiple measurement spots with immobilized antigens during analyte exposure, capturing the binding dynamics of the system. The goal is to identify intrinsic signal patterns solely from the observed dynamics, making this dataset an ideal benchmark for assessing the added interpretability of the proposed approach. By incorporating structural assumptions into the clustering process, K-Models enhances interpretability while maintaining performance comparable to state-of-the-art techniques, providing a valuable tool for analyzing functional data with an underlying ordinal structure.",
     "authors": [
-      "Giulia Patan\u00e8",
+      "Giulia Patanè",
       "Alessandra Menafoglio",
       "Alexander Krauth",
       "Peter Fechner",
@@ -1476,13 +1476,13 @@
     "title": "From Data to Action: Accelerating Refinery Optimization with AI",
     "summary": "Nowadays refinery optimization utilizes sheer amounts of data, which can be handled with modern Linear Programming (LP) software, but the interpreting and applying the results remains challenging. Large petrochemical companies use massive models, with hundreds of thousands of input matrix elements. The LP solution is mathematically correct, but simplifications are made in the model, and data supply errors may occur. Therefore, further insight is needed to trust the results. The LP solver does not have a memory, so additional understanding could be gained by analyzing historical data and comparing it to the current plan. As such, machine learning approaches were suggested to support decision making based on the LP solution. Among these, Anomaly Detection tools are proposed to be used in tandem with the LP output. A transformed version of the popular ECOD methodology is applied. New methods are proposed to handle high-dimensional data: choosing the most informative pairs. Then, this is used alongside two 2D Anomaly Detection algorithms, revealing several business opportunities and data supply errors in the MOL refinery scheduling and planning architecture.",
     "authors": [
-      "D\u00e1niel Pfeifer",
-      "\u00c1brah\u00e1m Papp",
-      "Tibor Bern\u00e1th",
-      "Tam\u00e1s Zolt\u00e1n Varga",
-      "M\u00e1rk Czifra",
-      "Botond Szil\u00e1gyi",
-      "Edith Alice Kov\u00e1cs"
+      "Dániel Pfeifer",
+      "Ábrahám Papp",
+      "Tibor Bernáth",
+      "Tamás Zoltán Varga",
+      "Márk Czifra",
+      "Botond Szilágyi",
+      "Edith Alice Kovács"
     ],
     "categories": [
       "stat.ML",
@@ -1565,7 +1565,7 @@
   {
     "arxiv_id": "2605.14876v1",
     "title": "Unlocking Complex Visual Generation via Closed-Loop Verified Reasoning",
-    "summary": "Despite rapid advancements, current text-to-image (T2I) models predominantly rely on a single-step generation paradigm, which struggles with complex semantics and faces diminishing returns from parameter scaling.   While recent multi-step reasoning approaches show promise, they are hindered by ungrounded planning hallucinations lacking verification, monolithic post-hoc reflection, long-context optimization instabilities, and prohibitive inference latency. To overcome these bottlenecks, we propose the Closed-Loop Visual Reasoning (CLVR) framework, a comprehensive system that deeply couples visual-language logical planning with pixel-level diffusion generation. CLVR introduces an automated data engine with step-level visual verification to synthesize reliable reasoning trajectories, and proposes Proxy Prompt Reinforcement Learning (PPRL) to resolve long-context optimization instabilities by distilling interleaved multimodal histories into explicit reward signals for accurate causal attribution. Furthermore, to mitigate the severe latency bottleneck caused by iterative denoising, we propose $\u0394$-Space Weight Merge (DSWM), a theoretically grounded method that fuses alignment weights with off-the-shelf distillation priors, reducing the per-step inference cost to just 4 NFEs without requiring expensive re-distillation. Extensive experiments demonstrate that CLVR outperforms existing open-source baselines across multiple benchmarks and approaches the performance of proprietary commercial models, unlocking general test-time scaling capabilities for complex visual generation.",
+    "summary": "Despite rapid advancements, current text-to-image (T2I) models predominantly rely on a single-step generation paradigm, which struggles with complex semantics and faces diminishing returns from parameter scaling.   While recent multi-step reasoning approaches show promise, they are hindered by ungrounded planning hallucinations lacking verification, monolithic post-hoc reflection, long-context optimization instabilities, and prohibitive inference latency. To overcome these bottlenecks, we propose the Closed-Loop Visual Reasoning (CLVR) framework, a comprehensive system that deeply couples visual-language logical planning with pixel-level diffusion generation. CLVR introduces an automated data engine with step-level visual verification to synthesize reliable reasoning trajectories, and proposes Proxy Prompt Reinforcement Learning (PPRL) to resolve long-context optimization instabilities by distilling interleaved multimodal histories into explicit reward signals for accurate causal attribution. Furthermore, to mitigate the severe latency bottleneck caused by iterative denoising, we propose $Δ$-Space Weight Merge (DSWM), a theoretically grounded method that fuses alignment weights with off-the-shelf distillation priors, reducing the per-step inference cost to just 4 NFEs without requiring expensive re-distillation. Extensive experiments demonstrate that CLVR outperforms existing open-source baselines across multiple benchmarks and approaches the performance of proprietary commercial models, unlocking general test-time scaling capabilities for complex visual generation.",
     "authors": [
       "Hanbo Cheng",
       "Limin Lin",
@@ -2163,14 +2163,14 @@
   },
   {
     "arxiv_id": "2605.15195v1",
-    "title": "VGGT-$\u03a9$",
-    "summary": "Recent feed-forward reconstruction models, such as VGGT, have proven competitive with traditional optimization-based reconstructors while also providing geometry-aware features useful for other tasks. Here, we show that the quality of these models scales predictably with model and data size. We do so by introducing VGGT-$\u03a9$, which substantially improves reconstruction accuracy, efficiency, and capabilities for both static and dynamic scenes. To enable training this model at an unprecedented scale, we introduce architectural changes that improve training efficiency, a high-quality data annotation pipeline that supports dynamic scenes, and a self-supervised learning protocol. We simplify VGGT's architecture by using a single dense prediction head with multi-task supervision and removing the expensive high-resolution convolutional layers. We also use registers to aggregate scene information into a compact representation and introduce register attention, which restricts inter-frame information exchange to these registers, in part replacing global attention. In this way, during training, VGGT-$\u03a9$ uses only about 30% of the GPU memory of its predecessor, allowing us to train with 15x more supervised data than prior work and to leverage vast amounts of unlabeled video data. VGGT-$\u03a9$ achieves strong results for reconstruction of static and dynamic scenes across multiple benchmarks, for example, improving over the previous best camera estimation accuracy on Sintel by 77%. We also show that the learned registers can improve vision-language-action models and support alignment with language, suggesting that reconstruction can be a powerful and scalable proxy task for spatial understanding. Project Page: http://vggt-omega.github.io/",
+    "title": "VGGT-$Ω$",
+    "summary": "Recent feed-forward reconstruction models, such as VGGT, have proven competitive with traditional optimization-based reconstructors while also providing geometry-aware features useful for other tasks. Here, we show that the quality of these models scales predictably with model and data size. We do so by introducing VGGT-$Ω$, which substantially improves reconstruction accuracy, efficiency, and capabilities for both static and dynamic scenes. To enable training this model at an unprecedented scale, we introduce architectural changes that improve training efficiency, a high-quality data annotation pipeline that supports dynamic scenes, and a self-supervised learning protocol. We simplify VGGT's architecture by using a single dense prediction head with multi-task supervision and removing the expensive high-resolution convolutional layers. We also use registers to aggregate scene information into a compact representation and introduce register attention, which restricts inter-frame information exchange to these registers, in part replacing global attention. In this way, during training, VGGT-$Ω$ uses only about 30% of the GPU memory of its predecessor, allowing us to train with 15x more supervised data than prior work and to leverage vast amounts of unlabeled video data. VGGT-$Ω$ achieves strong results for reconstruction of static and dynamic scenes across multiple benchmarks, for example, improving over the previous best camera estimation accuracy on Sintel by 77%. We also show that the learned registers can improve vision-language-action models and support alignment with language, suggesting that reconstruction can be a powerful and scalable proxy task for spatial understanding. Project Page: http://vggt-omega.github.io/",
     "authors": [
       "Jianyuan Wang",
       "Minghao Chen",
       "Shangzhan Zhang",
       "Nikita Karaev",
-      "Johannes Sch\u00f6nberger",
+      "Johannes Schönberger",
       "Patrick Labatut",
       "Piotr Bojanowski",
       "David Novotny",
@@ -2320,7 +2320,7 @@
     "authors": [
       "Senne Deproost",
       "Denis Steckelmacher",
-      "Ann Now\u00e9"
+      "Ann Nowé"
     ],
     "categories": [
       "cs.LG",
@@ -2339,8 +2339,8 @@
     "summary": "Contrastively pre-trained Vision-Language Models (VLMs) serve as powerful feature extractors. Yet, their shared latent spaces are prone to structural anomalies and act as repositories for non-semantic, multi-modal noise. To address this phenomenon, we employ spectral decomposition of covariance matrices to decompose the VLM latent space into a multi-modal semantic signal component and a shared noise subspace. We observe that this noise geometry exhibits strong subgroup invariance across distinct data subsets. Crucially, pruning these shared noise dimensions is mainly harmless, preserving or actively improving downstream task performance. By isolating true semantic signals from artifactual noise, this work provides new mechanistic insights into the representational structure of modern VLMs, suggesting that a substantial fraction of their latent geometry is governed by shared, architecture-level noise rather than task-relevant semantics alone.",
     "authors": [
       "Jakub Grzywaczewski",
-      "Dawid P\u0142udowski",
-      "Przemys\u0142aw Biecek"
+      "Dawid Płudowski",
+      "Przemysław Biecek"
     ],
     "categories": [
       "cs.CV",
@@ -2896,7 +2896,7 @@
     "summary": "Topological clustering, and its main algorithm ToMATo, is a clustering method from Topological Data Analysis (TDA) which has been applied successfully in several applications during the last few years. This is due to its high versatility, as clusters are detected from the persistent components in the sublevel sets of any user-defined function (gene expression, pixel values, etc), and efficiency, as topological clustering enjoys robustness guarantees. However, ToMATo is also limited in several ways. First, a graph on the data points needs to be provided as a hyper-parameter of the method (whose fine-tuning is left to the user). Second, ToMATo is known to be very sensitive to outlier values in the function range. Finally, and most importantly, ToMATo can only handle one function at a time, whereas it is critical to use several functions in various applications. In this article, we introduce ToMAToMP: the first topological clustering method able to handle several functions at the same time with theoretical guarantees. More specifically, we leverage a recent tool from multi-parameter persistent homology, called MMA decomposition, to design our clustering algorithm, and prove that it enjoys robustness properties. As corollaries, we show that it can be used to make ToMATo independent of graph tuning, and robust to outliers. Finally, we provide a set of numerical experiments showcasing the efficiency and quality of the clusterings produced by ToMAToMP, by showing strong improvement over non-topological and topological baselines for various datasets.",
     "authors": [
       "Ludo Andrianirina",
-      "Mathieu Carri\u00e8re"
+      "Mathieu Carrière"
     ],
     "categories": [
       "cs.LG",
@@ -3123,7 +3123,7 @@
     "summary": "One of the bottlenecks on the way towards recursively self-improving systems is the challenge of interestingness: the ability to prospectively identify which tasks or data hold the potential for future progress. We formalize interestingness as an inductive heuristic for future compression progress and investigate its predictability using tools from Kolmogorov Complexity and Algorithmic Statistics. By analyzing complexity-runtime profiles under Length, Algorithmic, and Speed priors, we demonstrate that the inductive property of interestingness -- the capacity for past progress to signal future discovery -- is theoretically viable and empirically supported. We prove that expected future progress depends exponentially on the recency of the last observed breakthrough. Furthermore, we show that the Algorithmic Prior is significantly more optimistic than the Length Prior, yielding a quadratic increase in expected discovery for the same observed profile. These findings are experimentally confirmed across three diverse universal computational paradigms.",
     "authors": [
       "Vincent Herrmann",
-      "J\u00fcrgen Schmidhuber"
+      "Jürgen Schmidhuber"
     ],
     "categories": [
       "cs.AI",
@@ -3146,8 +3146,8 @@
       "Jonas V. Funk",
       "Andreas Michel",
       "Georg Maier",
-      "Thomas L\u00e4ngle",
-      "J\u00fcrgen Beyerer"
+      "Thomas Längle",
+      "Jürgen Beyerer"
     ],
     "categories": [
       "cs.CV"
@@ -3293,7 +3293,7 @@
     "authors": [
       "Pooja Prajod",
       "Hannes Cools",
-      "Thomas R\u00f6ggla",
+      "Thomas Röggla",
       "Pablo Cesar",
       "Abdallah El Ali"
     ],
@@ -3355,7 +3355,7 @@
     "authors": [
       "Kamil Ciosek",
       "Aleksandr V. Petrov",
-      "Nicol\u00f2 Felicioni",
+      "Nicolò Felicioni",
       "Konstantina Palla"
     ],
     "categories": [
@@ -3436,10 +3436,10 @@
     "summary": "An index is a function that given an election outputs a value between 0 and 1, indicating the extent to which this election has a particular feature. We seek indices that capture agreement, diversity, and polarization among voters in approval elections, and that are normalized with respect to saturation. By the latter we mean that if two elections differ by the fraction of candidates approved by an average voter, but otherwise are of similar nature, then they should have similar index values. We propose several indices, analyze their properties, and use them to (a) derive a new map of approval elections, and (b) show similarities and differences between various real-life elections from Pabulib, Preflib and other sources.",
     "authors": [
       "Piotr Faliszewski",
-      "Jitka Mertlov\u00e1",
+      "Jitka Mertlová",
       "Krzysztof Sornat",
-      "Stanis\u0142aw Szufa",
-      "Tomasz W\u0105s"
+      "Stanisław Szufa",
+      "Tomasz Wąs"
     ],
     "categories": [
       "cs.GT",
@@ -3520,7 +3520,7 @@
     "summary": "Training deep neural networks at scale can benefit from domain decomposition, where the network is split into subdomains trained in parallel and coupled by a global trust-region mechanism. Building on the Additively Preconditioned Trust-Region Strategy (APTS), we propose a non-monotone variant with a nonlinear additive Schwarz preconditioner that combines parallel subdomain corrections with global coarse-space directions. A windowed acceptance criterion allows controlled objective increases, avoiding needless rejection of effective coarse steps. The resulting non-monotone APTS (NAPTS) preserves accuracy while reducing CPU time by 30\\% and cutting rejected steps to one third of those in APTS.",
     "authors": [
       "Andrea Angino",
-      "Bindi \u00c7apriqi",
+      "Bindi Çapriqi",
       "Shega Likaj",
       "Ken Trotti",
       "Rolf Krause"
@@ -3628,12 +3628,12 @@
     "summary": "Robust state estimation for highly dynamic motion of legged robots remains challenging, especially in dynamic, contact-rich scenarios. Traditional approaches often rely on binary contact states that fail to capture the nuances of partial contact or directional slippage. This paper presents CoCo-InEKF, a differentiable invariant extended Kalman filter that utilizes continuous contact velocity covariances instead of binary contact states. These learned covariances allow the method to dynamically modulate contact confidence, accounting for more nuanced conditions ranging from firm contact to directional slippage or no contact. To predict these covariances for a set of predefined contact candidate points, we employ a lightweight neural network trained end-to-end using a state-error loss. This approach eliminates the need for heuristic ground-truth contact labels. In addition, we propose an automated contact candidate selection procedure and demonstrate that our method is insensitive to their exact placement. Experiments on a bipedal robot demonstrate a superior accuracy-efficiency tradeoff for linear velocity estimation, as well as improved filter consistency compared to baseline methods. This enables the robust execution of challenging motions, including dancing and complex ground interactions -- both in simulation and in the real world.",
     "authors": [
       "Michael Baumgartner",
-      "David M\u00fcller",
+      "David Müller",
       "Agon Serifi",
       "Ruben Grandia",
       "Espen Knoop",
       "Markus Gross",
-      "Moritz B\u00e4cher"
+      "Moritz Bächer"
     ],
     "categories": [
       "cs.RO",
@@ -4016,7 +4016,7 @@
     "summary": "The success of deep learning in high-dimensional settings is often attributed to the presence of low-dimensional structure in real-world data. While standard theoretical models typically assume that this structure lies in the target function, projecting unstructured inputs onto a low-dimensional subspace, data such as images, text or genomic sequences exhibit strong spatial correlations within the input space itself. In this paper, we propose a tractable model to study how these correlations affect the sample complexity of learning with gradient descent on shallow neural networks. Specifically, we consider targets that depend on a small number of latent Boolean variables, and input features grouped into clusters and correlated with the latent variables. Under an identifiability assumption, we show that for a layerwise gradient-descent variant, the sample complexity scales with the number of hidden variables and, when the signal-to-noise ratio is sufficiently high, is independent of the input dimension, up to logarithmic terms. We empirically test our theoretical findings on both synthetic and real data.",
     "authors": [
       "Elisabetta Cornacchia",
-      "Laurent Massouli\u00e9"
+      "Laurent Massoulié"
     ],
     "categories": [
       "cs.LG"
@@ -4224,97 +4224,6 @@
     "research_score": 0.5
   },
   {
-    "model_id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-GGUF",
-    "author": "unknown",
-    "title": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-GGUF",
-    "downloads": 20834,
-    "likes": 3,
-    "tags": [
-      "gguf",
-      "uncensored",
-      "qwen3.6",
-      "moe",
-      "vision",
-      "multimodal",
-      "image-text-to-text",
-      "conversational",
-      "en",
-      "zh",
-      "multilingual",
-      "base_model:HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "base_model:quantized:HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "imatrix"
-    ],
-    "pipeline_tag": "image-text-to-text",
-    "library": "",
-    "created_at": "2026-05-13T15:08:25.000Z",
-    "last_modified": "2026-05-15T09:11:58.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-GGUF",
-    "date": "2026-05-15",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.5
-  },
-  {
-    "model_id": "FrontiersMind/Nandi-Mini-150M",
-    "author": "unknown",
-    "title": "FrontiersMind/Nandi-Mini-150M",
-    "downloads": 17075,
-    "likes": 133,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "nandi",
-      "text-generation",
-      "custom_code",
-      "en",
-      "hi",
-      "mr",
-      "ta",
-      "te",
-      "kn",
-      "ml",
-      "bn",
-      "pa",
-      "gu",
-      "or",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-01T13:19:41.000Z",
-    "last_modified": "2026-05-15T09:08:08.000Z",
-    "days_since_creation": 43,
-    "url": "https://huggingface.co/FrontiersMind/Nandi-Mini-150M",
-    "date": "2026-05-15",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.5
-  },
-  {
-    "dataset_id": "nvidia/HiLiftAeroML",
-    "author": "nvidia",
-    "title": "nvidia/HiLiftAeroML",
-    "downloads": 1726,
-    "likes": 21,
-    "tags": [
-      "license:cc-by-4.0",
-      "region:us"
-    ],
-    "created_at": "2025-11-14T22:19:24.000Z",
-    "last_modified": "2026-05-15T09:12:25.000Z",
-    "url": "https://huggingface.co/datasets/nvidia/HiLiftAeroML",
-    "date": "2026-05-15",
-    "source": "huggingface_dataset",
-    "type": "dataset",
-    "research_score": 0.5
-  },
-  {
     "arxiv_id": "2605.14781v1",
     "title": "MonoPRIO: Adaptive Prior Conditioning for Unified Monocular 3D Object Detection",
     "summary": "Monocular 3D object detection remains challenging because metric size and depth are underdetermined by single-view evidence, particularly under occlusion, truncation, and projection-induced scale-depth ambiguity. Although recent methods improve depth and geometric reasoning, metric size remains unstable in unified multi-class settings, where class variability and partial visibility broaden plausible size modes. We propose MonoPRIO, a unified monocular 3D detector that targets this bottleneck through adaptive prior conditioning in the size pathway. MonoPRIO constructs class-aware size prototypes offline, routes each decoder query to a soft mixture prior, applies uncertainty-aware log-space conditioning, and uses Cluster-Aligned Prior (CAP) regularisation on matched positives during training. On the official KITTI test server, MonoPRIO achieves the strongest fully reported unified multi-class result among methods reporting complete Car, Pedestrian, and Cyclist metrics. In the car-only setting, it also achieves the strongest 3D bounding-box AP across Easy/Moderate/Hard categories among compared methods without extra data, while using substantially less compute than MonoCLUE. Ablations and diagnostics show complementary gains from routed injection and CAP, with the largest benefits in ambiguity-prone, partially occluded, and low-data regimes. These findings indicate that adaptive priors are most effective when image evidence underdetermines metric size, while atypical geometry or extreme visibility loss can still cause mismatch between routed priors and true instance geometry. Code, trained models, result logs, and reproducibility material are available at https://github.com/bigggs/MonoPRIO.",
@@ -4323,7 +4232,7 @@
       "Qinggang Meng",
       "Mohamad Saada",
       "Baihua Li",
-      "Simon S\u00f8lvsten"
+      "Simon Sølvsten"
     ],
     "categories": [
       "cs.CV"
@@ -4500,7 +4409,7 @@
   {
     "arxiv_id": "2605.14836v1",
     "title": "First Mathematical Runtime Analyses of Multi-Objective Evolutionary Algorithms for Multi-Valued Decision Variables",
-    "summary": "Problems defined on binary decision spaces have been intensively studied in the theory of multi-objective evolutionary algorithms (MOEAs). In contrast, no mathematical runtime analyses exist so far for MOEAs dealing with decision variables that take a finite number $r > 2$ of values, despite the prevalence of such problems in practice. In this work, we begin to fill this research gap. We analyze how the classic SEMO algorithm with unit-strength local mutation computes the Pareto front of an $r$-valued counterpart of the classic \\oneminmax benchmark. For the expected number of function evaluations until the Pareto front is covered by the population of this MOEA, we prove an upper bound of $O(n^2 r^2 \\log n)$ and a near-tight lower bound of $\u03a9(n^2 r (r + \\log n))$. We can close the small remaining gap between these two bounds by considering a variant of the algorithm that accepts only strictly better solutions; for this variant, we show an upper bound of $O(n^2 r (r + \\log n))$, matching our lower bound (which also holds for this variant). Our results suggest that classic MOEAs encounter no significant additional difficulties when dealing with multi-valued decision variables. However, significantly more advanced tools may be required to obtain tight bounds for algorithms with more complex population dynamics.",
+    "summary": "Problems defined on binary decision spaces have been intensively studied in the theory of multi-objective evolutionary algorithms (MOEAs). In contrast, no mathematical runtime analyses exist so far for MOEAs dealing with decision variables that take a finite number $r > 2$ of values, despite the prevalence of such problems in practice. In this work, we begin to fill this research gap. We analyze how the classic SEMO algorithm with unit-strength local mutation computes the Pareto front of an $r$-valued counterpart of the classic \\oneminmax benchmark. For the expected number of function evaluations until the Pareto front is covered by the population of this MOEA, we prove an upper bound of $O(n^2 r^2 \\log n)$ and a near-tight lower bound of $Ω(n^2 r (r + \\log n))$. We can close the small remaining gap between these two bounds by considering a variant of the algorithm that accepts only strictly better solutions; for this variant, we show an upper bound of $O(n^2 r (r + \\log n))$, matching our lower bound (which also holds for this variant). Our results suggest that classic MOEAs encounter no significant additional difficulties when dealing with multi-valued decision variables. However, significantly more advanced tools may be required to obtain tight bounds for algorithms with more complex population dynamics.",
     "authors": [
       "Mingfeng Li",
       "Zheng Cheng",
@@ -4543,9 +4452,9 @@
     "summary": "We present SAGE3D, a hybrid Transformer-based model for corner detection in airborne LiDAR point clouds. We propose a multi-stage solution built on a hierarchical encoder-decoder architecture that progressively downsamples point clouds through Set Abstraction layers and recovers per-point predictions via Feature Propagation. We introduce two innovations: Soft-Guided Attention, which injects ground-truth corner labels as a log-prior into attention logits during training to improve precision; then an Excitatory Graph Neural Network positioned at strategic resolutions in the hierarchy, employing positive-only message passing where high-confidence corners reinforce predictions through learned boosting, optimizing for recall. The hierarchical design enables multi-scale feature extraction while our guided attention and excitatory modules ensure corner signals are amplified rather than diluted across scales.",
     "authors": [
       "Batuhan Arda Bekar",
-      "Can Sar\u0131",
-      "H\u00fcseyin Can G\u00fclkan",
-      "Bar\u0131\u015f \u00d6zcan"
+      "Can Sarı",
+      "Hüseyin Can Gülkan",
+      "Barış Özcan"
     ],
     "categories": [
       "cs.CV"
@@ -4605,403 +4514,6 @@
     "pdf_url": "https://arxiv.org/pdf/2605.14960v1.pdf",
     "date": "2026-05-15",
     "source": "arxiv",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "fpadovani/eng_10mb_after_shuff_dyck_smalltok_500",
-    "author": "unknown",
-    "title": "fpadovani/eng_10mb_after_shuff_dyck_smalltok_500",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "sft",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-15T08:45:25.000Z",
-    "last_modified": "2026-05-15T09:12:21.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/fpadovani/eng_10mb_after_shuff_dyck_smalltok_500",
-    "date": "2026-05-15",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ramen-noodels/audio_blue_round_button_small_val_unnormalized",
-    "author": "unknown",
-    "title": "ramen-noodels/audio_blue_round_button_small_val_unnormalized",
-    "downloads": 126,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "audio-spectrogram-transformer",
-      "audio-classification",
-      "generated_from_trainer",
-      "base_model:MIT/ast-finetuned-audioset-10-10-0.4593",
-      "base_model:finetune:MIT/ast-finetuned-audioset-10-10-0.4593",
-      "license:bsd-3-clause",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "audio-classification",
-    "library": "transformers",
-    "created_at": "2026-05-14T21:28:03.000Z",
-    "last_modified": "2026-05-15T09:12:18.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ramen-noodels/audio_blue_round_button_small_val_unnormalized",
-    "date": "2026-05-15",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ramen-noodels/audio_red_round_button_big_val_unnormalized",
-    "author": "unknown",
-    "title": "ramen-noodels/audio_red_round_button_big_val_unnormalized",
-    "downloads": 131,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "audio-spectrogram-transformer",
-      "audio-classification",
-      "generated_from_trainer",
-      "base_model:MIT/ast-finetuned-audioset-10-10-0.4593",
-      "base_model:finetune:MIT/ast-finetuned-audioset-10-10-0.4593",
-      "license:bsd-3-clause",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "audio-classification",
-    "library": "transformers",
-    "created_at": "2026-05-14T21:20:19.000Z",
-    "last_modified": "2026-05-15T09:11:20.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ramen-noodels/audio_red_round_button_big_val_unnormalized",
-    "date": "2026-05-15",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Solshine/gemma-4-e2b-nla-L23-av-v0_1_x-trajectory",
-    "author": "unknown",
-    "title": "Solshine/gemma-4-e2b-nla-L23-av-v0_1_x-trajectory",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "natural-language-autoencoder",
-      "nla",
-      "interpretability",
-      "mechanistic-interpretability",
-      "gemma",
-      "consumer-gpu",
-      "lora",
-      "training-trajectory",
-      "research-artifact",
-      "text-generation",
-      "en",
-      "base_model:google/gemma-4-E2B",
-      "base_model:adapter:google/gemma-4-E2B",
-      "license:cc-by-4.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-05-13T23:13:23.000Z",
-    "last_modified": "2026-05-15T09:11:17.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/Solshine/gemma-4-e2b-nla-L23-av-v0_1_x-trajectory",
-    "date": "2026-05-15",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "1010happy/qwen1.5B_ClaudeStagger",
-    "author": "unknown",
-    "title": "1010happy/qwen1.5B_ClaudeStagger",
-    "downloads": 63,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "trl",
-      "sft",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-15T00:26:09.000Z",
-    "last_modified": "2026-05-15T09:10:18.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/1010happy/qwen1.5B_ClaudeStagger",
-    "date": "2026-05-15",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "1010happy/qwen1.5B_ChatGPTStagger",
-    "author": "unknown",
-    "title": "1010happy/qwen1.5B_ChatGPTStagger",
-    "downloads": 113,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "trl",
-      "sft",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-15T00:25:17.000Z",
-    "last_modified": "2026-05-15T09:09:13.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/1010happy/qwen1.5B_ChatGPTStagger",
-    "date": "2026-05-15",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "aarony630/alio-medical",
-    "author": "unknown",
-    "title": "aarony630/alio-medical",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "gemma",
-      "gemma-4",
-      "medical",
-      "healthcare",
-      "lora",
-      "unsloth",
-      "ollama",
-      "caregiver",
-      "lab-interpretation",
-      "text-generation",
-      "en",
-      "base_model:unsloth/gemma-4-E2B-it",
-      "base_model:adapter:unsloth/gemma-4-E2B-it",
-      "license:gemma",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-05-15T08:53:12.000Z",
-    "last_modified": "2026-05-15T09:09:08.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/aarony630/alio-medical",
-    "date": "2026-05-15",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Ganymede981/ham10000-vit",
-    "author": "unknown",
-    "title": "Ganymede981/ham10000-vit",
-    "downloads": 1010,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:google/vit-base-patch16-224",
-      "lora",
-      "transformers",
-      "base_model:google/vit-base-patch16-224",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "peft",
-    "created_at": "2026-05-14T15:30:02.000Z",
-    "last_modified": "2026-05-15T09:07:45.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Ganymede981/ham10000-vit",
-    "date": "2026-05-15",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "HalogenFlo/qwen-2.5b-full-finetuned",
-    "author": "unknown",
-    "title": "HalogenFlo/qwen-2.5b-full-finetuned",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "sft",
-      "conversational",
-      "base_model:Qwen/Qwen2.5-0.5B-Instruct",
-      "base_model:finetune:Qwen/Qwen2.5-0.5B-Instruct",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-15T09:04:37.000Z",
-    "last_modified": "2026-05-15T09:07:18.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/HalogenFlo/qwen-2.5b-full-finetuned",
-    "date": "2026-05-15",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Sharpaxis/t5-finetuned_news_summariser",
-    "author": "unknown",
-    "title": "Sharpaxis/t5-finetuned_news_summariser",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "t5",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-05-15T08:31:34.000Z",
-    "last_modified": "2026-05-15T09:06:24.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Sharpaxis/t5-finetuned_news_summariser",
-    "date": "2026-05-15",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "sjin4861/dress_std_shot7-7shot-sim-option2-sft-qwen3.5.9b-fold5-20260515-134024",
-    "author": "unknown",
-    "title": "sjin4861/dress_std_shot7-7shot-sim-option2-sft-qwen3.5.9b-fold5-20260515-134024",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3_5_text",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "sft",
-      "conversational",
-      "base_model:Qwen/Qwen3.5-9B",
-      "base_model:finetune:Qwen/Qwen3.5-9B",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-15T04:43:22.000Z",
-    "last_modified": "2026-05-15T09:05:24.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/sjin4861/dress_std_shot7-7shot-sim-option2-sft-qwen3.5.9b-fold5-20260515-134024",
-    "date": "2026-05-15",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "TheLuxGuy/open-australian-legal-llm",
-    "author": "unknown",
-    "title": "TheLuxGuy/open-australian-legal-llm",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "law",
-      "legal",
-      "australia",
-      "generated_from_trainer",
-      "en",
-      "dataset:umarbutler/open-australian-legal-corpus",
-      "base_model:openai-community/gpt2-xl",
-      "base_model:finetune:openai-community/gpt2-xl",
-      "license:apache-2.0",
-      "model-index",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-15T09:05:19.000Z",
-    "last_modified": "2026-05-15T09:05:19.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/TheLuxGuy/open-australian-legal-llm",
-    "date": "2026-05-15",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "alexbalan08/Procedural-small",
-    "author": "unknown",
-    "title": "alexbalan08/Procedural-small",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:unsloth/llama-3.1-8b-instruct-unsloth-bnb-4bit",
-      "lora",
-      "transformers",
-      "unsloth",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-05-15T09:02:29.000Z",
-    "last_modified": "2026-05-15T09:05:00.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/alexbalan08/Procedural-small",
-    "date": "2026-05-15",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.4
   }
 ]
