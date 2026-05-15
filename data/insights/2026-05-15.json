@@ -1,0 +1,37 @@
+{
+  "date": "2026-05-15T00:54:36.781739",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "1010happy/qwen1.5B_ChatGPTDefault",
+        "url": "https://huggingface.co/1010happy/qwen1.5B_ChatGPTDefault"
+      },
+      {
+        "title": "llmfan46/MiniMax-M2.7-BF16-ultra-uncensored-heretic-GGUF",
+        "url": "https://huggingface.co/llmfan46/MiniMax-M2.7-BF16-ultra-uncensored-heretic-GGUF"
+      },
+      {
+        "title": "1010happy/qwen1.5B_ChatGPTStagger",
+        "url": "https://huggingface.co/1010happy/qwen1.5B_ChatGPTStagger"
+      },
+      {
+        "title": "1010happy/qwen3BInstruct_ChatGPTStagger",
+        "url": "https://huggingface.co/1010happy/qwen3BInstruct_ChatGPTStagger"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 4
+  }
+}
