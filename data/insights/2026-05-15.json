@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-15T12:45:37.500013",
+  "date": "2026-05-15T16:41:33.131104",
   "patterns": {
     "multimodal_research": [
       {
@@ -109,10 +109,6 @@
       {
         "title": "MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models",
         "url": "https://arxiv.org/abs/2605.14906v1"
-      },
-      {
-        "title": "ziadalaa7/multimodal-fake-news",
-        "url": "https://huggingface.co/ziadalaa7/multimodal-fake-news"
       },
       {
         "title": "From Plans to Pixels: Learning to Plan and Orchestrate for Open-Ended Image Editing",
@@ -355,6 +351,10 @@
       {
         "title": "First Mathematical Runtime Analyses of Multi-Objective Evolutionary Algorithms for Multi-Valued Decision Variables",
         "url": "https://arxiv.org/abs/2605.14836v1"
+      },
+      {
+        "title": "storagejuju/glm-5.1-mxfp4-moe-juju",
+        "url": "https://huggingface.co/storagejuju/glm-5.1-mxfp4-moe-juju"
       }
     ],
     "language_models": [
@@ -671,8 +671,8 @@
         "url": "https://arxiv.org/abs/2605.15088v1"
       },
       {
-        "title": "gkostadi/distilbert-sentiment-MODEL-NAME",
-        "url": "https://huggingface.co/gkostadi/distilbert-sentiment-MODEL-NAME"
+        "title": "Z-Jafari/xlm-roberta-large-finetuned-PersianQuAD_Factoid_Test-ignoreTestSplit",
+        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-large-finetuned-PersianQuAD_Factoid_Test-ignoreTestSplit"
       }
     ],
     "vision_systems": [
@@ -1797,7 +1797,7 @@
   "inferences": [
     {
       "pattern": "multimodal_research",
-      "observation": "30 independent papers",
+      "observation": "29 independent papers",
       "inference": "Strong convergence in Multimodal Research - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1809,7 +1809,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "58 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1858,7 +1858,7 @@
     },
     {
       "topic": "language",
-      "frequency": 68,
+      "frequency": 63,
       "significance": "high"
     },
     {
