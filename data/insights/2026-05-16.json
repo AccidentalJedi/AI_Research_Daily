@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-16T12:29:34.082932",
+  "date": "2026-05-16T16:25:05.582741",
   "patterns": {
     "multimodal_research": [
       {
@@ -339,6 +339,10 @@
       {
         "title": "MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models",
         "url": "https://arxiv.org/abs/2605.14906v1"
+      },
+      {
+        "title": "storagejuju/glm-5.1-mxfp4-moe-juju",
+        "url": "https://huggingface.co/storagejuju/glm-5.1-mxfp4-moe-juju"
       },
       {
         "title": "Computational Imaging Priors for Wireless Capsule Endoscopy: Monte Carlo-Guided Hemoglobin Mapping for Rare-Anomaly Detection",
@@ -1801,7 +1805,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "58 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1872,6 +1876,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 443
+    "total_papers": 444
   }
 }
