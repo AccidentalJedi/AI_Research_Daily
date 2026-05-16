@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-16T05:11:58.683270",
+  "date": "2026-05-16T08:41:44.780290",
   "patterns": {
     "multimodal_research": [
       {
@@ -665,6 +665,10 @@
       {
         "title": "SAGE3D: Soft-guided attention and graph excitation for 3D point cloud corner detection",
         "url": "https://arxiv.org/abs/2605.15088v1"
+      },
+      {
+        "title": "TheAndyRoberts/Qwen2.5-3B-Instruct-4bit-mlx",
+        "url": "https://huggingface.co/TheAndyRoberts/Qwen2.5-3B-Instruct-4bit-mlx"
       }
     ],
     "vision_systems": [
@@ -1813,7 +1817,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1872,6 +1876,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 443
+    "total_papers": 444
   }
 }
