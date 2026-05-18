@@ -1,11 +1,22 @@
 {
-  "date": "2026-05-18T17:04:12.844512",
-  "patterns": {},
+  "date": "2026-05-18T20:37:46.992104",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "mhdafifan/indobert-fiqhqa-classifier",
+        "url": "https://huggingface.co/mhdafifan/indobert-fiqhqa-classifier"
+      },
+      {
+        "title": "lgdias/bertopic_tces_v2",
+        "url": "https://huggingface.co/lgdias/bertopic_tces_v2"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
