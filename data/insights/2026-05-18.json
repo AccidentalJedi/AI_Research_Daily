@@ -1,29 +1,11 @@
 {
-  "date": "2026-05-18T00:57:28.323287",
-  "patterns": {
-    "reasoning": [
-      {
-        "title": "AbteeXAILab/lumynax-reasoning-deepseek-prover-v2-671b-gguf",
-        "url": "https://huggingface.co/AbteeXAILab/lumynax-reasoning-deepseek-prover-v2-671b-gguf"
-      },
-      {
-        "title": "inferencerlabs/Ring-2.6-1T-MLX-3.7bit-INF",
-        "url": "https://huggingface.co/inferencerlabs/Ring-2.6-1T-MLX-3.7bit-INF"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "reasoning",
-      "observation": "Reasoning capabilities being explored",
-      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
-      "confidence": "medium"
-    }
-  ],
+  "date": "2026-05-18T05:30:13.023292",
+  "patterns": {},
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 2
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
