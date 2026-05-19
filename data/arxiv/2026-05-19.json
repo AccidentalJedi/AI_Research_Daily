@@ -6,9 +6,9 @@
     "authors": [
       "Pascal Pfeiffer",
       "Dmitry Gordeev",
-      "Mathias M\u00fcller",
+      "Mathias Müller",
       "Laura Fink",
-      "Joan Salv\u00e0 Soler",
+      "Joan Salvà Soler",
       "Mark Landry",
       "Branden Murray",
       "Marcos V. Conde",
@@ -74,8 +74,8 @@
     "title": "Efficient Lookahead Encoding and Abstracted Width for Learning General Policies in Classical Planning",
     "summary": "Generalized planning aims to learn policies that generalize across collections of instances within a classical planning domain. Recent Graph Neural Network (GNN) approaches have learned nearly perfect policies for several domains. This work improves on the recently published idea of Iterated Width (IW) policies. Therein, the policy broadens its successor scope through an IW-lookahead search that can \"jump\" over multiple transitions, simplifying the problem structure. Yet, each transition is evaluated individually, leading to unscalable compute costs and expressivity limitations. Furthermore, although IW(1) is attractive because it scales linearly with the number of atoms, it becomes inefficient once thousands of objects are considered, as in the International Planning Competition (IPC) 2023 benchmark. We address both limitations. First, we introduce a vastly more efficient holistic encoding of the entire search tree. It jointly represents IW(1)-reachable states only by their relational differences to the current state, enabling Relational GNNs (R-GNNs) to score all transitions in a single forward pass. Second, we define Abstracted IW(1) to improve scaling through relational abstraction during novelty checks. Rather than testing fully instantiated atoms, it abstracts each atom by replacing all but one argument with its type. The original atom is novel if any of its abstracted forms is novel. This structural compression shifts novelty search scaling from atoms to objects, while preserving meaningful subgoal structure. We evaluate our contributions on the hyperscaling IPC 2023 benchmark and across diverse domains, including domains requiring features beyond the $C_2$ logic fragment. Our policies achieve new state-of-the-art performance, significantly surpassing prior work, including the classical planner LAMA.",
     "authors": [
-      "Michael Aichm\u00fcller",
-      "Simon St\u00e5hlberg",
+      "Michael Aichmüller",
+      "Simon Ståhlberg",
       "Martin Funkquist",
       "Hector Geffner"
     ],
@@ -240,7 +240,7 @@
       "Jonathan P. Shock",
       "Samuel T. Segun",
       "Iyiola E. Olatunji",
-      "Tegawend\u00e9 F. Bissyand\u00e9"
+      "Tegawendé F. Bissyandé"
     ],
     "categories": [
       "cs.CL",
@@ -573,15 +573,15 @@
   {
     "arxiv_id": "2605.18753v1",
     "title": "DashAttention: Differentiable and Adaptive Sparse Hierarchical Attention",
-    "summary": "Current hierarchical attention methods, such as NSA and InfLLMv2, select the top-k relevant key-value (KV) blocks based on coarse attention scores and subsequently apply fine-grained softmax attention on the selected tokens. However, the top-k operation assumes the number of relevant tokens for any query is fixed and it precludes the gradient flow between the sparse and dense stages. In this work, we propose DashAttention (Differentiable and Adaptive Sparse Hierarchical Attention), which leverages the adaptively sparse $\u03b1$-entmax transformation to select a variable number of blocks according to the current query in the first stage. This in turn provides a prior for the second-stage softmax attention, keeping the entire hierarchy fully differentiable. Contrary to other hierarchical attention methods, we show that DashAttention is non-dispersive, translating to better long-context modeling ability. Experiments with large language models (LLMs) show that DashAttention achieves comparable accuracy as full attention with 75% sparsity and a better Pareto frontier than NSA and InfLLMv2, especially in high-sparsity regimes. We also provide an efficient, GPU-aware implementation of DashAttention in Triton, which achieves a speedup of up to over FlashAttention-3 at inference time. Overall, DashAttention offers a cost-effective strategy to model long contexts.",
+    "summary": "Current hierarchical attention methods, such as NSA and InfLLMv2, select the top-k relevant key-value (KV) blocks based on coarse attention scores and subsequently apply fine-grained softmax attention on the selected tokens. However, the top-k operation assumes the number of relevant tokens for any query is fixed and it precludes the gradient flow between the sparse and dense stages. In this work, we propose DashAttention (Differentiable and Adaptive Sparse Hierarchical Attention), which leverages the adaptively sparse $α$-entmax transformation to select a variable number of blocks according to the current query in the first stage. This in turn provides a prior for the second-stage softmax attention, keeping the entire hierarchy fully differentiable. Contrary to other hierarchical attention methods, we show that DashAttention is non-dispersive, translating to better long-context modeling ability. Experiments with large language models (LLMs) show that DashAttention achieves comparable accuracy as full attention with 75% sparsity and a better Pareto frontier than NSA and InfLLMv2, especially in high-sparsity regimes. We also provide an efficient, GPU-aware implementation of DashAttention in Triton, which achieves a speedup of up to over FlashAttention-3 at inference time. Overall, DashAttention offers a cost-effective strategy to model long contexts.",
     "authors": [
       "Yuxiang Huang",
-      "Nuno M. T. Gon\u00e7alves",
+      "Nuno M. T. Gonçalves",
       "Federico Alvetreti",
       "Lei Li",
       "Xu Han",
       "Edoardo M. Ponti",
-      "Andr\u00e9 F. T. Martins",
+      "André F. T. Martins",
       "Marcos V. Treviso"
     ],
     "categories": [
@@ -601,10 +601,10 @@
     "title": "Monitoring the Internal Monologue: Probe Trajectories Reveal Reasoning Dynamics",
     "summary": "Large Reasoning Models (LRMs) introduce new opportunities for safety monitoring through their Chain of Thought (CoT) reasoning. However, CoT is not always faithful to the model's final output, undermining its reliability as a monitoring tool. To address this, we investigate the hidden representations of LRMs to determine whether future behavior can be predicted from prompt and CoT representations. By evaluating a probe at each generated token, we construct a probe trajectory, the continuous evolution of a concept's probability across the reasoning process. We find that future model behavior is more distinguishable when examined over the full trajectory than from a single static prediction. To characterize these temporal dynamics, we extract signal-processing features that capture volatility, trend, and steady-state behavior, significantly improving the separation of future model states. We also present two methodological insights. First, template-based training data achieves near-parity with dynamically generated model responses, eliminating the need for a costly initial inference and labeling. Second, the choice of pooling operation is critical: average-pooling and last-token methods collapse to near-random performance, while max-pooling achieves up to 95% AUROC and yields stable probe trajectories. Using four datasets and four reasoning models across the domains of safety and mathematics, we demonstrate that trajectory features encode task-specific dynamics that improve outcome separability. These findings establish probe trajectories as a complementary framework for monitoring LRM behavior.   Warning: This article contains potentially harmful content.",
     "authors": [
-      "Maciej Chrab\u0105szcz",
+      "Maciej Chrabąszcz",
       "Aleksander Szymczyk",
       "Marcin Sendera",
-      "Tomasz Trzci\u0144ski",
+      "Tomasz Trzciński",
       "Sebastian Cygert"
     ],
     "categories": [
@@ -709,7 +709,7 @@
   {
     "arxiv_id": "2605.18379v1",
     "title": "Beyond Square Roots: Explicit Memory-Efficient Factorization for Multi-Epoch Private Learning",
-    "summary": "Correlated-noise mechanisms are among the most promising approaches for improving the utility of differentially private model training, but rigorous guarantees require explicit, analyzable factorizations, and practical deployment requires memory efficiency. Recent works have developed banded inverse factorizations, which address both requirements by exploiting a banded structure in the correlation matrix. The bandwidth controls the size of the noise buffer used to correlate noise across iterations, and thus governs the tradeoff between utility and memory cost. Existing factorizations highlight this tradeoff: DP-$\u03bb$CGD achieves high memory efficiency by using only a one-step noise buffer, but this limits its utility gains, while the banded inverse square root (BISR) factorization exploits larger correlation windows and is asymptotically optimal for large bandwidths but performs poorly at low bandwidths. We propose $\u03b3$-BIFR, a unified generalization of both factorizations. In the low-memory, low-bandwidth regime, $\u03b3$-BIFR significantly improves RMSE, amplified RMSE, and private training performance, while yielding tighter theoretical guarantees for multi-participation error in multi-epoch training.",
+    "summary": "Correlated-noise mechanisms are among the most promising approaches for improving the utility of differentially private model training, but rigorous guarantees require explicit, analyzable factorizations, and practical deployment requires memory efficiency. Recent works have developed banded inverse factorizations, which address both requirements by exploiting a banded structure in the correlation matrix. The bandwidth controls the size of the noise buffer used to correlate noise across iterations, and thus governs the tradeoff between utility and memory cost. Existing factorizations highlight this tradeoff: DP-$λ$CGD achieves high memory efficiency by using only a one-step noise buffer, but this limits its utility gains, while the banded inverse square root (BISR) factorization exploits larger correlation windows and is asymptotically optimal for large bandwidths but performs poorly at low bandwidths. We propose $γ$-BIFR, a unified generalization of both factorizations. In the low-memory, low-bandwidth regime, $γ$-BIFR significantly improves RMSE, amplified RMSE, and private training performance, while yielding tighter theoretical guarantees for multi-participation error in multi-epoch training.",
     "authors": [
       "Nikita P. Kalinin",
       "Aki Rehn",
@@ -836,7 +836,7 @@
   {
     "arxiv_id": "2605.18556v1",
     "title": "Key-Gram: Extensible World Knowledge for Embodied Manipulation",
-    "summary": "Embodied control increasingly requires models to follow compositional language instructions while reasoning over dynamic visual states. However, current vision-language-action policies and world-action models often couple linguistic knowledge with visual computation in a shared backbone or conditioning pathway, leading to modality competition and making knowledge extension dependent on backbone updates. In this paper, we introduce Key-Gram, a conditional-memory framework that separates language-derived world knowledge from visual-state reasoning for embodied control. At its core is a memory module that decomposes an instruction into task-specific key-grams, retrieves static linguistic priors through deterministic hashed lookup, and injects the retrieved entries into selected hidden layers through context-aware gating and lightweight convolutional fusion. This design allows the backbone to devote its main capacity to visual reasoning and action inference, while reusable instruction knowledge is stored in an extensible external memory. The logical memory table can be conveniently partitioned during training and, due to its $O(1)$ lookup pattern, efficiently placed on host memory during inference. Across RoboTwin2.0, LIBERO/LIBERO-Plus, and real-world dual-arm manipulation, Key-Gram consistently improves both $\u03c0_{0}$ and $\u03c0_{0.5}$ backbones, with average relative gains of $29.5\\%/9.9\\%$ on RoboTwin2.0, $35.8\\%/4.5\\%$ on LIBERO-Plus transfer without target-domain fine-tuning, and $15.4\\%/8.1\\%$ on real-world long-horizon tasks. These results demonstrate that externalized linguistic memory provides an effective and extensible mechanism for improving compositional grounding, transfer, and real-world manipulation.",
+    "summary": "Embodied control increasingly requires models to follow compositional language instructions while reasoning over dynamic visual states. However, current vision-language-action policies and world-action models often couple linguistic knowledge with visual computation in a shared backbone or conditioning pathway, leading to modality competition and making knowledge extension dependent on backbone updates. In this paper, we introduce Key-Gram, a conditional-memory framework that separates language-derived world knowledge from visual-state reasoning for embodied control. At its core is a memory module that decomposes an instruction into task-specific key-grams, retrieves static linguistic priors through deterministic hashed lookup, and injects the retrieved entries into selected hidden layers through context-aware gating and lightweight convolutional fusion. This design allows the backbone to devote its main capacity to visual reasoning and action inference, while reusable instruction knowledge is stored in an extensible external memory. The logical memory table can be conveniently partitioned during training and, due to its $O(1)$ lookup pattern, efficiently placed on host memory during inference. Across RoboTwin2.0, LIBERO/LIBERO-Plus, and real-world dual-arm manipulation, Key-Gram consistently improves both $π_{0}$ and $π_{0.5}$ backbones, with average relative gains of $29.5\\%/9.9\\%$ on RoboTwin2.0, $35.8\\%/4.5\\%$ on LIBERO-Plus transfer without target-domain fine-tuning, and $15.4\\%/8.1\\%$ on real-world long-horizon tasks. These results demonstrate that externalized linguistic memory provides an effective and extensible mechanism for improving compositional grounding, transfer, and real-world manipulation.",
     "authors": [
       "Jingjing Fan",
       "Siyuan Li",
@@ -971,7 +971,7 @@
   {
     "arxiv_id": "2605.18528v1",
     "title": "Scale-Invariant Neural Network Optimization: Norm Geometry and Heavy-Tailed Noise",
-    "summary": "A growing lesson from neural network optimization is that optimizer design should respect how the model is parametrized. Scale-invariant methods become important because their normalized layerwise updates can not only support hyperparameter transfer across model sizes but exploit input-output matrix norm geometry. At the same time, stochastic gradient noises in deep learning are often far from sub-Gaussian and may exhibit heavy tails. These crucial observations have shaped recent algorithmic principles for training neural networks, yet their joint theoretical consequences remain underexplored. In particular, it is unclear what dimension dependence is unavoidable for scale-invariant methods with general input-output matrix norm, and whether higher-order smoothness can accelerate training under heavy-tailed noise. We study these questions through nonconvex smooth stochastic optimization over $\\mathbb{R}^{m\\times n}$ with general norms, where the goal is to achieve an $\u03b5$-stationary point under $p^{\\mathrm{th}}$-moment heavy-tailed noise. Our first contribution is a dimension-dependent lower bound: when $\\frac{\\max\\{m,n\\}}{(\\min\\{m,n\\})^2}$ is large enough, any scale-invariant first-order method with spectral norm requires $\u03a9(\\min\\{m, n\\}\u03b5^{-\\frac{3p-2}{p-1}})$ oracle calls. We prove that a batched Scion method with spectral norm achieves the matching upper bound of $O(\\min\\{m, n\\}\u03b5^{-\\frac{3p-2}{p-1}})$. To exploit higher-order smoothness, we propose a transported Scion method and improve the bound to $O(\\min\\{m, n\\}\u03b5^{-\\frac{5p-3}{2p-2}})$ when the norm is spectral and the Hessian is Lipschitz. Finally, we incorporate practical heuristics into our transported method and evaluate it across multiple architectures and model sizes, demonstrating its flexibility and compatibility in training neural networks.",
+    "summary": "A growing lesson from neural network optimization is that optimizer design should respect how the model is parametrized. Scale-invariant methods become important because their normalized layerwise updates can not only support hyperparameter transfer across model sizes but exploit input-output matrix norm geometry. At the same time, stochastic gradient noises in deep learning are often far from sub-Gaussian and may exhibit heavy tails. These crucial observations have shaped recent algorithmic principles for training neural networks, yet their joint theoretical consequences remain underexplored. In particular, it is unclear what dimension dependence is unavoidable for scale-invariant methods with general input-output matrix norm, and whether higher-order smoothness can accelerate training under heavy-tailed noise. We study these questions through nonconvex smooth stochastic optimization over $\\mathbb{R}^{m\\times n}$ with general norms, where the goal is to achieve an $ε$-stationary point under $p^{\\mathrm{th}}$-moment heavy-tailed noise. Our first contribution is a dimension-dependent lower bound: when $\\frac{\\max\\{m,n\\}}{(\\min\\{m,n\\})^2}$ is large enough, any scale-invariant first-order method with spectral norm requires $Ω(\\min\\{m, n\\}ε^{-\\frac{3p-2}{p-1}})$ oracle calls. We prove that a batched Scion method with spectral norm achieves the matching upper bound of $O(\\min\\{m, n\\}ε^{-\\frac{3p-2}{p-1}})$. To exploit higher-order smoothness, we propose a transported Scion method and improve the bound to $O(\\min\\{m, n\\}ε^{-\\frac{5p-3}{2p-2}})$ when the norm is spectral and the Hessian is Lipschitz. Finally, we incorporate practical heuristics into our transported method and evaluate it across multiple architectures and model sizes, demonstrating its flexibility and compatibility in training neural networks.",
     "authors": [
       "Jiayu Zhang",
       "Tianyi Lin"
@@ -1034,9 +1034,9 @@
     "title": "What is Holding Back Latent Visual Reasoning?",
     "summary": "Humans can approach complex visual problems by mentally simulating intermediate visual steps, rather than reasoning through language alone. Inspired by this, several works on Vision-Language Models have recently explored chain-of-thought reasoning with continuous latent tokens as intermediate visual imagination steps. In this work, we investigate how recent models leverage such latent tokens. Surprisingly, we find that model accuracy is unaffected when latent tokens are replaced by uninformative ``dummy'' tokens. This indicates that latent tokens play a minimal causal role in the model's final prediction. To better understand this phenomenon, we analyze both the training signal provided by oracle latent representations and the quality of the latent tokens generated at inference time. Our experiments reveal two crucial issues holding back latent visual reasoning: First, in most existing datasets, oracle latent tokens provide limited additional information beyond the original image and do not substantially simplify the task, leading models to ignore them during training and effectively bypassing them at inference time. When fine-tuned on a diagnostic dataset, in which latent tokens provide sufficient support for the final prediction, we show that models can causally rely on them. Second, the latent tokens produced at inference time deviate from their corresponding oracle representations, collapsing to a narrow region and preventing benefits even when the model relies on them. Overall, our findings suggest that future progress in latent visual reasoning depends on two key pillars: high-quality datasets with informative intermediate steps and more precise latent token prediction.",
     "authors": [
-      "Andr\u00e9 G. Viveiros",
-      "Nuno Gon\u00e7alves",
-      "Andr\u00e9 F. T. Martins",
+      "André G. Viveiros",
+      "Nuno Gonçalves",
+      "André F. T. Martins",
       "Matthias Lindemann"
     ],
     "categories": [
@@ -1059,7 +1059,7 @@
     "authors": [
       "Edoardo Caldarelli",
       "Franco Coltraro",
-      "Adri\u00e0 Colom\u00e9",
+      "Adrià Colomé",
       "Lorenzo Rosasco",
       "Carme Torras"
     ],
@@ -1118,7 +1118,7 @@
   {
     "arxiv_id": "2605.18703v1",
     "title": "EnvFactory: Scaling Tool-Use Agents via Executable Environments Synthesis and Robust RL",
-    "summary": "Equipping LLMs with tool-use capabilities via Agentic Reinforcement Learning (Agentic RL) is bottlenecked by two challenges: the lack of scalable, robust execution environments and the scarcity of realistic training data that captures implicit human reasoning. Existing approaches depend on costly real-world APIs, hallucination-prone LLM simulators, or synthetic environments that are often single-turn or depend on pre-collected documents. Moreover, synthetic trajectories are frequently over-specified, resembling instruction sequences rather than natural human intents, reducing their effectiveness for RL training. We introduce EnvFactory, a fully automated framework that addresses both challenges. EnvFactory autonomously explores and verifies stateful, executable tool environments from authentic resources, and synthesizes natural multi-turn trajectories through topology-aware sampling and calibrated refinement, producing grounded queries with implicit intents. Using only 85 verified environments across 7 domains, EnvFactory generates 2,575 SFT and RL trajectories. Despite using significantly fewer environments than prior work, which are often 5 times more, EnvFactory achieves superior training efficiency and downstream performance, improving Qwen3-series models by up to +15% on BFCLv3, +8.6% on MCP-Atlas, and +6% on conversational benchmarks including $\u03c4^2$-Bench and VitaBench. By fully automating both environment construction and trajectory synthesis, EnvFactory provides a scalable, extensible, and robust foundation for Agentic RL.",
+    "summary": "Equipping LLMs with tool-use capabilities via Agentic Reinforcement Learning (Agentic RL) is bottlenecked by two challenges: the lack of scalable, robust execution environments and the scarcity of realistic training data that captures implicit human reasoning. Existing approaches depend on costly real-world APIs, hallucination-prone LLM simulators, or synthetic environments that are often single-turn or depend on pre-collected documents. Moreover, synthetic trajectories are frequently over-specified, resembling instruction sequences rather than natural human intents, reducing their effectiveness for RL training. We introduce EnvFactory, a fully automated framework that addresses both challenges. EnvFactory autonomously explores and verifies stateful, executable tool environments from authentic resources, and synthesizes natural multi-turn trajectories through topology-aware sampling and calibrated refinement, producing grounded queries with implicit intents. Using only 85 verified environments across 7 domains, EnvFactory generates 2,575 SFT and RL trajectories. Despite using significantly fewer environments than prior work, which are often 5 times more, EnvFactory achieves superior training efficiency and downstream performance, improving Qwen3-series models by up to +15% on BFCLv3, +8.6% on MCP-Atlas, and +6% on conversational benchmarks including $τ^2$-Bench and VitaBench. By fully automating both environment construction and trajectory synthesis, EnvFactory provides a scalable, extensible, and robust foundation for Agentic RL.",
     "authors": [
       "Minrui Xu",
       "Zilin Wang",
@@ -1204,7 +1204,7 @@
     "title": "Learning Lifted Action Models from Traces with Minimal Information About Actions and States",
     "summary": "It has been recently shown that lifted STRIPS models can be learned correctly and efficiently from action traces alone; i.e., applicable action sequences from a hidden STRIPS model. The result is remarkable because the states are not assumed to be observable at all, and yet it is not practical enough as STRIPS actions include arguments that are not needed for selecting the actions. This shortcoming has been addressed by assuming that the action traces come instead from a hidden STRIPS+ model where some action arguments are implicit in the hidden action preconditions. A limitation of this approach, however, is that it assumes that the states are fully observable. In this work, we relax these restrictions and consider the problem of learning STRIPS+ action domains from traces in a more general context where the traces carry partial information about both actions and states. In particular, we formulate algorithms and completeness results for three general cases, all of which assume full observability of selected action arguments. In the first case, no observability of the state is assumed; in the second case, full observability of some state predicates is assumed, and in the third case, local observability of some state predicates is assumed instead. Given a STRIPS+ domain, these results characterize the conditions under which an equivalent domain can be learned from traces. Experimental results are reported.",
     "authors": [
-      "Jonas G\u00f6sgens",
+      "Jonas Gösgens",
       "Niklas Jansen",
       "Hector Geffner"
     ],
@@ -1317,7 +1317,7 @@
       "Yuxin Wang",
       "Dennis Frauen",
       "Jonas Schweisthal",
-      "Maresa Schr\u00f6der",
+      "Maresa Schröder",
       "Emil Javurek",
       "Stefan Feuerriegel"
     ],
@@ -1483,7 +1483,7 @@
       "Cesar Alvarez Llamas",
       "Vincent Motto- Ros",
       "Christophe Dujardin",
-      "J\u00e9r\u00e9mie Margueritat",
+      "Jérémie Margueritat",
       "David Rodney"
     ],
     "categories": [
@@ -1525,7 +1525,7 @@
     "summary": "Vision-language models (VLMs) can couple visual perception with open-ended clinical reasoning, making them attractive for computational histopathology. However, fine-tuning billions of parameters on scarce, expert-annotated pathology data is prohibitive, while in-context learning (ICL), which conditions the VLM on demonstrative image-text pairs without parameter updates, suffers from high sensitivity to which examples are selected and how the query is phrased, producing unreliable diagnostics. Existing selection strategies rely on query-dependent nearest-neighbour retrieval that ignores global data structure, require costly parameter updates, or disregard the joint vision-text embedding geometry of VLMs. We propose GAUC, a training-free coreset selection method operating directly in the pre-trained multimodal embedding space. GAUC jointly optimises three objectives: (1) a Maximum Mean Discrepancy term enforcing distributional fidelity between coreset and full dataset, (2) an Effective Mutual Information Difference regulariser bounding performance degradation under prompt paraphrases by exploiting the VLM's joint vision-text alignment, and (3) a predictive-variance penalty suppressing overconfident, unstable outputs. On CRC-100K and MHIST across multiple open-source VLM architectures, GAUC consistently improves accuracy, calibration, and prompt robustness over recent ICL selection methods and dataset-distillation baselines, all without a single gradient update.",
     "authors": [
       "Franciskus Xaverius Erick",
-      "Johanna Paula M\u00fcller",
+      "Johanna Paula Müller",
       "Bernhard Kainz"
     ],
     "categories": [
@@ -1597,7 +1597,7 @@
     "title": "Aligned Training: A Parameter-Free Method to Improve Feature Quality and Stability of Sparse Autoencoders (SAE)",
     "summary": "Sparse autoencoders (SAEs) are one of the main methods to interpret the inner workings of deep neural networks (DNNs), decomposing activations into higher-dimensional features. However, they exhibit critical shortcomings where a large fraction of features are never activated and are unstable. Despite variants of SAEs that attempt to mitigate these issues, they require additional data, resampling, or training. We propose the \\textbf{aligned training}, a parameter-free reparameterization of SAEs that simultaneously improves reconstruction quality, eliminates dead features, and significantly enhances stability across training seeds. Our approach is motivated by an overlooked observation that SAE feature quality, measured by the inner product between encoder and decoder directions (which we call the \\textbf{alignment score}), follows a bimodal distribution across all modern architectures. The proposed aligned training enforces a geometric constraint between the encoder and decoder such that their inner product equals one for every feature, which removes a source of degeneracy in the SAE training without adding any hyperparameters. Across multiple models, dictionary sizes, and sparsity levels, the aligned training shows Pareto improvements on the SAEBench benchmarks. Beyond improving dead features, stability and reconstruction, our method readily integrates with techniques in mechanical interpretability such as Top/BatchTop-K architectures and p-Annealing. Overall, the aligned training substantially improves feature quality and stability of SAE without computational complexity or cost.",
     "authors": [
-      "Micha\u0142 Brzozowski",
+      "Michał Brzozowski",
       "Neo Christopher Chung"
     ],
     "categories": [
@@ -1799,10 +1799,10 @@
     "summary": "Time Series Foundation Models (TSFMs) have demonstrated notable success in general-purpose forecasting tasks; however, their adaptation to specialized classification problems remains constrained by the computational bottleneck of standard attention and the systematic omission of classical statistical knowledge. This technical report introduces KairosHope, a next-generation TSFM designed to reconcile massive generalization with analytical precision in classification tasks. The core of the proposal is the HOPE block, an architecture that replaces quadratic attention with a dual-memory system: Titans modules for dynamic short-term retention and a Continuum Memory System (CMS) for the abstraction of long-term historical context. To enrich the inductive bias, a Hybrid Decision Head is introduced, which fuses deep latent representations with deterministic statistical features extracted via tsfeatures package. KairosHope undergoes self-supervised pre-training on the massive Monash archive, combining Masked Time Series Modeling (MTSM) and contrastive learning (InfoNCE). Its subsequent adaptation to the UCR benchmark datasets is conducted through a rigorous Linear Probing and Full Fine-Tuning (LP-FT) protocol to prevent catastrophic forgetting. Empirical results demonstrate superior performance in domains characterized by strict temporal causality such as HAR or Sensor data. Consequently, KairosHope establishes a robust and efficient framework for the adaptation of foundation models to time series analysis.",
     "authors": [
       "Luis Balderas",
-      "Jos\u00e9 Alberto Rodr\u00edguez",
+      "José Alberto Rodríguez",
       "Miguel Lastra",
       "Antonio Arauzo-Azofra",
-      "Jos\u00e9 M. Ben\u00edtez"
+      "José M. Benítez"
     ],
     "categories": [
       "cs.LG",
@@ -1842,7 +1842,7 @@
     "authors": [
       "Juozas Dautartas",
       "Olga Kurasova",
-      "Juozapas Rokas \u010cypas",
+      "Juozapas Rokas Čypas",
       "Viktor Medvedev"
     ],
     "categories": [
@@ -2663,11 +2663,11 @@
     "title": "Stochastic Penalty-Barrier Methods for Constrained Machine Learning",
     "summary": "Constrained machine learning enables fairness-aware training, physics-informed neural networks, and integration of symbolic domain knowledge into statistical models. Despite its practical importance, no general method exists for the non-convex, non-smooth, stochastic setting that arises naturally in deep learning. We propose the Stochastic Penalty-Barrier Method (SPBM), which extends classical penalty and barrier methods to this setting via exponential dual averaging, a~stabilized penalty schedule, and the Moreau envelope to handle non-smoothness. Experiments across multiple settings show that SPBM matches or outperforms existing constrained optimization baselines while incurring only linear runtime overhead compared to unconstrained Adam for up to 10,000 constraints.",
     "authors": [
-      "Adam Bos\u00e1k",
+      "Adam Bosák",
       "Andrii Kliachkin",
-      "Jana Lep\u0161ov\u00e1",
+      "Jana Lepšová",
       "Gilles Bareilles",
-      "Jakub Mare\u010dek"
+      "Jakub Mareček"
     ],
     "categories": [
       "cs.LG",
@@ -3110,7 +3110,7 @@
   {
     "arxiv_id": "2605.18382v1",
     "title": "Probing SMEFT Operators through $t\\bar{t}t\\bar{t}$ Production with Hyper-Graph Neural Networks at the LHC",
-    "summary": "We present a phenomenological study of $t\\bar{t}t\\bar{t}$ production in proton-proton collisions at $\\sqrt{s} = 13$~TeV, using a Hyper-Graph Neural Network (H-GNN) to discriminate multilepton signal events from the dominant SM backgrounds, namely $t\\bar{t}W$, $t\\bar{t}Z$, $t\\bar{t}H$, $t\\bar{t}VV$, single-top associated production, and diboson and triboson processes. In the H-GNN architecture each event is represented as a hypergraph whose nodes correspond to reconstructed jets and leptons and whose hyperedges encode higher-order correlations among arbitrary subsets of these objects, allowing the network to learn the many-body kinematic structures that characterize the $t\\bar{t}t\\bar{t}$ final state. Combining same-sign di-lepton, tri-lepton, and four-lepton channels following a CMS-like event selection, the H-GNN attains an area under the ROC curve of $0.951$ for the $t\\bar{t}t\\bar{t}$ signal and yields a statistical significance of $Z = 9.11$ at an integrated luminosity of $\\mathcal{L} = 140~\\mathrm{fb}^{-1}$, to be compared with $Z = 8.62$ for a SPANet baseline, $Z = 7.37$ for a Particle Transformer baseline, and $Z = 5.13$ obtained by the ATLAS analysis, evaluated under identical event selection. We exploit the improved signal extraction to derive one- and two-parameter $95\\%$ confidence level limits on the Wilson coefficients of the dimension-six operators $\\mathcal{O}_{\u03a6u}$, $\\mathcal{O}^{(1)}_{tt}$, $\\mathcal{O}^{(1)}_{qq}$, $\\mathcal{O}^{(1)}_{qt}$, and $\\mathcal{O}^{(8)}_{qt}$, and we project the expected sensitivity at the HL-LHC integrated luminosities of $1000~\\mathrm{fb}^{-1}$ and $3000~\\mathrm{fb}^{-1}$ with $50\\%$ uncertainty on the background estimation.",
+    "summary": "We present a phenomenological study of $t\\bar{t}t\\bar{t}$ production in proton-proton collisions at $\\sqrt{s} = 13$~TeV, using a Hyper-Graph Neural Network (H-GNN) to discriminate multilepton signal events from the dominant SM backgrounds, namely $t\\bar{t}W$, $t\\bar{t}Z$, $t\\bar{t}H$, $t\\bar{t}VV$, single-top associated production, and diboson and triboson processes. In the H-GNN architecture each event is represented as a hypergraph whose nodes correspond to reconstructed jets and leptons and whose hyperedges encode higher-order correlations among arbitrary subsets of these objects, allowing the network to learn the many-body kinematic structures that characterize the $t\\bar{t}t\\bar{t}$ final state. Combining same-sign di-lepton, tri-lepton, and four-lepton channels following a CMS-like event selection, the H-GNN attains an area under the ROC curve of $0.951$ for the $t\\bar{t}t\\bar{t}$ signal and yields a statistical significance of $Z = 9.11$ at an integrated luminosity of $\\mathcal{L} = 140~\\mathrm{fb}^{-1}$, to be compared with $Z = 8.62$ for a SPANet baseline, $Z = 7.37$ for a Particle Transformer baseline, and $Z = 5.13$ obtained by the ATLAS analysis, evaluated under identical event selection. We exploit the improved signal extraction to derive one- and two-parameter $95\\%$ confidence level limits on the Wilson coefficients of the dimension-six operators $\\mathcal{O}_{Φu}$, $\\mathcal{O}^{(1)}_{tt}$, $\\mathcal{O}^{(1)}_{qq}$, $\\mathcal{O}^{(1)}_{qt}$, and $\\mathcal{O}^{(8)}_{qt}$, and we project the expected sensitivity at the HL-LHC integrated luminosities of $1000~\\mathrm{fb}^{-1}$ and $3000~\\mathrm{fb}^{-1}$ with $50\\%$ uncertainty on the background estimation.",
     "authors": [
       "Amir Subba",
       "Sanmay Ganguly"
@@ -3134,7 +3134,7 @@
     "authors": [
       "Johanna Marie Gegenfurtner",
       "Moritz Grillo",
-      "Guido Mont\u00fafar"
+      "Guido Montúfar"
     ],
     "categories": [
       "cs.LG",
@@ -3348,9 +3348,9 @@
     "authors": [
       "Francis Kulumba",
       "Wissam Antoun",
-      "Th\u00e9o Lasnier",
-      "Beno\u00eet Sagot",
-      "Djam\u00e9 Seddah"
+      "Théo Lasnier",
+      "Benoît Sagot",
+      "Djamé Seddah"
     ],
     "categories": [
       "cs.CL"
@@ -3417,7 +3417,7 @@
     "summary": "Accelerating stochastic gradient methods with classical momentum schemes, such as Polyak's heavy ball, has proven highly successful in training large-scale machine learning models, particularly when combined with the hardware acceleration of large mini-batch computations. Yet, the effect of classical momentum on stochastic mini-batch optimization has been poorly understood theoretically, with prior works requiring strong noise assumptions and extremely large mini-batches. In this work, we develop a general theory of stochastic momentum acceleration for optimizing over quadratics in the interpolation regime, a popular abstraction for studying deep learning dynamics which also includes classical methods such as randomized Kaczmarz and coordinate descent. Our framework encompasses both heavy ball and Nesterov-style momentum, allows for arbitrary mini-batch sizes, and makes minimal assumptions on the stochastic noise. In particular, we show that acceleration from classical momentum is directly proportional to the gradient mini-batch size (up to a natural saturation point), thereby enabling perfect parallelization of mini-batch computations. Our theory also provides a simple choice for the momentum parameter, which is shown to be effective empirically.",
     "authors": [
       "Sachin Garg",
-      "Micha\u0142 Derezi\u0144ski"
+      "Michał Dereziński"
     ],
     "categories": [
       "cs.LG"
@@ -3452,7 +3452,7 @@
   {
     "arxiv_id": "2605.18468v1",
     "title": "Shallow ReLU$^s$ Networks in $L^p$-Type and Sobolev Spaces: Approximation and Path-Norm Controlled Generalization",
-    "summary": "We study approximation by shallow ReLU$^s$ networks, $\u03c3_s(t)=\\max{0,t}^s$, and the generalization behavior of such networks under $\\ell_1$ path-norm control. For the $L^p$-type integral spaces $\\widetilde{\\mathcal{F}}_{p,\u03c4_d,s}$, $1\\le p\\le2$, we establish approximation bounds for shallow networks using spherical harmonic analysis. In particular, when the parameter measure is the uniform measure $\u03c4_d$ and $p<p^*=(2d+2)/(d+3)$, we obtain the rate $O(m^{-1/2-d(2-p)/(2d(2-p)+2p(2s+d+1))}\\log^{3/2}m)$, which improves the corresponding random-feature rate. We also derive approximation rates for Sobolev spaces $W^{\u03b1,p}$ in the range $1\\le p<2$ by embedding them into spectral Barron spaces. Finally, for nonparametric regression with sub-Gaussian noise, we prove minimax-optimal generalization bounds for path-norm-regularized shallow ReLU$^s$ networks over Barron and Sobolev spaces, with matching lower bounds up to logarithmic factors.",
+    "summary": "We study approximation by shallow ReLU$^s$ networks, $σ_s(t)=\\max{0,t}^s$, and the generalization behavior of such networks under $\\ell_1$ path-norm control. For the $L^p$-type integral spaces $\\widetilde{\\mathcal{F}}_{p,τ_d,s}$, $1\\le p\\le2$, we establish approximation bounds for shallow networks using spherical harmonic analysis. In particular, when the parameter measure is the uniform measure $τ_d$ and $p<p^*=(2d+2)/(d+3)$, we obtain the rate $O(m^{-1/2-d(2-p)/(2d(2-p)+2p(2s+d+1))}\\log^{3/2}m)$, which improves the corresponding random-feature rate. We also derive approximation rates for Sobolev spaces $W^{α,p}$ in the range $1\\le p<2$ by embedding them into spectral Barron spaces. Finally, for nonparametric regression with sub-Gaussian noise, we prove minimax-optimal generalization bounds for path-norm-regularized shallow ReLU$^s$ networks over Barron and Sobolev spaces, with matching lower bounds up to logarithmic factors.",
     "authors": [
       "Weizhao Li",
       "Fanghui Liu",
@@ -3491,9 +3491,9 @@
     "title": "Spherical Harmonic Optimal Transport: Application to Climate Models Comparisons",
     "summary": "Optimal transport provides a powerful framework for comparing measures while respecting the geometry of their support, but comes with an expensive computational cost, hindering its potential application to real world use cases. On manifolds, convolutional algorithms based on the heat kernel have been proposed to alleviate this cost, but their theoretical properties remain largely unexplored. We establish that the heat kernel cost converges to the optimal transport cost as time vanishes in the balanced and unbalanced cases. In the specific case of the 2-sphere $\\mathbb{S}^2$, we ensure that the associated Sinkhorn divergences retains the desirable geometric and analytic properties of classical optimal transport discrepancies. Moreover, we leverage the harmonic structure of the sphere to derive a fast Sinkhorn algorithm, requiring only $\\mathcal{O}(n)$ memory and $\\mathcal{O}(n^{3/2})$ time per iteration, with fully dense GPU-friendly operations. We validate its computational efficiency on synthetic data, and discuss its potential use in the evaluation of global climate models, providing both spatial and seasonal insights into models performances.",
     "authors": [
-      "Pierre Hou\u00e9dry",
+      "Pierre Houédry",
       "Iskander Legheraba",
-      "L\u00e9o Buecher",
+      "Léo Buecher",
       "Nicolas Courty"
     ],
     "categories": [
@@ -3533,7 +3533,7 @@
     "summary": "Small vision-language models (2-8B) are well-suited for clin- ical deployment due to privacy constraints, limited connectivity, and low-latency requirements favouring on-device or on-premise inference. However, their limited capacity exacerbates the generation of plausible but incorrect outputs. We extend game-theoretic decoding, previously restricted to text-only, closed-ended NLP tasks, to vision-language mod- els for open-ended Medical VQA. We introduce a semantically aware Wasserstein stopping criterion that replaces lexical order matching, en- abling convergence based on semantic consensus among near-synonymous candidate answers and avoiding unnecessary iterations caused by clini- cally equivalent ranking swaps. On VQA-RAD and PathVQA, we ob- tain consistent, statistically significant improvements over greedy and discriminative baselines. On VQA-RAD, we improve Qwen3-VL-2B by +3.5 percentage points (p < 0.01), surpassing the greedy 4B model, with similar trends at larger scales. On PathVQA, Gemma-3-4B with BDG matches MedGemma-4B under greedy decoding despite no domain- specific fine-tuning. At accuracy parity with classic BDG, the Wasser- stein criterion reduces average convergence iterations by approximately 20%, improving inference efficiency while preserving the game-theoretic equilibrium behaviour. Code is available at https://github.com/luca-hagen/ Wasserstein-BDG-medical-VQA.",
     "authors": [
       "Luca Hagen",
-      "Johanna P. M\u00fcller",
+      "Johanna P. Müller",
       "Weitong Zhang",
       "Mengyun Qiao",
       "Bernhard Kainz"
@@ -3575,7 +3575,7 @@
     "summary": "Unmanned Aerial Vehicles in dynamic environments face telemetry outages, structural vibrations, and regime-dependent noise that invalidate the stationary covariance assumptions of classical Kalman filters. The Sage-Husa Kalman Filter (SHKF) estimates noise statistics online, but its reliance on a static, scalar forgetting factor forces a strict compromise between steady-state stability and transient responsiveness. We introduce the N-Deep Recurrent Sage-Husa Filter (NDR-SHKF), which replaces this scalar parameter with a vector-valued memory attenuation policy learned by a hierarchical recurrent network operating on whitened innovation sequences. A bifurcated architecture routes shallow recurrent states to capture instantaneous sensor anomalies and deep states to encode sustained dynamic trends, while an auxiliary reconstruction objective prevents feature collapse. The complete filter, including recursive covariance updates, is trained end-to-end via backpropagation through time to directly minimize state estimation error. Evaluations on topologically distinct chaotic attractors demonstrate cross-domain generalization, outperforming purely data-driven baselines that diverge under out-of-distribution dynamics. Furthermore, evaluations on recorded real-world UAV flight datasets validate the framework's practical viability, demonstrating its capacity to bridge transitions into proprioceptive dead reckoning and outperform classical adaptive estimators during sensor outages.",
     "authors": [
       "Kenan Majewski",
-      "Marcin \u017bugaj"
+      "Marcin Żugaj"
     ],
     "categories": [
       "eess.SP",
@@ -3613,7 +3613,7 @@
   {
     "arxiv_id": "2605.18599v1",
     "title": "Resolving Representation Ambiguity in Feedforward Novel View Synthesis Transformer via Semantic-Spatial Decoupling",
-    "summary": "Transformer-based models have advanced feedforward novel view synthesis (NVS). Current architectures such as GS-LRM and LVSM mix semantic information (e.g., RGB) and spatial information (e.g., Pl\u00fccker rays) into a shared feature space. Since Pl\u00fccker rays naturally carry lattice-like spatial structure, these designs can make the spatial bias interfere with appearance representation and degrade rendering fidelity. To this end, we propose to decouple the representation of feedforward NVS transformers into separate semantic and spatial tokens. The decoupled design keeps semantic and spatial information explicit in their branches while preserving cross-branch interaction through shared attention routing. Built on this design, we introduce optional categorized supervision and bidirectional modulation: the former provides branch-specific training signals, while the latter improves interaction between the two branches. Notably, the base decoupled design introduces virtually zero additional inference latency due to its architectural design. The proposed designs achieve consistent improvements, demonstrating effectiveness across decoder-only and encoder-decoder feedforward NVS models.",
+    "summary": "Transformer-based models have advanced feedforward novel view synthesis (NVS). Current architectures such as GS-LRM and LVSM mix semantic information (e.g., RGB) and spatial information (e.g., Plücker rays) into a shared feature space. Since Plücker rays naturally carry lattice-like spatial structure, these designs can make the spatial bias interfere with appearance representation and degrade rendering fidelity. To this end, we propose to decouple the representation of feedforward NVS transformers into separate semantic and spatial tokens. The decoupled design keeps semantic and spatial information explicit in their branches while preserving cross-branch interaction through shared attention routing. Built on this design, we introduce optional categorized supervision and bidirectional modulation: the former provides branch-specific training signals, while the latter improves interaction between the two branches. Notably, the base decoupled design introduces virtually zero additional inference latency due to its architectural design. The proposed designs achieve consistent improvements, demonstrating effectiveness across decoder-only and encoder-decoder feedforward NVS models.",
     "authors": [
       "Yihang Wu",
       "Yihang Sun",
@@ -3706,7 +3706,7 @@
     "title": "Generative Adversarial Learning from Deterministic Processes",
     "summary": "Physical AI is being successfully applied to data which does not follow the traditional paradigm of independent and identically distributed (i.i.d.) samples. In fact, physical AI is often trained on data which is not random at all, and is instead derived from chaotic dynamical systems like turbulence.   We aim to explain the empirical success of these methods using the example of generative adversarial networks (GANs), whose statistical learning theory under the i.i.d. assumption is generally well understood. We prove that it is possible, using an infinite-dimensional model of generative adversarial learning (GAL), to learn the invariant distribution of a sufficiently chaotic dynamical system from a single deterministically evolving time series of its states or measurements thereof, and give explicit rates for the convergence to the solution in terms of the Jensen-Shannon divergence.",
     "authors": [
-      "Joris C. K\u00fchl",
+      "Joris C. Kühl",
       "Hanno Gottschalk"
     ],
     "categories": [
@@ -3804,8 +3804,8 @@
       "Thijs L van der Plas",
       "Jacob JW Bakermans",
       "Vishal Nedungadi",
-      "Gabriel\u0117 Tij\u016bnaityt\u0117",
-      "Marc Ru\u00dfwurm",
+      "Gabrielė Tijūnaitytė",
+      "Marc Rußwurm",
       "Ioannis N Athanasiadis"
     ],
     "categories": [
@@ -3951,7 +3951,7 @@
     "summary": "Unsupervised fine-grained image hashing aims to learn compact binary codes that preserve subtle visual differences among highly similar instances without manual annotations. However, most existing methods neglect collision resistance, leading to identical hash codes for slightly semantically different samples. In this paper, we propose Collision-Resistant Single-Pass Self-Supervised Semantic Hashing (CS3H), a collision-resistant framework that directly optimizes Hamming-space similarity via a single-pass normalized Hamming distance loss to produce well-separated binary representations. We further introduce a collision-sensitive attention module to emphasize rare and discriminative local patterns, reducing hash collisions and improving fine-grained discrimination. Experiments on multiple benchmarks show that CS3H consistently outperforms state-of-the-art methods in retrieval accuracy while achieving superior collision resistance with minimal computational overhead.",
     "authors": [
       "Anh-Kiet Duong",
-      "Petra Gomez-Kr\u00e4mer",
+      "Petra Gomez-Krämer",
       "Jean-Michel Carozza"
     ],
     "categories": [
@@ -3971,7 +3971,7 @@
     "authors": [
       "Arslan Artykov",
       "Tom Ravaud",
-      "Nicol\u00e1s Violante-Grezzi",
+      "Nicolás Violante-Grezzi",
       "Vincent Lepetit"
     ],
     "categories": [
@@ -3987,7 +3987,7 @@
   {
     "arxiv_id": "2605.18561v1",
     "title": "Improving BM25 Code Retrieval Under Fixed Generic Tokenization: Adaptive q-Log Odds as a Drop-In BM25 Fix",
-    "summary": "In retrieval-augmented coding, failures often begin when the relevant file is absent from the retrieved context. Under frozen generic tokenization, where a BM25 index has been built by a search system whose analyzer the practitioner does not control, this failure is routine: BM25's logarithmic RSJ-odds IDF under-separates the identifier tail that distinguishes one function from another. We replace the outer logarithm of the Robertson-Sp\u00e4rck-Jones odds with a q-logarithm. At q=1 the transform recovers BM25 exactly by L'H\u00f4pital's rule, and for q<1 it is a Box-Cox transform of the RSJ odds with lambda = 1-q. On CoIR CodeSearchNet Go (182K documents), oracle-tuned NDCG@10 rises from 0.2575 to 0.4874 (absolute +0.2299; +89.3% relative; zero sign reversals in 10,000 paired-bootstrap resamples, reported as p <= 10^-4). The effect is graded across code languages and is near-zero on BEIR text. A one-parameter closed form estimates a corpus-level q from hapax density and stays near q=1 on corpora where BM25 is already optimal. The index-time cost is a single pass over the sparse score matrix and query latency is unchanged. A tokenizer ablation shows that identifier-aware tokenization largely removes the incremental gain from q-IDF.",
+    "summary": "In retrieval-augmented coding, failures often begin when the relevant file is absent from the retrieved context. Under frozen generic tokenization, where a BM25 index has been built by a search system whose analyzer the practitioner does not control, this failure is routine: BM25's logarithmic RSJ-odds IDF under-separates the identifier tail that distinguishes one function from another. We replace the outer logarithm of the Robertson-Spärck-Jones odds with a q-logarithm. At q=1 the transform recovers BM25 exactly by L'Hôpital's rule, and for q<1 it is a Box-Cox transform of the RSJ odds with lambda = 1-q. On CoIR CodeSearchNet Go (182K documents), oracle-tuned NDCG@10 rises from 0.2575 to 0.4874 (absolute +0.2299; +89.3% relative; zero sign reversals in 10,000 paired-bootstrap resamples, reported as p <= 10^-4). The effect is graded across code languages and is near-zero on BEIR text. A one-parameter closed form estimates a corpus-level q from hapax density and stays near q=1 on corpora where BM25 is already optimal. The index-time cost is a single pass over the sparse score matrix and query latency is unchanged. A tokenizer ablation shows that identifier-aware tokenization largely removes the incremental gain from q-IDF.",
     "authors": [
       "Santosh Kumar Radha",
       "Oktay Goktas"
@@ -4018,11 +4018,11 @@
       "Chengze Ye",
       "Siyuan Mei",
       "Yipeng Sun",
-      "Tom\u00e1s Arias-Vergara",
+      "Tomás Arias-Vergara",
       "Jana Hutter",
       "Jonghye Woo",
       "Andreas Maier",
-      "Paula Andrea P\u00e9rez-Toro"
+      "Paula Andrea Pérez-Toro"
     ],
     "categories": [
       "cs.CV"
@@ -4081,7 +4081,7 @@
   {
     "arxiv_id": "2605.18727v1",
     "title": "DexHoldem: Playing Texas Hold'em with Dexterous Embodied System",
-    "summary": "Evaluating embodied systems on real dexterous hardware requires more than isolated primitive skills: an agent must perceive a changing tabletop scene, choose a context-appropriate action, execute it with a dexterous hand, and leave the scene usable for later decisions. We introduce DexHoldem, a real-world system-level benchmark built around Texas Hold'em dexterous manipulation with a ShadowHand. DexHoldem provides 1,470 teleoperated demonstrations across 14 Texas Hold'em manipulation primitives, a standardized physical policy benchmark, and an agentic perception benchmark that tests whether agents can recover the structured game state needed for embodied decision making. On primitive execution, $\u03c0_{0.5}$ obtains the highest task completion rate ($61.2\\%$), while $\u03c0_{0.5}$ and $\u03c0_0$ tie on scene-preserving success rate ($47.5\\%$). On agentic perception, Opus 4.7 obtains the best strict problem-level accuracy ($34.3\\%$), while GPT 5.5 obtains the best average field-wise accuracy ($66.8\\%$), exposing a gap between isolated visual sub-capabilities and complete routing-relevant state recovery. Finally, we instantiate the full embodied-agent loop in three case studies, where waiting, recovery dispatches, human-help requests, and repeated primitive execution reveal how perception and policy errors accumulate during closed-loop deployment. DexHoldem therefore evaluates dexterous tabletop execution, agentic perception, and embodied decision routing in a shared physical setting. Project page: https://dexholdem.github.io/Dexholdem/.",
+    "summary": "Evaluating embodied systems on real dexterous hardware requires more than isolated primitive skills: an agent must perceive a changing tabletop scene, choose a context-appropriate action, execute it with a dexterous hand, and leave the scene usable for later decisions. We introduce DexHoldem, a real-world system-level benchmark built around Texas Hold'em dexterous manipulation with a ShadowHand. DexHoldem provides 1,470 teleoperated demonstrations across 14 Texas Hold'em manipulation primitives, a standardized physical policy benchmark, and an agentic perception benchmark that tests whether agents can recover the structured game state needed for embodied decision making. On primitive execution, $π_{0.5}$ obtains the highest task completion rate ($61.2\\%$), while $π_{0.5}$ and $π_0$ tie on scene-preserving success rate ($47.5\\%$). On agentic perception, Opus 4.7 obtains the best strict problem-level accuracy ($34.3\\%$), while GPT 5.5 obtains the best average field-wise accuracy ($66.8\\%$), exposing a gap between isolated visual sub-capabilities and complete routing-relevant state recovery. Finally, we instantiate the full embodied-agent loop in three case studies, where waiting, recovery dispatches, human-help requests, and repeated primitive execution reveal how perception and policy errors accumulate during closed-loop deployment. DexHoldem therefore evaluates dexterous tabletop execution, agentic perception, and embodied decision routing in a shared physical setting. Project page: https://dexholdem.github.io/Dexholdem/.",
     "authors": [
       "Feng Chen",
       "Tianzhe Chu",
@@ -4155,7 +4155,7 @@
   {
     "arxiv_id": "2605.18370v1",
     "title": "On Stability and Decomposition of Sample Quantiles under Heavy-Tailed Distributions",
-    "summary": "We study sample quantiles of distributions indexed by estimated parameters, with a on Value-at-Risk related to linear projections of financial returns that whose underlying probability law is heavy-tailed. In this setting, the projection direction and the empirical quantile threshold are estimated from the data, so the standard Bahadur representation under a fixed distribution does not separate the distinct sources of instability. A canonical starting point is Bahadur's representation, which expresses the sample quantile through the empirical distribution function plus a remainder term \\cite{bahadur1966}. Empirical-process theory provides a usable scaffolding through the mechanics of half-spaces, symmetric differences, and Glivenko--Cantelli uniform convergence. They yield stability bounds, but absorb changes in projection direction and changes in quantile threshold into a single symmetric-difference measure. Interestingly, a global uniform-convergence requirement is imposed on what is intrinsically a local quantile-stability problem.   This paper introduces a Q-Q orthogonality formulation for separating projection-direction and quantile-threshold effects. The object of interest is the difference between the empirical quantile computed using the estimated projection direction and the population quantile computed at the reference projection direction. We decompose this difference into three terms, $\\hat q_\u03b1(\\hat w)-q_\u03b1(w_0)=D_1+D_2+D_3$. Here, $D_1$ measures the population quantile movement induced by perturbing the projection direction, $D_2$ measures the empirical quantile fluctuation with the projection direction held fixed, and $D_3$ is the Bahadur-type remainder.",
+    "summary": "We study sample quantiles of distributions indexed by estimated parameters, with a on Value-at-Risk related to linear projections of financial returns that whose underlying probability law is heavy-tailed. In this setting, the projection direction and the empirical quantile threshold are estimated from the data, so the standard Bahadur representation under a fixed distribution does not separate the distinct sources of instability. A canonical starting point is Bahadur's representation, which expresses the sample quantile through the empirical distribution function plus a remainder term \\cite{bahadur1966}. Empirical-process theory provides a usable scaffolding through the mechanics of half-spaces, symmetric differences, and Glivenko--Cantelli uniform convergence. They yield stability bounds, but absorb changes in projection direction and changes in quantile threshold into a single symmetric-difference measure. Interestingly, a global uniform-convergence requirement is imposed on what is intrinsically a local quantile-stability problem.   This paper introduces a Q-Q orthogonality formulation for separating projection-direction and quantile-threshold effects. The object of interest is the difference between the empirical quantile computed using the estimated projection direction and the population quantile computed at the reference projection direction. We decompose this difference into three terms, $\\hat q_α(\\hat w)-q_α(w_0)=D_1+D_2+D_3$. Here, $D_1$ measures the population quantile movement induced by perturbing the projection direction, $D_2$ measures the empirical quantile fluctuation with the projection direction held fixed, and $D_3$ is the Bahadur-type remainder.",
     "authors": [
       "Choudur Lakshminarayan"
     ],
@@ -4424,15 +4424,15 @@
     "summary": "A large amount of musical heritage has been digitised by memory institutions: libraries, museums, and archives. Nevertheless, the field of Optical Music Recognition (OMR) has struggled with making this music machine-readable, despite advances in deep learning, mostly because no datasets for training systems in realistic conditions were available. The MusiCorpus dataset aims to remedy this situation by providing 1,309 pages of historical sheet music, primarily handwritten, with MusicXML transcriptions and symbol annotations. It is the largest dataset of handwritten music to date and the first dataset containing a realistic and representative sample of musical document collections from memory institutions, suitable for training and evaluating both end-to-end and object detection-based OMR systems and comparing their performance.",
     "authors": [
       "Pau Torras",
-      "Ji\u0159\u00ed Mayer",
+      "Jiří Mayer",
       "Carles Badal",
-      "Martina Dvo\u0159\u00e1kov\u00e1",
-      "Mark\u00e9ta Herzanov\u00e1 Vlkov\u00e1",
+      "Martina Dvořáková",
+      "Markéta Herzanová Vlková",
       "Gerard Asbert",
-      "Vojt\u011bch Dvo\u0159\u00e1k",
-      "Samuel \u0160omorjai",
-      "Jan Haji\u010d",
-      "Alicia Forn\u00e9s"
+      "Vojtěch Dvořák",
+      "Samuel Šomorjai",
+      "Jan Hajič",
+      "Alicia Fornés"
     ],
     "categories": [
       "cs.CV"
@@ -4545,273 +4545,6 @@
     "pdf_url": "https://arxiv.org/pdf/2605.18398v1.pdf",
     "date": "2026-05-19",
     "source": "arxiv",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Mehedikhan89/Meaadff",
-    "author": "unknown",
-    "title": "Mehedikhan89/Meaadff",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "text-generation",
-      "custom-model",
-      "bn",
-      "en",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-05-19T05:23:48.000Z",
-    "last_modified": "2026-05-19T05:28:04.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Mehedikhan89/Meaadff",
-    "date": "2026-05-19",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "dev-196/Phi-4-mini-reasoning-abliterated-Q4_K_M-GGUF",
-    "author": "unknown",
-    "title": "dev-196/Phi-4-mini-reasoning-abliterated-Q4_K_M-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "gguf",
-      "nlp",
-      "math",
-      "code",
-      "chat",
-      "abliterated",
-      "uncensored",
-      "llama-cpp",
-      "gguf-my-repo",
-      "text-generation",
-      "en",
-      "base_model:huihui-ai/Phi-4-mini-reasoning-abliterated",
-      "base_model:quantized:huihui-ai/Phi-4-mini-reasoning-abliterated",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-19T05:26:21.000Z",
-    "last_modified": "2026-05-19T05:26:22.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/dev-196/Phi-4-mini-reasoning-abliterated-Q4_K_M-GGUF",
-    "date": "2026-05-19",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "blockblockblock/VicUnlocked-alpaca-30b-exl3-3.0bpw",
-    "author": "unknown",
-    "title": "blockblockblock/VicUnlocked-alpaca-30b-exl3-3.0bpw",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "pytorch",
-      "safetensors",
-      "llama",
-      "exllamav3",
-      "exl3",
-      "quantized",
-      "text-generation",
-      "conversational",
-      "base_model:Aeala/VicUnlocked-alpaca-30b",
-      "base_model:quantized:Aeala/VicUnlocked-alpaca-30b",
-      "license:other",
-      "3-bit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-05-19T03:33:46.000Z",
-    "last_modified": "2026-05-19T05:25:28.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/blockblockblock/VicUnlocked-alpaca-30b-exl3-3.0bpw",
-    "date": "2026-05-19",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "blockblockblock/VicUnlocked-alpaca-30b-exl3-2.5bpw",
-    "author": "unknown",
-    "title": "blockblockblock/VicUnlocked-alpaca-30b-exl3-2.5bpw",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "pytorch",
-      "safetensors",
-      "llama",
-      "exllamav3",
-      "exl3",
-      "quantized",
-      "text-generation",
-      "conversational",
-      "base_model:Aeala/VicUnlocked-alpaca-30b",
-      "base_model:quantized:Aeala/VicUnlocked-alpaca-30b",
-      "license:other",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-05-19T01:18:15.000Z",
-    "last_modified": "2026-05-19T05:25:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/blockblockblock/VicUnlocked-alpaca-30b-exl3-2.5bpw",
-    "date": "2026-05-19",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Sakshamrzt/tofu-llama3-forget-adapter-05",
-    "author": "unknown",
-    "title": "Sakshamrzt/tofu-llama3-forget-adapter-05",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:meta-llama/Llama-3.2-3B",
-      "lora",
-      "transformers",
-      "text-generation",
-      "arxiv:1910.09700",
-      "base_model:meta-llama/Llama-3.2-3B",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-05-19T02:33:39.000Z",
-    "last_modified": "2026-05-19T05:25:23.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Sakshamrzt/tofu-llama3-forget-adapter-05",
-    "date": "2026-05-19",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "MultilingualUnigramLM/ft-langmap-qwen2_5-1_5b-fineweb100M-ft-langspec-r16k32",
-    "author": "unknown",
-    "title": "MultilingualUnigramLM/ft-langmap-qwen2_5-1_5b-fineweb100M-ft-langspec-r16k32",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-05-19T02:15:00.000Z",
-    "last_modified": "2026-05-19T05:25:21.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/MultilingualUnigramLM/ft-langmap-qwen2_5-1_5b-fineweb100M-ft-langspec-r16k32",
-    "date": "2026-05-19",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "jiogenes/gemma-2-9b-r256-gd-random",
-    "author": "unknown",
-    "title": "jiogenes/gemma-2-9b-r256-gd-random",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma2",
-      "text-generation",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-19T05:20:54.000Z",
-    "last_modified": "2026-05-19T05:25:11.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/jiogenes/gemma-2-9b-r256-gd-random",
-    "date": "2026-05-19",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "zhaohq/PureRL-1.5B-v6g-A-lam01-sigmoid-maskoff",
-    "author": "unknown",
-    "title": "zhaohq/PureRL-1.5B-v6g-A-lam01-sigmoid-maskoff",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "grpo",
-      "conversational",
-      "arxiv:2402.03300",
-      "base_model:Qwen/Qwen2.5-Math-1.5B",
-      "base_model:finetune:Qwen/Qwen2.5-Math-1.5B",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-19T00:40:44.000Z",
-    "last_modified": "2026-05-19T05:20:40.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/zhaohq/PureRL-1.5B-v6g-A-lam01-sigmoid-maskoff",
-    "date": "2026-05-19",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "zhaohq/PureRL-1.5B-v6g-B-lam03-sigmoid-maskoff",
-    "author": "unknown",
-    "title": "zhaohq/PureRL-1.5B-v6g-B-lam03-sigmoid-maskoff",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "grpo",
-      "conversational",
-      "arxiv:2402.03300",
-      "base_model:Qwen/Qwen2.5-Math-1.5B",
-      "base_model:finetune:Qwen/Qwen2.5-Math-1.5B",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-19T00:40:51.000Z",
-    "last_modified": "2026-05-19T05:19:11.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/zhaohq/PureRL-1.5B-v6g-B-lam03-sigmoid-maskoff",
-    "date": "2026-05-19",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.4
   }
 ]
