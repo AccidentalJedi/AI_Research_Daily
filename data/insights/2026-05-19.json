@@ -1,0 +1,69 @@
+{
+  "date": "2026-05-19T00:58:59.591866",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "SallySims/equibert-generator",
+        "url": "https://huggingface.co/SallySims/equibert-generator"
+      },
+      {
+        "title": "SallySims/equibert-nli",
+        "url": "https://huggingface.co/SallySims/equibert-nli"
+      },
+      {
+        "title": "SallySims/equibert-qa",
+        "url": "https://huggingface.co/SallySims/equibert-qa"
+      },
+      {
+        "title": "3huvan/inlegalbert3",
+        "url": "https://huggingface.co/3huvan/inlegalbert3"
+      },
+      {
+        "title": "SallySims/equibert-relation-extraction",
+        "url": "https://huggingface.co/SallySims/equibert-relation-extraction"
+      },
+      {
+        "title": "SallySims/equibert-awareness-scorer",
+        "url": "https://huggingface.co/SallySims/equibert-awareness-scorer"
+      },
+      {
+        "title": "SallySims/equibert-framing-scorer",
+        "url": "https://huggingface.co/SallySims/equibert-framing-scorer"
+      },
+      {
+        "title": "SallySims/equibert-washing-detector",
+        "url": "https://huggingface.co/SallySims/equibert-washing-detector"
+      },
+      {
+        "title": "SallySims/equibert-event-exclusion",
+        "url": "https://huggingface.co/SallySims/equibert-event-exclusion"
+      },
+      {
+        "title": "SallySims/equibert-category-tagger",
+        "url": "https://huggingface.co/SallySims/equibert-category-tagger"
+      },
+      {
+        "title": "SallySims/equibert-microaggression",
+        "url": "https://huggingface.co/SallySims/equibert-microaggression"
+      },
+      {
+        "title": "SallySims/equibert-bias-classifier",
+        "url": "https://huggingface.co/SallySims/equibert-bias-classifier"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "12 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 12
+  }
+}
