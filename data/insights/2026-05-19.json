@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-19T09:19:25.367895",
+  "date": "2026-05-19T13:16:31.985618",
   "patterns": {
     "multimodal_research": [
       {
@@ -701,6 +701,14 @@
       {
         "title": "Code-as-Room: Generating 3D Rooms from Top-Down View Images via Agentic Code Synthesis",
         "url": "https://arxiv.org/abs/2605.18451v1"
+      },
+      {
+        "title": "avgJo3/a2d-gpt-neox-160M",
+        "url": "https://huggingface.co/avgJo3/a2d-gpt-neox-160M"
+      },
+      {
+        "title": "Impulse2000/SmolLM3-5000r-rust-handbook",
+        "url": "https://huggingface.co/Impulse2000/SmolLM3-5000r-rust-handbook"
       }
     ],
     "vision_systems": [
@@ -1237,10 +1245,6 @@
       {
         "title": "Leveraging Latent Visual Reasoning in Silence",
         "url": "https://arxiv.org/abs/2605.18641v1"
-      },
-      {
-        "title": "edededi/hikelogic-qwen2.5-7b-v2",
-        "url": "https://huggingface.co/edededi/hikelogic-qwen2.5-7b-v2"
       }
     ],
     "benchmarks": [
@@ -1689,7 +1693,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1701,7 +1705,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "67 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1752,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 413
   }
 }
