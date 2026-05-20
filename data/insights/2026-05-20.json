@@ -1,11 +1,22 @@
 {
-  "date": "2026-05-20T01:00:45.515686",
-  "patterns": {},
+  "date": "2026-05-20T05:29:27.860627",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "PGCodeLLM/AgenticRL-blackbox-260401_231502_cd7fb81c",
+        "url": "https://huggingface.co/PGCodeLLM/AgenticRL-blackbox-260401_231502_cd7fb81c"
+      },
+      {
+        "title": "Ashish-G25AIT2051/distilbert-goodreads-genres",
+        "url": "https://huggingface.co/Ashish-G25AIT2051/distilbert-goodreads-genres"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
